@@ -1,0 +1,35 @@
+{
+  "cell": "ABN|Clinger",
+  "copingSub": "CL-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Clinger",
+  "tag": "ABN-1_CL-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She and her cellmate shared a cell, and that cellmate was the one bond she kept close; she had watched her long enough to know her evenings — reading in the library, then back along the gallery above the courtyard.",
+          "The cellmate's things were bundled by the cell door, to move to a cell of her own that had come open — the sign she had watched for all her life, that the one she kept was already leaving.",
+          "One evening she waited down in the courtyard while the cellmate read above.",
+          "When the cellmate came to the iron railing over the courtyard, she drew her straight toward where she stood below; the cellmate went over it, and the fall to the stone finished it.",
+          "The cellmate lay on the courtyard stone, well out from the foot of the wall, toward the fountain.",
+          "A body that topples the railing on its own normally drops at the wall's foot; this one had been carried outward as it fell.",
+          "Such a path means a pull from out in the courtyard. That evening, she was standing at the fountain."
+        ],
+        "epitaph": "She held her close enough to watch, and lost her all the same.",
+        "epithet": "She Who Would Not Be Left",
+        "execution": [
+          "The execution stand rose bearing a tall post, a wheel fixed at its top.",
+          "A collar closed on her throat; from it the cord ran up over the wheel and down again, its end tied to a small cart on a straight track at her feet.",
+          "While the cart stayed beside her, the cord hung slack; then the cart was driven out along the track, away from her.",
+          "She held the cart back until her arms gave, then reached after it; the farther it ran, the higher the cord drew her.",
+          "The cart ran to the end of the track and stopped, and she hung at the post."
+        ],
+        "magic": "The Draw — She can draw a person she has bound to herself straight to her side from any distance, and that person cannot resist the pull."
+      },
+      "variant": 1
+    }
+  ]
+}

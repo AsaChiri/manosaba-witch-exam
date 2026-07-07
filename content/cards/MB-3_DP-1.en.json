@@ -1,0 +1,35 @@
+{
+  "cell": "MB|Depender",
+  "copingSub": "DP-1",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-3",
+  "style": "Depender",
+  "tag": "MB-3_DP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Outside, the guardian paid to watch over her had sold what he knew of her to whoever asked. She arrived at the prison certain that anyone can be bought — and just as certain that she had never once managed a day alone.",
+          "So she picked the steadiest of the prisoners and made her a keeper, paid in shares of everything she owned: the tasting of her food, the pouring of her nightly draught, the carrying of her washing.",
+          "The pay came bound to an oath, sworn aloud on the first day: taste everything first; wait before you hand it over; tell no one what you see. Once, early on, the keeper reached to pass the cup untasted — her arm stopped in the air until she drank.",
+          "Then one evening she heard the keeper retelling her night terrors to the lounge, word for word. The listeners had simply paid better. That was the evening she learned the magic has no hold on talk.",
+          "A month of hoarded sleeping pills went into her own draught. The keeper poured it at the cell door as always and took her sworn sip as always — she may have feared her mistress by then, but her body had sworn to drink first — then went off with the day's washing.",
+          "The keeper's body was found at the foot of the stone stairs, the washing still folded against her chest, her palms unmarked. A girl who trips throws out her hands; this one was asleep before she struck the first step.",
+          "The prison read it as poison meant for the mistress, caught by the tasting. But the oath meant that nothing in the cup could ever reach the mistress at all.",
+          "And what the taster's mouth must touch, one girl alone decided."
+        ],
+        "epitaph": "She checked every lock but the keeper of the keys.",
+        "epithet": "Porcelain in a Thief's Keeping",
+        "execution": [
+          "A ladder of mechanical hands was built from the execution stand up the courtroom wall, to the full height of the court's two floors — the topmost pair directly above the stand.",
+          "The first pair lifted her the way she had always been lifted and passed her on; each pair let go as it passed, and the next caught.",
+          "Pair after pair, she was carried up over everyone's heads.",
+          "At the top, the last hands did not catch."
+        ],
+        "magic": "A promise spoken to her binds the speaker's body: any motion that would break it stops mid-motion."
+      },
+      "variant": 1
+    }
+  ]
+}

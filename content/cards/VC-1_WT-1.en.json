@@ -1,0 +1,35 @@
+{
+  "cell": "VC|Watcher",
+  "copingSub": "WT-1",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Watcher",
+  "tag": "VC-1_WT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The prisoners leaned on her to keep watch: she could feel every living body in the prison at once, and she warned them the moment a guard drew near or someone they feared began to move.",
+          "One of the others had spent weeks telling everyone the danger was over — that the killings had stopped, and they could stop leaning on her watch.",
+          "On a still, bright afternoon a hillside had once come down and buried her house with her family inside it, and she had learned that the danger stands nearest when everyone has agreed it is gone.",
+          "Early in the evening she felt the corridor clear of owls and prisoners, crossed in that gap to the shower room, and strangled the other prisoner there. No sound of it reached the lounge, and she went back there.",
+          "Her power feels only the living, so the moment the other prisoner died, that presence went out of her sense. Near eight, still in plain sight among the others, she told them she could feel her — alive, moving in the corridor. No one else could confirm whether the victim still lived, so they believed her.",
+          "The others found the other prisoner in the shower room later that night, cold and stiffening.",
+          "A body alive at eight would still be warm; this one had been dead since early evening. Her report was therefore a lie, and the only prisoner who could vouch for a presence no one else could sense was the lookout."
+        ],
+        "epitaph": "Nothing that lived could cross her watch — and nothing that lived was ever what she should have feared.",
+        "epithet": "Sentinel of the Cloudless Day",
+        "execution": [
+          "The execution stand rose in the trial court, empty but for a broad stone slab poised in the air above where she stood.",
+          "She cast her sense through the prison: every living body sat where she could feel it, the whole hall of prisoners still, none of them near the stand.",
+          "Her power had never reached anything that did not live, and the slab did not live.",
+          "It came down, and her sense gave her no warning at all.",
+          "The slab came to rest on the stand."
+        ],
+        "magic": "The Living Watch — She feels the presence and place of every living thing within the walls, all of them at once."
+      },
+      "variant": 1
+    }
+  ]
+}

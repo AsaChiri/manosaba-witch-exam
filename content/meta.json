@@ -1,0 +1,23 @@
+{
+  "bankVersion": "v3",
+  "contentVersion": "0x74b9456a",
+  "counts": {
+    "authoredCells": 4,
+    "cardLocaleFiles": 28,
+    "families": 8,
+    "redirects": 15,
+    "shippedCards": 7,
+    "shippedTags": 7,
+    "slots": 89,
+    "styles": 25
+  },
+  "generatedAt": "2026-07-07T23:36:57.933Z",
+  "locales": [
+    "en",
+    "ja",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "manifestVersion": "v1",
+  "quizVersion": "v3-89"
+}

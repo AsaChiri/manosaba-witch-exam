@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Performer",
+  "copingSub": "PE-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Performer",
+  "tag": "ED-1_PE-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at seven she danced in the lounge, and the prisoners all came to watch — all but one, who stayed in the dining hall with her book, every night, and never once came to see.",
+          "As a child she had danced just this way for a mother who never turned from the window.",
+          "The dancer in the lounge that evening was her double, replaying the dance of three nights before. She herself took the back corridor to the dining hall, strangled the girl over her book, and was back before the finale to take the bow in person.",
+          "Both evenings had been streamed on prisoners' phones. Side by side, the clips match frame for frame.",
+          "But halfway through that night's show, a serving tray clattered to the floor, and the dancer did not turn — a double can only repeat; it cannot answer anything new.",
+          "Only one girl in this prison can stand in two places in one evening."
+        ],
+        "epitaph": "She could fill every seat in the house but one.",
+        "epithet": "The Encore Nobody Asked For",
+        "execution": [
+          "The execution stand rose as a stage, ringed with chairs — every chair facing away.",
+          "Wires came down, took her wrists, her ankles, her chin, and walked her through the seven-o'clock dance, full length.",
+          "Row by row, the lights went out as she danced.",
+          "The wires kept the dance going in the dark until the body stopped."
+        ],
+        "magic": "Raises a double of herself that replays a stretch of her own past actions, exactly as they happened."
+      },
+      "variant": 1
+    }
+  ]
+}

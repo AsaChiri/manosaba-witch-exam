@@ -1,0 +1,827 @@
+{
+  "block_cores": {
+    "ASSERT": [
+      "K.AS1",
+      "K.AS2",
+      "K.AS3"
+    ],
+    "ATTACH": [
+      "K.A1",
+      "K.A2",
+      "K.A3"
+    ],
+    "CONTROL": [
+      "K.C1",
+      "K.C2",
+      "K.C3"
+    ],
+    "ELEVATE": [
+      "K.E1",
+      "K.E2",
+      "K.E3"
+    ],
+    "NUMB": [
+      "K.N1",
+      "K.N2",
+      "K.N3"
+    ],
+    "SURRENDER": [
+      "K.S1",
+      "K.S2",
+      "K.S3"
+    ],
+    "WITHDRAW": [
+      "K.W1",
+      "K.W2",
+      "K.W3"
+    ]
+  },
+  "block_prior_order": {
+    "ASSERT": [
+      "Wall-of-Anger",
+      "Avenger",
+      "Trickster",
+      "Striker"
+    ],
+    "ATTACH": [
+      "Clinger",
+      "Depender",
+      "Pleaser",
+      "Caretaker"
+    ],
+    "CONTROL": [
+      "Catastrophizer",
+      "Watcher",
+      "Perfectionist",
+      "Ritualist"
+    ],
+    "ELEVATE": [
+      "Fantasist",
+      "Performer",
+      "Sovereign"
+    ],
+    "NUMB": [
+      "Self-Soother",
+      "Detacher",
+      "Thrill-Seeker"
+    ],
+    "SURRENDER": [
+      "Doomer",
+      "Ruminator",
+      "Self-Punisher",
+      "Resigned"
+    ],
+    "WITHDRAW": [
+      "Avoider",
+      "Concealer",
+      "Self-Reliant"
+    ]
+  },
+  "block_tiebreak": {
+    "ASSERT": "K.AST",
+    "ATTACH": "K.AT",
+    "CONTROL": "K.CT",
+    "ELEVATE": "K.ET",
+    "NUMB": "K.NT",
+    "SURRENDER": "K.ST",
+    "WITHDRAW": "K.WT"
+  },
+  "cores": {
+    "K.A1": {
+      "a": "Pleaser",
+      "b": "Caretaker",
+      "c": "Clinger",
+      "d": "Depender"
+    },
+    "K.A2": {
+      "a": "Pleaser",
+      "b": "Caretaker",
+      "c": "Clinger",
+      "d": "Depender",
+      "e": "Performer"
+    },
+    "K.A3": {
+      "a": "Pleaser",
+      "b": "Caretaker",
+      "c": "Clinger",
+      "d": "Depender"
+    },
+    "K.AS1": {
+      "a": "Striker",
+      "b": "Wall-of-Anger",
+      "c": "Trickster",
+      "d": "Avenger"
+    },
+    "K.AS2": {
+      "a": "Striker",
+      "b": "Wall-of-Anger",
+      "c": "Trickster",
+      "d": "Avenger",
+      "e": "Self-Punisher"
+    },
+    "K.AS3": {
+      "a": "Striker",
+      "b": "Wall-of-Anger",
+      "c": "Trickster",
+      "d": "Avenger"
+    },
+    "K.C1": {
+      "a": "Perfectionist",
+      "b": "Ritualist",
+      "c": "Watcher",
+      "d": "Catastrophizer",
+      "e": "Self-Reliant"
+    },
+    "K.C2": {
+      "a": "Perfectionist",
+      "b": "Ritualist",
+      "c": "Watcher",
+      "d": "Catastrophizer",
+      "e": "Trickster"
+    },
+    "K.C3": {
+      "a": "Perfectionist",
+      "b": "Ritualist",
+      "c": "Watcher",
+      "d": "Catastrophizer"
+    },
+    "K.E1": {
+      "a": "Performer",
+      "b": "Sovereign",
+      "c": "Fantasist"
+    },
+    "K.E2": {
+      "a": "Performer",
+      "b": "Sovereign",
+      "c": "Fantasist"
+    },
+    "K.E3": {
+      "a": "Performer",
+      "b": "Sovereign",
+      "c": "Fantasist"
+    },
+    "K.N1": {
+      "a": "Detacher",
+      "b": "Self-Soother",
+      "c": "Thrill-Seeker",
+      "d": "Avoider"
+    },
+    "K.N2": {
+      "a": "Detacher",
+      "b": "Self-Soother",
+      "c": "Thrill-Seeker",
+      "d": "Fantasist"
+    },
+    "K.N3": {
+      "a": "Detacher",
+      "b": "Self-Soother",
+      "c": "Thrill-Seeker"
+    },
+    "K.S1": {
+      "a": "Resigned",
+      "b": "Self-Punisher",
+      "c": "Ruminator",
+      "d": "Doomer"
+    },
+    "K.S2": {
+      "a": "Resigned",
+      "b": "Self-Punisher",
+      "c": "Ruminator",
+      "d": "Doomer"
+    },
+    "K.S3": {
+      "a": "Resigned",
+      "b": "Self-Punisher",
+      "c": "Ruminator",
+      "d": "Doomer"
+    },
+    "K.W1": {
+      "a": "Avoider",
+      "b": "Concealer",
+      "c": "Self-Reliant"
+    },
+    "K.W2": {
+      "a": "Avoider",
+      "b": "Concealer",
+      "c": "Self-Reliant"
+    },
+    "K.W3": {
+      "a": "Avoider",
+      "b": "Concealer",
+      "c": "Self-Reliant"
+    }
+  },
+  "cross_keys": {
+    "ASSERT": [
+      {
+        "partner": "Wall-of-Anger",
+        "probe": "K.P11",
+        "style": "Self-Punisher"
+      }
+    ],
+    "ATTACH": [
+      {
+        "partner": "Caretaker",
+        "probe": "K.P10",
+        "style": "Performer"
+      }
+    ],
+    "CONTROL": [
+      {
+        "partner": "Perfectionist",
+        "probe": "K.P21",
+        "style": "Self-Reliant"
+      },
+      {
+        "partner": "Watcher",
+        "probe": "K.P17",
+        "style": "Trickster"
+      }
+    ],
+    "NUMB": [
+      {
+        "partner": "Detacher",
+        "probe": "K.P7",
+        "style": "Avoider"
+      },
+      {
+        "partner": "Detacher",
+        "probe": "K.P18",
+        "style": "Fantasist"
+      }
+    ]
+  },
+  "function_guards": {
+    "Catastrophizer": "K.P21",
+    "Concealer": "K.P19",
+    "Perfectionist": "K.P21",
+    "Watcher": "K.P17"
+  },
+  "listed_pairs": [
+    {
+      "pair": [
+        "Self-Soother",
+        "Thrill-Seeker"
+      ],
+      "probe": "K.P1"
+    },
+    {
+      "pair": [
+        "Pleaser",
+        "Caretaker"
+      ],
+      "probe": "K.P2"
+    },
+    {
+      "pair": [
+        "Clinger",
+        "Depender"
+      ],
+      "probe": "K.P3"
+    },
+    {
+      "pair": [
+        "Wall-of-Anger",
+        "Striker"
+      ],
+      "probe": "K.P4"
+    },
+    {
+      "pair": [
+        "Sovereign",
+        "Performer"
+      ],
+      "probe": "K.P5"
+    },
+    {
+      "pair": [
+        "Watcher",
+        "Catastrophizer"
+      ],
+      "probe": "K.P6"
+    },
+    {
+      "pair": [
+        "Avoider",
+        "Detacher"
+      ],
+      "probe": "K.P7"
+    },
+    {
+      "pair": [
+        "Concealer",
+        "Performer"
+      ],
+      "probe": "K.P8"
+    },
+    {
+      "pair": [
+        "Ruminator",
+        "Catastrophizer"
+      ],
+      "probe": "K.P9"
+    },
+    {
+      "pair": [
+        "Caretaker",
+        "Performer"
+      ],
+      "probe": "K.P10"
+    },
+    {
+      "pair": [
+        "Wall-of-Anger",
+        "Self-Punisher"
+      ],
+      "probe": "K.P11"
+    },
+    {
+      "pair": [
+        "Pleaser",
+        "Concealer"
+      ],
+      "probe": "K.P12"
+    },
+    {
+      "pair": [
+        "Resigned",
+        "Depender"
+      ],
+      "probe": "K.P13"
+    },
+    {
+      "pair": [
+        "Doomer",
+        "Catastrophizer"
+      ],
+      "probe": "K.P14"
+    },
+    {
+      "pair": [
+        "Avoider",
+        "Concealer"
+      ],
+      "probe": "K.P15"
+    },
+    {
+      "pair": [
+        "Ruminator",
+        "Doomer"
+      ],
+      "probe": "K.P16"
+    },
+    {
+      "pair": [
+        "Detacher",
+        "Fantasist"
+      ],
+      "probe": "K.P18"
+    },
+    {
+      "pair": [
+        "Concealer",
+        "Trickster"
+      ],
+      "probe": "K.P19"
+    },
+    {
+      "pair": [
+        "Perfectionist",
+        "Catastrophizer"
+      ],
+      "probe": "K.P20"
+    },
+    {
+      "pair": [
+        "Self-Reliant",
+        "Perfectionist"
+      ],
+      "probe": "K.P21"
+    },
+    {
+      "pair": [
+        "Self-Reliant",
+        "Catastrophizer"
+      ],
+      "probe": "K.P21"
+    },
+    {
+      "pair": [
+        "Watcher",
+        "Trickster"
+      ],
+      "probe": "K.P17"
+    },
+    {
+      "pair": [
+        "Watcher",
+        "Clinger"
+      ],
+      "probe": "K.P17"
+    },
+    {
+      "pair": [
+        "Watcher",
+        "Caretaker"
+      ],
+      "probe": "K.P17"
+    },
+    {
+      "pair": [
+        "Watcher",
+        "Pleaser"
+      ],
+      "probe": "K.P17"
+    }
+  ],
+  "mask_guards": {
+    "Caretaker": "K.P10",
+    "Pleaser": "K.P12",
+    "Wall-of-Anger": "K.P11"
+  },
+  "probes": {
+    "K.P1": {
+      "a": "Self-Soother",
+      "b": "Thrill-Seeker",
+      "category": "listed"
+    },
+    "K.P10": {
+      "a": "Caretaker",
+      "b": "Performer",
+      "category": "mask"
+    },
+    "K.P11": {
+      "a": "Wall-of-Anger",
+      "b": "Self-Punisher",
+      "category": "mask"
+    },
+    "K.P12": {
+      "a": "Pleaser",
+      "b": "Concealer",
+      "category": "mask"
+    },
+    "K.P13": {
+      "a": "Resigned",
+      "b": "Depender",
+      "category": "supplementary"
+    },
+    "K.P14": {
+      "a": "Doomer",
+      "b": "Catastrophizer",
+      "category": "supplementary"
+    },
+    "K.P15": {
+      "a": "Avoider",
+      "b": "Concealer",
+      "category": "supplementary"
+    },
+    "K.P16": {
+      "a": "Ruminator",
+      "b": "Doomer",
+      "category": "supplementary"
+    },
+    "K.P17": {
+      "a": "Watcher",
+      "b": "Caretaker",
+      "c": "Clinger",
+      "category": "function-guard",
+      "d": "Trickster",
+      "e": "Pleaser",
+      "new_slot": true
+    },
+    "K.P18": {
+      "a": "Detacher",
+      "b": "Fantasist",
+      "category": "listed",
+      "new_slot": true
+    },
+    "K.P19": {
+      "a": "Concealer",
+      "b": "Trickster",
+      "c": "Pleaser",
+      "category": "function-guard",
+      "new_slot": true
+    },
+    "K.P2": {
+      "a": "Pleaser",
+      "b": "Caretaker",
+      "category": "listed"
+    },
+    "K.P20": {
+      "a": "Perfectionist",
+      "b": "Catastrophizer",
+      "category": "listed",
+      "new_slot": true
+    },
+    "K.P21": {
+      "a": "Self-Reliant",
+      "b": "Perfectionist",
+      "c": "Catastrophizer",
+      "category": "function-guard",
+      "d": "Caretaker",
+      "new_slot": true
+    },
+    "K.P3": {
+      "a": "Clinger",
+      "b": "Depender",
+      "category": "listed"
+    },
+    "K.P4": {
+      "a": "Striker",
+      "b": "Wall-of-Anger",
+      "category": "listed"
+    },
+    "K.P5": {
+      "a": "Performer",
+      "b": "Sovereign",
+      "category": "listed"
+    },
+    "K.P6": {
+      "a": "Watcher",
+      "b": "Catastrophizer",
+      "category": "listed"
+    },
+    "K.P7": {
+      "a": "Avoider",
+      "b": "Detacher",
+      "category": "listed"
+    },
+    "K.P8": {
+      "a": "Concealer",
+      "b": "Performer",
+      "category": "listed"
+    },
+    "K.P9": {
+      "a": "Ruminator",
+      "b": "Catastrophizer",
+      "category": "listed"
+    }
+  },
+  "routers": {
+    "K.R1": {
+      "a": "NUMB",
+      "b": "WITHDRAW",
+      "c": "SURRENDER",
+      "d": "ATTACH",
+      "e": "ASSERT",
+      "f": "ELEVATE",
+      "g": "CONTROL"
+    },
+    "K.R2": {
+      "a": "NUMB",
+      "b": "WITHDRAW",
+      "c": "SURRENDER",
+      "d": "ATTACH",
+      "e": "ASSERT",
+      "f": "ELEVATE",
+      "g": "CONTROL"
+    },
+    "K.R3": {
+      "a": "NUMB",
+      "b": "WITHDRAW",
+      "c": "SURRENDER",
+      "d": "ATTACH",
+      "e": "ASSERT",
+      "f": "ELEVATE",
+      "g": "CONTROL"
+    },
+    "K.R4": {
+      "a": "NUMB",
+      "b": "WITHDRAW",
+      "c": "SURRENDER",
+      "d": "ATTACH",
+      "e": "ASSERT",
+      "f": "ELEVATE",
+      "g": "CONTROL"
+    }
+  },
+  "shadow_guards": [
+    {
+      "probe": "K.P18",
+      "shadow": "ELEVATE",
+      "style": "Detacher"
+    },
+    {
+      "probe": "K.P18",
+      "shadow": "NUMB",
+      "style": "Fantasist"
+    },
+    {
+      "probe": "K.P7",
+      "shadow": "WITHDRAW",
+      "style": "Detacher"
+    },
+    {
+      "probe": "K.P7",
+      "shadow": "NUMB",
+      "style": "Avoider"
+    },
+    {
+      "probe": "K.P8",
+      "shadow": "ELEVATE",
+      "style": "Concealer"
+    },
+    {
+      "probe": "K.P8",
+      "shadow": "WITHDRAW",
+      "style": "Performer"
+    },
+    {
+      "probe": "K.P12",
+      "shadow": "ATTACH",
+      "style": "Concealer"
+    },
+    {
+      "probe": "K.P12",
+      "shadow": "WITHDRAW",
+      "style": "Pleaser"
+    },
+    {
+      "probe": "K.P9",
+      "shadow": "CONTROL",
+      "style": "Ruminator"
+    },
+    {
+      "probe": "K.P9",
+      "shadow": "SURRENDER",
+      "style": "Catastrophizer"
+    },
+    {
+      "probe": "K.P14",
+      "shadow": "CONTROL",
+      "style": "Doomer"
+    },
+    {
+      "probe": "K.P13",
+      "shadow": "ATTACH",
+      "style": "Resigned"
+    },
+    {
+      "probe": "K.P13",
+      "shadow": "SURRENDER",
+      "style": "Depender"
+    },
+    {
+      "probe": "K.P11",
+      "shadow": "ASSERT",
+      "style": "Self-Punisher"
+    },
+    {
+      "probe": "K.P11",
+      "shadow": "SURRENDER",
+      "style": "Wall-of-Anger"
+    },
+    {
+      "probe": "K.P10",
+      "shadow": "ELEVATE",
+      "style": "Caretaker"
+    },
+    {
+      "probe": "K.P10",
+      "shadow": "ATTACH",
+      "style": "Performer"
+    }
+  ],
+  "stance_leak_rows": [
+    [
+      "NUMB",
+      "WITHDRAW"
+    ],
+    [
+      "WITHDRAW",
+      "ELEVATE"
+    ],
+    [
+      "WITHDRAW",
+      "ATTACH"
+    ],
+    [
+      "SURRENDER",
+      "CONTROL"
+    ],
+    [
+      "SURRENDER",
+      "ATTACH"
+    ],
+    [
+      "SURRENDER",
+      "ASSERT"
+    ],
+    [
+      "ATTACH",
+      "ELEVATE"
+    ],
+    [
+      "NUMB",
+      "ELEVATE"
+    ],
+    [
+      "CONTROL",
+      "ATTACH"
+    ],
+    [
+      "CONTROL",
+      "ASSERT"
+    ],
+    [
+      "CONTROL",
+      "WITHDRAW"
+    ],
+    [
+      "WITHDRAW",
+      "ASSERT"
+    ]
+  ],
+  "stance_prior_order": [
+    "WITHDRAW",
+    "SURRENDER",
+    "CONTROL",
+    "ELEVATE",
+    "ATTACH",
+    "NUMB",
+    "ASSERT"
+  ],
+  "stances": [
+    "NUMB",
+    "WITHDRAW",
+    "SURRENDER",
+    "ATTACH",
+    "ASSERT",
+    "ELEVATE",
+    "CONTROL"
+  ],
+  "style_stance": {
+    "Avenger": "ASSERT",
+    "Avoider": "WITHDRAW",
+    "Caretaker": "ATTACH",
+    "Catastrophizer": "CONTROL",
+    "Clinger": "ATTACH",
+    "Concealer": "WITHDRAW",
+    "Depender": "ATTACH",
+    "Detacher": "NUMB",
+    "Doomer": "SURRENDER",
+    "Fantasist": "ELEVATE",
+    "Perfectionist": "CONTROL",
+    "Performer": "ELEVATE",
+    "Pleaser": "ATTACH",
+    "Resigned": "SURRENDER",
+    "Ritualist": "CONTROL",
+    "Ruminator": "SURRENDER",
+    "Self-Punisher": "SURRENDER",
+    "Self-Reliant": "WITHDRAW",
+    "Self-Soother": "NUMB",
+    "Sovereign": "ELEVATE",
+    "Striker": "ASSERT",
+    "Thrill-Seeker": "NUMB",
+    "Trickster": "ASSERT",
+    "Wall-of-Anger": "ASSERT",
+    "Watcher": "CONTROL"
+  },
+  "tiebreaks": {
+    "K.AST": {
+      "a": "Striker",
+      "b": "Wall-of-Anger",
+      "c": "Trickster",
+      "d": "Avenger",
+      "e": "Self-Punisher"
+    },
+    "K.AT": {
+      "a": "Pleaser",
+      "b": "Caretaker",
+      "c": "Clinger",
+      "d": "Depender",
+      "e": "Performer"
+    },
+    "K.CT": {
+      "a": "Perfectionist",
+      "b": "Ritualist",
+      "c": "Watcher",
+      "d": "Catastrophizer",
+      "e": "Self-Reliant",
+      "f": "Trickster"
+    },
+    "K.ET": {
+      "a": "Performer",
+      "b": "Sovereign",
+      "c": "Fantasist"
+    },
+    "K.NT": {
+      "a": "Detacher",
+      "b": "Self-Soother",
+      "c": "Thrill-Seeker",
+      "d": "Avoider",
+      "e": "Fantasist"
+    },
+    "K.ST": {
+      "a": "Resigned",
+      "b": "Self-Punisher",
+      "c": "Ruminator",
+      "d": "Doomer"
+    },
+    "K.WT": {
+      "a": "Avoider",
+      "b": "Concealer",
+      "c": "Self-Reliant"
+    }
+  }
+}

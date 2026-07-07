@@ -1,0 +1,157 @@
+{
+  "cells": {
+    "ABN|Clinger": {
+      "authoredTags": [
+        "ABN-1_CL-1"
+      ],
+      "coveredCoping": [
+        "CL-1"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Clinger"
+    },
+    "ED|Performer": {
+      "authoredTags": [
+        "ED-1_PE-1",
+        "ED-2_PE-2",
+        "ED-5_PE-3",
+        "ED-9_PE-1"
+      ],
+      "coveredCoping": [
+        "PE-1",
+        "PE-2",
+        "PE-3"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-2",
+        "ED-5",
+        "ED-9"
+      ],
+      "family": "ED",
+      "style": "Performer"
+    },
+    "MB|Depender": {
+      "authoredTags": [
+        "MB-3_DP-1"
+      ],
+      "coveredCoping": [
+        "DP-1"
+      ],
+      "coveredOrigin": [
+        "MB-3"
+      ],
+      "family": "MB",
+      "style": "Depender"
+    },
+    "VC|Watcher": {
+      "authoredTags": [
+        "VC-1_WT-1"
+      ],
+      "coveredCoping": [
+        "WT-1"
+      ],
+      "coveredOrigin": [
+        "VC-1"
+      ],
+      "family": "VC",
+      "style": "Watcher"
+    }
+  },
+  "tags": {
+    "ABN-1_CL-1": {
+      "cell": "ABN|Clinger",
+      "copingSub": "CL-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_CL-1",
+      "variants": 1
+    },
+    "ED-1_PE-1": {
+      "cell": "ED|Performer",
+      "copingSub": "PE-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_PE-1",
+      "variants": 1
+    },
+    "ED-2_PE-2": {
+      "cell": "ED|Performer",
+      "copingSub": "PE-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-2",
+      "tag": "ED-2_PE-2",
+      "variants": 1
+    },
+    "ED-5_PE-3": {
+      "cell": "ED|Performer",
+      "copingSub": "PE-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-5",
+      "tag": "ED-5_PE-3",
+      "variants": 1
+    },
+    "ED-9_PE-1": {
+      "cell": "ED|Performer",
+      "copingSub": "PE-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-9",
+      "tag": "ED-9_PE-1",
+      "variants": 1
+    },
+    "MB-3_DP-1": {
+      "cell": "MB|Depender",
+      "copingSub": "DP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-3",
+      "tag": "MB-3_DP-1",
+      "variants": 1
+    },
+    "VC-1_WT-1": {
+      "cell": "VC|Watcher",
+      "copingSub": "WT-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "VC-1",
+      "tag": "VC-1_WT-1",
+      "variants": 1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Performer",
+  "copingSub": "PE-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-2",
+  "style": "Performer",
+  "tag": "ED-2_PE-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She dropped the act exactly once, and said across the table that she was not all right. The girl there slid her a chocolate bar and went back to her magazine.",
+          "Her parents had done the same all her life: every need she voiced came back as something bought. No one listened.",
+          "She chose the shower hour, stoppered and filled the wash-basin, and held the girl's head under — laughing softly the whole time. A laughing throat cannot scream; the girl thus drowned.",
+          "Meanwhile her phone played in the lounge, running a set billed as live — forty minutes of her routines, recorded the week before.",
+          "That evening, the girls waiting their turn in the shower room's changing area laughed at nothing until it hurt. In the lounge, one girl in a foul mood sat through the whole set without laughing once.",
+          "A recorded laugh is only a sound; it compels no one. The set with the unlaughing listener was the recording."
+        ],
+        "epitaph": "Everything they ever handed her was wrapped.",
+        "epithet": "The Clown Paid to Go Away",
+        "execution": [
+          "She was seated on a single chair at the center of the execution stand, the prisoners ringed around it.",
+          "A machine was wheeled in that dispenses parcels, wrapped and ribboned, one every few seconds — at her feet, on her lap, on her shoulders, faster than she could push them away.",
+          "Every parcel was empty.",
+          "The machine stopped when the pile stopped moving."
+        ],
+        "magic": "When she laughs, everyone who hears her laughs with her until she stops."
+      },
+      "variant": 1
+    }
+  ]
+}

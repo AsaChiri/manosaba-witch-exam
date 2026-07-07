@@ -1,0 +1,2553 @@
+{
+  "K.A1": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Pleaser": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Caretaker": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Clinger": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Depender": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.A1",
+    "stemKey": "K.A1"
+  },
+  "K.A2": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Pleaser": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Caretaker": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Clinger": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Depender": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Performer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.A2",
+    "stemKey": "K.A2"
+  },
+  "K.A3": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Pleaser": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Caretaker": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Clinger": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Depender": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.A3",
+    "stemKey": "K.A3"
+  },
+  "K.AS1": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Striker": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Wall-of-Anger": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Trickster": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Avenger": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.AS1",
+    "stemKey": "K.AS1"
+  },
+  "K.AS2": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Striker": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Wall-of-Anger": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Trickster": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Avenger": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Self-Punisher": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.AS2",
+    "stemKey": "K.AS2"
+  },
+  "K.AS3": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Striker": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Wall-of-Anger": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Trickster": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Avenger": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.AS3",
+    "stemKey": "K.AS3"
+  },
+  "K.AST": {
+    "displayFilter": true,
+    "kind": "tiebreak",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Striker": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Wall-of-Anger": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Trickster": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Avenger": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Self-Punisher": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.AST",
+    "stemKey": "K.AST"
+  },
+  "K.AT": {
+    "displayFilter": true,
+    "kind": "tiebreak",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Pleaser": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Caretaker": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Clinger": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Depender": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Performer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.AT",
+    "stemKey": "K.AT"
+  },
+  "K.C1": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Perfectionist": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Ritualist": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Watcher": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Self-Reliant": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.C1",
+    "stemKey": "K.C1"
+  },
+  "K.C2": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Perfectionist": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Ritualist": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Watcher": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Trickster": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.C2",
+    "stemKey": "K.C2"
+  },
+  "K.C3": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Perfectionist": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Ritualist": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Watcher": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.C3",
+    "stemKey": "K.C3"
+  },
+  "K.CT": {
+    "displayFilter": true,
+    "kind": "tiebreak",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Perfectionist": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Ritualist": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Watcher": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Self-Reliant": 1
+        }
+      },
+      {
+        "oid": "f",
+        "votes": {
+          "Trickster": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.CT",
+    "stemKey": "K.CT"
+  },
+  "K.E1": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Performer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Sovereign": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Fantasist": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.E1",
+    "stemKey": "K.E1"
+  },
+  "K.E2": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Performer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Sovereign": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Fantasist": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.E2",
+    "stemKey": "K.E2"
+  },
+  "K.E3": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Performer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Sovereign": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Fantasist": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.E3",
+    "stemKey": "K.E3"
+  },
+  "K.ET": {
+    "displayFilter": true,
+    "kind": "tiebreak",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Performer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Sovereign": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Fantasist": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.ET",
+    "stemKey": "K.ET"
+  },
+  "K.N1": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Detacher": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Soother": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Thrill-Seeker": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Avoider": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.N1",
+    "stemKey": "K.N1"
+  },
+  "K.N2": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Detacher": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Soother": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Thrill-Seeker": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Fantasist": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.N2",
+    "stemKey": "K.N2"
+  },
+  "K.N3": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Detacher": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Soother": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Thrill-Seeker": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.N3",
+    "stemKey": "K.N3"
+  },
+  "K.NT": {
+    "displayFilter": true,
+    "kind": "tiebreak",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Detacher": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Soother": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Thrill-Seeker": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Avoider": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Fantasist": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.NT",
+    "stemKey": "K.NT"
+  },
+  "K.P1": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Self-Soother": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Thrill-Seeker": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P1",
+    "stemKey": "K.P1"
+  },
+  "K.P10": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Caretaker": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Performer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P10",
+    "stemKey": "K.P10"
+  },
+  "K.P11": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Wall-of-Anger": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Punisher": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P11",
+    "stemKey": "K.P11"
+  },
+  "K.P12": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Pleaser": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Concealer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P12",
+    "stemKey": "K.P12"
+  },
+  "K.P13": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Resigned": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Depender": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P13",
+    "stemKey": "K.P13"
+  },
+  "K.P14": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Doomer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P14",
+    "stemKey": "K.P14"
+  },
+  "K.P15": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Avoider": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Concealer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P15",
+    "stemKey": "K.P15"
+  },
+  "K.P16": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Ruminator": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Doomer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P16",
+    "stemKey": "K.P16"
+  },
+  "K.P17": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Watcher": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Caretaker": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Clinger": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Trickster": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "Pleaser": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P17",
+    "stemKey": "K.P17"
+  },
+  "K.P18": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Detacher": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Fantasist": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P18",
+    "stemKey": "K.P18"
+  },
+  "K.P19": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Concealer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Trickster": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Pleaser": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P19",
+    "stemKey": "K.P19"
+  },
+  "K.P2": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Pleaser": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Caretaker": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P2",
+    "stemKey": "K.P2"
+  },
+  "K.P20": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Perfectionist": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P20",
+    "stemKey": "K.P20"
+  },
+  "K.P21": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Self-Reliant": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Perfectionist": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Caretaker": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P21",
+    "stemKey": "K.P21"
+  },
+  "K.P3": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Clinger": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Depender": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P3",
+    "stemKey": "K.P3"
+  },
+  "K.P4": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Striker": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Wall-of-Anger": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P4",
+    "stemKey": "K.P4"
+  },
+  "K.P5": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Performer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Sovereign": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P5",
+    "stemKey": "K.P5"
+  },
+  "K.P6": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Watcher": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P6",
+    "stemKey": "K.P6"
+  },
+  "K.P7": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Avoider": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Detacher": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P7",
+    "stemKey": "K.P7"
+  },
+  "K.P8": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Concealer": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Performer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P8",
+    "stemKey": "K.P8"
+  },
+  "K.P9": {
+    "kind": "probe",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Ruminator": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Catastrophizer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.P9",
+    "stemKey": "K.P9"
+  },
+  "K.R1": {
+    "kind": "router",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "NUMB": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "WITHDRAW": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "SURRENDER": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "ATTACH": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "ASSERT": 1
+        }
+      },
+      {
+        "oid": "f",
+        "votes": {
+          "ELEVATE": 1
+        }
+      },
+      {
+        "oid": "g",
+        "votes": {
+          "CONTROL": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.R1",
+    "stemKey": "K.R1"
+  },
+  "K.R2": {
+    "kind": "router",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "NUMB": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "WITHDRAW": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "SURRENDER": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "ATTACH": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "ASSERT": 1
+        }
+      },
+      {
+        "oid": "f",
+        "votes": {
+          "ELEVATE": 1
+        }
+      },
+      {
+        "oid": "g",
+        "votes": {
+          "CONTROL": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.R2",
+    "stemKey": "K.R2"
+  },
+  "K.R3": {
+    "kind": "router",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "NUMB": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "WITHDRAW": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "SURRENDER": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "ATTACH": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "ASSERT": 1
+        }
+      },
+      {
+        "oid": "f",
+        "votes": {
+          "ELEVATE": 1
+        }
+      },
+      {
+        "oid": "g",
+        "votes": {
+          "CONTROL": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.R3",
+    "stemKey": "K.R3"
+  },
+  "K.R4": {
+    "displayFilter": true,
+    "kind": "router",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "NUMB": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "WITHDRAW": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "SURRENDER": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "ATTACH": 1
+        }
+      },
+      {
+        "oid": "e",
+        "votes": {
+          "ASSERT": 1
+        }
+      },
+      {
+        "oid": "f",
+        "votes": {
+          "ELEVATE": 1
+        }
+      },
+      {
+        "oid": "g",
+        "votes": {
+          "CONTROL": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.R4",
+    "stemKey": "K.R4"
+  },
+  "K.S1": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Resigned": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Punisher": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Ruminator": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Doomer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.S1",
+    "stemKey": "K.S1"
+  },
+  "K.S2": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Resigned": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Punisher": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Ruminator": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Doomer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.S2",
+    "stemKey": "K.S2"
+  },
+  "K.S3": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Resigned": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Punisher": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Ruminator": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Doomer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.S3",
+    "stemKey": "K.S3"
+  },
+  "K.ST": {
+    "displayFilter": true,
+    "kind": "tiebreak",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Resigned": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Self-Punisher": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Ruminator": 1
+        }
+      },
+      {
+        "oid": "d",
+        "votes": {
+          "Doomer": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.ST",
+    "stemKey": "K.ST"
+  },
+  "K.W1": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Avoider": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Concealer": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Self-Reliant": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.W1",
+    "stemKey": "K.W1"
+  },
+  "K.W2": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Avoider": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Concealer": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Self-Reliant": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.W2",
+    "stemKey": "K.W2"
+  },
+  "K.W3": {
+    "kind": "core",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Avoider": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Concealer": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Self-Reliant": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.W3",
+    "stemKey": "K.W3"
+  },
+  "K.WT": {
+    "displayFilter": true,
+    "kind": "tiebreak",
+    "options": [
+      {
+        "oid": "a",
+        "votes": {
+          "Avoider": 1
+        }
+      },
+      {
+        "oid": "b",
+        "votes": {
+          "Concealer": 1
+        }
+      },
+      {
+        "oid": "c",
+        "votes": {
+          "Self-Reliant": 1
+        }
+      }
+    ],
+    "part": "K",
+    "qid": "K.WT",
+    "stemKey": "K.WT"
+  },
+  "O.B1": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B1",
+    "stemKey": "O.B1"
+  },
+  "O.B10": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "POW": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B10",
+    "stemKey": "O.B10"
+  },
+  "O.B11": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "POW": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B11",
+    "stemKey": "O.B11"
+  },
+  "O.B12": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B12",
+    "stemKey": "O.B12"
+  },
+  "O.B13": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B13",
+    "stemKey": "O.B13"
+  },
+  "O.B2": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ALN": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B2",
+    "stemKey": "O.B2"
+  },
+  "O.B3": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B3",
+    "stemKey": "O.B3"
+  },
+  "O.B3b": {
+    "alternateOf": "O.B3",
+    "escapeOid": "C",
+    "kind": "alternate",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B3b",
+    "stemKey": "O.B3b"
+  },
+  "O.B4": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ABN": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B4",
+    "stemKey": "O.B4"
+  },
+  "O.B5": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "VC": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B5",
+    "stemKey": "O.B5"
+  },
+  "O.B6": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "VC": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B6",
+    "stemKey": "O.B6"
+  },
+  "O.B7": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ED": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B7",
+    "stemKey": "O.B7"
+  },
+  "O.B8": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ED": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B8",
+    "stemKey": "O.B8"
+  },
+  "O.B9": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ED": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "POW": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.B9",
+    "stemKey": "O.B9"
+  },
+  "O.C1": {
+    "kind": "confirmation",
+    "options": [],
+    "part": "O",
+    "qid": "O.C1",
+    "stemKey": "O.C1"
+  },
+  "O.P1": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ED": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P1",
+    "stemKey": "O.P1"
+  },
+  "O.P1b": {
+    "alternateOf": "O.P1",
+    "escapeOid": "C",
+    "kind": "alternate",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ED": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P1b",
+    "stemKey": "O.P1b"
+  },
+  "O.P2": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "VC": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P2",
+    "stemKey": "O.P2"
+  },
+  "O.P2b": {
+    "alternateOf": "O.P2",
+    "kind": "alternate",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "VC": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "DEF": 1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.P2b",
+    "stemKey": "O.P2b"
+  },
+  "O.P3": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "FAI": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P3",
+    "stemKey": "O.P3"
+  },
+  "O.P3b": {
+    "alternateOf": "O.P3",
+    "escapeOid": "D",
+    "kind": "alternate",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "FAI": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "FAI": 2
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P3b",
+    "stemKey": "O.P3b"
+  },
+  "O.P4": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ED": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P4",
+    "stemKey": "O.P4"
+  },
+  "O.P4b": {
+    "alternateOf": "O.P4",
+    "escapeOid": "C",
+    "kind": "alternate",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ED": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P4b",
+    "stemKey": "O.P4b"
+  },
+  "O.P5": {
+    "escapeOid": "C",
+    "kind": "discriminator",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "FAI": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "POW": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P5",
+    "stemKey": "O.P5"
+  },
+  "O.P5b": {
+    "alternateOf": "O.P5",
+    "escapeOid": "C",
+    "kind": "alternate",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "FAI": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "POW": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "O.P5b",
+    "stemKey": "O.P5b"
+  },
+  "O.R1": {
+    "kind": "router",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 1,
+          "ALN": 1,
+          "ED": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ABN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "DEF": 1,
+          "FAI": 2,
+          "POW": 1
+        }
+      },
+      {
+        "oid": "E",
+        "votes": {
+          "DEF": 2,
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "F",
+        "votes": {
+          "MB": 2,
+          "VC": 1
+        }
+      },
+      {
+        "oid": "G",
+        "votes": {
+          "MB": 1,
+          "VC": 2
+        }
+      },
+      {
+        "oid": "H",
+        "votes": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.R1",
+    "stemKey": "O.R1"
+  },
+  "O.R2": {
+    "kind": "router",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ABN": 1,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 1,
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ALN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "MB": 1,
+          "VC": 1
+        }
+      },
+      {
+        "oid": "E",
+        "votes": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.R2",
+    "stemKey": "O.R2"
+  },
+  "O.R3": {
+    "kind": "router",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ABN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 1,
+          "ALN": 1,
+          "ED": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "MB": 1,
+          "VC": 2
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "MB": 2,
+          "VC": 1
+        }
+      },
+      {
+        "oid": "E",
+        "votes": {
+          "ALN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "F",
+        "votes": {
+          "DEF": 2,
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "G",
+        "votes": {
+          "DEF": 1,
+          "FAI": 2,
+          "POW": 1
+        }
+      },
+      {
+        "oid": "H",
+        "votes": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.R3",
+    "stemKey": "O.R3"
+  },
+  "O.S1": {
+    "kind": "separation",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ABN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 1,
+          "ALN": 1,
+          "ED": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ALN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "MB": 2,
+          "VC": 1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.S1",
+    "stemKey": "O.S1"
+  },
+  "O.S2": {
+    "kind": "separation",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "DEF": 1,
+          "FAI": 2,
+          "POW": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": 2,
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "FAI": 1,
+          "POW": 2
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "MB": 2,
+          "VC": 1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.S2",
+    "stemKey": "O.S2"
+  },
+  "O.S3": {
+    "kind": "separation",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 2,
+          "VC": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "MB": 1,
+          "VC": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ABN": 2,
+          "VC": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.S3",
+    "stemKey": "O.S3"
+  },
+  "O.S4": {
+    "kind": "separation",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "FAI": 2,
+          "POW": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "FAI": 1,
+          "POW": 2
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "FAI": 1,
+          "VC": 2
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.S4",
+    "stemKey": "O.S4"
+  },
+  "O.S5": {
+    "kind": "separation",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 1,
+          "ED": 2
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ALN": 2,
+          "ED": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ALN": 1,
+          "DEF": 2
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ABN": 2,
+          "ED": 1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "O.S5",
+    "stemKey": "O.S5"
+  },
+  "V.CPICK": {
+    "kind": "pick",
+    "options": [],
+    "part": "V",
+    "qid": "V.CPICK",
+    "stemKey": "V.CPICK"
+  },
+  "V.OGROUP": {
+    "kind": "group",
+    "options": [],
+    "part": "V",
+    "qid": "V.OGROUP",
+    "stemKey": "V.OGROUP"
+  },
+  "V.OPICK": {
+    "kind": "pick",
+    "options": [],
+    "part": "V",
+    "qid": "V.OPICK",
+    "stemKey": "V.OPICK"
+  }
+}

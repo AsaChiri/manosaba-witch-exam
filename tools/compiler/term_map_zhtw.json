@@ -1,0 +1,10 @@
+{
+  "_doc": "Post-OpenCC term overrides for zh-CN -> zh-TW synthesis. The compiler runs OpenCC with the 's2twp' profile (Simplified -> Traditional, Taiwan phrasing), then applies these literal string overrides. Seed kept minimal per project instruction; extend as zh-TW term decisions land. Canon terms are pinned as identity guards so a future OpenCC/profile change cannot silently drift them.",
+  "profile": "s2twp",
+  "from": "cn",
+  "to": "twp",
+  "overrides": {
+    "魔女": "魔女",
+    "裁判": "裁判"
+  }
+}

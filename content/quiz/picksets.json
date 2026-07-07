@@ -1,0 +1,62 @@
+{
+  "cells": {
+    "ABN|Clinger": {
+      "coping": {
+        "auto": "CL-1"
+      },
+      "origin": {
+        "auto": "ABN-1"
+      }
+    },
+    "ED|Performer": {
+      "coping": {
+        "options": [
+          "PE-1",
+          "PE-2",
+          "PE-3"
+        ]
+      },
+      "origin": {
+        "options": [
+          "ED-1",
+          "ED-2",
+          "ED-5",
+          "ED-9"
+        ]
+      }
+    },
+    "MB|Depender": {
+      "coping": {
+        "auto": "DP-1"
+      },
+      "origin": {
+        "auto": "MB-3"
+      }
+    },
+    "VC|Watcher": {
+      "coping": {
+        "auto": "WT-1"
+      },
+      "origin": {
+        "auto": "VC-1"
+      }
+    }
+  },
+  "redirect": {
+    "ABN|Sovereign": "ABN|Performer",
+    "ALN|Catastrophizer": "ALN|Watcher",
+    "ALN|Depender": "ALN|Clinger",
+    "ED|Catastrophizer": "ED|Watcher",
+    "ED|Ritualist": "ED|Perfectionist",
+    "FAI|Clinger": "FAI|Depender",
+    "MB|Fantasist": "MB|Sovereign",
+    "POW|Performer": "POW|Fantasist",
+    "POW|Sovereign": "POW|Fantasist",
+    "POW|Striker": "POW|Wall-of-Anger",
+    "VC|Avenger": "VC|Striker",
+    "VC|Performer": "VC|Fantasist",
+    "VC|Pleaser": "VC|Depender",
+    "VC|Sovereign": "VC|Fantasist",
+    "VC|Trickster": "VC|Striker"
+  }
+}

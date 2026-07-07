@@ -1,0 +1,950 @@
+{
+  "locale": "en",
+  "questions": {
+    "K.A1": {
+      "options": {
+        "a": "nothing is off anywhere — every chat checked, no one upset with you",
+        "b": "someone needed you today and you came through",
+        "c": "everyone's accounted for — you know where they are, and they answered fast",
+        "d": "someone took the next decision off your plate"
+      },
+      "stem": "In your closest circle, the moment that actually settles you is when…"
+    },
+    "K.A2": {
+      "options": {
+        "a": "peace — they have no reason to be annoyed with you now",
+        "b": "a seat — you're the one they'd call first now, and that seat is yours",
+        "c": "contact — the favor is a reason to be in touch again tomorrow",
+        "d": "credit with the person who handles things for you — you do your part, they carry the heavy part",
+        "e": "the room — everyone saw who saved the day"
+      },
+      "stem": "When you go out of your way for someone — and you often do — what does it quietly get you?"
+    },
+    "K.A3": {
+      "options": {
+        "a": "someone's tone was off with you — not angry, just off",
+        "b": "the thing you always handle got handled fine by someone else",
+        "c": "slower replies than usual; plans you weren't in",
+        "d": "being told \"you decide\" on something that matters"
+      },
+      "stem": "The small thing that can quietly ruin your day:"
+    },
+    "K.AS1": {
+      "options": {
+        "a": "hit back harder, immediately, in front of everyone — they need to relearn where they stand",
+        "b": "go visibly, unmistakably hot — not calibrated, just burning; people step back and the matter drops",
+        "c": "smile, agree — and start arranging the board: who to talk to, what they don't know you know",
+        "d": "nothing, today — the date, the room, the exact words go into the file"
+      },
+      "stem": "Someone at school/work moves against you openly. Your first competent move:"
+    },
+    "K.AS2": {
+      "options": {
+        "a": "winning — pressure until they fold; being on top is the point",
+        "b": "spacing — while you're burning, nobody gets near enough to push a second time",
+        "c": "cover — while they watch the fire, you move the pieces",
+        "d": "it isn't heat — it's cold, and it can wait; the reply arrives when it costs them most",
+        "e": "by the end, half of it has turned on yourself — how you handled it joins the list you hold against you"
+      },
+      "stem": "At your most heated, the real job the heat is doing:"
+    },
+    "K.AS3": {
+      "options": {
+        "a": "it's settled — you answered it same-day, at volume; closed matters stay closed",
+        "b": "you're still prickly in every direction — people are being careful around you, which suits you",
+        "c": "somehow, by Friday, the story everyone carries puts you on the right side of it",
+        "d": "you could recite the incident to the minute; nothing has happened yet; something will"
+      },
+      "stem": "A week after someone crossed you:"
+    },
+    "K.AST": {
+      "options": {
+        "a": "corrected on the spot, in front of everyone",
+        "b": "you run hot for days, at everything — people learn to step around you",
+        "c": "you let it stand — and by month's end the pipeline runs through you and they're outside it",
+        "d": "nothing shows; it goes in the file, dated",
+        "e": "the heat never quite reaches them — it lands on you for letting it happen, and the week's treats get quietly cancelled; that feels fair"
+      },
+      "stem": "Someone presents your work as theirs."
+    },
+    "K.AT": {
+      "options": {
+        "a": "no one here has a single reason to dislike you yet — keep it that way",
+        "b": "find who needs a hand with boxes — be established as useful by week two",
+        "c": "the call schedule home is fixed before the wifi is",
+        "d": "pick the room nearest the person who'll know how things work",
+        "e": "make the entrance — by week two the new crowd should have a story about you they're already retelling"
+      },
+      "stem": "First month in a new city. Job one:"
+    },
+    "K.C1": {
+      "options": {
+        "a": "raise the work until no one could fault it — third pass, fourth pass; \"good enough\" is other people's phrase",
+        "b": "the system carries you — same desk, same order, boxes ticked in sequence",
+        "c": "track the field — who's ahead, what the evaluator hinted, what changed since yesterday",
+        "d": "draft the disaster — the version where it all collapses, in detail, with plans B and C built off it",
+        "e": "seal the supply lines — arrange the ten days so that no part of it depends on anyone: no borrowed notes, no favors, no waiting on someone's reply"
+      },
+      "stem": "Big deadline in ten days. Your natural mode:"
+    },
+    "K.C2": {
+      "options": {
+        "a": "the flaw-check — one visible mistake and the whole thing can be dismissed",
+        "b": "the sequence itself — done out of order, the day feels unsafe in a way you don't argue with; you redo it",
+        "c": "the sweep — before settling anywhere (room, meeting, group chat), locate the moods, the exits, the likely problem",
+        "d": "the rehearsal — run the worst version start to finish first; walking in without having pre-lived it is walking in unprepared",
+        "e": "the map of the players — who actually decides, who talks to whom, where a well-placed word would move the outcome; you don't walk in without knowing whose game it is"
+      },
+      "stem": "The step you can't skip — and what skipping it would mean:"
+    },
+    "K.C3": {
+      "options": {
+        "a": "the thing you already submitted, re-read for the error you might have missed",
+        "b": "tomorrow's list, re-ordered again; the morning sequence fixed",
+        "c": "everyone's status — the group chat re-scrolled, stories checked; the map of where things stand, refreshed once more",
+        "d": "a search spiral on the bad thing that could happen — odds, symptoms, what-if threads"
+      },
+      "stem": "It's late; you're not asleep. The tab that's open:"
+    },
+    "K.CT": {
+      "options": {
+        "a": "your leg of the plan gets redone until no one could find fault with it",
+        "b": "packing runs in the fixed order it always runs; break the order, restart it",
+        "c": "you're the one tracking everything live — weather, delays, moods, prices",
+        "d": "you've pre-run the missed-connection / lost-wallet / hospital version, and there's a plan for each",
+        "e": "your pack is a closed system — your own cash reserve, chargers, meds, backups; whatever happens, you won't be borrowing",
+        "f": "by day two the itinerary quietly runs through you — swaps traded, preferences banked, and everyone somehow votes the way you'd already decided"
+      },
+      "stem": "Planning a trip with friends:"
+    },
+    "K.E1": {
+      "options": {
+        "a": "mid-performance — eyes on you, right now, all of them",
+        "b": "the quiet after — your standing confirmed; things are as they should be",
+        "c": "that night — replaying it alone, building the next, bigger scene onto it"
+      },
+      "stem": "The whole room is impressed with you. The moment that actually lands:"
+    },
+    "K.E2": {
+      "options": {
+        "a": "it's half-lost — unseen might as well be undone",
+        "b": "it counts fully — your own ledger is the one that matters",
+        "c": "it becomes material — in your head it's already a chapter of the larger story only you know"
+      },
+      "stem": "You achieve something real, and no one will ever see it."
+    },
+    "K.E3": {
+      "options": {
+        "a": "staged or saved for the moment they'll be shown",
+        "b": "receipts — records of being right, being best, being owed better",
+        "c": "worlds — long private threads of a life no one has seen any part of"
+      },
+      "stem": "Your camera roll / drafts / private notes, honestly:"
+    },
+    "K.ET": {
+      "options": {
+        "a": "whether they're still looking",
+        "b": "whether the standing held — did the right people register it",
+        "c": "whether it's keepable — the scene is already being shelved into the private collection"
+      },
+      "stem": "Right after you've made a room laugh or gasp, the thing you check:"
+    },
+    "K.N1": {
+      "options": {
+        "a": "you're still in the chat, answering in one-word replies; somewhere in the last ten minutes the feeling switched itself off",
+        "b": "chat muted; food ordered, feed open — the evening gets poured over it until it blurs",
+        "c": "you say the one deliberately explosive thing — the jolt is the first thing you've felt all day",
+        "d": "you put the phone down and physically leave — a walk, a shower, anywhere that isn't the chat"
+      },
+      "stem": "A group-chat blow-up, aimed partly at you, mid-evening."
+    },
+    "K.N2": {
+      "options": {
+        "a": "tasks getting done like a machine; if someone asks, \"I'm fine\" — and it's true, there's nothing on",
+        "b": "ordered-in food, screen on, snacks in reach; the evening disappears into the feed",
+        "c": "restlessness until you find an edge — a bet, a dare, a 2 a.m. ride, a message you shouldn't send",
+        "d": "from the outside: nothing, a girl at a desk — but the evening went somewhere; the long private storyline picked up exactly where it left off, and hours passed there"
+      },
+      "stem": "What an ordinary hard evening looks like from the outside."
+    },
+    "K.N3": {
+      "options": {
+        "a": "nothing \"did\" it — you left the feeling behind, like closing a tab",
+        "b": "enough input — taste, sound, scroll — and the volume finally went down",
+        "c": "something with stakes — the body lit up and there was no room left for anything else"
+      },
+      "stem": "When it finally quiets down inside, what did the trick?"
+    },
+    "K.NT": {
+      "options": {
+        "a": "extra level — flat voice, business as usual, nothing leaking",
+        "b": "cocooned — takeout, blankets, twelve hours of something streaming",
+        "c": "suddenly signed up for something with real stakes that same week",
+        "d": "thinner on the map — quietly out of the chat, the plans, the rooms where the week could find you",
+        "e": "present but lit from somewhere else — the notebooks/drafts get longer that week, and she smiles at things that didn't happen in this room"
+      },
+      "stem": "In a genuinely bad week, the version of you your friends can see is…"
+    },
+    "K.P1": {
+      "options": {
+        "a": "comfort — the exact food, the exact show, the warm bath; turn the feeling down",
+        "b": "voltage — somewhere loud, fast, risky, new; turn something else up until it drowns"
+      },
+      "stem": "A free, bad-mood night and money in your pocket:"
+    },
+    "K.P10": {
+      "options": {
+        "a": "what you now are to them — the one they'd trust it to; the first call next time",
+        "b": "the hour itself — every glass raised pointing at you; all of it looking"
+      },
+      "stem": "You put on the whole event for your group — planned, cooked, organized — and it's clearly a success. What stays with you:"
+    },
+    "K.P11": {
+      "options": {
+        "a": "stays hot and stays outward — it keeps the area clear while it burns; when they retreat, it's done its job",
+        "b": "turns on you — the outburst becomes one more thing you hold against yourself, and the evening goes to paying for it"
+      },
+      "stem": "After you snap at someone, the next hour:"
+    },
+    "K.P12": {
+      "options": {
+        "a": "things stay smooth between you — no edge, no falling-out",
+        "b": "the conversation moves off you — your real opinion stays yours"
+      },
+      "stem": "When you agree with something you don't actually agree with, it's mostly so that:"
+    },
+    "K.P13": {
+      "options": {
+        "a": "\"it'll go how it goes\" — you stop steering and let the week drive over you; if someone helps, fine, but you're not reaching for anyone",
+        "b": "\"we'll sort it out\" — and we means them: before the week starts you've already put it in your person's hands, the way it always ends up there"
+      },
+      "stem": "A week you can't cope with is coming. Which sentence is closer to what actually happens?"
+    },
+    "K.P14": {
+      "options": {
+        "a": "closes the case — you put the effort down; nothing ventured, nothing owed",
+        "b": "opens the drill — you run the wreck in advance and pack for it"
+      },
+      "stem": "The thought \"this will go wrong\":"
+    },
+    "K.P15": {
+      "options": {
+        "a": "shrink the exposure-time — arrive late, leave early, volunteer for the kitchen, the long bathroom breaks",
+        "b": "full attendance, good form, perfect surface — you're visibly there for all of it, and afterwards they know exactly nothing new"
+      },
+      "stem": "An event you can't skip — family thing, mandatory dinner. Your way through it:"
+    },
+    "K.P16": {
+      "options": {
+        "a": "an argument with one specific scene — versions of what you should have said, dated, on loop",
+        "b": "a settled conclusion, restated — how it goes, how it always goes; no scene needed"
+      },
+      "stem": "The brooding you do, if someone transcribed it:"
+    },
+    "K.P17": {
+      "options": {
+        "a": "nothing reached you unseen — you'd watched it form, so when it arrived you were already braced",
+        "b": "you were there before they asked — you'd seen who was wobbling, and you showed up with exactly what they needed",
+        "c": "everyone stayed findable — nobody drifted out of reach without you knowing the moment it started",
+        "d": "the next move was obvious — you'd read the table, so when the moment came you played it first",
+        "e": "nothing was off between you and anyone — the one cooling tone got smoothed before it could set"
+      },
+      "stem": "All that quiet keeping-track you do — the statuses, the moods, the who-said-what. On the day it pays off, what did it buy you?"
+    },
+    "K.P18": {
+      "options": {
+        "a": "nothing — that's the point; flat, quiet, no content, the feeling switched off like a tab closed",
+        "b": "a whole place — the same one as last time, with its own people and plot, and it was mid-scene waiting for you"
+      },
+      "stem": "People sometimes find you \"elsewhere.\" When you go elsewhere, what's there?"
+    },
+    "K.P19": {
+      "options": {
+        "a": "a door — as long as the surface is interesting enough, nobody asks what's behind it; you go home un-known, which is the win",
+        "b": "a game — the surface keeps them looking at the wrong hand; there's something you're after, and the mask is how it gets got",
+        "c": "a peace — the surface is whatever this room needed you to be; no edges, no friction, nobody with a reason to turn on you"
+      },
+      "stem": "doubles as the §8.1 Concealer-attractor tax; also the (Concealer, Trickster) pair resolver) — You run a good surface — pleasant, competent, nothing given away. What is the surface holding in place?"
+    },
+    "K.P2": {
+      "options": {
+        "a": "you go along and enjoy what you can — it isn't worth the crease it would cause",
+        "b": "you go along — and end up running it: snacks, tickets, the drive; by Sunday they're saying they couldn't have done it without you"
+      },
+      "stem": "A friend plans a weekend you privately hate:"
+    },
+    "K.P20": {
+      "options": {
+        "a": "a cleaner thing — the work itself gets another pass; what you can't hand in is a flaw someone could point to",
+        "b": "a readier you — the work stopped changing an hour ago; what's being built now is the version where it goes wrong and you already know what you'll do"
+      },
+      "stem": "The night before something is due, you're still at the desk. What is the extra hour actually producing?"
+    },
+    "K.P21": {
+      "options": {
+        "a": "you'd have to ask — someone would have to be leaned on, owed, waited for; the whole point is that you never need a single hand",
+        "b": "it could be faulted — a visible flaw, a thing someone could point to and dismiss you by",
+        "c": "it could surprise you — the unrehearsed version could arrive, the one you haven't lived through yet",
+        "d": "someone you cover for would be caught out — the people who run on your preparation would be the ones exposed"
+      },
+      "stem": "Being the prepared one — it's how you're built. What would actually break if the preparation slipped?"
+    },
+    "K.P3": {
+      "options": {
+        "a": "contact scheduling — fixed call times, location shared, a halfway visit; keep the thread short",
+        "b": "survival scheduling — before they go, they set up everything you'll need: the bills, the decisions, whose hands you'll be in meanwhile"
+      },
+      "stem": "Your person is going away for a month. The plan you push for:"
+    },
+    "K.P4": {
+      "options": {
+        "a": "they conceded — apologized, backed down, gave it up; the win is the point, and you'd have pressed until you had it",
+        "b": "they left you alone — nothing was won and nothing needed to be; the space around you was clear again, and that was the whole job"
+      },
+      "stem": "Think of the last time your anger actually worked. What did \"worked\" look like?"
+    },
+    "K.P5": {
+      "options": {
+        "a": "a room of strangers who spend it captivated by you — though they don't matter and you'll never see them again",
+        "b": "the invitation that confirms you've reached the level above — though the evening is dull and nobody looks at you twice"
+      },
+      "stem": "Pick the evening:"
+    },
+    "K.P6": {
+      "options": {
+        "a": "keeping the picture current — live signals, small shifts, what just changed",
+        "b": "finishing the movie — the checking feeds a story of how it will go, played to the end so nothing can surprise you"
+      },
+      "stem": "What your checking is actually doing:"
+    },
+    "K.P7": {
+      "options": {
+        "a": "you get out — an excuse, a bathroom break that doesn't end",
+        "b": "you stay through all of it, answering normally, feeling nothing you could name"
+      },
+      "stem": "The conversation you've been dreading starts right now, in front of you:"
+    },
+    "K.P8": {
+      "options": {
+        "a": "they enjoyed you and learned nothing about you — you got home with yourself un-shared",
+        "b": "they couldn't take their eyes off you — you can still feel where the attention sat"
+      },
+      "stem": "You're good in a room. Afterwards, what made the evening a success:"
+    },
+    "K.P9": {
+      "options": {
+        "a": "the same scene from last week or last year, replayed for the missed line",
+        "b": "next week's scene, played to its worst ending, again — so you'll be ready"
+      },
+      "stem": "You catch yourself deep in a loop. It's usually:"
+    },
+    "K.R1": {
+      "options": {
+        "a": "practicing feeling nothing — emptying your head, or putting something on to blur it out",
+        "b": "building the route around it — which hallway, which excuse, how not to be caught alone with it — or quietly confirming you can carry every piece of it yourself: no favors asked, no one owed",
+        "c": "letting it settle on you — it can't be dodged; you lie under it with your eyes closed",
+        "d": "reaching for your phone — you want one specific person to know about it tonight — or running the roster: who might be upset with you, who'll need looking after because of tomorrow",
+        "e": "drafting the counterattack — they're in the wrong, and tomorrow they'll hear it — or laying out the board in the dark: who to talk to first, what they don't know you know",
+        "f": "restoring altitude — recalling what you are and what they are, until it shrinks — or slipping into the better story: the world where you're already what this one hasn't noticed yet",
+        "g": "listing the branches — every way it can go, a move ready for each, so nothing tomorrow can catch you bare — or walking tonight's fixed order until the day sits safely in its slots"
+      },
+      "stem": "Lights out; tomorrow holds something you're dreading. In bed, you notice yourself…"
+    },
+    "K.R2": {
+      "options": {
+        "a": "gone glassy — you're looking out the window, feeling nothing in particular",
+        "b": "locating the exit reason — or going quietly self-contained: whatever this turns into, you won't be needing anything from this room",
+        "c": "thinking \"here it comes again\" and going quiet under it",
+        "d": "moving your chair closer to someone — or getting busy taking care of the room: refills, the stuck conversation, the one who's gone quiet",
+        "e": "scanning for whoever made it heavy — or already, pleasantly, working out how this table gets turned your way",
+        "f": "taking the room's temperature into your own hands — the joke, the topic-turn, the spotlight-grab — or absenting upward: the room shrinks while the richer place in your head takes the call",
+        "g": "diagnosing the cause and lining up the fix before any of it can reach you — or restoring your own order: seat, glass, sequence, something the mood can't touch"
+      },
+      "stem": "Mid-gathering, the room's mood suddenly goes heavy. You catch yourself…"
+    },
+    "K.R3": {
+      "options": {
+        "a": "it's already gone flat — you're picking dinner; the day feels oddly far away",
+        "b": "you're re-routing tomorrow — the seats, the channels, the people you now won't cross — or resolving, again, to handle the whole repair yourself: nobody asked, nobody owed, nobody told",
+        "c": "it plays on loop the whole ride; of course it went that way",
+        "d": "you're already calling someone — tonight shouldn't be spent alone — or you're doing the rounds: smoothing whoever the day scuffed, checking who might be off with you now",
+        "e": "the more it replays, the clearer whose fault it actually was; the message is half-composed — or the quieter countermove is: which ear to reach first, which favor to call in",
+        "f": "you're recounting the parts where you were better than everyone in that room — or the day is already being rewritten into the private version, the one where you're finally seen at true size",
+        "g": "you're writing the checklist that makes it impossible for you to be caught like that again — or re-running tonight's fixed order until the day sits straight"
+      },
+      "stem": "On the way home after a day where something went publicly wrong for you…"
+    },
+    "K.R4": {
+      "options": {
+        "a": "by evening it's gone quiet in you; you put something on and the evening happens",
+        "b": "you match their distance — pull back first, say less, need less",
+        "c": "so it's happening again; the phone goes face-down and you sit with it",
+        "d": "you send the follow-up, then check whether they're active elsewhere — or you're combing the last week for what you might have done, drafting the patch-things-up opener",
+        "e": "you draft the reply with edges — they should feel the cost of this — or you say nothing and adjust the standings: who else to warm up, what they'll notice they've lost",
+        "f": "you post the best hour of your week, somewhere they'll see it — or you file them out of the story: the plot you actually live in has better casting",
+        "g": "you reconstruct the last three days for the trigger, so it can't repeat"
+      },
+      "stem": "A friend has left you on read since yesterday — unusual for them."
+    },
+    "K.S1": {
+      "options": {
+        "a": "you let things sit — if it's going to get fixed, someone else will have to start it",
+        "b": "you cancel the things you'd been looking forward to — the treat, the outing; they don't feel earned now",
+        "c": "anyone watching sees you mid-scroll, staring past the screen — back in the moment it went wrong, again",
+        "d": "you shrug and say \"figures\" — and mean it; you'd already half-planned around it failing"
+      },
+      "stem": "Something you tried publicly didn't work out. The next 48 hours, from the outside:"
+    },
+    "K.S2": {
+      "options": {
+        "a": "nowhere — you lie there, tired of it, wishing someone would just take it over",
+        "b": "through the list of what you did wrong, sentence by sentence — you'd never talk to a friend that way, but for you it's simply fair",
+        "c": "back through the same scene, editing it — one more replay and maybe it settles",
+        "d": "forward, flat — whatever you do, next time goes the same"
+      },
+      "stem": "2 a.m., not asleep. Where the head goes:"
+    },
+    "K.S3": {
+      "options": {
+        "a": "someone else will have to catch it now — it's out of your hands",
+        "b": "having docked yourself something — once you've paid, the account feels settled",
+        "c": "you don't, really — putting it down feels like losing the last chance to fix it",
+        "d": "expecting nothing — nothing can fall off a shelf you already emptied"
+      },
+      "stem": "When you finally put the effort down, the relief comes from…"
+    },
+    "K.ST": {
+      "options": {
+        "a": "first thought: who will handle the next part — someone will have to",
+        "b": "you don't quite take it — set against the last failure, it doesn't clear the balance",
+        "c": "mid-celebration you're back in last month's scene, re-running it",
+        "d": "you don't unpack it — it won't hold"
+      },
+      "stem": "Unexpected good news lands."
+    },
+    "K.W1": {
+      "options": {
+        "a": "minimize contact — the seat, shift, and channel where you're least involved",
+        "b": "be present, pleasant, even active — while making sure nothing about the real you enters circulation",
+        "c": "arrange things so you'll never need to ask any of them for anything"
+      },
+      "stem": "A new group (class / team) is forming; you'll spend months with them. Your instinctive setup:"
+    },
+    "K.W2": {
+      "options": {
+        "a": "the event itself — the class, the party, the call; best is not being there",
+        "b": "the second question — the one about yourself, past the surface",
+        "c": "the offer of help — owing someone; being the one who needed"
+      },
+      "stem": "The moment that makes you tense in advance:"
+    },
+    "K.W3": {
+      "options": {
+        "a": "\"hard to get her to come to anything\"",
+        "b": "\"comes to everything, easy to have around — and none of us knows one private thing about her\"",
+        "c": "\"never asks for help; you find out she had a crisis after she's fixed it herself\""
+      },
+      "stem": "Friends who've known you for years would say:"
+    },
+    "K.WT": {
+      "options": {
+        "a": "you'd have skipped the whole session if you'd known",
+        "b": "you deliver something warm, polished, and empty",
+        "c": "you give the one that shows you run your life solo"
+      },
+      "stem": "An orientation round asks everyone to share \"one personal thing.\""
+    },
+    "O.B1": {
+      "options": {
+        "A": "that they got something out of it — you were useful right up until you weren't",
+        "B": "that they're simply gone — nothing taken, just the seat left empty",
+        "C": "neither frame fits"
+      },
+      "stem": "Someone who mattered hurt you once — most people have one. Which half aged worse?"
+    },
+    "O.B10": {
+      "options": {
+        "A": "the scanner — reading every new authority for what they'll eventually take",
+        "B": "the waiting — catching yourself asking a permission nobody is demanding anymore",
+        "C": "nothing followed"
+      },
+      "stem": "You've left a controlling situation — a boss, a household, a partner, any flavor. A year on, what actually followed you out?"
+    },
+    "O.B11": {
+      "options": {
+        "A": "there's a definite someone under it — she just has no room where she's the native",
+        "B": "it's quieter than that — take the blending away, and it's not obvious what's left wanting things",
+        "C": "never noticed a seam"
+      },
+      "stem": "You can blend almost anywhere — most people can, more than they admit. When the blending comes off at the end of the day:"
+    },
+    "O.B12": {
+      "options": {
+        "A": "the group has a second chat — smaller, older, and you were never in it",
+        "B": "your closest person in the group has a new closest person",
+        "C": "neither; groups shuffle"
+      },
+      "stem": "Two Tuesday discoveries. Which lands harder?"
+    },
+    "O.B13": {
+      "options": {
+        "A": "circles do this — they set, they seal; there's rarely a why with a face on it",
+        "B": "somebody worked the room — something was said, and you can almost name by whom",
+        "C": "you cooled first"
+      },
+      "stem": "A circle you were part of has cooled on you — it happens. Your standing explanation:"
+    },
+    "O.B2": {
+      "options": {
+        "A": "range control — close enough to be liked, never close enough to be inspected",
+        "B": "translation fatigue — up close they'd need the whole backstory, and they're not from where you're from, in any sense",
+        "C": "just pacing; it closes on its own"
+      },
+      "stem": "You keep a certain distance with new people — most people do. Yours is mostly:"
+    },
+    "O.B3": {
+      "options": {
+        "A": "the engineering — who set it up, who already knew, how you were walked into it",
+        "B": "the display — the thing about you it held up to the light",
+        "C": "it dies with the evening"
+      },
+      "stem": "A joke at your expense lands in a group and gets a real laugh. Which residue outlives the evening?"
+    },
+    "O.B3b": {
+      "options": {
+        "A": "the memo — a durable note about what people, given access, will do",
+        "B": "the film — the sense it left something on you, as if you're the one who now needs cleaning",
+        "C": "mostly just anger, then done"
+      },
+      "stem": "After being genuinely wronged, two aftertastes. Which lasts longer in you?"
+    },
+    "O.B4": {
+      "options": {
+        "A": "the one left on the platform — the door that closes, the chair that stays empty",
+        "B": "the one who made it out — and can't stand being the one who did",
+        "C": "neither type in particular"
+      },
+      "stem": "Two scenes in fiction reliably get you. Which gets you worse?"
+    },
+    "O.B5": {
+      "options": {
+        "A": "the phone — the ring itself, the news arriving, the minute everything turns",
+        "B": "the after — the world minus them, and you still in it, alone",
+        "C": "you don't do 3 a.m. versions"
+      },
+      "stem": "Someone you love is in a fragile stretch — health, distance, anything. The 3 a.m. version of it is:"
+    },
+    "O.B6": {
+      "options": {
+        "A": "monitor — watch it, look it up, wonder what it's the start of",
+        "B": "manage — who'll see it, from what angle, under what cover story",
+        "C": "ignore it entirely"
+      },
+      "stem": "Your body does something new and inconvenient — nothing serious. The reflex that actually runs:"
+    },
+    "O.B7": {
+      "options": {
+        "A": "stop providing and the warmth stops — it was never pointed at you, only at the output",
+        "B": "the math is off and someone knows it — more is being taken than given, and it isn't your ledger",
+        "C": "providing is just how groups work"
+      },
+      "stem": "Somewhere — work, group, family — you're clearly valued for what you provide. The thought that visits at the sink afterwards:"
+    },
+    "O.B8": {
+      "options": {
+        "A": "the thing is a magnet — warmth arrives at it, never past it, and you've stopped expecting delivery",
+        "B": "the thing is a screen — it stands where you'd otherwise be looked at, and it had better hold",
+        "C": "the thing is just a thing you're good at"
+      },
+      "stem": "People like you for a thing — the skill, the humor, the reliability. The quieter read on it:"
+    },
+    "O.B9": {
+      "options": {
+        "A": "\"oh, she's fine — she never needs anything\"",
+        "B": "\"oh, don't hand her that — she couldn't manage it\"",
+        "C": "neither would register"
+      },
+      "stem": "Two lines said fondly about someone. Which would grate more, said about you today?"
+    },
+    "O.C1": {
+      "options": {
+        "ABN": "a staying that doesn't expire — the door no longer watched",
+        "ALN": "a table where you're not a guest",
+        "DEF": "the all-clear — fine as-is, even seen in full",
+        "ED": "being gotten — eyes that land on you, no translation needed",
+        "FAI": "the settled verdict that you're good at this — immune to the next test",
+        "MB": "one person you could be fully off-guard with",
+        "POW": "the wheel handled — or the wanting that finally knows its own direction",
+        "VC": "a tomorrow guaranteed to hold no ambush"
+      },
+      "stem": "At bottom — if one of these could simply be handed to you, which do you take?"
+    },
+    "O.P1": {
+      "options": {
+        "A": "they were right there all evening — and somehow never quite with you",
+        "B": "the moment they glanced at the time and began gathering their things",
+        "C": "neither, honestly"
+      },
+      "stem": "Two small moments with someone who matters. Which one follows you home?"
+    },
+    "O.P1b": {
+      "options": {
+        "A": "they'd been looking straight at you — and not seeing you",
+        "B": "you hadn't crossed their mind at all — you'd simply slipped it",
+        "C": "can't rank them"
+      },
+      "stem": "Which is worse to learn afterwards?"
+    },
+    "O.P2": {
+      "options": {
+        "A": "who — whose hand is in this, who knew, who let it through",
+        "B": "what did I miss — which sign, which lock, which ordinary Tuesday it started",
+        "C": "neither; you go straight to cleanup"
+      },
+      "stem": "Something bad lands on you — any size. The first question your mind actually runs:"
+    },
+    "O.P2b": {
+      "options": {
+        "A": "the one who caused it — the face, the choice, what they got away with",
+        "B": "how ordinary the minute before was — and the seat from which you watched it turn",
+        "C": "your own hands, and what they should have done"
+      },
+      "stem": "In the bad scene your imagination occasionally re-runs (everyone's runs one), the frame that loops:"
+    },
+    "O.P3": {
+      "options": {
+        "A": "\"you're so capable\" — because the next real test can still take it away",
+        "B": "\"you're such a good person\" — because they're describing someone you've shown them",
+        "C": "both land fine"
+      },
+      "stem": "Two compliments, both sincere. Which one leaves the small splinter?"
+    },
+    "O.P3b": {
+      "options": {
+        "A": "a thing to keep sealed — the point is that no one ever gets to see it",
+        "B": "a distrust of your own calls — you double-check yourself where you used to be sure",
+        "C": "a flinch at being handed anything that matters — once was enough",
+        "D": "none of these keeps visiting"
+      },
+      "stem": "A past misstep still visits now and then — everyone owns one. When yours visits, it arrives mostly as:"
+    },
+    "O.P4": {
+      "options": {
+        "A": "the rooms one: you can pass in any group and belong in none — even mid-laughter some translator in you is still working",
+        "B": "the one-person one: even with someone right there who cares, the signal never quite lands — seen daily, read never",
+        "C": "neither is the old one"
+      },
+      "stem": "Two aches. Everyone has met both — but one of them is yours, the one that's been there longest. Which?"
+    },
+    "O.P4b": {
+      "options": {
+        "A": "a table — plural, people, a place where you'd stop performing membership because you'd have it",
+        "B": "a reader — one pair of eyes that finally lands on you without a manual",
+        "C": "can't rank them"
+      },
+      "stem": "If exactly one could be delivered tonight:"
+    },
+    "O.P5": {
+      "options": {
+        "A": "deciding is the easy part — you'll have picked by breakfast, alone is fine; it's the verdict you brace for, because your picks have a record of coming back marked wrong",
+        "B": "the deciding itself is the wall — alone, the needle just doesn't move; the same choice with someone beside you would be done in an hour",
+        "C": "neither; decisions come and go fine"
+      },
+      "stem": "A real decision, yours alone, due tomorrow. Which is closer to how it actually goes?"
+    },
+    "O.P5b": {
+      "options": {
+        "A": "it would all get run — lists made, bills filed, calls placed — and you'd still be bracing for the audit that finds the mistake only you would make",
+        "B": "it wouldn't get run — not run badly, just not run; the machinery turns over when someone is in it with you, and this season no one is",
+        "C": "honestly fine either way"
+      },
+      "stem": "A season completely alone — no one to ask, lean on, or check with. Which is the truer forecast?"
+    },
+    "O.R1": {
+      "options": {
+        "A": "a long thread of friends who've known each other forever — in-jokes stacked like furniture",
+        "B": "\"she knew what I meant before I finished saying it\" — someone describing being gotten",
+        "C": "a quiet drifting-apart story — or the post that just says \"one year without you\"",
+        "D": "a straight-A report of a test — the exam aced, the audition passed, the license nailed first try; the verdict-machine smiled on someone, and it would have found you out",
+        "E": "\"just show people the real you\" — cheerful advice, huge engagement",
+        "F": "a story of someone's kindness repaid with a knife in the back — comments cheering the revenge",
+        "G": "an ordinary dashcam morning that turns, in one second, into the worst day of someone's life",
+        "H": "\"signed the lease, filed the taxes, chose the city\" — someone steering a whole life with one pair of hands, no co-pilot, and liking it"
+      },
+      "stem": "Late one night you're scrolling, and a stranger's post unexpectedly stings. Of these, the one that would sit with you longest:"
+    },
+    "O.R2": {
+      "options": {
+        "A": "the one that listens for people going or cooling — checking whether they're still really with you",
+        "B": "the one that grades you — tallying what you got wrong and what you're about to",
+        "C": "the one that keeps translating you into the local language — everywhere, with everyone",
+        "D": "the one that keeps watch — for the next move against you, or the next blow out of nowhere",
+        "E": "the one that stalls at every fork until someone else weighs in"
+      },
+      "stem": "If one background hum in your head could be switched off tomorrow, you'd pick:"
+    },
+    "O.R3": {
+      "options": {
+        "A": "\"you always half-expect people to walk out the door\"",
+        "B": "\"you've never once felt properly understood, have you\"",
+        "C": "\"you never stop bracing for the next blow\"",
+        "D": "\"you keep one eye on everyone's hands\"",
+        "E": "\"you've never really been one of them — any them, anywhere\"",
+        "F": "\"you still think if they saw all of you, they'd go\"",
+        "G": "\"you're always waiting to be found out as not good enough at this\"",
+        "H": "\"you can't quite run it alone, can you — and you know it\""
+      },
+      "stem": "Someone who knows you well says one of these — kindly, and not wrongly. Which one would land closest to the bone?"
+    },
+    "O.S1": {
+      "options": {
+        "A": "the sense they're on their way out — you catch yourself reading the shorter replies like tea leaves",
+        "B": "that even when you do talk, it lands beside you — they're present, and not quite with you",
+        "C": "that their real life is a room you're not in — the group, the plans, the jokes that aren't yours",
+        "D": "the itch to find out what's actually going on — what you're not being told"
+      },
+      "stem": "A close friend has been quieter than usual for a few weeks. The version of it that actually bothers you:"
+    },
+    "O.S2": {
+      "options": {
+        "A": "the result — botching it where it counts, the record showing it",
+        "B": "the exposure — that many eyes at that range, whatever the result",
+        "C": "the aloneness of it — you can do things, just not unheld; who else is on this?",
+        "D": "the angle — why you, and who benefits if you stumble"
+      },
+      "stem": "You're asked, in front of people who matter, to take on something visible and difficult. The needle that moves first:"
+    },
+    "O.S3": {
+      "options": {
+        "A": "authored — someone's intention is in it somewhere: a set-up, a leak, a turn",
+        "B": "authorless — a call, a lump, a skid; the world doesn't need a reason",
+        "C": "it's about the people you'd lose, not the event itself",
+        "D": "it's about being the one who couldn't handle whatever it is"
+      },
+      "stem": "Walking home you get the classic bad feeling — something's off. Nine times out of ten, the shape it takes:"
+    },
+    "O.S4": {
+      "options": {
+        "A": "grinding at it — braced the whole way for the mistake you're surely making",
+        "B": "not started — it just sits there; it won't begin until someone is in it with you",
+        "C": "done early, checked five times, and you can still hear the missed error ticking"
+      },
+      "stem": "A new, fiddly, consequential form must be filed by Friday. No one can do it for you. Tuesday-you is most likely:"
+    },
+    "O.S5": {
+      "options": {
+        "A": "noticing that one person — the friend across the table who loves you — is answering someone you aren't quite; even your closest pair runs on translation",
+        "B": "noticing you're doing the accent again — fluent company, native of nowhere; or that the things you actually love live in a drawer no group has ever asked about",
+        "C": "noticing one person keeps reading you — closer than you dressed for",
+        "D": "noticing the friend you came with drifting into someone else's orbit tonight"
+      },
+      "stem": "A gathering is going fine. The small moment that would quietly deflate you:"
+    },
+    "V.CPICK": {
+      "options": {
+        "AG-1": "Every slight is logged with date and interest — nothing forgiven, nothing written off, all of it due someday.",
+        "AG-2": "You keep smiling at them for years — holding the friendship, holding the position — waiting for the one moment that repays everything at once.",
+        "AG-3": "What was done to you must be done back — the same wound, in the same place, and they must know why.",
+        "AV-1": "You've engineered a life that needs no encounters — the room, the delivery at the door, the bell you don't answer.",
+        "AV-2": "You map your days around certain streets, people, and topics — life as a standing network of detours.",
+        "AV-3": "The letter stays unopened and the talk never happens — what you never begin can never go wrong.",
+        "AV-4": "You show up, then vanish at the first sign of weather — out of the party, out of the chat, before anything comes to a head.",
+        "AV-5": "You keep the world down to a few safe rooms and routes — new places, new people, new anything: no.",
+        "AV-6": "Since the one time it went wrong, that entire door stays closed — and you live freely everywhere else.",
+        "CA-1": "You run the disaster nightly in full detail — the firing, the exposure, the crash — so the real thing would find you already used to it.",
+        "CA-2": "Every room you enter is a room you've already escaped — doors marked, grab-list ready, someone to call.",
+        "CA-3": "The cough is the illness, the delay is the accident, the short reply is the ending — the darkest reading is the only safe one.",
+        "CA-4": "You walk every option to its ruin before choosing — often the only unwrecked path left is standing still.",
+        "CL-1": "You know their routine, their evening path, what sits by their door — you'd read the signs of leaving before they knew them.",
+        "CL-2": "You poll the bond — are we okay, do you still, did I do something — and every silence gets asked until it answers.",
+        "CL-3": "You keep yourself physically near — going where they go, waiting outside — because distance itself is the threat.",
+        "CL-4": "You bind with tokens and vows — the matching things, the promises extracted, the anniversaries kept like law.",
+        "CO-1": "You've studied ordinary and you wear it — clothes, opinions, laughter all tuned to the middle of the flock.",
+        "CO-2": "One pleasant face answers everything — the smile and the \"I'm fine\" that close every door before it opens.",
+        "CO-3": "Each circle of your life gets a different slice of you — and no two circles ever meet.",
+        "CO-4": "You answer every question and reveal nothing — replies that are true and empty, questions returned as questions.",
+        "CO-5": "There's exactly one thing that stays buried, whatever it costs — everything else about you can be shown freely.",
+        "CT-1": "You arrive already carrying what they were about to want — the food, the fix, the fare.",
+        "CT-2": "You're strongest at their weakest — drawn to the broken, indispensable in their worst hour, oddly lost in their best.",
+        "CT-3": "You hold the keys, the schedule, the passwords — cutting you out would collapse the whole thing, and that's how you've built it.",
+        "DM-1": "You've already answered every question with no — won't apply, won't confess, won't ask — so nothing ever has to be risked.",
+        "DM-2": "You grieve things while you still have them — the goodbye said early and quietly, so nothing can be torn from you later.",
+        "DM-3": "\"People like me don't get that\" isn't a complaint — it's solid ground, and you stand on it.",
+        "DM-4": "Everything's rotten, everyone settles, it all ends the same — and if nothing is worth anything, you've lost nothing.",
+        "DP-1": "You've handed one vetted person everything — the choosing, the carrying, the keys to your life — and bound the arrangement tight.",
+        "DP-2": "You ride with whoever's driving — plans, opinions, orders supplied by the current strong one; you're no trouble at all.",
+        "DP-3": "You lead with the tremble — the visible \"I can't\" that summons hands before you touch the ground.",
+        "DT-1": "The moment it hits, you go level — steady voice, steady hands, business as usual while everything burns.",
+        "DT-2": "Your first move is to shrink it — nothing really happened, it's fine, everyone's making too much of this.",
+        "DT-3": "You turn the feeling into a problem — dissect it, sort it, explain it — until there's nothing left over to feel.",
+        "DT-4": "You stay in the room but step out of yourself — watching the scene happen to someone wearing your face.",
+        "FA-1": "Real life is the prologue — the day is coming when they all find out what you actually are.",
+        "FA-2": "Your real people, your real world, are elsewhere — this one is a waiting room you're just passing through.",
+        "FA-3": "You keep a second world built and furnished in daily detail — and it outranks the one outside.",
+        "FA-4": "You narrate your life as a hidden epic — every humiliation a chapter, every setback a trial on the arc toward your rise.",
+        "PE-1": "The center of the room is just where you naturally stand — the show doesn't stop, because you're always on.",
+        "PE-2": "You're the funny one — if the table is laughing because of you, the evening counts as won.",
+        "PE-3": "You go for the gasp — the marvel, the \"how did you even DO that\" — because awe can't be faked or withheld.",
+        "PE-4": "You'd rather be stared at than unseen — shock works, scandal works, any gaze is warmer than none.",
+        "PE-5": "You maintain the version of you they get to see — the feed, the angle, the persona, curated like an exhibit.",
+        "PF-1": "Nothing leaves your hands with a flaw in it — triple-checked, immaculate, redone until it can't be faulted.",
+        "PF-2": "Whatever comes, you've already practiced it — rehearsed past any need, packed for contingencies nobody imagined.",
+        "PF-3": "Never late, never rude, never owing — your record is a life with no handle to grab.",
+        "PL-1": "You arrive as whoever the room needs — tastes, opinions, even your laugh adjusted to the present company.",
+        "PL-2": "You agree early, apologize first, absorb the blame — any anger in the room has to be put out, whatever it costs you.",
+        "PL-3": "You take every request, every shift, every favor — one no might be the last straw.",
+        "RI-1": "One more check buys another hour of safety — the lock, the stove, the sent message re-read twice.",
+        "RI-2": "The day holds as long as the sequence holds — the fixed morning order, the goodnight rite, the steps in their proper order.",
+        "RI-3": "You scrub, tidy, arrange — clean enough, ordered enough, and it can't touch you.",
+        "RS-1": "Your plan for the worst is to hold still and stay findable — someone is coming, and your part is to still be there.",
+        "RS-2": "Under threat you go small and still — no plan, no motion, just waiting for it to pass over.",
+        "RS-3": "You go where you're pushed and take what you're given — the current decides, it always does anyway.",
+        "RU-1": "You keep booking the same visiting-room — the person, the friendship, the era, replayed for one more hour inside it.",
+        "RU-2": "You rerun the scene with edits — this time you say the right thing, catch the tell, take the other door.",
+        "RU-3": "You re-argue the case you lost — gathering evidence, perfecting an argument no court will ever hear.",
+        "RU-4": "You keep everything — diaries, screenshots, saved chats — the past filed, curated, and revisited on schedule.",
+        "SP-1": "You say the cruel thing about yourself first, hardest, in front of everyone — no one can read you a verdict you've already read out.",
+        "SP-2": "The nicer the thing, the less you let yourself have it — the rest, the gift, the good dessert, all quietly declined.",
+        "SP-3": "You work the debt — extra shifts, favors, service — repaying something you've priced at unpayable.",
+        "SP-4": "Right at the threshold of a good thing, you break it — the win ruined, the message unsent, late to your own chance.",
+        "SR-1": "You do everything yourself — help offered is help declined, politely, every time.",
+        "SR-2": "You stockpile against ever needing anyone — savings, supplies, skills, the spare of everything.",
+        "SR-3": "The heavier the load, the harder you refuse the hand — you'd rather drop it than pass it.",
+        "SR-4": "You only trust what you've checked yourself — advice gets thanked, discarded, and re-derived from scratch.",
+        "SS-1": "You handle the worst nights by the mouthful — the fridge at midnight, the third helping, no room left inside for anything else.",
+        "SS-2": "You reach for whatever dims things — a drink, a pill, anything that turns the world down until sleep takes over.",
+        "SS-3": "You keep the feed running — noise in both ears, screen until you drop, never one silent minute for it to speak into.",
+        "SS-4": "You pay each hurt off on the spot — the little purchase, the dessert, the small treat the instant it stings.",
+        "ST-1": "You pick the target, study the weakness, and move when they're alone — cold, chosen, never hot temper.",
+        "ST-2": "At the first sign of threat you hit first and hardest — the fight ends before it exists.",
+        "ST-3": "You keep the fear standing — the tone, the looming, the example made of one so the rest never test you.",
+        "SV-1": "The rules are for other people — you don't demand deference, you just notice when it's late.",
+        "SV-2": "People's time, work, and hands are simply available to you — you use them openly, and owe nothing for it.",
+        "SV-3": "You keep the standings current — best in the room or it doesn't count, and second place is a kind of death.",
+        "TR-1": "You plant the idea, arrange who does what, and win without ever being seen to move.",
+        "TR-2": "You wear whatever face opens the door — charm as toolkit, sincerity as costume.",
+        "TR-3": "The trail was arranged well in advance — evidence placed, fall-guy chosen — so it was never going to lead to you.",
+        "TS-1": "You go find the edge — height, speed, the dare taken first — because the body's alarm is the one thing that still registers.",
+        "TS-2": "You put something real on the line — the all-in bet, the deadline ridden to the last hour — because nothing counts until it can be lost.",
+        "TS-3": "You book the scary thing yourself and arrive early — a danger with an appointment can't ambush you.",
+        "WA-1": "Any approach to the soft place gets heat — you're spiky on contact, and that's the fence doing its job.",
+        "WA-2": "The instant fault lands on you it's already leaving — \"it was YOU,\" \"they made me\" — out of your mouth before any verdict can settle.",
+        "WA-3": "You're always mid-grievance — at war with the service, the system, the neighbors — and nothing gets near a soft place in weather like this.",
+        "WT-1": "Seat facing the door, exits counted, everyone's position tracked — the unwatched direction is the one it comes from.",
+        "WT-2": "You read faces, tones, the weight of a pause — you see the turn coming in someone before they feel it themselves.",
+        "WT-3": "Nothing moves in your world unknown to you — who said what to whom, what changed since yesterday."
+      },
+      "stem": "Which of these is most you?"
+    },
+    "V.OGROUP": {
+      "options": {
+        "ABN-G1": "The leaving actually happened — someone real was there and then wasn't, and you were there for it.",
+        "ABN-G2": "No one exactly left — you just kept finding, without any scene, that your place hadn't been held.",
+        "ABN-G3": "They mostly stayed — that's the thing — and some part of you stayed braced the whole time for the going.",
+        "ALN-G1": "It's been there from the start — wherever you were put, the people around you ran on settings you didn't come with.",
+        "ALN-G2": "It was never anything about you — where you come from, when you arrived, what you left behind did the placing, every time.",
+        "ALN-G3": "You did get in — that's the strange part — and being in is exactly how you learned it wasn't yours.",
+        "DEF-G1": "Yours has no date and no witness — it's something on the inside of you, and nobody has ever actually seen it.",
+        "DEF-G2": "Yours is a fact — something that happened, or the house you come from — kept covered because uncovered it would change every face around you.",
+        "DEF-G3": "Yours sits where seeing happens — in the mirror, in their reactions, in something once said to your face — and you've always known exactly what has to be managed.",
+        "ED-G1": "Nothing much ever came back at all — nobody was cruel, the attention around you was simply never on you.",
+        "ED-G2": "Something always came back — things, praise, affection even — just never quite the thing you were actually asking for.",
+        "ED-G3": "It got settled early that you weren't one of the ones who need things — and whatever you did need stayed unclaimed.",
+        "FAI-G1": "There's an actual day you could name — one time it truly went wrong — and what you believe you're capable of runs through it.",
+        "FAI-G2": "The measure was never yours — it was set beside you, ahead of you, over you, before you had a say — and you keep arriving under it.",
+        "FAI-G3": "No single day did it — it's the standing, everyday version: a gap that has simply always been there, however well you work around it.",
+        "MB-G1": "What came to you sweetly was never just sweet — kindness, in your history, always turned out to be part of a transaction.",
+        "MB-G2": "It was the close ones who did it — whoever hurt you worst got in through trust you'd already given.",
+        "MB-G3": "It wasn't one traitor — it was the ground itself: home, street, school, being unguarded anywhere simply cost.",
+        "POW-G1": "One way or another the steering was never handed over — someone else always covered the deciding, and the practice never got to be yours.",
+        "POW-G2": "You weren't kept from it so much as relieved of it — whenever it mattered, something or someone took over before you could.",
+        "VC-G1": "It actually reached you — your own life took the hit once, or missed it by a breath — and you've known ever since what can happen.",
+        "VC-G2": "You weren't the one it hit — but it lived close enough, long enough, that being braced became your resting state."
+      },
+      "stem": "Which of these is closest to how it was for you? Pick the nearest."
+    },
+    "V.OPICK": {
+      "options": {
+        "ABN-1": "You catch yourself reading the signs — shorter replies, earlier goodbyes — long before anyone says they're leaving.",
+        "ABN-10": "The visits got shorter and the gaps got longer — you learned to read a calendar before you could read a clock.",
+        "ABN-2": "You remember the day someone new arrived, and your chair quietly became someone else's.",
+        "ABN-3": "There was a day someone was supposed to come back for you — you can still describe the door you watched.",
+        "ABN-4": "One day they simply weren't there — no goodbye, and nobody had asked you anything first.",
+        "ABN-5": "Houses, schools, almost-parents — at some point you stopped bothering to memorize names.",
+        "ABN-6": "The good days were completely real — which is exactly what made listening for the front door unbearable.",
+        "ABN-7": "You remember waiting somewhere long after everyone else was collected — and deciding not to mention it.",
+        "ABN-8": "You loved someone while the whole house waited to lose them — hello and goodbye were the same season.",
+        "ABN-9": "Someone who loved you used leaving as a threat — and you believed it, every single time.",
+        "ALN-1": "You've watched people click with each other your whole life — and waited for it like a bus that never comes.",
+        "ALN-10": "Some part of you has always been waiting for your real people to come collect you.",
+        "ALN-11": "You can fit in anywhere — and you've noticed that's not the same as belonging somewhere.",
+        "ALN-2": "Every group you've ever joined had already formed by the time you got there.",
+        "ALN-3": "Other kids' houses ran on rules yours didn't — you translated between two worlds and held a passport to neither.",
+        "ALN-4": "You were at every gathering — and can't remember once being asked what you thought.",
+        "ALN-5": "The thing you love most, you learned to stop mentioning by age twelve.",
+        "ALN-6": "Each side has a word for what you are — and it's the other side's name.",
+        "ALN-7": "One week the conversations just started happening without you — and no one ever said why.",
+        "ALN-8": "At ten you could handle things adults praised you for — and not one thing the kids around you were doing.",
+        "ALN-9": "You left the world you were raised in — and the new one never issued you papers.",
+        "DEF-1": "People say you're so kind — and every time, something in you answers: if only you knew.",
+        "DEF-10": "What happened wasn't your doing — but you're the one who has felt dirty ever since.",
+        "DEF-11": "You can still see the exact expression they made — you've been arranging yourself to never cause it again.",
+        "DEF-12": "Someone who knew you best once told you exactly what you are — and you've been quoting them against yourself ever since.",
+        "DEF-2": "You've never told anyone how much you actually want — the amount is the ugly part.",
+        "DEF-3": "There are thoughts you'd rather die than say out loud — and you're sure they mean something about you.",
+        "DEF-4": "There is one specific thing you did — or didn't do — that no one will ever hear from you.",
+        "DEF-5": "Someone didn't make it and you did — and no \"it wasn't your fault\" has ever once landed.",
+        "DEF-6": "You can't point to why — you've just always known there's something in you that other people don't have to hide.",
+        "DEF-7": "There's one thing you're never seen without — and being seen without it is the actual nightmare.",
+        "DEF-8": "You have a way of standing, dressing, sitting — an entire system — built around one thing about your body.",
+        "DEF-9": "There was a reason you never let anyone walk you home.",
+        "ED-1": "You brought something to show them, and their face never once turned your way.",
+        "ED-10": "Your childhood dinners were mostly eaten alone — nobody did anything wrong, and nobody was there.",
+        "ED-2": "You said how you felt, and what came back was a thing — a gift, a treat, money — never someone listening.",
+        "ED-3": "You did worse and worse things, waiting for someone to finally get angry — and no one ever grabbed your hand.",
+        "ED-4": "You explained what you really meant and watched it land as something else — every time, with people who loved you.",
+        "ED-5": "The one time you said \"I can't,\" it was laughed off — so you never said it again.",
+        "ED-6": "You know everyone's secrets; you'd have to think hard to name one person who knows one of yours.",
+        "ED-7": "Your news was always delivered into a room already worried about something bigger.",
+        "ED-8": "You remember being a child comforting an adult who looked straight through you.",
+        "ED-9": "You can name the exact thing they loved you for — and the warmth stopped the moment you stopped producing it.",
+        "FAI-1": "Every time you succeed, your first thought is how narrowly you got away with it.",
+        "FAI-10": "Somewhere back there you missed the part everyone else learned — and everything since sits on top of the hole.",
+        "FAI-2": "Your report card was never read alone — it was always read next to someone else's.",
+        "FAI-3": "There was one day your whole future was decided — and on that day, you were not good enough.",
+        "FAI-4": "You were completely sure, once, about the thing that mattered most — and you were wrong, and no conclusion of yours has felt solid since.",
+        "FAI-5": "You peaked early — and \"so much potential\" turned into a bill you can't pay.",
+        "FAI-6": "You watched everyone else simply get it, again and again, while you were still reading the instructions.",
+        "FAI-7": "Someone trusted you with something that mattered, and you dropped it — you've dodged being handed anything since.",
+        "FAI-8": "Your future had a job title before you had a personality — and you're permanently behind schedule on it.",
+        "FAI-9": "You don't fear starting — you fear the moment, always the same one, when you'll quietly stop.",
+        "MB-1": "When someone turns suddenly sweet on you, you brace — waiting to find out what it's the setup for.",
+        "MB-10": "You write nothing down and say nothing out loud at home — you learned your privacy had already been opened.",
+        "MB-2": "You told exactly one person — and by Monday, everyone knew.",
+        "MB-3": "The person whose job was to protect you decided, when it mattered, that you were the price worth paying.",
+        "MB-4": "You learned early to check what people did against what they said — at home, the two never once matched.",
+        "MB-5": "Someone profited off you and called it love — you could itemize exactly what they took.",
+        "MB-6": "You found out the invitation was a joke — and that everyone except you had known all along.",
+        "MB-7": "The person you'd have defended to the end stood up — on the other side.",
+        "MB-8": "You flinch at gifts — you've paid too much for free things.",
+        "MB-9": "You still sit facing the door — you grew up somewhere that being off guard cost you.",
+        "POW-1": "Asked what you want — just you — your mind offers other people's answers, or none at all.",
+        "POW-2": "The first time no one decided for you, you discovered you didn't know how it's done.",
+        "POW-3": "Tasks other people call small can pile up on you until you can't start any of them.",
+        "POW-4": "You can name who saved you each time — the list of times you saved yourself is the empty one.",
+        "POW-5": "\"She can't handle it\" got decided before you could try — and the certificate never expired.",
+        "POW-6": "You were loved and looked after — and left completely unable to do it yourself; both of those are true.",
+        "POW-7": "Even now, free to choose, you catch yourself waiting for a permission no one is there to give.",
+        "VC-1": "The worst day of your life started as a completely normal one — and normal has never felt safe since.",
+        "VC-2": "Your own body has dropped you without warning before — you've never fully trusted it again.",
+        "VC-3": "You have stood in a place that was supposed to be permanent and watched it stop existing.",
+        "VC-4": "You grew up listening for the phone at night — the bad thing always came back, never on a date you could circle.",
+        "VC-5": "You were one step, one second, one lane away, once — and you've never been able to un-know it.",
+        "VC-6": "It didn't happen to you — you just had to watch, and \"it could have been anyone\" is the part that never left.",
+        "VC-7": "One season your family had a life, and the next it was gone — you still guard things no lock can hold.",
+        "VC-8": "Nothing ever actually happened — you were simply taught, daily, that something was about to."
+      },
+      "stem": "Which of these do you know from the inside? Pick the one that is most yours."
+    }
+  }
+}

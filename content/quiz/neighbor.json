@@ -1,0 +1,56 @@
+{
+  "ABN|Clinger": {
+    "table": {
+      "ABN-1|CL-1": "ABN-1_CL-1"
+    },
+    "tiers": {
+      "ABN-1|CL-1": 0
+    }
+  },
+  "ED|Performer": {
+    "table": {
+      "ED-1|PE-1": "ED-1_PE-1",
+      "ED-1|PE-2": "ED-1_PE-1",
+      "ED-1|PE-3": "ED-1_PE-1",
+      "ED-2|PE-1": "ED-2_PE-2",
+      "ED-2|PE-2": "ED-2_PE-2",
+      "ED-2|PE-3": "ED-2_PE-2",
+      "ED-5|PE-1": "ED-5_PE-3",
+      "ED-5|PE-2": "ED-5_PE-3",
+      "ED-5|PE-3": "ED-5_PE-3",
+      "ED-9|PE-1": "ED-9_PE-1",
+      "ED-9|PE-2": "ED-9_PE-1",
+      "ED-9|PE-3": "ED-9_PE-1"
+    },
+    "tiers": {
+      "ED-1|PE-1": 0,
+      "ED-1|PE-2": 1,
+      "ED-1|PE-3": 1,
+      "ED-2|PE-1": 1,
+      "ED-2|PE-2": 0,
+      "ED-2|PE-3": 1,
+      "ED-5|PE-1": 1,
+      "ED-5|PE-2": 1,
+      "ED-5|PE-3": 0,
+      "ED-9|PE-1": 0,
+      "ED-9|PE-2": 1,
+      "ED-9|PE-3": 1
+    }
+  },
+  "MB|Depender": {
+    "table": {
+      "MB-3|DP-1": "MB-3_DP-1"
+    },
+    "tiers": {
+      "MB-3|DP-1": 0
+    }
+  },
+  "VC|Watcher": {
+    "table": {
+      "VC-1|WT-1": "VC-1_WT-1"
+    },
+    "tiers": {
+      "VC-1|WT-1": 0
+    }
+  }
+}

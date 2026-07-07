@@ -1,0 +1,36 @@
+{
+  "cell": "ED|Performer",
+  "copingSub": "PE-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-9",
+  "style": "Performer",
+  "tag": "ED-9_PE-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the prison she filled the evening free hours with a show, and being watched was the whole of it.",
+          "One prisoner came to every performance, took the nearest place, and praised her at the end, until she let herself believe this watcher had come for her and not the act.",
+          "On an evening she chose not to perform, she sat as herself beside the watcher, who soon grew restless, said she was better when there was a show, and left to find one.",
+          "She announced a last performance in the courtyard at dusk, and the prisoners gathered below and along the iron railing above.",
+          "She told the watcher the finale was for her alone and placed her at a mark at the courtyard's far dark edge, apart from the others.",
+          "As the dark came on she drew all the light in the courtyard onto a single point and set it moving through the air, so that every eye followed it while she, the watcher, and all the rest stood in black.",
+          "She crossed the dark to the mark, strangled the watcher, then let the light settle and gave the courtyard its light again; the watcher lay dead at the mark set for the finale.",
+          "The prisoners swore the show had never stopped and that she had performed the whole time; but what had held their eyes was a point of light, and no one is strangled inside a watching crowd unless that crowd can see nothing else. Only she could pull the light onto that point and cross the dark it left."
+        ],
+        "epitaph": "A full house came every night, and what it loved was the act, never her.",
+        "epithet": "The Light They Came For",
+        "execution": [
+          "The execution stand rose as a lit stage high above the chamber floor; one blazing light fixed on her at its center while the whole court sat in darkness, every face turned up.",
+          "She stood at last as the one figure every eye could find.",
+          "The light, and the platform beneath her, held only while she performed.",
+          "She sang and moved to keep them, and for a while the court watched nothing but her; then her voice wore out and she fell silent.",
+          "The light went out, and the platform dropped her to the stone floor below."
+        ],
+        "magic": "Spotlight — she pulls all the light in a place onto a single point of her choosing, and everywhere else goes dark."
+      },
+      "variant": 1
+    }
+  ]
+}

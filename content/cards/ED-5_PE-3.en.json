@@ -1,0 +1,32 @@
+{
+  "cell": "ED|Performer",
+  "copingSub": "PE-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-5",
+  "style": "Performer",
+  "tag": "ED-5_PE-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She was the prison's miracle: burns, fevers, split knees — she can draw them out through her palms into her own body, and she recovers after a night's sleep. She never worked it in private; a healing was a show, done where the room could watch.",
+          "She asked for help exactly once. At the card table she said she might not manage anymore; the girl across from her laughed, said \"you? you'll be fine,\" and dealt the next hand. No one had ever taken a turn for her.",
+          "That night, locked in the cell she slept in alone, she climbed the bunk rail and dropped herself onto the stone floor — again and again, until something inside her broke. She lay with it until six.",
+          "At breakfast she crossed to the card player's table and took her hand — the healer's touch, the one gesture nobody questions. But the girl was dead before her tea cooled.",
+          "When a wound is moved, its age moves with it. The bruises on the body had grown for hours, on a girl seen whole at six, and their spread matched falls from a height the dining hall does not contain. A bunk rail is that height.",
+          "Bruises older than the morning mean they were moved from another body — and only one girl can do that."
+        ],
+        "epitaph": "Her whole life, she was waiting for her turn.",
+        "epithet": "The Miracle Nobody Carried",
+        "execution": [
+          "An iron cradle sized for a girl rose on the execution stand.",
+          "Its arms lifted her in, wrapped her like an infant, and rocked her; an arm shaped like a nurse's fed her broth by the spoonful and wiped her mouth, while every prisoner stood and watched.",
+          "With each rock the swaddling drew tighter, until nothing in the cradle moved."
+        ],
+        "magic": "By touch, she moves a wound or a sickness out of one body and into another."
+      },
+      "variant": 1
+    }
+  ]
+}

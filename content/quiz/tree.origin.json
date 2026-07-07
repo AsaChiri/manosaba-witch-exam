@@ -1,0 +1,1230 @@
+{
+  "cluster_block": {
+    "AGENCY": "O.S4",
+    "BELONG": "O.S5",
+    "BOND": "O.S1",
+    "THREAT": "O.S3",
+    "VERDICT": "O.S2"
+  },
+  "clusters": {
+    "AGENCY": [
+      "POW"
+    ],
+    "BELONG": [
+      "ALN"
+    ],
+    "BOND": [
+      "ABN",
+      "ED"
+    ],
+    "THREAT": [
+      "MB",
+      "VC"
+    ],
+    "VERDICT": [
+      "DEF",
+      "FAI"
+    ]
+  },
+  "families": [
+    "ABN",
+    "ED",
+    "MB",
+    "DEF",
+    "ALN",
+    "FAI",
+    "VC",
+    "POW"
+  ],
+  "frozen_pairs": [
+    [
+      "ED",
+      "ABN"
+    ],
+    [
+      "MB",
+      "VC"
+    ],
+    [
+      "DEF",
+      "FAI"
+    ],
+    [
+      "ALN",
+      "ED"
+    ],
+    [
+      "POW",
+      "FAI"
+    ]
+  ],
+  "mechanism": {
+    "alternate_gap": 2,
+    "c1_escaped_pair_trigger": true,
+    "c1_near_tie_gap": 2,
+    "c1_third_option_gap": 2,
+    "disc_cap": 4,
+    "liveness_gap": 3,
+    "liveness_gap_prearmed": 4,
+    "liveness_top_k": 4,
+    "separation_blocks": 2
+  },
+  "pairs": [
+    {
+      "alternate": "O.P1b",
+      "bank": "P",
+      "num": 1,
+      "pair": [
+        "ED",
+        "ABN"
+      ],
+      "primary": "O.P1"
+    },
+    {
+      "alternate": "O.P2b",
+      "bank": "P",
+      "num": 2,
+      "pair": [
+        "MB",
+        "VC"
+      ],
+      "primary": "O.P2"
+    },
+    {
+      "alternate": "O.P3b",
+      "bank": "P",
+      "num": 3,
+      "pair": [
+        "DEF",
+        "FAI"
+      ],
+      "primary": "O.P3"
+    },
+    {
+      "alternate": "O.P4b",
+      "bank": "P",
+      "num": 4,
+      "pair": [
+        "ALN",
+        "ED"
+      ],
+      "primary": "O.P4"
+    },
+    {
+      "alternate": "O.P5b",
+      "bank": "P",
+      "num": 5,
+      "pair": [
+        "POW",
+        "FAI"
+      ],
+      "primary": "O.P5"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 1,
+      "pair": [
+        "ABN",
+        "MB"
+      ],
+      "primary": "O.B1"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 2,
+      "pair": [
+        "DEF",
+        "ALN"
+      ],
+      "primary": "O.B2"
+    },
+    {
+      "alternate": "O.B3b",
+      "bank": "B",
+      "num": 3,
+      "pair": [
+        "DEF",
+        "MB"
+      ],
+      "primary": "O.B3"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 4,
+      "pair": [
+        "DEF",
+        "ABN"
+      ],
+      "primary": "O.B4"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 5,
+      "pair": [
+        "VC",
+        "ABN"
+      ],
+      "primary": "O.B5"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 6,
+      "pair": [
+        "VC",
+        "DEF"
+      ],
+      "primary": "O.B6"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 7,
+      "pair": [
+        "ED",
+        "MB"
+      ],
+      "primary": "O.B7"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 8,
+      "pair": [
+        "ED",
+        "DEF"
+      ],
+      "primary": "O.B8"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 9,
+      "pair": [
+        "POW",
+        "ED"
+      ],
+      "primary": "O.B9"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 10,
+      "pair": [
+        "POW",
+        "MB"
+      ],
+      "primary": "O.B10"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 11,
+      "pair": [
+        "POW",
+        "ALN"
+      ],
+      "primary": "O.B11"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 12,
+      "pair": [
+        "ALN",
+        "ABN"
+      ],
+      "primary": "O.B12"
+    },
+    {
+      "alternate": null,
+      "bank": "B",
+      "num": 13,
+      "pair": [
+        "ALN",
+        "MB"
+      ],
+      "primary": "O.B13"
+    }
+  ],
+  "precedence": [
+    "DEF",
+    "ALN",
+    "ED",
+    "ABN",
+    "MB",
+    "FAI",
+    "VC",
+    "POW"
+  ],
+  "prior": {
+    "Avenger": {
+      "prearm": [
+        "O.B13"
+      ],
+      "tier1": [
+        "MB"
+      ],
+      "tier2": [
+        "ALN"
+      ]
+    },
+    "Avoider": {
+      "prearm": [
+        "O.B2",
+        "O.P3"
+      ],
+      "tier1": [],
+      "tier2": [
+        "ALN",
+        "FAI",
+        "DEF"
+      ]
+    },
+    "Caretaker": {
+      "prearm": [
+        "O.P1"
+      ],
+      "tier1": [
+        "ABN"
+      ],
+      "tier2": [
+        "ED"
+      ]
+    },
+    "Catastrophizer": {
+      "prearm": [
+        "O.P2",
+        "O.P5"
+      ],
+      "tier1": [
+        "VC"
+      ],
+      "tier2": [
+        "FAI",
+        "POW"
+      ]
+    },
+    "Clinger": {
+      "prearm": [
+        "O.B5"
+      ],
+      "tier1": [
+        "ABN"
+      ],
+      "tier2": [
+        "VC"
+      ]
+    },
+    "Concealer": {
+      "prearm": [
+        "O.B2"
+      ],
+      "tier1": [
+        "DEF"
+      ],
+      "tier2": [
+        "ALN"
+      ]
+    },
+    "Depender": {
+      "prearm": [
+        "O.P5"
+      ],
+      "tier1": [
+        "POW"
+      ],
+      "tier2": [
+        "FAI",
+        "VC"
+      ]
+    },
+    "Detacher": {
+      "prearm": [
+        "O.P4"
+      ],
+      "tier1": [
+        "ED"
+      ],
+      "tier2": [
+        "ALN"
+      ]
+    },
+    "Doomer": {
+      "prearm": [
+        "O.P1"
+      ],
+      "tier1": [],
+      "tier2": [
+        "ED",
+        "ABN"
+      ]
+    },
+    "Fantasist": {
+      "prearm": [
+        "O.P4"
+      ],
+      "tier1": [
+        "ALN"
+      ],
+      "tier2": [
+        "ED"
+      ]
+    },
+    "Perfectionist": {
+      "prearm": [
+        "O.P3"
+      ],
+      "tier1": [],
+      "tier2": [
+        "DEF",
+        "FAI"
+      ]
+    },
+    "Performer": {
+      "prearm": [
+        "O.B2",
+        "O.P4"
+      ],
+      "tier1": [],
+      "tier2": [
+        "DEF",
+        "ALN",
+        "ED"
+      ]
+    },
+    "Pleaser": {
+      "prearm": [],
+      "tier1": [
+        "ABN"
+      ],
+      "tier2": [
+        "POW"
+      ]
+    },
+    "Resigned": {
+      "prearm": [
+        "O.B9"
+      ],
+      "tier1": [
+        "POW"
+      ],
+      "tier2": [
+        "ED"
+      ]
+    },
+    "Ritualist": {
+      "prearm": [
+        "O.P2"
+      ],
+      "tier1": [
+        "VC"
+      ],
+      "tier2": [
+        "POW"
+      ]
+    },
+    "Ruminator": {
+      "prearm": [
+        "O.B4"
+      ],
+      "tier1": [
+        "ABN"
+      ],
+      "tier2": [
+        "DEF"
+      ]
+    },
+    "Self-Punisher": {
+      "prearm": [
+        "O.P3"
+      ],
+      "tier1": [
+        "DEF"
+      ],
+      "tier2": [
+        "FAI"
+      ]
+    },
+    "Self-Reliant": {
+      "prearm": [
+        "O.B13"
+      ],
+      "tier1": [
+        "MB"
+      ],
+      "tier2": [
+        "ALN"
+      ]
+    },
+    "Self-Soother": {
+      "prearm": [
+        "O.B8"
+      ],
+      "tier1": [
+        "ED"
+      ],
+      "tier2": [
+        "DEF"
+      ]
+    },
+    "Sovereign": {
+      "prearm": [
+        "O.B2"
+      ],
+      "tier1": [
+        "DEF"
+      ],
+      "tier2": [
+        "ALN"
+      ]
+    },
+    "Striker": {
+      "prearm": [
+        "O.B3"
+      ],
+      "tier1": [],
+      "tier2": [
+        "DEF",
+        "MB"
+      ]
+    },
+    "Thrill-Seeker": {
+      "prearm": [],
+      "tier1": [],
+      "tier2": [
+        "VC",
+        "ED"
+      ]
+    },
+    "Trickster": {
+      "prearm": [],
+      "tier1": [
+        "MB"
+      ],
+      "tier2": [
+        "FAI"
+      ]
+    },
+    "Wall-of-Anger": {
+      "prearm": [
+        "O.B13"
+      ],
+      "tier1": [
+        "ALN"
+      ],
+      "tier2": [
+        "MB",
+        "ABN"
+      ]
+    },
+    "Watcher": {
+      "prearm": [
+        "O.P2"
+      ],
+      "tier1": [
+        "MB"
+      ],
+      "tier2": [
+        "VC"
+      ]
+    }
+  },
+  "questions": {
+    "O.B1": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "MB": 2
+        },
+        "B": {
+          "ABN": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ABN",
+        "MB"
+      ]
+    },
+    "O.B10": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "MB": 2
+        },
+        "B": {
+          "POW": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "POW",
+        "MB"
+      ]
+    },
+    "O.B11": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ALN": 2
+        },
+        "B": {
+          "POW": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "POW",
+        "ALN"
+      ]
+    },
+    "O.B12": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ALN": 2
+        },
+        "B": {
+          "ABN": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ALN",
+        "ABN"
+      ]
+    },
+    "O.B13": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ALN": 2
+        },
+        "B": {
+          "MB": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ALN",
+        "MB"
+      ]
+    },
+    "O.B2": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "DEF": 2
+        },
+        "B": {
+          "ALN": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "DEF",
+        "ALN"
+      ]
+    },
+    "O.B3": {
+      "alternate": "O.B3b",
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "MB": 2
+        },
+        "B": {
+          "DEF": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "DEF",
+        "MB"
+      ]
+    },
+    "O.B3b": {
+      "escape": "C",
+      "kind": "alternate",
+      "options": {
+        "A": {
+          "MB": 2
+        },
+        "B": {
+          "DEF": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "DEF",
+        "MB"
+      ]
+    },
+    "O.B4": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ABN": 2
+        },
+        "B": {
+          "DEF": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "DEF",
+        "ABN"
+      ]
+    },
+    "O.B5": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "VC": 2
+        },
+        "B": {
+          "ABN": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "VC",
+        "ABN"
+      ]
+    },
+    "O.B6": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "VC": 2
+        },
+        "B": {
+          "DEF": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "VC",
+        "DEF"
+      ]
+    },
+    "O.B7": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ED": 2
+        },
+        "B": {
+          "MB": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ED",
+        "MB"
+      ]
+    },
+    "O.B8": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ED": 2
+        },
+        "B": {
+          "DEF": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ED",
+        "DEF"
+      ]
+    },
+    "O.B9": {
+      "alternate": null,
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ED": 2
+        },
+        "B": {
+          "POW": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "POW",
+        "ED"
+      ]
+    },
+    "O.P1": {
+      "alternate": "O.P1b",
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ED": 2
+        },
+        "B": {
+          "ABN": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ED",
+        "ABN"
+      ]
+    },
+    "O.P1b": {
+      "escape": "C",
+      "kind": "alternate",
+      "options": {
+        "A": {
+          "ED": 2
+        },
+        "B": {
+          "ABN": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ED",
+        "ABN"
+      ]
+    },
+    "O.P2": {
+      "alternate": "O.P2b",
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "MB": 2
+        },
+        "B": {
+          "VC": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "MB",
+        "VC"
+      ]
+    },
+    "O.P2b": {
+      "escape": null,
+      "kind": "alternate",
+      "options": {
+        "A": {
+          "MB": 2
+        },
+        "B": {
+          "VC": 2
+        },
+        "C": {
+          "DEF": 1
+        }
+      },
+      "pair": [
+        "MB",
+        "VC"
+      ]
+    },
+    "O.P3": {
+      "alternate": "O.P3b",
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "FAI": 2
+        },
+        "B": {
+          "DEF": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "DEF",
+        "FAI"
+      ]
+    },
+    "O.P3b": {
+      "escape": "D",
+      "kind": "alternate",
+      "options": {
+        "A": {
+          "DEF": 2
+        },
+        "B": {
+          "FAI": 2
+        },
+        "C": {
+          "FAI": 2
+        },
+        "D": {}
+      },
+      "pair": [
+        "DEF",
+        "FAI"
+      ]
+    },
+    "O.P4": {
+      "alternate": "O.P4b",
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "ALN": 2
+        },
+        "B": {
+          "ED": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ALN",
+        "ED"
+      ]
+    },
+    "O.P4b": {
+      "escape": "C",
+      "kind": "alternate",
+      "new_slot": true,
+      "options": {
+        "A": {
+          "ALN": 2
+        },
+        "B": {
+          "ED": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "ALN",
+        "ED"
+      ]
+    },
+    "O.P5": {
+      "alternate": "O.P5b",
+      "escape": "C",
+      "kind": "discriminator",
+      "options": {
+        "A": {
+          "FAI": 2
+        },
+        "B": {
+          "POW": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "POW",
+        "FAI"
+      ]
+    },
+    "O.P5b": {
+      "escape": "C",
+      "kind": "alternate",
+      "options": {
+        "A": {
+          "FAI": 2
+        },
+        "B": {
+          "POW": 2
+        },
+        "C": {}
+      },
+      "pair": [
+        "POW",
+        "FAI"
+      ]
+    },
+    "O.R1": {
+      "kind": "router",
+      "options": {
+        "A": {
+          "ALN": 2,
+          "ED": 1
+        },
+        "B": {
+          "ABN": 1,
+          "ALN": 1,
+          "ED": 2
+        },
+        "C": {
+          "ABN": 2,
+          "ED": 1
+        },
+        "D": {
+          "DEF": 1,
+          "FAI": 2,
+          "POW": 1
+        },
+        "E": {
+          "DEF": 2,
+          "FAI": 1
+        },
+        "F": {
+          "MB": 2,
+          "VC": 1
+        },
+        "G": {
+          "MB": 1,
+          "VC": 2
+        },
+        "H": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    },
+    "O.R2": {
+      "kind": "router",
+      "options": {
+        "A": {
+          "ABN": 1,
+          "ED": 1
+        },
+        "B": {
+          "DEF": 1,
+          "FAI": 1
+        },
+        "C": {
+          "ALN": 2,
+          "ED": 1
+        },
+        "D": {
+          "MB": 1,
+          "VC": 1
+        },
+        "E": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    },
+    "O.R3": {
+      "kind": "router",
+      "new_slot": true,
+      "options": {
+        "A": {
+          "ABN": 2,
+          "ED": 1
+        },
+        "B": {
+          "ABN": 1,
+          "ALN": 1,
+          "ED": 2
+        },
+        "C": {
+          "MB": 1,
+          "VC": 2
+        },
+        "D": {
+          "MB": 2,
+          "VC": 1
+        },
+        "E": {
+          "ALN": 2,
+          "ED": 1
+        },
+        "F": {
+          "DEF": 2,
+          "FAI": 1
+        },
+        "G": {
+          "DEF": 1,
+          "FAI": 2,
+          "POW": 1
+        },
+        "H": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    },
+    "O.S1": {
+      "kind": "separation",
+      "options": {
+        "A": {
+          "ABN": 2,
+          "ED": 1
+        },
+        "B": {
+          "ABN": 1,
+          "ALN": 1,
+          "ED": 2
+        },
+        "C": {
+          "ALN": 2,
+          "ED": 1
+        },
+        "D": {
+          "MB": 2,
+          "VC": 1
+        }
+      }
+    },
+    "O.S2": {
+      "kind": "separation",
+      "options": {
+        "A": {
+          "DEF": 1,
+          "FAI": 2,
+          "POW": 1
+        },
+        "B": {
+          "DEF": 2,
+          "FAI": 1
+        },
+        "C": {
+          "FAI": 1,
+          "POW": 2
+        },
+        "D": {
+          "MB": 2,
+          "VC": 1
+        }
+      }
+    },
+    "O.S3": {
+      "kind": "separation",
+      "options": {
+        "A": {
+          "MB": 2,
+          "VC": 1
+        },
+        "B": {
+          "MB": 1,
+          "VC": 2
+        },
+        "C": {
+          "ABN": 2,
+          "VC": 1
+        },
+        "D": {
+          "FAI": 1,
+          "POW": 2
+        }
+      }
+    },
+    "O.S4": {
+      "kind": "separation",
+      "options": {
+        "A": {
+          "FAI": 2,
+          "POW": 1
+        },
+        "B": {
+          "FAI": 1,
+          "POW": 2
+        },
+        "C": {
+          "FAI": 1,
+          "VC": 2
+        }
+      }
+    },
+    "O.S5": {
+      "kind": "separation",
+      "options": {
+        "A": {
+          "ALN": 1,
+          "ED": 2
+        },
+        "B": {
+          "ALN": 2,
+          "ED": 1
+        },
+        "C": {
+          "ALN": 1,
+          "DEF": 2
+        },
+        "D": {
+          "ABN": 2,
+          "ED": 1
+        }
+      }
+    }
+  },
+  "uncovered_pairs": [
+    [
+      "ED",
+      "FAI"
+    ],
+    [
+      "ED",
+      "VC"
+    ],
+    [
+      "ABN",
+      "FAI"
+    ],
+    [
+      "ABN",
+      "POW"
+    ],
+    [
+      "DEF",
+      "POW"
+    ],
+    [
+      "ALN",
+      "FAI"
+    ],
+    [
+      "ALN",
+      "VC"
+    ],
+    [
+      "MB",
+      "FAI"
+    ],
+    [
+      "FAI",
+      "VC"
+    ],
+    [
+      "VC",
+      "POW"
+    ]
+  ],
+  "wanted_lines": {
+    "ABN": "a staying that doesn't expire — the door no longer watched",
+    "ALN": "a table where you're not a guest",
+    "DEF": "the all-clear — fine as-is, even seen in full",
+    "ED": "being *gotten* — eyes that land on you, no translation needed",
+    "FAI": "the settled verdict that you're good at this — immune to the next test",
+    "MB": "one person you could be fully off-guard with",
+    "POW": "the wheel handled — or the wanting that finally knows its own direction",
+    "VC": "a tomorrow guaranteed to hold no ambush"
+  }
+}
