@@ -1,0 +1,4 @@
+{
+  "_doc": "Owner override map for card magic NAMES, keyed <tag>.<locale> (en/ja/zh-CN; zh-TW derives from zh-CN). Compile hard-fails when a shipped card locale has no name and no override. Names must be authored, never invented.",
+  "names": {}
+}

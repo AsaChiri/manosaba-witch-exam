@@ -27,7 +27,10 @@
           "Pair after pair, she was carried up over everyone's heads.",
           "At the top, the last hands did not catch."
         ],
-        "magic": "A promise spoken to her binds the speaker's body: any motion that would break it stops mid-motion."
+        "magic": {
+          "name": "Oathlock",
+          "text": "A promise spoken to her binds the speaker's body: any motion that would break it stops mid-motion."
+        }
       },
       "variant": 1
     }

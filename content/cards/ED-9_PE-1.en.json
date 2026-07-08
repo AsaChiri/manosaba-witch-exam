@@ -28,7 +28,10 @@
           "She sang and moved to keep them, and for a while the court watched nothing but her; then her voice wore out and she fell silent.",
           "The light went out, and the platform dropped her to the stone floor below."
         ],
-        "magic": "Spotlight — she pulls all the light in a place onto a single point of her choosing, and everywhere else goes dark."
+        "magic": {
+          "name": "Spotlight",
+          "text": "she pulls all the light in a place onto a single point of her choosing, and everywhere else goes dark."
+        }
       },
       "variant": 1
     }

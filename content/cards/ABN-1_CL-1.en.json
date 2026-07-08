@@ -27,7 +27,10 @@
           "She held the cart back until her arms gave, then reached after it; the farther it ran, the higher the cord drew her.",
           "The cart ran to the end of the track and stopped, and she hung at the post."
         ],
-        "magic": "The Draw — She can draw a person she has bound to herself straight to her side from any distance, and that person cannot resist the pull."
+        "magic": {
+          "name": "The Draw",
+          "text": "She can draw a person she has bound to herself straight to her side from any distance, and that person cannot resist the pull."
+        }
       },
       "variant": 1
     }

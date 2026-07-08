@@ -115,7 +115,7 @@
     "qq": "QQ",
     "x": "X",
     "webshare": "共有",
-    "template": "{name}――{epithet}。魔女因子、検出。",
+    "template": "{name}――「{magic}」。魔女因子、検出。",
     "hint": "検査を受ける：",
     "qrCaption": "コードを読んで検査を受ける",
     "exportTag": "魔女因子検査"

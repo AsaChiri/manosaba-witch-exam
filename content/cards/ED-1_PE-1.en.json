@@ -25,7 +25,10 @@
           "Row by row, the lights went out as she danced.",
           "The wires kept the dance going in the dark until the body stopped."
         ],
-        "magic": "Raises a double of herself that replays a stretch of her own past actions, exactly as they happened."
+        "magic": {
+          "name": "Encore",
+          "text": "Raises a double of herself that replays a stretch of her own past actions, exactly as they happened."
+        }
       },
       "variant": 1
     }

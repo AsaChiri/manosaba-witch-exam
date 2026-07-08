@@ -27,7 +27,10 @@
           "It came down, and her sense gave her no warning at all.",
           "The slab came to rest on the stand."
         ],
-        "magic": "The Living Watch — She feels the presence and place of every living thing within the walls, all of them at once."
+        "magic": {
+          "name": "The Living Watch",
+          "text": "She feels the presence and place of every living thing within the walls, all of them at once."
+        }
       },
       "variant": 1
     }

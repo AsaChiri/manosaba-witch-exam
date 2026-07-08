@@ -110,7 +110,7 @@
     "qq": "QQ",
     "x": "X",
     "webshare": "Share",
-    "template": "{name} — {epithet}. Witch factor: detected.",
+    "template": "{name} — “{magic}”. Witch factor: detected.",
     "hint": "Take the examination: ",
     "qrCaption": "Scan to be examined",
     "exportTag": "Witch Factor Examination"

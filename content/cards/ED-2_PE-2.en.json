@@ -25,7 +25,10 @@
           "Every parcel was empty.",
           "The machine stopped when the pile stopped moving."
         ],
-        "magic": "When she laughs, everyone who hears her laughs with her until she stops."
+        "magic": {
+          "name": "Laugh Along",
+          "text": "When she laughs, everyone who hears her laughs with her until she stops."
+        }
       },
       "variant": 1
     }

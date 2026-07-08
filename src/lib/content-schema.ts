@@ -4,8 +4,9 @@
  * Two layers:
  *  - RAW schemas match the on-disk shape emitted by the sibling compiler
  *    (`content/`) and mirrored by the fixtures: cards wrap fields in
- *    `variants[].fields`, `magic` is a single string, `cell` is "FAMILY|Style".
- *  - NORMALIZED types are what the UI consumes (epithet/magic{name?,text}/
+ *    `variants[].fields`, `magic` is `{name, text}` (name required — the card
+ *    headline), `cell` is "FAMILY|Style".
+ *  - NORMALIZED types are what the UI consumes (epithet/magic{name,text}/
  *    crime[]/execution[]/epitaph + a display cell). `normalizeCard` bridges them
  *    so components never see the raw shape.
  */
@@ -16,9 +17,11 @@ export const localeSchema = z.enum(['zh-CN', 'en', 'ja', 'zh-TW'])
 export type Locale = z.infer<typeof localeSchema>
 
 // ── RAW (on-disk) ──
+// magic.name is REQUIRED non-empty (user invariant 2026-07-08): the compiler
+// hard-fails without it, and this schema refuses any package that slips through.
 export const rawFieldsSchema = z.object({
   epithet: z.string(),
-  magic: z.string(),
+  magic: z.object({ name: z.string().min(1), text: z.string().min(1) }),
   crime: z.array(z.string()).min(1),
   execution: z.array(z.string()).min(1),
   epitaph: z.string(),
@@ -79,7 +82,7 @@ export interface Cell {
   label: string
 }
 export interface Magic {
-  name?: string
+  name: string
   text: string
 }
 export interface Card {
@@ -117,20 +120,10 @@ function splitCell(cell: string): [string, string] {
   return [a ?? cell, b ?? '']
 }
 
-/** Split the authored magic string into its name and body.
- *  Corpus forms: 「吞尽」——她能…, "牵引"——她能…, 「食べ尽くし」——彼女は…,
- *  Devour to Nothing — she can… . Returns name-less on no match. */
-export function splitMagic(raw: string): Magic {
-  const quoted = raw.match(/^\s*[「『"“']([^」』"”']{1,40})[」』"”']\s*(?:——|――|—|–|-)?\s*(\S[\s\S]*)$/)
-  if (quoted) return { name: quoted[1].trim(), text: quoted[2] }
-  const dashed = raw.match(/^\s*([^—–]{2,60}?)\s*(?:——|――|—|–)\s+(\S[\s\S]*)$/)
-  if (dashed) return { name: dashed[1].trim(), text: dashed[2] }
-  return { text: raw }
-}
-
-/** The card's display title: canon knows a witch by her magic's name. */
+/** The card's display title: canon knows a witch by her magic's name.
+ *  The name is structurally required (compiler hard-fails without it) — no fallback. */
 export function cardTitle(card: Card): string {
-  return card.magic.name ?? card.epithet
+  return card.magic.name
 }
 
 export function normalizeCard(raw: z.infer<typeof rawCardSchema>): Card {
@@ -143,7 +136,7 @@ export function normalizeCard(raw: z.infer<typeof rawCardSchema>): Card {
     locale: raw.locale,
     cell: { origin, coping, label: raw.tag.replace('_', ' · ') },
     epithet: fields.epithet,
-    magic: splitMagic(fields.magic),
+    magic: { name: fields.magic.name, text: fields.magic.text },
     crime: fields.crime,
     execution: fields.execution,
     epitaph: fields.epitaph,

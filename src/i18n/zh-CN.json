@@ -120,7 +120,7 @@
     "qq": "QQ",
     "x": "X",
     "webshare": "分享",
-    "template": "{name}——{epithet}。魔女因子，已检出。",
+    "template": "{name}——「{magic}」。魔女因子，已检出。",
     "hint": "接受检测：",
     "qrCaption": "扫码接受检测",
     "exportTag": "魔女因子检测"

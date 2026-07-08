@@ -24,7 +24,10 @@
           "Its arms lifted her in, wrapped her like an infant, and rocked her; an arm shaped like a nurse's fed her broth by the spoonful and wiped her mouth, while every prisoner stood and watched.",
           "With each rock the swaddling drew tighter, until nothing in the cradle moved."
         ],
-        "magic": "By touch, she moves a wound or a sickness out of one body and into another."
+        "magic": {
+          "name": "Woundshift",
+          "text": "By touch, she moves a wound or a sickness out of one body and into another."
+        }
       },
       "variant": 1
     }

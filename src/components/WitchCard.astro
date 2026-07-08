@@ -19,10 +19,8 @@ interface Props {
 const { card, locale, witchName, class: className } = Astro.props
 const name = witchName && witchName.length ? witchName : t(locale, 'card.nameless')
 const L = (k: string) => t(locale, `card.labels.${k}`)
-// The headline is the magic's name (canon: a witch is known by her magic);
-// epithet is the fallback when no name parses, and then isn't repeated below.
+// The headline is the magic's name (canon: a witch is known by her magic).
 const title = cardTitle(card)
-const showEpithetField = card.magic.name != null
 ---
 
 <article class:list={['witch-card', className]} lang={locale}>
@@ -41,12 +39,10 @@ const showEpithetField = card.magic.name != null
 
   <hr class="witch-card__divider" />
 
-  {showEpithetField && (
-    <section class="witch-card__field">
-      <span class="witch-card__field-label">{L('epithet')}</span>
-      <p class="witch-card__field-body">{card.epithet}</p>
-    </section>
-  )}
+  <section class="witch-card__field">
+    <span class="witch-card__field-label">{L('epithet')}</span>
+    <p class="witch-card__field-body">{card.epithet}</p>
+  </section>
 
   <section class="witch-card__field">
     <span class="witch-card__field-label">{L('magic')}</span>

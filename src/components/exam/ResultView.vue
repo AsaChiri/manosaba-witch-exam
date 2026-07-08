@@ -31,7 +31,8 @@ const shareCard = computed<ShareCard>(() => ({
   locale: props.locale,
   tag: props.card.tag,
   name: witchName.value,
-  epithet: cardTitle(props.card),
+  magic: props.card.magic.name,
+  magicText: props.card.magic.text,
 }))
 
 const frameEl = ref<HTMLElement | null>(null)
@@ -102,7 +103,7 @@ onMounted(async () => {
                 <h2 class="witch-card__epithet">{{ cardTitle(card) }}</h2>
               </div>
               <hr class="witch-card__divider" />
-              <section v-if="card.magic.name" class="witch-card__field">
+              <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('epithet') }}</span>
                 <p class="witch-card__field-body">{{ card.epithet }}</p>
               </section>

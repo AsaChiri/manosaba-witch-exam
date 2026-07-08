@@ -276,11 +276,9 @@ function buildRootSvg(cfg: LocaleCfg): string {
 function buildCardSvg(cfg: LocaleCfg, card: any): string {
   const s = I18N[cfg.key]
   const fields = card.variants?.[0]?.fields ?? card
-  // Headline = the magic's name (canon: a witch is known by her magic); epithet fallback.
-  const magicRaw = (fields.magic ?? '') as string
-  const quoted = magicRaw.match(/^\s*[「『"“']([^」』"”']{1,40})[」』"”']/)
-  const dashed = magicRaw.match(/^\s*([^—–]{2,60}?)\s*(?:——|――|—|–)\s+\S/)
-  const headline = (quoted?.[1] ?? dashed?.[1] ?? fields.epithet ?? '').trim()
+  // Headline = the magic's name (structured; compiler guarantees it — fail loudly otherwise).
+  const headline = String(fields.magic?.name ?? '').trim()
+  if (!headline) throw new Error(`OG FAIL: card ${card.tag} has no magic name`)
   const kicker = s.card?.sentenceMark ?? s.meta.siteName
   const el = layout(headline, cfg.isCjk, 1000, cfg.isCjk ? 88 : 78, 40, 3)
   const centerY = 350

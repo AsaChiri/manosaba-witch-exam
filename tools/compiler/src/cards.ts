@@ -9,9 +9,13 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { normalizeOriginSub, normalizeCopingSub } from "./taxonomy.js";
 
+export interface MagicField {
+  name: string; // REQUIRED for shipping — compile hard-fails on empty (user invariant 2026-07-08)
+  text: string;
+}
 export interface CardFields {
   epithet: string;
-  magic: string;
+  magic: MagicField;
   crime: string[];
   execution: string[];
   epitaph: string;
@@ -80,10 +84,27 @@ function cleanValue(s: string): string {
     .trim();
 }
 
+/** Magic-name forms: in the bold label (**魔法 「重演」** / **魔法 · Magic — "Encore"**)
+ *  or leading the value ("牵引"——她能… / 生者感知——…). */
+function nameFromLabel(label: string): string | null {
+  const q = label.match(/[「『"“]([^」』"”]{1,40})[」』"”]/);
+  return q ? q[1]!.trim() : null;
+}
+function nameFromValue(value: string): { name: string; text: string } | null {
+  const quoted = value.match(/^\s*[「『"“']([^」』"”']{1,40})[」』"”']\s*(?:——|――|—|–|-)?\s*(\S[\s\S]*)$/);
+  if (quoted) return { name: quoted[1]!.trim(), text: quoted[2]! };
+  // Bare name before a dash: 聚光——她能… / The Living Watch — She feels…
+  // (double dash may hug the name; a single dash must be space-separated)
+  const dashed = value.match(/^\s*([^—–]{1,60}?)(?:\s*(?:——|――)\s*|\s+[—–]\s+)(\S[\s\S]*)$/);
+  if (dashed) return { name: dashed[1]!.trim(), text: dashed[2]! };
+  return null;
+}
+
 function parseSection(lines: string[]): CardFields {
-  const fields: CardFields = { epithet: "", magic: "", crime: [], execution: [], epitaph: "" };
+  const fields: CardFields = { epithet: "", magic: { name: "", text: "" }, crime: [], execution: [], epitaph: "" };
   let cur: Field | null = null;
   let buf: string[] = [];
+  let magicLabelName: string | null = null;
   const flush = () => {
     if (!cur) {
       buf = [];
@@ -91,7 +112,14 @@ function parseSection(lines: string[]): CardFields {
     }
     const cleaned = buf.map(cleanValue).filter((x) => x.length > 0);
     if (cur === "crime" || cur === "execution") fields[cur] = cleaned;
-    else (fields[cur] as string) = cleaned.join(" ");
+    else if (cur === "magic") {
+      const joined = cleaned.join(" ");
+      if (magicLabelName) fields.magic = { name: magicLabelName, text: joined };
+      else {
+        const v = nameFromValue(joined);
+        fields.magic = v ?? { name: "", text: joined };
+      }
+    } else (fields[cur] as string) = cleaned.join(" ");
     buf = [];
   };
   for (const raw of lines) {
@@ -112,6 +140,7 @@ function parseSection(lines: string[]): CardFields {
       if (field) {
         flush();
         cur = field;
+        if (field === "magic") magicLabelName = nameFromLabel(bm[1]!);
         const rest = cleanValue(bm[2]!);
         if (rest) buf.push(rest);
         continue;

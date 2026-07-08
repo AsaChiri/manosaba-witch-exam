@@ -306,6 +306,33 @@ function main(): void {
 
   const converter = OpenCC.Converter({ from: "cn", to: "twp" });
   const termMap = loadJson<{ overrides: Record<string, string> }>(src.termMap);
+  // Magic-name invariant (user directive 2026-07-08): every shipped card locale
+  // must carry a magic NAME — the card headline. Owner-correctable via
+  // tools/compiler/magic_names.json ({"<tag>.<locale>": "name"}). No fallback: fail loudly.
+  const magicNames: Record<string, string> = JSON.parse(
+    readFileSync(new URL("../magic_names.json", import.meta.url), "utf8"),
+  ).names ?? {};
+  const nameless: string[] = [];
+  for (const t of orderedTagList) {
+    const a = tags.get(t)!;
+    for (const c of a.variants) {
+      for (const loc of ["en", "ja", "zh-CN"]) {
+        const f = c.locales[loc];
+        if (!f) continue;
+        const ov = magicNames[`${t}.${loc}`];
+        if (ov) f.magic.name = ov;
+        if (!f.magic.name) nameless.push(`${t} (${c.sourceId}) [${loc}]`);
+      }
+    }
+  }
+  if (nameless.length) {
+    throw new Error(
+      "COMPILE FAIL — shipped card(s) missing a magic NAME (the card headline; no fallback allowed):\n  " +
+        nameless.join("\n  ") +
+        "\nFix the source card or add an entry to tools/compiler/magic_names.json.",
+    );
+  }
+
   let cardFileCount = 0;
   for (const t of orderedTagList) {
     const a = tags.get(t)!;
@@ -424,9 +451,9 @@ function emitCardLocaleFiles(
     for (const [from, to] of Object.entries(overrides)) t = t.split(from).join(to);
     return t;
   };
-  const twOf = (f: { epithet: string; magic: string; crime: string[]; execution: string[]; epitaph: string }) => ({
+  const twOf = (f: { epithet: string; magic: { name: string; text: string }; crime: string[]; execution: string[]; epitaph: string }) => ({
     epithet: applyTW(f.epithet),
-    magic: applyTW(f.magic),
+    magic: { name: applyTW(f.magic.name), text: applyTW(f.magic.text) },
     crime: f.crime.map(applyTW),
     execution: f.execution.map(applyTW),
     epitaph: applyTW(f.epitaph),
@@ -447,7 +474,7 @@ function emitCardLocaleFiles(
   return out;
 }
 function emptyFields() {
-  return { epithet: "", magic: "", crime: [] as string[], execution: [] as string[], epitaph: "" };
+  return { epithet: "", magic: { name: "", text: "" }, crime: [] as string[], execution: [] as string[], epitaph: "" };
 }
 
 // ------------------------------------------------------------------ report

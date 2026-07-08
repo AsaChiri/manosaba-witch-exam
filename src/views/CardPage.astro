@@ -27,7 +27,7 @@ const meta = getContentMeta()
 const seo = {
   routeKey: `/r/${card.tag}/`,
   title: `${cardTitle(card)} — ${t(locale, 'meta.siteName')}`,
-  description: t(locale, 'meta.descShare', { epithet: cardTitle(card) }),
+  description: `${cardTitle(card)} — ${card.magic.text}`.slice(0, 160),
   ogImage: `/og/${ASTRO_SEGMENT[locale]}/${card.tag}.png`,
   ogType: 'article' as const,
   jsonld: ['creativework'] as ('website' | 'quiz' | 'creativework')[],

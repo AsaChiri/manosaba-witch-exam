@@ -19,7 +19,10 @@ export interface ShareCard {
   tag: string
   /** Display witch name (already resolved: user's name or the Nameless Witch). */
   name: string
-  epithet: string
+  /** The magic's name — the card headline and the share hook. */
+  magic: string
+  /** The magic's effect text — the shareable description. */
+  magicText: string
 }
 
 export type ShareChannel = 'save' | 'copy' | 'weibo' | 'qq' | 'x' | 'webshare'
@@ -38,7 +41,7 @@ export function shareUrl(card: ShareCard): string {
 
 function summaryText(card: ShareCard): string {
   return [
-    t(card.locale, 'share.template', { name: card.name, epithet: card.epithet }),
+    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
     '',
     `${t(card.locale, 'share.hint')}${shareUrl(card)}`,
   ].join('\n')
@@ -177,7 +180,7 @@ export async function saveResultImage(
 
 export function shareToWeibo(card: ShareCard): void {
   const text = encodeURIComponent(
-    t(card.locale, 'share.template', { name: card.name, epithet: card.epithet }),
+    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
   )
   const url = encodeURIComponent(shareUrl(card))
   window.open(
@@ -189,9 +192,9 @@ export function shareToWeibo(card: ShareCard): void {
 
 export function shareToQQ(card: ShareCard): void {
   const title = encodeURIComponent(
-    t(card.locale, 'share.template', { name: card.name, epithet: card.epithet }),
+    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
   )
-  const summary = encodeURIComponent(card.epithet)
+  const summary = encodeURIComponent(card.magicText)
   const url = encodeURIComponent(shareUrl(card))
   const site = encodeURIComponent(t(card.locale, 'meta.siteName'))
   window.open(
@@ -203,7 +206,7 @@ export function shareToQQ(card: ShareCard): void {
 
 export function shareToX(card: ShareCard): void {
   const text = encodeURIComponent(
-    t(card.locale, 'share.template', { name: card.name, epithet: card.epithet }),
+    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
   )
   const url = encodeURIComponent(shareUrl(card))
   window.open(
