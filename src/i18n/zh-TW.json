@@ -6,8 +6,8 @@
     "tagline": "你體內的魔女，還在沉睡。",
     "descLanding": "一場魔女因子檢測。看看倘若被送上那座島，你會成為哪一種魔女。",
     "descExam": "檢測已經開始。",
-    "descCard": "{epithet}——魔女因子檢測的記錄。",
-    "descShare": "{epithet}。你也來測測會檢出哪一種魔女。"
+    "descCard": "{magic}——魔女因子檢測的記錄。",
+    "descShare": "{magic}。你也來測測會檢出哪一種魔女。"
   },
   "nav": {
     "skipToContent": "跳到正文",
@@ -105,7 +105,6 @@
     "sentenceMark": "檢測記錄",
     "labels": {
       "epithet": "原罪",
-      "magic": "魔法",
       "crime": "罪",
       "execution": "處刑"
     },

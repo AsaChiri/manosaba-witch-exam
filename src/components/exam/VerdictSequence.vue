@@ -2,7 +2,7 @@
 /*
  * The verdict reveal (design spec §2.4/§3.4) — the ONE orchestrated animation.
  * readout completes → cyan flatlines → violet bloom rises → the Seal stamps in
- * → 「魔女因子――検出。」 → sentence + epithet teaser → unfold into the card.
+ * → 「魔女因子――検出。」 → sentence + magic-name teaser → unfold into the card.
  * Skippable on tap; prefers-reduced-motion gets a static cut.
  */
 import { onMounted, onBeforeUnmount, ref } from 'vue'
@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
       <p class="verdict__sentence">{{ T('verdict.sentence') }}</p>
       <p v-if="card" class="verdict__teaser">
         <span class="verdict__teaser-label">{{ T('verdict.teaser') }}</span>
-        <span class="verdict__epithet">{{ card.epithet }}</span>
+        <span class="verdict__epithet">{{ card.magic.name }}</span>
       </p>
     </div>
     <button type="button" class="verdict__skip" @click.stop="finish">{{ T('verdict.skip') }} ›</button>

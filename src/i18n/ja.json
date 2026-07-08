@@ -6,8 +6,8 @@
     "tagline": "あなたの中の魔女は、まだ眠っている。",
     "descLanding": "魔女因子の検査。あの島へ送られたら、どんな魔女になるのか。",
     "descExam": "検査は始まっている。",
-    "descCard": "{epithet}――魔女因子検査の記録。",
-    "descShare": "{epithet}。あなたも検査を。"
+    "descCard": "{magic}――魔女因子検査の記録。",
+    "descShare": "{magic}。あなたも検査を。"
   },
   "nav": {
     "skipToContent": "本文へ",
@@ -100,7 +100,6 @@
     "sentenceMark": "検査記録",
     "labels": {
       "epithet": "原罪",
-      "magic": "魔法",
       "crime": "罪",
       "execution": "処刑"
     },

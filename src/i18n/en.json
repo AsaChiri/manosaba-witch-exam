@@ -6,8 +6,8 @@
     "tagline": "The witch in you is still asleep.",
     "descLanding": "An examination for the witch factor. See which witch you would become, were you sent to the island.",
     "descExam": "The examination has begun.",
-    "descCard": "{epithet} — a record from the Witch Factor Examination.",
-    "descShare": "{epithet}. Take the examination and see which witch is detected in you."
+    "descCard": "{magic} — a record from the Witch Factor Examination.",
+    "descShare": "{magic}. Take the examination and see which witch is detected in you."
   },
   "nav": {
     "skipToContent": "Skip to content",
@@ -95,7 +95,6 @@
     "sentenceMark": "EXAMINATION RECORD",
     "labels": {
       "epithet": "Epithet",
-      "magic": "Magic",
       "crime": "Crime",
       "execution": "Execution"
     },

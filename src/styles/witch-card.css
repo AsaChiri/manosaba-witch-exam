@@ -69,6 +69,16 @@
   margin: 0.5rem auto 0.2rem;
   max-width: 22ch;
 }
+/* The magic's effect, read as one unit with its name above — no field label. */
+.witch-card__magic-lead {
+  font-family: var(--font-body);
+  color: var(--bone);
+  font-size: 1.06rem;
+  line-height: 1.8;
+  max-width: 36ch;
+  margin: 0.9rem auto 0;
+  text-wrap: pretty;
+}
 
 .witch-card__divider {
   width: min(180px, 55%);

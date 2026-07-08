@@ -101,15 +101,12 @@ onMounted(async () => {
               </p>
               <div class="witch-card__epithet-block">
                 <h2 class="witch-card__epithet">{{ cardTitle(card) }}</h2>
+                <p class="witch-card__magic-lead">{{ card.magic.text }}</p>
               </div>
               <hr class="witch-card__divider" />
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('epithet') }}</span>
                 <p class="witch-card__field-body">{{ card.epithet }}</p>
-              </section>
-              <section class="witch-card__field">
-                <span class="witch-card__field-label">{{ L('magic') }}</span>
-                <p class="witch-card__field-body">{{ card.magic.text }}</p>
               </section>
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('crime') }}</span>

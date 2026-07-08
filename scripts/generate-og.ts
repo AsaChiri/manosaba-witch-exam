@@ -27,7 +27,7 @@ import wawoff2 from 'wawoff2'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
 const SITE = (process.env.PUBLIC_SITE_URL || 'https://manosaba-exam.pages.dev').replace(/\/$/, '')
-const DESIGN_VERSION = 'og-v1'
+const DESIGN_VERSION = 'og-v2'
 const CACHE = join(ROOT, 'scripts/.fonts-cache')
 mkdirSync(CACHE, { recursive: true })
 
@@ -54,11 +54,15 @@ interface LocaleCfg {
   weightBig: number
   isCjk: boolean
 }
+/* Display/body families resolve against the FULL Noto Serif CJK OTFs (fontsource
+ * CJK packages ship sliced subsets that leave resvg with partial coverage — the
+ * cause of sans/pixel fallbacks in earlier renders). Latin display stays Cinzel,
+ * latin body Cormorant Garamond; every chain ends in the pan-CJK serif. */
 const LOCALES: LocaleCfg[] = [
-  { key: 'zh-CN', seg: 'zh-cn', font: 'Noto Serif SC', weightBig: 900, isCjk: true },
+  { key: 'zh-CN', seg: 'zh-cn', font: 'Noto Serif CJK SC', weightBig: 700, isCjk: true },
   { key: 'en', seg: 'en', font: 'Cinzel', weightBig: 700, isCjk: false },
-  { key: 'ja', seg: 'ja', font: 'Shippori Mincho', weightBig: 800, isCjk: true },
-  { key: 'zh-TW', seg: 'zh-tw', font: 'Noto Serif TC', weightBig: 900, isCjk: true },
+  { key: 'ja', seg: 'ja', font: 'Noto Serif CJK SC', weightBig: 700, isCjk: true },
+  { key: 'zh-TW', seg: 'zh-tw', font: 'Noto Serif CJK TC', weightBig: 700, isCjk: true },
 ]
 
 // ── Content + i18n (read from disk; no Vite import.meta.glob here) ──
@@ -86,14 +90,42 @@ function loadCard(tag: string, key: string): any | null {
   return existsSync(fb) ? readJson(fb) : null
 }
 
-// ── Fonts: decompress @fontsource woff2 → ttf (cached) ──
+// ── Fonts ──
+// Latin from @fontsource (single-file subsets, reliable); CJK from the FULL
+// Noto Serif CJK OTFs (fetched once into the cache; also found in the v1
+// project's scripts/fonts-full — copied from there when present).
 const FONT_SPECS: { pkg: string; files: string[] }[] = [
   { pkg: 'cinzel', files: ['cinzel-latin-600-normal', 'cinzel-latin-700-normal', 'cinzel-latin-ext-700-normal'] },
-  { pkg: 'vt323', files: ['vt323-latin-400-normal'] },
-  { pkg: 'noto-serif-sc', files: ['noto-serif-sc-chinese-simplified-400-normal', 'noto-serif-sc-chinese-simplified-900-normal', 'noto-serif-sc-latin-400-normal', 'noto-serif-sc-latin-900-normal'] },
-  { pkg: 'noto-serif-tc', files: ['noto-serif-tc-chinese-traditional-400-normal', 'noto-serif-tc-chinese-traditional-900-normal', 'noto-serif-tc-latin-400-normal', 'noto-serif-tc-latin-900-normal'] },
-  { pkg: 'shippori-mincho', files: ['shippori-mincho-japanese-400-normal', 'shippori-mincho-japanese-800-normal', 'shippori-mincho-latin-400-normal', 'shippori-mincho-latin-800-normal'] },
+  { pkg: 'cormorant-garamond', files: ['cormorant-garamond-latin-500-normal', 'cormorant-garamond-latin-600-normal'] },
 ]
+const CJK_FULL: { file: string; url: string }[] = [
+  { file: 'NotoSerifCJKsc-Bold.otf', url: 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf' },
+  { file: 'NotoSerifCJKsc-Regular.otf', url: 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf' },
+  { file: 'NotoSerifCJKtc-Bold.otf', url: 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/TraditionalChinese/NotoSerifCJKtc-Bold.otf' },
+  { file: 'NotoSerifCJKtc-Regular.otf', url: 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/TraditionalChinese/NotoSerifCJKtc-Regular.otf' },
+]
+const V1_FONTS_DIR = 'D:/Monosaba Personality Test/scripts/fonts-full'
+
+async function ensureCjkFull(): Promise<string[]> {
+  const out: string[] = []
+  for (const { file, url } of CJK_FULL) {
+    const dst = join(CACHE, file)
+    if (!existsSync(dst)) {
+      const v1 = join(V1_FONTS_DIR, file)
+      if (existsSync(v1)) {
+        writeFileSync(dst, readFileSync(v1))
+        console.log(`[gen:og] copied ${file} from v1 cache`)
+      } else {
+        console.log(`[gen:og] downloading ${file} …`)
+        const res = await fetch(url)
+        if (!res.ok) throw new Error(`font download failed: ${file} (${res.status})`)
+        writeFileSync(dst, Buffer.from(await res.arrayBuffer()))
+      }
+    }
+    out.push(dst)
+  }
+  return out
+}
 
 async function ensureTtf(pkg: string, file: string): Promise<string | null> {
   const woff2 = join(ROOT, `node_modules/@fontsource/${pkg}/files/${file}.woff2`)
@@ -116,6 +148,7 @@ async function loadFontFiles(): Promise<string[]> {
       if (ttf) out.push(ttf)
     }
   }
+  out.push(...(await ensureCjkFull()))
   return out
 }
 
@@ -241,34 +274,57 @@ function bgAndDefs(): string {
 }
 
 function fam(cfg: LocaleCfg): string {
-  return `'${cfg.font}', 'Noto Serif SC'`
+  return `'${cfg.font}', 'Noto Serif CJK SC'`
+}
+/** Body/prose family (the magic's effect text). */
+function bodyFam(cfg: LocaleCfg): string {
+  return cfg.isCjk ? fam(cfg) : `'Cormorant Garamond', 'Noto Serif CJK SC'`
 }
 
 function brandBlock(cfg: LocaleCfg, s: any): string {
   const site = escapeXml(s.meta.siteName)
   const domain = SITE.replace(/^https?:\/\//, '')
-  return `<text x="600" y="588" text-anchor="middle" fill="${C.goldDeep}" font-family="${fam(cfg)}" font-size="22" letter-spacing="6">${site}</text>
-    <text x="600" y="612" text-anchor="middle" fill="${C.boneDim}" fill-opacity="0.6" font-family="'VT323', 'Noto Serif SC'" font-size="18" letter-spacing="3">${escapeXml(domain)}</text>`
+  return `<text x="600" y="584" text-anchor="middle" fill="${C.goldDeep}" font-family="${fam(cfg)}" font-size="21" letter-spacing="6">${site}</text>
+    <text x="600" y="608" text-anchor="middle" fill="${C.boneDim}" fill-opacity="0.55" font-family="${fam(cfg)}" font-size="15" letter-spacing="3">${escapeXml(domain)}</text>`
+}
+
+/** tspans for a centered block; returns markup and the block's bottom y. */
+function textBlock(lines: string[], startBaseline: number, size: number, lineHeight: number): { tspans: string; bottom: number } {
+  const lh = size * lineHeight
+  const tspans = lines
+    .map((l, i) => `<tspan x="600" y="${startBaseline + i * lh}">${escapeXml(l)}</tspan>`)
+    .join('')
+  return { tspans, bottom: startBaseline + (lines.length - 1) * lh }
+}
+
+/** Wrap to at most maxLines; append an ellipsis when truncated. */
+function clampLines(text: string, isCjk: boolean, maxWidth: number, size: number, maxLines: number): string[] {
+  const factor = isCjk ? 1.0 : 0.5
+  const maxChars = Math.max(1, Math.floor(maxWidth / (size * factor)))
+  const lines = isCjk ? wrapCjk(text, maxChars) : wrapLatin(text, maxChars)
+  if (lines.length <= maxLines) return lines
+  const kept = lines.slice(0, maxLines)
+  const last = kept[maxLines - 1]!
+  kept[maxLines - 1] = (isCjk ? Array.from(last).slice(0, -1).join('') : last.replace(/\s+\S+$/, '')) + '…'
+  return kept
 }
 
 function buildRootSvg(cfg: LocaleCfg): string {
   const s = I18N[cfg.key]
   const title = s.landing.title as string
   const tagline = s.meta.tagline as string
-  const tl = layout(title, cfg.isCjk, 1000, cfg.isCjk ? 92 : 84, 44, 2)
-  const titleCenterY = 340
-  const lh = tl.size * 1.16
-  const startY = titleCenterY - ((tl.lines.length - 1) * lh) / 2
-  const titleTspans = tl.lines
-    .map((l, i) => `<tspan x="600" y="${startY + i * lh}">${escapeXml(l)}</tspan>`)
-    .join('')
-  const ruleY = startY + (tl.lines.length - 1) * lh + tl.size * 0.62 + 26
+  const tl = layout(title, cfg.isCjk, 980, cfg.isCjk ? 84 : 76, 44, 2)
+  // Title starts safely below the Seal (cy 190 + r 54 + margin), never overlapping.
+  const sealBottom = 190 + 54
+  const titleStart = sealBottom + tl.size * 0.95 + 26
+  const t = textBlock(tl.lines, titleStart, tl.size, 1.16)
+  const ruleY = t.bottom + tl.size * 0.5 + 30
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   ${bgAndDefs()}
-  ${sealMarkup(600, 210, 58, C.gold)}
-  <text text-anchor="middle" fill="${C.bone}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${tl.size}" letter-spacing="4">${titleTspans}</text>
+  ${sealMarkup(600, 190, 54, C.gold)}
+  <text text-anchor="middle" fill="${C.bone}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${tl.size}" letter-spacing="4">${t.tspans}</text>
   <rect x="530" y="${ruleY}" width="140" height="1.6" fill="url(#rule)"/>
-  <text x="600" y="${ruleY + 52}" text-anchor="middle" fill="${C.violet}" font-family="${fam(cfg)}" font-size="30" letter-spacing="2">${escapeXml(tagline)}</text>
+  <text x="600" y="${ruleY + 48}" text-anchor="middle" fill="${C.violet}" font-family="${bodyFam(cfg)}" font-size="29" letter-spacing="2">${escapeXml(tagline)}</text>
   ${brandBlock(cfg, s)}
 </svg>`
 }
@@ -276,24 +332,33 @@ function buildRootSvg(cfg: LocaleCfg): string {
 function buildCardSvg(cfg: LocaleCfg, card: any): string {
   const s = I18N[cfg.key]
   const fields = card.variants?.[0]?.fields ?? card
-  // Headline = the magic's name (structured; compiler guarantees it — fail loudly otherwise).
+  // The magic pair IS the shareable unit: its NAME as the headline, its effect
+  // text immediately under (mirrors the card layout). Name is structural —
+  // the compiler guarantees it; fail loudly otherwise.
   const headline = String(fields.magic?.name ?? '').trim()
   if (!headline) throw new Error(`OG FAIL: card ${card.tag} has no magic name`)
+  const desc = String(fields.magic?.text ?? '').trim()
   const kicker = s.card?.sentenceMark ?? s.meta.siteName
-  const el = layout(headline, cfg.isCjk, 1000, cfg.isCjk ? 88 : 78, 40, 3)
-  const centerY = 350
-  const lh = el.size * 1.16
-  const startY = centerY - ((el.lines.length - 1) * lh) / 2
-  const tspans = el.lines
-    .map((l, i) => `<tspan x="600" y="${startY + i * lh}">${escapeXml(l)}</tspan>`)
-    .join('')
-  const cellY = startY + (el.lines.length - 1) * lh + el.size * 0.62 + 46
+
+  const name = layout(headline, cfg.isCjk, 980, cfg.isCjk ? 82 : 66, 42, 2)
+  const sealBottom = 158 + 44
+  const nameStart = sealBottom + name.size * 0.95 + 24
+  const n = textBlock(name.lines, nameStart, name.size, 1.14)
+
+  const descSize = cfg.isCjk ? 29 : 27
+  const descMaxLines = name.lines.length > 1 ? 2 : 3
+  const descLines = clampLines(desc, cfg.isCjk, 860, descSize, descMaxLines)
+  const descStart = n.bottom + name.size * 0.45 + 52
+  const d = textBlock(descLines, descStart, descSize, 1.62)
+
+  const ruleY = Math.min(d.bottom + 34, 552)
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   ${bgAndDefs()}
-  <text x="600" y="104" text-anchor="middle" fill="${C.goldDeep}" font-family="'VT323','Noto Serif SC'" font-size="22" letter-spacing="10">${escapeXml(kicker)}</text>
-  ${sealMarkup(600, 168, 50, C.gold)}
-  <text text-anchor="middle" fill="${C.violet}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${el.size}" letter-spacing="2">${tspans}</text>
-  <rect x="540" y="${cellY - 20}" width="120" height="1.4" fill="url(#rule)"/>
+  <text x="600" y="88" text-anchor="middle" fill="${C.goldDeep}" font-family="${fam(cfg)}" font-size="21" letter-spacing="9">${escapeXml(kicker)}</text>
+  ${sealMarkup(600, 158, 44, C.gold)}
+  <text text-anchor="middle" fill="${C.violet}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${name.size}" letter-spacing="2">${n.tspans}</text>
+  <text text-anchor="middle" fill="${C.bone}" fill-opacity="0.92" font-family="${bodyFam(cfg)}" font-size="${descSize}">${d.tspans}</text>
+  <rect x="540" y="${ruleY}" width="120" height="1.4" fill="url(#rule)"/>
   ${brandBlock(cfg, s)}
 </svg>`
 }
@@ -331,7 +396,7 @@ async function render(jobs: Job[], fontFiles: string[]): Promise<void> {
   const workerUrl = new URL('./og-worker.mjs', import.meta.url)
   const workers = Array.from(
     { length: n },
-    () => new Worker(workerUrl, { workerData: { fontFiles, defaultFamily: 'Noto Serif SC' } }),
+    () => new Worker(workerUrl, { workerData: { fontFiles, defaultFamily: 'Noto Serif CJK SC' } }),
   )
   let next = 0
   let done = 0

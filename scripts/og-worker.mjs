@@ -1,15 +1,14 @@
 /*
- * OG render worker. The main thread decompresses fonts and hands this worker
- * the ttf paths (workerData.fontFiles); the worker reads them once into buffers
- * and renders each SVG job to PNG with resvg-js. One worker per CPU → the
- * pipeline scales to the full corpus (design spec §4/§F).
+ * OG render worker. The main thread prepares font files and hands this worker
+ * their PATHS (workerData.fontFiles) — passed to resvg as `fontFiles`, which is
+ * supported across resvg-js versions (`fontBuffers` is silently ignored by some
+ * releases, which made every text node fall back to system fonts). One worker
+ * per CPU → the pipeline scales to the full corpus (design spec §4/§F).
  */
 import { parentPort, workerData } from 'node:worker_threads'
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { writeFileSync, mkdirSync } from 'node:fs'
 import { dirname } from 'node:path'
 import { Resvg } from '@resvg/resvg-js'
-
-const fontBuffers = workerData.fontFiles.map((f) => readFileSync(f))
 
 parentPort.on('message', (job) => {
   if (job === 'stop') {
@@ -19,7 +18,7 @@ parentPort.on('message', (job) => {
   try {
     const resvg = new Resvg(job.svg, {
       font: {
-        fontBuffers,
+        fontFiles: workerData.fontFiles,
         loadSystemFonts: false,
         defaultFontFamily: workerData.defaultFamily,
       },
