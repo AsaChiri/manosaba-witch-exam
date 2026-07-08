@@ -4,39 +4,21 @@
     "wordmark": "Witch Factor Examination",
     "latin": "WITCH FACTOR EXAMINATION",
     "tagline": "The witch in you is still asleep.",
-    "descLanding": "An examination for the witch factor, addressed to you. The instrument reads your answers, the court pronounces its verdict — and the archive already holds the page for the witch you became on the island.",
-    "descExam": "The examination is underway. The instrument is reading your answers.",
-    "descCard": "A page from the witch codex — {epithet}. Your witch factor has been detected.",
-    "descShare": "A page from the witch codex — {epithet}. Sit the examination yourself, and see which witch it reads in you."
+    "descLanding": "An examination for the witch factor. See which witch you would become, were you sent to the island.",
+    "descExam": "The examination has begun.",
+    "descCard": "{epithet} — a record from the Witch Factor Examination.",
+    "descShare": "{epithet}. Take the examination and see which witch is detected in you."
   },
   "nav": {
     "skipToContent": "Skip to content",
-    "home": "The summons"
+    "home": "Home"
   },
   "landing": {
-    "caseLine": "Sacred Calendar, Year ── · Notice of Examination",
     "title": "Witch Factor Examination",
     "hook": "The witch in you is still asleep.",
     "ctaBegin": "Begin the examination",
-    "ctaAside": "The examination adapts to you — expect roughly fifteen to thirty questions.",
-    "scrollHint": "Read on, below",
-    "panels": {
-      "whatIs": {
-        "label": "What this is",
-        "title": "What this is",
-        "body": "A fictional examination. It does not diagnose you and it does not judge you — it traces one thing only: were you sent to the island too, which witch would you grow into."
-      },
-      "duration": {
-        "label": "How long",
-        "title": "How long it takes",
-        "body": "The length differs from person to person; it unfolds with your answers. Usually between fifteen and thirty questions — it never promises a fixed count in advance."
-      },
-      "specimen": {
-        "label": "A specimen record",
-        "title": "A page of the codex",
-        "body": "Every detection is transcribed into a page — epithet, magic, crime, execution, and a single line of epitaph. Below is a specimen."
-      }
-    }
+    "ctaAside": "Adapts to you — usually 15 to 30 questions.",
+    "specimenLabel": "Specimen record"
   },
   "footer": {
     "disclaimer": "This site is a non-commercial fan work based on 魔法少女ノ魔女裁判 (Magical Girl · Witch Trial), unaffiliated with the original and its rights holders.",
@@ -53,15 +35,15 @@
     "dismiss": "Keep current language"
   },
   "gate": {
-    "eyebrow": "CONSENT FORM",
+    "eyebrow": "CONSENT",
     "title": "Consent to Examination",
     "fan": "This examination is a non-commercial fan project based on 魔法少女ノ魔女裁判, unaffiliated with the original work and its rights holders.",
-    "age": "Intended for ages 18 and over. The content touches dark themes — execution, and harm and self-punishment adjacent to self-injury.",
+    "age": "For ages 18 and over. Touches dark themes — execution, harm, self-punishment.",
     "content": "If you are in a fragile place right now, go gently — you can stop at any time.",
-    "crisisIntro": "If you are struggling with thoughts of hurting yourself, please reach a crisis line near you first:",
-    "storage": "Your answers are kept only in this browser, on this device. Nothing is uploaded or collected.",
+    "crisisIntro": "If you are struggling with thoughts of hurting yourself, please reach a crisis line first:",
+    "storage": "Your answers stay in this browser, on this device. Nothing is uploaded or collected.",
     "crisisLinksLabel": "Crisis lines",
-    "consent": "I understand — begin the examination",
+    "consent": "I understand — begin",
     "decline": "Not now"
   },
   "crisisLinks": [
@@ -82,7 +64,7 @@
     }
   ],
   "exam": {
-    "caseNoLabel": "Specimen No.",
+    "caseNoLabel": "Case No.",
     "phase": {
       "observe": "OBSERVE",
       "deep": "DEPTH",
@@ -94,8 +76,8 @@
     "back": "Previous",
     "booting": "Calibrating instrument…",
     "namePrompt": {
-      "eyebrow": "FINAL ENTRY / RECORD",
-      "title": "The name to carve into the record",
+      "eyebrow": "RECORD",
+      "title": "The name for the record",
       "hint": "Optional. Up to 20 characters.",
       "placeholder": "(unnamed)",
       "skip": "Skip",
@@ -104,21 +86,21 @@
     "draftNotice": "Examination protocol · draft",
     "inconclusive": {
       "title": "No matching record",
-      "body": "The archive holds no entry for this specimen yet. Please sit the examination again."
+      "body": "No record matches you yet. Please take the examination again."
     }
   },
   "verdict": {
     "reading": "READING",
     "flatline": "RESONANCE LOST",
     "detected": "Witch factor — detected.",
-    "sentence": "The verdict stands — you are taken to the island.",
+    "sentence": "The verdict stands. You are taken to the island.",
     "skip": "Skip",
-    "teaser": "Filed under —",
+    "teaser": "Filed —",
     "unfold": "Open the record"
   },
   "card": {
     "fileNo": "File No.",
-    "specimenLabel": "Specimen",
+    "specimenLabel": "Name",
     "nameless": "the Nameless Witch",
     "sentenceMark": "Verdict · Archived",
     "labels": {
@@ -128,10 +110,10 @@
       "execution": "Execution",
       "epitaph": "Epitaph"
     },
-    "retake": "Sit the examination again"
+    "retake": "Take the examination again"
   },
   "share": {
-    "heading": "Keep this record",
+    "heading": "Share",
     "save": "Save image",
     "copyLink": "Copy link",
     "copied": "Copied",
@@ -139,22 +121,22 @@
     "qq": "QQ",
     "x": "X",
     "webshare": "Share",
-    "template": "{name} — {epithet}. My witch factor has been detected.",
+    "template": "{name} — {epithet}. Witch factor: detected.",
     "hint": "Take the examination: ",
     "qrCaption": "Scan to be examined",
     "exportTag": "Witch Factor Examination"
   },
   "feedback": {
-    "softArchival": "This archive is still being transcribed.",
-    "invite": "What rang true, and what missed? Tell us about the resonance.",
+    "softArchival": "This archive is still being written.",
+    "invite": "What rang true, what missed — tell us.",
     "emailLabel": "Feedback address",
     "copyEmail": "Copy address",
     "copied": "Copied",
     "mailSubject": "[Witch Factor Exam] {tag} / q{quiz} / {locale}",
-    "mailBody": "(What felt like you, and what didn't — the resonance.)\n\n"
+    "mailBody": "(What felt like you, and what didn't.)\n\n"
   },
   "result": {
-    "safety": "This page carries dark themes. If it struck close to something, take care of yourself first.",
+    "safety": "This page carries dark themes. Take care of yourself.",
     "safetyLink": "Crisis lines"
   },
   "errors": {
@@ -162,14 +144,13 @@
     "generic": "Something went wrong. Try again."
   },
   "shareCta": {
-    "title": "Sit the examination yourself",
-    "body": "The same examination is waiting for you. See which witch the instrument reads in you.",
+    "title": "Take the examination yourself",
     "button": "Begin the examination"
   },
   "notFound": {
     "code": "404",
-    "title": "This page is not in the archive.",
-    "body": "The record you were looking for is not filed here.",
-    "back": "Back to the summons"
+    "title": "No such page in the archive.",
+    "body": "Nothing is filed here.",
+    "back": "Back to the start"
   }
 }

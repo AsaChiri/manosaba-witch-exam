@@ -255,7 +255,6 @@ function buildRootSvg(cfg: LocaleCfg): string {
   const s = I18N[cfg.key]
   const title = s.landing.title as string
   const tagline = s.meta.tagline as string
-  const caseLine = s.landing.caseLine as string
   const tl = layout(title, cfg.isCjk, 1000, cfg.isCjk ? 92 : 84, 44, 2)
   const titleCenterY = 340
   const lh = tl.size * 1.16
@@ -266,7 +265,6 @@ function buildRootSvg(cfg: LocaleCfg): string {
   const ruleY = startY + (tl.lines.length - 1) * lh + tl.size * 0.62 + 26
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   ${bgAndDefs()}
-  <text x="600" y="120" text-anchor="middle" fill="${C.goldDeep}" font-family="'VT323','Noto Serif SC'" font-size="24" letter-spacing="8">${escapeXml(caseLine)}</text>
   ${sealMarkup(600, 210, 58, C.gold)}
   <text text-anchor="middle" fill="${C.bone}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${tl.size}" letter-spacing="4">${titleTspans}</text>
   <rect x="530" y="${ruleY}" width="140" height="1.6" fill="url(#rule)"/>

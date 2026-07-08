@@ -40,7 +40,6 @@ const seo = {
     <section class="hero">
       <div class="hero__glass" aria-hidden="true"></div>
       <div class="hero__content">
-        <p class="hero__case instrument">{t(locale, 'landing.caseLine')}</p>
         <Seal size={92} stained glow class="hero__seal" title={t(locale, 'meta.siteName')} />
         <h1 class="hero__title inscription">{t(locale, 'landing.title')}</h1>
         {showLatin && <p class="hero__latin instrument">{t(locale, 'meta.latin')}</p>}
@@ -50,26 +49,13 @@ const seo = {
         </div>
         <p class="hero__aside">{t(locale, 'landing.ctaAside')}</p>
       </div>
-      <span class="hero__scroll instrument" aria-hidden="true">{t(locale, 'landing.scrollHint')}</span>
     </section>
 
-    <section class="panels container" aria-label={t(locale, 'landing.panels.whatIs.title')}>
-      <div class="panels__row">
-        {(['whatIs', 'duration'] as const).map((key) => (
-          <article class="panel">
-            <span class="panel__label instrument">{t(locale, `landing.panels.${key}.label`)}</span>
-            <h2 class="panel__title inscription">{t(locale, `landing.panels.${key}.title`)}</h2>
-            <p class="panel__body">{t(locale, `landing.panels.${key}.body`)}</p>
-          </article>
-        ))}
-      </div>
-
+    <section class="panels container" aria-label={t(locale, 'landing.specimenLabel')}>
       {specimen && (
         <div class="specimen">
           <div class="specimen__intro">
-            <span class="panel__label instrument">{t(locale, 'landing.panels.specimen.label')}</span>
-            <h2 class="panel__title inscription">{t(locale, 'landing.panels.specimen.title')}</h2>
-            <p class="panel__body">{t(locale, 'landing.panels.specimen.body')}</p>
+            <span class="panel__label instrument">{t(locale, 'landing.specimenLabel')}</span>
           </div>
           <div class="specimen__card">
             <CardFrame>

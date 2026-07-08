@@ -3,40 +3,22 @@
     "siteName": "魔女因子检测",
     "wordmark": "魔女因子检测",
     "latin": "WITCH FACTOR EXAMINATION",
-    "tagline": "你体内的魔女，尚在沉睡。",
-    "descLanding": "一场为你而设的魔女因子检测。仪器读取你的回应，法庭宣读判决，档案里早已存好——你在那座岛上，化成的那个魔女。",
-    "descExam": "检测已经开始。仪器正读取你的回应。",
-    "descCard": "魔女图鉴档案：{epithet}。你的魔女因子，已检出。",
-    "descShare": "一页魔女图鉴：{epithet}。你也来接受检测，看看自己会化成哪一种魔女。"
+    "tagline": "你体内的魔女，还在沉睡。",
+    "descLanding": "一场魔女因子检测。看看倘若被送上那座岛，你会成为哪一种魔女。",
+    "descExam": "检测已经开始。",
+    "descCard": "{epithet}——魔女因子检测的记录。",
+    "descShare": "{epithet}。你也来测测会检出哪一种魔女。"
   },
   "nav": {
     "skipToContent": "跳到正文",
-    "home": "召唤令"
+    "home": "首页"
   },
   "landing": {
-    "caseLine": "圣历──年 · 检测通告",
     "title": "魔女因子检测",
-    "hook": "你体内的魔女，尚在沉睡。",
+    "hook": "你体内的魔女，还在沉睡。",
     "ctaBegin": "接受检测",
-    "ctaAside": "检测因你而变，通常需回答十五到三十问。",
-    "scrollHint": "向下，查阅通告",
-    "panels": {
-      "whatIs": {
-        "label": "何为此检",
-        "title": "这是什么",
-        "body": "这是一场虚构的检测。它不诊断你，也不评判你——只推演一件事：倘若你也被送上那座岛，你会长成哪一种魔女。"
-      },
-      "duration": {
-        "label": "所需时长",
-        "title": "需要多久",
-        "body": "检测的长短因人而异，随你的每一次回应展开。通常在十五到三十问之间，不会预先许你一个准数。"
-      },
-      "specimen": {
-        "label": "档案样张",
-        "title": "一页魔女图鉴",
-        "body": "每一次检出，都会誊成一页图鉴：原罪、魔法、罪、处刑，与一句铭。下面是一页样张。"
-      }
-    }
+    "ctaAside": "题目因人而异，通常十五到三十问。",
+    "specimenLabel": "记录 · 样例"
   },
   "footer": {
     "disclaimer": "本站是『魔法少女ノ魔女裁判』的非商业同人作品，与原作及其权利方没有关联。",
@@ -53,11 +35,11 @@
     "dismiss": "留在当前语言"
   },
   "gate": {
-    "eyebrow": "同意书 / CONSENT",
+    "eyebrow": "同意书",
     "title": "检测同意书",
     "fan": "本检测是『魔法少女ノ魔女裁判』的非商业同人企划，与原作及其权利方没有关联。",
-    "age": "内容面向 18 岁及以上。检测涉及处刑、伤害与自我惩罚等黑暗题材。",
-    "content": "若你近来情绪脆弱，请量力而为——随时可以停下。",
+    "age": "内容面向 18 岁及以上，涉及处刑、伤害与自我惩罚等黑暗题材。",
+    "content": "情绪脆弱时请量力而为，随时可以停下。",
     "crisisIntro": "如果你正被伤害自己的念头困扰，请先联系当地的心理危机热线：",
     "storage": "你的作答只保存在这台设备的浏览器里，不会上传，也不会被收集。",
     "crisisLinksLabel": "各地心理援助热线",
@@ -92,7 +74,7 @@
     }
   ],
   "exam": {
-    "caseNoLabel": "检体编号",
+    "caseNoLabel": "编号",
     "phase": {
       "observe": "观测",
       "deep": "深层",
@@ -104,31 +86,31 @@
     "back": "上一问",
     "booting": "仪器校准中……",
     "namePrompt": {
-      "eyebrow": "最终登记 / RECORD",
-      "title": "刻入档案之名",
-      "hint": "可以留空。至多二十字。",
+      "eyebrow": "登记",
+      "title": "留在记录上的名字",
+      "hint": "可留空，最多二十字。",
       "placeholder": "（无名）",
       "skip": "略过",
       "confirm": "完成检测"
     },
-    "draftNotice": "检查程序・草案",
+    "draftNotice": "检测程序 · 草案",
     "inconclusive": {
-      "title": "暂无对应记录",
-      "body": "与此检体相符的记录尚未编纂。请重新接受检测。"
+      "title": "查无记录",
+      "body": "还没有与你对应的记录，请重新接受检测。"
     }
   },
   "verdict": {
     "reading": "读取中",
-    "flatline": "共鸣中止",
-    "detected": "魔女因子——检出。",
-    "sentence": "判决既下——你被押往那座岛。",
+    "flatline": "共鸣停止",
+    "detected": "魔女因子——已检出。",
+    "sentence": "判决已下。你将被送往那座岛。",
     "skip": "跳过",
-    "teaser": "档案归入——",
-    "unfold": "展开档案"
+    "teaser": "归档——",
+    "unfold": "展开记录"
   },
   "card": {
     "fileNo": "档案编号",
-    "specimenLabel": "检体名",
+    "specimenLabel": "名",
     "nameless": "无名魔女",
     "sentenceMark": "判决 · 归档",
     "labels": {
@@ -141,7 +123,7 @@
     "retake": "重新接受检测"
   },
   "share": {
-    "heading": "留存此记录",
+    "heading": "分享",
     "save": "保存图像",
     "copyLink": "复制链接",
     "copied": "已复制",
@@ -149,37 +131,36 @@
     "qq": "QQ",
     "x": "X",
     "webshare": "分享",
-    "template": "{name}——{epithet}。我的魔女因子，已检出。",
+    "template": "{name}——{epithet}。魔女因子，已检出。",
     "hint": "接受检测：",
     "qrCaption": "扫码接受检测",
     "exportTag": "魔女因子检测"
   },
   "feedback": {
-    "softArchival": "这座档案库，仍在誊写之中。",
-    "invite": "哪里像你，哪里不像？把那点共鸣告诉我们。",
+    "softArchival": "这座档案库还在编纂中。",
+    "invite": "哪里像你，哪里不像，欢迎告诉我们。",
     "emailLabel": "反馈邮箱",
     "copyEmail": "复制地址",
     "copied": "已复制",
     "mailSubject": "[魔女因子检测] {tag} / q{quiz} / {locale}",
-    "mailBody": "（写下哪里像你、哪里不像——那点共鸣。）\n\n"
+    "mailBody": "（写下哪里像你，哪里不像。）\n\n"
   },
   "result": {
-    "safety": "本页含黑暗题材。若它触到你的痛处，请先照顾好自己。",
+    "safety": "本页含黑暗题材，请照顾好自己。",
     "safetyLink": "各地心理援助热线"
   },
   "errors": {
-    "archive": "档案无应答。请重试。",
-    "generic": "出了点岔子。请重试。"
+    "archive": "档案库没有应答，请重试。",
+    "generic": "出了点问题，请重试。"
   },
   "shareCta": {
     "title": "你也来接受检测",
-    "body": "同一场检测，也在等你。看看仪器会在你身上，读出哪一种魔女。",
     "button": "接受检测"
   },
   "notFound": {
     "code": "404",
-    "title": "此页不在档案之列。",
-    "body": "你要找的记录，档案库里并无留存。",
-    "back": "回到召唤令"
+    "title": "查无此页",
+    "body": "档案库里没有这条记录。",
+    "back": "返回首页"
   }
 }
