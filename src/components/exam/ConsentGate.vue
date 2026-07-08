@@ -23,6 +23,7 @@ const T = (k: string) => t(props.locale, k)
       <div class="gate__body">
         <p>{{ T('gate.fan') }}</p>
         <p class="gate__warn">{{ T('gate.age') }}</p>
+        <p class="gate__note">{{ T('gate.fictional') }}</p>
         <p>{{ T('gate.content') }}</p>
 
         <div class="gate__crisis">
@@ -96,9 +97,16 @@ const T = (k: string) => t(props.locale, k)
   line-height: 1.75;
   color: var(--parchment-ink);
 }
+/* Formal content descriptor (game-disclaimer register): measured, not shouty. */
 .gate__warn {
-  font-weight: 600;
-  color: #6d1520;
+  font-weight: 500;
+  color: #5a2a24;
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+.gate__note {
+  font-size: 0.9rem;
+  color: #5c4636;
 }
 .gate__crisis {
   border-left: 3px solid rgba(120, 40, 30, 0.5);

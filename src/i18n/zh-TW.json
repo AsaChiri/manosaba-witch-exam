@@ -3,11 +3,11 @@
     "siteName": "魔女因子檢測",
     "wordmark": "魔女因子檢測",
     "latin": "WITCH FACTOR EXAMINATION",
-    "tagline": "你體內的魔女，還在沉睡。",
+    "tagline": "你體內的魔女因子，還在沉睡。",
     "descLanding": "一場魔女因子檢測。看看倘若被送上那座島，你會成為哪一種魔女。",
     "descExam": "檢測已經開始。",
-    "descCard": "{magic}——魔女因子檢測的記錄。",
-    "descShare": "{magic}。你也來測測會檢出哪一種魔女。"
+    "descCard": "魔女因子檢測的記錄，檢測出{magic}。",
+    "descShare": "檢測出魔法：{magic}——你也來測測會檢出哪一種魔女。"
   },
   "nav": {
     "skipToContent": "跳到正文",
@@ -15,9 +15,9 @@
   },
   "landing": {
     "title": "魔女因子檢測",
-    "hook": "你體內的魔女，還在沉睡。",
+    "hook": "你體內的魔女因子，還在沉睡。",
     "ctaBegin": "接受檢測",
-    "ctaAside": "題目因人而異，通常十五到三十題。"
+    "ctaAside": "題目數量因人而異，通常十五到三十題。"
   },
   "footer": {
     "disclaimer": "本站是『魔法少女ノ魔女裁判』的非商業同人作品，與原作及其權利方沒有關聯。",
@@ -36,13 +36,14 @@
     "eyebrow": "同意書",
     "title": "檢測同意書",
     "fan": "本檢測是『魔法少女ノ魔女裁判』的非商業同人企劃，與原作及其權利方沒有關聯。",
-    "age": "內容面向 18 歲及以上，涉及處刑、傷害與自我懲罰等黑暗題材。",
+    "age": "本檢測面向 18 歲及以上，含有部分人群可能不適的成人內容，包括：暴力、流血、死亡、屍體、殺人，處刑、自我傷害與自殺的描寫，以及恐懼與精神恐怖等題材。以上內容均以文字呈現，不含血腥圖像。若上述任何主題可能令你不適，請勿繼續。",
     "content": "情緒脆弱時請量力而為，隨時可以停下。",
     "crisisIntro": "如果你正被傷害自己的念頭困擾，請先聯絡當地的心理危機專線：",
     "storage": "你的作答只保存在這台裝置的瀏覽器裡，不會上傳，也不會被蒐集。",
     "crisisLinksLabel": "各地心理援助專線",
     "consent": "我已知悉，開始檢測",
-    "decline": "我再想想"
+    "decline": "我再想想",
+    "fictional": "『魔女』與『魔女裁判』皆為原作的虛構設定，無意影射任何現實中的人或群體。"
   },
   "crisisLinks": [
     {
@@ -80,7 +81,7 @@
     "namePrompt": {
       "eyebrow": "登記",
       "title": "留在記錄上的名字",
-      "hint": "可留空，最多二十字。",
+      "hint": "可留空，最多二十個字。",
       "placeholder": "（無名）",
       "skip": "略過",
       "confirm": "完成檢測"
@@ -93,19 +94,19 @@
   },
   "verdict": {
     "reading": "讀取中",
-    "detected": "魔女因子——已檢出。",
-    "sentence": "你將被送往那座島。",
+    "detected": "已檢出魔女因子",
+    "sentence": "你將被送往監牢。",
     "skip": "跳過",
     "teaser": "歸檔——",
     "unfold": "展開記錄"
   },
   "card": {
-    "specimenLabel": "名",
+    "specimenLabel": "姓名",
     "nameless": "無名魔女",
     "sentenceMark": "檢測記錄",
     "labels": {
       "epithet": "原罪",
-      "crime": "罪",
+      "crime": "故事",
       "execution": "處刑"
     },
     "retake": "重新接受檢測",
@@ -120,22 +121,22 @@
     "qq": "QQ",
     "x": "X",
     "webshare": "分享",
-    "template": "{name}——「{magic}」。魔女因子，已檢出。",
+    "template": "魔女因子已檢出，我的魔法師是「{magic}」",
     "hint": "接受檢測：",
     "qrCaption": "掃碼接受檢測",
     "exportTag": "魔女因子檢測"
   },
   "feedback": {
     "softArchival": "這座檔案庫還在編纂中。",
-    "invite": "哪裡像你，哪裡不像，歡迎告訴我們。",
+    "invite": "對於結果有改進意見？歡迎告訴我們。",
     "emailLabel": "回饋信箱",
     "copyEmail": "複製地址",
     "copied": "已複製",
     "mailSubject": "[魔女因子檢測] {tag} / q{quiz} / {locale}",
-    "mailBody": "（寫下哪裡像你，哪裡不像。）\n\n"
+    "mailBody": "（請寫下你的意見）\n\n"
   },
   "result": {
-    "safety": "本頁含黑暗題材，請照顧好自己。",
+    "safety": "本記錄涉及黑暗題材。若它觸動了你，請照顧好自己。",
     "safetyLink": "各地心理援助專線"
   },
   "errors": {

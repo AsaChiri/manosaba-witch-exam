@@ -3,11 +3,11 @@
     "siteName": "Witch Factor Examination",
     "wordmark": "Witch Factor Examination",
     "latin": "WITCH FACTOR EXAMINATION",
-    "tagline": "The witch in you is still asleep.",
+    "tagline": "The witch factor in you is still asleep.",
     "descLanding": "An examination for the witch factor. See which witch you would become, were you sent to the island.",
     "descExam": "The examination has begun.",
-    "descCard": "{magic} — a record from the Witch Factor Examination.",
-    "descShare": "{magic}. Take the examination and see which witch is detected in you."
+    "descCard": "A Witch Factor Examination record — magic detected: {magic}.",
+    "descShare": "Magic detected: {magic}. Take the examination and see which witch is found in you."
   },
   "nav": {
     "skipToContent": "Skip to content",
@@ -15,7 +15,7 @@
   },
   "landing": {
     "title": "Witch Factor Examination",
-    "hook": "The witch in you is still asleep.",
+    "hook": "The witch factor in you is still asleep.",
     "ctaBegin": "Begin the examination",
     "ctaAside": "Adapts to you — usually 15 to 30 questions."
   },
@@ -36,13 +36,14 @@
     "eyebrow": "CONSENT",
     "title": "Consent to Examination",
     "fan": "This examination is a non-commercial fan project based on 魔法少女ノ魔女裁判, unaffiliated with the original work and its rights holders.",
-    "age": "For ages 18 and over. Touches dark themes — execution, harm, self-punishment.",
+    "age": "This examination is intended for ages 18 and over and contains mature content that may not be suitable for all audiences, including: violence; blood; death; corpses; killing; depictions of execution, self-harm and suicide; and fear and psychological horror. All of it is presented as text, with no graphic imagery. If any of these topics may distress you, please do not proceed.",
     "content": "If you are in a fragile place right now, go gently — you can stop at any time.",
     "crisisIntro": "If you are struggling with thoughts of hurting yourself, please reach a crisis line first:",
     "storage": "Your answers stay in this browser, on this device. Nothing is uploaded or collected.",
     "crisisLinksLabel": "Crisis lines",
     "consent": "I understand — begin",
-    "decline": "Not now"
+    "decline": "Not now",
+    "fictional": "“Witch” and “Witch Trial” are fictional elements of the original work, not a reference to any real person or group."
   },
   "crisisLinks": [
     {
@@ -84,7 +85,7 @@
   "verdict": {
     "reading": "READING",
     "detected": "Witch factor — detected.",
-    "sentence": "You are taken to the island.",
+    "sentence": "You are taken to the prison.",
     "skip": "Skip",
     "teaser": "Filed —",
     "unfold": "Open the record"
@@ -95,7 +96,7 @@
     "sentenceMark": "EXAMINATION RECORD",
     "labels": {
       "epithet": "Epithet",
-      "crime": "Crime",
+      "crime": "Story",
       "execution": "Execution"
     },
     "retake": "Take the examination again",
@@ -110,22 +111,22 @@
     "qq": "QQ",
     "x": "X",
     "webshare": "Share",
-    "template": "{name} — “{magic}”. Witch factor: detected.",
+    "template": "Witch factor detected. My magic: “{magic}.”",
     "hint": "Take the examination: ",
     "qrCaption": "Scan to be examined",
     "exportTag": "Witch Factor Examination"
   },
   "feedback": {
     "softArchival": "This archive is still being written.",
-    "invite": "What rang true, what missed — tell us.",
+    "invite": "Suggestions to improve your result? We'd love to hear them.",
     "emailLabel": "Feedback address",
     "copyEmail": "Copy address",
     "copied": "Copied",
     "mailSubject": "[Witch Factor Exam] {tag} / q{quiz} / {locale}",
-    "mailBody": "(What felt like you, and what didn't.)\n\n"
+    "mailBody": "(Share your thoughts.)\n\n"
   },
   "result": {
-    "safety": "This page carries dark themes. Take care of yourself.",
+    "safety": "This record touches on dark themes. If it strikes close, please take care.",
     "safetyLink": "Crisis lines"
   },
   "errors": {
