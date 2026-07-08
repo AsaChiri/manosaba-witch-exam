@@ -1,0 +1,126 @@
+---
+/*
+ * One-time, non-blocking locale suggestion (design spec §E). Never auto-
+ * redirects (SEO). Each candidate banner is server-rendered in its own locale's
+ * words; the client reveals the one matching the browser language if it differs
+ * from the current page and hasn't been dismissed.
+ */
+import { LOCALES, pathForLocale, type Locale } from '../i18n/config'
+import { t } from '../i18n'
+
+interface Props {
+  locale: Locale
+}
+const { locale } = Astro.props
+const current = Astro.url.pathname
+const candidates = LOCALES.filter((l) => l !== locale)
+---
+
+<div class="lang-suggest" data-current={locale} hidden>
+  {candidates.map((l) => (
+    <div class="lang-suggest__banner" data-suggest={l} hidden>
+      <span class="lang-suggest__text">{t(l, 'suggestBanner.text')}</span>
+      <a class="lang-suggest__accept" href={pathForLocale(current, l)} hreflang={l}>
+        {t(l, 'suggestBanner.accept')}
+      </a>
+      <button type="button" class="lang-suggest__dismiss">{t(l, 'suggestBanner.dismiss')}</button>
+    </div>
+  ))}
+</div>
+
+<script>
+  import { mapBrowserLang } from '../i18n/config'
+
+  const KEY = 'manosaba-lang-suggest-dismissed'
+  const root = document.querySelector<HTMLElement>('.lang-suggest')
+  if (root) {
+    const current = root.dataset.current
+    let dismissed = false
+    try {
+      dismissed = localStorage.getItem(KEY) === '1'
+    } catch {
+      dismissed = false
+    }
+    if (!dismissed) {
+      const langs = navigator.languages?.length
+        ? navigator.languages
+        : navigator.language
+          ? [navigator.language]
+          : []
+      let suggested: string | null = null
+      for (const raw of langs) {
+        const m = mapBrowserLang(raw)
+        if (m) {
+          suggested = m
+          break
+        }
+      }
+      if (suggested && suggested !== current) {
+        const banner = root.querySelector<HTMLElement>(`[data-suggest="${suggested}"]`)
+        if (banner) {
+          banner.hidden = false
+          root.hidden = false
+          const close = () => {
+            root.hidden = true
+            try {
+              localStorage.setItem(KEY, '1')
+            } catch {
+              /* ignore */
+            }
+          }
+          banner.querySelector('.lang-suggest__dismiss')?.addEventListener('click', close)
+          banner.querySelector('.lang-suggest__accept')?.addEventListener('click', () => {
+            try {
+              localStorage.setItem(KEY, '1')
+            } catch {
+              /* ignore */
+            }
+          })
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  .lang-suggest {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+  }
+  .lang-suggest__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.7rem 1.2rem;
+    background: color-mix(in srgb, var(--velvet-raised) 92%, transparent);
+    border-bottom: 1px solid var(--hairline-faint);
+    backdrop-filter: blur(6px);
+  }
+  .lang-suggest__text {
+    color: var(--bone);
+    font-size: 0.92rem;
+  }
+  .lang-suggest__accept {
+    font-family: var(--font-instrument);
+    letter-spacing: 0.06em;
+    color: var(--verdict-gold);
+    text-decoration: none;
+    border: 1px solid var(--hairline);
+    padding: 0.25rem 0.9rem;
+  }
+  .lang-suggest__accept:hover {
+    color: var(--verdict-gold-bright);
+    border-color: var(--verdict-gold);
+  }
+  .lang-suggest__dismiss {
+    font-family: var(--font-instrument);
+    font-size: 0.82rem;
+    color: var(--bone-faint);
+  }
+  .lang-suggest__dismiss:hover {
+    color: var(--bone-dim);
+  }
+</style>

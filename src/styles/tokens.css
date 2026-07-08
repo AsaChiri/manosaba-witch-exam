@@ -1,0 +1,101 @@
+/*
+ * 魔女因子検査 — design tokens
+ * Palette sampled from the game's shipped backgrounds (design spec §2.1).
+ * Colour is the information structure: cyan = examination instrument ONLY,
+ * violet = verdict + card/archive ONLY, gold = seals/ornament ONLY, pink =
+ * the single primary CTA. Oxblood/velvet are structural everywhere.
+ */
+:root {
+  /* ── Grounds & surfaces ── */
+  --ink: #0d0b10; /* page ground — near-black, violet cast */
+  --velvet: #1b1016; /* panels, cards */
+  --velvet-raised: #251721; /* raised surfaces, hover */
+  --oxblood: #5c0f1a; /* structural accents, rules, borders */
+  --crimson: #a12833; /* emphasis, warning, wax seal */
+
+  /* ── Narrative glows (each owns exactly one phase) ── */
+  --witch-violet: #a17dde; /* the witch factor itself (verdict + card) */
+  --witch-violet-deep: #6b4fae; /* violet shadows/gradients */
+  --exam-cyan: #7cf0f1; /* examination instrumentation ONLY */
+
+  /* ── Text & seals ── */
+  --bone: #e9dfcc; /* body text on dark */
+  --bone-dim: #b3a892; /* secondary text */
+  --bone-faint: #6f6558; /* tertiary / captions */
+  --verdict-gold: #c9954a; /* seals, verdict stamp, fine ornament */
+  --verdict-gold-bright: #e8b04a; /* candle highlight */
+  --verdict-gold-deep: #ad7237; /* engraved shadow */
+
+  /* ── The one loud element ── */
+  --magica-pink: #e84c7d; /* PRIMARY CTA only */
+  --magica-pink-deep: #b8355f;
+
+  /* ── Light surfaces (the consent document) ── */
+  --parchment: #e6dccb; /* WitchBook dossier page */
+  --parchment-dim: #c9bfb4; /* dialogue-box surface */
+  --parchment-ink: #241b16; /* ink on parchment */
+
+  /* ── Stained-glass accents (rosette SVG only) ── */
+  --glass-cobalt: #4f86b8;
+  --glass-flame: #eb8b79;
+  --logo-blood: #9e1224; /* blackletter wordmark + seal ink */
+
+  /* ── Derived / translucent ── */
+  --hairline: color-mix(in srgb, var(--verdict-gold) 42%, transparent);
+  --hairline-faint: color-mix(in srgb, var(--verdict-gold) 20%, transparent);
+  --rule-oxblood: color-mix(in srgb, var(--oxblood) 70%, transparent);
+  --scrim: color-mix(in srgb, var(--ink) 82%, transparent);
+  --panel: color-mix(in srgb, var(--velvet) 80%, transparent);
+  --panel-border: color-mix(in srgb, var(--oxblood) 55%, transparent);
+  --focus-ring: var(--verdict-gold-bright);
+
+  /* ── Type roles (design spec §2.2). Defaults = zh-CN; per-locale overrides
+       below. Each stack ends in a system fallback (ported from v1) so nothing
+       blocks first paint even if the self-hosted webfont is slow. ── */
+  --font-inscription:
+    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  --font-body:
+    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  --font-instrument:
+    'VT323', 'DotGothic16', 'Noto Serif SC', ui-monospace, 'Cascadia Mono', monospace;
+  --font-wordmark:
+    'Grenze Gotisch', 'Noto Serif SC', 'Source Han Serif SC', serif;
+
+  /* ── Motion & metrics ── */
+  --ease-ceremony: cubic-bezier(0.22, 0.68, 0.32, 1);
+  --ease-out-sharp: cubic-bezier(0.55, 0, 0.68, 0.32);
+  --shadow-panel: 0 24px 60px -24px rgba(0, 0, 0, 0.85);
+  --shadow-card: 0 30px 80px -30px rgba(0, 0, 0, 0.9);
+  --measure: 62ch;
+  --radius-nil: 0; /* the frame is never a rounded rectangle */
+}
+
+/* English — Latin inscription + garamond body + VT323 pixel instrument. */
+:root[lang='en'] {
+  --font-inscription: 'Cinzel', 'Cormorant Garamond', 'Trajan Pro', Georgia, serif;
+  --font-body: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-instrument: 'VT323', ui-monospace, 'Cascadia Mono', 'Consolas', monospace;
+  --font-wordmark: 'Grenze Gotisch', 'Cinzel', Georgia, serif;
+}
+
+/* Japanese — Shippori Mincho display + body, DotGothic16 pixel instrument. */
+:root[lang='ja'] {
+  --font-inscription:
+    'Shippori Mincho', 'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+  --font-body:
+    'Shippori Mincho', 'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+  --font-instrument:
+    'VT323', 'DotGothic16', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', monospace;
+  --font-wordmark: 'Grenze Gotisch', 'Shippori Mincho', 'Noto Serif JP', serif;
+}
+
+/* Traditional Chinese — Noto Serif TC. */
+:root[lang='zh-TW'] {
+  --font-inscription:
+    'Noto Serif TC', 'Source Han Serif TC', 'PMingLiU', 'MingLiU', serif;
+  --font-body:
+    'Noto Serif TC', 'Source Han Serif TC', 'PMingLiU', 'MingLiU', serif;
+  --font-instrument:
+    'VT323', 'DotGothic16', 'Noto Serif TC', ui-monospace, monospace;
+  --font-wordmark: 'Grenze Gotisch', 'Noto Serif TC', serif;
+}

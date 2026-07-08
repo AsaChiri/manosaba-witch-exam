@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="18" fill="#0d0b10"/>
+  <g fill="none" stroke="#c9954a" stroke-linecap="round">
+    <circle cx="50" cy="50" r="42" stroke-width="2.4"/>
+    <circle cx="50" cy="50" r="37" stroke-width="1.2" opacity="0.7"/>
+    <g stroke-width="1.4" opacity="0.7">
+      <ellipse cx="50" cy="50" rx="27" ry="11" transform="rotate(0 50 50)"/>
+      <ellipse cx="50" cy="50" rx="27" ry="11" transform="rotate(60 50 50)"/>
+      <ellipse cx="50" cy="50" rx="27" ry="11" transform="rotate(120 50 50)"/>
+    </g>
+    <g stroke-width="1.5">
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(0 50 50)"/>
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(45 50 50)"/>
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(90 50 50)"/>
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(135 50 50)"/>
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(180 50 50)"/>
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(225 50 50)"/>
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(270 50 50)"/>
+      <path d="M50 50 Q54.4 40 50 30 Q45.6 40 50 50 Z" transform="rotate(315 50 50)"/>
+    </g>
+    <circle cx="50" cy="50" r="3" fill="#c9954a" stroke="none"/>
+  </g>
+</svg>

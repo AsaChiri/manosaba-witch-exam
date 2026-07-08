@@ -1,0 +1,79 @@
+---
+/*
+ * Safety footer (design spec §3.5/§6) — one quiet, out-of-world line plus the
+ * regional crisis lines in a native <details> (zero-JS). Required wherever the
+ * wound content can strike close.
+ */
+import { messages, t } from '../i18n'
+import type { Locale } from '../i18n/config'
+
+interface Props {
+  locale: Locale
+}
+const { locale } = Astro.props
+const crisis = messages(locale).crisisLinks
+---
+
+<aside class="safety" lang={locale}>
+  <p class="safety__line">{t(locale, 'result.safety')}</p>
+  <details class="safety__details">
+    <summary>{t(locale, 'result.safetyLink')}</summary>
+    <ul>
+      {crisis.map((c) => (
+        <li>
+          <span class="safety__region">{c.region}</span>
+          <span class="safety__name">{c.name}</span>
+          <span class="safety__detail instrument">{c.detail}</span>
+        </li>
+      ))}
+    </ul>
+  </details>
+</aside>
+
+<style>
+  .safety {
+    color: var(--bone-faint);
+    font-size: 0.86rem;
+    line-height: 1.7;
+  }
+  .safety__line {
+    color: var(--bone-dim);
+  }
+  .safety__details {
+    margin-top: 0.5rem;
+  }
+  .safety__details summary {
+    cursor: pointer;
+    color: var(--verdict-gold-deep);
+    font-family: var(--font-instrument);
+    letter-spacing: 0.06em;
+  }
+  .safety__details summary:hover {
+    color: var(--verdict-gold);
+  }
+  .safety__details ul {
+    margin: 0.7rem 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .safety__details li {
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  .safety__region {
+    color: var(--bone-faint);
+    min-width: 5em;
+  }
+  .safety__name {
+    color: var(--bone-dim);
+  }
+  .safety__detail {
+    color: var(--verdict-gold-deep);
+    letter-spacing: 0.04em;
+  }
+</style>

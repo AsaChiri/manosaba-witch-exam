@@ -1,0 +1,85 @@
+---
+import '../styles/fonts-zh-cn.css'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import Seal from '../components/Seal.astro'
+import LocaleSwitcher from '../components/LocaleSwitcher.astro'
+import { t } from '../i18n'
+import { localePath } from '../i18n/config'
+
+// Static hosting serves one /404 — default locale (zh-CN), with a switcher.
+const locale = 'zh-CN'
+const seo = {
+  routeKey: '/404/',
+  title: `${t(locale, 'notFound.title')} — ${t(locale, 'meta.siteName')}`,
+  description: t(locale, 'notFound.body'),
+  ogImage: `/og/zh-cn/root.png`,
+  ogType: 'website' as const,
+  jsonld: [] as ('website' | 'quiz' | 'creativework')[],
+}
+---
+
+<BaseLayout locale={locale} seo={seo}>
+  <main id="main" class="nf">
+    <div class="nf__inner">
+      <p class="nf__code instrument">{t(locale, 'notFound.code')}</p>
+      <Seal size={92} title={t(locale, 'meta.siteName')} class="nf__seal" />
+      <h1 class="nf__title inscription">{t(locale, 'notFound.title')}</h1>
+      <p class="nf__body">{t(locale, 'notFound.body')}</p>
+      <a class="nf__back" href={localePath(locale, '/')}>{t(locale, 'notFound.back')} →</a>
+      <div class="nf__switch">
+        <LocaleSwitcher locale={locale} />
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .nf {
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 2rem 1.2rem;
+  }
+  .nf__inner {
+    max-width: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nf__code {
+    color: var(--oxblood);
+    font-size: 1.2rem;
+    letter-spacing: 0.4em;
+    margin-bottom: 1.2rem;
+  }
+  .nf__seal {
+    color: var(--verdict-gold-deep);
+    opacity: 0.85;
+    margin-bottom: 1.4rem;
+  }
+  .nf__title {
+    font-size: clamp(1.7rem, 6vw, 2.6rem);
+    color: var(--bone);
+    letter-spacing: 0.06em;
+  }
+  .nf__body {
+    margin-top: 1.1rem;
+    color: var(--bone-dim);
+  }
+  .nf__back {
+    margin-top: 2rem;
+    font-family: var(--font-instrument);
+    letter-spacing: 0.08em;
+    color: var(--verdict-gold);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 2px;
+  }
+  .nf__back:hover {
+    color: var(--verdict-gold-bright);
+  }
+  .nf__switch {
+    margin-top: 2.4rem;
+  }
+</style>

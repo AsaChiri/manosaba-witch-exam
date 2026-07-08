@@ -1,0 +1,21 @@
+# Cloudflare Pages headers (design spec §4).
+# Astro fingerprints hashed assets under /_astro/ — cache them forever.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Self-hosted fonts are content-hashed too.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# OG images are regenerated on content change (content-hash incremental) —
+# cache a day at the edge, allow stale while revalidating.
+/og/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/favicon.svg
+  Cache-Control: public, max-age=604800
+
+# HTML: always revalidate so content drops go live immediately.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# generated OG images + SEO artifacts (rebuilt by `npm run gen:og`)
+public/og/
+scripts/.fonts-cache/
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

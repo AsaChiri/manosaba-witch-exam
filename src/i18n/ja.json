@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "siteName": "魔女因子検査",
+    "wordmark": "魔女因子検査",
+    "latin": "WITCH FACTOR EXAMINATION",
+    "tagline": "あなたの中の魔女は、まだ眠っている。",
+    "descLanding": "あなたに宛てた、魔女因子の検査。装置があなたの応答を読み、法廷が判決を告げる。そして記録庫には、あの島であなたがなり果てた魔女の頁が、すでに綴じられている。",
+    "descExam": "検査は始まっている。装置があなたの応答を読み取っている。",
+    "descCard": "魔女図鑑の記録――{epithet}。あなたの魔女因子は、検出された。",
+    "descShare": "魔女図鑑の一頁――{epithet}。あなたも検査を受け、どんな魔女になるのかを確かめてほしい。"
+  },
+  "nav": {
+    "skipToContent": "本文へ",
+    "home": "召喚状"
+  },
+  "landing": {
+    "caseLine": "聖歴──年 ・ 検査通達",
+    "title": "魔女因子検査",
+    "hook": "あなたの中の魔女は、まだ眠っている。",
+    "ctaBegin": "検査を受ける",
+    "ctaAside": "検査はあなたに合わせて変わる。おおむね十五から三十問。",
+    "scrollHint": "下へ、通達を読む",
+    "panels": {
+      "whatIs": {
+        "label": "検査とは",
+        "title": "これは何か",
+        "body": "これは架空の検査である。あなたを診断も評価もしない――ただ一つだけを手繰る。もしあなたもあの島へ送られたなら、どんな魔女に育つのかを。"
+      },
+      "duration": {
+        "label": "所要時間",
+        "title": "どれくらいか",
+        "body": "検査の長さは人によって違い、あなたの応答に従って伸び縮みする。おおむね十五から三十問、あらかじめ数を約束することはない。"
+      },
+      "specimen": {
+        "label": "記録の見本",
+        "title": "魔女図鑑の一頁",
+        "body": "検出のたびに、一頁の図鑑として綴じられる――原罪、魔法、罪、処刑、そして一行の銘。下は、その見本である。"
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "本サイトは『魔法少女ノ魔女裁判』の非商用ファン制作物であり、原作および権利者とは関係ありません。",
+    "contactLabel": "連絡・ご意見",
+    "v1Label": "前作 ・ 性格診断",
+    "rights": "ファン制作 ・ 非商用"
+  },
+  "localeSwitcher": {
+    "label": "言語"
+  },
+  "suggestBanner": {
+    "text": "日本語で読みますか。",
+    "accept": "はい",
+    "dismiss": "今の言語のまま"
+  },
+  "gate": {
+    "eyebrow": "同意書 / CONSENT",
+    "title": "検査同意書",
+    "fan": "本検査は『魔法少女ノ魔女裁判』の非商用ファン企画であり、原作および権利者とは関係ありません。",
+    "age": "内容は十八歳以上を対象とする。処刑や自傷に接する加害描写など、暗い主題を含む。",
+    "content": "心が弱っているときは、無理をせず、いつでも中断してよい。",
+    "crisisIntro": "自分を傷つけたい思いに囚われているなら、まず地域の相談窓口に連絡してほしい：",
+    "storage": "回答はこの端末のブラウザ内にのみ保存され、送信も収集もされない。",
+    "crisisLinksLabel": "各地の相談窓口",
+    "consent": "了承のうえ、検査を始める",
+    "decline": "やめておく"
+  },
+  "crisisLinks": [
+    { "region": "日本", "name": "いのちの電話", "detail": "0570-783-556" },
+    { "region": "日本", "name": "よりそいホットライン", "detail": "0120-279-338" },
+    { "region": "日本", "name": "こころの健康相談統一ダイヤル", "detail": "0570-064-556" },
+    { "region": "国際", "name": "Find A Helpline", "detail": "findahelpline.com" }
+  ],
+  "exam": {
+    "caseNoLabel": "検体番号",
+    "phase": {
+      "observe": "観測",
+      "deep": "深層",
+      "match": "照合"
+    },
+    "phaseLabel": "段階",
+    "resonance": "共鳴強度",
+    "questionOrdinal": "第 {n} 問",
+    "back": "前の問い",
+    "booting": "装置を調整中……",
+    "namePrompt": {
+      "eyebrow": "最終登録 / RECORD",
+      "title": "記録に刻む名",
+      "hint": "空欄でもよい。二十文字まで。",
+      "placeholder": "（名無し）",
+      "skip": "とばす",
+      "confirm": "検査を終える"
+    }
+  },
+  "verdict": {
+    "reading": "読取中",
+    "flatline": "共鳴停止",
+    "detected": "魔女因子――検出。",
+    "sentence": "判決は下った――あなたはあの島へ送られる。",
+    "skip": "スキップ",
+    "teaser": "記録に綴じる――",
+    "unfold": "記録をひらく"
+  },
+  "card": {
+    "specimenLabel": "検体名",
+    "nameless": "名無しの魔女",
+    "sentenceMark": "判決 ・ 収蔵",
+    "labels": {
+      "epithet": "原罪",
+      "magic": "魔法",
+      "crime": "罪",
+      "execution": "処刑",
+      "epitaph": "銘"
+    },
+    "retake": "もう一度検査を受ける"
+  },
+  "share": {
+    "heading": "この記録を残す",
+    "save": "画像を保存",
+    "copyLink": "リンクをコピー",
+    "copied": "コピーした",
+    "weibo": "微博",
+    "qq": "QQ",
+    "x": "X",
+    "webshare": "共有",
+    "template": "{name}――{epithet}。わたしの魔女因子は、検出された。",
+    "hint": "検査を受ける：",
+    "qrCaption": "コードを読み、検査を受ける",
+    "exportTag": "魔女因子検査"
+  },
+  "feedback": {
+    "softArchival": "この記録庫は、まだ編纂の途中にある。",
+    "invite": "どこが合い、どこが外れたか。その共鳴を聞かせてほしい。",
+    "emailLabel": "ご意見の宛先",
+    "copyEmail": "宛先をコピー",
+    "copied": "コピーした",
+    "mailSubject": "[魔女因子検査] {tag} / q{quiz} / {locale}",
+    "mailBody": "（どこが自分に近く、どこが遠かったか――その共鳴を。）\n\n"
+  },
+  "result": {
+    "safety": "この頁は暗い主題を含む。もし古い傷に触れたら、まず自分をいたわってほしい。",
+    "safetyLink": "各地の相談窓口"
+  },
+  "errors": {
+    "archive": "記録庫は答えなかった。もう一度試してほしい。",
+    "generic": "何かがうまくいかなかった。もう一度試してほしい。"
+  },
+  "shareCta": {
+    "title": "あなたも検査を受ける",
+    "body": "同じ検査が、あなたを待っている。装置があなたから、どんな魔女を読み出すのか。",
+    "button": "検査を受ける"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "その頁は、記録に存在しない。",
+    "body": "お探しの記録は、この記録庫には綴じられていない。",
+    "back": "召喚へ戻る"
+  }
+}

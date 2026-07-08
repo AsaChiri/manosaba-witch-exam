@@ -1,0 +1,121 @@
+---
+/*
+ * Per-card share page (design spec §3.6) — the viral landing surface. The card
+ * rendered generic (the Nameless Witch), per-card OG meta, one CTA to /exam/.
+ * Zero-JS apart from the CTA link + the feedback copy button. Must look
+ * identical to the shared PNG.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro'
+import CardFrame from '../components/CardFrame.astro'
+import WitchCard from '../components/WitchCard.astro'
+import CtaButton from '../components/CtaButton.astro'
+import Seal from '../components/Seal.astro'
+import LocaleSwitcher from '../components/LocaleSwitcher.astro'
+import Feedback from '../components/Feedback.astro'
+import SafetyNote from '../components/SafetyNote.astro'
+import Footer from '../components/Footer.astro'
+import { t } from '../i18n'
+import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
+import { getContentMeta, sitePhase } from '../lib/content'
+import type { Card } from '../lib/content-schema'
+
+interface Props {
+  card: Card
+  locale: Locale
+}
+const { card, locale } = Astro.props
+const meta = getContentMeta()
+const seo = {
+  routeKey: `/r/${card.tag}/`,
+  title: `${card.epithet} — ${t(locale, 'meta.siteName')}`,
+  description: t(locale, 'meta.descShare', { epithet: card.epithet }),
+  ogImage: `/og/${ASTRO_SEGMENT[locale]}/${card.tag}.png`,
+  ogType: 'article' as const,
+  jsonld: ['creativework'] as ('website' | 'quiz' | 'creativework')[],
+  workName: card.epithet,
+}
+---
+
+<BaseLayout locale={locale} seo={seo}>
+  <main id="main" class="card-page">
+    <header class="card-page__top container">
+      <a class="card-page__home" href={localePath(locale, '/')}>
+        <Seal size={26} title={t(locale, 'meta.siteName')} />
+        <span class="wordmark">{t(locale, 'meta.wordmark')}</span>
+      </a>
+      <LocaleSwitcher locale={locale} />
+    </header>
+
+    <div class="card-page__stage container container--narrow">
+      <CardFrame>
+        <WitchCard card={card} locale={locale} />
+      </CardFrame>
+    </div>
+
+    <section class="card-page__cta container container--narrow">
+      <h2 class="inscription">{t(locale, 'shareCta.title')}</h2>
+      <p>{t(locale, 'shareCta.body')}</p>
+      <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'shareCta.button')} />
+    </section>
+
+    <div class="card-page__foot container container--narrow">
+      <Feedback
+        locale={locale}
+        tag={card.tag}
+        quizVersion={meta.quizVersion}
+        variant="quiet"
+        showArchival={sitePhase() === 'soft'}
+      />
+      <SafetyNote locale={locale} />
+    </div>
+  </main>
+  <Footer locale={locale} />
+</BaseLayout>
+
+<style>
+  .card-page__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+  .card-page__home {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--verdict-gold);
+    text-decoration: none;
+  }
+  .card-page__home .wordmark {
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+  }
+  .card-page__stage {
+    padding-top: 1rem;
+  }
+  .card-page__cta {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .card-page__cta h2 {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    color: var(--bone);
+    margin-bottom: 0.7rem;
+    letter-spacing: 0.05em;
+  }
+  .card-page__cta p {
+    color: var(--bone-dim);
+    max-width: 34ch;
+    margin: 0 auto 1.8rem;
+  }
+  .card-page__foot {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+</style>

@@ -1,0 +1,75 @@
+---
+/*
+ * Locale switcher — links to the equivalent page in each locale (preserves the
+ * current route, e.g. /r/<tag>/). SEO-safe: real <a> links, no auto-redirect.
+ */
+import { LOCALES, LOCALE_NAME, pathForLocale, type Locale } from '../i18n/config'
+import { t } from '../i18n'
+
+interface Props {
+  locale: Locale
+  class?: string
+}
+const { locale, class: className } = Astro.props
+const current = Astro.url.pathname
+---
+
+<nav class:list={['locale-switcher', className]} aria-label={t(locale, 'localeSwitcher.label')}>
+  <span class="locale-switcher__label">{t(locale, 'localeSwitcher.label')}</span>
+  <ul>
+    {LOCALES.map((loc) => (
+      <li>
+        <a
+          href={pathForLocale(current, loc)}
+          hreflang={loc}
+          aria-current={loc === locale ? 'true' : undefined}
+          class={loc === locale ? 'is-active' : undefined}
+        >
+          {LOCALE_NAME[loc]}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<style>
+  .locale-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+  }
+  .locale-switcher__label {
+    font-family: var(--font-instrument);
+    font-size: 0.78rem;
+    letter-spacing: 0.16em;
+    color: var(--bone-faint);
+    text-transform: uppercase;
+  }
+  .locale-switcher ul {
+    display: flex;
+    gap: 0.2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .locale-switcher a {
+    display: inline-block;
+    padding: 0.28rem 0.62rem;
+    font-family: var(--font-body);
+    font-size: 0.92rem;
+    color: var(--bone-dim);
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: color 160ms, border-color 160ms;
+  }
+  .locale-switcher a:hover {
+    color: var(--bone);
+    border-color: var(--hairline-faint);
+  }
+  .locale-switcher a.is-active {
+    color: var(--verdict-gold);
+    border-color: var(--hairline);
+  }
+</style>

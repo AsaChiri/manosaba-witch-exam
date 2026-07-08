@@ -1,0 +1,21 @@
+---
+import '../../../styles/fonts-ja.css'
+import CardPage from '../../../views/CardPage.astro'
+import { listTags, getCardOrFallback } from '../../../lib/content'
+import type { Locale } from '../../../i18n/config'
+import type { Card } from '../../../lib/content-schema'
+
+export function getStaticPaths() {
+  const locale: Locale = 'ja'
+  const paths: { params: { tag: string }; props: { card: Card; locale: Locale } }[] = []
+  for (const tag of listTags()) {
+    const card = getCardOrFallback(tag, locale)
+    if (card) paths.push({ params: { tag }, props: { card, locale } })
+  }
+  return paths
+}
+
+const { card, locale } = Astro.props
+---
+
+<CardPage card={card} locale={locale} />

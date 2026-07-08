@@ -1,0 +1,94 @@
+---
+/*
+ * The primary CTA — the hot-pink torn-paper button from the title menu, the
+ * single loudest element on the page (design spec §2.1/§2.3). Torn-edge
+ * clip-path, one small butterfly accent, faint candle-flicker. Renders as a
+ * link (to /exam/).
+ */
+interface Props {
+  href: string
+  label: string
+  class?: string
+  id?: string
+}
+const { href, label, class: className, id } = Astro.props
+---
+
+<a href={href} id={id} class:list={['cta', className]}>
+  <span class="cta__inner">
+    <span class="cta__label">{label}</span>
+  </span>
+  <svg class="cta__butterfly" viewBox="0 0 28 24" aria-hidden="true" fill="currentColor">
+    <path d="M14 7 C11 1, 3 1, 4 8 C4.6 12.5, 10.5 12, 14 8.5 C17.5 12, 23.4 12.5, 24 8 C25 1, 17 1, 14 7 Z" opacity="0.92" />
+    <path d="M14 9 C11.5 13, 5 14.5, 6.4 19.4 C7.6 23, 11.6 19.5, 14 12.5 C16.4 19.5, 20.4 23, 21.6 19.4 C23 14.5, 16.5 13, 14 9 Z" opacity="0.82" />
+    <path d="M14 6.5 L14 17" stroke="currentColor" stroke-width="0.9" fill="none" />
+  </svg>
+</a>
+
+<style>
+  .cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-decoration: none;
+    isolation: isolate;
+    animation: candle-flicker 5.5s ease-in-out infinite;
+    transition: transform 220ms var(--ease-ceremony), filter 220ms;
+    filter: drop-shadow(0 14px 24px rgba(184, 53, 95, 0.28));
+  }
+  .cta__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 15rem;
+    padding: 1.15rem 2.6rem;
+    background:
+      radial-gradient(120% 160% at 20% -20%, color-mix(in srgb, #fff 24%, var(--magica-pink)), transparent 55%),
+      linear-gradient(160deg, var(--magica-pink) 0%, var(--magica-pink-deep) 100%);
+    clip-path: polygon(
+      0% 14%, 5% 6%, 11% 12%, 18% 4%, 26% 11%, 34% 5%, 43% 12%, 52% 5%,
+      61% 11%, 70% 4%, 79% 11%, 87% 5%, 94% 12%, 100% 7%,
+      100% 86%, 95% 95%, 88% 88%, 80% 96%, 71% 88%, 62% 96%, 52% 89%,
+      43% 96%, 34% 88%, 25% 96%, 17% 88%, 10% 95%, 4% 88%, 0% 92%
+    );
+  }
+  .cta__label {
+    font-family: var(--font-inscription);
+    font-weight: 700;
+    font-size: clamp(1.05rem, 2.4vw, 1.28rem);
+    letter-spacing: 0.14em;
+    color: #fff5f8;
+    text-shadow: 0 1px 10px rgba(60, 6, 24, 0.55);
+    white-space: nowrap;
+  }
+  :root[lang='en'] .cta__label {
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .cta__butterfly {
+    position: absolute;
+    top: -0.55rem;
+    right: 0.4rem;
+    width: 30px;
+    height: auto;
+    color: #3a0618;
+    z-index: 2;
+    transform: rotate(-8deg);
+    filter: drop-shadow(0 1px 1px rgba(255, 200, 220, 0.4));
+  }
+  .cta:hover {
+    transform: translateY(-2px) scale(1.012);
+    filter: drop-shadow(0 18px 30px rgba(232, 76, 125, 0.4));
+  }
+  .cta:active {
+    transform: translateY(0) scale(0.995);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cta {
+      animation: none;
+    }
+  }
+</style>

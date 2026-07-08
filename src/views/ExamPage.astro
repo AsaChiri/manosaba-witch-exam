@@ -1,0 +1,74 @@
+---
+/*
+ * Examination route (design spec §3.2). Hosts the single Vue island
+ * (client:only) with the content package it scores against. No footer — the
+ * island owns the full-height flow.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro'
+import ExamIsland from '../components/exam/ExamIsland.vue'
+import Seal from '../components/Seal.astro'
+import { t } from '../i18n'
+import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
+import { getManifest, getCardOrFallback, getContentMeta, sitePhase } from '../lib/content'
+import type { Card } from '../lib/content-schema'
+
+interface Props {
+  locale: Locale
+}
+const { locale } = Astro.props
+const manifest = getManifest()
+const meta = getContentMeta()
+
+const cells = Object.entries(manifest.tags).map(([tag, info]) => ({
+  tag,
+  cell: info.cell,
+  origin: info.origin,
+  coping: info.coping,
+}))
+const cards: Record<string, Card> = {}
+for (const tag of Object.keys(manifest.tags)) {
+  const card = getCardOrFallback(tag, locale)
+  if (card) cards[tag] = card
+}
+
+const seo = {
+  routeKey: '/exam/',
+  title: `${t(locale, 'meta.siteName')} · ${t(locale, 'landing.ctaBegin')}`,
+  description: t(locale, 'meta.descExam'),
+  ogImage: `/og/${ASTRO_SEGMENT[locale]}/root.png`,
+  ogType: 'website' as const,
+  jsonld: [] as ('website' | 'quiz' | 'creativework')[],
+}
+---
+
+<BaseLayout locale={locale} seo={seo} bodyClass="exam-body">
+  <a class="exam-home" href={localePath(locale, '/')} aria-label={t(locale, 'nav.home')}>
+    <Seal size={24} title={t(locale, 'meta.siteName')} />
+  </a>
+  <main id="main">
+    <ExamIsland
+      client:only="vue"
+      locale={locale}
+      quizVersion={meta.quizVersion}
+      phase={sitePhase()}
+      cells={cells}
+      cards={cards}
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .exam-home {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 30;
+    color: var(--verdict-gold-deep);
+    opacity: 0.55;
+    transition: opacity 200ms, color 200ms;
+  }
+  .exam-home:hover {
+    opacity: 1;
+    color: var(--verdict-gold);
+  }
+</style>

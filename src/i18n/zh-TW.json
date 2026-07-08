@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "siteName": "魔女因子檢測",
+    "wordmark": "魔女因子檢測",
+    "latin": "WITCH FACTOR EXAMINATION",
+    "tagline": "你體內的魔女，尚在沉睡。",
+    "descLanding": "一場為你而設的魔女因子檢測。儀器讀取你的回應，法庭宣讀判決，檔案裡早已存好——你在那座島上，化成的那個魔女。",
+    "descExam": "檢測已經開始。儀器正讀取你的回應。",
+    "descCard": "魔女圖鑑檔案：{epithet}。你的魔女因子，已檢出。",
+    "descShare": "一頁魔女圖鑑：{epithet}。你也來接受檢測，看看自己會化成哪一種魔女。"
+  },
+  "nav": {
+    "skipToContent": "跳到正文",
+    "home": "召喚令"
+  },
+  "landing": {
+    "caseLine": "聖曆──年 · 檢測通告",
+    "title": "魔女因子檢測",
+    "hook": "你體內的魔女，尚在沉睡。",
+    "ctaBegin": "接受檢測",
+    "ctaAside": "檢測因你而變，通常需回答十五到三十問。",
+    "scrollHint": "向下，查閱通告",
+    "panels": {
+      "whatIs": {
+        "label": "何為此檢",
+        "title": "這是什麼",
+        "body": "這是一場虛構的檢測。它不診斷你，也不評判你——只推演一件事：倘若你也被送上那座島，你會長成哪一種魔女。"
+      },
+      "duration": {
+        "label": "所需時長",
+        "title": "需要多久",
+        "body": "檢測的長短因人而異，隨你的每一次回應展開。通常在十五到三十問之間，不會預先許你一個準數。"
+      },
+      "specimen": {
+        "label": "檔案樣張",
+        "title": "一頁魔女圖鑑",
+        "body": "每一次檢出，都會謄成一頁圖鑑：原罪、魔法、罪、處刑，與一句銘。下面是一頁樣張。"
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "本站是『魔法少女ノ魔女裁判』的非商業同人作品，與原作及其權利方沒有關聯。",
+    "contactLabel": "聯絡與回饋",
+    "v1Label": "上一代 · 性格測驗",
+    "rights": "同人創作 · 無商業用途"
+  },
+  "localeSwitcher": {
+    "label": "語言"
+  },
+  "suggestBanner": {
+    "text": "用繁體中文閱讀？",
+    "accept": "好",
+    "dismiss": "維持目前語言"
+  },
+  "gate": {
+    "eyebrow": "同意書 / CONSENT",
+    "title": "檢測同意書",
+    "fan": "本檢測是『魔法少女ノ魔女裁判』的非商業同人企劃，與原作及其權利方沒有關聯。",
+    "age": "內容面向 18 歲及以上。檢測涉及處刑、傷害與自我懲罰等黑暗題材。",
+    "content": "若你近來情緒脆弱，請量力而為——隨時可以停下。",
+    "crisisIntro": "如果你正被傷害自己的念頭困擾，請先聯絡當地的心理危機專線：",
+    "storage": "你的作答只保存在這台裝置的瀏覽器裡，不會上傳，也不會被收集。",
+    "crisisLinksLabel": "各地心理支援專線",
+    "consent": "我已知悉，開始檢測",
+    "decline": "我再想想"
+  },
+  "crisisLinks": [
+    { "region": "臺灣", "name": "安心專線", "detail": "1925" },
+    { "region": "臺灣", "name": "生命線協談專線", "detail": "1995" },
+    { "region": "臺灣", "name": "張老師專線", "detail": "1980" },
+    { "region": "國際", "name": "Find A Helpline", "detail": "findahelpline.com" }
+  ],
+  "exam": {
+    "caseNoLabel": "檢體編號",
+    "phase": {
+      "observe": "觀測",
+      "deep": "深層",
+      "match": "比對"
+    },
+    "phaseLabel": "階段",
+    "resonance": "共鳴強度",
+    "questionOrdinal": "第 {n} 問",
+    "back": "上一問",
+    "booting": "儀器校準中……",
+    "namePrompt": {
+      "eyebrow": "最終登記 / RECORD",
+      "title": "刻入檔案之名",
+      "hint": "可以留空。至多二十字。",
+      "placeholder": "（無名）",
+      "skip": "略過",
+      "confirm": "完成檢測"
+    }
+  },
+  "verdict": {
+    "reading": "讀取中",
+    "flatline": "共鳴中止",
+    "detected": "魔女因子——檢出。",
+    "sentence": "判決既下——你被押往那座島。",
+    "skip": "跳過",
+    "teaser": "檔案歸入——",
+    "unfold": "展開檔案"
+  },
+  "card": {
+    "specimenLabel": "檢體名",
+    "nameless": "無名的魔女",
+    "sentenceMark": "判決 · 歸檔",
+    "labels": {
+      "epithet": "原罪",
+      "magic": "魔法",
+      "crime": "罪",
+      "execution": "處刑",
+      "epitaph": "銘"
+    },
+    "retake": "重新接受檢測"
+  },
+  "share": {
+    "heading": "留存此記錄",
+    "save": "儲存影像",
+    "copyLink": "複製連結",
+    "copied": "已複製",
+    "weibo": "微博",
+    "qq": "QQ",
+    "x": "X",
+    "webshare": "分享",
+    "template": "{name}——{epithet}。我的魔女因子，已檢出。",
+    "hint": "接受檢測：",
+    "qrCaption": "掃碼接受檢測",
+    "exportTag": "魔女因子檢測"
+  },
+  "feedback": {
+    "softArchival": "這座檔案庫，仍在謄寫之中。",
+    "invite": "哪裡像你，哪裡不像？把那點共鳴告訴我們。",
+    "emailLabel": "回饋信箱",
+    "copyEmail": "複製地址",
+    "copied": "已複製",
+    "mailSubject": "[魔女因子檢測] {tag} / q{quiz} / {locale}",
+    "mailBody": "（寫下哪裡像你、哪裡不像——那點共鳴。）\n\n"
+  },
+  "result": {
+    "safety": "本頁含黑暗題材。若它觸到你的痛處，請先照顧好自己。",
+    "safetyLink": "各地心理支援專線"
+  },
+  "errors": {
+    "archive": "檔案無應答。請重試。",
+    "generic": "出了點狀況。請重試。"
+  },
+  "shareCta": {
+    "title": "你也來接受檢測",
+    "body": "同一場檢測，也在等你。看看儀器會在你身上，讀出哪一種魔女。",
+    "button": "接受檢測"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "此頁不在檔案之列。",
+    "body": "你要找的記錄，檔案庫裡並無留存。",
+    "back": "回到召喚令"
+  }
+}

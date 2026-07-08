@@ -1,0 +1,50 @@
+{
+  "name": "manosaba-witch-exam",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "魔女因子検査 — the Witch Factor Examination. A fan-made diegetic examination site for 魔法少女ノ魔女裁判.",
+  "workspaces": [
+    "packages/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "gen:og": "tsx scripts/generate-og.ts",
+    "check": "astro check",
+    "typecheck:vue": "vue-tsc --noEmit",
+    "build": "npm run gen:og && astro check && astro build",
+    "build:fast": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/vue": "^5.1.4",
+    "astro": "^5.18.2",
+    "html2canvas": "^1.4.1",
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.39",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@fontsource/cinzel": "^5.2.8",
+    "@fontsource/cormorant-garamond": "^5.2.11",
+    "@fontsource/dotgothic16": "^5.2.8",
+    "@fontsource/grenze-gotisch": "^5.2.8",
+    "@fontsource/noto-serif-sc": "^5.2.9",
+    "@fontsource/noto-serif-tc": "^5.2.10",
+    "@fontsource/shippori-mincho": "^5.2.8",
+    "@fontsource/vt323": "^5.2.7",
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/node": "^24.12.2",
+    "@types/qrcode": "^1.5.6",
+    "satori": "^0.26.0",
+    "tsx": "^4.23.0",
+    "typescript": "~6.0.3",
+    "vue-tsc": "^3.3.6",
+    "wawoff2": "^2.0.1"
+  }
+}

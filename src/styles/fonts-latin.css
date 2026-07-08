@@ -1,0 +1,22 @@
+/* Latin faces — needed on every locale (wordmark, Latin titles, VT323
+ * instrument readouts). Vite resolves these bare @fontsource specifiers and
+ * inlines each @font-face (font-display:swap by default). unicode-range
+ * slicing means the browser fetches only the ranges it actually paints. */
+
+/* Inscription (display) — Cinzel, Trajan-like caps */
+@import '@fontsource/cinzel/500.css';
+@import '@fontsource/cinzel/600.css';
+@import '@fontsource/cinzel/700.css';
+@import '@fontsource/cinzel/900.css';
+
+/* Body (serif) — Cormorant Garamond, incl. italic for epitaphs */
+@import '@fontsource/cormorant-garamond/400.css';
+@import '@fontsource/cormorant-garamond/400-italic.css';
+@import '@fontsource/cormorant-garamond/600.css';
+
+/* Wordmark accent — Grenze Gotisch blackletter */
+@import '@fontsource/grenze-gotisch/400.css';
+@import '@fontsource/grenze-gotisch/700.css';
+
+/* Instrument (pixel/terminal) — VT323, echoes Perfect DOS VGA 437 */
+@import '@fontsource/vt323/400.css';

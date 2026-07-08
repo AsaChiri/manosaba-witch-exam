@@ -1,0 +1,16 @@
+{
+  "bankVersion": "fixtures",
+  "contentVersion": "fixtures-2026-07-07",
+  "quizVersion": "mock-1",
+  "manifestVersion": "v1",
+  "phase": "soft",
+  "generatedAt": "2026-07-07T00:00:00.000Z",
+  "locales": ["en", "ja", "zh-CN", "zh-TW"],
+  "counts": {
+    "shippedTags": 2,
+    "authoredCells": 2,
+    "families": 8,
+    "styles": 25,
+    "slots": 89
+  }
+}

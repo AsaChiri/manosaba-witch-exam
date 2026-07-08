@@ -1,0 +1,242 @@
+---
+/*
+ * Landing — the Summons (design spec §3.1). Courtroom-dark hero: mono case-line,
+ * the Seal, the title in inscription type, one hook line, the hot-pink torn-
+ * paper CTA (the single loudest element). Below the fold: three quiet panels
+ * (what this is / duration honesty / specimen card), locale switcher, footer.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro'
+import Seal from '../components/Seal.astro'
+import CtaButton from '../components/CtaButton.astro'
+import CardFrame from '../components/CardFrame.astro'
+import WitchCard from '../components/WitchCard.astro'
+import Footer from '../components/Footer.astro'
+import Feedback from '../components/Feedback.astro'
+import LangSuggestBanner from '../components/LangSuggestBanner.astro'
+import { t } from '../i18n'
+import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
+import { getSpecimenCard, getContentMeta, sitePhase } from '../lib/content'
+
+interface Props {
+  locale: Locale
+}
+const { locale } = Astro.props
+const meta = getContentMeta()
+const specimen = getSpecimenCard(locale)
+const showLatin = locale !== 'en'
+const seo = {
+  routeKey: '/',
+  title: t(locale, 'meta.siteName'),
+  description: t(locale, 'meta.descLanding'),
+  ogImage: `/og/${ASTRO_SEGMENT[locale]}/root.png`,
+  ogType: 'website' as const,
+  jsonld: ['website', 'quiz'] as ('website' | 'quiz' | 'creativework')[],
+}
+---
+
+<BaseLayout locale={locale} seo={seo}>
+  <LangSuggestBanner locale={locale} />
+  <main id="main">
+    <section class="hero">
+      <div class="hero__glass" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="hero__case instrument">{t(locale, 'landing.caseLine')}</p>
+        <Seal size={92} stained glow class="hero__seal" title={t(locale, 'meta.siteName')} />
+        <h1 class="hero__title inscription">{t(locale, 'landing.title')}</h1>
+        {showLatin && <p class="hero__latin instrument">{t(locale, 'meta.latin')}</p>}
+        <p class="hero__hook">{t(locale, 'landing.hook')}</p>
+        <div class="hero__cta">
+          <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'landing.ctaBegin')} />
+        </div>
+        <p class="hero__aside">{t(locale, 'landing.ctaAside')}</p>
+      </div>
+      <span class="hero__scroll instrument" aria-hidden="true">{t(locale, 'landing.scrollHint')}</span>
+    </section>
+
+    <section class="panels container" aria-label={t(locale, 'landing.panels.whatIs.title')}>
+      <div class="panels__row">
+        {(['whatIs', 'duration'] as const).map((key) => (
+          <article class="panel">
+            <span class="panel__label instrument">{t(locale, `landing.panels.${key}.label`)}</span>
+            <h2 class="panel__title inscription">{t(locale, `landing.panels.${key}.title`)}</h2>
+            <p class="panel__body">{t(locale, `landing.panels.${key}.body`)}</p>
+          </article>
+        ))}
+      </div>
+
+      {specimen && (
+        <div class="specimen">
+          <div class="specimen__intro">
+            <span class="panel__label instrument">{t(locale, 'landing.panels.specimen.label')}</span>
+            <h2 class="panel__title inscription">{t(locale, 'landing.panels.specimen.title')}</h2>
+            <p class="panel__body">{t(locale, 'landing.panels.specimen.body')}</p>
+          </div>
+          <div class="specimen__card">
+            <CardFrame>
+              <WitchCard card={specimen} locale={locale} />
+            </CardFrame>
+          </div>
+        </div>
+      )}
+    </section>
+
+    <div class="container container--narrow landing-feedback">
+      <Feedback
+        locale={locale}
+        tag="landing"
+        quizVersion={meta.quizVersion}
+        variant="quiet"
+        showArchival={sitePhase() === 'soft'}
+      />
+    </div>
+  </main>
+  <Footer locale={locale} />
+</BaseLayout>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    padding: clamp(2rem, 8vh, 5rem) 1.2rem;
+    overflow: hidden;
+    text-align: center;
+  }
+  /* CSS-built stained-glass drift glow — atmosphere, not a screenshot. */
+  .hero__glass {
+    position: absolute;
+    inset: -20%;
+    z-index: 0;
+    background:
+      radial-gradient(40% 30% at 24% 18%, rgba(79, 134, 184, 0.16), transparent 70%),
+      radial-gradient(36% 28% at 78% 22%, rgba(235, 139, 121, 0.12), transparent 70%),
+      radial-gradient(52% 40% at 50% 6%, rgba(161, 125, 222, 0.14), transparent 72%),
+      radial-gradient(60% 44% at 50% 108%, rgba(92, 15, 26, 0.3), transparent 60%);
+    animation: glass-drift 26s ease-in-out infinite alternate;
+    pointer-events: none;
+  }
+  .hero__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40rem;
+  }
+  .hero__case {
+    color: var(--bone-faint);
+    font-size: 0.82rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+  }
+  .hero__seal {
+    color: var(--verdict-gold);
+    margin-bottom: 1.4rem;
+  }
+  .hero__title {
+    font-size: clamp(2.5rem, 8.5vw, 4.4rem);
+    color: var(--bone);
+    letter-spacing: 0.12em;
+    line-height: 1.08;
+    text-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);
+  }
+  .hero__latin {
+    margin-top: 0.9rem;
+    color: var(--verdict-gold-deep);
+    font-size: clamp(0.72rem, 2.2vw, 0.92rem);
+    letter-spacing: 0.42em;
+    padding-left: 0.42em;
+  }
+  .hero__hook {
+    margin-top: 1.8rem;
+    font-family: var(--font-body);
+    font-size: clamp(1.1rem, 3.4vw, 1.4rem);
+    color: var(--bone-dim);
+    font-style: italic;
+    max-width: 28ch;
+  }
+  .hero__cta {
+    margin-top: 2.6rem;
+  }
+  .hero__aside {
+    margin-top: 1.3rem;
+    font-family: var(--font-instrument);
+    font-size: 0.86rem;
+    letter-spacing: 0.05em;
+    color: var(--bone-faint);
+    max-width: 34ch;
+  }
+  .hero__scroll {
+    position: absolute;
+    bottom: 1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--bone-faint);
+    font-size: 0.74rem;
+    letter-spacing: 0.2em;
+    opacity: 0.7;
+    z-index: 1;
+  }
+
+  .panels {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .panels__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+    gap: 1.4rem;
+  }
+  .panel {
+    padding: 1.7rem 1.6rem;
+    background: color-mix(in srgb, var(--velvet) 70%, transparent);
+    border: 1px solid var(--panel-border);
+    border-top: 2px solid var(--rule-oxblood);
+  }
+  .panel__label {
+    display: block;
+    color: var(--verdict-gold);
+    font-size: 0.76rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    margin-bottom: 0.7rem;
+  }
+  .panel__title {
+    font-size: 1.4rem;
+    color: var(--bone);
+    margin-bottom: 0.7rem;
+    letter-spacing: 0.04em;
+  }
+  .panel__body {
+    color: var(--bone-dim);
+    line-height: 1.75;
+  }
+
+  .specimen {
+    margin-top: 2.4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    align-items: start;
+  }
+  @media (min-width: 60rem) {
+    .specimen {
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 2.6rem;
+    }
+    .specimen__intro {
+      position: sticky;
+      top: 3rem;
+    }
+  }
+  .specimen__card {
+    max-width: 34rem;
+    margin-inline: auto;
+    width: 100%;
+  }
+  .landing-feedback {
+    margin-top: 3rem;
+  }
+</style>

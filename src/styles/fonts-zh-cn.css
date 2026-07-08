@@ -1,0 +1,7 @@
+/* zh-CN CJK bundle — Noto Serif SC (= the game's own Source Han Serif SC) for
+ * inscription + body, DotGothic16 for the pixel instrument layer. Loaded only
+ * on zh-CN pages. */
+@import '@fontsource/noto-serif-sc/400.css';
+@import '@fontsource/noto-serif-sc/600.css';
+@import '@fontsource/noto-serif-sc/900.css';
+@import '@fontsource/dotgothic16/400.css';

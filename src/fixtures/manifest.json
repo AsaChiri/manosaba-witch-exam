@@ -1,0 +1,36 @@
+{
+  "cells": {
+    "ABN|Clinger": {
+      "authoredTags": ["ABN-1_CL-1"],
+      "coveredCoping": ["CL-1"],
+      "coveredOrigin": ["ABN-1"],
+      "family": "ABN",
+      "style": "Clinger"
+    },
+    "VC|Watcher": {
+      "authoredTags": ["VC-1_WT-1"],
+      "coveredCoping": ["WT-1"],
+      "coveredOrigin": ["VC-1"],
+      "family": "VC",
+      "style": "Watcher"
+    }
+  },
+  "tags": {
+    "ABN-1_CL-1": {
+      "cell": "ABN|Clinger",
+      "copingSub": "CL-1",
+      "originSub": "ABN-1",
+      "tag": "ABN-1_CL-1",
+      "variants": 1,
+      "locales": ["en", "ja", "zh-CN", "zh-TW"]
+    },
+    "VC-1_WT-1": {
+      "cell": "VC|Watcher",
+      "copingSub": "WT-1",
+      "originSub": "VC-1",
+      "tag": "VC-1_WT-1",
+      "variants": 1,
+      "locales": ["en", "ja", "zh-CN", "zh-TW"]
+    }
+  }
+}

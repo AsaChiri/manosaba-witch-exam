@@ -1,0 +1,89 @@
+---
+/*
+ * Site footer — fan disclaimer, contact, the v1 link, locale switcher.
+ */
+import LocaleSwitcher from './LocaleSwitcher.astro'
+import Seal from './Seal.astro'
+import { t } from '../i18n'
+import type { Locale } from '../i18n/config'
+
+interface Props {
+  locale: Locale
+}
+const { locale } = Astro.props
+const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'feedback@example.invalid'
+const V1_URL = 'https://manosaba-test.asachiri.com'
+---
+
+<footer class="site-footer" lang={locale}>
+  <div class="container">
+    <hr class="rule-gold rule-gold--center" />
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <Seal size={28} title={t(locale, 'meta.siteName')} />
+        <span class="wordmark">{t(locale, 'meta.wordmark')}</span>
+      </div>
+      <LocaleSwitcher locale={locale} />
+    </div>
+    <p class="site-footer__disclaimer">{t(locale, 'footer.disclaimer')}</p>
+    <div class="site-footer__links">
+      <a href={`mailto:${email}`}>{t(locale, 'footer.contactLabel')}</a>
+      <span class="dot">·</span>
+      <a href={V1_URL} rel="noopener noreferrer" target="_blank">{t(locale, 'footer.v1Label')}</a>
+      <span class="dot">·</span>
+      <span class="site-footer__rights">{t(locale, 'footer.rights')}</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding: 3rem 0 3.5rem;
+    margin-top: 4rem;
+    color: var(--bone-faint);
+  }
+  .site-footer__grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+    margin: 1.6rem 0 1.2rem;
+  }
+  .site-footer__brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--verdict-gold);
+  }
+  .site-footer__brand .wordmark {
+    font-size: 1.05rem;
+    letter-spacing: 0.04em;
+  }
+  .site-footer__disclaimer {
+    font-size: 0.86rem;
+    line-height: 1.7;
+    color: var(--bone-faint);
+    max-width: 60ch;
+  }
+  .site-footer__links {
+    margin-top: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    font-size: 0.84rem;
+    font-family: var(--font-instrument);
+    letter-spacing: 0.04em;
+  }
+  .site-footer__links a {
+    color: var(--bone-dim);
+    text-decoration: none;
+  }
+  .site-footer__links a:hover {
+    color: var(--verdict-gold);
+  }
+  .site-footer__links .dot {
+    color: var(--bone-faint);
+  }
+</style>

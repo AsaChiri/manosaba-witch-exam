@@ -1,0 +1,137 @@
+---
+/*
+ * Feedback block (design spec §6). mailto: with a prefilled subject
+ * `[魔女因子検査] <tag> / q<quizVersion> / <locale>` + body template, plus the
+ * address shown as selectable text with a copy button (bare mailto fails on
+ * many desktops). Address from PUBLIC_FEEDBACK_EMAIL (placeholder invalid).
+ */
+import { t } from '../i18n'
+import type { Locale } from '../i18n/config'
+
+interface Props {
+  locale: Locale
+  tag: string
+  quizVersion: string
+  variant?: 'prominent' | 'quiet'
+  showArchival?: boolean
+}
+const { locale, tag, quizVersion, variant = 'quiet', showArchival = false } = Astro.props
+
+const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'feedback@example.invalid'
+const subject = t(locale, 'feedback.mailSubject', { tag, quiz: quizVersion, locale })
+const body = t(locale, 'feedback.mailBody')
+const mailto = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+---
+
+<section class:list={['feedback', `feedback--${variant}`]} lang={locale}>
+  {showArchival && <p class="feedback__archival">{t(locale, 'feedback.softArchival')}</p>}
+  <p class="feedback__invite">{t(locale, 'feedback.invite')}</p>
+  <div class="feedback__row">
+    <a class="feedback__write" href={mailto}>{t(locale, 'feedback.emailLabel')}</a>
+    <code class="feedback__addr" data-feedback-addr>{email}</code>
+    <button type="button" class="feedback__copy" data-feedback-copy={email} data-copied-label={t(locale, 'feedback.copied')}>
+      {t(locale, 'feedback.copyEmail')}
+    </button>
+  </div>
+</section>
+
+<script>
+  // Idempotent — Astro bundles this once even across multiple <Feedback/>.
+  document.querySelectorAll<HTMLButtonElement>('.feedback__copy').forEach((btn) => {
+    if (btn.dataset.wired) return
+    btn.dataset.wired = '1'
+    const addr = btn.getAttribute('data-feedback-copy') || ''
+    const done = btn.getAttribute('data-copied-label') || 'OK'
+    const original = btn.textContent
+    btn.addEventListener('click', async () => {
+      let ok = false
+      try {
+        await navigator.clipboard.writeText(addr)
+        ok = true
+      } catch {
+        const ta = document.createElement('textarea')
+        ta.value = addr
+        ta.style.position = 'fixed'
+        ta.style.opacity = '0'
+        document.body.appendChild(ta)
+        ta.select()
+        try {
+          ok = document.execCommand('copy')
+        } catch {
+          ok = false
+        }
+        document.body.removeChild(ta)
+      }
+      if (ok) {
+        btn.textContent = done
+        window.setTimeout(() => {
+          btn.textContent = original
+        }, 1800)
+      }
+    })
+  })
+</script>
+
+<style>
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .feedback--prominent {
+    padding: 1.4rem 1.5rem;
+    border: 1px solid var(--hairline-faint);
+    background: color-mix(in srgb, var(--velvet) 70%, transparent);
+  }
+  .feedback__archival {
+    font-family: var(--font-body);
+    font-style: italic;
+    color: var(--witch-violet);
+    letter-spacing: 0.02em;
+  }
+  .feedback__invite {
+    color: var(--bone-dim);
+    font-size: 0.98rem;
+  }
+  .feedback--quiet .feedback__invite {
+    font-size: 0.88rem;
+    color: var(--bone-faint);
+  }
+  .feedback__row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .feedback__write {
+    font-family: var(--font-instrument);
+    letter-spacing: 0.08em;
+    color: var(--verdict-gold);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 1px;
+  }
+  .feedback__write:hover {
+    color: var(--verdict-gold-bright);
+  }
+  .feedback__addr {
+    font-family: var(--font-instrument);
+    font-size: 0.86rem;
+    color: var(--bone-dim);
+    user-select: all;
+    word-break: break-all;
+  }
+  .feedback__copy {
+    font-family: var(--font-instrument);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    color: var(--bone-faint);
+    border: 1px solid var(--hairline-faint);
+    padding: 0.2rem 0.6rem;
+    transition: color 160ms, border-color 160ms;
+  }
+  .feedback__copy:hover {
+    color: var(--bone);
+    border-color: var(--hairline);
+  }
+</style>

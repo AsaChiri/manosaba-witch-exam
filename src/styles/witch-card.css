@@ -1,0 +1,212 @@
+/*
+ * The 魔女図鑑 card — typography-only gothic (design spec §3.5). Shared by the
+ * static card page (WitchCard.astro) and the interactive result (ResultCard.vue)
+ * so the shared PNG is pixel-identical to the page. Violet owns this surface
+ * (the witch factor); gold is seal/ornament only; bone is prose.
+ */
+.witch-card {
+  color: var(--bone);
+  text-align: center;
+  --wc-violet: var(--witch-violet);
+}
+
+.witch-card__crest {
+  display: flex;
+  justify-content: center;
+  color: var(--verdict-gold);
+  margin-bottom: 1.1rem;
+}
+.witch-card__crest .seal {
+  width: clamp(58px, 16vw, 76px);
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--verdict-gold) 30%, transparent));
+}
+
+.witch-card__specimen {
+  font-family: var(--font-instrument);
+  font-size: 0.86rem;
+  letter-spacing: 0.14em;
+  color: var(--bone-dim);
+  text-transform: uppercase;
+}
+.witch-card__specimen-label {
+  color: var(--verdict-gold-deep);
+}
+
+.witch-card__name {
+  font-family: var(--font-inscription);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 5.5vw, 2rem);
+  color: color-mix(in srgb, var(--witch-violet) 78%, var(--bone));
+  letter-spacing: 0.05em;
+  margin: 0.15rem 0 0.5rem;
+  line-height: 1.2;
+}
+
+.witch-card__cell {
+  font-family: var(--font-instrument);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  color: var(--verdict-gold-deep);
+}
+
+.witch-card__epithet-label,
+.witch-card__field-label {
+  display: inline-block;
+  font-family: var(--font-instrument);
+  font-size: 0.82rem;
+  letter-spacing: 0.34em;
+  color: var(--verdict-gold);
+  text-transform: uppercase;
+}
+
+.witch-card__epithet {
+  font-family: var(--font-inscription);
+  font-weight: 700;
+  font-size: clamp(1.9rem, 7vw, 2.9rem);
+  line-height: 1.16;
+  color: var(--witch-violet);
+  text-shadow: 0 0 22px color-mix(in srgb, var(--witch-violet) 34%, transparent);
+  margin: 0.5rem auto 0.2rem;
+  max-width: 22ch;
+}
+
+.witch-card__divider {
+  width: min(180px, 55%);
+  margin: 1.4rem auto;
+  border: 0;
+  border-top: 1px solid var(--hairline);
+  box-shadow: 0 3px 0 -2px var(--hairline-faint);
+}
+
+.witch-card__field {
+  margin: 1.5rem auto 0;
+  max-width: 46ch;
+  text-align: left;
+}
+.witch-card__field-label {
+  margin-bottom: 0.5rem;
+}
+.witch-card__magic-name {
+  font-family: var(--font-inscription);
+  color: color-mix(in srgb, var(--witch-violet) 70%, var(--bone));
+  font-size: 1.06rem;
+  letter-spacing: 0.06em;
+}
+.witch-card__field-body {
+  font-family: var(--font-body);
+  color: var(--bone);
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+.witch-card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.witch-card__list li {
+  position: relative;
+  padding-left: 1.1rem;
+  color: var(--bone);
+}
+.witch-card__list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.66em;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  background: color-mix(in srgb, var(--verdict-gold) 60%, transparent);
+}
+
+.witch-card__epitaph {
+  margin: 1.8rem auto 0;
+  max-width: 40ch;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--hairline-faint);
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--verdict-gold-bright);
+  text-align: center;
+}
+
+/* Export footer — hidden on screen; revealed only during PNG capture so the
+ * WeChat in-app browser can long-press-save with a scan-to-take-it QR. */
+.witch-card__export-footer {
+  display: none;
+  margin-top: 1.8rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--hairline-faint);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.exporting .witch-card__export-footer {
+  display: flex;
+}
+.witch-card__export-brand {
+  text-align: left;
+}
+.witch-card__export-brand .brand {
+  font-family: var(--font-wordmark);
+  color: var(--verdict-gold);
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+}
+.witch-card__export-brand .cap {
+  font-family: var(--font-instrument);
+  color: var(--bone-dim);
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+}
+.witch-card__export-qr {
+  width: 84px;
+  height: 84px;
+  flex: none;
+  border: 1px solid var(--hairline);
+}
+
+/* During capture, silence motion/soft-shadow effects html2canvas mishandles. */
+.exporting,
+.exporting * {
+  animation: none !important;
+  transition: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* ── Card frame (fleuron corners + hairline double-rules) ──
+ * Shared by CardFrame.astro (static card page) and the Vue result so the
+ * exported PNG is identical to the card page. Never a rounded rectangle. */
+.card-frame {
+  position: relative;
+  background: var(--frame-surface, var(--velvet));
+  border: 1px solid color-mix(in srgb, var(--frame-tone, var(--verdict-gold)) 34%, transparent);
+  box-shadow: var(--shadow-card);
+}
+.card-frame__rule {
+  position: relative;
+  margin: 7px;
+  border: 1px solid color-mix(in srgb, var(--frame-tone, var(--verdict-gold)) 26%, transparent);
+  padding: clamp(1.1rem, 4vw, 2.2rem);
+}
+.card-frame__inner {
+  position: relative;
+  z-index: 1;
+}
+.card-frame__fleuron {
+  position: absolute;
+  z-index: 2;
+  color: var(--frame-tone, var(--verdict-gold));
+  pointer-events: none;
+}
+.card-frame__fleuron--tl { top: -1px; left: -1px; }
+.card-frame__fleuron--tr { top: -1px; right: -1px; transform: scaleX(-1); }
+.card-frame__fleuron--bl { bottom: -1px; left: -1px; transform: scaleY(-1); }
+.card-frame__fleuron--br { bottom: -1px; right: -1px; transform: scale(-1, -1); }
