@@ -7,7 +7,7 @@
 import Seal from './Seal.astro'
 import { t } from '../i18n'
 import type { Locale } from '../i18n/config'
-import type { Card } from '../lib/content-schema'
+import { cardTitle, type Card } from '../lib/content-schema'
 
 interface Props {
   card: Card
@@ -19,6 +19,10 @@ interface Props {
 const { card, locale, witchName, class: className } = Astro.props
 const name = witchName && witchName.length ? witchName : t(locale, 'card.nameless')
 const L = (k: string) => t(locale, `card.labels.${k}`)
+// The headline is the magic's name (canon: a witch is known by her magic);
+// epithet is the fallback when no name parses, and then isn't repeated below.
+const title = cardTitle(card)
+const showEpithetField = card.magic.name != null
 ---
 
 <article class:list={['witch-card', className]} lang={locale}>
@@ -31,39 +35,35 @@ const L = (k: string) => t(locale, `card.labels.${k}`)
     &nbsp;·&nbsp;{name}
   </p>
 
-  <p class="witch-card__cell">{t(locale, 'card.fileNo')} {card.cell.label}</p>
-
   <div class="witch-card__epithet-block">
-    <span class="witch-card__epithet-label">{L('epithet')}</span>
-    <h2 class="witch-card__epithet">{card.epithet}</h2>
+    <h2 class="witch-card__epithet">{title}</h2>
   </div>
 
   <hr class="witch-card__divider" />
 
+  {showEpithetField && (
+    <section class="witch-card__field">
+      <span class="witch-card__field-label">{L('epithet')}</span>
+      <p class="witch-card__field-body">{card.epithet}</p>
+    </section>
+  )}
+
   <section class="witch-card__field">
     <span class="witch-card__field-label">{L('magic')}</span>
-    <p class="witch-card__field-body">
-      {card.magic.name && <span class="witch-card__magic-name">{card.magic.name}　</span>}
-      {card.magic.text}
-    </p>
+    <p class="witch-card__field-body">{card.magic.text}</p>
   </section>
 
   <section class="witch-card__field">
     <span class="witch-card__field-label">{L('crime')}</span>
-    <ul class="witch-card__list">
-      {card.crime.map((line) => <li>{line}</li>)}
-    </ul>
+    <div class="witch-card__prose">{card.crime.map((line) => <p>{line}</p>)}</div>
   </section>
 
   <section class="witch-card__field">
     <span class="witch-card__field-label">{L('execution')}</span>
-    <ul class="witch-card__list">
-      {card.execution.map((line) => <li>{line}</li>)}
-    </ul>
+    <div class="witch-card__prose">{card.execution.map((line) => <p>{line}</p>)}</div>
   </section>
 
   <section class="witch-card__field" style="text-align:center">
-    <span class="witch-card__field-label">{L('epitaph')}</span>
     <p class="witch-card__epitaph">{card.epitaph}</p>
   </section>
 </article>

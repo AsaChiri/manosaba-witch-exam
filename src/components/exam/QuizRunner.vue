@@ -1,12 +1,12 @@
 <script setup lang="ts">
 /*
  * The instrument (design spec §3.3). Dark plum ground, cyan instrument accents.
- * Header = resonance readout (phase 観測→深層→照合 + a gauge, never a percent).
- * Scenario in body serif; options as bone-on-velvet cards with a cyan hover
- * glow. One question per screen, paper-slide between.
+ * Header = case no. + question ordinal + the 魔女因子 gauge (canon term; never
+ * a percent, never invented phase names). Scenario in body serif; options as
+ * bone-on-velvet cards with a cyan hover glow. One question per screen.
  */
 import { computed } from 'vue'
-import type { ExamQuestion, ExamProgress, ExamPhase } from '../../lib/engine-api'
+import type { ExamQuestion, ExamProgress } from '../../lib/engine-api'
 import { t } from '../../i18n'
 import type { Locale } from '../../i18n/config'
 
@@ -21,11 +21,6 @@ const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k,
 // Stable-per-session specimen code (flavour only).
 const specimenCode = `${100 + Math.floor(Math.random() * 900)}-${'ABCD'[Math.floor(Math.random() * 4)]}`
 
-const phases: { id: ExamPhase; key: string }[] = [
-  { id: 'observe', key: 'exam.phase.observe' },
-  { id: 'deep', key: 'exam.phase.deep' },
-  { id: 'match', key: 'exam.phase.match' },
-]
 const SEGMENTS = 12
 const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * SEGMENTS)))
 </script>
@@ -36,16 +31,6 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
       <div class="quiz__meta">
         <span class="quiz__case">{{ T('exam.caseNoLabel') }} No.{{ specimenCode }}</span>
         <span class="quiz__ord">{{ T('exam.questionOrdinal', { n: progress.ordinal }) }}</span>
-      </div>
-
-      <div class="quiz__phases" role="list">
-        <span
-          v-for="p in phases"
-          :key="p.id"
-          role="listitem"
-          class="quiz__phase"
-          :class="{ 'is-active': p.id === progress.phase }"
-        >{{ T(p.key) }}</span>
       </div>
 
       <div class="quiz__gauge" :aria-label="T('exam.resonance')">
@@ -123,29 +108,6 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
 }
 .quiz__ord {
   color: color-mix(in srgb, var(--exam-cyan) 75%, var(--bone));
-}
-.quiz__phases {
-  display: flex;
-  gap: 0.7rem;
-  margin: 0.8rem 0 0.7rem;
-  font-family: var(--font-instrument);
-  font-size: 0.82rem;
-  letter-spacing: 0.14em;
-}
-.quiz__phase {
-  color: var(--bone-faint);
-  position: relative;
-  padding-right: 0.7rem;
-}
-.quiz__phase:not(:last-child)::after {
-  content: '›';
-  position: absolute;
-  right: -0.15rem;
-  color: var(--bone-faint);
-}
-.quiz__phase.is-active {
-  color: var(--exam-cyan);
-  text-shadow: 0 0 10px color-mix(in srgb, var(--exam-cyan) 55%, transparent);
 }
 .quiz__gauge {
   display: flex;

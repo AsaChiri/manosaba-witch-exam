@@ -117,6 +117,22 @@ function splitCell(cell: string): [string, string] {
   return [a ?? cell, b ?? '']
 }
 
+/** Split the authored magic string into its name and body.
+ *  Corpus forms: 「吞尽」——她能…, "牵引"——她能…, 「食べ尽くし」——彼女は…,
+ *  Devour to Nothing — she can… . Returns name-less on no match. */
+export function splitMagic(raw: string): Magic {
+  const quoted = raw.match(/^\s*[「『"“']([^」』"”']{1,40})[」』"”']\s*(?:——|――|—|–|-)?\s*(\S[\s\S]*)$/)
+  if (quoted) return { name: quoted[1].trim(), text: quoted[2] }
+  const dashed = raw.match(/^\s*([^—–]{2,60}?)\s*(?:——|――|—|–)\s+(\S[\s\S]*)$/)
+  if (dashed) return { name: dashed[1].trim(), text: dashed[2] }
+  return { text: raw }
+}
+
+/** The card's display title: canon knows a witch by her magic's name. */
+export function cardTitle(card: Card): string {
+  return card.magic.name ?? card.epithet
+}
+
 export function normalizeCard(raw: z.infer<typeof rawCardSchema>): Card {
   const [family, style] = splitCell(raw.cell)
   const origin = raw.family ?? family
@@ -125,10 +141,9 @@ export function normalizeCard(raw: z.infer<typeof rawCardSchema>): Card {
   return {
     tag: raw.tag,
     locale: raw.locale,
-    // label = diegetic archive code (ED-1 · PE-1), never English taxonomy names
     cell: { origin, coping, label: raw.tag.replace('_', ' · ') },
     epithet: fields.epithet,
-    magic: { text: fields.magic },
+    magic: splitMagic(fields.magic),
     crime: fields.crime,
     execution: fields.execution,
     epitaph: fields.epitaph,

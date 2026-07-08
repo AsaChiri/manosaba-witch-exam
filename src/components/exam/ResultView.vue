@@ -6,7 +6,7 @@
  */
 import { ref, computed, onMounted } from 'vue'
 import type { ExamResult } from '../../lib/engine-api'
-import type { Card } from '../../lib/content-schema'
+import { cardTitle, type Card } from '../../lib/content-schema'
 import { t, messages } from '../../i18n'
 import type { Locale } from '../../i18n/config'
 import { generateShareQr, copyText, type ShareCard } from '../../lib/share'
@@ -31,7 +31,7 @@ const shareCard = computed<ShareCard>(() => ({
   locale: props.locale,
   tag: props.card.tag,
   name: witchName.value,
-  epithet: props.card.epithet,
+  epithet: cardTitle(props.card),
 }))
 
 const frameEl = ref<HTMLElement | null>(null)
@@ -98,32 +98,31 @@ onMounted(async () => {
                 <span class="witch-card__specimen-label">{{ T('card.specimenLabel') }}</span>
                 &nbsp;·&nbsp;{{ witchName }}
               </p>
-              <p class="witch-card__cell">{{ card.cell.label }}</p>
               <div class="witch-card__epithet-block">
-                <span class="witch-card__epithet-label">{{ L('epithet') }}</span>
-                <h2 class="witch-card__epithet">{{ card.epithet }}</h2>
+                <h2 class="witch-card__epithet">{{ cardTitle(card) }}</h2>
               </div>
               <hr class="witch-card__divider" />
+              <section v-if="card.magic.name" class="witch-card__field">
+                <span class="witch-card__field-label">{{ L('epithet') }}</span>
+                <p class="witch-card__field-body">{{ card.epithet }}</p>
+              </section>
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('magic') }}</span>
-                <p class="witch-card__field-body">
-                  <span v-if="card.magic.name" class="witch-card__magic-name">{{ card.magic.name }}　</span>{{ card.magic.text }}
-                </p>
+                <p class="witch-card__field-body">{{ card.magic.text }}</p>
               </section>
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('crime') }}</span>
-                <ul class="witch-card__list">
-                  <li v-for="(line, i) in card.crime" :key="i">{{ line }}</li>
-                </ul>
+                <div class="witch-card__prose">
+                  <p v-for="(line, i) in card.crime" :key="i">{{ line }}</p>
+                </div>
               </section>
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('execution') }}</span>
-                <ul class="witch-card__list">
-                  <li v-for="(line, i) in card.execution" :key="i">{{ line }}</li>
-                </ul>
+                <div class="witch-card__prose">
+                  <p v-for="(line, i) in card.execution" :key="i">{{ line }}</p>
+                </div>
               </section>
               <section class="witch-card__field" style="text-align:center">
-                <span class="witch-card__field-label">{{ L('epitaph') }}</span>
                 <p class="witch-card__epitaph">{{ card.epitaph }}</p>
               </section>
 

@@ -16,7 +16,7 @@ import Footer from '../components/Footer.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
 import { getContentMeta } from '../lib/content'
-import type { Card } from '../lib/content-schema'
+import { cardTitle, type Card } from '../lib/content-schema'
 
 interface Props {
   card: Card
@@ -26,12 +26,12 @@ const { card, locale } = Astro.props
 const meta = getContentMeta()
 const seo = {
   routeKey: `/r/${card.tag}/`,
-  title: `${card.epithet} — ${t(locale, 'meta.siteName')}`,
-  description: t(locale, 'meta.descShare', { epithet: card.epithet }),
+  title: `${cardTitle(card)} — ${t(locale, 'meta.siteName')}`,
+  description: t(locale, 'meta.descShare', { epithet: cardTitle(card) }),
   ogImage: `/og/${ASTRO_SEGMENT[locale]}/${card.tag}.png`,
   ogType: 'article' as const,
   jsonld: ['creativework'] as ('website' | 'quiz' | 'creativework')[],
-  workName: card.epithet,
+  workName: cardTitle(card),
 }
 ---
 

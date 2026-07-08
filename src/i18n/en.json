@@ -63,13 +63,7 @@
   ],
   "exam": {
     "caseNoLabel": "Case No.",
-    "phase": {
-      "observe": "OBSERVE",
-      "deep": "DEPTH",
-      "match": "MATCH"
-    },
-    "phaseLabel": "Phase",
-    "resonance": "Resonance",
+    "resonance": "Witch factor",
     "questionOrdinal": "Question {n}",
     "back": "Previous",
     "booting": "Calibrating instrument…",
@@ -89,24 +83,21 @@
   },
   "verdict": {
     "reading": "READING",
-    "flatline": "RESONANCE LOST",
     "detected": "Witch factor — detected.",
-    "sentence": "The verdict stands. You are taken to the island.",
+    "sentence": "You are taken to the island.",
     "skip": "Skip",
     "teaser": "Filed —",
     "unfold": "Open the record"
   },
   "card": {
-    "fileNo": "File No.",
     "specimenLabel": "Name",
     "nameless": "the Nameless Witch",
-    "sentenceMark": "Verdict · Archived",
+    "sentenceMark": "EXAMINATION RECORD",
     "labels": {
       "epithet": "Epithet",
       "magic": "Magic",
       "crime": "Crime",
-      "execution": "Execution",
-      "epitaph": "Epitaph"
+      "execution": "Execution"
     },
     "retake": "Take the examination again"
   },

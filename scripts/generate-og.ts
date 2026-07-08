@@ -276,12 +276,13 @@ function buildRootSvg(cfg: LocaleCfg): string {
 function buildCardSvg(cfg: LocaleCfg, card: any): string {
   const s = I18N[cfg.key]
   const fields = card.variants?.[0]?.fields ?? card
-  const epithet = (fields.epithet ?? '') as string
-  // Diegetic archive code (ED-1 · PE-1) — never English taxonomy names on the viral surface
-  const fileNo = (I18N[cfg.key].card?.fileNo ?? '') as string
-  const cellLabel = `${fileNo} ${String(card.tag ?? '').replace('_', ' · ')}`.trim()
+  // Headline = the magic's name (canon: a witch is known by her magic); epithet fallback.
+  const magicRaw = (fields.magic ?? '') as string
+  const quoted = magicRaw.match(/^\s*[「『"“']([^」』"”']{1,40})[」』"”']/)
+  const dashed = magicRaw.match(/^\s*([^—–]{2,60}?)\s*(?:——|――|—|–)\s+\S/)
+  const headline = (quoted?.[1] ?? dashed?.[1] ?? fields.epithet ?? '').trim()
   const kicker = s.card?.sentenceMark ?? s.meta.siteName
-  const el = layout(epithet, cfg.isCjk, 1000, cfg.isCjk ? 88 : 78, 40, 3)
+  const el = layout(headline, cfg.isCjk, 1000, cfg.isCjk ? 88 : 78, 40, 3)
   const centerY = 350
   const lh = el.size * 1.16
   const startY = centerY - ((el.lines.length - 1) * lh) / 2
@@ -295,7 +296,6 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
   ${sealMarkup(600, 168, 50, C.gold)}
   <text text-anchor="middle" fill="${C.violet}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${el.size}" letter-spacing="2">${tspans}</text>
   <rect x="540" y="${cellY - 20}" width="120" height="1.4" fill="url(#rule)"/>
-  <text x="600" y="${cellY + 18}" text-anchor="middle" fill="${C.boneDim}" font-family="'VT323','Noto Serif SC'" font-size="26" letter-spacing="6">${escapeXml(cellLabel)}</text>
   ${brandBlock(cfg, s)}
 </svg>`
 }

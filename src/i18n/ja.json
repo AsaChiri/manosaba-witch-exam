@@ -68,13 +68,7 @@
   ],
   "exam": {
     "caseNoLabel": "受検番号",
-    "phase": {
-      "observe": "観測",
-      "deep": "深層",
-      "match": "照合"
-    },
-    "phaseLabel": "段階",
-    "resonance": "共鳴強度",
+    "resonance": "魔女因子",
     "questionOrdinal": "第 {n} 問",
     "back": "前の問い",
     "booting": "装置を調整中……",
@@ -94,24 +88,21 @@
   },
   "verdict": {
     "reading": "読取中",
-    "flatline": "共鳴停止",
     "detected": "魔女因子――検出。",
-    "sentence": "判決は下った。あなたはあの島へ送られる。",
+    "sentence": "あなたはあの島へ送られる。",
     "skip": "スキップ",
     "teaser": "記録へ――",
     "unfold": "記録をひらく"
   },
   "card": {
-    "fileNo": "整理番号",
     "specimenLabel": "名",
     "nameless": "名無しの魔女",
-    "sentenceMark": "判決 ・ 収蔵",
+    "sentenceMark": "検査記録",
     "labels": {
       "epithet": "原罪",
       "magic": "魔法",
       "crime": "罪",
-      "execution": "処刑",
-      "epitaph": "銘"
+      "execution": "処刑"
     },
     "retake": "もう一度検査を受ける"
   },

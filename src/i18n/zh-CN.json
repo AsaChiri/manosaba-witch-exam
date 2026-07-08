@@ -73,13 +73,7 @@
   ],
   "exam": {
     "caseNoLabel": "编号",
-    "phase": {
-      "observe": "观测",
-      "deep": "深层",
-      "match": "比对"
-    },
-    "phaseLabel": "阶段",
-    "resonance": "共鸣强度",
+    "resonance": "魔女因子",
     "questionOrdinal": "第 {n} 问",
     "back": "上一问",
     "booting": "仪器校准中……",
@@ -99,24 +93,21 @@
   },
   "verdict": {
     "reading": "读取中",
-    "flatline": "共鸣停止",
     "detected": "魔女因子——已检出。",
-    "sentence": "判决已下。你将被送往那座岛。",
+    "sentence": "你将被送往那座岛。",
     "skip": "跳过",
     "teaser": "归档——",
     "unfold": "展开记录"
   },
   "card": {
-    "fileNo": "档案编号",
     "specimenLabel": "名",
     "nameless": "无名魔女",
-    "sentenceMark": "判决 · 归档",
+    "sentenceMark": "检测记录",
     "labels": {
       "epithet": "原罪",
       "magic": "魔法",
       "crime": "罪",
-      "execution": "处刑",
-      "epitaph": "铭"
+      "execution": "处刑"
     },
     "retake": "重新接受检测"
   },
