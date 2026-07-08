@@ -88,6 +88,11 @@
       "placeholder": "(unnamed)",
       "skip": "Skip",
       "confirm": "Complete the examination"
+    },
+    "draftNotice": "Examination protocol · draft",
+    "inconclusive": {
+      "title": "No matching record",
+      "body": "The archive holds no entry for this specimen yet. Please sit the examination again."
     }
   },
   "verdict": {

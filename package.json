@@ -14,6 +14,8 @@
     "gen:og": "tsx scripts/generate-og.ts",
     "check": "astro check",
     "typecheck:vue": "vue-tsc --noEmit",
+    "build:engine": "npm run build --workspace @manosaba/witch-exam-engine",
+    "prebuild": "npm run build:engine",
     "build": "npm run gen:og && astro check && astro build",
     "build:fast": "astro build",
     "preview": "astro preview",

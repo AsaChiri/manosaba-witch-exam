@@ -39,7 +39,7 @@ const props = defineProps<{
   cards: Record<string, Card>
 }>()
 
-type State = 'loading' | 'consent' | 'quiz' | 'name' | 'verdict' | 'result'
+type State = 'loading' | 'consent' | 'quiz' | 'name' | 'verdict' | 'result' | 'inconclusive'
 const state = ref<State>('loading')
 const session = shallowRef<ExamSession | null>(null)
 const question = shallowRef<ExamQuestion | null>(null)
@@ -76,6 +76,10 @@ function onDecline() {
   window.location.href = localePath(props.locale, '/')
 }
 
+function doneState(s: ExamSession): State {
+  return s.isInconclusive?.() ? 'inconclusive' : 'name'
+}
+
 function onAnswer(optionId: string) {
   const s = session.value
   if (!s) return
@@ -83,7 +87,7 @@ function onAnswer(optionId: string) {
   s.answer(optionId)
   questionAnswered(idx)
   saveProgress(s.snapshot())
-  if (s.isDone()) state.value = 'name'
+  if (s.isDone()) state.value = doneState(s)
   else refresh()
 }
 
@@ -128,7 +132,7 @@ onMounted(() => {
     const snap = loadProgress()
     if (snap) s.restore(snap)
     refresh()
-    state.value = s.isDone() ? 'name' : 'quiz'
+    state.value = s.isDone() ? doneState(s) : 'quiz'
   } else {
     state.value = 'consent'
   }
@@ -171,6 +175,15 @@ onMounted(() => {
       :phase="phase"
       @retake="onRetake"
     />
+    <section v-else-if="state === 'inconclusive'" class="exam-island__inconclusive" :lang="locale">
+      <div class="exam-island__inc-panel">
+        <p class="exam-island__inc-title">{{ t(locale, 'exam.inconclusive.title') }}</p>
+        <p class="exam-island__inc-body">{{ t(locale, 'exam.inconclusive.body') }}</p>
+        <button type="button" class="exam-island__inc-retake" @click="onRetake">
+          {{ t(locale, 'card.retake') }}
+        </button>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -198,5 +211,46 @@ onMounted(() => {
 }
 @keyframes blink {
   50% { opacity: 0; }
+}
+.exam-island__inconclusive {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  min-height: 100svh;
+  padding: 2rem 1.2rem;
+}
+.exam-island__inc-panel {
+  width: min(34rem, 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.exam-island__inc-title {
+  font-family: var(--font-inscription);
+  font-weight: 600;
+  font-size: clamp(1.4rem, 5vw, 1.9rem);
+  color: var(--bone);
+  letter-spacing: 0.06em;
+}
+.exam-island__inc-body {
+  font-family: var(--font-body);
+  color: var(--bone-dim);
+  line-height: 1.7;
+  text-wrap: pretty;
+}
+.exam-island__inc-retake {
+  margin-top: 0.6rem;
+  align-self: center;
+  font-family: var(--font-instrument);
+  font-size: 0.92rem;
+  letter-spacing: 0.06em;
+  color: var(--verdict-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-color: var(--hairline-faint);
+}
+.exam-island__inc-retake:hover {
+  color: var(--verdict-gold);
 }
 </style>

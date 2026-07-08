@@ -90,6 +90,11 @@
       "placeholder": "（无名）",
       "skip": "略过",
       "confirm": "完成检测"
+    },
+    "draftNotice": "检查程序・草案",
+    "inconclusive": {
+      "title": "暂无对应记录",
+      "body": "与此检体相符的记录尚未编纂。请重新接受检测。"
     }
   },
   "verdict": {

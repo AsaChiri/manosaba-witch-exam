@@ -59,14 +59,21 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
           />
         </span>
       </div>
+
+      <p class="quiz__draft">{{ T('exam.draftNotice') }}</p>
     </header>
 
     <Transition name="q-slide" mode="out-in">
-      <div class="quiz__body" :key="question.id">
+      <div class="quiz__body" :key="question.id" :data-qid="question.id">
         <p class="quiz__prompt">{{ question.prompt }}</p>
         <ul class="quiz__options">
           <li v-for="opt in question.options" :key="opt.id">
-            <button type="button" class="quiz__opt" @click="emit('answer', opt.id)">
+            <button
+              type="button"
+              class="quiz__opt"
+              :data-oid="opt.id"
+              @click="emit('answer', opt.id)"
+            >
               <span class="quiz__opt-mark" aria-hidden="true"></span>
               <span class="quiz__opt-label">{{ opt.label }}</span>
             </button>
@@ -151,6 +158,14 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
   letter-spacing: 0.1em;
   color: var(--bone-faint);
   text-transform: uppercase;
+}
+.quiz__draft {
+  margin: 0.7rem 0 0;
+  font-family: var(--font-instrument);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  color: color-mix(in srgb, var(--exam-cyan) 55%, var(--bone-faint));
+  opacity: 0.75;
 }
 .quiz__gauge-bar {
   display: flex;

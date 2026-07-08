@@ -74,6 +74,13 @@ export interface ExamSession {
   canGoBack(): boolean
   progress(): ExamProgress
   isDone(): boolean
+  /**
+   * True once the exam is done but the resolved cell has no authored card
+   * (soft-launch coverage gap). The flow shows a graceful "no record" screen
+   * instead of a verdict. Optional so the mock engine (which always lands on an
+   * authored cell) need not implement it.
+   */
+  isInconclusive?(): boolean
   /** Carve the (already-sanitized) name into the pending record. */
   setWitchName(name: string | undefined): void
   /** The verdict, once isDone(). Null before then. */
