@@ -17,14 +17,12 @@
     "title": "魔女因子检测",
     "hook": "你体内的魔女，还在沉睡。",
     "ctaBegin": "接受检测",
-    "ctaAside": "题目因人而异，通常十五到三十问。",
-    "specimenLabel": "记录 · 样例"
+    "ctaAside": "题目因人而异，通常十五到三十问。"
   },
   "footer": {
     "disclaimer": "本站是『魔法少女ノ魔女裁判』的非商业同人作品，与原作及其权利方没有关联。",
     "contactLabel": "联系与反馈",
-    "v1Label": "上一代 · 人格测验",
-    "rights": "同人创作 · 无商业用途"
+    "v1Label": "上一代 · 人格测验"
   },
   "localeSwitcher": {
     "label": "语言"

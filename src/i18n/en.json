@@ -17,14 +17,12 @@
     "title": "Witch Factor Examination",
     "hook": "The witch in you is still asleep.",
     "ctaBegin": "Begin the examination",
-    "ctaAside": "Adapts to you — usually 15 to 30 questions.",
-    "specimenLabel": "Specimen record"
+    "ctaAside": "Adapts to you — usually 15 to 30 questions."
   },
   "footer": {
     "disclaimer": "This site is a non-commercial fan work based on 魔法少女ノ魔女裁判 (Magical Girl · Witch Trial), unaffiliated with the original and its rights holders.",
     "contactLabel": "Contact & feedback",
-    "v1Label": "The earlier personality test",
-    "rights": "Fan work · non-commercial"
+    "v1Label": "The earlier personality test"
   },
   "localeSwitcher": {
     "label": "Language"

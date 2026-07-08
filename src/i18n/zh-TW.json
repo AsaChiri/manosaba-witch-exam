@@ -17,14 +17,12 @@
     "title": "魔女因子檢測",
     "hook": "你體內的魔女，還在沉睡。",
     "ctaBegin": "接受檢測",
-    "ctaAside": "題目因人而異，通常十五到三十題。",
-    "specimenLabel": "記錄 · 樣本"
+    "ctaAside": "題目因人而異，通常十五到三十題。"
   },
   "footer": {
     "disclaimer": "本站是『魔法少女ノ魔女裁判』的非商業同人作品，與原作及其權利方沒有關聯。",
     "contactLabel": "聯絡與回饋",
-    "v1Label": "上一代 · 人格測驗",
-    "rights": "同人創作 · 無商業用途"
+    "v1Label": "上一代 · 人格測驗"
   },
   "localeSwitcher": {
     "label": "語言"
@@ -47,11 +45,31 @@
     "decline": "我再想想"
   },
   "crisisLinks": [
-    { "region": "台灣", "name": "安心專線", "detail": "1925" },
-    { "region": "台灣", "name": "生命線", "detail": "1995" },
-    { "region": "香港", "name": "撒瑪利亞防止自殺會", "detail": "2389 2222" },
-    { "region": "中國大陸", "name": "希望24熱線", "detail": "400-161-9995" },
-    { "region": "國際", "name": "Find A Helpline", "detail": "findahelpline.com" }
+    {
+      "region": "台灣",
+      "name": "安心專線",
+      "detail": "1925"
+    },
+    {
+      "region": "台灣",
+      "name": "生命線",
+      "detail": "1995"
+    },
+    {
+      "region": "香港",
+      "name": "撒瑪利亞防止自殺會",
+      "detail": "2389 2222"
+    },
+    {
+      "region": "中國大陸",
+      "name": "希望24熱線",
+      "detail": "400-161-9995"
+    },
+    {
+      "region": "國際",
+      "name": "Find A Helpline",
+      "detail": "findahelpline.com"
+    }
   ],
   "exam": {
     "caseNoLabel": "編號",

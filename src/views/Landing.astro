@@ -1,28 +1,23 @@
 ---
 /*
- * Landing — the Summons (design spec §3.1). Courtroom-dark hero: mono case-line,
- * the Seal, the title in inscription type, one hook line, the hot-pink torn-
- * paper CTA (the single loudest element). Below the fold: three quiet panels
- * (what this is / duration honesty / specimen card), locale switcher, footer.
+ * Landing — the Summons (design spec §3.1). Pure hero: the Seal, the title in
+ * inscription type, one hook line, the hot-pink torn-paper CTA (the single
+ * loudest element), one duration aside. No sample card — visitors mostly
+ * arrive from a shared card, the verdict stays unspoiled, and no dark content
+ * appears before the consent gate. Then footer.
  */
 import BaseLayout from '../layouts/BaseLayout.astro'
 import Seal from '../components/Seal.astro'
 import CtaButton from '../components/CtaButton.astro'
-import CardFrame from '../components/CardFrame.astro'
-import WitchCard from '../components/WitchCard.astro'
 import Footer from '../components/Footer.astro'
-import Feedback from '../components/Feedback.astro'
 import LangSuggestBanner from '../components/LangSuggestBanner.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
-import { getSpecimenCard, getContentMeta, sitePhase } from '../lib/content'
 
 interface Props {
   locale: Locale
 }
 const { locale } = Astro.props
-const meta = getContentMeta()
-const specimen = getSpecimenCard(locale)
 const showLatin = locale !== 'en'
 const seo = {
   routeKey: '/',
@@ -50,31 +45,6 @@ const seo = {
         <p class="hero__aside">{t(locale, 'landing.ctaAside')}</p>
       </div>
     </section>
-
-    <section class="panels container" aria-label={t(locale, 'landing.specimenLabel')}>
-      {specimen && (
-        <div class="specimen">
-          <div class="specimen__intro">
-            <span class="panel__label instrument">{t(locale, 'landing.specimenLabel')}</span>
-          </div>
-          <div class="specimen__card">
-            <CardFrame>
-              <WitchCard card={specimen} locale={locale} />
-            </CardFrame>
-          </div>
-        </div>
-      )}
-    </section>
-
-    <div class="container container--narrow landing-feedback">
-      <Feedback
-        locale={locale}
-        tag="landing"
-        quizVersion={meta.quizVersion}
-        variant="quiet"
-        showArchival={sitePhase() === 'soft'}
-      />
-    </div>
   </main>
   <Footer locale={locale} />
 </BaseLayout>
@@ -174,63 +144,4 @@ const seo = {
     z-index: 1;
   }
 
-  .panels {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-  }
-  .panels__row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-    gap: 1.4rem;
-  }
-  .panel {
-    padding: 1.7rem 1.6rem;
-    background: color-mix(in srgb, var(--velvet) 70%, transparent);
-    border: 1px solid var(--panel-border);
-    border-top: 2px solid var(--rule-oxblood);
-  }
-  .panel__label {
-    display: block;
-    color: var(--verdict-gold);
-    font-size: 0.76rem;
-    letter-spacing: 0.24em;
-    text-transform: uppercase;
-    margin-bottom: 0.7rem;
-  }
-  .panel__title {
-    font-size: 1.4rem;
-    color: var(--bone);
-    margin-bottom: 0.7rem;
-    letter-spacing: 0.04em;
-  }
-  .panel__body {
-    color: var(--bone-dim);
-    line-height: 1.75;
-  }
-
-  .specimen {
-    margin-top: 2.4rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.6rem;
-    align-items: start;
-  }
-  @media (min-width: 60rem) {
-    .specimen {
-      grid-template-columns: 0.8fr 1.2fr;
-      gap: 2.6rem;
-    }
-    .specimen__intro {
-      position: sticky;
-      top: 3rem;
-    }
-  }
-  .specimen__card {
-    max-width: 34rem;
-    margin-inline: auto;
-    width: 100%;
-  }
-  .landing-feedback {
-    margin-top: 3rem;
-  }
 </style>

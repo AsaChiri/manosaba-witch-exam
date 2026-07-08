@@ -11,12 +11,11 @@ import WitchCard from '../components/WitchCard.astro'
 import CtaButton from '../components/CtaButton.astro'
 import Seal from '../components/Seal.astro'
 import LocaleSwitcher from '../components/LocaleSwitcher.astro'
-import Feedback from '../components/Feedback.astro'
 import SafetyNote from '../components/SafetyNote.astro'
 import Footer from '../components/Footer.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
-import { getContentMeta, sitePhase } from '../lib/content'
+import { getContentMeta } from '../lib/content'
 import type { Card } from '../lib/content-schema'
 
 interface Props {
@@ -58,13 +57,6 @@ const seo = {
     </section>
 
     <div class="card-page__foot container container--narrow">
-      <Feedback
-        locale={locale}
-        tag={card.tag}
-        quizVersion={meta.quizVersion}
-        variant="quiet"
-        showArchival={sitePhase() === 'soft'}
-      />
       <SafetyNote locale={locale} />
     </div>
   </main>
