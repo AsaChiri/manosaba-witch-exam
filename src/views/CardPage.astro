@@ -27,7 +27,9 @@ const meta = getContentMeta()
 const seo = {
   routeKey: `/r/${card.tag}/`,
   title: `${cardTitle(card)} — ${t(locale, 'meta.siteName')}`,
-  description: `${cardTitle(card)} — ${card.magic.text}`.slice(0, 160),
+  // Array.from = surrogate-safe truncation (bare .slice can split a non-BMP
+  // kanji and leave a dangling half character in the meta description)
+  description: Array.from(`${cardTitle(card)} — ${card.magic.text}`).slice(0, 160).join(''),
   ogImage: `/og/${ASTRO_SEGMENT[locale]}/${card.tag}.png`,
   ogType: 'article' as const,
   jsonld: ['creativework'] as ('website' | 'quiz' | 'creativework')[],

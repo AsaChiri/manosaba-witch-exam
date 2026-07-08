@@ -162,6 +162,41 @@ function escapeXml(s: string): string {
     .replace(/'/g, '&apos;')
 }
 
+// 禁則処理: closing punctuation never starts a line (it hangs on the previous
+// line), opening punctuation never ends one, and the last line never dangles
+// a single character.
+const CLOSE_PUNCT = new Set(Array.from('。，、！？：；）」』》〉…‥・％,.!?;:%)]'))
+const OPEN_PUNCT = new Set(Array.from('（「『《〈([“"'))
+function kinsoku(lines: string[]): string[] {
+  for (let i = 1; i < lines.length; i++) {
+    // hang leading closers on the previous line
+    let cur = Array.from(lines[i]!)
+    while (cur.length && CLOSE_PUNCT.has(cur[0]!)) {
+      lines[i - 1] += cur.shift()!
+    }
+    // push trailing openers down
+    const prev = Array.from(lines[i - 1]!)
+    while (prev.length && OPEN_PUNCT.has(prev[prev.length - 1]!)) {
+      cur.unshift(prev.pop()!)
+    }
+    lines[i - 1] = prev.join('')
+    lines[i] = cur.join('')
+  }
+  return lines.filter((l) => Array.from(l).length > 0)
+}
+function fixCjkOrphan(lines: string[]): string[] {
+  if (lines.length < 2) return lines
+  const last = Array.from(lines[lines.length - 1]!)
+  const meaningful = last.filter((c) => !CLOSE_PUNCT.has(c) && !OPEN_PUNCT.has(c))
+  if (meaningful.length > 1) return lines
+  // borrow one character from the previous line (skipping a trailing opener)
+  const prev = Array.from(lines[lines.length - 2]!)
+  if (prev.length < 3) return lines
+  const moved = prev.pop()!
+  lines[lines.length - 2] = prev.join('')
+  lines[lines.length - 1] = moved + last.join('')
+  return kinsoku(lines)
+}
 function wrapCjk(text: string, maxChars: number): string[] {
   const chars = Array.from(text)
   const lines: string[] = []
@@ -174,7 +209,7 @@ function wrapCjk(text: string, maxChars: number): string[] {
     line += ch
   }
   if (line) lines.push(line)
-  return lines
+  return fixCjkOrphan(kinsoku(lines))
 }
 function wrapLatin(text: string, maxChars: number): string[] {
   const words = text.split(/\s+/)
@@ -190,6 +225,15 @@ function wrapLatin(text: string, maxChars: number): string[] {
     }
   }
   if (line) lines.push(line)
+  // no dangling stub on the last line: borrow the previous word
+  if (lines.length >= 2 && lines[lines.length - 1]!.replace(/[.,!?;:]/g, '').length <= 3) {
+    const prev = lines[lines.length - 2]!.split(' ')
+    if (prev.length > 1) {
+      const moved = prev.pop()!
+      lines[lines.length - 2] = prev.join(' ')
+      lines[lines.length - 1] = `${moved} ${lines[lines.length - 1]}`
+    }
+  }
   return lines
 }
 function layout(
@@ -304,8 +348,10 @@ function clampLines(text: string, isCjk: boolean, maxWidth: number, size: number
   const lines = isCjk ? wrapCjk(text, maxChars) : wrapLatin(text, maxChars)
   if (lines.length <= maxLines) return lines
   const kept = lines.slice(0, maxLines)
-  const last = kept[maxLines - 1]!
-  kept[maxLines - 1] = (isCjk ? Array.from(last).slice(0, -1).join('') : last.replace(/\s+\S+$/, '')) + '…'
+  let last = isCjk ? Array.from(kept[maxLines - 1]!).slice(0, -1).join('') : kept[maxLines - 1]!.replace(/\s+\S+$/, '')
+  // never leave punctuation dangling before the ellipsis
+  last = last.replace(/[。，、！？：；・,.!?;:\s（「『《〈([“"]+$/u, '')
+  kept[maxLines - 1] = last + '…'
   return kept
 }
 
@@ -361,6 +407,53 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
   <rect x="540" y="${ruleY}" width="120" height="1.4" fill="url(#rule)"/>
   ${brandBlock(cfg, s)}
 </svg>`
+}
+
+// ── Dangling-character audit (OG_AUDIT=1): re-runs the exact wrap paths for
+// every rendered string and reports kinsoku/orphan/overflow violations. ──
+function auditLines(where: string, lines: string[], isCjk: boolean, maxWidth: number, size: number): string[] {
+  const bad: string[] = []
+  const factor = isCjk ? 1.0 : 0.5
+  lines.forEach((l, i) => {
+    const chars = Array.from(l)
+    if (chars.length === 0) bad.push(`${where}: empty line ${i}`)
+    if (chars.length && CLOSE_PUNCT.has(chars[0]!) ) bad.push(`${where}: line ${i} starts with '${chars[0]}'`)
+    if (chars.length && OPEN_PUNCT.has(chars[chars.length - 1]!)) bad.push(`${where}: line ${i} ends with '${chars[chars.length - 1]}'`)
+    // hanging punctuation may exceed by ~1 char; anything more is real overflow
+    if (chars.length * size * factor > maxWidth + size * 1.2) bad.push(`${where}: line ${i} overflows (${chars.length} chars @${size})`)
+  })
+  const last = Array.from(lines[lines.length - 1] ?? '')
+  const meaningful = last.filter((c) => !CLOSE_PUNCT.has(c) && !OPEN_PUNCT.has(c) && c !== '…')
+  if (lines.length > 1 && isCjk && meaningful.length <= 1) bad.push(`${where}: dangling last line '${lines[lines.length - 1]}'`)
+  return bad
+}
+
+function runAudit(): number {
+  const problems: string[] = []
+  for (const cfg of LOCALES) {
+    const s = I18N[cfg.key]
+    const tl = layout(s.landing.title, cfg.isCjk, 980, cfg.isCjk ? 84 : 76, 44, 2)
+    problems.push(...auditLines(`${cfg.key} root title`, tl.lines, cfg.isCjk, 980, tl.size))
+    const tag = layout(s.meta.tagline, cfg.isCjk, 1000, 29, 20, 2)
+    problems.push(...auditLines(`${cfg.key} root tagline`, tag.lines, cfg.isCjk, 1000, tag.size))
+    for (const t of TAGS) {
+      const card = loadCard(t, cfg.key)
+      if (!card) continue
+      const fields = card.variants?.[0]?.fields ?? card
+      const name = layout(String(fields.magic.name), cfg.isCjk, 980, cfg.isCjk ? 82 : 66, 42, 2)
+      problems.push(...auditLines(`${cfg.key} ${t} name`, name.lines, cfg.isCjk, 980, name.size))
+      const descSize = cfg.isCjk ? 29 : 27
+      const descLines = clampLines(String(fields.magic.text), cfg.isCjk, 860, descSize, name.lines.length > 1 ? 2 : 3)
+      problems.push(...auditLines(`${cfg.key} ${t} desc`, descLines, cfg.isCjk, 860, descSize))
+    }
+  }
+  if (problems.length) {
+    console.error(`[og-audit] ${problems.length} violation(s):`)
+    for (const p of problems) console.error('  ' + p)
+  } else {
+    console.log('[og-audit] clean — no dangling characters, kinsoku violations, or overflows')
+  }
+  return problems.length
 }
 
 interface Job {
@@ -428,6 +521,9 @@ function writeRobots(): void {
 }
 
 async function main() {
+  if (process.env.OG_AUDIT === '1') {
+    process.exit(runAudit() ? 1 : 0)
+  }
   const fontFiles = await loadFontFiles()
   console.log(`[gen:og] fonts ready (${fontFiles.length} ttf), content=${useContent ? 'content/' : 'fixtures'}, tags=${TAGS.length}`)
 
