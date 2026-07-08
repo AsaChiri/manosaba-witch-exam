@@ -388,7 +388,20 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
 
   const name = layout(headline, cfg.isCjk, 980, cfg.isCjk ? 82 : 66, 42, 2)
   const sealBottom = 158 + 44
-  const nameStart = sealBottom + name.size * 0.95 + 24
+  // ornamental 魔法 mark between the Seal and the name
+  const markY = sealBottom + 40
+  const markText = String(s.card?.magicMark ?? '魔法')
+  const markHalf = cfg.isCjk ? 52 : 58 // half-width of the mark text incl. tracking
+  const orn = (dir: 1 | -1) => {
+    const x0 = 600 + dir * markHalf
+    const x1 = 600 + dir * (markHalf + 60)
+    const dx = 600 + dir * (markHalf + 72)
+    return `<path d="M${x0} ${markY - 5} H${x1}" stroke="${C.gold}" stroke-width="0.9" opacity="0.6"/>
+      <rect x="${dx - 3.2}" y="${markY - 8.2}" width="6.4" height="6.4" transform="rotate(45 ${dx} ${markY - 5})" fill="${C.gold}" opacity="0.9"/>`
+  }
+  const magicMark = `<text x="600" y="${markY}" text-anchor="middle" fill="${C.gold}" font-family="${fam(cfg)}" font-size="22" letter-spacing="10">${escapeXml(markText)}</text>
+    ${orn(1)}${orn(-1)}`
+  const nameStart = markY + name.size * 0.95 + 26
   const n = textBlock(name.lines, nameStart, name.size, 1.14)
 
   const descSize = cfg.isCjk ? 29 : 27
@@ -402,6 +415,7 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
   ${bgAndDefs()}
   <text x="600" y="88" text-anchor="middle" fill="${C.goldDeep}" font-family="${fam(cfg)}" font-size="21" letter-spacing="9">${escapeXml(kicker)}</text>
   ${sealMarkup(600, 158, 44, C.gold)}
+  ${magicMark}
   <text text-anchor="middle" fill="${C.violet}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${name.size}" letter-spacing="2">${n.tspans}</text>
   <text text-anchor="middle" fill="${C.bone}" fill-opacity="0.92" font-family="${bodyFam(cfg)}" font-size="${descSize}">${d.tspans}</text>
   <rect x="540" y="${ruleY}" width="120" height="1.4" fill="url(#rule)"/>

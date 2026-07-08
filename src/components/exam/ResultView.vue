@@ -100,6 +100,11 @@ onMounted(async () => {
                 &nbsp;·&nbsp;{{ witchName }}
               </p>
               <div class="witch-card__epithet-block">
+                <span class="witch-card__magic-mark">
+                  <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
+                  {{ T('card.magicMark') }}
+                  <svg class="witch-card__mark-orn witch-card__mark-orn--flip" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
+                </span>
                 <h2 class="witch-card__epithet">{{ cardTitle(card) }}</h2>
                 <p class="witch-card__magic-lead">{{ card.magic.text }}</p>
               </div>

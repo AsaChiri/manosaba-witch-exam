@@ -103,7 +103,8 @@
       "crime": "罪",
       "execution": "処刑"
     },
-    "retake": "もう一度検査を受ける"
+    "retake": "もう一度検査を受ける",
+    "magicMark": "魔法"
   },
   "share": {
     "heading": "共有",

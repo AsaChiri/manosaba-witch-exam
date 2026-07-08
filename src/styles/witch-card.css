@@ -59,6 +59,27 @@
   text-transform: uppercase;
 }
 
+/* Ornamental 魔法 mark — hairline + pointed diamond flanking, the title-logo
+ * ornament language. Decorative naming of the headline unit, not a field label. */
+.witch-card__magic-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  color: var(--verdict-gold);
+  font-family: var(--font-inscription);
+  font-size: 0.84rem;
+  letter-spacing: 0.42em;
+  text-indent: 0.42em;
+  margin-top: 0.4rem;
+}
+.witch-card__mark-orn {
+  flex: none;
+  opacity: 0.9;
+}
+.witch-card__mark-orn--flip {
+  transform: scaleX(-1);
+}
 .witch-card__epithet {
   font-family: var(--font-inscription);
   font-weight: 700;

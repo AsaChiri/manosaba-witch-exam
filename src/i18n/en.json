@@ -98,7 +98,8 @@
       "crime": "Crime",
       "execution": "Execution"
     },
-    "retake": "Take the examination again"
+    "retake": "Take the examination again",
+    "magicMark": "MAGIC"
   },
   "share": {
     "heading": "Share",
