@@ -65,9 +65,21 @@
     "decline": "Not now"
   },
   "crisisLinks": [
-    { "region": "US", "name": "988 Suicide & Crisis Lifeline", "detail": "call or text 988" },
-    { "region": "UK & ROI", "name": "Samaritans", "detail": "116 123" },
-    { "region": "International", "name": "Find A Helpline", "detail": "findahelpline.com" }
+    {
+      "region": "US",
+      "name": "988 Suicide & Crisis Lifeline",
+      "detail": "call or text 988"
+    },
+    {
+      "region": "UK & ROI",
+      "name": "Samaritans",
+      "detail": "116 123"
+    },
+    {
+      "region": "International",
+      "name": "Find A Helpline",
+      "detail": "findahelpline.com"
+    }
   ],
   "exam": {
     "caseNoLabel": "Specimen No.",
@@ -105,6 +117,7 @@
     "unfold": "Open the record"
   },
   "card": {
+    "fileNo": "File No.",
     "specimenLabel": "Specimen",
     "nameless": "the Nameless Witch",
     "sentenceMark": "Verdict · Archived",

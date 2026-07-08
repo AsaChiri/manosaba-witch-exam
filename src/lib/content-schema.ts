@@ -125,7 +125,8 @@ export function normalizeCard(raw: z.infer<typeof rawCardSchema>): Card {
   return {
     tag: raw.tag,
     locale: raw.locale,
-    cell: { origin, coping, label: `${origin} · ${coping}` },
+    // label = diegetic archive code (ED-1 · PE-1), never English taxonomy names
+    cell: { origin, coping, label: raw.tag.replace('_', ' · ') },
     epithet: fields.epithet,
     magic: { text: fields.magic },
     crime: fields.crime,
@@ -145,7 +146,7 @@ export function normalizeManifest(
       cell: info.cell,
       origin: family,
       coping: style,
-      cellLabel: `${family} · ${style}`,
+      cellLabel: tag.replace('_', ' · '),
       locales: info.locales,
     }
   }

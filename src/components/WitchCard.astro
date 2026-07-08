@@ -31,7 +31,7 @@ const L = (k: string) => t(locale, `card.labels.${k}`)
     &nbsp;·&nbsp;{name}
   </p>
 
-  <p class="witch-card__cell">{card.cell.label}</p>
+  <p class="witch-card__cell">{t(locale, 'card.fileNo')} {card.cell.label}</p>
 
   <div class="witch-card__epithet-block">
     <span class="witch-card__epithet-label">{L('epithet')}</span>

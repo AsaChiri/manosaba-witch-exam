@@ -12,6 +12,7 @@
     "compile": "tsx src/compile-content.ts",
     "verify": "tsx src/verify-content.ts",
     "verify:session": "tsx src/verify-session.ts",
+    "verify:personas": "tsx src/verify-personas.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

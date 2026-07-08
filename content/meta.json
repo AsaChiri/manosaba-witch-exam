@@ -1,17 +1,19 @@
 {
   "bankVersion": "v3",
-  "contentVersion": "0x74b9456a",
+  "contentVersion": "0xea9372f6",
   "counts": {
     "authoredCells": 4,
     "cardLocaleFiles": 28,
+    "fallbackRedirects": 196,
     "families": 8,
-    "redirects": 15,
+    "manifestRedirects": 0,
+    "redirects": 196,
     "shippedCards": 7,
     "shippedTags": 7,
     "slots": 89,
     "styles": 25
   },
-  "generatedAt": "2026-07-07T23:36:57.933Z",
+  "generatedAt": "2026-07-08T00:48:44.181Z",
   "locales": [
     "en",
     "ja",

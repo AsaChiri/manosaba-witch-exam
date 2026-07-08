@@ -65,11 +65,31 @@
     "decline": "我再想想"
   },
   "crisisLinks": [
-    { "region": "中国大陆", "name": "希望24热线", "detail": "400-161-9995" },
-    { "region": "中国大陆", "name": "北京心理危机干预中心", "detail": "010-82951332" },
-    { "region": "香港", "name": "撒玛利亚防止自杀会", "detail": "2389 2222" },
-    { "region": "台湾", "name": "安心专线", "detail": "1925" },
-    { "region": "国际", "name": "Find A Helpline", "detail": "findahelpline.com" }
+    {
+      "region": "中国大陆",
+      "name": "希望24热线",
+      "detail": "400-161-9995"
+    },
+    {
+      "region": "中国大陆",
+      "name": "北京心理危机干预中心",
+      "detail": "010-82951332"
+    },
+    {
+      "region": "香港",
+      "name": "撒玛利亚防止自杀会",
+      "detail": "2389 2222"
+    },
+    {
+      "region": "台湾",
+      "name": "安心专线",
+      "detail": "1925"
+    },
+    {
+      "region": "国际",
+      "name": "Find A Helpline",
+      "detail": "findahelpline.com"
+    }
   ],
   "exam": {
     "caseNoLabel": "检体编号",
@@ -107,6 +127,7 @@
     "unfold": "展开档案"
   },
   "card": {
+    "fileNo": "档案编号",
     "specimenLabel": "检体名",
     "nameless": "无名魔女",
     "sentenceMark": "判决 · 归档",

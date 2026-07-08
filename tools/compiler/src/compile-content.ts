@@ -36,7 +36,8 @@ import { makeSources, DEFAULT_WORKSPACE, type Sources } from "./sources.js";
 import { parseBanks, type BankData } from "./banks.js";
 import { parseRedirectMap } from "./manifest.js";
 import { parseCard, type ParsedCard } from "./cards.js";
-import { subIndex, STYLE_NAME_TO_CODE } from "./taxonomy.js";
+import { subIndex, STYLE_NAME_TO_CODE, FAMILY_NAME_TO_CODE } from "./taxonomy.js";
+import { buildCoverageMap, type ShippedCellInfo, type CoverageResult } from "./coverage.js";
 
 // ------------------------------------------------------------------ utilities
 function log(msg = ""): void {
@@ -96,6 +97,7 @@ interface CopingTreeRaw extends Record<string, unknown> {
   cores: Record<string, Record<string, string>>;
   tiebreaks: Record<string, Record<string, string>>;
   probes: Record<string, Record<string, string | boolean>>;
+  style_stance: Record<string, string>;
 }
 interface OriginTreeRaw extends Record<string, unknown> {
   questions: Record<string, { kind: string; options: Record<string, Record<string, number>>; escape?: string | null; new_slot?: boolean }>;
@@ -172,7 +174,7 @@ function main(): void {
   for (const agg of tags.values()) agg.variants.sort((a, b) => a.variant - b.variant);
 
   // 5. picksets + neighbor + manifest cells
-  const picksets: PicksetsFile = { redirect: redirectParse.redirect, cells: {} };
+  const picksets: PicksetsFile = { redirect: {}, cells: {} };
   const neighbor: NeighborFile = {};
   const manifestCells: CardsManifest["cells"] = {};
   const manifestTags: CardsManifest["tags"] = {};
@@ -181,6 +183,32 @@ function main(): void {
   const orderedTagList = [...tags.keys()].sort();
   const manifestIndexOf = new Map<string, number>();
   orderedTagList.forEach((t, i) => manifestIndexOf.set(t, i));
+
+  // 5a. TOTAL cell-coverage map — recomputed from ship_list every compile.
+  //     Every non-shipped grid cell routes to the nearest shipped cell so a
+  //     session always reaches a card (design spec §5); §3 authorial routes are
+  //     preserved when their target is shipped. Fails loud if coverage is not
+  //     total (the coverage invariant).
+  const shippedCells: ShippedCellInfo[] = [];
+  for (const [cell, tset] of cellTags) {
+    const agg0 = tags.get([...tset][0]!)!;
+    const manifestOrder = Math.min(...[...tset].map((t) => manifestIndexOf.get(t)!));
+    shippedCells.push({
+      cell,
+      family: agg0.family,
+      style: agg0.style,
+      tagCount: tset.size,
+      manifestOrder,
+    });
+  }
+  const coverage: CoverageResult = buildCoverageMap({
+    families: Object.values(FAMILY_NAME_TO_CODE),
+    styles: Object.keys(STYLE_NAME_TO_CODE),
+    styleStance: copingRaw.style_stance,
+    shipped: shippedCells,
+    manifestRedirect: redirectParse.redirect,
+  });
+  picksets.redirect = coverage.redirect;
 
   for (const [cell, tset] of cellTags) {
     const { family, style } = parseCellKey(cell);
@@ -303,7 +331,9 @@ function main(): void {
       shippedCards: cards.length,
       shippedTags: tags.size,
       authoredCells: cellTags.size,
-      redirects: Object.keys(redirectParse.redirect).length,
+      redirects: Object.keys(coverage.redirect).length,
+      manifestRedirects: coverage.counts.manifest,
+      fallbackRedirects: coverage.counts.fallback,
       cardLocaleFiles: cardFileCount,
       families: 8,
       styles: 25,
@@ -312,7 +342,7 @@ function main(): void {
   };
   writeJson(join(C, "meta.json"), meta);
 
-  report(src, cards, tags, cellTags, redirectParse, warnings, meta);
+  report(src, cards, tags, cellTags, coverage, warnings, meta);
 }
 
 // ------------------------------------------------------------------ builders
@@ -426,39 +456,31 @@ function report(
   cards: ParsedCard[],
   tags: Map<string, unknown>,
   cellTags: Map<string, Set<string>>,
-  redirectParse: ReturnType<typeof parseRedirectMap>,
+  coverage: CoverageResult,
   warnings: string[],
   meta: Meta,
 ): void {
-  const families = ["ABN", "MB", "ED", "DEF", "ALN", "FAI", "VC", "POW"];
-  const styles = Object.keys(STYLE_NAME_TO_CODE);
-  const authored = new Set(cellTags.keys());
-  let direct = 0;
-  let viaRedirect = 0;
-  let redirectDead = 0;
-  let uncovered = 0;
-  for (const f of families) {
-    for (const s of styles) {
-      const key = cellKey(f, s);
-      if (authored.has(key)) direct++;
-      else if (redirectParse.redirect[key]) {
-        if (authored.has(redirectParse.redirect[key]!)) viaRedirect++;
-        else redirectDead++;
-      } else uncovered++;
-    }
-  }
+  const gridSize = 8 * 25;
+  const { direct, manifest, fallback, tier } = coverage.counts;
   log("");
   log("=== COMPILE REPORT ===");
   log(`  contentVersion: ${meta.contentVersion}   quizVersion: ${meta.quizVersion}`);
   log(`  shipped cards:  ${cards.length}   shipped tags: ${tags.size}   authored cells: ${cellTags.size}`);
-  log(`  redirect rows:  ${Object.keys(redirectParse.redirect).length}`);
+  log(`  redirect rows:  ${Object.keys(coverage.redirect).length}`);
   log(`  card locale files: ${meta.counts.cardLocaleFiles}`);
   log("");
-  log(`  cell coverage of the 200-cell grid:`);
-  log(`    direct (authored):        ${direct}`);
-  log(`    via redirect -> authored: ${viaRedirect}`);
-  log(`    redirect -> unauthored:   ${redirectDead}  (routes exist but target has no shipped card)`);
-  log(`    uncovered (soft-launch):  ${uncovered}`);
+  log(`  TOTAL cell coverage of the ${gridSize}-cell grid (invariant: 0 uncovered):`);
+  log(`    direct (shipped-covered):   ${direct}`);
+  log(`    manifest-redirect (§3):     ${manifest}`);
+  log(`    fallback-redirect (tiers):  ${fallback}`);
+  log(`    ---------------------------------`);
+  log(`    total:                      ${direct + manifest + fallback}`);
+  log("");
+  log(`  fallback-redirect tier distribution:`);
+  log(`    tier 1 (same family + stance):   ${tier[1] ?? 0}`);
+  log(`    tier 2 (same family):            ${tier[2] ?? 0}`);
+  log(`    tier 3 (same stance, near fam):  ${tier[3] ?? 0}`);
+  log(`    tier 4 (global default/density): ${tier[4] ?? 0}`);
   log("");
   log("  authored cells:");
   for (const [cell, tset] of [...cellTags].sort()) {

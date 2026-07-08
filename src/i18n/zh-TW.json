@@ -65,10 +65,26 @@
     "decline": "我再想想"
   },
   "crisisLinks": [
-    { "region": "臺灣", "name": "安心專線", "detail": "1925" },
-    { "region": "臺灣", "name": "生命線協談專線", "detail": "1995" },
-    { "region": "臺灣", "name": "張老師專線", "detail": "1980" },
-    { "region": "國際", "name": "Find A Helpline", "detail": "findahelpline.com" }
+    {
+      "region": "臺灣",
+      "name": "安心專線",
+      "detail": "1925"
+    },
+    {
+      "region": "臺灣",
+      "name": "生命線協談專線",
+      "detail": "1995"
+    },
+    {
+      "region": "臺灣",
+      "name": "張老師專線",
+      "detail": "1980"
+    },
+    {
+      "region": "國際",
+      "name": "Find A Helpline",
+      "detail": "findahelpline.com"
+    }
   ],
   "exam": {
     "caseNoLabel": "檢體編號",
@@ -106,6 +122,7 @@
     "unfold": "展開檔案"
   },
   "card": {
+    "fileNo": "檔案編號",
     "specimenLabel": "檢體名",
     "nameless": "無名的魔女",
     "sentenceMark": "判決 · 歸檔",

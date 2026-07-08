@@ -279,9 +279,9 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
   const s = I18N[cfg.key]
   const fields = card.variants?.[0]?.fields ?? card
   const epithet = (fields.epithet ?? '') as string
-  const cellStr = (card.cell ?? '') as string
-  const [famA, styA] = cellStr.split('|')
-  const cellLabel = `${card.family ?? famA ?? ''} · ${card.style ?? styA ?? ''}`
+  // Diegetic archive code (ED-1 · PE-1) — never English taxonomy names on the viral surface
+  const fileNo = (I18N[cfg.key].card?.fileNo ?? '') as string
+  const cellLabel = `${fileNo} ${String(card.tag ?? '').replace('_', ' · ')}`.trim()
   const kicker = s.card?.sentenceMark ?? s.meta.siteName
   const el = layout(epithet, cfg.isCjk, 1000, cfg.isCjk ? 88 : 78, 40, 3)
   const centerY = 350

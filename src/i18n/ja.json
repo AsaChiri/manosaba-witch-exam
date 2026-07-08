@@ -65,10 +65,26 @@
     "decline": "やめておく"
   },
   "crisisLinks": [
-    { "region": "日本", "name": "いのちの電話", "detail": "0570-783-556" },
-    { "region": "日本", "name": "よりそいホットライン", "detail": "0120-279-338" },
-    { "region": "日本", "name": "こころの健康相談統一ダイヤル", "detail": "0570-064-556" },
-    { "region": "国際", "name": "Find A Helpline", "detail": "findahelpline.com" }
+    {
+      "region": "日本",
+      "name": "いのちの電話",
+      "detail": "0570-783-556"
+    },
+    {
+      "region": "日本",
+      "name": "よりそいホットライン",
+      "detail": "0120-279-338"
+    },
+    {
+      "region": "日本",
+      "name": "こころの健康相談統一ダイヤル",
+      "detail": "0570-064-556"
+    },
+    {
+      "region": "国際",
+      "name": "Find A Helpline",
+      "detail": "findahelpline.com"
+    }
   ],
   "exam": {
     "caseNoLabel": "検体番号",
@@ -106,6 +122,7 @@
     "unfold": "記録をひらく"
   },
   "card": {
+    "fileNo": "整理番号",
     "specimenLabel": "検体名",
     "nameless": "名無しの魔女",
     "sentenceMark": "判決 ・ 収蔵",
