@@ -55,7 +55,7 @@ describe("spec §4.5 worked example (coping certification)", () => {
 // string. (v1/v2/v3 are not comparable; nothing shipped under v1/v2.)
 describe("retired FNV-1a pins (certification.md §3)", () => {
   const V2 =
-    "K.R1:d|K.R2:d|K.R3:f|K.R4:X|K.N1:X|K.N2:X|K.N3:X|K.NT:X|K.W1:X|K.W2:X|K.W3:X|K.WT:X|K.S1:X|K.S2:X|K.S3:X|K.ST:X|K.A1:b|K.A2:e|K.A3:b|K.AT:X|K.AS1:X|K.AS2:X|K.AS3:X|K.AST:X|K.E1:X|K.E2:X|K.E3:X|K.ET:X|K.C1:X|K.C2:X|K.C3:X|K.CT:X|K.P1:X|K.P2:X|K.P3:X|K.P4:X|K.P5:X|K.P6:X|K.P7:X|K.P8:X|K.P9:X|K.P10:b|K.P11:X|K.P12:X|K.P13:X|K.P14:X|K.P15:X|K.P16:X|O.R1:E|O.R2:B|O.S1:X|O.S2:B|O.S3:X|O.S4:X|O.S5:X|O.P1:X|O.P1b:X|O.P2:X|O.P2b:X|O.P3:X|O.P3b:X|O.P4:X|O.P5:X|O.P5b:X|O.B1:X|O.B2:X|O.B3:X|O.B3b:X|O.B4:X|O.B5:X|O.B6:X|O.B7:X|O.B8:X|O.B9:X|O.B10:X|O.B11:X|O.B12:X|O.B13:X|O.C1:X|V.OGROUP:X|V.OPICK:DEF-1|V.CPICK:PE-2";
+    "K.R1:d|K.R2:d|K.R3:f|K.R4:X|K.N1:X|K.N2:X|K.N3:X|K.NT:X|K.W1:X|K.W2:X|K.W3:X|K.WT:X|K.S1:X|K.S2:X|K.S3:X|K.ST:X|K.A1:b|K.A2:e|K.A3:b|K.AT:X|K.AS1:X|K.AS2:X|K.AS3:X|K.AST:X|K.E1:X|K.E2:X|K.E3:X|K.ET:X|K.C1:X|K.C2:X|K.C3:X|K.CT:X|K.P1:X|K.P2:X|K.P3:X|K.P4:X|K.P5:X|K.P6:X|K.P7:X|K.P8:X|K.P9:X|K.P10:b|K.P11:X|K.P12:X|K.P13:X|K.P14:X|K.P15:X|K.P16:X|O.R1:E|O.R2:B|O.S1:X|O.S2:B|O.S3:X|O.S4:X|O.S5:X|O.P1:X|O.P1b:X|O.P2:X|O.P2b:X|O.P3:X|O.P3b:X|O.P4:X|O.P5:X|O.P5b:X|O.B1:X|O.B2:X|O.B3:X|O.B3b:X|O.B4:X|O.B5:X|O.B6:X|O.B7:X|O.B8:X|O.B9:X|O.B10:X|O.B11:X|O.B12:X|O.B13:X|O.C1:X|V.OGROUP:X|V.OPICK:DEF-1|V.CPICK:P-2";
   const V1 = V2.replace("|V.OGROUP:X", "");
 
   it("reproduces the v2 pin (610 bytes, 0x6FC8FE2D)", () => {

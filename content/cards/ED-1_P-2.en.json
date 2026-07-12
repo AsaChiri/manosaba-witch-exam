@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Performer",
+  "copingSub": "P-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Performer",
+  "tag": "ED-1_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The girl was her most faithful audience, and never once looked past the jokes to the one who made them. The girl laughed at every joke she made; the one evening she made none, the girl rose and crossed to a livelier table without a word.",
+          "That morning she fed the loudest girl a line, the one sure to land hardest at the evening games — a laugh her own words raised was hers, in whatever mouth it was told.",
+          "That evening the girls clustered at the head of the great stairs, and the planted line landed. The whole cluster broke up laughing.",
+          "In the laugh's few seconds, unwatched, she crossed and put the girl down the great stairs.",
+          "The laugh died as the girls turned to the body at the foot of the stairs. Every one of them would swear no one had moved.",
+          "But one girl had been streaming on her phone. A recording sees her plainly, and the stream held her crossing to the girl in the very seconds no eye could follow.",
+          "And the peak laugh had been one her own planted line raised. A lifetime of clowning had only ever been the making of just such blind moments."
+        ],
+        "epitaph": "Every laugh she raised was a place to vanish into; the night none came, they looked, and there was only her.",
+        "epithet": "The Girl Behind the Laugh",
+        "execution": [
+          "The stand rose bare and bright, and she stood alone on it; a warden called the house to silence, and every gaze fixed on her.",
+          "A clear glass hood lowered over her and sealed.",
+          "She played to the house to the last, and no laugh answered; every eye stayed on her.",
+          "The air ran out inside the sealed hood."
+        ],
+        "magic": {
+          "name": "Laughblind",
+          "text": "she plants a line, and the laugh it draws is hers, in whatever mouth it's told; while that laugh lasts, no eye can settle on her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

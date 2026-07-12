@@ -7,12 +7,30 @@
       "ABN-1|CL-1": 0
     }
   },
+  "ABN|Resigned": {
+    "table": {
+      "ABN-1|RS-3": "ABN-1_RS-3"
+    },
+    "tiers": {
+      "ABN-1|RS-3": 0
+    }
+  },
   "ALN|Avoider": {
     "table": {
       "ALN-1|AV-1": "ALN-1_AV-1"
     },
     "tiers": {
       "ALN-1|AV-1": 0
+    }
+  },
+  "ALN|Concealer": {
+    "table": {
+      "ALN-10|CO-1": "ALN-10_CO-1",
+      "ALN-11|CO-1": "ALN-11_CO-1"
+    },
+    "tiers": {
+      "ALN-10|CO-1": 0,
+      "ALN-11|CO-1": 0
     }
   },
   "ALN|Fantasist": {
@@ -51,32 +69,32 @@
   },
   "ED|Performer": {
     "table": {
-      "ED-1|PE-1": "ED-1_PE-1",
-      "ED-1|PE-2": "ED-1_PE-1",
-      "ED-1|PE-3": "ED-1_PE-1",
-      "ED-2|PE-1": "ED-2_PE-2",
-      "ED-2|PE-2": "ED-2_PE-2",
-      "ED-2|PE-3": "ED-2_PE-2",
-      "ED-5|PE-1": "ED-5_PE-3",
-      "ED-5|PE-2": "ED-5_PE-3",
-      "ED-5|PE-3": "ED-5_PE-3",
-      "ED-9|PE-1": "ED-9_PE-1",
-      "ED-9|PE-2": "ED-9_PE-1",
-      "ED-9|PE-3": "ED-9_PE-1"
+      "ED-1|P-1": "ED-1_P-1",
+      "ED-1|P-2": "ED-1_P-2",
+      "ED-1|P-3": "ED-1_P-2",
+      "ED-2|P-1": "ED-2_P-2",
+      "ED-2|P-2": "ED-2_P-2",
+      "ED-2|P-3": "ED-2_P-2",
+      "ED-5|P-1": "ED-5_P-3",
+      "ED-5|P-2": "ED-5_P-3",
+      "ED-5|P-3": "ED-5_P-3",
+      "ED-9|P-1": "ED-9_P-1",
+      "ED-9|P-2": "ED-9_P-1",
+      "ED-9|P-3": "ED-9_P-1"
     },
     "tiers": {
-      "ED-1|PE-1": 0,
-      "ED-1|PE-2": 1,
-      "ED-1|PE-3": 1,
-      "ED-2|PE-1": 1,
-      "ED-2|PE-2": 0,
-      "ED-2|PE-3": 1,
-      "ED-5|PE-1": 1,
-      "ED-5|PE-2": 1,
-      "ED-5|PE-3": 0,
-      "ED-9|PE-1": 0,
-      "ED-9|PE-2": 1,
-      "ED-9|PE-3": 1
+      "ED-1|P-1": 0,
+      "ED-1|P-2": 0,
+      "ED-1|P-3": 1,
+      "ED-2|P-1": 1,
+      "ED-2|P-2": 0,
+      "ED-2|P-3": 1,
+      "ED-5|P-1": 1,
+      "ED-5|P-2": 1,
+      "ED-5|P-3": 0,
+      "ED-9|P-1": 0,
+      "ED-9|P-2": 1,
+      "ED-9|P-3": 1
     }
   },
   "ED|Self-Soother": {
@@ -103,6 +121,14 @@
     },
     "tiers": {
       "MB-3|DP-1": 0
+    }
+  },
+  "MB|Detacher": {
+    "table": {
+      "MB-2|DT-2": "MB-2_DT-2"
+    },
+    "tiers": {
+      "MB-2|DT-2": 0
     }
   },
   "MB|Self-Soother": {

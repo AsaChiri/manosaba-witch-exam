@@ -7,12 +7,12 @@ import { canonicalString, fnv1a32String } from "../src/hash.js";
 import type { ContentPackage, HashSpec, PicksetsFile, NeighborFile } from "../src/schemas.js";
 
 // The worked-example cell DEF × Performer, with an illustrative authored set
-// (spec §4.5): {(DEF-1,PE-5), (DEF-7,PE-2), (DEF-11,PE-2)}. Picking (DEF-1,PE-2)
-// is unauthored -> tier-1 origin match -> serves (DEF-1,PE-5).
+// (spec §4.5): {(DEF-1,P-5), (DEF-7,P-2), (DEF-11,P-2)}. Picking (DEF-1,P-2)
+// is unauthored -> tier-1 origin match -> serves (DEF-1,P-5).
 const AUTHORED: AuthoredTag[] = [
-  { tag: "DEF-1xPE-5", origin: "DEF-1", coping: "PE-5", manifestIndex: 0 },
-  { tag: "DEF-7xPE-2", origin: "DEF-7", coping: "PE-2", manifestIndex: 1 },
-  { tag: "DEF-11xPE-2", origin: "DEF-11", coping: "PE-2", manifestIndex: 2 },
+  { tag: "DEF-1xPE-5", origin: "DEF-1", coping: "P-5", manifestIndex: 0 },
+  { tag: "DEF-7xPE-2", origin: "DEF-7", coping: "P-2", manifestIndex: 1 },
+  { tag: "DEF-11xPE-2", origin: "DEF-11", coping: "P-2", manifestIndex: 2 },
 ];
 
 function buildContent(): ContentPackage {
@@ -20,7 +20,7 @@ function buildContent(): ContentPackage {
   const slots = loadSlots();
 
   const coveredO = ["DEF-1", "DEF-7", "DEF-11"];
-  const coveredC = ["PE-2", "PE-5"];
+  const coveredC = ["P-2", "P-5"];
   const table: Record<string, string> = {};
   const tiers: Record<string, number> = {};
   for (const o of coveredO) {
@@ -76,7 +76,7 @@ const answerMap: Record<string, string> = {
   "N12M": "D", "N12L": "B",
   "N13M": "C", "N13L": "A",
   "N14M": "C", "N14L": "A",
-  "V.OPICK": "DEF-1", "V.CPICK": "PE-2",
+  "V.OPICK": "DEF-1", "V.CPICK": "P-2",
 };
 
 describe("session drives the v2 exam end-to-end", () => {
@@ -117,7 +117,7 @@ describe("session drives the v2 exam end-to-end", () => {
     expect(r.top2).toEqual(["DEF", "ED"]);
     expect(r.cell).toEqual({ family: "DEF", style: "Performer" });
     expect(r.redirectedCell).toBeUndefined();
-    expect(r.picks).toEqual({ o: "DEF-1", c: "PE-2" });
+    expect(r.picks).toEqual({ o: "DEF-1", c: "P-2" });
     expect(r.tag).toBe("DEF-1xPE-5"); // tier-1 origin-preserving fallback
     expect(r.tier).toBe(1);
 

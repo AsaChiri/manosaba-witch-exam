@@ -1,0 +1,39 @@
+{
+  "cell": "MB|Detacher",
+  "copingSub": "DT-2",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Detacher",
+  "tag": "MB-2_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "All her life she had made things small: when her arm broke, she told everyone she had fallen off her bike, and that was all there was to it. Once, to one girl, she told it the true way — who had broken it, and how.",
+          "Then a paper appeared, tied open on the bars of her cell door, for everyone to read on their way up to breakfast: ASK HER WHO REALLY BROKE HER ARM. She took it down, smoothed her sleeve, and said it was nothing. It had already been read.",
+          "The gossip always rose last, and went up only after the corridor below had emptied.",
+          "One morning she stayed behind, and when the gossip came past she took her by the throat with both hands and held on to the end.",
+          "Afterward she knelt by what she had done and passed her hands over all of it — the throat, her own knuckles, the scuffed floor — until no mark was left on any of it.",
+          "The girl who came back for a forgotten spoon found the gossip on the floor of the cell corridor: not one mark on her anywhere, and beneath the skin the small bones of her throat had given sideways to the touch. Her eyes were spotted red, her face dark.",
+          "A strangling by hands normally leaves marks on both sides: bruises where the hands close, and skin under the nails. This body carried neither.",
+          "Marks do not fade on their own. Only one girl in the prison can pass her hand over a thing done and leave no trace of it — and she had come up to breakfast late, from the corridor the others had already left."
+        ],
+        "epitaph": "She could lift any mark but the one she had spoken herself.",
+        "epithet": "The Girl for Whom Nothing Ever Happened",
+        "execution": [
+          "The execution stand rose bearing a shallow stone basin, and above it a single pipe.",
+          "She was laid back and bound, the back of her head resting in the basin, the pipe standing over her brow.",
+          "The pipe let one drop fall, then, after a while, another. Each was almost nothing; the basin kept every one.",
+          "Drop by drop the water rose around her head.",
+          "The drops fell on, until the water closed over her face."
+        ],
+        "magic": {
+          "name": "the Unhappening",
+          "text": "under her hand the fresh marks of a happening fade to nothing: blood, bruise, scratch, print."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

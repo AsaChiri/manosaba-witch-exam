@@ -9,7 +9,7 @@ export interface AuthoredTag {
   tag: string;
   /** origin sub-variant id (e.g. "ED-1"). */
   origin: string;
-  /** coping sub-variant id (e.g. "PE-2"). */
+  /** coping sub-variant id (e.g. "P-2"). */
   coping: string;
   /** manifest listing order (earliest-authored wins ties). */
   manifestIndex: number;

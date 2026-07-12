@@ -13,6 +13,19 @@
       "family": "ABN",
       "style": "Clinger"
     },
+    "ABN|Resigned": {
+      "authoredTags": [
+        "ABN-1_RS-3"
+      ],
+      "coveredCoping": [
+        "RS-3"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Resigned"
+    },
     "ALN|Avoider": {
       "authoredTags": [
         "ALN-1_AV-1"
@@ -25,6 +38,21 @@
       ],
       "family": "ALN",
       "style": "Avoider"
+    },
+    "ALN|Concealer": {
+      "authoredTags": [
+        "ALN-10_CO-1",
+        "ALN-11_CO-1"
+      ],
+      "coveredCoping": [
+        "CO-1"
+      ],
+      "coveredOrigin": [
+        "ALN-10",
+        "ALN-11"
+      ],
+      "family": "ALN",
+      "style": "Concealer"
     },
     "ALN|Fantasist": {
       "authoredTags": [
@@ -82,15 +110,16 @@
     },
     "ED|Performer": {
       "authoredTags": [
-        "ED-1_PE-1",
-        "ED-2_PE-2",
-        "ED-5_PE-3",
-        "ED-9_PE-1"
+        "ED-1_P-1",
+        "ED-1_P-2",
+        "ED-2_P-2",
+        "ED-5_P-3",
+        "ED-9_P-1"
       ],
       "coveredCoping": [
-        "PE-1",
-        "PE-2",
-        "PE-3"
+        "P-1",
+        "P-2",
+        "P-3"
       ],
       "coveredOrigin": [
         "ED-1",
@@ -141,6 +170,19 @@
       ],
       "family": "MB",
       "style": "Depender"
+    },
+    "MB|Detacher": {
+      "authoredTags": [
+        "MB-2_DT-2"
+      ],
+      "coveredCoping": [
+        "DT-2"
+      ],
+      "coveredOrigin": [
+        "MB-2"
+      ],
+      "family": "MB",
+      "style": "Detacher"
     },
     "MB|Self-Soother": {
       "authoredTags": [
@@ -209,6 +251,32 @@
       "tag": "ABN-1_CL-1",
       "variants": 1
     },
+    "ABN-1_RS-3": {
+      "cell": "ABN|Resigned",
+      "copingSub": "RS-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_RS-3",
+      "variants": 1
+    },
+    "ALN-10_CO-1": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_CO-1",
+      "variants": 1
+    },
     "ALN-10_FA-2": {
       "cell": "ALN|Fantasist",
       "copingSub": "FA-2",
@@ -220,6 +288,19 @@
       ],
       "originSub": "ALN-10",
       "tag": "ALN-10_FA-2",
+      "variants": 1
+    },
+    "ALN-11_CO-1": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-11",
+      "tag": "ALN-11_CO-1",
       "variants": 1
     },
     "ALN-1_AV-1": {
@@ -287,9 +368,9 @@
       "tag": "DEF-8_SP-1",
       "variants": 1
     },
-    "ED-1_PE-1": {
+    "ED-1_P-1": {
       "cell": "ED|Performer",
-      "copingSub": "PE-1",
+      "copingSub": "P-1",
       "locales": [
         "en",
         "ja",
@@ -297,7 +378,20 @@
         "zh-TW"
       ],
       "originSub": "ED-1",
-      "tag": "ED-1_PE-1",
+      "tag": "ED-1_P-1",
+      "variants": 1
+    },
+    "ED-1_P-2": {
+      "cell": "ED|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_P-2",
       "variants": 1
     },
     "ED-1_SS-1": {
@@ -313,9 +407,9 @@
       "tag": "ED-1_SS-1",
       "variants": 1
     },
-    "ED-2_PE-2": {
+    "ED-2_P-2": {
       "cell": "ED|Performer",
-      "copingSub": "PE-2",
+      "copingSub": "P-2",
       "locales": [
         "en",
         "ja",
@@ -323,12 +417,12 @@
         "zh-TW"
       ],
       "originSub": "ED-2",
-      "tag": "ED-2_PE-2",
+      "tag": "ED-2_P-2",
       "variants": 1
     },
-    "ED-5_PE-3": {
+    "ED-5_P-3": {
       "cell": "ED|Performer",
-      "copingSub": "PE-3",
+      "copingSub": "P-3",
       "locales": [
         "en",
         "ja",
@@ -336,12 +430,12 @@
         "zh-TW"
       ],
       "originSub": "ED-5",
-      "tag": "ED-5_PE-3",
+      "tag": "ED-5_P-3",
       "variants": 1
     },
-    "ED-9_PE-1": {
+    "ED-9_P-1": {
       "cell": "ED|Performer",
-      "copingSub": "PE-1",
+      "copingSub": "P-1",
       "locales": [
         "en",
         "ja",
@@ -349,7 +443,7 @@
         "zh-TW"
       ],
       "originSub": "ED-9",
-      "tag": "ED-9_PE-1",
+      "tag": "ED-9_P-1",
       "variants": 1
     },
     "FAI-3_PF-2": {
@@ -389,6 +483,19 @@
       ],
       "originSub": "MB-10",
       "tag": "MB-10_WT-2",
+      "variants": 1
+    },
+    "MB-2_DT-2": {
+      "cell": "MB|Detacher",
+      "copingSub": "DT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-2",
+      "tag": "MB-2_DT-2",
       "variants": 1
     },
     "MB-2_SS-3": {

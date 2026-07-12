@@ -1,0 +1,37 @@
+{
+  "cell": "ALN|Concealer",
+  "copingSub": "CO-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Concealer",
+  "tag": "ALN-10_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At the dining table, the victim held her up as the specimen of ordinary — \"see, nothing strange about her at all; anyone can fit in.\" She had known since she was small that she was not one of them, and the kindest voice at the table had just certified that she was.",
+          "Every evening the victim stopped a moment at the corridor bench on her way back, where the girls streamed between the dining hall and the lounge through the busy hour.",
+          "At that hour she met the victim at the bench and strangled her with a cord. She stood in the scene herself, so to the passing stream the sounds of it filed as nothing, no more than corridor-noise.",
+          "Then she sat down on the bench beside the body and stayed. Girl after girl went past and read two girls resting; the slumped shape and the knocked-about things filed as nothing while she sat there.",
+          "When at last she rose and walked away, she left the scene to the next eye. The very next girl to pass saw the true shape — not dozing but dead, a cord-mark at the throat — and raised the alarm.",
+          "The court gathered what the corridor saw. Every girl who passed in that hour swore the bench held nothing wrong, and the run of \"all as usual\" mapped minute for minute onto the span she had sat there. A busy corridor does not overlook a strangled girl by itself; only her sitting there kept the bench reading right.",
+          "And the crime dates itself: the first alarm came from the one girl who passed after she rose and left. \"Usual\" ended the moment she stepped away."
+        ],
+        "epitaph": "She made a strangled girl read as nothing, and became the one thing no eye could pass over.",
+        "epithet": "The Specimen of Ordinary",
+        "execution": [
+          "The execution stand rose as a bare, plain room — blank on every side, nothing in it but her, set standing at its center as the one thing it held.",
+          "One of its walls, as plain as the rest, ran in on its own track and began to press the empty room shut.",
+          "It ran its full travel, steady and unstopping, and the room folded down toward a single flat plane.",
+          "The plain wall came home, and the bare room closed flat on her."
+        ],
+        "magic": {
+          "name": "The Unremarking",
+          "text": "while she stands in a scene, whatever shares it reads as ordinary to every passing eye and ear, and the passer keeps only \"all as usual.\""
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

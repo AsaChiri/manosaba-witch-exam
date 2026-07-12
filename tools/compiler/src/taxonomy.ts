@@ -15,7 +15,7 @@ export const FAMILY_CODE_TO_NAME: Record<string, string> = Object.fromEntries(
   Object.entries(FAMILY_NAME_TO_CODE).map(([k, v]) => [v, k]),
 );
 
-/** Coping style name -> 2-letter code (Performer is canonical PE, source P). */
+/** Coping style name -> style code (canonical, as every source writes it). */
 export const STYLE_NAME_TO_CODE: Record<string, string> = {
   Detacher: "DT",
   "Self-Soother": "SS",
@@ -36,7 +36,13 @@ export const STYLE_NAME_TO_CODE: Record<string, string> = {
   Trickster: "TR",
   Avenger: "AG",
   Sovereign: "SV",
-  Performer: "PE",
+  // Performer is P, not PE — every source writes P-1..P-5 (the frozen
+  // ed_subvariants.md §2, the pickset bank, the authoring manifest, and the card
+  // frontmatter). "PE" was a compiler-only invention that the removed
+  // COPING_CODE_ALIAS laundered P->PE, leaking a code no source ever used into
+  // every compiled tag. Codes are matched whole (split on the dash), so P never
+  // collides with PF/PL.
+  Performer: "P",
   Fantasist: "FA",
   Perfectionist: "PF",
   Ritualist: "RI",
@@ -47,18 +53,27 @@ export const STYLE_CODE_TO_NAME: Record<string, string> = Object.fromEntries(
   Object.entries(STYLE_NAME_TO_CODE).map(([k, v]) => [v, k]),
 );
 
-/** Legacy / source coping-code aliases -> canonical code. */
-const COPING_CODE_ALIAS: Record<string, string> = {
-  P: "PE", // Performer (source ed_subvariants.md keeps P-1..P-5)
-  D: "DP", // card_04 wrote Depender/Porcelain as D-
-  W: "WT", // card_07 wrote Watcher/Lookout as W-
-};
-
-/** Normalize a coping sub-variant id (e.g. "P-1" -> "PE-1"). */
+/**
+ * Normalize a coping sub-variant id (e.g. "p 1" -> "P-1") — formatting only
+ * (case + spacing). There is NO dialect translation: COPING_CODE_ALIAS was
+ * removed 2026-07-12, so a code means exactly what the source wrote.
+ *
+ * An unrecognized code is a hard error, not a pass-through — that error is what
+ * replaces the alias. Silently accepting one would derive a tag nothing routes
+ * to: the alias used to rewrite the sources' P-2 into PE-2, so every compiled
+ * tag, pickset and neighbor entry carried a "PE" code that no source ever used.
+ */
 export function normalizeCopingSub(id: string): string {
-  const m = /^([A-Za-z]+)\s*-?\s*(\d+)$/.exec(id.trim());
-  if (!m) return id.trim();
-  const code = COPING_CODE_ALIAS[m[1]!] ?? m[1]!;
+  const raw = id.trim();
+  const m = /^([A-Za-z]+)\s*-?\s*(\d+)$/.exec(raw);
+  if (!m) return raw;
+  const code = m[1]!.toUpperCase();
+  if (!STYLE_CODE_TO_NAME[code]) {
+    throw new Error(
+      `unknown coping style code "${code}" in sub-variant "${raw}" — ` +
+        `sources must use canonical codes (${Object.values(STYLE_NAME_TO_CODE).join(", ")})`,
+    );
+  }
   return `${code}-${m[2]}`;
 }
 

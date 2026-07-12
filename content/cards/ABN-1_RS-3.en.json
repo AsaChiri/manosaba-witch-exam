@@ -1,0 +1,37 @@
+{
+  "cell": "ABN|Resigned",
+  "copingSub": "RS-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Resigned",
+  "tag": "ABN-1_RS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She decided nothing for herself. She went where others put her, and what was hers to choose, she left to a toss of the coin — a habit the other girls all knew.",
+          "The friend had always been the one who decided for them both — where they went, where they sat — and she had followed gladly. That month the friend had stopped, and told her to go wherever she liked.",
+          "An old lamp hung over the trial corridor, the passage the girls went up in ones and twos every midday on their way to the dining hall. The lamp was older than any of them, and its chain's top link had worn to a thread. They passed beneath it daily.",
+          "That midday, while the others went up to the dining hall, she sat on the corridor bench with her coin. When the friend crossed beneath the lamp, she put its worn link to the toss — hold, or give — and the coin came up give. The lamp came down.",
+          "The friend lay crushed beneath it. The parted link was worn through and rust-eaten, with no file's tooth and no fresh cut on it — what looked like an accident, an old chain giving way of itself. She had sat in plain view throughout, the first the others cleared.",
+          "The accident held until the girls set one thing beside the other: the chain had held under every girl who ever crossed beneath the lamp, and it gave at the one second the friend passed under it.",
+          "A killing with no hand put to the thing, and its moment chosen to the second, is the only kind her power can leave. And a girl who had gone up at her shoulder remembered the coin turning over in her fingers as the link gave."
+        ],
+        "epitaph": "The coin could bring down anything that hung in the balance. Whether a person would stay was the one thing it could never decide.",
+        "epithet": "She Who Left Even a Death to the Coin",
+        "execution": [
+          "A walled channel crossed the execution stand, its water flowing steadily toward a grate at the far end, where it went down beneath the stand.",
+          "She was bound flat to a float-board and set into the water at the head of the channel.",
+          "The board drifted the whole length of the channel — no fork in it, no gate, no second way.",
+          "At the channel's end the water went down through the grate, and the board and the girl went under with it."
+        ],
+        "magic": {
+          "name": "Fatecast",
+          "text": "She can put anything before her that could still go either way to the toss of her coin, and the coin decides which way it goes."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

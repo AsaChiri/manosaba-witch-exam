@@ -1,0 +1,38 @@
+{
+  "cell": "ALN|Concealer",
+  "copingSub": "CO-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-11",
+  "style": "Concealer",
+  "tag": "ALN-11_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Among a group, what arrives in her is only their common stock — the in-jokes, the shared signs, what everyone there knows — and only while she stands among them. Step away, and she holds none of it.",
+          "A closed circle among the prisoners kept a private summons: a sign that called a single member out to the lakeside spot, alone, at the set dusk hour. She sat among them one evening, and the whole of it arrived in her as any group's common stock does. She copied it into her little book that night — sign, spot, and hour.",
+          "That season her two circles traded notes for the first time; each had thought her the other's. The victim asked the room, laughing, \"so whose is she, actually?\" — and no one claimed her.",
+          "At dusk, she set the circle's summons from her page, and the victim came out to the lakeside spot expecting one of her own. At the bank she held her under in the shallows, and burned the page that night.",
+          "The victim was found drowned at the spot, at the hour the code named, bruised where she had been held under.",
+          "The court reasoned from the code. Only the circle's members knew the sign, the spot, the dusk hour — and every member was accounted for that evening, together or elsewhere. No member could have done it.",
+          "So someone outside the circle had held its code. Only one girl could: the one every circle half-remembers as its own and no one ever brought — whose power takes in any group's common stock, and who had sat among them the evening the code was passed. She had been seen that dusk heading for the lakeside spot."
+        ],
+        "epitaph": "She spoke every circle's tongue and belonged to none.",
+        "epithet": "One of Ours, Surely",
+        "execution": [
+          "The execution stand rose bearing a single door, shut fast in a heavy frame, and she was set alone before it.",
+          "The door opened only to the circle's own word — the members' password, which would have arrived in her had she stood among them.",
+          "Set apart, she held none of it, and the word did not come.",
+          "The frame began to draw in.",
+          "The door did not open, and the frame closed on her."
+        ],
+        "magic": {
+          "name": "Assimilate",
+          "text": "among any gathered group, the group's common stock arrives in her while she stands among them."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
