@@ -219,13 +219,24 @@
   position: relative;
   z-index: 1;
 }
+/* The fleuron is a <span> wrapping a *static* <svg>, and the flip lives in SVG
+ * space (a <g transform> inside each corner) — neither the offsets nor the
+ * mirroring may sit on the <svg> itself. html2canvas rasterizes inline SVG by
+ * copying its computed style inline and serializing it to a standalone image,
+ * so a positioned/transformed <svg> carries `left/top` (or a flip matrix) into
+ * its own 52×52 viewport and paints itself out of frame: the exported PNG kept
+ * only the top-left corner, the one sitting at the origin. */
 .card-frame__fleuron {
   position: absolute;
   z-index: 2;
   color: var(--frame-tone, var(--verdict-gold));
   pointer-events: none;
+  line-height: 0;
+}
+.card-frame__fleuron svg {
+  display: block;
 }
 .card-frame__fleuron--tl { top: -1px; left: -1px; }
-.card-frame__fleuron--tr { top: -1px; right: -1px; transform: scaleX(-1); }
-.card-frame__fleuron--bl { bottom: -1px; left: -1px; transform: scaleY(-1); }
-.card-frame__fleuron--br { bottom: -1px; right: -1px; transform: scale(-1, -1); }
+.card-frame__fleuron--tr { top: -1px; right: -1px; }
+.card-frame__fleuron--bl { bottom: -1px; left: -1px; }
+.card-frame__fleuron--br { bottom: -1px; right: -1px; }

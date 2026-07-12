@@ -104,6 +104,7 @@
   },
   "share": {
     "image": "Save image",
+    "imageFailed": "Save failed",
     "copyShare": "Copy to share",
     "copied": "Copied",
     "x": "Share on X",

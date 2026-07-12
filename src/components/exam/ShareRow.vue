@@ -29,6 +29,7 @@ const T = (k: string) => t(props.locale, k)
 const spec = shareRowSpecFor(props.locale)
 const busy = ref(false)
 const copied = ref(false)
+const failed = ref(false)
 const menuOpen = ref(false)
 const rootEl = ref<HTMLElement | null>(null)
 
@@ -49,6 +50,7 @@ async function run(action: ShareAction) {
   shareClicked(action)
   try {
     busy.value = true
+    failed.value = false
     if (action === 'image') {
       if (props.cardEl) await saveResultImage(props.cardEl, props.card)
     } else if (action === 'copy') {
@@ -59,6 +61,13 @@ async function run(action: ShareAction) {
     } else {
       openIntent(action, props.card)
     }
+  } catch (err) {
+    // A capture that throws (html2canvas chokes on an unsupported CSS value,
+    // say) must not fail mute — the visitor is left staring at a button that
+    // did nothing. Name it, and leave the trace in the console for a report.
+    console.error('[share] %s failed', action, err)
+    failed.value = true
+    window.setTimeout(() => (failed.value = false), 2600)
   } finally {
     busy.value = false
   }
@@ -130,7 +139,7 @@ onBeforeUnmount(() => {
       :disabled="busy"
       @click="run('image')"
     >
-      {{ T('share.image') }}
+      {{ failed ? T('share.imageFailed') : T('share.image') }}
     </button>
   </div>
 </template>

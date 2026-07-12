@@ -114,6 +114,7 @@
   },
   "share": {
     "image": "儲存圖片",
+    "imageFailed": "儲存失敗",
     "copyShare": "複製分享",
     "copied": "已複製",
     "x": "分享到 X",

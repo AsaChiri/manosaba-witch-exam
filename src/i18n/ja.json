@@ -109,6 +109,7 @@
   },
   "share": {
     "image": "画像を保存",
+    "imageFailed": "保存できません",
     "copyShare": "コピーしてシェア",
     "copied": "コピーした",
     "x": "Xでシェア",

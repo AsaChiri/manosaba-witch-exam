@@ -37,7 +37,16 @@ const shareCard = computed<ShareCard>(() => ({
 
 const frameEl = ref<HTMLElement | null>(null)
 const qrSrc = ref('')
-const corners = ['tl', 'tr', 'bl', 'br'] as const
+/* The corner offsets live on the wrapping <span> and the flip inside the SVG —
+ * never on the <svg> element itself, which html2canvas would carry into the
+ * exported PNG's rasterization and paint out of frame (see witch-card.css).
+ * Keep in sync with CardFrame.astro. */
+const corners = [
+  { c: 'tl', flip: '' },
+  { c: 'tr', flip: 'translate(52 0) scale(-1 1)' },
+  { c: 'bl', flip: 'translate(0 52) scale(1 -1)' },
+  { c: 'br', flip: 'translate(52 52) scale(-1 -1)' },
+] as const
 
 // Feedback (inline — Astro components can't render into the island).
 const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'witch-exam-feedback@asachiri.com'
@@ -98,22 +107,22 @@ onMounted(async () => {
     <div class="result__stage">
       <div ref="frameEl" class="card-frame">
         <div class="card-frame__rule">
-          <svg
-            v-for="c in corners"
-            :key="c"
-            :class="`card-frame__fleuron card-frame__fleuron--${c}`"
-            width="52"
-            height="52"
-            viewBox="0 0 52 52"
+          <span
+            v-for="corner in corners"
+            :key="corner.c"
+            :class="`card-frame__fleuron card-frame__fleuron--${corner.c}`"
             aria-hidden="true"
-            fill="none"
           >
-            <path d="M3 49 L3 15 Q3 3 15 3 L49 3" stroke="currentColor" stroke-width="1.1" opacity="0.9" />
-            <path d="M9 49 L9 17 Q9 9 17 9 L49 9" stroke="currentColor" stroke-width="0.6" opacity="0.45" />
-            <path d="M15 33 C15 23, 23 15, 33 15" stroke="currentColor" stroke-width="0.8" opacity="0.8" />
-            <path d="M15 33 C19 27, 21 25, 20 20 M15 33 C21 29, 23 31, 28 30" stroke="currentColor" stroke-width="0.7" opacity="0.7" />
-            <circle cx="16" cy="16" r="1.7" fill="currentColor" opacity="0.85" />
-          </svg>
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
+              <g :transform="corner.flip">
+                <path d="M3 49 L3 15 Q3 3 15 3 L49 3" stroke="currentColor" stroke-width="1.1" opacity="0.9" />
+                <path d="M9 49 L9 17 Q9 9 17 9 L49 9" stroke="currentColor" stroke-width="0.6" opacity="0.45" />
+                <path d="M15 33 C15 23, 23 15, 33 15" stroke="currentColor" stroke-width="0.8" opacity="0.8" />
+                <path d="M15 33 C19 27, 21 25, 20 20 M15 33 C21 29, 23 31, 28 30" stroke="currentColor" stroke-width="0.7" opacity="0.7" />
+                <circle cx="16" cy="16" r="1.7" fill="currentColor" opacity="0.85" />
+              </g>
+            </svg>
+          </span>
           <div class="card-frame__inner">
             <article class="witch-card">
               <div class="witch-card__crest"><Seal :size="72" stained :title="T('meta.siteName')" /></div>

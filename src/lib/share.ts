@@ -141,6 +141,59 @@ export async function copyText(text: string): Promise<boolean> {
   }
 }
 
+/*
+ * html2canvas 1.4.1's color parser only knows hex/rgb()/hsl()/named colors: any
+ * other function throws `unsupported color function`, aborting the capture. Our
+ * palette leans on `color-mix(in srgb, …)` (tokens.css hairlines, the card's
+ * frame rules and violet text), which Chrome *serializes in computed style* as
+ * `color(srgb r g b / a)` — so every capture died before ever reaching toBlob.
+ * Fix: rewrite those computed values to rgba() on the cloned tree html2canvas
+ * parses (via its `onclone` hook), leaving the live DOM untouched.
+ *
+ * Only `color(srgb …)` is converted, because `in srgb` is the palette's only
+ * mixing space. A future oklch()/lab() token would need the same treatment —
+ * it would surface as a visible export failure (ShareRow reports the throw).
+ */
+const SRGB_FN = /color\(srgb\s+([\d.eE+-]+)\s+([\d.eE+-]+)\s+([\d.eE+-]+)(?:\s*\/\s*([\d.eE+-]+%?))?\s*\)/g
+
+/** Every property whose computed value html2canvas runs through that parser. */
+const EXPORT_COLOR_PROPS = [
+  'color',
+  'background-color',
+  'background-image',
+  'border-top-color',
+  'border-right-color',
+  'border-bottom-color',
+  'border-left-color',
+  'outline-color',
+  'text-decoration-color',
+  '-webkit-text-stroke-color',
+  'box-shadow',
+  'text-shadow',
+  'fill',
+  'stroke',
+  'filter',
+]
+
+function srgbToRgba(_match: string, r: string, g: string, b: string, a?: string): string {
+  const chan = (v: string) => Math.round(Math.min(1, Math.max(0, Number(v))) * 255)
+  const alpha = a === undefined ? 1 : a.endsWith('%') ? Number(a.slice(0, -1)) / 100 : Number(a)
+  return `rgba(${chan(r)}, ${chan(g)}, ${chan(b)}, ${Number(alpha.toFixed(4))})`
+}
+
+function flattenExportColors(root: HTMLElement): void {
+  const view = root.ownerDocument.defaultView
+  if (!view) return
+  for (const node of [root, ...root.querySelectorAll<HTMLElement>('*')]) {
+    const computed = view.getComputedStyle(node)
+    for (const prop of EXPORT_COLOR_PROPS) {
+      const value = computed.getPropertyValue(prop)
+      if (!value.includes('color(')) continue
+      node.style.setProperty(prop, value.replace(SRGB_FN, srgbToRgba))
+    }
+  }
+}
+
 /**
  * Capture the result-card element as a PNG. html2canvas paints from computed
  * styles (no SVG foreignObject), so it handles borders/positioning on WebKit.
@@ -164,8 +217,13 @@ export async function saveResultImage(
   element.classList.add('exporting')
   element.style.width = `${CAPTURE_WIDTH}px`
   element.style.maxWidth = `${CAPTURE_WIDTH}px`
-  // Let layout settle at the forced width.
-  await new Promise((r) => requestAnimationFrame(() => r(null)))
+  // Let layout settle at the forced width. rAF never fires while the tab is
+  // hidden, so race it against a timer — otherwise backgrounding the tab
+  // mid-export strands the card in its `exporting` state forever.
+  await new Promise((r) => {
+    requestAnimationFrame(() => r(null))
+    setTimeout(() => r(null), 100)
+  })
 
   try {
     const { default: html2canvas } = await import('html2canvas')
@@ -174,6 +232,7 @@ export async function saveResultImage(
       backgroundColor: '#0d0b10',
       useCORS: true,
       windowWidth: CAPTURE_WIDTH + 40,
+      onclone: (_doc, clone) => flattenExportColors(clone),
     })
 
     const filename = `manosaba-${card.tag}.png`
@@ -194,18 +253,22 @@ export async function saveResultImage(
           return
         } catch (err) {
           if ((err as DOMException)?.name === 'AbortError') return
-          /* other errors → download fallback */
+          /* other errors (desktop Chrome throws NotAllowedError once the
+             capture has outlived the click's transient activation) → download */
         }
       }
     }
 
-    const dataUrl = canvas.toDataURL('image/png')
+    // Blob URL over a data: URL — a 1040px-wide PNG runs to several MB, which
+    // some in-app WebViews refuse to download as a data: URL.
+    const href = blob ? URL.createObjectURL(blob) : canvas.toDataURL('image/png')
     const a = document.createElement('a')
-    a.href = dataUrl
+    a.href = href
     a.download = filename
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
+    if (blob) setTimeout(() => URL.revokeObjectURL(href), 60_000)
   } finally {
     element.classList.remove('exporting')
     element.style.width = originalWidth
