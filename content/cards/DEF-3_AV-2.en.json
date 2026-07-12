@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Avoider",
+  "copingSub": "AV-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Avoider",
+  "tag": "DEF-3_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Nothing makes her flinch, gasp, or blush — the reaction is simply not in her body. She feels it all, and she cannot make it come.",
+          "She was never where things happened. Each night, in the last free hour, she went down alone to the incinerator room — no one else came down there after dark — and said the day's ugly flashes aloud, once each, where no one would ever hear them. The other girls knew only that she vanished at the same hour, every night.",
+          "One girl sought her out, warm and persistent, at ease with her. \"You're the only one nothing can reach,\" the seeker said one evening, leaning close and trusting. In that instant the flash came — a cold wish to find how far she could go before something reached the girl — and she is certain that flash is what she is, and that her tell-less body is all that hides it.",
+          "That night the seeker followed her down. Sensing someone behind her, by old habit she turned aside into the dark at the stair's foot and let her pass. The seeker pushed on into the unlit incinerator room, and alone she stumbled over the burn-pile's spilled edge and came down throat-first across the cold furnace's open iron door. Stunned, she could not lift herself; her own weight held her throat to the iron. What little sound she made did not carry. No hand was near her.",
+          "She came back to finish her hour and found the seeker still on the stones, past any help. A cold relief moved in her — no one left who kept reaching — and she did what she had done all her life: stepped back, walked away, told no one.",
+          "Missed at the lock count, the seeker was found on the incinerator-room stones: one clean, unbroken pressure-line high across the throat, no finger marks, and what looked like a struggle's bruises at shoulder and hip. The body lay settled clear of the furnace's open door.",
+          "A fighting girl smears a pressure-line; a line this clean read as a pin that never wavered — and only a body that cannot flinch holds one so steady. The ground pointed to her too: she alone went down there. The corridor girl had seen her take the stair down at her hour and the seeker follow after, and no one saw the seeker come up. The court knew what her body could not do and read no guilt in her calm face; but her body could not give the shaking, weeping innocence that would have spoken for another girl.",
+          "Asked if she did it, she said \"no,\" once, flat, and it was true. Asked where she had been, she said nothing — the hour, the sayings, the finding, the walking-away all stayed unspoken, as she had kept everything all her life. At the trial she defended nothing, and the verdict came to her without resistance."
+        ],
+        "epitaph": "The body that hid the monster hid her innocence too — not even her last true \"no\" ever reached anyone.",
+        "epithet": "The Girl Nothing Reached",
+        "execution": [
+          "The execution stand rose bearing a fixed iron edge, set a breath from her throat, with a seat on a track behind her.",
+          "She was fastened into the seat, and the seat was hauled slowly forward along the track toward the edge.",
+          "The frame left exactly the clearance a flinch would take: the instant the cold edge meets skin, any body arches back and clears it.",
+          "Her body did not arch. The seat came on until it drew home against the edge."
+        ],
+        "magic": {
+          "name": "No Startle",
+          "text": "her body gives no involuntary reaction of any kind."
+        }
+      },
+      "variant": 3
+    }
+  ]
+}

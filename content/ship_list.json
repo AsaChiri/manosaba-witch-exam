@@ -1,14 +1,6 @@
 {
   "_doc": "Allowlist controlling which cards compile into content/. Only `shipped` compiles. Move a tag from pendingReview to shipped after owner review, then recompile. Ids are output/cards/*.md basenames.",
-  "pendingReview": [
-    "DEF-SP-006",
-    "POW-DP-004",
-    "FAI-PF-004",
-    "FAI-PF-005",
-    "MB-SS-001",
-    "DEF-AV-003",
-    "DEF-DT-002"
-  ],
+  "pendingReview": [],
   "shipped": [
     "card_01_ed1_spotlight",
     "card_02_ed2_jester",
@@ -21,6 +13,13 @@
     "ALN-AV-001",
     "ED-SS-001",
     "ALN-FA-001",
-    "MB-WT-001"
+    "MB-WT-001",
+    "DEF-SP-006",
+    "FAI-PF-004",
+    "FAI-PF-005",
+    "MB-SS-001",
+    "DEF-AV-003",
+    "DEF-DT-002",
+    "POW-DP-004"
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "cell": "MB|Self-Soother",
+  "copingSub": "SS-3",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Self-Soother",
+  "tag": "MB-2_SS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her ears were never empty — a feed, songs, noise in both ears at all hours. She had once told the silence-maker why: in quiet she cries without knowing the reason, and cannot stop it.",
+          "One dinner the whole dining hall went silent on cue as she walked in — every girl at once, on a signal the silence-maker had set — and the room watched her come apart on schedule.",
+          "Each evening the silence-maker came back from the courtyard last, cutting through the west corridor.",
+          "That evening she had strung a cord across the corridor's dark end at throat height, tied to the door-irons on either side.",
+          "When the silence-maker entered, a crowd of voices rose behind her where no crowd was, filling the lit end wall to wall and coming on. She let it be heard, reckoning that no death could be laid against a night's uproar, and that the cord left behind traced back to no one. The silence-maker ran from it, headlong into the dark.",
+          "The cord took her at the throat. The voices stopped in a breath.",
+          "Girls came with lamps toward the sound half the prison had heard. The corridor stood empty and soundless — the silence-maker at its dark end, her throat crushed against the cord, and one girl already in the corridor's mouth when the lamps arrived."
+        ],
+        "epitaph": "She could fill any silence but the one they built her out of.",
+        "epithet": "The Girl With No Quiet In Her",
+        "execution": [
+          "The execution stand rose bearing a curved iron shell that closed around and over her, with her bound at its focal point.",
+          "The shell returned every sound within it to that point, magnified, and it began with a faint hum of its own.",
+          "The hum grew on itself. Every sound she made — a word, a cry, a caught breath — came back larger and joined it.",
+          "Her power could only put more sound into the shell, and more sound was what it magnified back.",
+          "Staying silent would have spared her, but the girl who flooded every silence could never hold quiet — each sound she could not help making only fed the shell and hurried the end.",
+          "The shell keeps returning what it is given until the point at its center gives nothing more."
+        ],
+        "magic": {
+          "name": "the Static",
+          "text": "She can flood a space within her hearing with overlapping sound out of no source, and steer it where she wills."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

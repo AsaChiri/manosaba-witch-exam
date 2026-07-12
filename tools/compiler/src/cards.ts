@@ -1,8 +1,8 @@
 /**
- * Card parser. Card identity (cell + sub-variants + variant index) is taken from
- * a KNOWN_CARDS registry distilled from output/cards/README.md — the authored
- * manifest blocks drift badly across pilots/batch-1 (bold vs plain keys, bracket
- * vs numeric tags, missing headers) and the registry is the reliable normalizer.
+ * Card parser. Card identity (family/style + sub-variants + variant index) is
+ * read from each file's `schema: card-source/v1` YAML frontmatter — every card
+ * now self-labels, so there is no registry to drift out of sync. A shipped card
+ * missing those fields is a hard error (no `?` placeholder fallback).
  * The five prose fields are parsed tolerantly from each file's locale sections.
  */
 import { readFileSync } from "node:fs";
@@ -32,32 +32,6 @@ export interface ParsedCard {
   warnings: string[];
 }
 
-interface KnownCard {
-  family: string;
-  style: string;
-  originSub: string;
-  copingSub: string;
-  variant: number;
-}
-
-/** Distilled from output/cards/README.md status tables (recon-verified). */
-export const KNOWN_CARDS: Record<string, KnownCard> = {
-  card_01_ed1_spotlight: { family: "ED", style: "Performer", originSub: "ED-1", copingSub: "PE-1", variant: 1 },
-  card_02_ed2_jester: { family: "ED", style: "Performer", originSub: "ED-2", copingSub: "PE-2", variant: 1 },
-  card_03_ed5_prodigy: { family: "ED", style: "Performer", originSub: "ED-5", copingSub: "PE-3", variant: 1 },
-  card_04_awkward_mb_depender: { family: "MB", style: "Depender", originSub: "MB-3", copingSub: "DP-1", variant: 1 },
-  card_05_ed9_spotlight: { family: "ED", style: "Performer", originSub: "ED-9", copingSub: "PE-1", variant: 1 },
-  card_06_abn1_sentinel: { family: "ABN", style: "Clinger", originSub: "ABN-1", copingSub: "CL-1", variant: 1 },
-  card_07_vc1_lookout: { family: "VC", style: "Watcher", originSub: "VC-1", copingSub: "WT-1", variant: 1 },
-  "DEF-SP-001": { family: "DEF", style: "Self-Punisher", originSub: "DEF-3", copingSub: "SP-1", variant: 1 },
-  "ALN-AV-001": { family: "ALN", style: "Avoider", originSub: "ALN-1", copingSub: "AV-1", variant: 1 },
-  "ED-SS-001": { family: "ED", style: "Self-Soother", originSub: "ED-1", copingSub: "SS-1", variant: 1 },
-  "FAI-AV-001": { family: "FAI", style: "Avoider", originSub: "FAI-1", copingSub: "AV-3", variant: 1 },
-  "ALN-FA-001": { family: "ALN", style: "Fantasist", originSub: "ALN-10", copingSub: "FA-2", variant: 1 },
-  "ABN-CL-001": { family: "ABN", style: "Clinger", originSub: "ABN-1", copingSub: "CL-1", variant: 2 },
-  "MB-WT-001": { family: "MB", style: "Watcher", originSub: "MB-10", copingSub: "WT-2", variant: 1 },
-};
-
 const LOCALE_HEADERS: { locale: string; re: RegExp }[] = [
   { locale: "en", re: /^##\s+EN(\s+card)?\s*$/i },
   { locale: "ja", re: /^##\s+JA\s*$/i },
@@ -84,27 +58,56 @@ function cleanValue(s: string): string {
     .trim();
 }
 
-/** Magic-name forms: in the bold label (**魔法 「重演」** / **魔法 · Magic — "Encore"**)
- *  or leading the value ("牵引"——她能… / 生者感知——…). */
-function nameFromLabel(label: string): string | null {
-  const q = label.match(/[「『"“]([^」』"”]{1,40})[」』"”]/);
-  return q ? q[1]!.trim() : null;
+/** Strip wrapping quotes from a scalar frontmatter value (values are unquoted in
+ *  practice; this is defensive). */
+function stripQuotes(s: string): string {
+  return s.replace(/^["'](.*)["']$/, "$1").trim();
 }
-function nameFromValue(value: string): { name: string; text: string } | null {
-  const quoted = value.match(/^\s*[「『"“']([^」』"”']{1,40})[」』"”']\s*(?:——|――|—|–|-)?\s*(\S[\s\S]*)$/);
-  if (quoted) return { name: quoted[1]!.trim(), text: quoted[2]! };
-  // Bare name before a dash: 聚光——她能… / The Living Watch — She feels…
-  // (double dash may hug the name; a single dash must be space-separated)
-  const dashed = value.match(/^\s*([^—–]{1,60}?)(?:\s*(?:——|――)\s*|\s+[—–]\s+)(\S[\s\S]*)$/);
-  if (dashed) return { name: dashed[1]!.trim(), text: dashed[2]! };
-  return null;
+
+/** Read the leading `--- … ---` YAML frontmatter. Only the flat scalar fields and
+ *  the one-level `magic_name:` map are needed for card identity + headline, so the
+ *  parser stays deliberately small rather than pulling in a YAML dependency. */
+function parseFrontmatter(lines: string[]): { fields: Record<string, string>; magicName: Record<string, string> } {
+  const fields: Record<string, string> = {};
+  const magicName: Record<string, string> = {};
+  if (lines[0]?.trim() !== "---") return { fields, magicName };
+  let inMagic = false;
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i]!;
+    if (line.trim() === "---") break;
+    if (/^\s/.test(line)) {
+      // indented child — only magic_name's locale entries are consumed
+      const child = /^\s+([\w-]+):\s*(.*)$/.exec(line);
+      if (inMagic && child) magicName[child[1]!] = stripQuotes(child[2]!);
+      continue;
+    }
+    inMagic = false;
+    const m = /^([A-Za-z_][\w-]*):\s*(.*)$/.exec(line);
+    if (!m) continue;
+    if (m[1] === "magic_name") inMagic = true;
+    else fields[m[1]!] = m[2]!.trim();
+  }
+  return { fields, magicName };
+}
+
+/** The magic NAME is authoritative from frontmatter; the prose still opens with it
+ *  (`Given Hours — …` / `**魔法**：「传功」——…` / `「技渡し」——…`). Strip that leading
+ *  `[quote]name[reading?][quote] <dash/colon>` so magic.text carries only the
+ *  description. The optional reading tolerates a furigana gloss the prose may hang
+ *  on the name (`「文字復元(もじふくげん)」——…`) that the YAML name omits. */
+function stripLeadingName(text: string, name: string): string {
+  if (!name) return text;
+  const esc = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const reading = "(?:[(（][^)）]*[)）])?"; // optional furigana / pronunciation gloss
+  const re = new RegExp(`^\\s*["'“「『]?\\s*${esc}\\s*${reading}\\s*["'”」』]?\\s*(?:——|――|—|–|-|:|：)\\s*`);
+  const out = text.replace(re, "").trim();
+  return out.length ? out : text;
 }
 
 function parseSection(lines: string[]): CardFields {
   const fields: CardFields = { epithet: "", magic: { name: "", text: "" }, crime: [], execution: [], epitaph: "" };
   let cur: Field | null = null;
   let buf: string[] = [];
-  let magicLabelName: string | null = null;
   const flush = () => {
     if (!cur) {
       buf = [];
@@ -112,14 +115,10 @@ function parseSection(lines: string[]): CardFields {
     }
     const cleaned = buf.map(cleanValue).filter((x) => x.length > 0);
     if (cur === "crime" || cur === "execution") fields[cur] = cleaned;
-    else if (cur === "magic") {
-      const joined = cleaned.join(" ");
-      if (magicLabelName) fields.magic = { name: magicLabelName, text: joined };
-      else {
-        const v = nameFromValue(joined);
-        fields.magic = v ?? { name: "", text: joined };
-      }
-    } else (fields[cur] as string) = cleaned.join(" ");
+    // magic name comes from frontmatter (set in parseCard); here we only keep the
+    // prose value as text — the leading name is stripped once the name is known.
+    else if (cur === "magic") fields.magic = { name: "", text: cleaned.join(" ") };
+    else (fields[cur] as string) = cleaned.join(" ");
     buf = [];
   };
   for (const raw of lines) {
@@ -140,7 +139,6 @@ function parseSection(lines: string[]): CardFields {
       if (field) {
         flush();
         cur = field;
-        if (field === "magic") magicLabelName = nameFromLabel(bm[1]!);
         const rest = cleanValue(bm[2]!);
         if (rest) buf.push(rest);
         continue;
@@ -153,11 +151,28 @@ function parseSection(lines: string[]): CardFields {
 }
 
 export function parseCard(sourceId: string, cardsDir: string): ParsedCard {
-  const known = KNOWN_CARDS[sourceId];
   const warnings: string[] = [];
   const file = join(cardsDir, `${sourceId}.md`);
   const text = readFileSync(file, "utf8");
   const lines = text.split(/\r?\n/);
+
+  // identity + headline names are self-declared in the card's YAML frontmatter
+  const { fields, magicName } = parseFrontmatter(lines);
+  const missing = (["family", "style", "origin_sub", "coping_sub"] as const).filter((k) => !fields[k]);
+  if (missing.length) {
+    throw new Error(
+      `${sourceId}: identity frontmatter incomplete — missing ${missing.join(", ")}. ` +
+        "Every card must self-label family/style/origin_sub/coping_sub in its --- block.",
+    );
+  }
+  const originSub = normalizeOriginSub(fields.origin_sub!);
+  const copingSub = normalizeCopingSub(fields.coping_sub!);
+  const variantRaw = parseInt(fields.variant ?? "1", 10);
+  const variant = Number.isFinite(variantRaw) && variantRaw > 0 ? variantRaw : 1;
+  const derivedTag = `${originSub}_${copingSub}`;
+  if (fields.tag && fields.tag !== derivedTag) {
+    warnings.push(`${sourceId}: frontmatter tag "${fields.tag}" != derived "${derivedTag}"`);
+  }
 
   // locate locale section headers
   const marks: { locale: string; idx: number }[] = [];
@@ -173,24 +188,16 @@ export function parseCard(sourceId: string, cardsDir: string): ParsedCard {
     locales[marks[m]!.locale] = parseSection(lines.slice(start, end));
   }
   for (const loc of ["en", "ja", "zh-CN"]) {
-    if (!locales[loc]) warnings.push(`${sourceId}: missing ${loc} section`);
+    const f = locales[loc];
+    if (!f) {
+      warnings.push(`${sourceId}: missing ${loc} section`);
+      continue;
+    }
+    // magic name is authoritative from frontmatter; strip it off the prose text
+    const name = magicName[loc] ?? "";
+    if (!name) warnings.push(`${sourceId}: frontmatter magic_name.${loc} missing`);
+    f.magic = { name, text: stripLeadingName(f.magic.text, name) };
   }
 
-  const id = known ?? deriveFromFile();
-  return {
-    sourceId,
-    file,
-    family: id.family,
-    style: id.style,
-    originSub: normalizeOriginSub(id.originSub),
-    copingSub: normalizeCopingSub(id.copingSub),
-    variant: id.variant,
-    locales,
-    warnings,
-  };
-
-  function deriveFromFile(): KnownCard {
-    warnings.push(`${sourceId}: not in KNOWN_CARDS registry; identity may be wrong`);
-    return { family: "?", style: "?", originSub: "?-0", copingSub: "?-0", variant: 1 };
-  }
+  return { sourceId, file, family: fields.family!, style: fields.style!, originSub, copingSub, variant, locales, warnings };
 }

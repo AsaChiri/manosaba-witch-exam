@@ -23,12 +23,30 @@
       "ALN-10|FA-2": 0
     }
   },
-  "DEF|Self-Punisher": {
+  "DEF|Avoider": {
     "table": {
-      "DEF-3|SP-1": "DEF-3_SP-1"
+      "DEF-3|AV-2": "DEF-3_AV-2"
     },
     "tiers": {
-      "DEF-3|SP-1": 0
+      "DEF-3|AV-2": 0
+    }
+  },
+  "DEF|Detacher": {
+    "table": {
+      "DEF-3|DT-3": "DEF-3_DT-3"
+    },
+    "tiers": {
+      "DEF-3|DT-3": 0
+    }
+  },
+  "DEF|Self-Punisher": {
+    "table": {
+      "DEF-3|SP-1": "DEF-3_SP-1",
+      "DEF-8|SP-1": "DEF-8_SP-1"
+    },
+    "tiers": {
+      "DEF-3|SP-1": 0,
+      "DEF-8|SP-1": 0
     }
   },
   "ED|Performer": {
@@ -69,6 +87,16 @@
       "ED-1|SS-1": 0
     }
   },
+  "FAI|Perfectionist": {
+    "table": {
+      "FAI-3|PF-2": "FAI-3_PF-2",
+      "FAI-5|PF-2": "FAI-5_PF-2"
+    },
+    "tiers": {
+      "FAI-3|PF-2": 0,
+      "FAI-5|PF-2": 0
+    }
+  },
   "MB|Depender": {
     "table": {
       "MB-3|DP-1": "MB-3_DP-1"
@@ -77,12 +105,28 @@
       "MB-3|DP-1": 0
     }
   },
+  "MB|Self-Soother": {
+    "table": {
+      "MB-2|SS-3": "MB-2_SS-3"
+    },
+    "tiers": {
+      "MB-2|SS-3": 0
+    }
+  },
   "MB|Watcher": {
     "table": {
       "MB-10|WT-2": "MB-10_WT-2"
     },
     "tiers": {
       "MB-10|WT-2": 0
+    }
+  },
+  "POW|Depender": {
+    "table": {
+      "POW-3|DP-2": "POW-3_DP-2"
+    },
+    "tiers": {
+      "POW-3|DP-2": 0
     }
   },
   "VC|Watcher": {

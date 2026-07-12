@@ -39,15 +39,43 @@
       "family": "ALN",
       "style": "Fantasist"
     },
+    "DEF|Avoider": {
+      "authoredTags": [
+        "DEF-3_AV-2"
+      ],
+      "coveredCoping": [
+        "AV-2"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Avoider"
+    },
+    "DEF|Detacher": {
+      "authoredTags": [
+        "DEF-3_DT-3"
+      ],
+      "coveredCoping": [
+        "DT-3"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Detacher"
+    },
     "DEF|Self-Punisher": {
       "authoredTags": [
-        "DEF-3_SP-1"
+        "DEF-3_SP-1",
+        "DEF-8_SP-1"
       ],
       "coveredCoping": [
         "SP-1"
       ],
       "coveredOrigin": [
-        "DEF-3"
+        "DEF-3",
+        "DEF-8"
       ],
       "family": "DEF",
       "style": "Self-Punisher"
@@ -86,6 +114,21 @@
       "family": "ED",
       "style": "Self-Soother"
     },
+    "FAI|Perfectionist": {
+      "authoredTags": [
+        "FAI-3_PF-2",
+        "FAI-5_PF-2"
+      ],
+      "coveredCoping": [
+        "PF-2"
+      ],
+      "coveredOrigin": [
+        "FAI-3",
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Perfectionist"
+    },
     "MB|Depender": {
       "authoredTags": [
         "MB-3_DP-1"
@@ -99,6 +142,19 @@
       "family": "MB",
       "style": "Depender"
     },
+    "MB|Self-Soother": {
+      "authoredTags": [
+        "MB-2_SS-3"
+      ],
+      "coveredCoping": [
+        "SS-3"
+      ],
+      "coveredOrigin": [
+        "MB-2"
+      ],
+      "family": "MB",
+      "style": "Self-Soother"
+    },
     "MB|Watcher": {
       "authoredTags": [
         "MB-10_WT-2"
@@ -111,6 +167,19 @@
       ],
       "family": "MB",
       "style": "Watcher"
+    },
+    "POW|Depender": {
+      "authoredTags": [
+        "POW-3_DP-2"
+      ],
+      "coveredCoping": [
+        "DP-2"
+      ],
+      "coveredOrigin": [
+        "POW-3"
+      ],
+      "family": "POW",
+      "style": "Depender"
     },
     "VC|Watcher": {
       "authoredTags": [
@@ -166,6 +235,32 @@
       "tag": "ALN-1_AV-1",
       "variants": 1
     },
+    "DEF-3_AV-2": {
+      "cell": "DEF|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_AV-2",
+      "variants": 1
+    },
+    "DEF-3_DT-3": {
+      "cell": "DEF|Detacher",
+      "copingSub": "DT-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_DT-3",
+      "variants": 1
+    },
     "DEF-3_SP-1": {
       "cell": "DEF|Self-Punisher",
       "copingSub": "SP-1",
@@ -177,6 +272,19 @@
       ],
       "originSub": "DEF-3",
       "tag": "DEF-3_SP-1",
+      "variants": 1
+    },
+    "DEF-8_SP-1": {
+      "cell": "DEF|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-8",
+      "tag": "DEF-8_SP-1",
       "variants": 1
     },
     "ED-1_PE-1": {
@@ -244,6 +352,32 @@
       "tag": "ED-9_PE-1",
       "variants": 1
     },
+    "FAI-3_PF-2": {
+      "cell": "FAI|Perfectionist",
+      "copingSub": "PF-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_PF-2",
+      "variants": 1
+    },
+    "FAI-5_PF-2": {
+      "cell": "FAI|Perfectionist",
+      "copingSub": "PF-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_PF-2",
+      "variants": 1
+    },
     "MB-10_WT-2": {
       "cell": "MB|Watcher",
       "copingSub": "WT-2",
@@ -257,6 +391,19 @@
       "tag": "MB-10_WT-2",
       "variants": 1
     },
+    "MB-2_SS-3": {
+      "cell": "MB|Self-Soother",
+      "copingSub": "SS-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-2",
+      "tag": "MB-2_SS-3",
+      "variants": 1
+    },
     "MB-3_DP-1": {
       "cell": "MB|Depender",
       "copingSub": "DP-1",
@@ -268,6 +415,19 @@
       ],
       "originSub": "MB-3",
       "tag": "MB-3_DP-1",
+      "variants": 1
+    },
+    "POW-3_DP-2": {
+      "cell": "POW|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "POW-3",
+      "tag": "POW-3_DP-2",
       "variants": 1
     },
     "VC-1_WT-1": {

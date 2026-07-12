@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-8",
+  "style": "Self-Punisher",
+  "tag": "DEF-8_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Since she came here her skin had never once been clear — a welt, a bruise, the old line of a cut — and no one had ever seen her take a hurt. She had written every one of them there herself, her own guilt marked into her skin before any other hand could reach it. A girl always marked and never seen harmed stops being asked, and stops answering.",
+          "One girl kept the last quiet hour of each evening at her side, the two of them under the unwilting cherry tree in the library. Once, finding a fresh mark on her wrist, that girl asked nothing and only drew the sleeve down over it.",
+          "One evening the two of them had the library to themselves. Gathering her books, the girl stepped back; her heel turned on the smooth floor and she went down, the back of her head against the corner of a heavy bookshelf.",
+          "She caught at the girl a breath too late. She could not stop it.",
+          "Before the girls came, alone with the body, she drew back her own sleeves and wrote the marks into her arms — deep grip-bruises, a clawed line down each forearm, the print of a girl fighting for her life against the one killing her.",
+          "The girls came for the hour's end and found her holding the body, her sleeves back, her arms marked. Asked what had happened, she said, \"It was me.\"",
+          "The girl's head-wound read as a fall taken in a struggle — shoved down, the back of her head catching the corner — and the deep marks on her forearms read as the dying grip of the one who had killed her. She had been alone with the girl by her own word and the others' finding; the dead girl's own hands were clean, her nails unbroken, but a court already given its confession had no cause to weigh them.",
+          "She had watched the girl die a hand's breadth away and not saved her; that much was true."
+        ],
+        "epitaph": "A lifetime writing her own sentence into her skin, so no one else could pass it — and the one crime that was never hers, she signed in a hand only she could forge.",
+        "epithet": "The Girl Who Wrote Her Own Guilt",
+        "execution": [
+          "The execution stand rose bearing an upright frame. She was bound to it, her arms locked open and bare, the marked body turned to the whole court and her writing hands stilled.",
+          "A single iron point was fixed at her breast, and the frame advanced it toward her, turn by slow turn of a screw.",
+          "The marked body, a lifetime of its own writing bared to the room, took the one wound it had not made. The frame drove the point home."
+        ],
+        "magic": {
+          "name": "the Written Wound",
+          "text": "At will she writes any wound onto her own flesh: to the eye no different from a real one, yet doing her no true harm."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

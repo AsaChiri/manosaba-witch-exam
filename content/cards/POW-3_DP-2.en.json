@@ -1,0 +1,36 @@
+{
+  "cell": "POW|Depender",
+  "copingSub": "DP-2",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-3",
+  "style": "Depender",
+  "tag": "POW-3_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The victim used her as her own hands. Every chore and errand fell to her, and the victim never carried her own load; even the nightly rubdown was hers to give, called for out on the lounge floor before the others, the same open-ended order barked aloud for all to hear.",
+          "That evening the victim piled the whole day onto her past bearing, and she chose to be free of her.  She made the victim her driver, silently, taking no leave, and asked to move to the shower room for that.",
+          "Face-down on the bench, the victim gave the order she gave every evening: \"harder — don't stop till it's out.\"",
+          "Her yoked hands took it and pressed.  But she alone could lift the yoke and end it in a breath; as the press bore down and the breath went out of the body, she did not lift it.",
+          "To the others it would look like the one thing she had always been — an obedient hand that did not know to stop.",
+          "Only she ever attended the victim's wash, alone with her in the soundproofed room, so the only hands on the body were hers."
+        ],
+        "epitaph": "She drowned under all they piled on her.",
+        "epithet": "The Servant Who Obeyed to the Death",
+        "execution": [
+          "The execution stand rose bearing a crank at waist height, and above it, on rails, a heavy blade held at the top of its travel — each turn of the crank drew it down one notch toward her. Her two hands were bound to the handle.",
+          "The machine's gears took the crank and turned it, and her bound hands turned with it: her own hands worked the handle, though the turning was the machine's, not hers. She had handed her hands to a driver all her life; this last one was iron, and would not give them back.",
+          "Turn by turn the blade came down. She could not pull her hands free, nor still the gears, nor stop the handle turning in her grip — she was moved by the machine as she had only ever been moved, and it did not tire and would not stop.",
+          "The crank turned to its stop, and the blade came down."
+        ],
+        "magic": {
+          "name": "the Handed Wheel",
+          "text": "she gives her hands over to one driver she names, and her body carries out the driver's word past any strength of her own until she alone lifts the yoke."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

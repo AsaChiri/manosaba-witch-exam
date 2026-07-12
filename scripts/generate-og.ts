@@ -26,7 +26,7 @@ import wawoff2 from 'wawoff2'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
-const SITE = (process.env.PUBLIC_SITE_URL || 'https://manosaba-witch-exam.pages.dev').replace(/\/$/, '')
+const SITE = (process.env.PUBLIC_SITE_URL || 'https://manosaba-witch-exam.asachiri.com').replace(/\/$/, '')
 const DESIGN_VERSION = 'og-v2'
 const CACHE = join(ROOT, 'scripts/.fonts-cache')
 mkdirSync(CACHE, { recursive: true })

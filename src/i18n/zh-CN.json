@@ -135,7 +135,13 @@
     "copyEmail": "复制地址",
     "copied": "已复制",
     "mailSubject": "[魔女因子检测] {tag} / q{quiz} / {locale}",
-    "mailBody": "（请写下你的意见）\n\n"
+    "mailBody": "（请写下你的意见）",
+    "debugHeader": "— 技术信息 —",
+    "debugCard": "显示卡牌",
+    "debugRouting": "判定路径",
+    "debugVersion": "版本",
+    "debugAnswersNote": "下面这行可让我们完整复现你的判定过程。若不便分享你的作答，请删除它。",
+    "debugAnswers": "作答"
   },
   "result": {
     "safety": "若本记录令你感到不适，请联系下方的求助热线。",

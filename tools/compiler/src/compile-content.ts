@@ -82,29 +82,6 @@ function dropUnderscore<T extends Record<string, unknown>>(o: T): T {
   for (const k of Object.keys(out)) if (k.startsWith("_")) delete out[k];
   return out as T;
 }
-
-const SHIP_SEED = {
-  _doc: "Allowlist controlling which cards compile into content/. Only `shipped` compiles. Move a tag from pendingReview to shipped after owner review, then recompile. Ids are output/cards/*.md basenames.",
-  shipped: [
-    "card_01_ed1_spotlight",
-    "card_02_ed2_jester",
-    "card_03_ed5_prodigy",
-    "card_04_awkward_mb_depender",
-    "card_05_ed9_spotlight",
-    "card_06_abn1_sentinel",
-    "card_07_vc1_lookout",
-  ],
-  pendingReview: [
-    "DEF-SP-001",
-    "ALN-AV-001",
-    "ED-SS-001",
-    "FAI-AV-001",
-    "ALN-FA-001",
-    "ABN-CL-001",
-    "MB-WT-001",
-  ],
-};
-
 // ------------------------------------------------------------------ certified data
 interface CopingTreeRaw extends Record<string, unknown> {
   routers: Record<string, Record<string, string>>;
@@ -126,10 +103,6 @@ function main(): void {
   log("");
 
   // 0. ship list (seed if absent)
-  if (!existsSync(src.shipList)) {
-    writeJson(src.shipList, SHIP_SEED);
-    log(`  seeded ${src.shipList}`);
-  }
   const shipList = loadJson<{ shipped: string[]; pendingReview?: string[] }>(src.shipList);
   const shippedIds = [...shipList.shipped, ...(includePending ? shipList.pendingReview ?? [] : [])];
 

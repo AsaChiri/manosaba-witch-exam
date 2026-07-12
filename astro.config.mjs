@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap'
 // The canonical origin. Overridden per-deploy via PUBLIC_SITE_URL so share
 // URLs, canonicals, OG image URLs and the sitemap all agree. Placeholder
 // until the owner provisions a domain (design spec §9).
-const SITE = process.env.PUBLIC_SITE_URL || 'https://manosaba-witch-exam.pages.dev'
+const SITE = process.env.PUBLIC_SITE_URL || 'https://manosaba-witch-exam.asachiri.com'
 
 // Locale route scheme (design spec §4): zh-CN lives at the bare root; every
 // other locale gets a path prefix. Astro's key for zh-TW is lowercase

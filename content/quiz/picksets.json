@@ -24,12 +24,31 @@
         "auto": "ALN-10"
       }
     },
+    "DEF|Avoider": {
+      "coping": {
+        "auto": "AV-2"
+      },
+      "origin": {
+        "auto": "DEF-3"
+      }
+    },
+    "DEF|Detacher": {
+      "coping": {
+        "auto": "DT-3"
+      },
+      "origin": {
+        "auto": "DEF-3"
+      }
+    },
     "DEF|Self-Punisher": {
       "coping": {
         "auto": "SP-1"
       },
       "origin": {
-        "auto": "DEF-3"
+        "options": [
+          "DEF-3",
+          "DEF-8"
+        ]
       }
     },
     "ED|Performer": {
@@ -57,6 +76,17 @@
         "auto": "ED-1"
       }
     },
+    "FAI|Perfectionist": {
+      "coping": {
+        "auto": "PF-2"
+      },
+      "origin": {
+        "options": [
+          "FAI-3",
+          "FAI-5"
+        ]
+      }
+    },
     "MB|Depender": {
       "coping": {
         "auto": "DP-1"
@@ -65,12 +95,28 @@
         "auto": "MB-3"
       }
     },
+    "MB|Self-Soother": {
+      "coping": {
+        "auto": "SS-3"
+      },
+      "origin": {
+        "auto": "MB-2"
+      }
+    },
     "MB|Watcher": {
       "coping": {
         "auto": "WT-2"
       },
       "origin": {
         "auto": "MB-10"
+      }
+    },
+    "POW|Depender": {
+      "coping": {
+        "auto": "DP-2"
+      },
+      "origin": {
+        "auto": "POW-3"
       }
     },
     "VC|Watcher": {
@@ -131,13 +177,11 @@
     "ALN|Wall-of-Anger": "ALN|Fantasist",
     "ALN|Watcher": "ALN|Fantasist",
     "DEF|Avenger": "DEF|Self-Punisher",
-    "DEF|Avoider": "DEF|Self-Punisher",
     "DEF|Caretaker": "DEF|Self-Punisher",
     "DEF|Catastrophizer": "DEF|Self-Punisher",
     "DEF|Clinger": "DEF|Self-Punisher",
-    "DEF|Concealer": "DEF|Self-Punisher",
+    "DEF|Concealer": "DEF|Avoider",
     "DEF|Depender": "DEF|Self-Punisher",
-    "DEF|Detacher": "DEF|Self-Punisher",
     "DEF|Doomer": "DEF|Self-Punisher",
     "DEF|Fantasist": "DEF|Self-Punisher",
     "DEF|Perfectionist": "DEF|Self-Punisher",
@@ -146,11 +190,11 @@
     "DEF|Resigned": "DEF|Self-Punisher",
     "DEF|Ritualist": "DEF|Self-Punisher",
     "DEF|Ruminator": "DEF|Self-Punisher",
-    "DEF|Self-Reliant": "DEF|Self-Punisher",
-    "DEF|Self-Soother": "DEF|Self-Punisher",
+    "DEF|Self-Reliant": "DEF|Avoider",
+    "DEF|Self-Soother": "DEF|Detacher",
     "DEF|Sovereign": "DEF|Self-Punisher",
     "DEF|Striker": "DEF|Self-Punisher",
-    "DEF|Thrill-Seeker": "DEF|Self-Punisher",
+    "DEF|Thrill-Seeker": "DEF|Detacher",
     "DEF|Trickster": "DEF|Self-Punisher",
     "DEF|Wall-of-Anger": "DEF|Self-Punisher",
     "DEF|Watcher": "DEF|Self-Punisher",
@@ -177,79 +221,76 @@
     "ED|Trickster": "ED|Performer",
     "ED|Wall-of-Anger": "ED|Performer",
     "ED|Watcher": "ED|Performer",
-    "FAI|Avenger": "ED|Performer",
-    "FAI|Avoider": "ALN|Avoider",
-    "FAI|Caretaker": "MB|Depender",
-    "FAI|Catastrophizer": "VC|Watcher",
-    "FAI|Clinger": "MB|Depender",
-    "FAI|Concealer": "ALN|Avoider",
-    "FAI|Depender": "MB|Depender",
-    "FAI|Detacher": "ED|Self-Soother",
-    "FAI|Doomer": "DEF|Self-Punisher",
-    "FAI|Fantasist": "ALN|Fantasist",
-    "FAI|Perfectionist": "VC|Watcher",
-    "FAI|Performer": "ALN|Fantasist",
-    "FAI|Pleaser": "MB|Depender",
-    "FAI|Resigned": "DEF|Self-Punisher",
-    "FAI|Ritualist": "VC|Watcher",
-    "FAI|Ruminator": "DEF|Self-Punisher",
-    "FAI|Self-Punisher": "DEF|Self-Punisher",
-    "FAI|Self-Reliant": "ALN|Avoider",
-    "FAI|Self-Soother": "ED|Self-Soother",
-    "FAI|Sovereign": "ALN|Fantasist",
-    "FAI|Striker": "ED|Performer",
-    "FAI|Thrill-Seeker": "ED|Self-Soother",
-    "FAI|Trickster": "ED|Performer",
-    "FAI|Wall-of-Anger": "ED|Performer",
-    "FAI|Watcher": "VC|Watcher",
+    "FAI|Avenger": "FAI|Perfectionist",
+    "FAI|Avoider": "FAI|Perfectionist",
+    "FAI|Caretaker": "FAI|Perfectionist",
+    "FAI|Catastrophizer": "FAI|Perfectionist",
+    "FAI|Clinger": "FAI|Perfectionist",
+    "FAI|Concealer": "FAI|Perfectionist",
+    "FAI|Depender": "FAI|Perfectionist",
+    "FAI|Detacher": "FAI|Perfectionist",
+    "FAI|Doomer": "FAI|Perfectionist",
+    "FAI|Fantasist": "FAI|Perfectionist",
+    "FAI|Performer": "FAI|Perfectionist",
+    "FAI|Pleaser": "FAI|Perfectionist",
+    "FAI|Resigned": "FAI|Perfectionist",
+    "FAI|Ritualist": "FAI|Perfectionist",
+    "FAI|Ruminator": "FAI|Perfectionist",
+    "FAI|Self-Punisher": "FAI|Perfectionist",
+    "FAI|Self-Reliant": "FAI|Perfectionist",
+    "FAI|Self-Soother": "FAI|Perfectionist",
+    "FAI|Sovereign": "FAI|Perfectionist",
+    "FAI|Striker": "FAI|Perfectionist",
+    "FAI|Thrill-Seeker": "FAI|Perfectionist",
+    "FAI|Trickster": "FAI|Perfectionist",
+    "FAI|Wall-of-Anger": "FAI|Perfectionist",
+    "FAI|Watcher": "FAI|Perfectionist",
     "MB|Avenger": "MB|Depender",
-    "MB|Avoider": "MB|Depender",
+    "MB|Avoider": "MB|Self-Soother",
     "MB|Caretaker": "MB|Depender",
     "MB|Catastrophizer": "MB|Watcher",
     "MB|Clinger": "MB|Depender",
-    "MB|Concealer": "MB|Depender",
-    "MB|Detacher": "MB|Depender",
+    "MB|Concealer": "MB|Self-Soother",
+    "MB|Detacher": "MB|Self-Soother",
     "MB|Doomer": "MB|Depender",
     "MB|Fantasist": "MB|Watcher",
     "MB|Perfectionist": "MB|Watcher",
     "MB|Performer": "MB|Watcher",
     "MB|Pleaser": "MB|Depender",
-    "MB|Resigned": "MB|Depender",
+    "MB|Resigned": "MB|Self-Soother",
     "MB|Ritualist": "MB|Watcher",
     "MB|Ruminator": "MB|Depender",
-    "MB|Self-Punisher": "MB|Depender",
-    "MB|Self-Reliant": "MB|Depender",
-    "MB|Self-Soother": "MB|Depender",
+    "MB|Self-Punisher": "MB|Self-Soother",
+    "MB|Self-Reliant": "MB|Self-Soother",
     "MB|Sovereign": "MB|Watcher",
     "MB|Striker": "MB|Depender",
-    "MB|Thrill-Seeker": "MB|Depender",
+    "MB|Thrill-Seeker": "MB|Self-Soother",
     "MB|Trickster": "MB|Depender",
     "MB|Wall-of-Anger": "MB|Depender",
-    "POW|Avenger": "ED|Performer",
-    "POW|Avoider": "ALN|Avoider",
-    "POW|Caretaker": "MB|Depender",
-    "POW|Catastrophizer": "VC|Watcher",
-    "POW|Clinger": "MB|Depender",
-    "POW|Concealer": "ALN|Avoider",
-    "POW|Depender": "MB|Depender",
-    "POW|Detacher": "ED|Self-Soother",
-    "POW|Doomer": "DEF|Self-Punisher",
-    "POW|Fantasist": "ALN|Fantasist",
-    "POW|Perfectionist": "VC|Watcher",
-    "POW|Performer": "ALN|Fantasist",
-    "POW|Pleaser": "MB|Depender",
-    "POW|Resigned": "DEF|Self-Punisher",
-    "POW|Ritualist": "VC|Watcher",
-    "POW|Ruminator": "DEF|Self-Punisher",
-    "POW|Self-Punisher": "DEF|Self-Punisher",
-    "POW|Self-Reliant": "ALN|Avoider",
-    "POW|Self-Soother": "ED|Self-Soother",
-    "POW|Sovereign": "ALN|Fantasist",
-    "POW|Striker": "ED|Performer",
-    "POW|Thrill-Seeker": "ED|Self-Soother",
-    "POW|Trickster": "ED|Performer",
-    "POW|Wall-of-Anger": "ED|Performer",
-    "POW|Watcher": "VC|Watcher",
+    "POW|Avenger": "POW|Depender",
+    "POW|Avoider": "POW|Depender",
+    "POW|Caretaker": "POW|Depender",
+    "POW|Catastrophizer": "POW|Depender",
+    "POW|Clinger": "POW|Depender",
+    "POW|Concealer": "POW|Depender",
+    "POW|Detacher": "POW|Depender",
+    "POW|Doomer": "POW|Depender",
+    "POW|Fantasist": "POW|Depender",
+    "POW|Perfectionist": "POW|Depender",
+    "POW|Performer": "POW|Depender",
+    "POW|Pleaser": "POW|Depender",
+    "POW|Resigned": "POW|Depender",
+    "POW|Ritualist": "POW|Depender",
+    "POW|Ruminator": "POW|Depender",
+    "POW|Self-Punisher": "POW|Depender",
+    "POW|Self-Reliant": "POW|Depender",
+    "POW|Self-Soother": "POW|Depender",
+    "POW|Sovereign": "POW|Depender",
+    "POW|Striker": "POW|Depender",
+    "POW|Thrill-Seeker": "POW|Depender",
+    "POW|Trickster": "POW|Depender",
+    "POW|Wall-of-Anger": "POW|Depender",
+    "POW|Watcher": "POW|Depender",
     "VC|Avenger": "VC|Watcher",
     "VC|Avoider": "VC|Watcher",
     "VC|Caretaker": "VC|Watcher",

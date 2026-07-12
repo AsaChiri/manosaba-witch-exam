@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Detacher",
+  "copingSub": "DT-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Detacher",
+  "tag": "DEF-3_DT-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She read the worst into everything made, and was never wrong — the same reading she had always held of herself.",
+          "Weeks before, when a girl was mocked to tears in the recreation room, the victim had turned and caught her face lit for one unguarded second with real pleasure at it, before it smoothed away.",
+          "Wary of her after that, the victim began a craft project in the earth-spirit room — a worked wooden ornament to be set out in the recreation room.",
+          "Having marked the victim's odd guest-house hours, she slipped in during one supper absence, studied the half-built ornament at her leisure, and read its true purpose.",
+          "It was a blind: deep in the fretwork sat one of the prison's phones, its lens worked toward a slot that would cover her own seat in the recreation room, built to catch on record the pleasure-look the victim had glimpsed. The victim had taken her for a danger, and rightly so.",
+          "She went to the earth-spirit room and stabbed the victim while the blind was still half-built, before it could ever run.",
+          "She left the ornament on the bench where it stood; to break an innocent-looking craft the day its maker died would have named her, and to every other eye it was still only a craft.",
+          "Worked to completion by the court, its purpose was legible to no one while it stood half-built and disguised — save the single power that reads a made thing's intent. The victim died before it could run; she came already knowing what it was, and a girl had seen her enter the guest house that evening."
+        ],
+        "epitaph": "She understood everything — and understanding was never the same as safety.",
+        "epithet": "The Girl Who Read the Worst",
+        "execution": [
+          "The execution stand rose bearing an old iron stove.",
+          "She was chained against its iron flank, and it was stoked past its purpose, load on load, until the iron glowed.",
+          "She was given all the study she wanted. Each time she read the stove, it answered the same: built to warm a room.",
+          "The stove was stoked to its height, and the iron did the rest."
+        ],
+        "magic": {
+          "name": "the Confessing Thing",
+          "text": "after minutes of study, any made or arranged thing tells her what its maker truly built it for, hidden purposes and all; it reads things, never minds."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

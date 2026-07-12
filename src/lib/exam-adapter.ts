@@ -181,6 +181,13 @@ export class RealExamSession implements ExamSession {
       coping: landed.style,
       witchName: this.witchName,
       quizVersion: this.content.quizVersion,
+      debug: {
+        resolvedCell: `${r.cell.family}|${r.cell.style}`,
+        landedCell: `${landed.family}|${landed.style}`,
+        variantIndex: r.variantIndex,
+        answersHash: r.answersHash,
+        answers: [...this.log],
+      },
     }
   }
 

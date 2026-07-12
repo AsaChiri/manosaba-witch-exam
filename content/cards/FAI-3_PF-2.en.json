@@ -1,0 +1,40 @@
+{
+  "cell": "FAI|Perfectionist",
+  "copingSub": "PF-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Perfectionist",
+  "tag": "FAI-3_PF-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She can recall a gift only by naming the one who carries it, and only with that person in her sight.",
+          "She had drilled the stroke to mastery herself, hour upon hour, and been ruled no swimmer all the same — you have the water in you or you do not. So what she was denied and could never be, she made in others: she banked her own drilled hours into girl after girl, making the naturals she had herself been refused the name of.",
+          "This girl she had made into the prison's celebrated swimmer. The stroke everyone called natural was the witch's own banked hours, carried in the girl's body as her own — the girl swam on them, and all the acclaim was hers.",
+          "That evening in the lounge, amid the girls' praise, the swimmer laughed practice off: a swimmer is born, not made. The girl never knew that those words were the very verdict that had broken the witch — nor that the stroke she was praised for was the witch's own drilled hours, practiced into her and handed over.",
+          "To take the stroke back on dry land would only leave the girl floundering before everyone and point to the one who had made her; in deep water the verdict would simply come true, and leave nothing to see.",
+          "At dusk the swimmer swam out into the deep water of the lake, as she did every evening. From the bank she watched the girl reach the middle, named her, and took the gift back.",
+          "The stroke left the girl in an instant, and with no swimming of her own she went down in the deep water, far from any hand.",
+          "The celebrated swimmer was found drowned in the middle of the lake, no mark on her and no one near.",
+          "A stroke that can carry a swimmer across open water does not, on its own, give out in the middle of it. Every sudden natural in this prison had found her talent near one girl, and some had lost it again the same way — this swimmer's stroke was a given thing, called back at the one place where calling it back would drown her."
+        ],
+        "epitaph": "A lifetime of practice, banked in other bodies — and the one thing she could not prepare for was the one that came.",
+        "epithet": "She Whose Hours Made Others",
+        "execution": [
+          "The execution stand rose dressed as her old training hall — every mark where she had banked her countless hours, down to the low window-frame she had vaulted through to finish each session.",
+          "The floor drew back band by band toward the frame, until the only footing left ran to that drilled exit.",
+          "She took the vault her body knew by heart.",
+          "But this was no training hall, only a stand built to its shape.",
+          "The vault carried her through the frame — and beyond it, where the hall floor should have been, there was nothing but the drop."
+        ],
+        "magic": {
+          "name": "Given Hours",
+          "text": "The hours she spends drilling a skill she can settle into another person's body as their own, and later recall whole."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

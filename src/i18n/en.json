@@ -125,7 +125,13 @@
     "copyEmail": "Copy address",
     "copied": "Copied",
     "mailSubject": "[Witch Factor Exam] {tag} / q{quiz} / {locale}",
-    "mailBody": "(Share your thoughts.)\n\n"
+    "mailBody": "(Share your thoughts.)",
+    "debugHeader": "— Technical details —",
+    "debugCard": "Card shown",
+    "debugRouting": "Routing",
+    "debugVersion": "Version",
+    "debugAnswersNote": "The line below lets us replay exactly how your answers routed. If you'd rather not share your answers, delete it.",
+    "debugAnswers": "Answers"
   },
   "result": {
     "safety": "If any of this has distressed you, please reach out to a crisis line below.",

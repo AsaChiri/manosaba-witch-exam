@@ -130,7 +130,13 @@
     "copyEmail": "宛先をコピー",
     "copied": "コピーした",
     "mailSubject": "[魔女因子検査] {tag} / q{quiz} / {locale}",
-    "mailBody": "（ご意見をお書きください）\n\n"
+    "mailBody": "（ご意見をお書きください）",
+    "debugHeader": "― 技術情報 ―",
+    "debugCard": "表示カード",
+    "debugRouting": "判定経路",
+    "debugVersion": "バージョン",
+    "debugAnswersNote": "次の行があれば、回答の流れをそのまま再現できます。共有に抵抗があれば削除してください。",
+    "debugAnswers": "回答"
   },
   "result": {
     "safety": "本記録で不快を感じた場合は、下記の相談窓口にご連絡ください。",

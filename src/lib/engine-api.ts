@@ -68,6 +68,27 @@ export interface ExamResult {
   /** Optional sanitized witch name carved into the record. */
   witchName?: string
   quizVersion: string
+  /**
+   * Everything a feedback report needs to reproduce this routing (the pre-redirect
+   * cell, the served variant, an answers fingerprint, and the exact answer
+   * sequence). Optional — populated by the real engine adapter; the mock omits it.
+   * NOT part of the persisted snapshot and never shown in-world.
+   */
+  debug?: ExamDebug
+}
+
+export interface ExamDebug {
+  /** Raw cell "F|S" the hard-axes walk scored to, before any neighbor redirect. */
+  resolvedCell: string
+  /** Landed cell "F|S" after redirect; equals resolvedCell when none fired. */
+  landedCell: string
+  /** Served authored variant index. */
+  variantIndex: number
+  /** FNV-1a fingerprint of the resolved answers (identifies the answer-set even
+   *  if the reporter deletes the raw answers below). */
+  answersHash: number
+  /** Ordered answer option-ids — the exact input to replay the routing. */
+  answers: string[]
 }
 
 export interface ExamSession {

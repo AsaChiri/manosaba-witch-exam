@@ -7,6 +7,7 @@
 import { ref, computed, onMounted } from 'vue'
 import type { ExamResult } from '../../lib/engine-api'
 import { cardTitle, type Card } from '../../lib/content-schema'
+import { CONTENT_HASH } from '../../lib/content'
 import { t, messages } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
 import { generateShareQr, copyText, type ShareCard } from '../../lib/share'
@@ -40,14 +41,38 @@ const corners = ['tl', 'tr', 'bl', 'br'] as const
 
 // Feedback (inline — Astro components can't render into the island).
 const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'witch-exam-feedback@asachiri.com'
+
+const hex = (n: number) => (n >>> 0).toString(16).padStart(8, '0')
+
+/**
+ * Prefilled body: the visitor's free note, then an out-of-world technical block
+ * that lets us reproduce the routing (design spec §6) — card shown, resolved
+ * cell (pre-redirect → served), variant, version, and the raw answer sequence.
+ * The answers are the replay key; the note beside them says they may be deleted.
+ */
+function feedbackBody(): string {
+  const d = props.result.debug
+  const lines = [T('feedback.mailBody'), '', T('feedback.debugHeader')]
+  lines.push(`${T('feedback.debugCard')}: ${props.card.tag}`)
+  if (d) {
+    const route =
+      d.resolvedCell === d.landedCell ? d.resolvedCell : `${d.resolvedCell} → ${d.landedCell}`
+    lines.push(`${T('feedback.debugRouting')}: ${route} · v${d.variantIndex} · #${hex(d.answersHash)}`)
+  }
+  lines.push(`${T('feedback.debugVersion')}: ${props.locale} / q${props.quizVersion} / ${CONTENT_HASH}`)
+  if (d?.answers.length) {
+    lines.push('', T('feedback.debugAnswersNote'), `${T('feedback.debugAnswers')}: ${d.answers.join(' ')}`)
+  }
+  return lines.join('\n')
+}
+
 const mailto = computed(() => {
   const subject = T('feedback.mailSubject', {
     tag: props.card.tag,
     quiz: props.quizVersion,
     locale: props.locale,
   })
-  const body = T('feedback.mailBody')
-  return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(feedbackBody())}`
 })
 const emailCopied = ref(false)
 async function copyEmail() {

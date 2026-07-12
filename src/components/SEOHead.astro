@@ -43,7 +43,7 @@ const {
   noindex = false,
 } = Astro.props
 
-const site = Astro.site ?? new URL('https://manosaba-witch-exam.pages.dev')
+const site = Astro.site ?? new URL('https://manosaba-witch-exam.asachiri.com')
 const abs = (p: string) => new URL(p, site).href
 const canonical = abs(localePath(locale, routeKey))
 const ogImageUrl = abs(ogImage)
