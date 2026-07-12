@@ -14,9 +14,12 @@ interface Props {
   locale: Locale
   /** Resolved witch name; defaults to the diegetic Nameless Witch. */
   witchName?: string
+  /** Show the specimen/name line. The public share page opts out (the name
+   * never survives a share, and the OG PNG omits it too). Default on. */
+  showName?: boolean
   class?: string
 }
-const { card, locale, witchName, class: className } = Astro.props
+const { card, locale, witchName, showName = true, class: className } = Astro.props
 const name = witchName && witchName.length ? witchName : t(locale, 'card.nameless')
 const L = (k: string) => t(locale, `card.labels.${k}`)
 // The headline is the magic's name (canon: a witch is known by her magic).
@@ -28,10 +31,12 @@ const title = cardTitle(card)
     <Seal size={72} stained title={t(locale, 'meta.siteName')} />
   </div>
 
-  <p class="witch-card__specimen">
-    <span class="witch-card__specimen-label">{t(locale, 'card.specimenLabel')}</span>
-    &nbsp;·&nbsp;{name}
-  </p>
+  {showName && (
+    <p class="witch-card__specimen">
+      <span class="witch-card__specimen-label">{t(locale, 'card.specimenLabel')}</span>
+      &nbsp;·&nbsp;{name}
+    </p>
+  )}
 
   <div class="witch-card__epithet-block">
     <span class="witch-card__magic-mark">

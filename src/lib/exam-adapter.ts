@@ -48,18 +48,29 @@ const PHASE_MAP: Record<EnginePhase, ExamPhase> = {
   picks: 'match',
 }
 
-// Soft resonance for the gauge — a gentle climb that never claims completion
-// (the exam is adaptive; there is no fixed total). NOT a progress percentage.
-function resonanceFor(answered: number): number {
-  return Math.min(0.96, 0.08 + answered * 0.06)
-}
+// Nominal sizes for the resonance gauge. Origin is derived per-package from the
+// real block count (see estTotal); coping length is captured at runtime once the
+// walk crosses into origin; only the short pick tail (0..3) is estimated.
+const COPING_EST = 8 // stand-in until the real coping length is known
+const PICKS_EST = 2 // the pick tail is the last 0..3 screens
 
 function mapQuestion(q: QuestionInstance, canGoBack: boolean): ExamQuestion {
+  const options: ExamQuestion['options'] = q.options.map((o) => ({
+    id: o.oid,
+    label: o.text,
+  }))
+  const disabled = q.disabledOptions ?? []
+  if (disabled.length) {
+    // Merge the locked options back in and restore canonical (oid) order so the
+    // "least" screen reads like its "most" screen with one line greyed in place.
+    for (const o of disabled) options.push({ id: o.oid, label: o.text, disabled: true })
+    options.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
+  }
   return {
     id: q.qid,
     phase: PHASE_MAP[q.phase] ?? 'observe',
     prompt: q.stem,
-    options: q.options.map((o) => ({ id: o.oid, label: o.text })),
+    options,
     canGoBack,
   }
 }
@@ -71,6 +82,10 @@ export class RealExamSession implements ExamSession {
   private readonly log: string[] = []
   private witchName: string | undefined
   private view: View = { done: false, inconclusive: false, question: null }
+  /** Actual coping question count, captured once the walk enters origin; null
+   *  while still in coping (and reset if the user steps back into it). Lets the
+   *  resonance gauge size itself to this session's real length. */
+  private copingLen: number | null = null
 
   constructor(
     private readonly pkg: ContentPackage,
@@ -92,6 +107,12 @@ export class RealExamSession implements ExamSession {
       this.view = q
         ? { done: false, inconclusive: false, question: mapQuestion(q, this.engine.canGoBack()) }
         : { done: true, inconclusive: false, question: null }
+      // Snapshot the coping length at the coping→origin boundary. The current
+      // question is the *next* one to answer, so when it is the first origin
+      // (or pick) screen, log.length is exactly the coping count.
+      const phase = this.view.question?.phase
+      if (phase === 'observe') this.copingLen = null
+      else if (phase && this.copingLen === null) this.copingLen = this.log.length
     } catch (e) {
       if (e instanceof ExamError) {
         this.view = { done: true, inconclusive: true, question: null }
@@ -128,12 +149,13 @@ export class RealExamSession implements ExamSession {
   progress(): ExamProgress {
     const answered = this.log.length
     const phase: ExamPhase = this.view.question ? this.view.question.phase : 'match'
-    return {
-      phase,
-      answered,
-      ordinal: answered + 1,
-      resonance: resonanceFor(answered),
-    }
+    // Size the gauge to this session's real length: actual coping + the fixed
+    // origin block count (×2 for most/least) + the short pick tail. Origin is
+    // read from the package, so growing the bank re-sizes the gauge for free.
+    const originTotal = this.pkg.originBlocks.blocks.length * 2
+    const total = (this.copingLen ?? COPING_EST) + originTotal + PICKS_EST
+    const resonance = Math.min(0.995, answered / total)
+    return { phase, answered, ordinal: answered + 1, resonance }
   }
 
   isDone(): boolean {
@@ -172,6 +194,7 @@ export class RealExamSession implements ExamSession {
     // no longer applies (content changed under the save) stops the replay.
     this.engine = createRealExam(this.pkg)
     this.log.length = 0
+    this.copingLen = null
     this.witchName = snapshot.witchName
     this.recompute()
     for (const oid of snapshot.answers) {
@@ -185,7 +208,21 @@ export class RealExamSession implements ExamSession {
   }
 }
 
-/** Bind the adapter to a specific ContentPackage, yielding the UI's factory. */
-export function makeRealCreateExam(pkg: ContentPackage): CreateExam {
-  return (content) => new RealExamSession(pkg, content)
+/**
+ * Bind the adapter to a specific ContentPackage, yielding the UI's factory.
+ * When a per-locale strings map is supplied, the session's display strings are
+ * swapped to the requested locale (falling back to the package's base strings
+ * for locales that were not compiled); resolution/hashing are text-independent,
+ * so only display prose changes.
+ */
+export function makeRealCreateExam(
+  pkg: ContentPackage,
+  stringsByLocale?: Record<string, ContentPackage['strings']>,
+): CreateExam {
+  return (content) => {
+    const localized = stringsByLocale?.[content.locale]
+    const bound =
+      localized && localized !== pkg.strings ? { ...pkg, strings: localized } : pkg
+    return new RealExamSession(bound, content)
+  }
 }

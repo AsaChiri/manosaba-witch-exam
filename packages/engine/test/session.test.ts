@@ -3,6 +3,7 @@ import { loadTrees, loadSlots } from "./_load.js";
 import { createExam } from "../src/session.js";
 import { resolveTag, subvariantIndex, type AuthoredTag } from "../src/tags.js";
 import { pickPairKey } from "../src/keys.js";
+import { canonicalString, fnv1a32String } from "../src/hash.js";
 import type { ContentPackage, HashSpec, PicksetsFile, NeighborFile } from "../src/schemas.js";
 
 // The worked-example cell DEF × Performer, with an illustrative authored set
@@ -40,7 +41,7 @@ function buildContent(): ContentPackage {
     },
   };
   const hashSpec: HashSpec = {
-    bankVersion: "v3",
+    bankVersion: "v4",
     slots,
     sentinel: "X",
     fnv: { offset: 2166136261, prime: 16777619 },
@@ -48,30 +49,45 @@ function buildContent(): ContentPackage {
     permutation: {
       prng: "xorshift32",
       shuffle: "fisher-yates-descending",
-      prePickPrefix: "K.*+O.*",
+      prePickPrefix: "K.*+N##[ML]",
       withinGroupSeed: "append V.OGROUP",
     },
   };
-  return { copingTree: coping, originTree: origin, hashSpec, picksets, neighbor };
+  return { copingTree: coping, originBlocks: origin, hashSpec, picksets, neighbor };
 }
 
-describe("session drives the worked-example end-to-end", () => {
-  const content = buildContent();
-  // Answers for every slot the walk will ask, plus the two pick screens.
-  const answerMap: Record<string, string> = {
-    "K.R1": "d", "K.R2": "d", "K.R3": "f",
-    "K.A1": "b", "K.A2": "e", "K.A3": "b",
-    "K.P10": "b",
-    "O.R1": "E", "O.R2": "B", "O.R3": "F", "O.S2": "B", "O.S5": "C",
-    "V.OPICK": "DEF-1", "V.CPICK": "PE-2",
-  };
+// Coping: the §4.5 certified Performer path. Origin v2: a DEF-heavy N-vector
+// (7 DEF most-picks, 2 escapes on N01M/N08M) resolving DEF with runner-up ED.
+const answerMap: Record<string, string> = {
+  "K.R1": "d", "K.R2": "d", "K.R3": "f",
+  "K.A1": "b", "K.A2": "e", "K.A3": "b",
+  "K.P10": "b",
+  "N01M": "E", "N01L": "B",
+  "N02M": "B", "N02L": "D",
+  "N03M": "C", "N03L": "A",
+  "N04M": "C", "N04L": "B",
+  "N05M": "A", "N05L": "C",
+  "N06M": "D", "N06L": "B",
+  "N07M": "D", "N07L": "A",
+  "N08M": "E", "N08L": "A",
+  "N09M": "C", "N09L": "D",
+  "N10M": "B", "N10L": "C",
+  "N11M": "D", "N11L": "A",
+  "N12M": "D", "N12L": "B",
+  "N13M": "C", "N13L": "A",
+  "N14M": "C", "N14L": "A",
+  "V.OPICK": "DEF-1", "V.CPICK": "PE-2",
+};
 
-  it("asks exactly the certified path then resolves the served card", () => {
+describe("session drives the v2 exam end-to-end", () => {
+  const content = buildContent();
+
+  it("asks coping, then all 28 N-slots in order, then picks; resolves the served card", () => {
     const exam = createExam(content);
     const asked: string[] = [];
     let guard = 0;
     while (!exam.isDone()) {
-      if (guard++ > 40) throw new Error("did not terminate");
+      if (guard++ > 60) throw new Error("did not terminate");
       const q = exam.current();
       expect(q).not.toBeNull();
       const oid = answerMap[q!.qid];
@@ -79,11 +95,16 @@ describe("session drives the worked-example end-to-end", () => {
       asked.push(q!.qid);
       exam.answer(oid!);
     }
+    const nOrder: string[] = [];
+    for (let i = 1; i <= 14; i++) {
+      const id = `N${String(i).padStart(2, "0")}`;
+      nOrder.push(`${id}M`, `${id}L`);
+    }
     expect(asked).toEqual([
       "K.R1", "K.R2", "K.R3",
       "K.A1", "K.A2", "K.A3",
       "K.P10",
-      "O.R1", "O.R2", "O.R3", "O.S2", "O.S5",
+      ...nOrder,
       "V.OPICK", "V.CPICK",
     ]);
 
@@ -93,16 +114,48 @@ describe("session drives the worked-example end-to-end", () => {
     expect(r.confidence).toBe("MODERATE");
     expect(r.runnerUp).toBe("Caretaker");
     expect(r.family).toBe("DEF");
-    expect(r.top2).toEqual(["DEF", "FAI"]);
+    expect(r.top2).toEqual(["DEF", "ED"]);
     expect(r.cell).toEqual({ family: "DEF", style: "Performer" });
     expect(r.redirectedCell).toBeUndefined();
     expect(r.picks).toEqual({ o: "DEF-1", c: "PE-2" });
     expect(r.tag).toBe("DEF-1xPE-5"); // tier-1 origin-preserving fallback
     expect(r.tier).toBe(1);
-    // full 89-slot canonical hash == the §4.5 pin, variantIndex 0 on N=2.
-    expect(r.answersHash >>> 0).toBe(0x46a43834);
-    expect(new TextEncoder().encode(r.canonicalString).length).toBe(665);
-    expect(r.variantIndex).toBe(0);
+
+    // canonical 84-slot string: exactly the administered slots tokenized, the
+    // sentinel everywhere else; hash + variant follow deterministically.
+    const tokens: Record<string, string> = {};
+    for (const [qid, oid] of Object.entries(answerMap)) tokens[qid] = oid;
+    const want = canonicalString(tokens, content.hashSpec.slots, "X");
+    expect(r.canonicalString).toBe(want);
+    expect(r.answersHash >>> 0).toBe(fnv1a32String(want) >>> 0);
+    expect(r.variantIndex).toBe((r.answersHash >>> 0) % 2);
+  });
+
+  it("display-filters the M pick off the L screen (M≠L), unless M escaped", () => {
+    const exam = createExam(content);
+    // answer coping up to N01M
+    for (const qid of ["K.R1", "K.R2", "K.R3", "K.A1", "K.A2", "K.A3", "K.P10"]) {
+      exam.answer(answerMap[qid]!);
+    }
+    // N01M: escape offered alongside A-D
+    let q = exam.current()!;
+    expect(q.qid).toBe("N01M");
+    expect(q.options.map((o) => o.oid)).toEqual(["A", "B", "C", "D", "E"]);
+    exam.answer("A"); // non-escape most pick
+    q = exam.current()!;
+    expect(q.qid).toBe("N01L");
+    expect(q.options.map((o) => o.oid)).toEqual(["B", "C", "D"]); // A not answerable
+    // ...but the M pick is echoed as a display-only locked option (M≠L, shown).
+    expect(q.disabledOptions?.map((o) => o.oid)).toEqual(["A"]);
+    expect(typeof q.disabledOptions?.[0]!.text).toBe("string");
+    expect(() => exam.answer("A")).toThrow(/not offered/);
+    // undo, escape instead: L then offers all four lines, nothing locked.
+    exam.back();
+    exam.answer("E");
+    q = exam.current()!;
+    expect(q.qid).toBe("N01L");
+    expect(q.options.map((o) => o.oid)).toEqual(["A", "B", "C", "D"]);
+    expect(q.disabledOptions).toBeUndefined();
   });
 
   it("progress + back behave", () => {

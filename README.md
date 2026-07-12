@@ -81,9 +81,10 @@ requires no code change.
 Copy `.env.example` → `.env`:
 
 - `PUBLIC_SITE_URL` — canonical origin (drives canonicals, hreflang, OG, share).
-- `PUBLIC_SITE_PHASE` — `soft` (archival line + prominent feedback) | `launch`.
 - `PUBLIC_FEEDBACK_EMAIL` — **TODO(owner):** provision a dedicated alias. The
-  placeholder `feedback@example.invalid` is intentionally invalid.
+  placeholder `witch-exam-feedback@asachiri.com` is intentionally invalid.
+- `PUBLIC_V1_URL` — footer link to the author's prior personality test; unset ⇒
+  the built-in default (`manosaba-test.asachiri.com`).
 - `PUBLIC_BEACON_URL` — aggregate telemetry endpoint; unset ⇒ console no-op.
 
 ## Deploy notes (Cloudflare Pages)

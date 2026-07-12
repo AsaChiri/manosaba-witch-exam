@@ -20,6 +20,7 @@ import {
   loadProgress,
   clearProgress,
 } from '../../lib/storage'
+import { recordCollected } from '../../lib/collection'
 import { examStart, questionAnswered, resultLanded } from '../../lib/beacon'
 import { sanitizeWitchName } from '../../lib/sanitize'
 import { localePath, type Locale } from '../../i18n/config'
@@ -34,7 +35,6 @@ import ResultView from './ResultView.vue'
 const props = defineProps<{
   locale: Locale
   quizVersion: string
-  phase: 'soft' | 'launch'
   cells: CellCandidate[]
   cards: Record<string, Card>
 }>()
@@ -106,7 +106,10 @@ function onName(name: string) {
   s.setWitchName(clean || undefined)
   const r = s.result()
   result.value = r
-  if (r) resultLanded(r.cell, r.tag)
+  if (r) {
+    resultLanded(r.cell, r.tag)
+    recordCollected(r.tag) // accumulate across retakes (the archive)
+  }
   state.value = 'verdict'
 }
 
@@ -172,7 +175,6 @@ onMounted(() => {
       :card="resolvedCard"
       :result="result"
       :quiz-version="quizVersion"
-      :phase="phase"
       @retake="onRetake"
     />
     <section v-else-if="state === 'inconclusive'" class="exam-island__inconclusive" :lang="locale">

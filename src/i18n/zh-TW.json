@@ -17,12 +17,12 @@
     "title": "魔女因子檢測",
     "hook": "你體內的魔女因子，還在沉睡。",
     "ctaBegin": "接受檢測",
-    "ctaAside": "題目數量因人而異，通常十五到三十題。"
+    "ctaAside": "題目數量因人而異，通常二十到四十題。"
   },
   "footer": {
     "disclaimer": "本站是『魔法少女ノ魔女裁判』的非商業同人作品，與原作及其權利方沒有關聯。",
     "contactLabel": "聯絡與回饋",
-    "v1Label": "上一代 · 人格測驗"
+    "v1Label": "过往作品 · 人格測驗"
   },
   "localeSwitcher": {
     "label": "語言"
@@ -86,7 +86,7 @@
       "skip": "略過",
       "confirm": "完成檢測"
     },
-    "draftNotice": "檢測程序 · 草案",
+    "chosenAsMost": "已在上一題中選擇",
     "inconclusive": {
       "title": "查無記錄",
       "body": "還沒有與你對應的記錄，請重新接受檢測。"
@@ -97,7 +97,7 @@
     "detected": "已檢出魔女因子",
     "sentence": "你將被送往監牢。",
     "skip": "跳過",
-    "teaser": "歸檔——",
+    "teaser": "發現魔法——",
     "unfold": "展開記錄"
   },
   "card": {
@@ -113,21 +113,23 @@
     "magicMark": "魔法"
   },
   "share": {
-    "heading": "分享",
-    "save": "儲存圖片",
-    "copyLink": "複製連結",
+    "image": "儲存圖片",
+    "copyShare": "複製分享",
     "copied": "已複製",
-    "weibo": "微博",
-    "qq": "QQ",
-    "x": "X",
-    "webshare": "分享",
-    "template": "魔女因子已檢出，我的魔法師是「{magic}」",
+    "x": "分享到 X",
+    "threads": "分享到 Threads",
+    "weibo": "分享到微博",
+    "qq": "分享到 QQ",
+    "facebook": "分享到 Facebook",
+    "reddit": "分享到 Reddit",
+    "line": "分享到 LINE",
+    "more": "更多分享方式",
+    "template": "魔女因子已檢出，我的魔法是「{magic}」",
     "hint": "接受檢測：",
     "qrCaption": "掃碼接受檢測",
     "exportTag": "魔女因子檢測"
   },
   "feedback": {
-    "softArchival": "這座檔案庫還在編纂中。",
     "invite": "對於結果有改進意見？歡迎告訴我們。",
     "emailLabel": "回饋信箱",
     "copyEmail": "複製地址",
@@ -138,6 +140,18 @@
   "result": {
     "safety": "若本記錄令你感到不適，請聯絡下方的求助專線。",
     "safetyLink": "各地心理援助專線"
+  },
+  "collection": {
+    "link": "已檢出的魔法",
+    "title": "魔女圖鑑",
+    "intro": "你在歷次檢測中檢出過的魔法，都收錄於此。",
+    "count": "已檢出 {count} 種",
+    "countTotal": "已檢出 {count} / {total} 種",
+    "collectorNote": "全部 {total} 種的圖鑑，就此向你展開。",
+    "empty": "檔案還是空的。完成一次檢測，檢出你的魔法。",
+    "emptyCta": "接受檢測",
+    "back": "返回檔案",
+    "metaDesc": "你檢出過的魔法，收錄於此。"
   },
   "errors": {
     "archive": "檔案庫沒有回應，請重試。",

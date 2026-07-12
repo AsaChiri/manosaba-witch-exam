@@ -1,10 +1,13 @@
 import { describe, it, expect } from "vitest";
-import { loadPrepared, loadSlots } from "./_load.js";
-import { resolveHardAxes, type AnswerMap } from "../src/resolver.js";
-import { fnv1a32String, canonicalString } from "../src/hash.js";
+import { loadPrepared } from "./_load.js";
+import { Walker, type AnswerMap } from "../src/resolver.js";
+import { fnv1a32String } from "../src/hash.js";
 
-// Spec §4.5 worked example — the Leia-type persona (Caretaker-surface /
-// Performer-core, origin DEF). Certified in validation/scorer/certification.md.
+// Spec §4.5 worked example, COPING axis — the Leia-type persona
+// (Caretaker-surface / Performer-core). Certified in
+// validation/scorer/certification.md. The v1 origin walk + the §4.5 full-vector
+// hash pin were retired with the origin-v2 cutover (DECISIONS.md D11); the
+// coping certification stays byte-identical.
 const CERT_ANSWERS: AnswerMap = {
   "K.R1": "d",
   "K.R2": "d",
@@ -13,68 +16,36 @@ const CERT_ANSWERS: AnswerMap = {
   "K.A2": "e",
   "K.A3": "b",
   "K.P10": "b",
-  "O.R1": "E",
-  "O.R2": "B",
-  "O.R3": "F",
-  "O.S2": "B",
-  "O.S5": "C",
-};
-const CERT_PICKS: Record<string, string> = {
-  "V.OPICK": "DEF-1",
-  "V.CPICK": "PE-2",
 };
 
-describe("spec §4.5 worked example", () => {
+describe("spec §4.5 worked example (coping certification)", () => {
   const prepared = loadPrepared();
-  const { record, walker } = resolveHardAxes(prepared, "cert-leia", CERT_ANSWERS);
+  const walker = new Walker(prepared, "cert-leia", CERT_ANSWERS, "full");
+  walker.coping();
 
   it("reproduces the coping resolution", () => {
-    expect(record.stanceVotes).toEqual({ ATTACH: 2, ELEVATE: 1 });
-    expect(record.enteredBlock).toBe("ATTACH");
-    expect(record.shadowStance).toBe("ELEVATE");
-    expect(record.r4Fired).toBe(false);
-    expect(record.coreTally).toEqual({ Caretaker: 2, Performer: 1 });
-    expect(record.tieResolver).toEqual({ qid: "K.P10", oid: "b", voted: "Performer" });
-    expect(record.styleVotes).toEqual({ Caretaker: 2, Performer: 3 });
-    expect(record.copingStyle).toBe("Performer");
-    expect(record.copingConfidence).toBe("MODERATE");
-    expect(record.copingRunnerUp).toBe("Caretaker");
-    expect(record.copingTrueStance).toBe("ELEVATE");
-    expect(record.guard).toBeNull();
-    expect(record.copingPathLength).toBe(7);
+    expect(walker.stanceVotes).toEqual({ ATTACH: 2, ELEVATE: 1 });
+    expect(walker.enteredBlock).toBe("ATTACH");
+    expect(walker.shadowStance).toBe("ELEVATE");
+    expect(walker.r4Fired).toBe(false);
+    expect(walker.coreTally).toEqual({ Caretaker: 2, Performer: 1 });
+    expect(walker.tieResolver).toEqual({ qid: "K.P10", oid: "b", voted: "Performer" });
+    expect(walker.styleVotes).toEqual({ Caretaker: 2, Performer: 3 });
+    expect(walker.copingStyle).toBe("Performer");
+    expect(walker.copingConfidence).toBe("MODERATE");
+    expect(walker.copingRunnerUp).toBe("Caretaker");
+    expect(walker.copingStance).toBe("ELEVATE");
+    expect(walker.guard).toBeNull();
+    expect(walker.copingLen).toBe(7);
+    expect(walker.flags).toEqual([]);
   });
 
-  it("reproduces the origin resolution", () => {
-    expect(record.prior).toEqual({ DEF: 1, ALN: 1, ED: 1 });
-    expect(record.firedSeps).toEqual(["O.S2", "O.S5"]);
-    expect(record.firedDiscs).toEqual([]);
-    expect(record.c1).toBeNull();
-    expect(record.V).toEqual({ DEF: 9, FAI: 4, ALN: 1 });
-    expect(record.originFamily).toBe("DEF");
-    expect(record.originTop2).toEqual(["DEF", "FAI"]);
-    expect(record.originPathLength).toBe(5);
-    expect(record.cell).toEqual(["DEF", "Performer"]);
-    expect(record.flags).toEqual([]);
-  });
-
-  it("reproduces the intermediate S trace", () => {
-    const tr = Object.fromEntries(walker.trace.map((t) => [t.after, t.S]));
-    expect(tr["O.R1:E"]).toEqual({ DEF: 3, ALN: 1, ED: 1, FAI: 1 });
-    expect(tr["O.R2:B"]).toEqual({ DEF: 4, ALN: 1, ED: 1, FAI: 2 });
-    expect(tr["O.R3:F"]).toEqual({ DEF: 6, ALN: 1, ED: 1, FAI: 3 });
-    expect(tr["O.S2:B"]).toEqual({ DEF: 8, ALN: 1, ED: 1, FAI: 4 });
-    expect(tr["O.S5:C"]).toEqual({ DEF: 10, ALN: 2, ED: 1, FAI: 4 });
-  });
-
-  it("reproduces the Appendix A v3 canonical string, byte length and FNV-1a hash", () => {
-    const slots = loadSlots();
-    const tokens = { ...walker.tokenMap, ...CERT_PICKS };
-    const s = canonicalString(tokens, slots, "X");
-    const bytes = new TextEncoder().encode(s).length;
-    const h = fnv1a32String(s);
-    expect(bytes).toBe(665);
-    expect(h >>> 0).toBe(0x46a43834);
-    expect((h >>> 0) % 2).toBe(0); // variantIndex on N=2
+  it("asks exactly the certified coping path", () => {
+    expect(walker.asked.map(([q]) => q)).toEqual([
+      "K.R1", "K.R2", "K.R3",
+      "K.A1", "K.A2", "K.A3",
+      "K.P10",
+    ]);
   });
 });
 

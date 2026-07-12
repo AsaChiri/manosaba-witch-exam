@@ -2,13 +2,13 @@
 /*
  * Result (design spec §3.5) — the 魔女図鑑 entry the examination resolved to,
  * in the shared witch-card markup (so the PNG matches the card page), plus the
- * share row, feedback, safety footer, retake, and the soft-launch archival line.
+ * share row, feedback invitation, safety footer, and retake.
  */
 import { ref, computed, onMounted } from 'vue'
 import type { ExamResult } from '../../lib/engine-api'
 import { cardTitle, type Card } from '../../lib/content-schema'
 import { t, messages } from '../../i18n'
-import type { Locale } from '../../i18n/config'
+import { localePath, type Locale } from '../../i18n/config'
 import { generateShareQr, copyText, type ShareCard } from '../../lib/share'
 import Seal from './Seal.vue'
 import ShareRow from './ShareRow.vue'
@@ -18,7 +18,6 @@ const props = defineProps<{
   card: Card
   result: ExamResult
   quizVersion: string
-  phase: 'soft' | 'launch'
 }>()
 const emit = defineEmits<{ retake: [] }>()
 const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k, p)
@@ -40,7 +39,7 @@ const qrSrc = ref('')
 const corners = ['tl', 'tr', 'bl', 'br'] as const
 
 // Feedback (inline — Astro components can't render into the island).
-const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'feedback@example.invalid'
+const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'witch-exam-feedback@asachiri.com'
 const mailto = computed(() => {
   const subject = T('feedback.mailSubject', {
     tag: props.card.tag,
@@ -71,8 +70,6 @@ onMounted(async () => {
 
 <template>
   <section class="result" :lang="locale">
-    <p v-if="phase === 'soft'" class="result__archival">{{ T('feedback.softArchival') }}</p>
-
     <div class="result__stage">
       <div ref="frameEl" class="card-frame">
         <div class="card-frame__rule">
@@ -144,12 +141,18 @@ onMounted(async () => {
 
     <div class="result__actions">
       <ShareRow :locale="locale" :card="shareCard" :card-el="frameEl" />
-      <button type="button" class="result__retake" @click="emit('retake')">
-        {{ T('card.retake') }}
-      </button>
+      <div class="result__links">
+        <button type="button" class="result__retake" @click="emit('retake')">
+          {{ T('card.retake') }}
+        </button>
+        <span class="result__links-dot" aria-hidden="true">·</span>
+        <a class="result__retake" :href="localePath(locale, '/collection/')">
+          {{ T('collection.link') }}
+        </a>
+      </div>
     </div>
 
-    <div class="result__feedback" :class="{ 'is-prominent': phase === 'soft' }">
+    <div class="result__feedback">
       <p class="result__invite">{{ T('feedback.invite') }}</p>
       <div class="result__fb-row">
         <a class="result__fb-write" :href="mailto">{{ T('feedback.emailLabel') }}</a>
@@ -187,13 +190,6 @@ onMounted(async () => {
   gap: 2rem;
   animation: rise-fade 500ms var(--ease-ceremony) both;
 }
-.result__archival {
-  text-align: center;
-  font-family: var(--font-body);
-  font-style: italic;
-  color: var(--witch-violet);
-  letter-spacing: 0.02em;
-}
 .result__stage {
   max-width: 36rem;
   width: 100%;
@@ -217,13 +213,25 @@ onMounted(async () => {
 .result__retake:hover {
   color: var(--witch-violet);
 }
+.result__links {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+a.result__retake {
+  text-decoration-line: underline;
+}
+.result__links-dot {
+  color: var(--hairline-faint);
+  font-family: var(--font-instrument);
+}
 
 .result__feedback {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-}
-.result__feedback.is-prominent {
   padding: 1.4rem 1.5rem;
   border: 1px solid var(--hairline-faint);
   background: color-mix(in srgb, var(--velvet) 70%, transparent);

@@ -13,6 +13,45 @@
       "family": "ABN",
       "style": "Clinger"
     },
+    "ALN|Avoider": {
+      "authoredTags": [
+        "ALN-1_AV-1"
+      ],
+      "coveredCoping": [
+        "AV-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Avoider"
+    },
+    "ALN|Fantasist": {
+      "authoredTags": [
+        "ALN-10_FA-2"
+      ],
+      "coveredCoping": [
+        "FA-2"
+      ],
+      "coveredOrigin": [
+        "ALN-10"
+      ],
+      "family": "ALN",
+      "style": "Fantasist"
+    },
+    "DEF|Self-Punisher": {
+      "authoredTags": [
+        "DEF-3_SP-1"
+      ],
+      "coveredCoping": [
+        "SP-1"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Self-Punisher"
+    },
     "ED|Performer": {
       "authoredTags": [
         "ED-1_PE-1",
@@ -34,6 +73,19 @@
       "family": "ED",
       "style": "Performer"
     },
+    "ED|Self-Soother": {
+      "authoredTags": [
+        "ED-1_SS-1"
+      ],
+      "coveredCoping": [
+        "SS-1"
+      ],
+      "coveredOrigin": [
+        "ED-1"
+      ],
+      "family": "ED",
+      "style": "Self-Soother"
+    },
     "MB|Depender": {
       "authoredTags": [
         "MB-3_DP-1"
@@ -46,6 +98,19 @@
       ],
       "family": "MB",
       "style": "Depender"
+    },
+    "MB|Watcher": {
+      "authoredTags": [
+        "MB-10_WT-2"
+      ],
+      "coveredCoping": [
+        "WT-2"
+      ],
+      "coveredOrigin": [
+        "MB-10"
+      ],
+      "family": "MB",
+      "style": "Watcher"
     },
     "VC|Watcher": {
       "authoredTags": [
@@ -75,6 +140,45 @@
       "tag": "ABN-1_CL-1",
       "variants": 1
     },
+    "ALN-10_FA-2": {
+      "cell": "ALN|Fantasist",
+      "copingSub": "FA-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_FA-2",
+      "variants": 1
+    },
+    "ALN-1_AV-1": {
+      "cell": "ALN|Avoider",
+      "copingSub": "AV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_AV-1",
+      "variants": 1
+    },
+    "DEF-3_SP-1": {
+      "cell": "DEF|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_SP-1",
+      "variants": 1
+    },
     "ED-1_PE-1": {
       "cell": "ED|Performer",
       "copingSub": "PE-1",
@@ -86,6 +190,19 @@
       ],
       "originSub": "ED-1",
       "tag": "ED-1_PE-1",
+      "variants": 1
+    },
+    "ED-1_SS-1": {
+      "cell": "ED|Self-Soother",
+      "copingSub": "SS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_SS-1",
       "variants": 1
     },
     "ED-2_PE-2": {
@@ -125,6 +242,19 @@
       ],
       "originSub": "ED-9",
       "tag": "ED-9_PE-1",
+      "variants": 1
+    },
+    "MB-10_WT-2": {
+      "cell": "MB|Watcher",
+      "copingSub": "WT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-10",
+      "tag": "MB-10_WT-2",
       "variants": 1
     },
     "MB-3_DP-1": {

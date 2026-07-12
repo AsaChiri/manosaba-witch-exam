@@ -1,0 +1,156 @@
+{
+  "blocks": [
+    {
+      "id": "N01",
+      "key": {
+        "A": "ABN",
+        "B": "MB",
+        "C": "ALN",
+        "D": "VC"
+      },
+      "register": "scenes"
+    },
+    {
+      "id": "N02",
+      "key": {
+        "A": "ED",
+        "B": "DEF",
+        "C": "FAI",
+        "D": "POW"
+      },
+      "register": "scenes"
+    },
+    {
+      "id": "N03",
+      "key": {
+        "A": "FAI",
+        "B": "ALN",
+        "C": "ED",
+        "D": "ABN"
+      },
+      "register": "sentences"
+    },
+    {
+      "id": "N04",
+      "key": {
+        "A": "VC",
+        "B": "POW",
+        "C": "DEF",
+        "D": "MB"
+      },
+      "register": "sentences"
+    },
+    {
+      "id": "N05",
+      "key": {
+        "A": "DEF",
+        "B": "ABN",
+        "C": "POW",
+        "D": "FAI"
+      },
+      "register": "hums"
+    },
+    {
+      "id": "N06",
+      "key": {
+        "A": "ALN",
+        "B": "VC",
+        "C": "MB",
+        "D": "ED"
+      },
+      "register": "hums"
+    },
+    {
+      "id": "N07",
+      "key": {
+        "A": "MB",
+        "B": "ED",
+        "C": "ABN",
+        "D": "DEF"
+      },
+      "register": "rules"
+    },
+    {
+      "id": "N08",
+      "key": {
+        "A": "POW",
+        "B": "FAI",
+        "C": "VC",
+        "D": "ALN"
+      },
+      "register": "rules"
+    },
+    {
+      "id": "N09",
+      "key": {
+        "A": "ABN",
+        "B": "MB",
+        "C": "FAI",
+        "D": "POW"
+      },
+      "register": "weather"
+    },
+    {
+      "id": "N10",
+      "key": {
+        "A": "ED",
+        "B": "DEF",
+        "C": "ALN",
+        "D": "VC"
+      },
+      "register": "weather"
+    },
+    {
+      "id": "N11",
+      "key": {
+        "A": "VC",
+        "B": "POW",
+        "C": "ABN",
+        "D": "ED"
+      },
+      "register": "needed"
+    },
+    {
+      "id": "N12",
+      "key": {
+        "A": "FAI",
+        "B": "ALN",
+        "C": "MB",
+        "D": "DEF"
+      },
+      "register": "needed"
+    },
+    {
+      "id": "N13",
+      "key": {
+        "A": "VC",
+        "B": "FAI",
+        "C": "DEF",
+        "D": "ABN"
+      },
+      "register": "stings"
+    },
+    {
+      "id": "N14",
+      "key": {
+        "A": "MB",
+        "B": "POW",
+        "C": "ED",
+        "D": "ALN"
+      },
+      "register": "stings"
+    }
+  ],
+  "escape": "E",
+  "families": [
+    "ABN",
+    "ED",
+    "MB",
+    "DEF",
+    "ALN",
+    "FAI",
+    "VC",
+    "POW"
+  ],
+  "version": "origin-v2"
+}

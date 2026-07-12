@@ -25,32 +25,38 @@ function main(): void {
     questions: q("questions.json"),
     strings: q("strings.en.json"),
     copingTree: q("tree.coping.json"),
-    originTree: q("tree.origin.json"),
+    originBlocks: q("blocks.origin.json"),
     hashSpec: q("hash.spec.json"),
     picksets: q("picksets.json"),
     neighbor: q("neighbor.json"),
     cardsManifest: loadJson(join(C, "cards", "manifest.json")),
   } as unknown as ContentPackage;
 
-  // find a persona whose reference cell is an authored cell
-  const scored = loadJson<{ personaId: string; cell: [string, string] }[]>(
-    join(src.scorer, "scored_r2.json"),
-  );
+  // find a reference persona whose expected origin-v2 cell is an authored cell
+  const cells = loadJson<
+    {
+      personaId: string;
+      originAnswers: Record<string, string>;
+      copingAnswers: Record<string, string | string[]>;
+      expected: { cell: [string, string] };
+    }[]
+  >(join(src.originV2, "reference_cells.json"));
   const authored = new Set(Object.keys((content.picksets as { cells: object }).cells));
-  const target = scored.find((r) => authored.has(`${r.cell[0]}|${r.cell[1]}`));
+  const target = cells.find((r) => authored.has(`${r.expected.cell[0]}|${r.expected.cell[1]}`));
   if (!target) {
     console.log("no persona lands on an authored cell (expected on a tiny ship list)");
     return;
   }
-  const persona = loadJson<{ personaId: string; answers: Record<string, string | string[]> }[]>(
-    join(src.scorer, "all_answers.json"),
-  ).find((p) => p.personaId === target.personaId)!;
+  const persona = {
+    personaId: target.personaId,
+    answers: { ...target.copingAnswers, ...target.originAnswers },
+  };
 
   const exam = createExam(content);
   const asked: string[] = [];
   let guard = 0;
   while (!exam.isDone()) {
-    if (guard++ > 40) throw new Error("did not terminate");
+    if (guard++ > 60) throw new Error("did not terminate");
     const cur = exam.current()!;
     const offered = cur.options.map((o) => o.oid);
     const raw = persona.answers[cur.qid];

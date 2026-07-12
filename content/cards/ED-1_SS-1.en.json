@@ -1,0 +1,39 @@
+{
+  "cell": "ED|Self-Soother",
+  "copingSub": "SS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Self-Soother",
+  "tag": "ED-1_SS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She sat across from the same girl at every meal in the dining hall. The girl's eyes lifted for every face that passed and every voice down the bench, but never for her.",
+          "One evening the girl lifted her eyes from her book — for a moment straight toward her, then past her to smile at a girl beyond her shoulder — and went back to reading. It was her own mother's gaze at every childhood dinner: lifting for the whole world, and never once for the daughter across the table, who had filled the silence with food.",
+          "The evening she chose, she reached the table first and stirred a dose of poison from the medical room into the food at the girl's fixed place.",
+          "The girl ate without looking up, died in her cell overnight, and was found the next morning at unlock.",
+          "When the girl was gone, she ate what remained — the poisoned food, the scrapings, all of it — and it passed out of the world entirely. The poison passed out with it, and never touched her.",
+          "No one thought it strange that she cleared the girl's plate; she cleared every plate, at every meal.",
+          "A poisoning normally leaves a residue somewhere — on the plate, in the leftovers, in the scrapings. Hers left none: the poison was nowhere in the prison, only the dose sealed inside the dead girl herself.",
+          "A poison that vanished so completely was eaten out of the world, and the only prisoner who could do that was the same one who sat across from the dead girl at every meal and cleared her plate — placed to set the dose and to carry off all that was left."
+        ],
+        "epitaph": "She swallowed the world, and starved before the one face that never turned to her.",
+        "epithet": "The Hollow Glutton",
+        "execution": [
+          "The execution stand rose as a deep, narrow well of stone, and she was bound low inside it. At its rim a sluice poured water in a steady stream.",
+          "The water rose around her, past her knees and her chest, toward her face.",
+          "She met the flood the only way she knew: she drank it, and each mouthful passed out of the world, carrying nothing back into her.",
+          "But the sluice fed faster than any throat could swallow, and no matter how she drank, the level kept rising.",
+          "The water climbed past her mouth and did not stop."
+        ],
+        "magic": {
+          "name": "The Devouring",
+          "text": "She can eat anything, and whatever she eats passes out of the world entirely, leaving no remains."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

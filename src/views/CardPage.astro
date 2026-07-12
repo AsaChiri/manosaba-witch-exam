@@ -39,6 +39,11 @@ const seo = {
 
 <BaseLayout locale={locale} seo={seo}>
   <main id="main" class="card-page">
+    {/* Runs before the CTA below is parsed → no flash. Marks the page as
+        opened from the visitor's own archive so the newcomer CTA is hidden. */}
+    <script is:inline>
+      if (location.hash === '#collector') document.documentElement.classList.add('is-collector')
+    </script>
     <header class="card-page__top container">
       <a class="card-page__home" href={localePath(locale, '/')}>
         <Seal size={26} title={t(locale, 'meta.siteName')} />
@@ -49,7 +54,7 @@ const seo = {
 
     <div class="card-page__stage container container--narrow">
       <CardFrame>
-        <WitchCard card={card} locale={locale} />
+        <WitchCard card={card} locale={locale} showName={false} />
       </CardFrame>
     </div>
 
@@ -57,6 +62,12 @@ const seo = {
       <h2 class="inscription">{t(locale, 'shareCta.title')}</h2>
       <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'shareCta.button')} />
     </section>
+
+    {/* Opened from one's own archive (#collector): the newcomer CTA above is
+        hidden and this quiet return link is shown instead (see inline script). */}
+    <nav class="card-page__back container container--narrow">
+      <a href={localePath(locale, '/collection/')}>{t(locale, 'collection.back')}</a>
+    </nav>
 
     <div class="card-page__foot container container--narrow">
       <SafetyNote locale={locale} />
@@ -110,5 +121,32 @@ const seo = {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
+  }
+
+  /* Collector context: swap the newcomer CTA for a quiet return link. Default
+     (stranger / no-JS) shows the CTA and never the back link. */
+  .card-page__back {
+    display: none;
+    text-align: center;
+    padding-top: 2.6rem;
+    padding-bottom: 1rem;
+  }
+  .card-page__back a {
+    font-family: var(--font-instrument);
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    color: var(--bone-faint);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--hairline-faint);
+  }
+  .card-page__back a:hover {
+    color: var(--witch-violet);
+  }
+  :global(html.is-collector) .card-page__cta {
+    display: none;
+  }
+  :global(html.is-collector) .card-page__back {
+    display: block;
   }
 </style>

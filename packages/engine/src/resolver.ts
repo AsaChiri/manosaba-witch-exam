@@ -1,20 +1,28 @@
 /**
- * Deterministic hard-axes resolver (coping + origin) — a byte-faithful port of
- * the certified reference `scorer.py` (spec v0.5, Appendix A v3).
+ * Deterministic hard-axes resolver (coping + origin).
+ *
+ * COPING is a byte-faithful port of the certified reference `scorer.py`
+ * (spec v0.5, Appendix A v3) — every branch maps 1:1 onto a `scorer.py`
+ * construct; deviations are none.
+ *
+ * ORIGIN is the v2 recognition-block instrument (locked 2026-07-10): 14 blocks
+ * N01..N14, each with a most-mine slot (`N##M`, +1 to the keyed family, escape
+ * "E" votes nothing) and a least-mine slot (`N##L`, -1, must differ from M
+ * unless M escaped). Resolution = per-family sum, argmax with tie-break
+ * (higher M-pick count, then canonical family order). Byte-faithful port of
+ * the locked `origin_v2/score_v2.py` (see DECISIONS.md D11).
  *
  * ONE walk drives two modes:
  *  - mode "full":    a complete cold answer map is supplied up front; missing
- *                    new-v3 slots degrade exactly as the reference does. Used by
- *                    the 200-persona validation and by full-map scoring.
+ *                    new-v3 coping slots degrade exactly as the reference does.
+ *                    Used by persona validation and by full-map scoring.
  *  - mode "session": answers arrive incrementally; when the walk needs an
  *                    unanswered slot it throws `Pending` (the next question to
  *                    present). New-slot degradation is disabled — the machine
  *                    asks every slot. The session driver re-runs the walk after
- *                    each answer (the walk is pure and bounded at <=22 slots).
- *
- * Every branch here maps 1:1 onto a `scorer.py` construct; deviations are none.
+ *                    each answer (the walk is pure and bounded at <=37 slots).
  */
-import type { CopingTree, OriginTree, ProbeEntry } from "./schemas.js";
+import type { CopingTree, OriginBlocks, ProbeEntry } from "./schemas.js";
 
 export type Mode = "full" | "session";
 
@@ -43,7 +51,7 @@ export class ScorerError extends Error {}
 // --------------------------------------------------------------- derived tables
 export interface Prepared {
   readonly coping: CopingTree;
-  readonly origin: OriginTree;
+  readonly origin: OriginBlocks;
   readonly styleOrder: string[];
   readonly styleIndex: Record<string, number>;
   readonly stanceIndex: Record<string, number>;
@@ -51,8 +59,8 @@ export interface Prepared {
   readonly leakStancePairs: Set<string>;
   readonly shadowGuardMap: Map<string, string>;
   readonly newSlots: Set<string>;
-  readonly precIndex: Record<string, number>;
-  readonly familyCluster: Record<string, string>;
+  /** family -> index in the canonical tie-break order (origin.families). */
+  readonly famIndex: Record<string, number>;
 }
 
 const pairKey = (a: string, b: string): string =>
@@ -68,7 +76,7 @@ export function probeOptions(entry: ProbeEntry): Record<string, string> {
   return out;
 }
 
-export function prepareTrees(coping: CopingTree, origin: OriginTree): Prepared {
+export function prepareTrees(coping: CopingTree, origin: OriginBlocks): Prepared {
   const styleOrder: string[] = [];
   for (const stance of coping.stance_prior_order) {
     const block = coping.block_prior_order[stance];
@@ -96,16 +104,9 @@ export function prepareTrees(coping: CopingTree, origin: OriginTree): Prepared {
   for (const [qid, q] of Object.entries(coping.probes)) {
     if (q.new_slot) newSlots.add(qid);
   }
-  for (const [qid, q] of Object.entries(origin.questions)) {
-    if (q.new_slot) newSlots.add(qid);
-  }
 
-  const precIndex: Record<string, number> = {};
-  origin.precedence.forEach((f, i) => (precIndex[f] = i));
-  const familyCluster: Record<string, string> = {};
-  for (const [cluster, fams] of Object.entries(origin.clusters)) {
-    for (const f of fams) familyCluster[f] = cluster;
-  }
+  const famIndex: Record<string, number> = {};
+  origin.families.forEach((f, i) => (famIndex[f] = i));
 
   return {
     coping,
@@ -117,8 +118,7 @@ export function prepareTrees(coping: CopingTree, origin: OriginTree): Prepared {
     leakStancePairs,
     shadowGuardMap,
     newSlots,
-    precIndex,
-    familyCluster,
+    famIndex,
   };
 }
 
@@ -135,12 +135,6 @@ export interface GuardRec {
   outcome: "confirm" | "flip";
   from: string;
   to: string;
-}
-export interface C1Rec {
-  fired: true;
-  reason: string;
-  options: string[];
-  chosen: string;
 }
 export interface TraceEntry {
   after: string;
@@ -164,13 +158,10 @@ export interface ScoreRecord {
   copingTrueStance: string | null;
   copingConfidence: string | null;
   copingRunnerUp: string | null;
-  prior: Record<string, number>;
-  V: Record<string, number>;
-  S: Record<string, number>;
-  firedSeps: string[];
-  firedDiscs: string[];
-  escapedPairs: string[][];
-  c1: C1Rec | null;
+  /** origin v2: final per-family sum S (all families, zeros included). */
+  originSums: Record<string, number>;
+  /** origin v2: per-family M-pick counts (the first tie-break key). */
+  originMostCounts: Record<string, number>;
   originFamily: string | null;
   originTop2: string[];
   originRunnerUp: string | null;
@@ -183,7 +174,7 @@ export class Walker {
   readonly asked: [string, AnswerValue][] = [];
   readonly flags: string[] = [];
   readonly trace: TraceEntry[] = [];
-  /** administered slot -> chosen oid, for canonical hashing (O.C1 => family). */
+  /** administered slot -> chosen oid, for canonical hashing. */
   readonly tokenMap: Record<string, string> = {};
 
   // coping
@@ -202,14 +193,9 @@ export class Walker {
   copingRunnerUp: string | null = null;
   copingLen = 0;
 
-  // origin
-  prior: Record<string, number> = {};
-  V: Record<string, number> = {};
-  S: Record<string, number> = {};
-  firedSeps: string[] = [];
-  firedDiscs: string[] = [];
-  escapedPairs: string[][] = [];
-  c1: C1Rec | null = null;
+  // origin (v2 sum walk)
+  originSums: Record<string, number> = {};
+  originMostCounts: Record<string, number> = {};
   originFamily: string | null = null;
   originTop2: string[] = [];
   originLen = 0;
@@ -261,7 +247,7 @@ export class Walker {
         `persona ${this.personaId}: tree asks ${qid} but no answer supplied`,
       );
     }
-    if (Array.isArray(raw) && qid !== "O.C1") {
+    if (Array.isArray(raw)) {
       for (const cand of raw) {
         const c = String(cand);
         if (c in options && (allowed === null || allowed.has(c))) {
@@ -587,241 +573,74 @@ export class Walker {
     return [rq, K.tiebreaks[rq]!, tiedSet];
   }
 
-  // --------------------------------------------------------------- origin
+  // --------------------------------------------------------------- origin (v2)
+  /**
+   * Origin v2 sum walk — a 1:1 port of `origin_v2/score_v2.py`:
+   * for each block N01..N14 ask `<id>M` (A-D vote +1, escape votes nothing)
+   * then `<id>L` (A-D vote -1, must differ from M unless M escaped), then
+   * argmax over S with tie-break (higher M-pick count, canonical order).
+   * No coping prior, no routers/separations/discriminators/confirmation.
+   */
   origin(): void {
     const O = this.p.origin;
-    const fams = O.precedence;
+    const fams = O.families;
     const originStart = this.asked.length;
 
-    // O-PRIOR
-    const row = O.prior[this.copingStyle!]!;
-    const prior: Record<string, number> = {};
-    for (const f of fams) prior[f] = 0;
-    for (const f of row.tier1) prior[f]! += 2;
-    for (const f of row.tier2) prior[f]! += 1;
-    for (const f of fams) prior[f] = Math.min(prior[f]!, 2);
-    const prearm = new Set(row.prearm);
-    const V: Record<string, number> = {};
-    for (const f of fams) V[f] = 0;
-    let c1Chosen: string | null = null;
+    const S: Record<string, number> = {};
+    const most: Record<string, number> = {};
+    for (const f of fams) {
+      S[f] = 0;
+      most[f] = 0;
+    }
 
-    const S = (f: string): number => V[f]! + prior[f]!;
-    const rank = (): string[] =>
-      [...fams].sort((a, b) =>
-        cmpTuple(
-          [
-            -S(a),
-            -V[a]!,
-            c1Chosen === a ? 0 : 1,
-            -prior[a]!,
-            this.p.precIndex[a]!,
-          ],
-          [
-            -S(b),
-            -V[b]!,
-            c1Chosen === b ? 0 : 1,
-            -prior[b]!,
-            this.p.precIndex[b]!,
-          ],
-        ),
-      );
-    const applyVotes = (qid: string, oid: string): void => {
-      for (const [f, pts] of Object.entries(O.questions[qid]!.options[oid]!)) {
-        V[f]! += pts;
+    for (const b of O.blocks) {
+      const letters = Object.keys(b.key).sort();
+
+      // <id>M — most-mine (+1), escape oid allowed and votes nothing.
+      const mOptions: Record<string, string> = {};
+      for (const l of letters) mOptions[l] = b.key[l]!;
+      mOptions[O.escape] = "ESCAPE";
+      const m = this.consume(`${b.id}M`, mOptions, null, "O", "most");
+      if (m !== O.escape) {
+        S[b.key[m]!]! += 1;
+        most[b.key[m]!]! += 1;
       }
+
+      // <id>L — least-mine (-1); the M pick is display-filtered out unless
+      // M escaped (session UI never offers it; full mode rejects it below).
+      const lOptions: Record<string, string> = {};
+      for (const l of letters) lOptions[l] = b.key[l]!;
+      const allowed =
+        m === O.escape ? null : new Set(letters.filter((x) => x !== m));
+      const l = this.consume(`${b.id}L`, lOptions, allowed, "O", "least");
+      if (m !== O.escape && l === m) {
+        this.flag(`ml_conflict:${b.id}`);
+        throw new ScorerError(
+          `persona ${this.personaId}: ${b.id} least pick equals most pick`,
+        );
+      }
+      S[b.key[l]!]! -= 1;
+
       const snap: Record<string, number> = {};
-      for (const f of fams) if (S(f) !== 0) snap[f] = S(f);
-      this.trace.push({ after: `${qid}:${oid}`, S: snap });
-    };
-
-    const m = O.mechanism;
-
-    // O-ROUTE (always O.R1, O.R2, O.R3; O.R3 is a v3 slot)
-    for (const qid of ["O.R1", "O.R2", "O.R3"]) {
-      if (this.degrade(qid)) {
-        this.flag(`missing_new_slot:${qid}`);
-        continue;
-      }
-      const oid = this.consume(qid, O.questions[qid]!.options, null, "O", "router");
-      applyVotes(qid, oid);
+      for (const f of fams) if (S[f] !== 0) snap[f] = S[f]!;
+      this.trace.push({ after: `${b.id}:${m}${l}`, S: snap });
     }
 
-    // O-SEP (always 2 blocks)
-    const firedSeps: string[] = [];
-    while (firedSeps.length < m.separation_blocks) {
-      let block: string | null = null;
-      for (const f of rank()) {
-        const b = O.cluster_block[this.p.familyCluster[f]!]!;
-        if (!firedSeps.includes(b)) {
-          block = b;
-          break;
-        }
-      }
-      if (block === null) break;
-      const oid = this.consume(block, O.questions[block]!.options, null, "O", "separation");
-      applyVotes(block, oid);
-      firedSeps.push(block);
-    }
-    this.firedSeps = firedSeps;
-
-    // O-DISC
-    let discFires = 0;
-    const firedPrimaries = new Set<string>();
-    const firedDiscs: string[] = [];
-    const escapedPairs: string[][] = [];
-    const unresolvedEscapes = new Set<string>();
-    while (discFires < m.disc_cap) {
-      const ranking = rank();
-      const topk = new Set(ranking.slice(0, m.liveness_top_k));
-      const leader = ranking[0]!;
-      const live: { pair: (typeof O.pairs)[number]; gap: number }[] = [];
-      for (const pr of O.pairs) {
-        if (firedPrimaries.has(pr.primary)) continue;
-        const [X, Y] = pr.pair;
-        if (!topk.has(X) || !topk.has(Y)) continue;
-        const thr = prearm.has(pr.primary) ? m.liveness_gap_prearmed : m.liveness_gap;
-        const gap = Math.abs(S(X) - S(Y));
-        if (gap > thr) continue;
-        if (!pr.pair.includes(leader)) {
-          if (S(leader) - Math.max(S(X), S(Y)) > 2) continue;
-        }
-        live.push({ pair: pr, gap });
-      }
-      if (!live.length) break;
-      live.sort((a, b) =>
-        cmpTuple(
-          [
-            a.pair.pair.includes(leader) ? 0 : 1,
-            a.pair.bank === "P" ? 0 : 1,
-            a.gap,
-            a.pair.num,
-          ],
-          [
-            b.pair.pair.includes(leader) ? 0 : 1,
-            b.pair.bank === "P" ? 0 : 1,
-            b.gap,
-            b.pair.num,
-          ],
-        ),
-      );
-      const pr = live[0]!.pair;
-      const q = O.questions[pr.primary]!;
-      const oid = this.consume(pr.primary, q.options, null, "O", "discriminator");
-      const escaped = oid === q.escape;
-      applyVotes(pr.primary, oid);
-      firedPrimaries.add(pr.primary);
-      firedDiscs.push(pr.primary);
-      discFires++;
-      if (escaped) {
-        escapedPairs.push([pr.pair[0], pr.pair[1]]);
-        unresolvedEscapes.add(pairKey(pr.pair[0], pr.pair[1]));
-      }
-      if (pr.alternate && discFires < m.disc_cap) {
-        const [X, Y] = pr.pair;
-        const gapAfter = Math.abs(S(X) - S(Y));
-        if (escaped || gapAfter <= m.alternate_gap) {
-          const aq = O.questions[pr.alternate]!;
-          if (this.degrade(pr.alternate)) {
-            this.flag(`missing_new_slot:${pr.alternate}`);
-          } else {
-            const aoid = this.consume(pr.alternate, aq.options, null, "O", "alternate");
-            applyVotes(pr.alternate, aoid);
-            firedDiscs.push(pr.alternate);
-            discFires++;
-            if (aq.escape && aoid !== aq.escape) {
-              unresolvedEscapes.delete(pairKey(pr.pair[0], pr.pair[1]));
-            }
-          }
-        }
-      }
-    }
-    this.firedDiscs = firedDiscs;
-    this.escapedPairs = escapedPairs;
-
-    // O-CONF
-    let ranking = rank();
-    const r1 = ranking[0]!;
-    const r2 = ranking[1]!;
-    const r3 = ranking[2]!;
-    const gap12 = S(r1) - S(r2);
-    // answer-only leader: argmax V, ties by lowest precedence index (Prior excluded)
-    const aol = minByKey(fams, (f) => [-V[f]!, this.p.precIndex[f]!]);
-    const nearTie = gap12 <= m.c1_near_tie_gap;
-    const decisive = aol !== r1;
-    const escapedTop2 =
-      m.c1_escaped_pair_trigger && unresolvedEscapes.has(pairKey(r1, r2));
-    if (nearTie || decisive || escapedTop2) {
-      const threeway = S(r1) - S(r3) <= m.c1_third_option_gap;
-      let options: string[];
-      let reason: string;
-      if (decisive) {
-        options = [r1];
-        if (!options.includes(aol)) options.push(aol);
-        if (threeway && !options.includes(r3)) options.push(r3);
-        reason = "decisive-prior" + (nearTie ? "+near-tie" : "");
-      } else if (nearTie) {
-        options = threeway ? [r1, r2, r3] : [r1, r2];
-        reason = "near-tie";
-      } else {
-        options = [r1, r2];
-        reason = "escaped-pair";
-      }
-      const chosen = this.c1Choice(options);
-      V[chosen]! += 2;
-      c1Chosen = chosen;
-      const snap: Record<string, number> = {};
-      for (const f of fams) if (S(f) !== 0) snap[f] = S(f);
-      this.trace.push({ after: `O.C1:${chosen}`, S: snap });
-      this.tokenMap["O.C1"] = chosen;
-      this.c1 = { fired: true, reason, options, chosen };
-    }
-
-    // O-RESOLVE
-    ranking = rank();
+    // O-RESOLVE: argmax S; ties by higher M-pick count, then canonical order.
+    const ranking = [...fams].sort((a, b) =>
+      cmpTuple(
+        [-S[a]!, -most[a]!, this.p.famIndex[a]!],
+        [-S[b]!, -most[b]!, this.p.famIndex[b]!],
+      ),
+    );
     this.originFamily = ranking[0]!;
     this.originTop2 = ranking.slice(0, 2);
-    this.prior = prior;
-    this.V = V;
-    const Sall: Record<string, number> = {};
-    for (const f of fams) Sall[f] = S(f);
-    this.S = Sall;
+    this.originSums = { ...S };
+    this.originMostCounts = { ...most };
     this.originLen = this.asked.length - originStart;
   }
 
-  private c1Choice(options: string[]): string {
-    const raw = this.answers["O.C1"];
-    if (raw === undefined) {
-      if (this.mode === "session") {
-        throw new Pending("O.C1", options, options, "O", "confirmation");
-      }
-      this.flag("missing_answer:O.C1");
-      throw new ScorerError(
-        `persona ${this.personaId}: O.C1 fired but no answer supplied`,
-      );
-    }
-    this.asked.push(["O.C1", typeof raw === "string" ? raw : [...raw]]);
-    if (typeof raw === "string") {
-      const fam = raw.trim().toUpperCase();
-      if (options.includes(fam)) return fam;
-      this.flag("c1_answer_out_of_set");
-      return [...options].sort(
-        (a, b) => this.p.precIndex[a]! - this.p.precIndex[b]!,
-      )[0]!;
-    }
-    const ordered = raw.map((x) => String(x).trim().toUpperCase());
-    for (const fam of ordered) if (options.includes(fam)) return fam;
-    this.flag("c1_ranking_covers_no_option");
-    return [...options].sort(
-      (a, b) => this.p.precIndex[a]! - this.p.precIndex[b]!,
-    )[0]!;
-  }
-
   record(): ScoreRecord {
-    const nonzero = (m: Record<string, number>): Record<string, number> => {
-      const o: Record<string, number> = {};
-      for (const [k, v] of Object.entries(m)) if (v) o[k] = v;
-      return o;
-    };
     return {
       personaId: this.personaId,
       askedPath: this.asked.map(([q, o]) =>
@@ -842,13 +661,8 @@ export class Walker {
       copingTrueStance: this.copingStance,
       copingConfidence: this.copingConfidence,
       copingRunnerUp: this.copingRunnerUp,
-      prior: nonzero(this.prior),
-      V: nonzero(this.V),
-      S: nonzero(this.S),
-      firedSeps: this.firedSeps,
-      firedDiscs: this.firedDiscs,
-      escapedPairs: this.escapedPairs,
-      c1: this.c1,
+      originSums: { ...this.originSums },
+      originMostCounts: { ...this.originMostCounts },
       originFamily: this.originFamily,
       originTop2: this.originTop2,
       originRunnerUp: this.originTop2.length > 1 ? this.originTop2[1]! : null,
@@ -878,19 +692,6 @@ function maxByKey<T>(items: readonly T[], key: (t: T) => number[]): T {
   }
   return best;
 }
-function minByKey<T>(items: readonly T[], key: (t: T) => number[]): T {
-  let best = items[0]!;
-  let bk = key(best);
-  for (let i = 1; i < items.length; i++) {
-    const k = key(items[i]!);
-    if (cmpTuple(k, bk) < 0) {
-      best = items[i]!;
-      bk = k;
-    }
-  }
-  return best;
-}
-
 /** Full-map hard-axes resolution (validation path). */
 export function resolveHardAxes(
   prepared: Prepared,

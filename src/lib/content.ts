@@ -88,13 +88,6 @@ export function getContentMeta(): ContentMeta {
   return CONTENT_META
 }
 
-/** The launch phase — env override wins, else the content meta's phase. */
-export function sitePhase(): 'soft' | 'launch' {
-  const env = import.meta.env.PUBLIC_SITE_PHASE
-  if (env === 'soft' || env === 'launch') return env
-  return CONTENT_META.phase ?? 'soft'
-}
-
 /** Content hash for localStorage invalidation (design spec §4). */
 export const CONTENT_HASH = `${CONTENT_META.contentVersion}~${CONTENT_META.quizVersion}`
 

@@ -3,15 +3,20 @@
  * compile-content — compiles the authored Manosaba workspace markdown into the
  * runtime `content/` package (design spec §5).
  *
- * Votemaps / tree tables / hash spec come from the CERTIFIED reference JSON
- * (authoritative). Banks supply display text. The manifest supplies the §3
- * redirect map. Cards (gated by content/ship_list.json) supply per-locale prose;
- * zh-TW is synthesized from zh-CN via OpenCC(s2twp) + term_map_zhtw.json.
+ * COPING votemaps / tables come from the CERTIFIED reference JSON
+ * (authoritative). The ORIGIN axis is the locked v2 block instrument, compiled
+ * from `origin_v2/score_v2.py` (KEY) + `item_sheet.md` (EN texts) into
+ * `blocks.origin.json` (the v1 `tree.origin.json` is retired and deleted).
+ * Banks supply coping/pick display text. The manifest supplies the §3 redirect
+ * map. Cards (gated by content/ship_list.json) supply per-locale prose; zh-TW
+ * is synthesized from zh-CN via OpenCC(s2twp) + term_map_zhtw.json — for cards
+ * AND for quiz strings (strings.zh-CN.json is emitted from the authored zh
+ * sources when they exist; strings.zh-TW.json is derived).
  *
  * Everything is validated against the engine's zod schemas before writing, and
  * emitted with stable key ordering so content diffs are reviewable.
  */
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from "node:fs";
 import { join, dirname } from "node:path";
 import * as OpenCC from "opencc-js";
 import {
@@ -24,6 +29,7 @@ import {
   type AuthoredTag,
   type ContentPackage,
   type HashSpec,
+  type OriginBlocks,
   type QuestionsFile,
   type Question,
   type StringsFile,
@@ -34,6 +40,14 @@ import {
 } from "@manosaba/witch-exam-engine";
 import { makeSources, DEFAULT_WORKSPACE, type Sources } from "./sources.js";
 import { parseBanks, type BankData } from "./banks.js";
+import {
+  loadOriginV2,
+  loadOriginStrings,
+  loadCopingStrings,
+  loadPickStrings,
+  ESCAPE_OID,
+  type QidStrings,
+} from "./origin-blocks.js";
 import { parseRedirectMap } from "./manifest.js";
 import { parseCard, type ParsedCard } from "./cards.js";
 import { subIndex, STYLE_NAME_TO_CODE, FAMILY_NAME_TO_CODE } from "./taxonomy.js";
@@ -99,10 +113,6 @@ interface CopingTreeRaw extends Record<string, unknown> {
   probes: Record<string, Record<string, string | boolean>>;
   style_stance: Record<string, string>;
 }
-interface OriginTreeRaw extends Record<string, unknown> {
-  questions: Record<string, { kind: string; options: Record<string, Record<string, number>>; escape?: string | null; new_slot?: boolean }>;
-  pairs: { pair: [string, string]; primary: string; alternate: string | null }[];
-}
 
 function main(): void {
   const args = process.argv.slice(2);
@@ -123,17 +133,25 @@ function main(): void {
   const shipList = loadJson<{ shipped: string[]; pendingReview?: string[] }>(src.shipList);
   const shippedIds = [...shipList.shipped, ...(includePending ? shipList.pendingReview ?? [] : [])];
 
-  // 1. certified tables
+  // 1. certified coping tables + locked origin-v2 sources
   const copingRaw = dropUnderscore(loadJson<CopingTreeRaw>(join(src.scorer, "questions_k.json")));
-  const originRaw = dropUnderscore(loadJson<OriginTreeRaw>(join(src.scorer, "questions_o.json")));
-  const priorRows = loadJson<{ rows: Record<string, unknown> }>(join(src.scorer, "prior.json")).rows;
-  const slots = loadJson<{ slots: string[] }>(join(src.scorer, "slots.json")).slots;
-  const originTree = { ...originRaw, prior: priorRows };
+  const scorerSlots = loadJson<{ slots: string[] }>(join(src.scorer, "slots.json")).slots;
+  const originV2 = loadOriginV2({ originV2Dir: src.originV2 });
+  const originBlocks: OriginBlocks = originV2.blocks;
+
+  // slot list (v4-84): certified K.* slots + N01M..N14L (ask order) + V.* slots.
+  // All v1 O.* slots (incl. O.C1) are retired with the origin tree.
+  const nSlots = originBlocks.blocks.flatMap((b) => [`${b.id}M`, `${b.id}L`]);
+  const slots = [
+    ...scorerSlots.filter((s) => s.startsWith("K.")),
+    ...nSlots,
+    ...scorerSlots.filter((s) => s.startsWith("V.")),
+  ];
 
   // 2. banks + redirect
   const banks = parseBanks(src);
   const redirectParse = parseRedirectMap(src.manifest);
-  const warnings: string[] = [...banks.warnings, ...redirectParse.warnings];
+  const warnings: string[] = [...banks.warnings, ...redirectParse.warnings, ...originV2.warnings];
 
   // 3. cards (shipped only)
   const cards: ParsedCard[] = [];
@@ -254,28 +272,39 @@ function main(): void {
     };
   }
 
-  // 6. hash spec
+  // 6. hash spec (v4-84: v1 O.* slots + origin cert pins retired)
   const hashSpec: HashSpec = {
-    bankVersion: "v3",
+    bankVersion: "v4",
     manifestVersion: "v1",
     slots,
     sentinel: "X",
     fnv: { offset: 2166136261, prime: 16777619 },
-    newInV3: ["K.P17", "K.P18", "K.P19", "K.P20", "K.P21", "O.R3", "O.P4b"],
+    newInV3: ["K.P17", "K.P18", "K.P19", "K.P20", "K.P21"],
     variantCounts,
     permutation: {
       prng: "xorshift32",
       shuffle: "fisher-yates-descending",
-      prePickPrefix: "K.* and O.* slots only (Appendix A order)",
+      prePickPrefix: "K.* and N##[ML] slots only (slot order)",
       withinGroupSeed: "prePickString + '|V.OGROUP:<OID>'",
     },
   };
 
   // 7. questions.json (votemaps + display metadata)
-  const questions = buildQuestions(slots, copingRaw, originRaw);
+  const questions = buildQuestions(slots, copingRaw, originBlocks);
 
-  // 8. strings.en.json
-  const strings = buildStrings(banks);
+  // 8. strings.en.json (+ authored locales: zh-CN, ja; zh-TW derived from zh-CN)
+  const strings = buildStrings(banks, originV2.enStrings);
+  const AUTHORED_LOCALES = ["zh-CN", "ja"];
+  const localeStrings: Record<string, StringsFile | null> = {};
+  for (const loc of AUTHORED_LOCALES) {
+    localeStrings[loc] = buildLocaleStrings(
+      loc,
+      loadOriginStrings(src.originV2, loc, warnings),
+      loadCopingStrings(src.originV2, loc, warnings),
+      loadPickStrings(src.originV2, loc, warnings),
+    );
+  }
+  const zhCN = localeStrings["zh-CN"] ?? null;
 
   // 9. cards manifest + card files
   const cardsManifest: CardsManifest = { tags: manifestTags, cells: manifestCells };
@@ -285,7 +314,7 @@ function main(): void {
     questions,
     strings,
     copingTree: copingRaw as unknown as ContentPackage["copingTree"],
-    originTree: originTree as unknown as ContentPackage["originTree"],
+    originBlocks,
     hashSpec,
     picksets,
     neighbor,
@@ -293,19 +322,52 @@ function main(): void {
   };
   validateContent(pkg);
 
+  const converter = OpenCC.Converter({ from: "cn", to: "twp" });
+  const termMap = loadJson<{ overrides: Record<string, string> }>(src.termMap);
+  const applyTW = (s: string): string => {
+    let t = converter(s);
+    for (const [from, to] of Object.entries(termMap.overrides)) t = t.split(from).join(to);
+    return t;
+  };
+
   // 11. write everything (deterministic)
   const C = src.contentDir;
   writeJson(join(C, "quiz", "questions.json"), questions);
   writeJson(join(C, "quiz", "tree.coping.json"), copingRaw);
-  writeJson(join(C, "quiz", "tree.origin.json"), originTree);
+  writeJson(join(C, "quiz", "blocks.origin.json"), originBlocks);
+  // the v1 origin tree is retired: remove a stale artifact if present.
+  rmSync(join(C, "quiz", "tree.origin.json"), { force: true });
   writeJson(join(C, "quiz", "picksets.json"), picksets);
   writeJson(join(C, "quiz", "neighbor.json"), neighbor);
   writeJson(join(C, "quiz", "hash.spec.json"), hashSpec);
   writeJson(join(C, "quiz", "strings.en.json"), strings);
+  let localeFiles = 0;
+  // authored locales (ja written directly; zh-CN written + zh-TW derived)
+  for (const loc of AUTHORED_LOCALES) {
+    const sf = localeStrings[loc];
+    if (!sf) continue;
+    writeJson(join(C, "quiz", `strings.${loc}.json`), sf);
+    localeFiles += 1;
+  }
+  if (zhCN) {
+    const zhTW: StringsFile = {
+      locale: "zh-TW",
+      questions: Object.fromEntries(
+        Object.entries(zhCN.questions).map(([qid, q]) => [
+          qid,
+          {
+            stem: applyTW(q.stem),
+            options: Object.fromEntries(
+              Object.entries(q.options).map(([oid, t]) => [oid, applyTW(t)]),
+            ),
+          },
+        ]),
+      ),
+    };
+    writeJson(join(C, "quiz", "strings.zh-TW.json"), zhTW);
+    localeFiles += 1;
+  }
   writeJson(join(C, "cards", "manifest.json"), cardsManifest);
-
-  const converter = OpenCC.Converter({ from: "cn", to: "twp" });
-  const termMap = loadJson<{ overrides: Record<string, string> }>(src.termMap);
   // Magic-name invariant (user directive 2026-07-08): every shipped card locale
   // must carry a magic NAME — the card headline. Owner-correctable via
   // tools/compiler/magic_names.json ({"<tag>.<locale>": "name"}). No fallback: fail loudly.
@@ -345,16 +407,17 @@ function main(): void {
 
   // 12. meta.json (content hash = FNV over the machine-critical artifacts)
   const contentHash = fnv1a32String(
-    [questions, copingRaw, originTree, picksets, neighbor, hashSpec].map(stableStringify).join(""),
+    [questions, copingRaw, originBlocks, picksets, neighbor, hashSpec].map(stableStringify).join(""),
   );
   const meta: Meta = {
     contentVersion: `0x${(contentHash >>> 0).toString(16).padStart(8, "0")}`,
-    quizVersion: "v3-89",
-    bankVersion: "v3",
+    quizVersion: "v4-84",
+    bankVersion: "v4",
     manifestVersion: "v1",
     generatedAt: new Date().toISOString(),
     counts: {
       slots: slots.length,
+      originBlocks: originBlocks.blocks.length,
       shippedCards: cards.length,
       shippedTags: tags.size,
       authoredCells: cellTags.size,
@@ -362,6 +425,7 @@ function main(): void {
       manifestRedirects: coverage.counts.manifest,
       fallbackRedirects: coverage.counts.fallback,
       cardLocaleFiles: cardFileCount,
+      quizStringLocaleFiles: 1 + localeFiles,
       families: 8,
       styles: 25,
     },
@@ -373,14 +437,13 @@ function main(): void {
 }
 
 // ------------------------------------------------------------------ builders
-function buildQuestions(slots: string[], coping: CopingTreeRaw, origin: OriginTreeRaw): QuestionsFile {
+function buildQuestions(slots: string[], coping: CopingTreeRaw, origin: OriginBlocks): QuestionsFile {
   const out: QuestionsFile = {};
   const routers = new Set(Object.keys(coping.routers));
   const cores = new Set(Object.keys(coping.cores));
   const tiebreaks = new Set(Object.keys(coping.tiebreaks));
   const probes = new Set(Object.keys(coping.probes));
-  const altOf = new Map<string, string>();
-  for (const p of origin.pairs) if (p.alternate) altOf.set(p.alternate, p.primary);
+  const blockById = new Map(origin.blocks.map((b) => [b.id, b]));
 
   for (const qid of slots) {
     if (qid.startsWith("K.")) {
@@ -388,19 +451,32 @@ function buildQuestions(slots: string[], coping: CopingTreeRaw, origin: OriginTr
       else if (cores.has(qid)) out[qid] = kOpt(qid, "core", coping.cores[qid]!, "style", false);
       else if (tiebreaks.has(qid)) out[qid] = kOpt(qid, "tiebreak", coping.tiebreaks[qid]!, "style", true);
       else if (probes.has(qid)) out[qid] = kOpt(qid, "probe", probeOpts(coping.probes[qid]!), "style", false);
-    } else if (qid.startsWith("O.")) {
-      const q = origin.questions[qid];
-      if (qid === "O.C1") {
-        out[qid] = { qid, part: "O", kind: "confirmation", stemKey: qid, options: [] };
-      } else if (q) {
-        const kind = q.kind === "alternate" ? "alternate" : q.kind === "separation" ? "separation" : q.kind === "router" ? "router" : "discriminator";
-        const options = Object.entries(q.options).map(([oid, votes]) => ({ oid, votes }));
-        const entry: Question = { qid, part: "O", kind: kind as Question["kind"], stemKey: qid, options };
-        if (q.escape !== undefined && q.escape !== null) entry.escapeOid = q.escape;
-        const primary = altOf.get(qid);
-        if (primary) entry.alternateOf = primary;
-        out[qid] = entry;
+    } else if (/^N\d{2}[ML]$/.test(qid)) {
+      // origin-v2 block slot: M = most-mine (+1, escape allowed), L = least-mine (-1)
+      const b = blockById.get(qid.slice(0, 3));
+      if (!b) throw new Error(`slot ${qid} has no origin block`);
+      const most = qid.endsWith("M");
+      const letters = Object.keys(b.key).sort();
+      const options = letters.map((oid) => ({
+        oid,
+        votes: { [b.key[oid]!]: most ? 1 : -1 },
+      }));
+      const entry: Question = {
+        qid,
+        part: "O",
+        kind: most ? "most" : "least",
+        stemKey: qid,
+        options,
+        register: b.register,
+      };
+      if (most) {
+        options.push({ oid: ESCAPE_OID, votes: {} });
+        entry.escapeOid = ESCAPE_OID;
+      } else {
+        // the L screen is display-filtered against the block's M pick
+        entry.displayFilter = true;
       }
+      out[qid] = entry;
     } else {
       // V.* — options are cell-dependent, assembled at runtime
       const kind = qid === "V.OGROUP" ? "group" : "pick";
@@ -422,7 +498,7 @@ function probeOpts(entry: Record<string, string | boolean>): Record<string, stri
   return out;
 }
 
-function buildStrings(banks: BankData): StringsFile {
+function buildStrings(banks: BankData, originEn: Record<string, QidStrings>): StringsFile {
   const questions: StringsFile["questions"] = {};
   for (const qid of Object.keys(banks.stems)) {
     questions[qid] = { stem: banks.stems[qid] ?? "", options: banks.optionText[qid] ?? {} };
@@ -431,11 +507,37 @@ function buildStrings(banks: BankData): StringsFile {
   for (const qid of Object.keys(banks.optionText)) {
     questions[qid] ??= { stem: banks.stems[qid] ?? "", options: banks.optionText[qid]! };
   }
-  questions["O.C1"] = { stem: banks.stems["O.C1"] ?? "", options: { ...banks.wantedLines } };
+  // origin-v2 N-block strings (parsed from item_sheet.md)
+  for (const [qid, q] of Object.entries(originEn)) {
+    questions[qid] = { stem: q.stem, options: { ...q.options } };
+  }
   questions["V.OGROUP"] = { stem: banks.pickStems.group, options: { ...banks.groupLine } };
   questions["V.OPICK"] = { stem: banks.pickStems.origin, options: { ...banks.originPickText } };
   questions["V.CPICK"] = { stem: banks.pickStems.coping, options: { ...banks.copingPickText } };
   return { locale: "en", questions };
+}
+
+/**
+ * strings.<locale>.json — structure-only merge of the authored sources for one
+ * locale (origin N-blocks + coping K.* + pick-tail V.*). Emits null when no
+ * source exists yet; qids missing from the sources are simply absent (the
+ * session falls back per-qid to en).
+ */
+function buildLocaleStrings(
+  locale: string,
+  origin: Record<string, QidStrings> | null,
+  coping: Record<string, QidStrings> | null,
+  picks: Record<string, QidStrings> | null,
+): StringsFile | null {
+  if (!origin && !coping && !picks) return null;
+  const questions: StringsFile["questions"] = {};
+  for (const src of [coping, origin, picks]) {
+    if (!src) continue;
+    for (const [qid, q] of Object.entries(src)) {
+      questions[qid] = { stem: q.stem, options: { ...q.options } };
+    }
+  }
+  return { locale, questions };
 }
 
 type Converter = (s: string) => string;

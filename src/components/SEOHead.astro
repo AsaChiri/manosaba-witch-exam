@@ -28,6 +28,8 @@ interface Props {
   jsonld?: JsonLd[]
   /** CreativeWork name for card pages. */
   workName?: string
+  /** Keep the page out of search (unadvertised routes). */
+  noindex?: boolean
 }
 const {
   locale,
@@ -38,9 +40,10 @@ const {
   ogType = 'website',
   jsonld = [],
   workName,
+  noindex = false,
 } = Astro.props
 
-const site = Astro.site ?? new URL('https://manosaba-exam.pages.dev')
+const site = Astro.site ?? new URL('https://manosaba-witch-exam.pages.dev')
 const abs = (p: string) => new URL(p, site).href
 const canonical = abs(localePath(locale, routeKey))
 const ogImageUrl = abs(ogImage)
@@ -92,6 +95,7 @@ const jsonLdBlock =
 
 <title>{title}</title>
 <meta name="description" content={description} />
+{noindex && <meta name="robots" content="noindex, follow" />}
 <link rel="canonical" href={canonical} />
 
 {alternates.map((a) => (

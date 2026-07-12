@@ -1559,454 +1559,270 @@
     "qid": "K.WT",
     "stemKey": "K.WT"
   },
-  "O.B1": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N01L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "MB": 2
+          "ABN": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "ABN": 2
+          "MB": -1
         }
       },
       {
         "oid": "C",
-        "votes": {}
+        "votes": {
+          "ALN": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "VC": -1
+        }
       }
     ],
     "part": "O",
-    "qid": "O.B1",
-    "stemKey": "O.B1"
+    "qid": "N01L",
+    "register": "scenes",
+    "stemKey": "N01L"
   },
-  "O.B10": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N01M": {
+    "escapeOid": "E",
+    "kind": "most",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "MB": 2
+          "ABN": 1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "POW": 2
+          "MB": 1
         }
       },
       {
         "oid": "C",
+        "votes": {
+          "ALN": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "VC": 1
+        }
+      },
+      {
+        "oid": "E",
         "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.B10",
-    "stemKey": "O.B10"
+    "qid": "N01M",
+    "register": "scenes",
+    "stemKey": "N01M"
   },
-  "O.B11": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N02L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "ALN": 2
+          "ED": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "POW": 2
+          "DEF": -1
         }
       },
       {
         "oid": "C",
-        "votes": {}
+        "votes": {
+          "FAI": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "POW": -1
+        }
       }
     ],
     "part": "O",
-    "qid": "O.B11",
-    "stemKey": "O.B11"
+    "qid": "N02L",
+    "register": "scenes",
+    "stemKey": "N02L"
   },
-  "O.B12": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N02M": {
+    "escapeOid": "E",
+    "kind": "most",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "ALN": 2
+          "ED": 1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "ABN": 2
+          "DEF": 1
         }
       },
       {
         "oid": "C",
+        "votes": {
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "POW": 1
+        }
+      },
+      {
+        "oid": "E",
         "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.B12",
-    "stemKey": "O.B12"
+    "qid": "N02M",
+    "register": "scenes",
+    "stemKey": "N02M"
   },
-  "O.B13": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N03L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "ALN": 2
+          "FAI": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "MB": 2
+          "ALN": -1
         }
       },
       {
         "oid": "C",
-        "votes": {}
+        "votes": {
+          "ED": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ABN": -1
+        }
       }
     ],
     "part": "O",
-    "qid": "O.B13",
-    "stemKey": "O.B13"
+    "qid": "N03L",
+    "register": "sentences",
+    "stemKey": "N03L"
   },
-  "O.B2": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N03M": {
+    "escapeOid": "E",
+    "kind": "most",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "DEF": 2
+          "FAI": 1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "ALN": 2
+          "ALN": 1
         }
       },
       {
         "oid": "C",
+        "votes": {
+          "ED": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ABN": 1
+        }
+      },
+      {
+        "oid": "E",
         "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.B2",
-    "stemKey": "O.B2"
+    "qid": "N03M",
+    "register": "sentences",
+    "stemKey": "N03M"
   },
-  "O.B3": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N04L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "MB": 2
+          "VC": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "DEF": 2
+          "POW": -1
         }
       },
       {
         "oid": "C",
-        "votes": {}
+        "votes": {
+          "DEF": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "MB": -1
+        }
       }
     ],
     "part": "O",
-    "qid": "O.B3",
-    "stemKey": "O.B3"
+    "qid": "N04L",
+    "register": "sentences",
+    "stemKey": "N04L"
   },
-  "O.B3b": {
-    "alternateOf": "O.B3",
-    "escapeOid": "C",
-    "kind": "alternate",
+  "N04M": {
+    "escapeOid": "E",
+    "kind": "most",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "MB": 2
+          "VC": 1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "DEF": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.B3b",
-    "stemKey": "O.B3b"
-  },
-  "O.B4": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ABN": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "DEF": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.B4",
-    "stemKey": "O.B4"
-  },
-  "O.B5": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "VC": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "ABN": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.B5",
-    "stemKey": "O.B5"
-  },
-  "O.B6": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "VC": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "DEF": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.B6",
-    "stemKey": "O.B6"
-  },
-  "O.B7": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ED": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "MB": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.B7",
-    "stemKey": "O.B7"
-  },
-  "O.B8": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ED": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "DEF": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.B8",
-    "stemKey": "O.B8"
-  },
-  "O.B9": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ED": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "POW": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.B9",
-    "stemKey": "O.B9"
-  },
-  "O.C1": {
-    "kind": "confirmation",
-    "options": [],
-    "part": "O",
-    "qid": "O.C1",
-    "stemKey": "O.C1"
-  },
-  "O.P1": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ED": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "ABN": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P1",
-    "stemKey": "O.P1"
-  },
-  "O.P1b": {
-    "alternateOf": "O.P1",
-    "escapeOid": "C",
-    "kind": "alternate",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ED": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "ABN": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P1b",
-    "stemKey": "O.P1b"
-  },
-  "O.P2": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "MB": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "VC": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P2",
-    "stemKey": "O.P2"
-  },
-  "O.P2b": {
-    "alternateOf": "O.P2",
-    "kind": "alternate",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "MB": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "VC": 2
+          "POW": 1
         }
       },
       {
@@ -2014,520 +1830,749 @@
         "votes": {
           "DEF": 1
         }
-      }
-    ],
-    "part": "O",
-    "qid": "O.P2b",
-    "stemKey": "O.P2b"
-  },
-  "O.P3": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "FAI": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "DEF": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P3",
-    "stemKey": "O.P3"
-  },
-  "O.P3b": {
-    "alternateOf": "O.P3",
-    "escapeOid": "D",
-    "kind": "alternate",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "DEF": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "FAI": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {
-          "FAI": 2
-        }
       },
       {
         "oid": "D",
+        "votes": {
+          "MB": 1
+        }
+      },
+      {
+        "oid": "E",
         "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.P3b",
-    "stemKey": "O.P3b"
+    "qid": "N04M",
+    "register": "sentences",
+    "stemKey": "N04M"
   },
-  "O.P4": {
-    "escapeOid": "C",
-    "kind": "discriminator",
+  "N05L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "ALN": 2
+          "DEF": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "ED": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P4",
-    "stemKey": "O.P4"
-  },
-  "O.P4b": {
-    "alternateOf": "O.P4",
-    "escapeOid": "C",
-    "kind": "alternate",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ALN": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "ED": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P4b",
-    "stemKey": "O.P4b"
-  },
-  "O.P5": {
-    "escapeOid": "C",
-    "kind": "discriminator",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "FAI": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "POW": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P5",
-    "stemKey": "O.P5"
-  },
-  "O.P5b": {
-    "alternateOf": "O.P5",
-    "escapeOid": "C",
-    "kind": "alternate",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "FAI": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "POW": 2
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {}
-      }
-    ],
-    "part": "O",
-    "qid": "O.P5b",
-    "stemKey": "O.P5b"
-  },
-  "O.R1": {
-    "kind": "router",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ALN": 2,
-          "ED": 1
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "ABN": 1,
-          "ALN": 1,
-          "ED": 2
+          "ABN": -1
         }
       },
       {
         "oid": "C",
         "votes": {
-          "ABN": 2,
-          "ED": 1
+          "POW": -1
         }
       },
       {
         "oid": "D",
         "votes": {
-          "DEF": 1,
-          "FAI": 2,
+          "FAI": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N05L",
+    "register": "hums",
+    "stemKey": "N05L"
+  },
+  "N05M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "DEF": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ABN": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "POW": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "E",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "N05M",
+    "register": "hums",
+    "stemKey": "N05M"
+  },
+  "N06L": {
+    "displayFilter": true,
+    "kind": "least",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": -1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "VC": -1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "MB": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ED": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N06L",
+    "register": "hums",
+    "stemKey": "N06L"
+  },
+  "N06M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ALN": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "VC": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "MB": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ED": 1
+        }
+      },
+      {
+        "oid": "E",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "N06M",
+    "register": "hums",
+    "stemKey": "N06M"
+  },
+  "N07L": {
+    "displayFilter": true,
+    "kind": "least",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": -1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ED": -1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ABN": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "DEF": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N07L",
+    "register": "rules",
+    "stemKey": "N07L"
+  },
+  "N07M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "MB": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "ED": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ABN": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "DEF": 1
+        }
+      },
+      {
+        "oid": "E",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "N07M",
+    "register": "rules",
+    "stemKey": "N07M"
+  },
+  "N08L": {
+    "displayFilter": true,
+    "kind": "least",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "POW": -1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "FAI": -1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "VC": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ALN": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N08L",
+    "register": "rules",
+    "stemKey": "N08L"
+  },
+  "N08M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "POW": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "VC": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ALN": 1
+        }
+      },
+      {
+        "oid": "E",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "N08M",
+    "register": "rules",
+    "stemKey": "N08M"
+  },
+  "N09L": {
+    "displayFilter": true,
+    "kind": "least",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ABN": -1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "MB": -1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "FAI": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "POW": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N09L",
+    "register": "weather",
+    "stemKey": "N09L"
+  },
+  "N09M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "ABN": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "MB": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "FAI": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
           "POW": 1
         }
       },
       {
         "oid": "E",
-        "votes": {
-          "DEF": 2,
-          "FAI": 1
-        }
-      },
-      {
-        "oid": "F",
-        "votes": {
-          "MB": 2,
-          "VC": 1
-        }
-      },
-      {
-        "oid": "G",
-        "votes": {
-          "MB": 1,
-          "VC": 2
-        }
-      },
-      {
-        "oid": "H",
-        "votes": {
-          "FAI": 1,
-          "POW": 2
-        }
+        "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.R1",
-    "stemKey": "O.R1"
+    "qid": "N09M",
+    "register": "weather",
+    "stemKey": "N09M"
   },
-  "O.R2": {
-    "kind": "router",
+  "N10L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "ABN": 1,
+          "ED": -1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "DEF": -1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ALN": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "VC": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N10L",
+    "register": "weather",
+    "stemKey": "N10L"
+  },
+  "N10M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
           "ED": 1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "DEF": 1,
-          "FAI": 1
+          "DEF": 1
         }
       },
       {
         "oid": "C",
         "votes": {
-          "ALN": 2,
-          "ED": 1
+          "ALN": 1
         }
       },
       {
         "oid": "D",
         "votes": {
-          "MB": 1,
           "VC": 1
         }
       },
       {
         "oid": "E",
-        "votes": {
-          "FAI": 1,
-          "POW": 2
-        }
+        "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.R2",
-    "stemKey": "O.R2"
+    "qid": "N10M",
+    "register": "weather",
+    "stemKey": "N10M"
   },
-  "O.R3": {
-    "kind": "router",
+  "N11L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "ABN": 2,
-          "ED": 1
+          "VC": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "ABN": 1,
-          "ALN": 1,
-          "ED": 2
+          "POW": -1
         }
       },
       {
         "oid": "C",
         "votes": {
-          "MB": 1,
-          "VC": 2
+          "ABN": -1
         }
       },
       {
         "oid": "D",
         "votes": {
-          "MB": 2,
+          "ED": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N11L",
+    "register": "needed",
+    "stemKey": "N11L"
+  },
+  "N11M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
           "VC": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
+          "POW": 1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "ABN": 1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ED": 1
         }
       },
       {
         "oid": "E",
+        "votes": {}
+      }
+    ],
+    "part": "O",
+    "qid": "N11M",
+    "register": "needed",
+    "stemKey": "N11M"
+  },
+  "N12L": {
+    "displayFilter": true,
+    "kind": "least",
+    "options": [
+      {
+        "oid": "A",
         "votes": {
-          "ALN": 2,
-          "ED": 1
+          "FAI": -1
         }
       },
       {
-        "oid": "F",
+        "oid": "B",
         "votes": {
-          "DEF": 2,
+          "ALN": -1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "MB": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "DEF": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N12L",
+    "register": "needed",
+    "stemKey": "N12L"
+  },
+  "N12M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
           "FAI": 1
         }
       },
       {
-        "oid": "G",
-        "votes": {
-          "DEF": 1,
-          "FAI": 2,
-          "POW": 1
-        }
-      },
-      {
-        "oid": "H",
-        "votes": {
-          "FAI": 1,
-          "POW": 2
-        }
-      }
-    ],
-    "part": "O",
-    "qid": "O.R3",
-    "stemKey": "O.R3"
-  },
-  "O.S1": {
-    "kind": "separation",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ABN": 2,
-          "ED": 1
-        }
-      },
-      {
         "oid": "B",
         "votes": {
-          "ABN": 1,
-          "ALN": 1,
-          "ED": 2
+          "ALN": 1
         }
       },
       {
         "oid": "C",
         "votes": {
-          "ALN": 2,
-          "ED": 1
+          "MB": 1
         }
       },
       {
         "oid": "D",
         "votes": {
-          "MB": 2,
-          "VC": 1
+          "DEF": 1
         }
+      },
+      {
+        "oid": "E",
+        "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.S1",
-    "stemKey": "O.S1"
+    "qid": "N12M",
+    "register": "needed",
+    "stemKey": "N12M"
   },
-  "O.S2": {
-    "kind": "separation",
+  "N13L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "DEF": 1,
-          "FAI": 2,
-          "POW": 1
+          "VC": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "DEF": 2,
+          "FAI": -1
+        }
+      },
+      {
+        "oid": "C",
+        "votes": {
+          "DEF": -1
+        }
+      },
+      {
+        "oid": "D",
+        "votes": {
+          "ABN": -1
+        }
+      }
+    ],
+    "part": "O",
+    "qid": "N13L",
+    "register": "stings",
+    "stemKey": "N13L"
+  },
+  "N13M": {
+    "escapeOid": "E",
+    "kind": "most",
+    "options": [
+      {
+        "oid": "A",
+        "votes": {
+          "VC": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
           "FAI": 1
         }
       },
       {
         "oid": "C",
         "votes": {
-          "FAI": 1,
-          "POW": 2
+          "DEF": 1
         }
       },
       {
         "oid": "D",
         "votes": {
-          "MB": 2,
-          "VC": 1
+          "ABN": 1
         }
+      },
+      {
+        "oid": "E",
+        "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.S2",
-    "stemKey": "O.S2"
+    "qid": "N13M",
+    "register": "stings",
+    "stemKey": "N13M"
   },
-  "O.S3": {
-    "kind": "separation",
+  "N14L": {
+    "displayFilter": true,
+    "kind": "least",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "MB": 2,
-          "VC": 1
+          "MB": -1
         }
       },
       {
         "oid": "B",
         "votes": {
-          "MB": 1,
-          "VC": 2
+          "POW": -1
         }
       },
       {
         "oid": "C",
         "votes": {
-          "ABN": 2,
-          "VC": 1
+          "ED": -1
         }
       },
       {
         "oid": "D",
         "votes": {
-          "FAI": 1,
-          "POW": 2
+          "ALN": -1
         }
       }
     ],
     "part": "O",
-    "qid": "O.S3",
-    "stemKey": "O.S3"
+    "qid": "N14L",
+    "register": "stings",
+    "stemKey": "N14L"
   },
-  "O.S4": {
-    "kind": "separation",
+  "N14M": {
+    "escapeOid": "E",
+    "kind": "most",
     "options": [
       {
         "oid": "A",
         "votes": {
-          "FAI": 2,
+          "MB": 1
+        }
+      },
+      {
+        "oid": "B",
+        "votes": {
           "POW": 1
         }
       },
       {
-        "oid": "B",
-        "votes": {
-          "FAI": 1,
-          "POW": 2
-        }
-      },
-      {
         "oid": "C",
         "votes": {
-          "FAI": 1,
-          "VC": 2
-        }
-      }
-    ],
-    "part": "O",
-    "qid": "O.S4",
-    "stemKey": "O.S4"
-  },
-  "O.S5": {
-    "kind": "separation",
-    "options": [
-      {
-        "oid": "A",
-        "votes": {
-          "ALN": 1,
-          "ED": 2
-        }
-      },
-      {
-        "oid": "B",
-        "votes": {
-          "ALN": 2,
           "ED": 1
-        }
-      },
-      {
-        "oid": "C",
-        "votes": {
-          "ALN": 1,
-          "DEF": 2
         }
       },
       {
         "oid": "D",
         "votes": {
-          "ABN": 2,
-          "ED": 1
+          "ALN": 1
         }
+      },
+      {
+        "oid": "E",
+        "votes": {}
       }
     ],
     "part": "O",
-    "qid": "O.S5",
-    "stemKey": "O.S5"
+    "qid": "N14M",
+    "register": "stings",
+    "stemKey": "N14M"
+  },
+  "V.CGROUP": {
+    "kind": "pick",
+    "options": [],
+    "part": "V",
+    "qid": "V.CGROUP",
+    "stemKey": "V.CGROUP"
   },
   "V.CPICK": {
     "kind": "pick",

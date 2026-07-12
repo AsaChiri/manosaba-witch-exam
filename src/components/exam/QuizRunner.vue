@@ -44,8 +44,6 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
           />
         </span>
       </div>
-
-      <p class="quiz__draft">{{ T('exam.draftNotice') }}</p>
     </header>
 
     <Transition name="q-slide" mode="out-in">
@@ -56,11 +54,14 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
             <button
               type="button"
               class="quiz__opt"
+              :class="{ 'is-locked': opt.disabled }"
               :data-oid="opt.id"
-              @click="emit('answer', opt.id)"
+              :disabled="opt.disabled"
+              @click="opt.disabled ? undefined : emit('answer', opt.id)"
             >
               <span class="quiz__opt-mark" aria-hidden="true"></span>
               <span class="quiz__opt-label">{{ opt.label }}</span>
+              <span v-if="opt.disabled" class="quiz__opt-lock">{{ T('exam.chosenAsMost') }}</span>
             </button>
           </li>
         </ul>
@@ -120,14 +121,6 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
   letter-spacing: 0.1em;
   color: var(--bone-faint);
   text-transform: uppercase;
-}
-.quiz__draft {
-  margin: 0.7rem 0 0;
-  font-family: var(--font-instrument);
-  font-size: 0.68rem;
-  letter-spacing: 0.14em;
-  color: color-mix(in srgb, var(--exam-cyan) 55%, var(--bone-faint));
-  opacity: 0.75;
 }
 .quiz__gauge-bar {
   display: flex;
@@ -192,18 +185,44 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
   border: 1px solid color-mix(in srgb, var(--exam-cyan) 60%, transparent);
   transition: background 180ms, box-shadow 180ms;
 }
-.quiz__opt:hover,
-.quiz__opt:focus-visible {
+.quiz__opt:not(:disabled):hover,
+.quiz__opt:not(:disabled):focus-visible {
   border-color: color-mix(in srgb, var(--exam-cyan) 55%, transparent);
   background: color-mix(in srgb, var(--exam-cyan) 8%, var(--velvet-raised));
   transform: translateX(3px);
   box-shadow: -3px 0 0 0 var(--exam-cyan), 0 0 26px -6px color-mix(in srgb, var(--exam-cyan) 40%, transparent);
   outline: none;
 }
-.quiz__opt:hover .quiz__opt-mark,
-.quiz__opt:focus-visible .quiz__opt-mark {
+.quiz__opt:not(:disabled):hover .quiz__opt-mark,
+.quiz__opt:not(:disabled):focus-visible .quiz__opt-mark {
   background: var(--exam-cyan);
   box-shadow: 0 0 10px color-mix(in srgb, var(--exam-cyan) 70%, transparent);
+}
+
+/* The locked line = the pick you already marked "most" on this block. Shown so
+   the screen keeps all four lines, dimmed and inert (you cannot pick it least). */
+.quiz__opt.is-locked {
+  cursor: not-allowed;
+  opacity: 0.5;
+  background: color-mix(in srgb, var(--velvet-raised) 55%, transparent);
+  border-style: dashed;
+  border-color: var(--hairline-faint);
+}
+.quiz__opt.is-locked .quiz__opt-mark {
+  transform: rotate(45deg) scale(0.85);
+  border-color: var(--hairline-faint);
+  background: color-mix(in srgb, var(--bone) 25%, transparent);
+  box-shadow: none;
+}
+.quiz__opt-lock {
+  margin-left: auto;
+  flex: none;
+  font-family: var(--font-instrument);
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--bone-faint);
 }
 
 .quiz__foot {

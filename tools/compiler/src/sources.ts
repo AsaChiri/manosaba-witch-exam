@@ -10,8 +10,9 @@ export interface Sources {
   workspace: string;
   phase3: string;
   scorer: string;
+  /** origin v2 locked sources (score_v2.py KEY, item_sheet.md, zh strings, reference_cells). */
+  originV2: string;
   copingBank: string;
-  originBank: string;
   picksetBank: string;
   manifest: string;
   cardsDir: string;
@@ -28,8 +29,8 @@ export function makeSources(workspace: string): Sources {
     workspace,
     phase3,
     scorer,
+    originV2: join(phase3, "validation", "origin_v2"),
     copingBank: join(phase3, "coping_question_bank_draft.md"),
-    originBank: join(phase3, "origin_question_bank_draft.md"),
     picksetBank: join(phase3, "subvariant_pickset_bank_draft.md"),
     manifest: join(
       workspace,

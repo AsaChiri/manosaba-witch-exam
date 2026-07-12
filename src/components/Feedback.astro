@@ -13,18 +13,16 @@ interface Props {
   tag: string
   quizVersion: string
   variant?: 'prominent' | 'quiet'
-  showArchival?: boolean
 }
-const { locale, tag, quizVersion, variant = 'quiet', showArchival = false } = Astro.props
+const { locale, tag, quizVersion, variant = 'quiet' } = Astro.props
 
-const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'feedback@example.invalid'
+const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'witch-exam-feedback@asachiri.com'
 const subject = t(locale, 'feedback.mailSubject', { tag, quiz: quizVersion, locale })
 const body = t(locale, 'feedback.mailBody')
 const mailto = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 ---
 
 <section class:list={['feedback', `feedback--${variant}`]} lang={locale}>
-  {showArchival && <p class="feedback__archival">{t(locale, 'feedback.softArchival')}</p>}
   <p class="feedback__invite">{t(locale, 'feedback.invite')}</p>
   <div class="feedback__row">
     <a class="feedback__write" href={mailto}>{t(locale, 'feedback.emailLabel')}</a>
@@ -82,12 +80,6 @@ const mailto = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${en
     padding: 1.4rem 1.5rem;
     border: 1px solid var(--hairline-faint);
     background: color-mix(in srgb, var(--velvet) 70%, transparent);
-  }
-  .feedback__archival {
-    font-family: var(--font-body);
-    font-style: italic;
-    color: var(--witch-violet);
-    letter-spacing: 0.02em;
   }
   .feedback__invite {
     color: var(--bone-dim);

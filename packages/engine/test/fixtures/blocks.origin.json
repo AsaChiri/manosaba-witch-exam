@@ -1,0 +1,21 @@
+{
+  "version": "origin-v2",
+  "escape": "E",
+  "families": ["ABN", "ED", "MB", "DEF", "ALN", "FAI", "VC", "POW"],
+  "blocks": [
+    { "id": "N01", "register": "scenes", "key": { "A": "ABN", "B": "MB", "C": "ALN", "D": "VC" } },
+    { "id": "N02", "register": "scenes", "key": { "A": "ED", "B": "DEF", "C": "FAI", "D": "POW" } },
+    { "id": "N03", "register": "sentences", "key": { "A": "FAI", "B": "ALN", "C": "ED", "D": "ABN" } },
+    { "id": "N04", "register": "sentences", "key": { "A": "VC", "B": "POW", "C": "DEF", "D": "MB" } },
+    { "id": "N05", "register": "hums", "key": { "A": "DEF", "B": "ABN", "C": "POW", "D": "FAI" } },
+    { "id": "N06", "register": "hums", "key": { "A": "ALN", "B": "VC", "C": "MB", "D": "ED" } },
+    { "id": "N07", "register": "rules", "key": { "A": "MB", "B": "ED", "C": "ABN", "D": "DEF" } },
+    { "id": "N08", "register": "rules", "key": { "A": "POW", "B": "FAI", "C": "VC", "D": "ALN" } },
+    { "id": "N09", "register": "weather", "key": { "A": "ABN", "B": "MB", "C": "FAI", "D": "POW" } },
+    { "id": "N10", "register": "weather", "key": { "A": "ED", "B": "DEF", "C": "ALN", "D": "VC" } },
+    { "id": "N11", "register": "needed", "key": { "A": "VC", "B": "POW", "C": "ABN", "D": "ED" } },
+    { "id": "N12", "register": "needed", "key": { "A": "FAI", "B": "ALN", "C": "MB", "D": "DEF" } },
+    { "id": "N13", "register": "stings", "key": { "A": "VC", "B": "FAI", "C": "DEF", "D": "ABN" } },
+    { "id": "N14", "register": "stings", "key": { "A": "MB", "B": "POW", "C": "ED", "D": "ALN" } }
+  ]
+}

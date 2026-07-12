@@ -46,7 +46,7 @@ function loadContent(C: string): ContentPackage {
     questions: q("questions.json"),
     strings: q("strings.en.json"),
     copingTree: q("tree.coping.json"),
-    originTree: q("tree.origin.json"),
+    originBlocks: q("blocks.origin.json"),
     hashSpec: q("hash.spec.json"),
     picksets: q("picksets.json"),
     neighbor: q("neighbor.json"),
@@ -105,7 +105,15 @@ function main(): void {
   const shippedTags = new Set(
     Object.keys((content.cardsManifest as { tags: Record<string, unknown> }).tags),
   );
-  const personas = loadJson<Persona[]>(join(src.scorer, "all_answers.json"));
+  // origin-v2 reference personas: coping answers (v1 certified vectors) merged
+  // with the N-block origin answers.
+  const cells = loadJson<
+    { personaId: string; originAnswers: Record<string, string>; copingAnswers: Record<string, string | string[]> }[]
+  >(join(src.originV2, "reference_cells.json"));
+  const personas: Persona[] = cells.map((c) => ({
+    personaId: c.personaId,
+    answers: { ...c.copingAnswers, ...c.originAnswers },
+  }));
 
   // Pass 1 + Pass 2 (determinism).
   const pass1 = replayAll(content, personas);

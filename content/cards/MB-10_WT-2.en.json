@@ -1,0 +1,39 @@
+{
+  "cell": "MB|Watcher",
+  "copingSub": "WT-2",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-10",
+  "style": "Watcher",
+  "tag": "MB-10_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She read every prisoner — a guarded manner, a pause before an answer — and what she could not hold in her head she kept in a small book beneath her bunk.",
+          "A fellow prisoner searched her bunk, found the book, and read it aloud in the lounge — her watching of each of them opened for the whole room.",
+          "That prisoner kept a journal of her own, with one line struck to black — the one secret the girl had told no one.",
+          "She raised the struck-out line, whole and legible again, and read it: a hoard of sleeping powder behind a loose stone in the girl's cell, and the one spoonful the girl stirred into her water each night.",
+          "In the evening free time she let herself into the girl's solo cell — an entry no one in the corridor thought twice about — and swapped the hoard for a far stronger powder from the medical room, the same to the eye.",
+          "That night, locked in alone, the girl measured her usual spoonful into her water and did not wake.",
+          "At the morning unlock the girl was found dead of a medicine no one knew she took. In her journal the cancellation still crossed the line, yet the words beneath it read clear. She could have torn the page or re-inked the strike to erase her only trace; she let the sealed line stand instead.",
+          "Struck-out ink does not surface on its own, which means someone brought the line back — and the only prisoner who can do that is her. The swap also needed someone inside the girl's solo cell that evening, and a prisoner recalled her letting herself into it in the free-time hour."
+        ],
+        "epitaph": "She proved no page stays sealed, and was read to the last line.",
+        "epithet": "She Who Reads the Sealed",
+        "execution": [
+          "The execution stand rose bearing a long iron bed, a frame of fine styluses suspended above it.",
+          "She was laid face-up on the bed and bound, and the frame lowered until its points met her skin.",
+          "The styluses wrote — the very lines she had struck from her book, the pages she had kept from every eye — cut legible for the room to read.",
+          "The frame worked down her, line by line, and did not lift.",
+          "It writes until no skin is left unmarked."
+        ],
+        "magic": {
+          "name": "The Resurfacing",
+          "text": "She can make any writing a surface once carried rise back onto that surface, whole and legible, however it was erased, struck out, or torn away."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

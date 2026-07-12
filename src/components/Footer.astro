@@ -5,14 +5,14 @@
 import LocaleSwitcher from './LocaleSwitcher.astro'
 import Seal from './Seal.astro'
 import { t } from '../i18n'
-import type { Locale } from '../i18n/config'
+import { localePath, type Locale } from '../i18n/config'
 
 interface Props {
   locale: Locale
 }
 const { locale } = Astro.props
-const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'feedback@example.invalid'
-const V1_URL = 'https://manosaba-test.asachiri.com'
+const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'witch-exam-feedback@asachiri.com'
+const V1_URL = import.meta.env.PUBLIC_V1_URL || 'https://manosaba-test.asachiri.com'
 ---
 
 <footer class="site-footer" lang={locale}>
@@ -30,9 +30,20 @@ const V1_URL = 'https://manosaba-test.asachiri.com'
       <a href={`mailto:${email}`}>{t(locale, 'footer.contactLabel')}</a>
       <span class="dot">·</span>
       <a href={V1_URL} rel="noopener noreferrer" target="_blank">{t(locale, 'footer.v1Label')}</a>
+      {/* Unadvertised archive — set apart on the right, revealed only for visitors who've collected ≥1 card. */}
+      <a class="site-footer__collection" data-collection-link hidden href={localePath(locale, '/collection/')}>{t(locale, 'collection.link')}</a>
     </div>
   </div>
 </footer>
+
+<script>
+  import { hasCollected } from '../lib/collection'
+  if (hasCollected()) {
+    for (const el of document.querySelectorAll('[data-collection-link]')) {
+      el.removeAttribute('hidden')
+    }
+  }
+</script>
 
 <style>
   .site-footer {
@@ -83,5 +94,12 @@ const V1_URL = 'https://manosaba-test.asachiri.com'
   }
   .site-footer__links .dot {
     color: var(--bone-faint);
+  }
+  /* The archive link sits apart, pushed to the right end of the row. */
+  .site-footer__collection {
+    margin-left: auto;
+  }
+  .site-footer__collection:hover {
+    color: var(--witch-violet);
   }
 </style>

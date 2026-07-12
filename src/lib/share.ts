@@ -1,14 +1,26 @@
 /*
- * Share module (design spec §D), ported from v1 `src/share.ts` with its
+ * Share module (design spec §D) — two buttons per locale (the social button
+ * is a split button: its face fires the locale's default network, a dropdown
+ * carries the secondary ones), ported from v1 `src/share.ts` with its
  * hard-won workarounds intact:
  *  - html2canvas dynamic import, scale:2, forced 520px capture width,
  *    document.fonts.ready await, an `exporting` class that kills
  *    animations/shadows/backdrop-filter during capture;
  *  - Web Share files+text fallback chain with AbortError silence, download
  *    fallback, clipboard execCommand fallback;
- *  - exact Weibo/QQ/X share URL templates; locale-gated channels;
+ *  - exact intent URL templates (X/Threads/Weibo/QQ/Facebook/Reddit/LINE);
+ *    locale-gated actions;
  *  - QR (gold-on-ink) for the export footer so WeChat long-press works.
- * Share URL → /{locale}/r/{tag}/.
+ *
+ * Share URLs (§D): non-zh-CN → canonical `/{locale}/r/{tag}/` on
+ * PUBLIC_SITE_URL (not location.origin, so any secondary deployment still
+ * emits fresh canonical links). zh-CN → PUBLIC_SHARE_URL_ZH_CN when set: the
+ * trusted bilibili entry page + `?r={tag}`. That page is a deploy-once
+ * redirect shell (tools/bilibili-shell/) forwarding `?r` to the canonical
+ * card page, so WeChat/QQ pastes and the export QR carry a domain those apps
+ * trust while bilibili never needs redeploying for content releases. The
+ * entry-URL+query shape also degrades gracefully if a full mirror is ever
+ * hosted there instead: `?r` is ignored and the visitor lands on the exam.
  */
 import type { Locale } from '../i18n/config'
 import { localePath } from '../i18n/config'
@@ -25,18 +37,62 @@ export interface ShareCard {
   magicText: string
 }
 
-export type ShareChannel = 'save' | 'copy' | 'weibo' | 'qq' | 'x' | 'webshare'
+export type SocialAction =
+  | 'copy'
+  | 'weibo'
+  | 'qq'
+  | 'x'
+  | 'threads'
+  | 'facebook'
+  | 'reddit'
+  | 'line'
+export type ShareAction = 'image' | SocialAction
 
-/** Locale-gated channel order (Weibo/QQ for zh, X for others). */
-export function shareChannelsFor(locale: Locale): ShareChannel[] {
-  const isZh = locale === 'zh-CN' || locale === 'zh-TW'
-  const social: ShareChannel[] = isZh ? ['weibo', 'qq'] : ['x']
-  return ['save', 'copy', ...social, 'webshare']
+export interface ShareRowSpec {
+  /** The social button's face — the locale's default network. */
+  social: SocialAction
+  /** Secondary networks behind the social button's ▾ dropdown. */
+  more: SocialAction[]
+  /** zh-CN: the social (copy) button leads and renders primary. */
+  socialFirst: boolean
+}
+
+/**
+ * Two buttons per locale, first is primary (§D): the image export, and a
+ * social split button — face = where that locale actually shares, dropdown =
+ * the widely-used runners-up with a working URL-share intent. zh-CN's face
+ * is copy (WeChat/QQ sharing is paste-based; no usable intent URL) with
+ * Weibo/QQ intents behind the dropdown. Discord has no share-intent URL —
+ * links pasted there unfurl via the per-card OG meta instead.
+ */
+export function shareRowSpecFor(locale: Locale): ShareRowSpec {
+  switch (locale) {
+    case 'zh-CN':
+      return { social: 'copy', more: ['weibo', 'qq'], socialFirst: true }
+    case 'zh-TW':
+      return { social: 'threads', more: ['x', 'facebook', 'line', 'copy'], socialFirst: false }
+    case 'ja':
+      return { social: 'x', more: ['threads', 'line', 'copy'], socialFirst: false }
+    default:
+      return { social: 'x', more: ['threads', 'facebook', 'reddit', 'copy'], socialFirst: false }
+  }
+}
+
+function canonicalOrigin(): string {
+  const site = import.meta.env.PUBLIC_SITE_URL
+  if (site) return site.replace(/\/$/, '')
+  return typeof location !== 'undefined' ? location.origin : ''
 }
 
 export function shareUrl(card: ShareCard): string {
-  const origin = typeof location !== 'undefined' ? location.origin : ''
-  return `${origin}${localePath(card.locale, `/r/${card.tag}/`)}`
+  if (card.locale === 'zh-CN') {
+    const trusted = import.meta.env.PUBLIC_SHARE_URL_ZH_CN
+    if (trusted) {
+      const sep = trusted.includes('?') ? '&' : '?'
+      return `${trusted}${sep}r=${encodeURIComponent(card.tag)}`
+    }
+  }
+  return `${canonicalOrigin()}${localePath(card.locale, `/r/${card.tag}/`)}`
 }
 
 function summaryText(card: ShareCard): string {
@@ -58,28 +114,7 @@ export async function generateShareQr(card: ShareCard): Promise<string> {
 }
 
 export async function copySummary(card: ShareCard): Promise<boolean> {
-  const text = summaryText(card)
-  try {
-    if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(text)
-      return true
-    }
-  } catch {
-    /* fall through to execCommand */
-  }
-  try {
-    const ta = document.createElement('textarea')
-    ta.value = text
-    ta.style.position = 'fixed'
-    ta.style.opacity = '0'
-    document.body.appendChild(ta)
-    ta.select()
-    const ok = document.execCommand('copy')
-    document.body.removeChild(ta)
-    return ok
-  } catch {
-    return false
-  }
+  return copyText(summaryText(card))
 }
 
 export async function copyText(text: string): Promise<boolean> {
@@ -89,7 +124,7 @@ export async function copyText(text: string): Promise<boolean> {
       return true
     }
   } catch {
-    /* fall through */
+    /* fall through to execCommand */
   }
   try {
     const ta = document.createElement('textarea')
@@ -178,52 +213,33 @@ export async function saveResultImage(
   }
 }
 
-export function shareToWeibo(card: ShareCard): void {
-  const text = encodeURIComponent(
-    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
-  )
-  const url = encodeURIComponent(shareUrl(card))
-  window.open(
-    `https://service.weibo.com/share/share.php?url=${url}&title=${text}`,
-    '_blank',
-    'noopener,noreferrer',
-  )
+function templateText(card: ShareCard): string {
+  return t(card.locale, 'share.template', { name: card.name, magic: card.magic })
 }
 
-export function shareToQQ(card: ShareCard): void {
-  const title = encodeURIComponent(
-    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
-  )
-  const summary = encodeURIComponent(card.magicText)
-  const url = encodeURIComponent(shareUrl(card))
-  const site = encodeURIComponent(t(card.locale, 'meta.siteName'))
-  window.open(
-    `https://connect.qq.com/widget/shareqq/index.html?url=${url}&title=${title}&desc=${summary}&summary=${summary}&site=${site}`,
-    '_blank',
-    'noopener,noreferrer',
-  )
+/** Intent URL builders — every network here must accept a plain URL share. */
+const INTENT: Record<Exclude<SocialAction, 'copy'>, (card: ShareCard) => string> = {
+  x: (card) =>
+    `https://x.com/intent/post?text=${encodeURIComponent(templateText(card))}&url=${encodeURIComponent(shareUrl(card))}`,
+  // Threads' intent takes the URL inside `text` — its separate `url` param is
+  // newer and less reliably honored than X's.
+  threads: (card) =>
+    `https://www.threads.com/intent/post?text=${encodeURIComponent(`${templateText(card)}\n${shareUrl(card)}`)}`,
+  weibo: (card) =>
+    `https://service.weibo.com/share/share.php?url=${encodeURIComponent(shareUrl(card))}&title=${encodeURIComponent(templateText(card))}`,
+  qq: (card) => {
+    const summary = encodeURIComponent(card.magicText)
+    return `https://connect.qq.com/widget/shareqq/index.html?url=${encodeURIComponent(shareUrl(card))}&title=${encodeURIComponent(templateText(card))}&desc=${summary}&summary=${summary}&site=${encodeURIComponent(t(card.locale, 'meta.siteName'))}`
+  },
+  // Facebook's sharer takes only the URL; the preview comes from OG meta.
+  facebook: (card) =>
+    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl(card))}`,
+  reddit: (card) =>
+    `https://www.reddit.com/submit?url=${encodeURIComponent(shareUrl(card))}&title=${encodeURIComponent(templateText(card))}`,
+  line: (card) =>
+    `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(shareUrl(card))}&text=${encodeURIComponent(templateText(card))}`,
 }
 
-export function shareToX(card: ShareCard): void {
-  const text = encodeURIComponent(
-    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
-  )
-  const url = encodeURIComponent(shareUrl(card))
-  window.open(
-    `https://x.com/intent/tweet?text=${text}&url=${url}`,
-    '_blank',
-    'noopener,noreferrer',
-  )
-}
-
-/** Bare Web Share (text only) for the generic Share button. */
-export async function webShare(card: ShareCard): Promise<void> {
-  const data: ShareData = { text: summaryText(card), url: shareUrl(card) }
-  try {
-    if (navigator.share) await navigator.share(data)
-    else await copySummary(card)
-  } catch (err) {
-    if ((err as DOMException)?.name === 'AbortError') return
-    await copySummary(card)
-  }
+export function openIntent(action: Exclude<SocialAction, 'copy'>, card: ShareCard): void {
+  window.open(INTENT[action](card), '_blank', 'noopener,noreferrer')
 }

@@ -3,10 +3,11 @@
  *
  * These are the single source of truth for the shape of the compiled `content/`
  * package. The engine validates against them on load (opt-in); the compiler
- * validates its output against them before writing (fail-loud). The coping /
- * origin tree shapes deliberately mirror the CERTIFIED reference tables
- * (`questions_k.json` / `questions_o.json` / `prior.json`) so the deterministic
- * evaluator is a byte-faithful port of the reference scorer (see DECISIONS.md).
+ * validates its output against them before writing (fail-loud). The coping tree
+ * shape deliberately mirrors the CERTIFIED reference table (`questions_k.json`)
+ * so the coping evaluator stays a byte-faithful port of the reference scorer;
+ * the origin-v2 block shape mirrors the locked `score_v2.py` KEY table
+ * (see DECISIONS.md D11).
  */
 import { z } from "zod";
 
@@ -58,68 +59,35 @@ export const CopingTreeSchema = z.object({
 });
 export type CopingTree = z.infer<typeof CopingTreeSchema>;
 
-// ----------------------------------------------------------------- origin tree
-/** oid -> {family: points}. */
-const FamilyVoteMap = z.record(NonEmpty, z.number().int());
-
-export const OriginQuestionSchema = z.object({
-  kind: z.enum([
-    "router",
-    "separation",
-    "discriminator",
-    "alternate",
-  ]),
-  new_slot: z.boolean().optional(),
-  pair: z.tuple([NonEmpty, NonEmpty]).optional(),
-  escape: z.string().nullable().optional(),
-  alternate: z.string().nullable().optional(),
-  options: z.record(NonEmpty, FamilyVoteMap),
+// ----------------------------------------------------------------- origin blocks (v2)
+/**
+ * Origin v2 instrument (`blocks.origin.json`): 14 recognition blocks
+ * (2-(8,4,3) BIBD), each a 4-line screen keyed one-line-one-family. Two slots
+ * per block: `<id>M` (most-mine, +1, escape oid votes nothing) and `<id>L`
+ * (least-mine, -1, must differ from M unless M escaped). Resolution is
+ * sum/argmax with tie-break (most-count, then `families` canonical order).
+ * Replaces the v1 origin tree (prior/routers/separations/discriminators/C1).
+ */
+export const OriginBlockSchema = z.object({
+  /** block id, e.g. "N01"; slots are `${id}M` / `${id}L`. */
+  id: NonEmpty,
+  /** register (stem-key grouping): scenes/sentences/hums/rules/weather/needed/stings. */
+  register: NonEmpty,
+  /** option letter -> keyed family (exactly A-D; the escape oid is NOT a key). */
+  key: z.record(NonEmpty, NonEmpty),
 });
-export type OriginQuestion = z.infer<typeof OriginQuestionSchema>;
+export type OriginBlock = z.infer<typeof OriginBlockSchema>;
 
-export const PriorRowSchema = z.object({
-  tier1: z.array(NonEmpty),
-  tier2: z.array(NonEmpty),
-  prearm: z.array(NonEmpty),
+export const OriginBlocksSchema = z.object({
+  version: NonEmpty,
+  /** escape oid on M screens (votes nothing), e.g. "E". */
+  escape: NonEmpty,
+  /** all families in canonical tie-break order (ABN < ED < ... < POW). */
+  families: z.array(NonEmpty).min(2),
+  /** blocks in ask order (N01..N14). */
+  blocks: z.array(OriginBlockSchema).min(1),
 });
-export type PriorRow = z.infer<typeof PriorRowSchema>;
-
-export const OriginMechanismSchema = z.object({
-  liveness_top_k: z.number().int(),
-  liveness_gap: z.number().int(),
-  liveness_gap_prearmed: z.number().int(),
-  disc_cap: z.number().int(),
-  alternate_gap: z.number().int(),
-  separation_blocks: z.number().int(),
-  c1_near_tie_gap: z.number().int(),
-  c1_third_option_gap: z.number().int(),
-  c1_escaped_pair_trigger: z.boolean(),
-});
-export type OriginMechanism = z.infer<typeof OriginMechanismSchema>;
-
-export const OriginTreeSchema = z.object({
-  mechanism: OriginMechanismSchema,
-  families: z.array(NonEmpty),
-  precedence: z.array(NonEmpty),
-  clusters: z.record(NonEmpty, z.array(NonEmpty)),
-  cluster_block: z.record(NonEmpty, NonEmpty),
-  questions: z.record(NonEmpty, OriginQuestionSchema),
-  pairs: z.array(
-    z.object({
-      pair: z.tuple([NonEmpty, NonEmpty]),
-      primary: NonEmpty,
-      alternate: z.string().nullable(),
-      bank: z.enum(["P", "B"]),
-      num: z.number().int(),
-    }),
-  ),
-  frozen_pairs: z.array(z.tuple([NonEmpty, NonEmpty])),
-  uncovered_pairs: z.array(z.tuple([NonEmpty, NonEmpty])),
-  wanted_lines: z.record(NonEmpty, z.string()),
-  /** 25-row coping-style -> origin prior table (folded in from prior.json). */
-  prior: z.record(NonEmpty, PriorRowSchema),
-});
-export type OriginTree = z.infer<typeof OriginTreeSchema>;
+export type OriginBlocks = z.infer<typeof OriginBlocksSchema>;
 
 // ----------------------------------------------------------------- hash spec
 export const HashSpecSchema = z.object({
@@ -153,10 +121,8 @@ export const QuestionSchema = z.object({
     "core",
     "tiebreak",
     "probe",
-    "separation",
-    "discriminator",
-    "alternate",
-    "confirmation",
+    "most",
+    "least",
     "group",
     "pick",
   ]),
@@ -164,7 +130,8 @@ export const QuestionSchema = z.object({
   options: z.array(QuestionOptionSchema),
   displayFilter: z.boolean().optional(),
   escapeOid: z.string().nullable().optional(),
-  alternateOf: z.string().nullable().optional(),
+  /** origin-v2 register of an N-block slot (stem grouping). */
+  register: z.string().optional(),
 });
 export type Question = z.infer<typeof QuestionSchema>;
 export const QuestionsFileSchema = z.record(NonEmpty, QuestionSchema);
@@ -275,7 +242,7 @@ export const ContentPackageSchema = z.object({
   /** display text for the session's selected locale (optional for scoring). */
   strings: StringsFileSchema.optional(),
   copingTree: CopingTreeSchema,
-  originTree: OriginTreeSchema,
+  originBlocks: OriginBlocksSchema,
   hashSpec: HashSpecSchema,
   picksets: PicksetsFileSchema.optional(),
   neighbor: NeighborFileSchema.optional(),

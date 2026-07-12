@@ -9,7 +9,7 @@ import ExamIsland from '../components/exam/ExamIsland.vue'
 import Seal from '../components/Seal.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
-import { getManifest, getCardOrFallback, getContentMeta, sitePhase } from '../lib/content'
+import { getManifest, getCardOrFallback, getContentMeta } from '../lib/content'
 import type { Card } from '../lib/content-schema'
 
 interface Props {
@@ -50,7 +50,6 @@ const seo = {
       client:only="vue"
       locale={locale}
       quizVersion={meta.quizVersion}
-      phase={sitePhase()}
       cells={cells}
       cards={cards}
     />

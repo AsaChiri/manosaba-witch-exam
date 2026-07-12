@@ -454,291 +454,271 @@
       },
       "stem": "An orientation round asks everyone to share \"one personal thing.\""
     },
-    "O.B1": {
+    "N01L": {
       "options": {
-        "A": "that they got something out of it — you were useful right up until you weren't",
-        "B": "that they're simply gone — nothing taken, just the seat left empty",
-        "C": "neither frame fits"
+        "A": "the goodbye you got no vote on — the car, the suitcase, the \"back soon\" that wasn't",
+        "B": "the secret you told one person, coming back with an audience",
+        "C": "the lunch table, the group chat, even the family table — an inside you could see and never enter",
+        "D": "the ordinary morning that became the before-and-after line — the call, the diagnosis, the accident"
       },
-      "stem": "Someone who mattered hurt you once — most people have one. Which half aged worse?"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.B10": {
+    "N01M": {
       "options": {
-        "A": "the scanner — reading every new authority for what they'll eventually take",
-        "B": "the waiting — catching yourself asking a permission nobody is demanding anymore",
-        "C": "nothing followed"
+        "A": "the goodbye you got no vote on — the car, the suitcase, the \"back soon\" that wasn't",
+        "B": "the secret you told one person, coming back with an audience",
+        "C": "the lunch table, the group chat, even the family table — an inside you could see and never enter",
+        "D": "the ordinary morning that became the before-and-after line — the call, the diagnosis, the accident",
+        "E": "none of these is really mine"
       },
-      "stem": "You've left a controlling situation — a boss, a household, a partner, any flavor. A year on, what actually followed you out?"
+      "stem": "Some scenes from growing up stay installed for good — from home, school, a friendship, anywhere. Which do you know most from the inside?"
     },
-    "O.B11": {
+    "N02L": {
       "options": {
-        "A": "there's a definite someone under it — she just has no room where she's the native",
-        "B": "it's quieter than that — take the blending away, and it's not obvious what's left wanting things",
-        "C": "never noticed a seam"
+        "A": "telling the person who was supposed to care, and watching it land beside them — fed, fixed, applauded, not heard",
+        "B": "the laugh with an audience — the day a verdict landed on you and stuck",
+        "C": "results read aloud — your name and the word \"almost\" in the same breath",
+        "D": "forms signed for you, subjects chosen for you, your seat pre-assigned"
       },
-      "stem": "You can blend almost anywhere — most people can, more than they admit. When the blending comes off at the end of the day:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.B12": {
+    "N02M": {
       "options": {
-        "A": "the group has a second chat — smaller, older, and you were never in it",
-        "B": "your closest person in the group has a new closest person",
-        "C": "neither; groups shuffle"
+        "A": "telling the person who was supposed to care, and watching it land beside them — fed, fixed, applauded, not heard",
+        "B": "the laugh with an audience — the day a verdict landed on you and stuck",
+        "C": "results read aloud — your name and the word \"almost\" in the same breath",
+        "D": "forms signed for you, subjects chosen for you, your seat pre-assigned",
+        "E": "none of these is really mine"
       },
-      "stem": "Two Tuesday discoveries. Which lands harder?"
+      "stem": "Four more. Which do you know most from the inside?"
     },
-    "O.B13": {
+    "N03L": {
       "options": {
-        "A": "circles do this — they set, they seal; there's rarely a why with a face on it",
-        "B": "somebody worked the room — something was said, and you can almost name by whom",
-        "C": "you cooled first"
+        "A": "\"And what did the others get?\" / \"Almost doesn't count.\"",
+        "B": "\"You wouldn't get it — it's kind of an inside thing.\"",
+        "C": "\"Okay — but did you eat?\" / \"Look how well she's doing!\"",
+        "D": "\"I'll come back for you soon.\" / \"Be good, so people stay.\""
       },
-      "stem": "A circle you were part of has cooled on you — it happens. Your standing explanation:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.B2": {
+    "N03M": {
       "options": {
-        "A": "range control — close enough to be liked, never close enough to be inspected",
-        "B": "translation fatigue — up close they'd need the whole backstory, and they're not from where you're from, in any sense",
-        "C": "just pacing; it closes on its own"
+        "A": "\"And what did the others get?\" / \"Almost doesn't count.\"",
+        "B": "\"You wouldn't get it — it's kind of an inside thing.\"",
+        "C": "\"Okay — but did you eat?\" / \"Look how well she's doing!\"",
+        "D": "\"I'll come back for you soon.\" / \"Be good, so people stay.\"",
+        "E": "none of these is really mine"
       },
-      "stem": "You keep a certain distance with new people — most people do. Yours is mostly:"
+      "stem": "Some sentences get installed young and keep playing — said by a parent, a teacher, a classmate, or the world. Which do you know most from the inside?"
     },
-    "O.B3": {
+    "N04L": {
       "options": {
-        "A": "the engineering — who set it up, who already knew, how you were walked into it",
-        "B": "the display — the thing about you it held up to the light",
-        "C": "it dies with the evening"
+        "A": "\"Be careful. Call when you arrive. Did you take your medicine?\"",
+        "B": "\"It's been decided — it's for your own good.\"",
+        "C": "\"What is WRONG with you?\"",
+        "D": "\"Don't tell anyone what happens here.\" / \"They're only nice to you because…\""
       },
-      "stem": "A joke at your expense lands in a group and gets a real laugh. Which residue outlives the evening?"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.B3b": {
+    "N04M": {
       "options": {
-        "A": "the memo — a durable note about what people, given access, will do",
-        "B": "the film — the sense it left something on you, as if you're the one who now needs cleaning",
-        "C": "mostly just anger, then done"
+        "A": "\"Be careful. Call when you arrive. Did you take your medicine?\"",
+        "B": "\"It's been decided — it's for your own good.\"",
+        "C": "\"What is WRONG with you?\"",
+        "D": "\"Don't tell anyone what happens here.\" / \"They're only nice to you because…\"",
+        "E": "none of these is really mine"
       },
-      "stem": "After being genuinely wronged, two aftertastes. Which lasts longer in you?"
+      "stem": "Four more. Which do you know most from the inside?"
     },
-    "O.B4": {
+    "N05L": {
       "options": {
-        "A": "the one left on the platform — the door that closes, the chair that stays empty",
-        "B": "the one who made it out — and can't stand being the one who did",
-        "C": "neither type in particular"
+        "A": "the case being read — every bad day filed as evidence about you",
+        "B": "one ear always on the door — who's drifting, who leaves next",
+        "C": "your own life driven from someone else's seat",
+        "D": "the scoreboard refreshing — somewhere, your number being posted"
       },
-      "stem": "Two scenes in fiction reliably get you. Which gets you worse?"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.B5": {
+    "N05M": {
       "options": {
-        "A": "the phone — the ring itself, the news arriving, the minute everything turns",
-        "B": "the after — the world minus them, and you still in it, alone",
-        "C": "you don't do 3 a.m. versions"
+        "A": "the case being read — every bad day filed as evidence about you",
+        "B": "one ear always on the door — who's drifting, who leaves next",
+        "C": "your own life driven from someone else's seat",
+        "D": "the scoreboard refreshing — somewhere, your number being posted",
+        "E": "none of these is really mine"
       },
-      "stem": "Someone you love is in a fragile stretch — health, distance, anything. The 3 a.m. version of it is:"
+      "stem": "Everyone carries a background hum from back then — a low frequency under ordinary days. Which do you know most from the inside?"
     },
-    "O.B6": {
+    "N06L": {
       "options": {
-        "A": "monitor — watch it, look it up, wonder what it's the start of",
-        "B": "manage — who'll see it, from what angle, under what cover story",
-        "C": "ignore it entirely"
+        "A": "rooms with glass walls — the laughter always on the other side",
+        "B": "the phone that might ring — an ordinary day practicing its turn",
+        "C": "what does each person know about me, and what would they do with it",
+        "D": "the answer that never came, playing under every conversation since"
       },
-      "stem": "Your body does something new and inconvenient — nothing serious. The reflex that actually runs:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.B7": {
+    "N06M": {
       "options": {
-        "A": "stop providing and the warmth stops — it was never pointed at you, only at the output",
-        "B": "the math is off and someone knows it — more is being taken than given, and it isn't your ledger",
-        "C": "providing is just how groups work"
+        "A": "rooms with glass walls — the laughter always on the other side",
+        "B": "the phone that might ring — an ordinary day practicing its turn",
+        "C": "what does each person know about me, and what would they do with it",
+        "D": "the answer that never came, playing under every conversation since",
+        "E": "none of these is really mine"
       },
-      "stem": "Somewhere — work, group, family — you're clearly valued for what you provide. The thought that visits at the sink afterwards:"
+      "stem": "Four more. Which do you know most from the inside?"
     },
-    "O.B8": {
+    "N07L": {
       "options": {
-        "A": "the thing is a magnet — warmth arrives at it, never past it, and you've stopped expecting delivery",
-        "B": "the thing is a screen — it stands where you'd otherwise be looked at, and it had better hold",
-        "C": "the thing is just a thing you're good at"
+        "A": "check before you relax — PEOPLE are what you watch; the ones who know you can turn",
+        "B": "keep the inner weather to yourself — the people were right there, and it never once got picked up",
+        "C": "don't unpack — people leave; be easy to keep, flawless if you must, rehearse the goodbye anyway",
+        "D": "manage what they see — and sentence yourself first, it hurts less"
       },
-      "stem": "People like you for a thing — the skill, the humor, the reliability. The quieter read on it:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.B9": {
+    "N07M": {
       "options": {
-        "A": "\"oh, she's fine — she never needs anything\"",
-        "B": "\"oh, don't hand her that — she couldn't manage it\"",
-        "C": "neither would register"
+        "A": "check before you relax — PEOPLE are what you watch; the ones who know you can turn",
+        "B": "keep the inner weather to yourself — the people were right there, and it never once got picked up",
+        "C": "don't unpack — people leave; be easy to keep, flawless if you must, rehearse the goodbye anyway",
+        "D": "manage what they see — and sentence yourself first, it hurts less",
+        "E": "none of these is really mine"
       },
-      "stem": "Two lines said fondly about someone. Which would grate more, said about you today?"
+      "stem": "Growing up teaches everyone one rule before any other — wherever the teaching happened. Which do you know most from the inside?"
     },
-    "O.C1": {
+    "N08L": {
       "options": {
-        "ABN": "a staying that doesn't expire — the door no longer watched",
-        "ALN": "a table where you're not a guest",
-        "DEF": "the all-clear — fine as-is, even seen in full",
-        "ED": "being gotten — eyes that land on you, no translation needed",
-        "FAI": "the settled verdict that you're good at this — immune to the next test",
-        "MB": "one person you could be fully off-guard with",
-        "POW": "the wheel handled — or the wanting that finally knows its own direction",
-        "VC": "a tomorrow guaranteed to hold no ambush"
+        "A": "the wheel isn't yours — someone else has always driven; alone, the machinery doesn't start",
+        "B": "be ready to be measured — polish past perfect, and \"almost\" still finds you",
+        "C": "an ordinary DAY can turn — the world itself, once, without warning; pre-live the endings",
+        "D": "circles don't really open — live in the somewhere you built inside"
       },
-      "stem": "At bottom — if one of these could simply be handed to you, which do you take?"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.P1": {
+    "N08M": {
       "options": {
-        "A": "they were right there all evening — and somehow never quite with you",
-        "B": "the moment they glanced at the time and began gathering their things",
-        "C": "neither, honestly"
+        "A": "the wheel isn't yours — someone else has always driven; alone, the machinery doesn't start",
+        "B": "be ready to be measured — polish past perfect, and \"almost\" still finds you",
+        "C": "an ordinary DAY can turn — the world itself, once, without warning; pre-live the endings",
+        "D": "circles don't really open — live in the somewhere you built inside",
+        "E": "none of these is really mine"
       },
-      "stem": "Two small moments with someone who matters. Which one follows you home?"
+      "stem": "Four more. Which do you know most from the inside?"
     },
-    "O.P1b": {
+    "N09L": {
       "options": {
-        "A": "they'd been looking straight at you — and not seeing you",
-        "B": "you hadn't crossed their mind at all — you'd simply slipped it",
-        "C": "can't rank them"
+        "A": "warm fronts that always moved on — every good season already packing",
+        "B": "indoor weather that could flip — kindness with a delay charge",
+        "C": "exam-hall weather, all year round",
+        "D": "passenger weather — scenery moving, your hands in your lap"
       },
-      "stem": "Which is worse to learn afterwards?"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.P2": {
+    "N09M": {
       "options": {
-        "A": "who — whose hand is in this, who knew, who let it through",
-        "B": "what did I miss — which sign, which lock, which ordinary Tuesday it started",
-        "C": "neither; you go straight to cleanup"
+        "A": "warm fronts that always moved on — every good season already packing",
+        "B": "indoor weather that could flip — kindness with a delay charge",
+        "C": "exam-hall weather, all year round",
+        "D": "passenger weather — scenery moving, your hands in your lap",
+        "E": "none of these is really mine"
       },
-      "stem": "Something bad lands on you — any size. The first question your mind actually runs:"
+      "stem": "If your growing-up had a climate. Which do you know most from the inside?"
     },
-    "O.P2b": {
+    "N10L": {
       "options": {
-        "A": "the one who caused it — the face, the choice, what they got away with",
-        "B": "how ordinary the minute before was — and the seat from which you watched it turn",
-        "C": "your own hands, and what they should have done"
+        "A": "well-stocked, room-temperature — everything provided except the question underneath",
+        "B": "courtroom air at home temperature — always mid-hearing",
+        "C": "standing-outside weather, every season, even indoors",
+        "D": "clear skies you never trusted again after the one storm"
       },
-      "stem": "In the bad scene your imagination occasionally re-runs (everyone's runs one), the frame that loops:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.P3": {
+    "N10M": {
       "options": {
-        "A": "\"you're so capable\" — because the next real test can still take it away",
-        "B": "\"you're such a good person\" — because they're describing someone you've shown them",
-        "C": "both land fine"
+        "A": "well-stocked, room-temperature — everything provided except the question underneath",
+        "B": "courtroom air at home temperature — always mid-hearing",
+        "C": "standing-outside weather, every season, even indoors",
+        "D": "clear skies you never trusted again after the one storm",
+        "E": "none of these is really mine"
       },
-      "stem": "Two compliments, both sincere. Which one leaves the small splinter?"
+      "stem": "Four more. Which do you know most from the inside?"
     },
-    "O.P3b": {
+    "N11L": {
       "options": {
-        "A": "a thing to keep sealed — the point is that no one ever gets to see it",
-        "B": "a distrust of your own calls — you double-check yourself where you used to be sure",
-        "C": "a flinch at being handed anything that matters — once was enough",
-        "D": "none of these keeps visiting"
+        "A": "one guarantee that today would still be there tonight",
+        "B": "one decision that was genuinely, dangerously yours",
+        "C": "one person who demonstrably wasn't going anywhere",
+        "D": "someone to pick up the thing under the words"
       },
-      "stem": "A past misstep still visits now and then — everyone owns one. When yours visits, it arrives mostly as:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.P4": {
+    "N11M": {
       "options": {
-        "A": "the rooms one: you can pass in any group and belong in none — even mid-laughter some translator in you is still working",
-        "B": "the one-person one: even with someone right there who cares, the signal never quite lands — seen daily, read never",
-        "C": "neither is the old one"
+        "A": "one guarantee that today would still be there tonight",
+        "B": "one decision that was genuinely, dangerously yours",
+        "C": "one person who demonstrably wasn't going anywhere",
+        "D": "someone to pick up the thing under the words",
+        "E": "none of these is really mine"
       },
-      "stem": "Two aches. Everyone has met both — but one of them is yours, the one that's been there longest. Which?"
+      "stem": "Back then — gut-first. Which do you know most from the inside?"
     },
-    "O.P4b": {
+    "N12L": {
       "options": {
-        "A": "a table — plural, people, a place where you'd stop performing membership because you'd have it",
-        "B": "a reader — one pair of eyes that finally lands on you without a manual",
-        "C": "can't rank them"
+        "A": "one arena where your number finally cleared the bar",
+        "B": "one room where you were OF it, not just in it",
+        "C": "one hand that stayed safe after it knew everything",
+        "D": "one appeal somebody actually heard"
       },
-      "stem": "If exactly one could be delivered tonight:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.P5": {
+    "N12M": {
       "options": {
-        "A": "deciding is the easy part — you'll have picked by breakfast, alone is fine; it's the verdict you brace for, because your picks have a record of coming back marked wrong",
-        "B": "the deciding itself is the wall — alone, the needle just doesn't move; the same choice with someone beside you would be done in an hour",
-        "C": "neither; decisions come and go fine"
+        "A": "one arena where your number finally cleared the bar",
+        "B": "one room where you were OF it, not just in it",
+        "C": "one hand that stayed safe after it knew everything",
+        "D": "one appeal somebody actually heard",
+        "E": "none of these is really mine"
       },
-      "stem": "A real decision, yours alone, due tomorrow. Which is closer to how it actually goes?"
+      "stem": "Four more. Which do you know most from the inside?"
     },
-    "O.P5b": {
+    "N13L": {
       "options": {
-        "A": "it would all get run — lists made, bills filed, calls placed — and you'd still be bracing for the audit that finds the mistake only you would make",
-        "B": "it wouldn't get run — not run badly, just not run; the machinery turns over when someone is in it with you, and this season no one is",
-        "C": "honestly fine either way"
+        "A": "how normal that morning was, right up until it wasn't",
+        "B": "coming second — and rehearsing the single mistake for years",
+        "C": "any compliment — you audit it at once for what they missed",
+        "D": "a full, happy room — and you quietly counting who's already half-gone"
       },
-      "stem": "A season completely alone — no one to ask, lean on, or check with. Which is the truer forecast?"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.R1": {
+    "N13M": {
       "options": {
-        "A": "a long thread of friends who've known each other forever — in-jokes stacked like furniture",
-        "B": "\"she knew what I meant before I finished saying it\" — someone describing being gotten",
-        "C": "a quiet drifting-apart story — or the post that just says \"one year without you\"",
-        "D": "a straight-A report of a test — the exam aced, the audition passed, the license nailed first try; the verdict-machine smiled on someone, and it would have found you out",
-        "E": "\"just show people the real you\" — cheerful advice, huge engagement",
-        "F": "a story of someone's kindness repaid with a knife in the back — comments cheering the revenge",
-        "G": "an ordinary dashcam morning that turns, in one second, into the worst day of someone's life",
-        "H": "\"signed the lease, filed the taxes, chose the city\" — someone steering a whole life with one pair of hands, no co-pilot, and liking it"
+        "A": "how normal that morning was, right up until it wasn't",
+        "B": "coming second — and rehearsing the single mistake for years",
+        "C": "any compliment — you audit it at once for what they missed",
+        "D": "a full, happy room — and you quietly counting who's already half-gone",
+        "E": "none of these is really mine"
       },
-      "stem": "Late one night you're scrolling, and a stranger's post unexpectedly stings. Of these, the one that would sit with you longest:"
+      "stem": "The small thing that still lands on an ordinary day. Which do you know most from the inside?"
     },
-    "O.R2": {
+    "N14L": {
       "options": {
-        "A": "the one that listens for people going or cooling — checking whether they're still really with you",
-        "B": "the one that grades you — tallying what you got wrong and what you're about to",
-        "C": "the one that keeps translating you into the local language — everywhere, with everyone",
-        "D": "the one that keeps watch — for the next move against you, or the next blow out of nowhere",
-        "E": "the one that stalls at every fork until someone else weighs in"
+        "A": "who you still were the day before they used it",
+        "B": "being asked \"what do you want?\" and hearing static",
+        "C": "real applause from the exact people who never once asked",
+        "D": "the group photo assembling itself around the space where you stood"
       },
-      "stem": "If one background hum in your head could be switched off tomorrow, you'd pick:"
+      "stem": "And which is least yours — simply not your story?"
     },
-    "O.R3": {
+    "N14M": {
       "options": {
-        "A": "\"you always half-expect people to walk out the door\"",
-        "B": "\"you've never once felt properly understood, have you\"",
-        "C": "\"you never stop bracing for the next blow\"",
-        "D": "\"you keep one eye on everyone's hands\"",
-        "E": "\"you've never really been one of them — any them, anywhere\"",
-        "F": "\"you still think if they saw all of you, they'd go\"",
-        "G": "\"you're always waiting to be found out as not good enough at this\"",
-        "H": "\"you can't quite run it alone, can you — and you know it\""
+        "A": "who you still were the day before they used it",
+        "B": "being asked \"what do you want?\" and hearing static",
+        "C": "real applause from the exact people who never once asked",
+        "D": "the group photo assembling itself around the space where you stood",
+        "E": "none of these is really mine"
       },
-      "stem": "Someone who knows you well says one of these — kindly, and not wrongly. Which one would land closest to the bone?"
-    },
-    "O.S1": {
-      "options": {
-        "A": "the sense they're on their way out — you catch yourself reading the shorter replies like tea leaves",
-        "B": "that even when you do talk, it lands beside you — they're present, and not quite with you",
-        "C": "that their real life is a room you're not in — the group, the plans, the jokes that aren't yours",
-        "D": "the itch to find out what's actually going on — what you're not being told"
-      },
-      "stem": "A close friend has been quieter than usual for a few weeks. The version of it that actually bothers you:"
-    },
-    "O.S2": {
-      "options": {
-        "A": "the result — botching it where it counts, the record showing it",
-        "B": "the exposure — that many eyes at that range, whatever the result",
-        "C": "the aloneness of it — you can do things, just not unheld; who else is on this?",
-        "D": "the angle — why you, and who benefits if you stumble"
-      },
-      "stem": "You're asked, in front of people who matter, to take on something visible and difficult. The needle that moves first:"
-    },
-    "O.S3": {
-      "options": {
-        "A": "authored — someone's intention is in it somewhere: a set-up, a leak, a turn",
-        "B": "authorless — a call, a lump, a skid; the world doesn't need a reason",
-        "C": "it's about the people you'd lose, not the event itself",
-        "D": "it's about being the one who couldn't handle whatever it is"
-      },
-      "stem": "Walking home you get the classic bad feeling — something's off. Nine times out of ten, the shape it takes:"
-    },
-    "O.S4": {
-      "options": {
-        "A": "grinding at it — braced the whole way for the mistake you're surely making",
-        "B": "not started — it just sits there; it won't begin until someone is in it with you",
-        "C": "done early, checked five times, and you can still hear the missed error ticking"
-      },
-      "stem": "A new, fiddly, consequential form must be filed by Friday. No one can do it for you. Tuesday-you is most likely:"
-    },
-    "O.S5": {
-      "options": {
-        "A": "noticing that one person — the friend across the table who loves you — is answering someone you aren't quite; even your closest pair runs on translation",
-        "B": "noticing you're doing the accent again — fluent company, native of nowhere; or that the things you actually love live in a drawer no group has ever asked about",
-        "C": "noticing one person keeps reading you — closer than you dressed for",
-        "D": "noticing the friend you came with drifting into someone else's orbit tonight"
-      },
-      "stem": "A gathering is going fine. The small moment that would quietly deflate you:"
+      "stem": "Four more. Which do you know most from the inside?"
     },
     "V.CPICK": {
       "options": {
@@ -844,6 +824,8 @@
         "ALN-G1": "It's been there from the start — wherever you were put, the people around you ran on settings you didn't come with.",
         "ALN-G2": "It was never anything about you — where you come from, when you arrived, what you left behind did the placing, every time.",
         "ALN-G3": "You did get in — that's the strange part — and being in is exactly how you learned it wasn't yours.",
+        "AV-G1": "It's about territory — some parts of the world are simply closed, and your life runs comfortably inside the part that's open.",
+        "AV-G2": "It's about the move — you can be anywhere, because there's always a way to not quite arrive, not quite start, not quite stay.",
         "DEF-G1": "Yours has no date and no witness — it's something on the inside of you, and nobody has ever actually seen it.",
         "DEF-G2": "Yours is a fact — something that happened, or the house you come from — kept covered because uncovered it would change every face around you.",
         "DEF-G3": "Yours sits where seeing happens — in the mirror, in their reactions, in something once said to your face — and you've always known exactly what has to be managed.",

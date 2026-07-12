@@ -17,12 +17,12 @@
     "title": "Witch Factor Examination",
     "hook": "The witch factor in you is still asleep.",
     "ctaBegin": "Begin the examination",
-    "ctaAside": "Adapts to you — usually 15 to 30 questions."
+    "ctaAside": "Adapts to you — usually 20 to 40 questions."
   },
   "footer": {
     "disclaimer": "This site is a non-commercial fan work based on 魔法少女ノ魔女裁判 (Magical Girl · Witch Trial), unaffiliated with the original and its rights holders.",
     "contactLabel": "Contact & feedback",
-    "v1Label": "The earlier personality test"
+    "v1Label": "The personality test from the same author"
   },
   "localeSwitcher": {
     "label": "Language"
@@ -36,7 +36,7 @@
     "eyebrow": "CONSENT",
     "title": "Consent to Examination",
     "fan": "This examination is a non-commercial fan project based on 魔法少女ノ魔女裁判, unaffiliated with the original work and its rights holders.",
-    "age": "This examination contains mature content that may not be suitable for all audiences, including: violence; blood; death; corpses; killing; depictions of execution, self-harm and suicide; and fear and psychological horror, presented as text, with no graphic imagery. If any of these topics may distress you, please do not proceed.",
+    "age": "This examination is intended for individuals 18 years and older and contains mature content that may not be suitable for all audiences, including: violence; blood; death; corpses; killing; depictions of execution, self-harm and suicide; and fear and psychological horror, presented as text, with no graphic imagery. If any of these topics may distress you, please do not proceed.",
     "content": "If you are in a fragile place right now, go gently — you can stop at any time.",
     "crisisIntro": "If you are struggling with thoughts of hurting yourself, please reach a crisis line first:",
     "storage": "Your answers stay in this browser, on this device. Nothing is uploaded or collected.",
@@ -76,7 +76,7 @@
       "skip": "Skip",
       "confirm": "Complete the examination"
     },
-    "draftNotice": "Examination protocol · draft",
+    "chosenAsMost": "Chosen in the previous question",
     "inconclusive": {
       "title": "No matching record",
       "body": "No record matches you yet. Please take the examination again."
@@ -87,7 +87,7 @@
     "detected": "Witch factor — detected.",
     "sentence": "You are taken to the prison.",
     "skip": "Skip",
-    "teaser": "Filed —",
+    "teaser": "Magic detected —",
     "unfold": "Open the record"
   },
   "card": {
@@ -103,21 +103,23 @@
     "magicMark": "MAGIC"
   },
   "share": {
-    "heading": "Share",
-    "save": "Save image",
-    "copyLink": "Copy link",
+    "image": "Save image",
+    "copyShare": "Copy to share",
     "copied": "Copied",
-    "weibo": "Weibo",
-    "qq": "QQ",
-    "x": "X",
-    "webshare": "Share",
+    "x": "Share on X",
+    "threads": "Share on Threads",
+    "weibo": "Share on Weibo",
+    "qq": "Share on QQ",
+    "facebook": "Share on Facebook",
+    "reddit": "Share on Reddit",
+    "line": "Share on LINE",
+    "more": "More ways to share",
     "template": "Witch factor detected. My magic: “{magic}.”",
     "hint": "Take the examination: ",
     "qrCaption": "Scan to be examined",
     "exportTag": "Witch Factor Examination"
   },
   "feedback": {
-    "softArchival": "This archive is still being written.",
     "invite": "Suggestions to improve your result? We'd love to hear them.",
     "emailLabel": "Feedback address",
     "copyEmail": "Copy address",
@@ -128,6 +130,18 @@
   "result": {
     "safety": "If any of this has distressed you, please reach out to a crisis line below.",
     "safetyLink": "Crisis lines"
+  },
+  "collection": {
+    "link": "Magic Archive",
+    "title": "Magic Archive",
+    "intro": "Every magic your examinations have turned up is kept here.",
+    "count": "{count} detected",
+    "countTotal": "{count} / {total} detected",
+    "collectorNote": "The full figure-book of all {total} opens to you.",
+    "empty": "The archive is empty. Take the examination to detect your magic.",
+    "emptyCta": "Begin the examination",
+    "back": "Back to the archive",
+    "metaDesc": "The archive of magic you have been examined as."
   },
   "errors": {
     "archive": "The archive did not answer. Try again.",

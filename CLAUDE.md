@@ -46,18 +46,19 @@ npm -C tools/compiler run verify    # round-trip: compiled trees reproduce certi
 
 Post-Phase-3-gate quiz swap is the same loop: the validated bank recompiles into `content/quiz/`; `meta.json.contentVersion` changes, which auto-invalidates visitors' saved in-progress state.
 
-## Env / phases
+## Env
 
-`.env` (see `.env.example`): `PUBLIC_SITE_PHASE=soft|launch` (soft shows the archival line + prominent feedback), `PUBLIC_FEEDBACK_EMAIL` (dedicated alias — never a personal inbox), `PUBLIC_SITE_URL`, `PUBLIC_BEACON_URL` (unset = beacon no-op).
+`.env` (see `.env.example`): `PUBLIC_FEEDBACK_EMAIL` (dedicated alias — never a personal inbox), `PUBLIC_SITE_URL`, `PUBLIC_SHARE_URL_ZH_CN` (trusted bilibili URL for zh-CN copy-share + export QR — a deploy-once redirect shell, see `tools/bilibili-shell/`), `PUBLIC_V1_URL` (footer link to the author's prior personality test; unset = built-in default), `PUBLIC_BEACON_URL` (unset = beacon no-op).
 
 ## Soft-launch checklist (quiet public launch, ~1–2 weeks, no promo)
 
 - [ ] Phase-3 accuracy gate passed & validated bank compiled (quiz is DRAFT until then)
 - [ ] ship_list has the reviewed corpus; compile report coverage acceptable
 - [ ] `PUBLIC_FEEDBACK_EMAIL` set to a provisioned alias; test the mailto on desktop+mobile
-- [ ] Domain chosen; `PUBLIC_SITE_URL` + share URLs verified; OG unfurls tested (Weibo/QQ/X/Discord)
+- [ ] Domain chosen; `PUBLIC_SITE_URL` + share URLs verified; OG unfurls tested (X/Threads/Discord/QQ)
+- [ ] bilibili redirect shell (`tools/bilibili-shell/`) uploaded with the final domain baked in; `PUBLIC_SHARE_URL_ZH_CN` set; zh-CN copy-share link opens from a WeChat/QQ chat without a distrust interstitial and lands on the card (deploy-once: content releases never touch bilibili)
 - [ ] Beacon Worker + KV deployed; `PUBLIC_BEACON_URL` set; 4 events verified aggregate-only
-- [ ] `PUBLIC_SITE_PHASE=soft`; safety gate + crisis links re-verified per locale
+- [ ] safety gate + crisis links re-verified per locale
 - [ ] Share PNG export tested on real iOS + WeChat in-app browser (long-press save path)
 
 ## Hard rules

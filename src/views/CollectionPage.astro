@@ -1,0 +1,63 @@
+---
+/*
+ * The archive route (unadvertised collection page). Mirrors ExamPage: a thin
+ * locale-binding shell around a single client:only island. The island needs the
+ * authored catalog to render whatever the visitor has collected, but only the
+ * fields a tile shows — so we pass a TRIMMED map (title + epithet per tag),
+ * never the full card prose. noindex + sitemap exclusion keep it out of search.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro'
+import CollectionIsland from '../components/collection/CollectionIsland.vue'
+import Seal from '../components/Seal.astro'
+import { t } from '../i18n'
+import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
+import { listTags, getCardOrFallback } from '../lib/content'
+import { cardTitle } from '../lib/content-schema'
+
+interface Props {
+  locale: Locale
+}
+const { locale } = Astro.props
+
+const catalog: Record<string, { title: string; epithet: string }> = {}
+for (const tag of listTags()) {
+  const card = getCardOrFallback(tag, locale)
+  if (card) catalog[tag] = { title: cardTitle(card), epithet: card.epithet }
+}
+const total = Object.keys(catalog).length
+
+const seo = {
+  routeKey: '/collection/',
+  title: `${t(locale, 'collection.title')} · ${t(locale, 'meta.siteName')}`,
+  description: t(locale, 'collection.metaDesc'),
+  ogImage: `/og/${ASTRO_SEGMENT[locale]}/root.png`,
+  ogType: 'website' as const,
+  jsonld: [] as ('website' | 'quiz' | 'creativework')[],
+  noindex: true,
+}
+---
+
+<BaseLayout locale={locale} seo={seo} bodyClass="exam-body">
+  <a class="exam-home" href={localePath(locale, '/')} aria-label={t(locale, 'nav.home')}>
+    <Seal size={24} title={t(locale, 'meta.siteName')} />
+  </a>
+  <main id="main">
+    <CollectionIsland client:only="vue" locale={locale} catalog={catalog} total={total} />
+  </main>
+</BaseLayout>
+
+<style>
+  .exam-home {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 30;
+    color: var(--verdict-gold-deep);
+    opacity: 0.55;
+    transition: opacity 200ms, color 200ms;
+  }
+  .exam-home:hover {
+    opacity: 1;
+    color: var(--verdict-gold);
+  }
+</style>

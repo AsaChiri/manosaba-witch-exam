@@ -30,6 +30,12 @@ export interface ExamOption {
   id: string
   /** Localized display text (bone-on-velvet option card). */
   label: string
+  /**
+   * Shown but not answerable — the option is rendered dimmed/locked and emits
+   * no answer. Used by the origin "least" screen to echo the "most" pick (you
+   * cannot mark the same line most and least). Absent/false on normal options.
+   */
+  disabled?: boolean
 }
 
 export interface ExamQuestion {

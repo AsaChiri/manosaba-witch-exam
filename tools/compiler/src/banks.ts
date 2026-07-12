@@ -1,22 +1,21 @@
 /**
- * Tolerant parsers for the three authored banks. These supply DISPLAY TEXT only
- * (stems, option prose, group lines, pick sentences, wanted-lines) + the origin
- * group partitions. All votemaps come from the certified JSON, never from here.
+ * Tolerant parsers for the authored coping + pickset banks. These supply
+ * DISPLAY TEXT only (stems, option prose, group lines, pick sentences) + the
+ * origin group partitions. All votemaps come from the certified JSON, never
+ * from here. The v1 origin question bank is retired — origin-v2 texts come
+ * from `origin_v2/item_sheet.md` via origin-blocks.ts.
  */
 import { readFileSync } from "node:fs";
 import {
   normalizeOriginSub,
   normalizeCopingSub,
-  familyOfOriginSub,
 } from "./taxonomy.js";
 
 export interface BankData {
-  /** qid -> stem display text (K.* and O.* slots). */
+  /** qid -> stem display text (K.* slots). */
   stems: Record<string, string>;
   /** qid -> {oid -> option display text}. */
   optionText: Record<string, Record<string, string>>;
-  /** family code -> O.C1 wanted-line. */
-  wantedLines: Record<string, string>;
   /** origin sub-variant id -> pick sentence. */
   originPickText: Record<string, string>;
   /** coping sub-variant id -> pick sentence. */
@@ -49,10 +48,10 @@ function cleanDisplay(s: string): string {
 
 const OPTION_RE = /^-\s*([A-Za-z])\.\s+(.*)$/;
 
-/** Parse coping OR origin question bank into stems + option texts. */
+/** Parse the coping question bank into stems + option texts. */
 function parseQuestionBank(
   path: string,
-  ns: "K" | "O",
+  ns: "K",
   data: BankData,
 ): void {
   const text = readFileSync(path, "utf8");
@@ -74,24 +73,12 @@ function parseQuestionBank(
       continue;
     }
     if (!cur) continue;
-    // origin "Stem: "..."" line
-    const sm = /^Stem:\s*"?(.+?)"?\s*$/.exec(line);
-    if (sm && ns === "O") {
-      data.stems[cur] = cleanDisplay(sm[1]!);
-      continue;
-    }
+    void ns;
     const om = OPTION_RE.exec(line);
     if (om) {
       const oid = om[1]!;
       data.optionText[cur]![oid] = cleanDisplay(om[2]!);
       continue;
-    }
-    // O.C1 wanted-line table rows: | FAM | line |
-    if (cur === "O.C1") {
-      const cells = tableCells(line);
-      if (cells && cells.length === 2 && /^[A-Z]{2,4}$/.test(cells[0]!)) {
-        if (cells[0] !== "Family") data.wantedLines[cells[0]!] = cleanDisplay(cells[1]!);
-      }
     }
   }
 }
@@ -138,13 +125,11 @@ function parsePicksetBank(path: string, data: BankData): void {
 
 export function parseBanks(paths: {
   copingBank: string;
-  originBank: string;
   picksetBank: string;
 }): BankData {
   const data: BankData = {
     stems: {},
     optionText: {},
-    wantedLines: {},
     originPickText: {},
     copingPickText: {},
     groupLine: {},
@@ -157,12 +142,6 @@ export function parseBanks(paths: {
     warnings: [],
   };
   parseQuestionBank(paths.copingBank, "K", data);
-  parseQuestionBank(paths.originBank, "O", data);
   parsePicksetBank(paths.picksetBank, data);
-  // sanity: family wanted-lines should cover all 8
-  for (const f of ["ABN", "ED", "MB", "DEF", "ALN", "FAI", "VC", "POW"]) {
-    if (!data.wantedLines[f]) data.warnings.push(`O.C1 wanted-line missing for ${f}`);
-  }
-  void familyOfOriginSub;
   return data;
 }

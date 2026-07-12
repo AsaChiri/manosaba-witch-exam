@@ -50,11 +50,39 @@ function byName(
  * object matching ContentPackage is accepted; the shapes are the compiler's
  * zod-checked output.
  */
+/**
+ * Per-locale display strings. Every compiled `strings.<loc>.json` is loaded and
+ * merged OVER the en base, so any qid a locale has not authored yet (e.g. the
+ * V.* pick-tail screens, currently en-only) falls back to English rather than
+ * showing a raw key. Keyed by locale; `en` is the base. Selected at session
+ * creation by the island's locale (see exam-adapter.makeRealCreateExam).
+ */
+function buildStringsByLocale(): Record<string, unknown> {
+  const en = byName(quizModules, 'strings.en.json') as {
+    locale: string
+    questions: Record<string, unknown>
+  }
+  const out: Record<string, unknown> = { en }
+  for (const [path, mod] of Object.entries(quizModules)) {
+    const m = /\/strings\.([\w-]+)\.json$/.exec(path)
+    if (!m || m[1] === 'en') continue
+    const loc = m[1]!
+    const s = mod.default as { questions: Record<string, unknown> }
+    out[loc] = { locale: loc, questions: { ...en.questions, ...s.questions } }
+  }
+  return out
+}
+
+export const QUIZ_STRINGS_BY_LOCALE = buildStringsByLocale() as unknown as Record<
+  string,
+  ContentPackage['strings']
+>
+
 export const QUIZ_CONTENT = {
   questions: byName(quizModules, 'questions.json'),
   strings: byName(quizModules, 'strings.en.json'),
   copingTree: byName(quizModules, 'tree.coping.json'),
-  originTree: byName(quizModules, 'tree.origin.json'),
+  originBlocks: byName(quizModules, 'blocks.origin.json'),
   hashSpec: byName(quizModules, 'hash.spec.json'),
   picksets: byName(quizModules, 'picksets.json'),
   neighbor: byName(quizModules, 'neighbor.json'),

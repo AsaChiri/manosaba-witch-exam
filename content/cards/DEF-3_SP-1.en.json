@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Self-Punisher",
+  "tag": "DEF-3_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She kept a private record where she condemned herself first. Into it went every ugly thought — envious, cruel, violent, never once acted on — set down in her own hand and judged before anyone else could read her by them.",
+          "Her cellmate found the record and read it, and named her by those thoughts — the ones she was certain made her unforgivable — between the two of them, with no one else to hear.",
+          "One evening she was in the shower room while the cellmate sat at dinner across the prison, in the dining hall. There she named the cellmate's true wrong, and death as its punishment; her sentence needed neither nearness nor contact, and it found the cellmate at the table.",
+          "The cellmate died at the table, among the others, with no wound on the body, and an examination of it found nothing.",
+          "Such a death — no killer near, nothing in the body to blame — is a passed sentence, and it falls only on someone truly guilty, named by one who knew the wrong.",
+          "Searching the shared cell, the guards found her record and read it out before the court — the thoughts she had condemned herself for, the exposure she had killed to prevent. Its last entries, in her own hand, set down that the cellmate had found the record, read it, and named her by it.",
+          "The cellmate had harmed no one else; the one secret wrong was this — reading the hidden record and holding it over its owner.",
+          "Only the two of them had ever known of it — the cellmate, now dead, and the record's owner. So the sentence that named it could have come from no one but her."
+        ],
+        "epitaph": "She could sentence any wrong that was done, but never the one that was only ever thought — and that one was her own.",
+        "epithet": "Her Own First Judge",
+        "execution": [
+          "The execution stand rose bearing a great iron balance — a beam pivoted on a central post, a bound seat at one end set out over upturned iron points, a tall vessel brimming with water at the other.",
+          "She was bound into the seat. The brimming vessel outweighed her and held her end of the beam high, clear of the points.",
+          "A valve let the water out in a thin, unbroken stream, and her end of the beam sank toward the points by degrees. She spoke to the end, and the beam answered only to the falling water.",
+          "The water ran out, and the beam brought her down onto the points."
+        ],
+        "magic": {
+          "name": "Sentence-Fall",
+          "text": "She names aloud a wrong a person has truly done, and the punishment she pronounces for it befalls them."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

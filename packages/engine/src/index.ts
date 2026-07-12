@@ -1,6 +1,7 @@
 /**
  * @manosaba/witch-exam-engine — deterministic quiz scorer, tag resolution and
- * types for the Manosaba witch-factor examination (v3-89).
+ * types for the Manosaba witch-factor examination (coping v3 + origin v2, 84
+ * slots).
  *
  * No Date.now / Math.random anywhere in any resolution path. Every result is a
  * pure function of the answer vector + the content package.
@@ -32,7 +33,6 @@ export {
   type ScoreRecord,
   type TieResolverRec,
   type GuardRec,
-  type C1Rec,
   type TraceEntry,
 } from "./resolver.js";
 

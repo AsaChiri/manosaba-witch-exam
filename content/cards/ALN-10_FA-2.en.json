@@ -1,0 +1,38 @@
+{
+  "cell": "ALN|Fantasist",
+  "copingSub": "FA-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Fantasist",
+  "tag": "ALN-10_FA-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The other girl had kept a seat for her at every table and told her from the first day that she belonged here. Since she was small she had been certain she was switched in among strangers, her own kind waiting for her somewhere else.",
+          "That evening the other girl made it binding: before the whole table she named her one of them for good — family now, this the place she belonged — and the table took it up as settled. It was the kindest thing anyone had done for her, and it closed the door on the elsewhere she had waited for all her life.",
+          "She took a heart-stopping medicine from the medical room and laced a drink with it.",
+          "That same evening she got the other girl alone in the recreation room and, with no one else by, traded places with her. From that moment every prisoner would take her for the other girl and the other girl for her — but the two were alone, and no one was there to answer either of them by the swapped name.",
+          "Minutes later she gave the other girl the laced drink; trusting her, the girl drank and her heart stopped, dead before she had met anyone who might have called her by the wrong name.",
+          "The prisoners took the body for hers, and her death passed for one by her own hand. Mourned as dead and past all suspicion, she stayed on among them under the other girl's name.",
+          "But the body carried a crescent scar on its forearm — the one the other girl had earned when she gashed her arm on the courtyard fountain's rim, in front of half the prison. The girl now called by the other girl's name had no such mark.",
+          "Recognition had moved whom a face was taken for, never the scar from the arm that wore it. So the body was the other girl, and the one living in her name had killed her."
+        ],
+        "epitaph": "Her own kind waited somewhere else, she was sure; and these were the only people she would ever have.",
+        "epithet": "The Changeling Who Waited",
+        "execution": [
+          "The execution stand rose bearing a case of clear glass, one side standing open.",
+          "She was set inside it, standing, and turned to face the room; then the open side sealed shut.",
+          "Cold rose through the case from the floor and climbed around her.",
+          "The cold closed over her where she stood and set her fast in the glass."
+        ],
+        "magic": {
+          "name": "The Switch",
+          "text": "She trades places with one person; from then on everyone who knew them takes her for that person, and that person for her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -8,11 +8,14 @@
  * mock-engine.ts stays in-tree as a dev fallback (PUBLIC_USE_MOCK_ENGINE=1).
  */
 import type { CreateExam } from './engine-api'
-import { QUIZ_CONTENT } from './quiz-content'
+import { QUIZ_CONTENT, QUIZ_STRINGS_BY_LOCALE } from './quiz-content'
 import { makeRealCreateExam } from './exam-adapter'
 import { createExam as createMockExam } from './mock-engine'
 
-const createRealAdapter: CreateExam = makeRealCreateExam(QUIZ_CONTENT)
+const createRealAdapter: CreateExam = makeRealCreateExam(
+  QUIZ_CONTENT,
+  QUIZ_STRINGS_BY_LOCALE,
+)
 
 // Dev escape hatch: PUBLIC_USE_MOCK_ENGINE=1 falls back to the in-tree mock.
 // Folds to a constant at build time, so the mock is tree-shaken from prod.

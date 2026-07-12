@@ -3,10 +3,11 @@
  * one question at a time so a UI can present stems/options and feed answers back.
  *
  * The hard-axes walk (coping + origin) is re-run after every answer — it is pure
- * and bounded at <=22 slots, so re-running is trivial and guarantees the session
- * and the full-map validation path resolve identically. After O-RESOLVE the
- * session composes the pick screens (cell-route -> V.OGROUP/V.OPICK/V.CPICK),
- * then serves a tag + variant + answer-vector hash.
+ * and bounded at <=37 slots (coping <=9 + the 28 origin-v2 block slots), so
+ * re-running is trivial and guarantees the session and the full-map validation
+ * path resolve identically. After O-RESOLVE the session composes the pick
+ * screens (cell-route -> V.OGROUP/V.OPICK/V.CPICK), then serves a tag +
+ * variant + answer-vector hash.
  */
 import type { ContentPackage } from "./schemas.js";
 import {
@@ -32,6 +33,14 @@ export interface QuestionInstance {
   stem: string;
   /** options in display order (permuted for pick screens). */
   options: { oid: string; text: string }[];
+  /**
+   * Display-only options that are shown but NOT answerable. Currently just the
+   * origin most-mine pick echoed onto its least screen, so the screen shows all
+   * four lines with the M pick visibly locked (you cannot mark one line both
+   * most and least) instead of silently dropping it. Absent on every other
+   * screen. These are excluded from `options`, so `answer()` still rejects them.
+   */
+  disabledOptions?: { oid: string; text: string }[];
 }
 
 export interface ExamResult {
@@ -80,7 +89,7 @@ export function createExam(
   content: ContentPackage,
   opts: CreateExamOptions = {},
 ): ExamSession {
-  const prepared: Prepared = prepareTrees(content.copingTree, content.originTree);
+  const prepared: Prepared = prepareTrees(content.copingTree, content.originBlocks);
   return new Session(content, prepared, opts);
 }
 
@@ -175,17 +184,27 @@ class Session implements ExamSession {
 
   private questionFromPending(p: Pending): Step {
     const optionIds = p.allowed ?? p.optionIds;
-    return {
-      kind: "question",
-      q: {
-        qid: p.qid,
-        part: p.part,
-        kind: p.kind,
-        phase: phaseOf(p.part),
-        stem: this.stemText(p.qid),
-        options: optionIds.map((oid) => ({ oid, text: this.text(p.qid, oid) })),
-      },
+    const q: QuestionInstance = {
+      qid: p.qid,
+      part: p.part,
+      kind: p.kind,
+      phase: phaseOf(p.part),
+      stem: this.stemText(p.qid),
+      options: optionIds.map((oid) => ({ oid, text: this.text(p.qid, oid) })),
     };
+    // Least screens echo the display-filtered most pick as a locked option, so
+    // the least screen still shows every line (the M pick disabled), not one
+    // fewer. It stays out of `options`, so answering it is still rejected.
+    if (p.kind === "least" && p.allowed) {
+      const blocked = p.optionIds.filter((oid) => !p.allowed!.includes(oid));
+      if (blocked.length) {
+        q.disabledOptions = blocked.map((oid) => ({
+          oid,
+          text: this.text(p.qid, oid),
+        }));
+      }
+    }
+    return { kind: "question", q };
   }
 
   private pickQuestion(
@@ -301,7 +320,7 @@ class Session implements ExamSession {
     }
     const tier = cellNeighbor.tiers?.[tagKey] ?? 0;
 
-    // canonical 89-slot string: administered K/O (+O.C1) + fired pick tokens.
+    // canonical 84-slot string: administered K.*/N##[ML] + fired pick tokens.
     const tokens: Record<string, string> = { ...w.tokenMap };
     if (groupFired && chosenGroup) tokens["V.OGROUP"] = chosenGroup;
     if (oShown) tokens["V.OPICK"] = originPick;
@@ -332,9 +351,9 @@ class Session implements ExamSession {
   }
 
   private prePickString(w: Walker): string {
-    const slots = this.content.hashSpec.slots.filter(
-      (s) => s.startsWith("K.") || s.startsWith("O."),
-    );
+    // §4.6 permutation seed: the canonical serialization restricted to the
+    // hard-axes slots (everything before the V.* pick tail — K.* + N##M/L).
+    const slots = this.content.hashSpec.slots.filter((s) => !s.startsWith("V."));
     return canonicalString(w.tokenMap, slots, this.content.hashSpec.sentinel);
   }
 }
