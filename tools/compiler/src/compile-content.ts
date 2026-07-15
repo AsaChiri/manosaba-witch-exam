@@ -50,6 +50,13 @@ import {
 } from "./origin-blocks.js";
 import { parseRedirectMap } from "./manifest.js";
 import { parseCard, type ParsedCard } from "./cards.js";
+import {
+  parseCharacter,
+  listCharacterIds,
+  validateCharacters,
+  CHARACTER_LOCALES,
+  type ParsedCharacter,
+} from "./characters.js";
 import { subIndex, STYLE_NAME_TO_CODE, FAMILY_NAME_TO_CODE } from "./taxonomy.js";
 import { buildCoverageMap, type ShippedCellInfo, type CoverageResult } from "./coverage.js";
 
@@ -103,8 +110,9 @@ function main(): void {
   log("");
 
   // 0. ship list (seed if absent)
-  const shipList = loadJson<{ shipped: string[]; pendingReview?: string[] }>(src.shipList);
+  const shipList = loadJson<{ shipped: string[]; pendingReview?: string[]; characters?: boolean }>(src.shipList);
   const shippedIds = [...shipList.shipped, ...(includePending ? shipList.pendingReview ?? [] : [])];
+  const shipCharacters = shipList.characters === true;
 
   // 1. certified coping tables + locked origin-v2 sources
   const copingRaw = dropUnderscore(loadJson<CopingTreeRaw>(join(src.scorer, "questions_k.json")));
@@ -378,6 +386,56 @@ function main(): void {
     }
   }
 
+  // 11b. characters — the 13 special character records (design spec §3.7).
+  // Gated all-or-nothing by ship_list.json's `"characters"` flag. Emitted as
+  // one file per locale (content/characters/<locale>.json); zh-TW derived from
+  // zh-CN like cards. Deliberately EXCLUDED from the contentVersion hash below:
+  // character edits must never invalidate visitors' saved exam progress.
+  let characters: ParsedCharacter[] = [];
+  let characterLocaleFiles = 0;
+  if (shipCharacters) {
+    characters = listCharacterIds(src.charactersDir).map((id) => {
+      try {
+        return parseCharacter(id, src.charactersDir);
+      } catch (e) {
+        throw new Error(`failed to parse character ${id}: ${(e as Error).message}`);
+      }
+    });
+    const check = validateCharacters(characters, new Set(orderedTagList));
+    warnings.push(...check.warnings);
+    if (check.errors.length) {
+      throw new Error("COMPILE FAIL — character sources invalid:\n  " + check.errors.join("\n  "));
+    }
+    const sorted = [...characters].sort((a, b) => a.id.localeCompare(b.id));
+    for (const locale of [...CHARACTER_LOCALES, "zh-TW"]) {
+      const records = sorted.map((c) => {
+        const from = locale === "zh-TW" ? "zh-CN" : locale;
+        const tw = locale === "zh-TW";
+        const loc = (s: string): string => (tw ? applyTW(s) : s);
+        const f = c.locales[from]!;
+        return {
+          id: c.id,
+          tag: c.tag,
+          color: c.color,
+          locale,
+          name: loc(c.name[from]!),
+          magicName: loc(c.magicName[from]!),
+          awakening: { before: loc(f.before), after: loc(f.after) },
+          epithet: loc(f.epithet),
+          quote: loc(f.quote),
+          // optional per-character warden remark; absent → runtime falls back
+          // to the generic i18n template
+          ...(f.warden ? { warden: loc(f.warden) } : {}),
+        };
+      });
+      writeJson(join(C, "characters", `${locale}.json`), records);
+      characterLocaleFiles++;
+    }
+  } else {
+    // feature off: remove the compiled artifact so the site auto-disables.
+    rmSync(join(C, "characters"), { recursive: true, force: true });
+  }
+
   // 12. meta.json (content hash = FNV over the machine-critical artifacts)
   const contentHash = fnv1a32String(
     [questions, copingRaw, originBlocks, picksets, neighbor, hashSpec].map(stableStringify).join(""),
@@ -401,6 +459,8 @@ function main(): void {
       quizStringLocaleFiles: 1 + localeFiles,
       families: 8,
       styles: 25,
+      characters: characters.length,
+      characterLocaleFiles,
     },
     locales: ["en", "ja", "zh-CN", "zh-TW"],
   };
@@ -570,6 +630,13 @@ function report(
   log(`  shipped cards:  ${cards.length}   shipped tags: ${tags.size}   authored cells: ${cellTags.size}`);
   log(`  redirect rows:  ${Object.keys(coverage.redirect).length}`);
   log(`  card locale files: ${meta.counts.cardLocaleFiles}`);
+  log(
+    `  characters:     ${
+      meta.counts.characters
+        ? `${meta.counts.characters} (${meta.counts.characterLocaleFiles} locale files)`
+        : "off (ship_list.characters !== true)"
+    }`,
+  );
   log("");
   log(`  TOTAL cell coverage of the ${gridSize}-cell grid (invariant: 0 uncovered):`);
   log(`    direct (shipped-covered):   ${direct}`);

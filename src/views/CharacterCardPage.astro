@@ -1,0 +1,146 @@
+---
+/*
+ * Per-character share page (design spec §3.7) — the special record's public
+ * landing surface, mirroring the per-card page (§3.6): near-zero-JS, per-page
+ * OG meta, one CTA to /exam/. The page names the character but NEVER the cell
+ * or tag mapping — which result unlocks a character stays undiscoverable from
+ * public HTML.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro'
+import CardFrame from '../components/CardFrame.astro'
+import SpecialCard from '../components/SpecialCard.astro'
+import CtaButton from '../components/CtaButton.astro'
+import Seal from '../components/Seal.astro'
+import LocaleSwitcher from '../components/LocaleSwitcher.astro'
+import SafetyNote from '../components/SafetyNote.astro'
+import Footer from '../components/Footer.astro'
+import { t } from '../i18n'
+import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
+import type { WitchCharacter } from '../lib/content-schema'
+
+interface Props {
+  character: WitchCharacter
+  locale: Locale
+}
+const { character, locale } = Astro.props
+const seo = {
+  routeKey: `/c/${character.id}/`,
+  title: `${character.name} — ${t(locale, 'meta.siteName')}`,
+  description: Array.from(
+    t(locale, 'meta.descCharacter', { name: character.name, magic: character.magicName }),
+  )
+    .slice(0, 160)
+    .join(''),
+  ogImage: `/og/${ASTRO_SEGMENT[locale]}/c-${character.id}.png`,
+  ogType: 'article' as const,
+  jsonld: ['creativework'] as ('website' | 'quiz' | 'creativework')[],
+  workName: character.magicName,
+}
+---
+
+<BaseLayout locale={locale} seo={seo}>
+  <main id="main" class="card-page">
+    {/* Runs before the CTA below is parsed → no flash. Marks the page as
+        opened from the visitor's own archive so the newcomer CTA is hidden. */}
+    <script is:inline>
+      if (location.hash === '#collector') document.documentElement.classList.add('is-collector')
+    </script>
+    <header class="card-page__top container">
+      <a class="card-page__home" href={localePath(locale, '/')}>
+        <Seal size={26} title={t(locale, 'meta.siteName')} />
+        <span class="wordmark">{t(locale, 'meta.wordmark')}</span>
+      </a>
+      <LocaleSwitcher locale={locale} />
+    </header>
+
+    <div class="card-page__stage container container--narrow">
+      <CardFrame tone={character.color} class="card-frame--character">
+        <SpecialCard character={character} locale={locale} />
+      </CardFrame>
+    </div>
+
+    <section class="card-page__cta container container--narrow">
+      <h2 class="inscription">{t(locale, 'shareCta.title')}</h2>
+      <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'shareCta.button')} />
+    </section>
+
+    {/* Opened from one's own archive (#collector): the newcomer CTA above is
+        hidden and this quiet return link is shown instead (see inline script). */}
+    <nav class="card-page__back container container--narrow">
+      <a href={localePath(locale, '/collection/')}>{t(locale, 'collection.back')}</a>
+    </nav>
+
+    <div class="card-page__foot container container--narrow">
+      <SafetyNote locale={locale} />
+    </div>
+  </main>
+  <Footer locale={locale} />
+</BaseLayout>
+
+<style>
+  /* keep in sync with CardPage.astro (§3.6) — same page chrome */
+  .card-page__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+  .card-page__home {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--verdict-gold);
+    text-decoration: none;
+  }
+  .card-page__home .wordmark {
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+  }
+  .card-page__stage {
+    padding-top: 1rem;
+  }
+  .card-page__cta {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .card-page__cta h2 {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    color: var(--bone);
+    margin-bottom: 0.7rem;
+    letter-spacing: 0.05em;
+  }
+  .card-page__foot {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  .card-page__back {
+    display: none;
+    text-align: center;
+    padding-top: 2.6rem;
+    padding-bottom: 1rem;
+  }
+  .card-page__back a {
+    font-family: var(--font-instrument);
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    color: var(--bone-faint);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--hairline-faint);
+  }
+  .card-page__back a:hover {
+    color: var(--witch-violet);
+  }
+  :global(html.is-collector) .card-page__cta {
+    display: none;
+  }
+  :global(html.is-collector) .card-page__back {
+    display: block;
+  }
+</style>

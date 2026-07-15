@@ -35,6 +35,10 @@ export interface ShareCard {
   magic: string
   /** The magic's effect text — the shareable description. */
   magicText: string
+  /** Special character record (§3.7): pivots the whole share surface — the
+   *  URL points at /c/<id>/, the text uses share.specialTemplate with the
+   *  character's name, and the export filename carries the character id. */
+  character?: { id: string; name: string }
 }
 
 export type SocialAction =
@@ -89,15 +93,18 @@ export function shareUrl(card: ShareCard): string {
     const trusted = import.meta.env.PUBLIC_SHARE_URL_ZH_CN
     if (trusted) {
       const sep = trusted.includes('?') ? '&' : '?'
-      return `${trusted}${sep}r=${encodeURIComponent(card.tag)}`
+      return card.character
+        ? `${trusted}${sep}c=${encodeURIComponent(card.character.id)}`
+        : `${trusted}${sep}r=${encodeURIComponent(card.tag)}`
     }
   }
-  return `${canonicalOrigin()}${localePath(card.locale, `/r/${card.tag}/`)}`
+  const path = card.character ? `/c/${card.character.id}/` : `/r/${card.tag}/`
+  return `${canonicalOrigin()}${localePath(card.locale, path)}`
 }
 
 function summaryText(card: ShareCard): string {
   return [
-    t(card.locale, 'share.template', { name: card.name, magic: card.magic }),
+    templateText(card),
     '',
     `${t(card.locale, 'share.hint')}${shareUrl(card)}`,
   ].join('\n')
@@ -235,7 +242,9 @@ export async function saveResultImage(
       onclone: (_doc, clone) => flattenExportColors(clone),
     })
 
-    const filename = `manosaba-${card.tag}.png`
+    const filename = card.character
+      ? `manosaba-char-${card.character.id}.png`
+      : `manosaba-${card.tag}.png`
     const blob: Blob | null = await new Promise((resolve) =>
       canvas.toBlob(resolve, 'image/png'),
     )
@@ -277,6 +286,12 @@ export async function saveResultImage(
 }
 
 function templateText(card: ShareCard): string {
+  if (card.character) {
+    return t(card.locale, 'share.specialTemplate', {
+      name: card.character.name,
+      magic: card.magic,
+    })
+  }
   return t(card.locale, 'share.template', { name: card.name, magic: card.magic })
 }
 

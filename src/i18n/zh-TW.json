@@ -7,7 +7,8 @@
     "descLanding": "一場魔女因子檢測。看看倘若被送上那座島，你會成為哪一種魔女。",
     "descExam": "檢測已經開始。",
     "descCard": "魔女因子檢測的記錄，檢測出{magic}。",
-    "descShare": "檢測出魔法：{magic}——你也來測測會檢出哪一種魔女。"
+    "descShare": "檢測出魔法：{magic}——你也來測測會檢出哪一種魔女。",
+    "descCharacter": "這份檢測記錄，檢出了與『{name}』相同的魔法「{magic}」。你也來測測會檢出哪一種魔女。"
   },
   "nav": {
     "skipToContent": "跳到正文",
@@ -87,6 +88,12 @@
       "confirm": "完成檢測"
     },
     "chosenAsMost": "已在上一題中選擇",
+    "spoiler": {
+      "question": "最後一問——那座孤島上發生過的故事，你可曾聽聞至結局？",
+      "note": "（指已通關原作『魔法少女ノ魔女裁判』本篇。此問不影響檢測結果，僅用於判斷能否顯示涉及劇透的內容。）",
+      "yes": "已聽聞至結局",
+      "no": "尚未聽聞"
+    },
     "inconclusive": {
       "title": "查無記錄",
       "body": "還沒有與你對應的記錄，請重新接受檢測。"
@@ -126,6 +133,7 @@
     "line": "分享到 LINE",
     "more": "更多分享方式",
     "template": "魔女因子已檢出，我的魔法是「{magic}」",
+    "specialTemplate": "我檢出了與『{name}』相同的魔法——「{magic}」",
     "hint": "接受檢測：",
     "qrCaption": "掃碼接受檢測",
     "exportTag": "魔女因子檢測"
@@ -146,7 +154,14 @@
   },
   "result": {
     "safety": "若本記錄令你感到不適，請聯絡下方的求助專線。",
-    "safetyLink": "各地心理援助專線"
+    "safetyLink": "各地心理援助專線",
+    "specialCard": {
+      "mark": "特別記錄",
+      "wardenTag": "典獄長",
+      "wardenLine": "呀嘞呀嘞……這份記錄，怎麼看都和『{name}』的檔案重合了呢。",
+      "beforeLabel": "覺醒前",
+      "afterLabel": "覺醒後"
+    }
   },
   "collection": {
     "link": "已檢出的魔法",
@@ -158,7 +173,8 @@
     "empty": "檔案還是空的。完成一次檢測，檢出你的魔法。",
     "emptyCta": "接受檢測",
     "back": "返回檔案",
-    "metaDesc": "你檢出過的魔法，收錄於此。"
+    "metaDesc": "你檢出過的魔法，收錄於此。",
+    "specialTitle": "特別記錄"
   },
   "errors": {
     "archive": "檔案庫沒有回應，請重試。",

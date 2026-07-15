@@ -4,21 +4,24 @@
  * in the shared witch-card markup (so the PNG matches the card page), plus the
  * share row, feedback invitation, safety footer, and retake.
  */
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import type { ExamResult } from '../../lib/engine-api'
-import { cardTitle, type Card } from '../../lib/content-schema'
+import { cardTitle, type Card, type WitchCharacter } from '../../lib/content-schema'
 import { CONTENT_HASH } from '../../lib/content'
 import { t, messages } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
 import { generateShareQr, copyText, type ShareCard } from '../../lib/share'
 import Seal from './Seal.vue'
 import ShareRow from './ShareRow.vue'
+import SpecialCard from './SpecialCard.vue'
 
 const props = defineProps<{
   locale: Locale
   card: Card
   result: ExamResult
   quizVersion: string
+  /** Exact-hit special character record (§3.7) — replaces the witch card. */
+  specialCharacter?: WitchCharacter | null
 }>()
 const emit = defineEmits<{ retake: [] }>()
 const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k, p)
@@ -27,13 +30,28 @@ const L = (k: string) => t(props.locale, `card.labels.${k}`)
 const witchName = computed(
   () => props.result.witchName?.trim() || t(props.locale, 'card.nameless'),
 )
-const shareCard = computed<ShareCard>(() => ({
-  locale: props.locale,
-  tag: props.card.tag,
-  name: witchName.value,
-  magic: props.card.magic.name,
-  magicText: props.card.magic.text,
-}))
+/* With a special character, the share surface pivots to the character record:
+ * template/URL/QR/filename all follow ShareCard.character (see share.ts). */
+const shareCard = computed<ShareCard>(() => {
+  const sc = props.specialCharacter
+  if (sc) {
+    return {
+      locale: props.locale,
+      tag: props.card.tag,
+      name: witchName.value,
+      magic: sc.magicName,
+      magicText: `${sc.awakening.before} ${sc.awakening.after}`,
+      character: { id: sc.id, name: sc.name },
+    }
+  }
+  return {
+    locale: props.locale,
+    tag: props.card.tag,
+    name: witchName.value,
+    magic: props.card.magic.name,
+    magicText: props.card.magic.text,
+  }
+})
 
 const frameEl = ref<HTMLElement | null>(null)
 const qrSrc = ref('')
@@ -93,19 +111,27 @@ async function copyEmail() {
 
 const crisis = messages(props.locale).crisisLinks
 
-onMounted(async () => {
+async function refreshQr() {
   try {
     qrSrc.value = await generateShareQr(shareCard.value)
   } catch {
     /* QR is a nicety; ignore failures */
   }
-})
+}
+onMounted(refreshQr)
+// the share target changes when the special character record swaps in/out
+watch(() => props.specialCharacter, refreshQr)
 </script>
 
 <template>
   <section class="result" :lang="locale">
     <div class="result__stage">
-      <div ref="frameEl" class="card-frame">
+      <div
+        ref="frameEl"
+        class="card-frame"
+        :class="{ 'card-frame--character': specialCharacter }"
+        :style="specialCharacter ? { '--frame-tone': specialCharacter.color } : undefined"
+      >
         <div class="card-frame__rule">
           <span
             v-for="corner in corners"
@@ -124,7 +150,14 @@ onMounted(async () => {
             </svg>
           </span>
           <div class="card-frame__inner">
-            <article class="witch-card">
+            <SpecialCard
+              v-if="specialCharacter"
+              :locale="locale"
+              :character="specialCharacter"
+              :witch-name="witchName"
+              :qr-src="qrSrc"
+            />
+            <article v-else class="witch-card">
               <div class="witch-card__crest"><Seal :size="72" stained :title="T('meta.siteName')" /></div>
               <p class="witch-card__specimen">
                 <span class="witch-card__specimen-label">{{ T('card.specimenLabel') }}</span>

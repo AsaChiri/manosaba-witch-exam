@@ -26,12 +26,17 @@
   // TODO(owner): set to the final canonical origin before uploading (keep in
   // step with PUBLIC_SITE_URL). The <noscript> URL above too.
   var SITE = 'https://manosaba-witch-exam.asachiri.com'
-  // `?r=<tag>` deep-links to the shared card's page; anything else (or a tag
-  // this regex rejects) falls back to the zh-CN exam entry.
-  var r = new URLSearchParams(location.search).get('r') || ''
+  // `?r=<tag>` deep-links to the shared card's page; `?c=<id>` to a special
+  // character record page (design spec §3.7); anything else (or a value the
+  // regex rejects) falls back to the zh-CN exam entry.
+  var params = new URLSearchParams(location.search)
+  var r = params.get('r') || ''
+  var c = params.get('c') || ''
   var target = /^[A-Za-z]{1,6}-\d{1,3}_[A-Za-z]{1,6}-\d{1,3}$/.test(r)
     ? SITE + '/r/' + encodeURIComponent(r) + '/'
-    : SITE + '/'
+    : /^[a-z]{2,16}$/.test(c)
+      ? SITE + '/c/' + encodeURIComponent(c) + '/'
+      : SITE + '/'
   document.getElementById('go').href = target
   location.replace(target)
 </script>

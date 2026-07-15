@@ -9,6 +9,7 @@ import { CONTENT_HASH } from './content'
 
 const CONSENT_KEY = 'manosaba-exam-consent-v1'
 const PROGRESS_KEY = 'manosaba-exam-progress-v1'
+const FINISHED_KEY = 'manosaba-exam-finished-v1'
 
 interface StoredProgress {
   version: 1
@@ -28,6 +29,29 @@ export function setConsent(granted: boolean): void {
   try {
     if (granted) localStorage.setItem(CONSENT_KEY, 'yes')
     else localStorage.removeItem(CONSENT_KEY)
+  } catch {
+    /* localStorage disabled — proceed in-memory */
+  }
+}
+
+/*
+ * The spoiler gate's answer (design spec §3.7). Its own key, like consent:
+ * NOT content-hash gated (finishing the game survives content releases) and
+ * NEVER part of the engine snapshot — it must not touch TAG resolution.
+ * 'yes' persists and skips the question on later runs; 'no' re-asks.
+ */
+export function getFinished(): 'yes' | 'no' | null {
+  try {
+    const v = localStorage.getItem(FINISHED_KEY)
+    return v === 'yes' || v === 'no' ? v : null
+  } catch {
+    return null
+  }
+}
+
+export function setFinished(finished: boolean): void {
+  try {
+    localStorage.setItem(FINISHED_KEY, finished ? 'yes' : 'no')
   } catch {
     /* localStorage disabled — proceed in-memory */
   }

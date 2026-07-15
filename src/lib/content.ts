@@ -10,12 +10,15 @@ import {
   rawCardSchema,
   rawManifestSchema,
   rawMetaSchema,
+  rawCharactersFileSchema,
   normalizeCard,
   normalizeManifest,
   normalizeMeta,
+  normalizeCharacter,
   type Card,
   type Manifest,
   type ContentMeta,
+  type WitchCharacter,
 } from './content-schema'
 import type { Locale } from '../i18n/config'
 import { LOCALES, DEFAULT_LOCALE } from '../i18n/config'
@@ -39,6 +42,13 @@ const contentManifestModules = import.meta.glob<{ default: unknown }>(
 )
 const contentMetaModules = import.meta.glob<{ default: unknown }>(
   '/content/meta.json',
+  { eager: true },
+)
+// The 13 special character records (design spec §3.7). Absent unless the
+// compiler ran with ship_list.characters === true — the feature auto-disables
+// (empty index) when the files are missing; there is no fixture equivalent.
+const contentCharacterModules = import.meta.glob<{ default: unknown }>(
+  '/content/characters/*.json',
   { eager: true },
 )
 
@@ -125,4 +135,38 @@ export function getSpecimenCard(locale: Locale): Card | null {
   const first = Object.keys(MANIFEST.tags)[0]
   if (!first) return null
   return getCardOrFallback(first, locale)
+}
+
+// ── Characters (design spec §3.7) ──
+function buildCharacterIndex(): Map<Locale, WitchCharacter[]> {
+  const index = new Map<Locale, WitchCharacter[]>()
+  for (const [path, mod] of Object.entries(contentCharacterModules)) {
+    const parsed = rawCharactersFileSchema.safeParse(mod.default)
+    if (!parsed.success) {
+      throw new Error(
+        `Invalid characters file at ${path}: ${parsed.error.issues[0]?.message}`,
+      )
+    }
+    const chars = parsed.data.map(normalizeCharacter)
+    if (chars.length) index.set(chars[0].locale, chars)
+  }
+  return index
+}
+
+const CHARACTER_INDEX = buildCharacterIndex()
+
+/** The 13 special characters for a locale — [] when the feature is off. */
+export function listCharacters(locale: Locale): WitchCharacter[] {
+  return CHARACTER_INDEX.get(locale) ?? CHARACTER_INDEX.get(DEFAULT_LOCALE) ?? []
+}
+
+export function getCharacter(id: string, locale: Locale): WitchCharacter | null {
+  return listCharacters(locale).find((c) => c.id === id) ?? null
+}
+
+/** Character lookup keyed by result tag — the exam island's trigger map. */
+export function getCharactersByTag(locale: Locale): Record<string, WitchCharacter> {
+  const out: Record<string, WitchCharacter> = {}
+  for (const c of listCharacters(locale)) out[c.tag] = c
+  return out
 }

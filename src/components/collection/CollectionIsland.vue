@@ -10,7 +10,11 @@
  * links to the existing card page with the #collector flag (which suppresses
  * that page's newcomer CTA and shows a return link instead).
  */
-import { loadCollected, COLLECTOR_REVEAL_THRESHOLD } from '../../lib/collection'
+import {
+  loadCollected,
+  loadCollectedCharacters,
+  COLLECTOR_REVEAL_THRESHOLD,
+} from '../../lib/collection'
 import { t } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
 import Seal from '../exam/Seal.vue'
@@ -19,10 +23,16 @@ interface Entry {
   title: string
   epithet: string
 }
+interface CharacterEntry {
+  name: string
+  magicName: string
+  color: string
+}
 const props = defineProps<{
   locale: Locale
   catalog: Record<string, Entry>
   total: number
+  characterCatalog: Record<string, CharacterEntry>
 }>()
 const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k, p)
 
@@ -33,8 +43,18 @@ const tags = loadCollected()
 const count = tags.length
 const revealed = count >= COLLECTOR_REVEAL_THRESHOLD
 
+/* Special character records (§3.7) — rendered ONLY once at least one is
+ * collected. The section (and that the set exists at all) is never advertised
+ * beforehand, consistent with the archive's hidden-total design. */
+const chars = loadCollectedCharacters()
+  .filter((id) => props.characterCatalog[id])
+  .reverse()
+
 function href(tag: string): string {
   return localePath(props.locale, `/r/${tag}/`) + '#collector'
+}
+function charHref(id: string): string {
+  return localePath(props.locale, `/c/${id}/`) + '#collector'
 }
 </script>
 
@@ -63,6 +83,28 @@ function href(tag: string): string {
           </a>
         </li>
       </ul>
+
+      <template v-if="chars.length > 0">
+        <h2 class="collection__special-title">{{ T('collection.specialTitle') }}</h2>
+        <ul class="collection__grid">
+          <li v-for="id in chars" :key="id">
+            <a
+              class="collection-tile collection-tile--char"
+              :href="charHref(id)"
+              :style="{ '--char-color': characterCatalog[id].color }"
+            >
+              <span class="collection-tile__crest">
+                <Seal :size="40" stained :title="T('meta.siteName')" />
+              </span>
+              <span class="collection-tile__mark">{{ T('result.specialCard.mark') }}</span>
+              <h2 class="collection-tile__name collection-tile__name--char">
+                {{ characterCatalog[id].name }}
+              </h2>
+              <p class="collection-tile__epithet">{{ characterCatalog[id].magicName }}</p>
+            </a>
+          </li>
+        </ul>
+      </template>
     </template>
 
     <div v-else class="collection__empty">
@@ -157,6 +199,29 @@ function href(tag: string): string {
   line-height: 1.5;
   color: var(--bone-dim);
   text-wrap: pretty;
+}
+
+/* Special character records (§3.7): the tile carries the character's theme
+ * color — the one sanctioned exception to the violet archive. */
+.collection__special-title {
+  margin-top: 2.6rem;
+  font-family: var(--font-instrument);
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  color: var(--verdict-gold-deep);
+  text-transform: uppercase;
+}
+.collection__special-title + .collection__grid {
+  margin-top: 1.1rem;
+}
+.collection-tile--char:hover,
+.collection-tile--char:focus-visible {
+  border-color: color-mix(in srgb, var(--char-color) 55%, transparent);
+}
+.collection-tile__name--char {
+  color: color-mix(in srgb, var(--char-color) 78%, var(--bone));
+  text-shadow: 0 0 14px color-mix(in srgb, var(--char-color) 30%, transparent);
 }
 .collection__empty {
   margin-top: 3rem;

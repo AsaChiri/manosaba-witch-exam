@@ -23,6 +23,7 @@ import os from 'node:os'
 import { Worker } from 'node:worker_threads'
 // @ts-expect-error - wawoff2 ships no types
 import wawoff2 from 'wawoff2'
+import { roseWindowGroup, CHARACTER_MOTIFS } from '../src/lib/rose-window'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
@@ -88,6 +89,17 @@ function loadCard(tag: string, key: string): any | null {
   // fallback to zh-CN card
   const fb = join(cardsDir, `${tag}.zh-CN.json`)
   return existsSync(fb) ? readJson(fb) : null
+}
+
+/* The 13 special character records (design spec §3.7) — one OG per character
+ * per locale (`c-<id>.png`). Absent unless the compiler shipped them; the
+ * feature (and its OG jobs) auto-disable with an empty list. */
+const charactersDir = join(CONTENT_DIR, 'characters')
+function loadCharacters(key: string): any[] {
+  const p = join(charactersDir, `${key}.json`)
+  if (existsSync(p)) return readJson(p)
+  const fb = join(charactersDir, 'zh-CN.json')
+  return existsSync(fb) ? readJson(fb) : []
 }
 
 // ── Fonts ──
@@ -334,9 +346,14 @@ function brandBlock(cfg: LocaleCfg, s: any): string {
 
 /** tspans for a centered block; returns markup and the block's bottom y. */
 function textBlock(lines: string[], startBaseline: number, size: number, lineHeight: number): { tspans: string; bottom: number } {
+  return textBlockAt(600, lines, startBaseline, size, lineHeight)
+}
+/** Like textBlock, centered on an arbitrary x (the character OG shifts its
+ *  text column left of the profile print). */
+function textBlockAt(cx: number, lines: string[], startBaseline: number, size: number, lineHeight: number): { tspans: string; bottom: number } {
   const lh = size * lineHeight
   const tspans = lines
-    .map((l, i) => `<tspan x="600" y="${startBaseline + i * lh}">${escapeXml(l)}</tspan>`)
+    .map((l, i) => `<tspan x="${cx}" y="${startBaseline + i * lh}">${escapeXml(l)}</tspan>`)
     .join('')
   return { tspans, bottom: startBaseline + (lines.length - 1) * lh }
 }
@@ -423,6 +440,70 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
 </svg>`
 }
 
+/* Special character record OG (design spec §3.7) — the one theme-colored
+ * surface. Mirrors the record: the MAGIC NAME is the headline in the
+ * character color (the visitor detected the same magic), the character name
+ * above it in bone, and the record's engraved ground — fine resonance rings
+ * radiating from the Seal in the character's ink. */
+function buildCharacterSvg(cfg: LocaleCfg, ch: any): string {
+  const s = I18N[cfg.key]
+  const kicker = String(s.result?.specialCard?.mark ?? s.meta.siteName)
+  const color = String(ch.color)
+  const chName = String(ch.name ?? '').trim()
+  const magic = String(ch.magicName ?? '').trim()
+  if (!chName || !magic) throw new Error(`OG FAIL: character ${ch.id} missing name/magicName`)
+
+  // her rose window replaces the plain Seal — same generator as the card
+  const WIN = 190 // rendered box (200 viewBox scaled)
+  const winTop = 46
+  const window = `<g transform="translate(${600 - WIN / 2} ${winTop}) scale(${WIN / 200})">${roseWindowGroup(
+    {
+      color,
+      motif: CHARACTER_MOTIFS[ch.id] ?? 'leaf',
+      magicName: magic,
+    },
+  )}</g>`
+
+  const nameL = layout(chName, cfg.isCjk, 940, cfg.isCjk ? 46 : 38, 28, 1)
+  const sealBottom = winTop + WIN
+  const nameStart = sealBottom + nameL.size * 0.95 + 10
+  const n = textBlock(nameL.lines, nameStart, nameL.size, 1.12)
+
+  const ruleY = n.bottom + 34
+  const markText = String(s.card?.magicMark ?? '魔法')
+  const markY = ruleY + 56
+  const markHalf = cfg.isCjk ? 40 : 46
+  const orn = (dir: 1 | -1) => {
+    const x0 = 600 + dir * markHalf
+    const x1 = 600 + dir * (markHalf + 54)
+    const dx = 600 + dir * (markHalf + 66)
+    return `<path d="M${x0} ${markY - 5} H${x1}" stroke="${C.gold}" stroke-width="0.9" opacity="0.6"/>
+      <rect x="${dx - 3.2}" y="${markY - 8.2}" width="6.4" height="6.4" transform="rotate(45 ${dx} ${markY - 5})" fill="${C.gold}" opacity="0.9"/>`
+  }
+  const magicL = layout(magic, cfg.isCjk, 940, cfg.isCjk ? 84 : 66, 42, 2)
+  const magicY = markY + magicL.size + 26
+  const m = textBlock(magicL.lines, magicY, magicL.size, 1.14)
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  ${bgAndDefs()}
+  <defs>
+    <linearGradient id="crule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="${color}" stop-opacity="0"/>
+      <stop offset="50%" stop-color="${color}" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="180" y="88" text-anchor="middle" fill="${color}" fill-opacity="0.88" font-family="${fam(cfg)}" font-size="21" letter-spacing="9">${escapeXml(kicker)}</text>
+  ${window}
+  <text text-anchor="middle" fill="${C.bone}" fill-opacity="0.92" font-family="${fam(cfg)}" font-weight="600" font-size="${nameL.size}" letter-spacing="6">${n.tspans}</text>
+  <rect x="500" y="${ruleY}" width="200" height="1.8" fill="url(#crule)"/>
+  <text x="600" y="${markY}" text-anchor="middle" fill="${C.gold}" font-family="${fam(cfg)}" font-size="22" letter-spacing="10">${escapeXml(markText)}</text>
+  ${orn(1)}${orn(-1)}
+  <text text-anchor="middle" fill="${color}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${magicL.size}" letter-spacing="3">${m.tspans}</text>
+  ${brandBlock(cfg, s)}
+</svg>`
+}
+
 // ── Dangling-character audit (OG_AUDIT=1): re-runs the exact wrap paths for
 // every rendered string and reports kinsoku/orphan/overflow violations. ──
 function auditLines(where: string, lines: string[], isCjk: boolean, maxWidth: number, size: number): string[] {
@@ -460,6 +541,12 @@ function runAudit(): number {
       const descLines = clampLines(String(fields.magic.text), cfg.isCjk, 860, descSize, name.lines.length > 1 ? 2 : 3)
       problems.push(...auditLines(`${cfg.key} ${t} desc`, descLines, cfg.isCjk, 860, descSize))
     }
+    for (const ch of loadCharacters(cfg.key)) {
+      const nameL = layout(String(ch.name), cfg.isCjk, 940, cfg.isCjk ? 46 : 38, 28, 1)
+      problems.push(...auditLines(`${cfg.key} c-${ch.id} name`, nameL.lines, cfg.isCjk, 940, nameL.size))
+      const magicL = layout(String(ch.magicName), cfg.isCjk, 940, cfg.isCjk ? 84 : 66, 42, 2)
+      problems.push(...auditLines(`${cfg.key} c-${ch.id} magic`, magicL.lines, cfg.isCjk, 940, magicL.size))
+    }
   }
   if (problems.length) {
     console.error(`[og-audit] ${problems.length} violation(s):`)
@@ -483,6 +570,12 @@ function collectJobs(): Job[] {
       const card = loadCard(tag, cfg.key)
       if (!card) continue
       jobs.push({ svg: buildCardSvg(cfg, card), outPath: join(ROOT, `public/og/${cfg.seg}/${tag}.png`) })
+    }
+    for (const ch of loadCharacters(cfg.key)) {
+      jobs.push({
+        svg: buildCharacterSvg(cfg, ch),
+        outPath: join(ROOT, `public/og/${cfg.seg}/c-${ch.id}.png`),
+      })
     }
   }
   return jobs

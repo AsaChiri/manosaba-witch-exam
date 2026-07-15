@@ -9,7 +9,12 @@ import ExamIsland from '../components/exam/ExamIsland.vue'
 import Seal from '../components/Seal.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
-import { getManifest, getCardOrFallback, getContentMeta } from '../lib/content'
+import {
+  getManifest,
+  getCardOrFallback,
+  getContentMeta,
+  getCharactersByTag,
+} from '../lib/content'
 import type { Card } from '../lib/content-schema'
 
 interface Props {
@@ -30,6 +35,8 @@ for (const tag of Object.keys(manifest.tags)) {
   const card = getCardOrFallback(tag, locale)
   if (card) cards[tag] = card
 }
+// the 13 special character records, keyed by result tag ({} = feature off)
+const characters = getCharactersByTag(locale)
 
 const seo = {
   routeKey: '/exam/',
@@ -52,6 +59,7 @@ const seo = {
       quizVersion={meta.quizVersion}
       cells={cells}
       cards={cards}
+      characters={characters}
     />
   </main>
 </BaseLayout>

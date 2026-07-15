@@ -17,6 +17,8 @@ content/               THE compiled content package (committed; reviewable diffs
   meta.json            contentVersion drives localStorage invalidation
   quiz/                89-slot questions, trees, picksets, neighbor, hash spec, strings
   cards/<TAG>.<loc>.json  card content, TAG = origin-sv_coping-sv (e.g. ED-1_PE-1)
+  characters/<loc>.json   the 13 special character records (design doc §3.7) —
+                       spoiler-gated exact-hit replacements for the normal card
 scripts/generate-og.ts OG PNG generation (worker pool, content-hash incremental)
 src/                   app: pages (4 locales), exam island, share, i18n catalogs, styles
 ```
@@ -32,7 +34,7 @@ Key seams:
 npm install            # links workspaces (engine must build before app/compiler use it)
 npm run dev            # Vite/Astro dev server
 npm run build          # gen:og → astro check → astro build (static, dist/)
-npm -w @manosaba/engine test        # 13 tests incl. 200-persona replay — must stay green
+npm -w @manosaba/witch-exam-engine test   # 13 tests incl. 200-persona replay — must stay green
 npm -C tools/compiler run compile   # recompile content/ from the workspace
 npm -C tools/compiler run verify    # round-trip: compiled trees reproduce certified outputs
 ```
@@ -45,6 +47,8 @@ npm -C tools/compiler run verify    # round-trip: compiled trees reproduce certi
 4. `npm run build` (regenerates OG only for changed tags) → deploy `dist/`.
 
 Post-Phase-3-gate quiz swap is the same loop: the validated bank recompiles into `content/quiz/`; `meta.json.contentVersion` changes, which auto-invalidates visitors' saved in-progress state.
+
+Character records (design doc §3.7) ride the same loop: author `output/characters/<id>.md` in the workspace → the all-or-nothing `"characters": true` flag in `ship_list.json` gates compilation into `content/characters/<loc>.json`. Character edits do NOT bump `contentVersion` (they are excluded from its hash), so they never invalidate in-progress exams. A character whose `tag` isn't shipped compiles with a warning and stays dormant until its exact card ships — the trigger requires an exact, un-redirected hit.
 
 ## Env
 

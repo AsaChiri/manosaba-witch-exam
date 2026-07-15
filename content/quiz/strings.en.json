@@ -6,7 +6,7 @@
         "a": "nothing is off anywhere — every chat checked, no one upset with you",
         "b": "someone needed you today and you came through",
         "c": "everyone's accounted for — you know where they are, and they answered fast",
-        "d": "someone took the next decision off your plate"
+        "d": "someone took the next decision off your plate — or: you've already shown them your 'I can't', and the hands are committed before you ever fall"
       },
       "stem": "In your closest circle, the moment that actually settles you is when…"
     },
@@ -15,7 +15,7 @@
         "a": "peace — they have no reason to be annoyed with you now",
         "b": "a seat — you're the one they'd call first now, and that seat is yours",
         "c": "contact — the favor is a reason to be in touch again tomorrow",
-        "d": "credit with the person who handles things for you — you do your part, they carry the heavy part",
+        "d": "credit with the person who handles things for you — you do your part, they carry the heavy part — or: the quiet security that this one favor adds one more person who'll come running the day you can't stand",
         "e": "the room — everyone saw who saved the day"
       },
       "stem": "When you go out of your way for someone — and you often do — what does it quietly get you?"
@@ -72,7 +72,7 @@
         "a": "no one here has a single reason to dislike you yet — keep it that way",
         "b": "find who needs a hand with boxes — be established as useful by week two",
         "c": "the call schedule home is fixed before the wifi is",
-        "d": "pick the room nearest the person who'll know how things work",
+        "d": "pick the room nearest the person who'll know how things work — or show a few small 'I can't's in week one; by week two, who helps you is already settled",
         "e": "make the entrance — by week two the new crowd should have a story about you they're already retelling"
       },
       "stem": "First month in a new city. Job one:"
@@ -358,7 +358,7 @@
         "d": "moving your chair closer to someone — or getting busy taking care of the room: refills, the stuck conversation, the one who's gone quiet",
         "e": "scanning for whoever made it heavy — or already, pleasantly, working out how this table gets turned your way",
         "f": "taking the room's temperature into your own hands — the joke, the topic-turn, the spotlight-grab — or absenting upward: the room shrinks while the richer place in your head takes the call",
-        "g": "diagnosing the cause and lining up the fix before any of it can reach you — or restoring your own order: seat, glass, sequence, something the mood can't touch"
+        "g": "diagnosing the cause and lining up the fix before any of it can reach you — or restoring your own order: seat, glass, sequence, something the mood can't touch — or quietly re-taking the whole room's positions: who sits by whom, what was just said, who has gone silent; as long as everyone is in view, that is enough"
       },
       "stem": "Mid-gathering, the room's mood suddenly goes heavy. You catch yourself…"
     },
@@ -370,7 +370,7 @@
         "d": "you're already calling someone — tonight shouldn't be spent alone — or you're doing the rounds: smoothing whoever the day scuffed, checking who might be off with you now",
         "e": "the more it replays, the clearer whose fault it actually was; the message is half-composed — or the quieter countermove is: which ear to reach first, which favor to call in",
         "f": "you're recounting the parts where you were better than everyone in that room — or the day is already being rewritten into the private version, the one where you're finally seen at true size",
-        "g": "you're writing the checklist that makes it impossible for you to be caught like that again — or re-running tonight's fixed order until the day sits straight"
+        "g": "you're writing the checklist that makes it impossible for you to be caught like that again — or re-running tonight's fixed order until the day sits straight — or checking on everyone who was in that room today: who is where, saying what; once it's mapped, you settle"
       },
       "stem": "On the way home after a day where something went publicly wrong for you…"
     },
@@ -382,7 +382,7 @@
         "d": "you send the follow-up, then check whether they're active elsewhere — or you're combing the last week for what you might have done, drafting the patch-things-up opener",
         "e": "you draft the reply with edges — they should feel the cost of this — or you say nothing and adjust the standings: who else to warm up, what they'll notice they've lost",
         "f": "you post the best hour of your week, somewhere they'll see it — or you file them out of the story: the plot you actually live in has better casting",
-        "g": "you reconstruct the last three days for the trigger, so it can't repeat"
+        "g": "you reconstruct the last three days for the trigger, so it can't repeat — or you sweep everyone else's activity: who is still normal, who has gone quiet; with the whole picture in view, the mind quiets"
       },
       "stem": "A friend has left you on read since yesterday — unusual for them."
     },
@@ -476,7 +476,7 @@
     "N02L": {
       "options": {
         "A": "telling the person who was supposed to care, and watching it land beside them — fed, fixed, applauded, not heard",
-        "B": "the laugh with an audience — the day a verdict landed on you and stuck",
+        "B": "the day you came through and someone beside you didn't — and every 'it wasn't your fault' since has bounced off",
         "C": "results read aloud — your name and the word \"almost\" in the same breath",
         "D": "forms signed for you, subjects chosen for you, your seat pre-assigned"
       },
@@ -485,7 +485,7 @@
     "N02M": {
       "options": {
         "A": "telling the person who was supposed to care, and watching it land beside them — fed, fixed, applauded, not heard",
-        "B": "the laugh with an audience — the day a verdict landed on you and stuck",
+        "B": "the day you came through and someone beside you didn't — and every 'it wasn't your fault' since has bounced off",
         "C": "results read aloud — your name and the word \"almost\" in the same breath",
         "D": "forms signed for you, subjects chosen for you, your seat pre-assigned",
         "E": "none of these is really mine"

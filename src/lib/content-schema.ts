@@ -96,6 +96,61 @@ export interface Card {
   epitaph: string
   meta?: { pattern?: 'A' | 'B' }
 }
+// ── Characters — the 13 special character records (design spec §3.7) ──
+// On-disk: content/characters/<locale>.json, an array of per-locale records.
+// color is plain #rrggbb by compiler invariant (html2canvas export constraint).
+export const rawCharacterSchema = z
+  .object({
+    id: z.string().min(1),
+    tag: z.string().min(1),
+    color: z.string().regex(/^#[0-9a-fA-F]{6}$/),
+    locale: localeSchema,
+    name: z.string().min(1),
+    magicName: z.string().min(1),
+    awakening: z.object({ before: z.string().min(1), after: z.string().min(1) }),
+    /** The character's 原罪 — the record's epithet field. */
+    epithet: z.string().min(1),
+    /** The character's artbook signature quote — the record's closing line. */
+    quote: z.string().min(1),
+    /** Per-character warden remark; absent → the generic i18n wardenLine. */
+    warden: z.string().min(1).optional(),
+  })
+  .passthrough()
+export const rawCharactersFileSchema = z.array(rawCharacterSchema)
+
+export interface WitchCharacter {
+  id: string
+  tag: string
+  color: string
+  locale: Locale
+  name: string
+  magicName: string
+  awakening: { before: string; after: string }
+  /** The character's 原罪 — the record's epithet field. */
+  epithet: string
+  /** The character's artbook signature quote — the record's closing line. */
+  quote: string
+  /** Per-character warden remark; undefined → the generic i18n wardenLine. */
+  warden?: string
+}
+
+export function normalizeCharacter(
+  raw: z.infer<typeof rawCharacterSchema>,
+): WitchCharacter {
+  return {
+    id: raw.id,
+    tag: raw.tag,
+    color: raw.color,
+    locale: raw.locale,
+    name: raw.name,
+    magicName: raw.magicName,
+    awakening: { before: raw.awakening.before, after: raw.awakening.after },
+    epithet: raw.epithet,
+    quote: raw.quote,
+    warden: raw.warden,
+  }
+}
+
 export interface TagInfo {
   cell: string
   origin: string

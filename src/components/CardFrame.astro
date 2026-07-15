@@ -10,7 +10,11 @@ interface Props {
   tone?: string
   surface?: string
 }
-const { class: className, tone = 'var(--verdict-gold)', surface = 'var(--velvet)' } = Astro.props
+/* --frame-surface is only inlined when a surface is explicitly passed —
+ * an unconditional inline default would out-specify class-level overrides
+ * (e.g. .card-frame--character's char-tinted wash). The CSS fallback in
+ * witch-card.css already defaults the surface to velvet. */
+const { class: className, tone = 'var(--verdict-gold)', surface } = Astro.props
 /* The corner offsets live on the wrapping <span> and the flip inside the SVG —
  * never on the <svg> element itself, which html2canvas would carry into the
  * exported PNG's rasterization and paint out of frame (see witch-card.css).
@@ -23,7 +27,10 @@ const corners = {
 } as const
 ---
 
-<div class:list={['card-frame', className]} style={`--frame-tone:${tone};--frame-surface:${surface};`}>
+<div
+  class:list={['card-frame', className]}
+  style={`--frame-tone:${tone};${surface ? `--frame-surface:${surface};` : ''}`}
+>
   <div class="card-frame__rule">
     {Object.entries(corners).map(([c, flip]) => (
       <span class={`card-frame__fleuron card-frame__fleuron--${c}`} aria-hidden="true">

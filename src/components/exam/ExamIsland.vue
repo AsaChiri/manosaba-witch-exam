@@ -19,15 +19,18 @@ import {
   saveProgress,
   loadProgress,
   clearProgress,
+  getFinished,
+  setFinished,
 } from '../../lib/storage'
-import { recordCollected } from '../../lib/collection'
+import { recordCollected, recordCharacter } from '../../lib/collection'
 import { examStart, questionAnswered, resultLanded } from '../../lib/beacon'
 import { sanitizeWitchName } from '../../lib/sanitize'
 import { localePath, type Locale } from '../../i18n/config'
 import { t } from '../../i18n'
-import type { Card } from '../../lib/content-schema'
+import type { Card, WitchCharacter } from '../../lib/content-schema'
 import ConsentGate from './ConsentGate.vue'
 import QuizRunner from './QuizRunner.vue'
+import SpoilerGate from './SpoilerGate.vue'
 import NamePrompt from './NamePrompt.vue'
 import VerdictSequence from './VerdictSequence.vue'
 import ResultView from './ResultView.vue'
@@ -37,14 +40,25 @@ const props = defineProps<{
   quizVersion: string
   cells: CellCandidate[]
   cards: Record<string, Card>
+  characters: Record<string, WitchCharacter>
 }>()
 
-type State = 'loading' | 'consent' | 'quiz' | 'name' | 'verdict' | 'result' | 'inconclusive'
+type State =
+  | 'loading'
+  | 'consent'
+  | 'quiz'
+  | 'spoiler'
+  | 'name'
+  | 'verdict'
+  | 'result'
+  | 'inconclusive'
 const state = ref<State>('loading')
 const session = shallowRef<ExamSession | null>(null)
 const question = shallowRef<ExamQuestion | null>(null)
 const progress = ref<ExamProgress | null>(null)
 const result = shallowRef<ExamResult | null>(null)
+// the spoiler gate's answer, mirrored from storage (design spec §3.7)
+const finished = ref(false)
 
 function newSession(): ExamSession {
   const s = createExam({
@@ -80,6 +94,14 @@ function doneState(s: ExamSession): State {
   return s.isInconclusive?.() ? 'inconclusive' : 'name'
 }
 
+/* After the last scored question: the spoiler gate (§3.7) — unless the visitor
+ * already answered "yes" once (finishing the game is irreversible), or the exam
+ * is inconclusive (no result → no card → nothing to gate). */
+function nextAfterQuiz(s: ExamSession): State {
+  const d = doneState(s)
+  return d === 'name' && getFinished() !== 'yes' ? 'spoiler' : d
+}
+
 function onAnswer(optionId: string) {
   const s = session.value
   if (!s) return
@@ -87,8 +109,14 @@ function onAnswer(optionId: string) {
   s.answer(optionId)
   questionAnswered(idx)
   saveProgress(s.snapshot())
-  if (s.isDone()) state.value = doneState(s)
+  if (s.isDone()) state.value = nextAfterQuiz(s)
   else refresh()
+}
+
+function onSpoilerAnswer(answeredFinished: boolean) {
+  setFinished(answeredFinished)
+  finished.value = answeredFinished
+  state.value = 'name'
 }
 
 function onBack() {
@@ -109,6 +137,7 @@ function onName(name: string) {
   if (r) {
     resultLanded(r.cell, r.tag)
     recordCollected(r.tag) // accumulate across retakes (the archive)
+    if (specialCharacter.value) recordCharacter(specialCharacter.value.id)
   }
   state.value = 'verdict'
 }
@@ -129,13 +158,27 @@ const resolvedCard = computed<Card | null>(() =>
   result.value ? (props.cards[result.value.tag] ?? null) : null,
 )
 
+/* The special character record replaces the normal card ONLY on an exact hit
+ * (user decision 2026-07-15): the visitor affirmed the spoiler gate AND the
+ * exam resolved to the character's own tag with no cell redirect. The mock
+ * engine carries no debug block, so it never triggers the special card. */
+const specialCharacter = computed<WitchCharacter | null>(() => {
+  const r = result.value
+  if (!r || !finished.value) return null
+  const c = props.characters[r.tag]
+  if (!c) return null
+  if (!r.debug || r.debug.resolvedCell !== r.debug.landedCell) return null
+  return c
+})
+
 onMounted(() => {
+  finished.value = getFinished() === 'yes'
   if (hasConsent()) {
     const s = newSession()
     const snap = loadProgress()
     if (snap) s.restore(snap)
     refresh()
-    state.value = s.isDone() ? doneState(s) : 'quiz'
+    state.value = s.isDone() ? nextAfterQuiz(s) : 'quiz'
   } else {
     state.value = 'consent'
   }
@@ -161,12 +204,14 @@ onMounted(() => {
       @answer="onAnswer"
       @back="onBack"
     />
+    <SpoilerGate v-else-if="state === 'spoiler'" :locale="locale" @answer="onSpoilerAnswer" />
     <NamePrompt v-else-if="state === 'name'" :locale="locale" @submit="onName" />
     <VerdictSequence
       v-else-if="state === 'verdict' && result"
       :locale="locale"
       :result="result"
       :card="resolvedCard"
+      :teaser-override="specialCharacter?.magicName ?? null"
       @done="onVerdictDone"
     />
     <ResultView
@@ -175,6 +220,7 @@ onMounted(() => {
       :card="resolvedCard"
       :result="result"
       :quiz-version="quizVersion"
+      :special-character="specialCharacter"
       @retake="onRetake"
     />
     <section v-else-if="state === 'inconclusive'" class="exam-island__inconclusive" :lang="locale">

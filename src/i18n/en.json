@@ -7,7 +7,8 @@
     "descLanding": "An examination for the witch factor. See which witch you would become, were you sent to the island.",
     "descExam": "The examination has begun.",
     "descCard": "A Witch Factor Examination record — magic detected: {magic}.",
-    "descShare": "Magic detected: {magic}. Take the examination and see which witch is found in you."
+    "descShare": "Magic detected: {magic}. Take the examination and see which witch is found in you.",
+    "descCharacter": "An examination record where the same magic as {name}'s was detected: “{magic}.” Take the examination and see which witch is found in you."
   },
   "nav": {
     "skipToContent": "Skip to content",
@@ -77,6 +78,12 @@
       "confirm": "Complete the examination"
     },
     "chosenAsMost": "Chosen in the previous question",
+    "spoiler": {
+      "question": "One last question — the story that happened on that island: have you heard it through to the end?",
+      "note": "(That is, having finished the main story of the original game, Magical Girl · Witch Trial. This does not affect your result; it only decides whether spoiler content may be shown.)",
+      "yes": "I heard it to the end",
+      "no": "Not yet"
+    },
     "inconclusive": {
       "title": "No matching record",
       "body": "No record matches you yet. Please take the examination again."
@@ -116,6 +123,7 @@
     "line": "Share on LINE",
     "more": "More ways to share",
     "template": "Witch factor detected. My magic: “{magic}.”",
+    "specialTemplate": "The same magic as {name}'s was detected in me: “{magic}.”",
     "hint": "Take the examination: ",
     "qrCaption": "Scan to be examined",
     "exportTag": "Witch Factor Examination"
@@ -136,7 +144,14 @@
   },
   "result": {
     "safety": "If any of this has distressed you, please reach out to a crisis line below.",
-    "safetyLink": "Crisis lines"
+    "safetyLink": "Crisis lines",
+    "specialCard": {
+      "mark": "SPECIAL RECORD",
+      "wardenTag": "WARDEN",
+      "wardenLine": "Good grief… this record — any way I look at it, it overlaps with {name}'s file.",
+      "beforeLabel": "BEFORE AWAKENING",
+      "afterLabel": "AFTER AWAKENING"
+    }
   },
   "collection": {
     "link": "Magic Archive",
@@ -148,7 +163,8 @@
     "empty": "The archive is empty. Take the examination to detect your magic.",
     "emptyCta": "Begin the examination",
     "back": "Back to the archive",
-    "metaDesc": "The archive of magic you have been examined as."
+    "metaDesc": "The archive of magic you have been examined as.",
+    "specialTitle": "Special Records"
   },
   "errors": {
     "archive": "The archive did not answer. Try again.",

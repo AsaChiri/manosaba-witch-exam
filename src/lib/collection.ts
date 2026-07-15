@@ -17,6 +17,9 @@ const COLLECTION_KEY = 'manosaba-exam-collection-v1'
 interface StoredCollection {
   version: 1
   tags: string[]
+  /** Special character records reached (§3.7) — character ids. Optional so
+   *  pre-feature payloads keep loading; ids are stable like tags. */
+  chars?: string[]
 }
 
 /**
@@ -27,31 +30,55 @@ interface StoredCollection {
  */
 export const COLLECTOR_REVEAL_THRESHOLD = 12
 
-/** The collected TAGs in insertion order (the island reverses for recent-first). */
-export function loadCollected(): string[] {
+function loadStore(): StoredCollection | null {
   try {
     const raw = localStorage.getItem(COLLECTION_KEY)
-    if (!raw) return []
+    if (!raw) return null
     const parsed = JSON.parse(raw) as StoredCollection
-    if (parsed?.version !== 1 || !Array.isArray(parsed.tags)) return []
-    return parsed.tags.filter((t): t is string => typeof t === 'string')
+    if (parsed?.version !== 1 || !Array.isArray(parsed.tags)) return null
+    return parsed
   } catch {
-    return []
+    return null
   }
+}
+
+function saveStore(store: StoredCollection): void {
+  try {
+    localStorage.setItem(COLLECTION_KEY, JSON.stringify(store))
+  } catch {
+    /* quota / disabled — silent */
+  }
+}
+
+/** The collected TAGs in insertion order (the island reverses for recent-first). */
+export function loadCollected(): string[] {
+  return (loadStore()?.tags ?? []).filter((t): t is string => typeof t === 'string')
+}
+
+/** The special character ids reached (§3.7), insertion order. */
+export function loadCollectedCharacters(): string[] {
+  const chars = loadStore()?.chars
+  return Array.isArray(chars) ? chars.filter((c): c is string => typeof c === 'string') : []
 }
 
 /** Append a reached card TAG (deduped). Called when an exam resolves to a card. */
 export function recordCollected(tag: string): void {
   if (!tag) return
-  try {
-    const tags = loadCollected()
-    if (tags.includes(tag)) return
-    tags.push(tag)
-    const payload: StoredCollection = { version: 1, tags }
-    localStorage.setItem(COLLECTION_KEY, JSON.stringify(payload))
-  } catch {
-    /* quota / disabled — silent */
-  }
+  const store = loadStore() ?? { version: 1 as const, tags: [] }
+  if (store.tags.includes(tag)) return
+  store.tags.push(tag)
+  saveStore(store)
+}
+
+/** Append a reached special character id (deduped, §3.7). */
+export function recordCharacter(id: string): void {
+  if (!id) return
+  const store = loadStore() ?? { version: 1 as const, tags: [] }
+  const chars = Array.isArray(store.chars) ? store.chars : []
+  if (chars.includes(id)) return
+  chars.push(id)
+  store.chars = chars
+  saveStore(store)
 }
 
 /** Has the visitor collected at least one card (i.e. finished ≥1 exam)?

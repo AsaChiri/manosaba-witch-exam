@@ -11,7 +11,7 @@ import CollectionIsland from '../components/collection/CollectionIsland.vue'
 import Seal from '../components/Seal.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
-import { listTags, getCardOrFallback } from '../lib/content'
+import { listTags, getCardOrFallback, listCharacters } from '../lib/content'
 import { cardTitle } from '../lib/content-schema'
 
 interface Props {
@@ -25,6 +25,13 @@ for (const tag of listTags()) {
   if (card) catalog[tag] = { title: cardTitle(card), epithet: card.epithet }
 }
 const total = Object.keys(catalog).length
+
+// trimmed character catalog for the special-records section (§3.7) — never
+// the awakening prose, and never the tag mapping
+const characterCatalog: Record<string, { name: string; magicName: string; color: string }> = {}
+for (const c of listCharacters(locale)) {
+  characterCatalog[c.id] = { name: c.name, magicName: c.magicName, color: c.color }
+}
 
 const seo = {
   routeKey: '/collection/',
@@ -42,7 +49,13 @@ const seo = {
     <Seal size={24} title={t(locale, 'meta.siteName')} />
   </a>
   <main id="main">
-    <CollectionIsland client:only="vue" locale={locale} catalog={catalog} total={total} />
+    <CollectionIsland
+      client:only="vue"
+      locale={locale}
+      catalog={catalog}
+      total={total}
+      characterCatalog={characterCatalog}
+    />
   </main>
 </BaseLayout>
 

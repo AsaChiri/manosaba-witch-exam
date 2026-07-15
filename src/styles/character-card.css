@@ -1,0 +1,218 @@
+/*
+ * The special character record (design spec §3.7) — shown when a finished-game
+ * visitor lands exactly on one of the 13 canon wound cells. Concept: still the
+ * VISITOR's examination record — the same magic as a canon prisoner was
+ * detected — so it mirrors the witch card's structure (specimen name, magic
+ * headline + description, 原罪 field) with the crime/execution section
+ * replaced by the warden's remark and the character's artbook quote closing
+ * the card in the epitaph position.
+ *
+ * Shared by the interactive result (SpecialCard.vue) and the static character
+ * share page (SpecialCard.astro) so the exported PNG is identical to /c/<id>/.
+ *
+ * This file is the ONE documented exception to the violet card palette:
+ * `--char-color` (a plain #rrggbb from compiled character data — html2canvas
+ * export constraint) may tint this surface only. Gold stays seal/ornament;
+ * translucency only ever via `color-mix(in srgb, …)` (the export flattener
+ * handles the resulting color(srgb …); oklch/lab would abort the capture).
+ */
+/* The special record's ground — the character's ink worked into the paper,
+ * quiet under her rose window (the card's hero). Lives on the FRAME surface
+ * so it runs edge-to-edge under the frame's padding. Layers:
+ *   1. a whisper of diagonal security-paper grain;
+ *   2. the char-color atmosphere (top vignette + foot wash);
+ * all plain gradients — export-safe, no raster assets. */
+.card-frame--character {
+  --frame-surface:
+    repeating-linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--frame-tone) 3%, transparent) 0 1px,
+      transparent 1px 7px
+    ),
+    radial-gradient(
+      ellipse 85% 52% at 50% 10%,
+      color-mix(in srgb, var(--frame-tone) 9%, transparent),
+      transparent 72%
+    ),
+    linear-gradient(
+      180deg,
+      transparent 55%,
+      color-mix(in srgb, var(--frame-tone) 5%, transparent) 100%
+    ),
+    var(--velvet);
+}
+
+.character-card {
+  position: relative;
+  color: var(--bone);
+  text-align: center;
+}
+
+/* her rose window (lib/rose-window.ts) — the record's crowning element */
+.character-card__window {
+  width: clamp(8rem, 30vw, 10rem);
+  margin: 0 auto 1.1rem;
+  filter: drop-shadow(0 0 16px color-mix(in srgb, var(--char-color) 32%, transparent));
+}
+.character-card__window svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.character-card__record-mark {
+  font-family: var(--font-instrument);
+  font-size: 0.86rem;
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  color: color-mix(in srgb, var(--char-color) 70%, var(--bone));
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+/* ── The magic block — the record's headline unit, like the witch card's
+ * epithet block. ── */
+.character-card__magic-block {
+  position: relative;
+  margin-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.character-card__magic-name {
+  position: relative;
+  font-family: var(--font-inscription);
+  font-weight: 700;
+  font-size: clamp(1.9rem, 7vw, 2.9rem);
+  line-height: 1.16;
+  margin: 0.5rem auto 0.2rem;
+  max-width: 22ch;
+  color: color-mix(in srgb, var(--char-color) 78%, var(--bone));
+  text-shadow: 0 0 22px color-mix(in srgb, var(--char-color) 34%, transparent);
+}
+/* the magic's description — the design-book 覚醒前/覚醒後 pair, read as one
+ * unit with the name above (the special analogue of .witch-card__magic-lead) */
+.character-card__stages {
+  position: relative;
+  max-width: 38ch;
+  margin: 1rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  text-align: left;
+}
+.character-card__stage-line {
+  font-family: var(--font-body);
+  color: var(--bone);
+  font-size: 1.02rem;
+  line-height: 1.72;
+  text-wrap: pretty;
+}
+.character-card__stage-label {
+  display: inline-block;
+  margin-right: 0.55em;
+  font-family: var(--font-instrument);
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  color: color-mix(in srgb, var(--char-color) 62%, var(--bone));
+  text-transform: uppercase;
+}
+
+/* ── Fields (原罪 / 典獄長) — the witch card's field pattern with
+ * char-color labels instead of gold ── */
+.character-card__field {
+  margin: 1.5rem auto 0;
+  max-width: 46ch;
+  text-align: left;
+}
+.character-card__field-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-family: var(--font-instrument);
+  font-size: 0.82rem;
+  letter-spacing: 0.34em;
+  color: color-mix(in srgb, var(--char-color) 62%, var(--bone));
+  text-transform: uppercase;
+}
+.character-card__epithet {
+  font-family: var(--font-inscription);
+  font-weight: 600;
+  font-size: 1.35rem;
+  line-height: 1.4;
+  color: var(--bone);
+  text-shadow: 0 0 16px color-mix(in srgb, var(--char-color) 26%, transparent);
+}
+/* ── The warden's note — NOT a dossier field: a paper scrap PINNED onto the
+ * record by another hand. Paper-lighter surface with a hairline edge, a
+ * dog-eared corner, a real pushpin (inline SVG: gold sphere head + needle +
+ * cast shadow — plain hexes, no gradients, export-safe) and a lazy tilt.
+ * The tilt is a plain 2D transform on a regular element (html2canvas-safe;
+ * only <svg>-level transforms are hazardous — see witch-card.css). ── */
+.character-card__warden-note {
+  position: relative;
+  margin: 2.1rem auto 0;
+  max-width: 42ch;
+  padding: 1.05rem 1.2rem 0.85rem;
+  text-align: left;
+  background: color-mix(in srgb, var(--bone) 5%, var(--velvet-raised));
+  border: 1px solid color-mix(in srgb, var(--verdict-gold) 24%, transparent);
+  transform: rotate(-1.1deg);
+}
+/* the dog-eared corner: a lighter fold flap over a shadowed cut */
+.character-card__warden-note::after {
+  content: '';
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(
+    315deg,
+    var(--ink) 0 49%,
+    color-mix(in srgb, var(--bone) 16%, var(--velvet-raised)) 51% 100%
+  );
+}
+/* the pushpin, leaning in from the top-left corner of the scrap */
+.character-card__warden-pin {
+  position: absolute;
+  top: -14px;
+  left: 16px;
+  line-height: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.character-card__warden-pin svg {
+  display: block;
+}
+.character-card__warden-text {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--bone-dim);
+  text-wrap: pretty;
+}
+.character-card__warden-sig {
+  display: block;
+  margin-top: 0.55rem;
+  text-align: right;
+  font-family: var(--font-instrument);
+  font-size: 0.76rem;
+  letter-spacing: 0.26em;
+  color: var(--verdict-gold-deep);
+  text-transform: uppercase;
+}
+
+/* the character's artbook quote — the record's closing line, sitting where
+ * the epitaph sits on the witch card */
+.character-card__quote {
+  margin: 0.3rem auto 0;
+  max-width: 40ch;
+  padding-top: 1.3rem;
+  border-top: 1px solid color-mix(in srgb, var(--char-color) 30%, transparent);
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--char-color) 55%, var(--bone));
+  text-align: center;
+  text-wrap: pretty;
+}

@@ -12,7 +12,14 @@ import { t } from '../../i18n'
 import type { Locale } from '../../i18n/config'
 import Seal from './Seal.vue'
 
-const props = defineProps<{ locale: Locale; result: ExamResult; card: Card | null }>()
+const props = defineProps<{
+  locale: Locale
+  result: ExamResult
+  card: Card | null
+  /** Special character record hit (§3.7): its magic name replaces the card's
+   *  in the teaser, so the reveal matches the record that unfolds next. */
+  teaserOverride?: string | null
+}>()
 const emit = defineEmits<{ done: [] }>()
 const T = (k: string) => t(props.locale, k)
 
@@ -56,9 +63,9 @@ onBeforeUnmount(() => {
 
       <h1 class="verdict__detected">{{ T('verdict.detected') }}</h1>
       <p class="verdict__sentence">{{ T('verdict.sentence') }}</p>
-      <p v-if="card" class="verdict__teaser">
+      <p v-if="card || teaserOverride" class="verdict__teaser">
         <span class="verdict__teaser-label">{{ T('verdict.teaser') }}</span>
-        <span class="verdict__epithet">{{ card.magic.name }}</span>
+        <span class="verdict__epithet">{{ teaserOverride ?? card?.magic.name }}</span>
       </p>
     </div>
     <button type="button" class="verdict__skip" @click.stop="finish">{{ T('verdict.skip') }} ›</button>

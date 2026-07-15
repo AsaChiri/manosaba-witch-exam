@@ -16,6 +16,8 @@ export interface Sources {
   picksetBank: string;
   manifest: string;
   cardsDir: string;
+  /** character sources for the 13 special character records (design spec §3.7). */
+  charactersDir: string;
   cardWork: string;
   contentDir: string;
   shipList: string;
@@ -40,6 +42,7 @@ export function makeSources(workspace: string): Sources {
       "authoring_manifest.md",
     ),
     cardsDir: join(workspace, "output", "cards"),
+    charactersDir: join(workspace, "output", "characters"),
     cardWork: join(workspace, "output", "build", "card_work"),
     contentDir: join(REPO_ROOT, "content"),
     shipList: join(REPO_ROOT, "content", "ship_list.json"),
