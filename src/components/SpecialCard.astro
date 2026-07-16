@@ -19,9 +19,8 @@ interface Props {
 }
 const { character, locale, class: className } = Astro.props
 const T = (k: string, p?: Record<string, string | number>) => t(locale, k, p)
-// Per-character warden remark when authored; else the generic template.
-const wardenLine =
-  character.warden ?? T('result.specialCard.wardenLine', { name: character.name })
+// Per-character warden remark (authored for every character).
+const wardenLine = character.warden
 // Her rose window — deterministic generated SVG (lib/rose-window.ts).
 const windowSvg = roseWindowSvg({
   color: character.color,
@@ -38,7 +37,6 @@ const windowSvg = roseWindowSvg({
   <div class="character-card__window" aria-hidden="true">
     <Fragment set:html={windowSvg} />
   </div>
-  <p class="character-card__record-mark">{T('result.specialCard.mark')}</p>
 
   <div class="character-card__magic-block">
     <span class="witch-card__magic-mark">

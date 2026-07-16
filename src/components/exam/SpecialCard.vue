@@ -27,12 +27,8 @@ const props = defineProps<{
 }>()
 const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k, p)
 
-// Per-character warden remark when authored; else the generic template.
-const wardenLine = computed(
-  () =>
-    props.character.warden ??
-    T('result.specialCard.wardenLine', { name: props.character.name }),
-)
+// Per-character warden remark (authored for every character).
+const wardenLine = computed(() => props.character.warden)
 
 // Her rose window (lib/rose-window.ts) — deterministic SVG string, safe for
 // v-html (generated entirely from our own code + compiled content).
@@ -48,7 +44,6 @@ const windowSvg = computed(() =>
 <template>
   <article class="character-card" :style="{ '--char-color': character.color }" :lang="locale">
     <div class="character-card__window" aria-hidden="true" v-html="windowSvg"></div>
-    <p class="character-card__record-mark">{{ T('result.specialCard.mark') }}</p>
 
     <p class="witch-card__specimen">
       <span class="witch-card__specimen-label">{{ T('card.specimenLabel') }}</span>

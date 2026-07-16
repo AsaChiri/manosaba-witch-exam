@@ -112,8 +112,8 @@ export const rawCharacterSchema = z
     epithet: z.string().min(1),
     /** The character's artbook signature quote — the record's closing line. */
     quote: z.string().min(1),
-    /** Per-character warden remark; absent → the generic i18n wardenLine. */
-    warden: z.string().min(1).optional(),
+    /** Per-character warden remark (required; authored per character). */
+    warden: z.string().min(1),
   })
   .passthrough()
 export const rawCharactersFileSchema = z.array(rawCharacterSchema)
@@ -130,8 +130,8 @@ export interface WitchCharacter {
   epithet: string
   /** The character's artbook signature quote — the record's closing line. */
   quote: string
-  /** Per-character warden remark; undefined → the generic i18n wardenLine. */
-  warden?: string
+  /** Per-character warden remark (required; authored per character). */
+  warden: string
 }
 
 export function normalizeCharacter(

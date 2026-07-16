@@ -158,7 +158,6 @@
     "specialCard": {
       "mark": "特別記錄",
       "wardenTag": "典獄長",
-      "wardenLine": "呀嘞呀嘞……這份記錄，怎麼看都和『{name}』的檔案重合了呢。",
       "beforeLabel": "覺醒前",
       "afterLabel": "覺醒後"
     }

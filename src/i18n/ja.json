@@ -153,7 +153,6 @@
     "specialCard": {
       "mark": "特別記録",
       "wardenTag": "典獄長",
-      "wardenLine": "やれやれ……この記録、どう見ても『{name}』のファイルと重なってるねぇ。",
       "beforeLabel": "覚醒前",
       "afterLabel": "覚醒後"
     }

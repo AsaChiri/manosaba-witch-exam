@@ -25,8 +25,8 @@ export interface CharacterFields {
   epithet: string;
   /** The character's artbook signature quote — the record's closing line. */
   quote: string;
-  /** Optional per-character warden remark (典獄長). When absent the runtime
-   *  falls back to the generic i18n wardenLine template. */
+  /** Per-character warden remark (典獄長). Required in every authored locale —
+   *  there is no generic fallback template. */
   warden: string;
 }
 export interface ParsedCharacter {
@@ -210,15 +210,9 @@ export function validateCharacters(
       if (!f?.after) errors.push(`${c.id}: ${loc} 覚醒後 text missing`);
       if (!f?.epithet) errors.push(`${c.id}: ${loc} 原罪 text missing`);
       if (!f?.quote) errors.push(`${c.id}: ${loc} 台詞 text missing`);
-    }
-    // warden remark is optional, but all-or-nothing across the authored
-    // locales — a partial set would mix custom voice with the generic
-    // template between languages.
-    const wardenLocs = CHARACTER_LOCALES.filter((loc) => c.locales[loc]?.warden);
-    if (wardenLocs.length > 0 && wardenLocs.length < CHARACTER_LOCALES.length) {
-      warnings.push(
-        `${c.id}: 典獄長 remark authored for ${wardenLocs.join("/")} only — other locales fall back to the generic template`,
-      );
+      // warden remark is required — there is no generic fallback template,
+      // so a missing 典獄長 line would render blank on the record.
+      if (!f?.warden) errors.push(`${c.id}: ${loc} 典獄長 remark missing`);
     }
   }
   return { errors, warnings };

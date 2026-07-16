@@ -60,16 +60,6 @@
   height: auto;
 }
 
-.character-card__record-mark {
-  font-family: var(--font-instrument);
-  font-size: 0.86rem;
-  letter-spacing: 0.3em;
-  text-indent: 0.3em;
-  color: color-mix(in srgb, var(--char-color) 70%, var(--bone));
-  text-transform: uppercase;
-  margin-bottom: 0.4rem;
-}
-
 /* ── The magic block — the record's headline unit, like the witch card's
  * epithet block. ── */
 .character-card__magic-block {

@@ -148,7 +148,6 @@
     "specialCard": {
       "mark": "SPECIAL RECORD",
       "wardenTag": "WARDEN",
-      "wardenLine": "Good grief… this record — any way I look at it, it overlaps with {name}'s file.",
       "beforeLabel": "BEFORE AWAKENING",
       "afterLabel": "AFTER AWAKENING"
     }

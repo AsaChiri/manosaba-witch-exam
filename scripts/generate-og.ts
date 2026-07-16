@@ -441,17 +441,16 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
 }
 
 /* Special character record OG (design spec §3.7) — the one theme-colored
- * surface. Mirrors the record: the MAGIC NAME is the headline in the
- * character color (the visitor detected the same magic), the character name
- * above it in bone, and the record's engraved ground — fine resonance rings
- * radiating from the Seal in the character's ink. */
+ * surface. The MAGIC NAME is the headline in the character color (the visitor
+ * detected the same magic), crowned by her rose window over the record's
+ * engraved ground — fine resonance rings radiating from the Seal in the
+ * character's ink. The character's name is withheld: the unfurl reveals the
+ * magic, never who it belongs to. */
 function buildCharacterSvg(cfg: LocaleCfg, ch: any): string {
   const s = I18N[cfg.key]
-  const kicker = String(s.result?.specialCard?.mark ?? s.meta.siteName)
   const color = String(ch.color)
-  const chName = String(ch.name ?? '').trim()
   const magic = String(ch.magicName ?? '').trim()
-  if (!chName || !magic) throw new Error(`OG FAIL: character ${ch.id} missing name/magicName`)
+  if (!magic) throw new Error(`OG FAIL: character ${ch.id} missing magicName`)
 
   // her rose window replaces the plain Seal — same generator as the card
   const WIN = 190 // rendered box (200 viewBox scaled)
@@ -464,12 +463,9 @@ function buildCharacterSvg(cfg: LocaleCfg, ch: any): string {
     },
   )}</g>`
 
-  const nameL = layout(chName, cfg.isCjk, 940, cfg.isCjk ? 46 : 38, 28, 1)
   const sealBottom = winTop + WIN
-  const nameStart = sealBottom + nameL.size * 0.95 + 10
-  const n = textBlock(nameL.lines, nameStart, nameL.size, 1.12)
-
-  const ruleY = n.bottom + 34
+  // no name line between the window and the rule — close the gap the name held
+  const ruleY = sealBottom + 44
   const markText = String(s.card?.magicMark ?? '魔法')
   const markY = ruleY + 56
   const markHalf = cfg.isCjk ? 40 : 46
@@ -493,9 +489,7 @@ function buildCharacterSvg(cfg: LocaleCfg, ch: any): string {
       <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <text x="180" y="88" text-anchor="middle" fill="${color}" fill-opacity="0.88" font-family="${fam(cfg)}" font-size="21" letter-spacing="9">${escapeXml(kicker)}</text>
   ${window}
-  <text text-anchor="middle" fill="${C.bone}" fill-opacity="0.92" font-family="${fam(cfg)}" font-weight="600" font-size="${nameL.size}" letter-spacing="6">${n.tspans}</text>
   <rect x="500" y="${ruleY}" width="200" height="1.8" fill="url(#crule)"/>
   <text x="600" y="${markY}" text-anchor="middle" fill="${C.gold}" font-family="${fam(cfg)}" font-size="22" letter-spacing="10">${escapeXml(markText)}</text>
   ${orn(1)}${orn(-1)}
@@ -542,8 +536,6 @@ function runAudit(): number {
       problems.push(...auditLines(`${cfg.key} ${t} desc`, descLines, cfg.isCjk, 860, descSize))
     }
     for (const ch of loadCharacters(cfg.key)) {
-      const nameL = layout(String(ch.name), cfg.isCjk, 940, cfg.isCjk ? 46 : 38, 28, 1)
-      problems.push(...auditLines(`${cfg.key} c-${ch.id} name`, nameL.lines, cfg.isCjk, 940, nameL.size))
       const magicL = layout(String(ch.magicName), cfg.isCjk, 940, cfg.isCjk ? 84 : 66, 42, 2)
       problems.push(...auditLines(`${cfg.key} c-${ch.id} magic`, magicL.lines, cfg.isCjk, 940, magicL.size))
     }
