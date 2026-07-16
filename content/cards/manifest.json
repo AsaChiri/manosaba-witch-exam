@@ -68,6 +68,19 @@
       "family": "ABN",
       "style": "Self-Reliant"
     },
+    "ALN|Avoider": {
+      "authoredTags": [
+        "ALN-1_AV-1"
+      ],
+      "coveredCoping": [
+        "AV-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Avoider"
+    },
     "ALN|Concealer": {
       "authoredTags": [
         "ALN-10_CO-1"
@@ -80,6 +93,32 @@
       ],
       "family": "ALN",
       "style": "Concealer"
+    },
+    "ALN|Fantasist": {
+      "authoredTags": [
+        "ALN-10_FA-2"
+      ],
+      "coveredCoping": [
+        "FA-2"
+      ],
+      "coveredOrigin": [
+        "ALN-10"
+      ],
+      "family": "ALN",
+      "style": "Fantasist"
+    },
+    "DEF|Avoider": {
+      "authoredTags": [
+        "DEF-3_AV-2"
+      ],
+      "coveredCoping": [
+        "AV-2"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Avoider"
     },
     "DEF|Concealer": {
       "authoredTags": [
@@ -125,13 +164,15 @@
     },
     "DEF|Self-Punisher": {
       "authoredTags": [
-        "DEF-3_SP-1"
+        "DEF-3_SP-1",
+        "DEF-8_SP-1"
       ],
       "coveredCoping": [
         "SP-1"
       ],
       "coveredOrigin": [
-        "DEF-3"
+        "DEF-3",
+        "DEF-8"
       ],
       "family": "DEF",
       "style": "Self-Punisher"
@@ -212,12 +253,14 @@
     },
     "FAI|Perfectionist": {
       "authoredTags": [
+        "FAI-3_PF-2",
         "FAI-5_PF-2"
       ],
       "coveredCoping": [
         "PF-2"
       ],
       "coveredOrigin": [
+        "FAI-3",
         "FAI-5"
       ],
       "family": "FAI",
@@ -368,6 +411,45 @@
       "tag": "ALN-10_CO-1",
       "variants": 1
     },
+    "ALN-10_FA-2": {
+      "cell": "ALN|Fantasist",
+      "copingSub": "FA-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_FA-2",
+      "variants": 1
+    },
+    "ALN-1_AV-1": {
+      "cell": "ALN|Avoider",
+      "copingSub": "AV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_AV-1",
+      "variants": 1
+    },
+    "DEF-3_AV-2": {
+      "cell": "DEF|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_AV-2",
+      "variants": 1
+    },
     "DEF-3_DT-3": {
       "cell": "DEF|Detacher",
       "copingSub": "DT-3",
@@ -392,6 +474,19 @@
       ],
       "originSub": "DEF-3",
       "tag": "DEF-3_SP-1",
+      "variants": 1
+    },
+    "DEF-8_SP-1": {
+      "cell": "DEF|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-8",
+      "tag": "DEF-8_SP-1",
       "variants": 1
     },
     "ED-1_P-1": {
@@ -470,6 +565,19 @@
       ],
       "originSub": "ED-9",
       "tag": "ED-9_P-1",
+      "variants": 1
+    },
+    "FAI-3_PF-2": {
+      "cell": "FAI|Perfectionist",
+      "copingSub": "PF-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_PF-2",
       "variants": 1
     },
     "FAI-5_PF-2": {

@@ -45,12 +45,36 @@
       "ABN-4|SR-1": 0
     }
   },
+  "ALN|Avoider": {
+    "table": {
+      "ALN-1|AV-1": "ALN-1_AV-1"
+    },
+    "tiers": {
+      "ALN-1|AV-1": 0
+    }
+  },
   "ALN|Concealer": {
     "table": {
       "ALN-10|CO-1": "ALN-10_CO-1"
     },
     "tiers": {
       "ALN-10|CO-1": 0
+    }
+  },
+  "ALN|Fantasist": {
+    "table": {
+      "ALN-10|FA-2": "ALN-10_FA-2"
+    },
+    "tiers": {
+      "ALN-10|FA-2": 0
+    }
+  },
+  "DEF|Avoider": {
+    "table": {
+      "DEF-3|AV-2": "DEF-3_AV-2"
+    },
+    "tiers": {
+      "DEF-3|AV-2": 0
     }
   },
   "DEF|Concealer": {
@@ -85,10 +109,12 @@
   },
   "DEF|Self-Punisher": {
     "table": {
-      "DEF-3|SP-1": "DEF-3_SP-1"
+      "DEF-3|SP-1": "DEF-3_SP-1",
+      "DEF-8|SP-1": "DEF-8_SP-1"
     },
     "tiers": {
-      "DEF-3|SP-1": 0
+      "DEF-3|SP-1": 0,
+      "DEF-8|SP-1": 0
     }
   },
   "DEF|Watcher": {
@@ -155,9 +181,11 @@
   },
   "FAI|Perfectionist": {
     "table": {
+      "FAI-3|PF-2": "FAI-3_PF-2",
       "FAI-5|PF-2": "FAI-5_PF-2"
     },
     "tiers": {
+      "FAI-3|PF-2": 0,
       "FAI-5|PF-2": 0
     }
   },

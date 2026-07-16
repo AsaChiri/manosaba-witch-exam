@@ -134,9 +134,7 @@
   },
   "feedback": {
     "invite": "結果への改善のご意見があれば、お聞かせください。",
-    "emailLabel": "ご意見の宛先",
-    "copyEmail": "宛先をコピー",
-    "copied": "コピーした",
+    "write": "ご意見を送る",
     "mailSubject": "[魔女因子検査] {tag} / q{quiz} / {locale}",
     "mailBody": "（ご意見をお書きください）",
     "debugHeader": "― 技術情報 ―",

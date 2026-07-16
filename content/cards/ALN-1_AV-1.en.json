@@ -10,28 +10,26 @@
     {
       "fields": {
         "crime": [
-          "The block had formed around the other prisoner — the one whose easy talk drew the room together and found the words whenever a silence sat too long. The witch watched it from the edge, as she had all her life.",
-          "At the block's evening gathering that week, the girl saved her a seat and handed her the moment — \"go on, tell them the thing you said earlier, it was good.\" She said it; it came a half-beat wrong, and the laugh never came. The girl filled the quiet kindly, the talk passed over her and went on — the one time the warmth turned to her, before them all, it landed as wrong as it always had.",
-          "Every Monday the girl carried the block's discards down to the incinerator room and loaded them before the furnace lit at three, a chore she had taken on for everyone. The witch had watched her at it for weeks.",
-          "The next Monday's firing was the first opening the routine gave her. She was already in the corridor when the girl went in with the load, and the heavy iron door swung shut behind her.",
-          "As the girl turned back for the handle, the witch stood just beyond the shut door, out in the corridor, and fixed the keeping-away on her. The door was not locked — only the power held her off it; she got no nearer the handle than a step, though it stood an arm's length past her fingers. At three the furnace lit, and the small windowless room filled with smoke and heat.",
-          "Because the keeping-away held only while she stayed near, she waited out the last minutes in the corridor, where at three the whole block files back to its cells; she went back to her cell only once the girl had gone still.",
-          "After the firing, the girl was found face down inside the incinerator room, one hand stretched toward the door, a clear step of untouched floor between her fingers and it. A prisoner overcome by smoke normally gets to the door and falls against it; this one had stopped a full step short, an even margin of bare floor before her outstretched hand.",
+          "The block had formed around one girl — easy talk, shared jokes. She watched from the edge, as she has all her life.",
+          "That week, at the evening gathering, the girl saved her a seat and called on her to speak. The line came a half-beat wrong, the laugh never came, and the girl filled the silence kindly and moved on.",
+          "Every Monday the girl carried the block's discards to the incinerator room and loaded them before the furnace lit at three. She watched her do it for weeks.",
+          "The next Monday, she was already in the basement corridor when the girl went in with the load. The heavy iron door swung shut behind the girl.",
+          "As the girl turned back for the handle, she fixed the distance — the girl could not come within reach of the door, though it stood an arm's length ahead. At three the furnace took, and the small stone room filled with smoke and heat.",
+          "The girl was found after the firing, face down inside the incinerator room, one hand stretched toward the unlocked door — a clear step of untouched floor between her fingers and it.",
+          "A prisoner overcome by smoke normally gets to the door and falls against it. This one fell a full step short — an even margin of untouched floor before her.",
           "That even margin means a line was held around a point out in the corridor — and the one prisoner who could set a distance no one else could close had stood there when the furnace took."
         ],
-        "epitaph": "She was never once on anyone's frequency; so she made a distance no one could cross, and had, at the end, only the distance.",
+        "epitaph": "She was never quite in reach, and then she made sure of it.",
         "epithet": "The Far Side of the Room",
         "execution": [
-          "The execution stand rose walled on every side, dry, a sluice-gate set high in one wall. She sat inside, one hand bound to the seat and the other left open; a keeper stood beside her and laid its hand in hers. While the two hands stayed joined, the gate held shut.",
-          "The floor beneath the keeper began to sink, by degrees, and the keeper's hand went down with it, drawing away from her.",
-          "She leaned after it, her open arm stretching to full reach; the floor kept sinking, and the hand receded past where she could follow.",
-          "Her power only pushes a person off and holds them at a distance, not pulls a receding one back; turned on the keeper, it would only fling the one saving hand further off.",
-          "Her fingers came off the keeper's hand, and the catch released.",
-          "The gate opened, and the water rose over her."
+          "A great ring of iron links lay around the stand in a rim channel, every coupling unseated. She stood in the circle's one gap, and the final span was brought around her chest — the two end-links coupled to each other before her, closing the ring with her inside its line.",
+          "A winch beneath the stand took up the ring. The slack left it join by join, each coupling seating true — the click walking the round toward her from both sides.",
+          "The last two end-links met before her chest and closed, iron to iron, around her. The circle was fast.",
+          "The winch kept taking up. The one span not riding the channel was the span around her; it tightened until the chest could no longer draw breath."
         ],
         "magic": {
           "name": "the Set Distance",
-          "text": "She fixes a distance between herself and one person she chooses, and that person can never close it; every step toward her leaves the gap unchanged."
+          "text": "She fixes a distance between herself and one chosen person; that person can never close it."
         }
       },
       "variant": 1

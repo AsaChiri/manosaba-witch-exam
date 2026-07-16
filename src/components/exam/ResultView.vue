@@ -10,7 +10,7 @@ import { cardTitle, type Card, type WitchCharacter } from '../../lib/content-sch
 import { CONTENT_HASH } from '../../lib/content'
 import { t, messages } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
-import { generateShareQr, copyText, type ShareCard } from '../../lib/share'
+import { generateShareQr, type ShareCard } from '../../lib/share'
 import Seal from './Seal.vue'
 import ShareRow from './ShareRow.vue'
 import SpecialCard from './SpecialCard.vue'
@@ -106,13 +106,6 @@ const mailto = computed(() => {
   })
   return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(feedbackBody())}`
 })
-const emailCopied = ref(false)
-async function copyEmail() {
-  if (await copyText(email)) {
-    emailCopied.value = true
-    window.setTimeout(() => (emailCopied.value = false), 1800)
-  }
-}
 
 const crisis = messages(props.locale).crisisLinks
 
@@ -226,13 +219,7 @@ watch(() => props.specialCharacter, refreshQr)
 
     <div class="result__feedback">
       <p class="result__invite">{{ T('feedback.invite') }}</p>
-      <div class="result__fb-row">
-        <a class="result__fb-write" :href="mailto">{{ T('feedback.emailLabel') }}</a>
-        <code class="result__fb-addr">{{ email }}</code>
-        <button type="button" class="result__fb-copy" @click="copyEmail">
-          {{ emailCopied ? T('feedback.copied') : T('feedback.copyEmail') }}
-        </button>
-      </div>
+      <a class="result__fb-write" :href="mailto">{{ T('feedback.write') }}</a>
     </div>
 
     <aside class="result__safety">
@@ -304,18 +291,13 @@ a.result__retake {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+  align-items: flex-start;
   padding: 1.4rem 1.5rem;
   border: 1px solid var(--hairline-faint);
   background: color-mix(in srgb, var(--velvet) 70%, transparent);
 }
 .result__invite {
   color: var(--bone-dim);
-}
-.result__fb-row {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  flex-wrap: wrap;
 }
 .result__fb-write {
   font-family: var(--font-instrument);
@@ -324,24 +306,6 @@ a.result__retake {
   text-decoration: none;
   border-bottom: 1px solid var(--hairline);
   padding-bottom: 1px;
-}
-.result__fb-addr {
-  font-family: var(--font-instrument);
-  font-size: 0.86rem;
-  color: var(--bone-dim);
-  user-select: all;
-  word-break: break-all;
-}
-.result__fb-copy {
-  font-family: var(--font-instrument);
-  font-size: 0.78rem;
-  color: var(--bone-faint);
-  border: 1px solid var(--hairline-faint);
-  padding: 0.2rem 0.6rem;
-}
-.result__fb-copy:hover {
-  color: var(--bone);
-  border-color: var(--hairline);
 }
 
 .result__safety {

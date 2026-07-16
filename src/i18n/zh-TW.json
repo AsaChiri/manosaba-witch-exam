@@ -139,9 +139,7 @@
   },
   "feedback": {
     "invite": "對於結果有改進意見？歡迎告訴我們。",
-    "emailLabel": "回饋信箱",
-    "copyEmail": "複製地址",
-    "copied": "已複製",
+    "write": "發送回饋",
     "mailSubject": "[魔女因子檢測] {tag} / q{quiz} / {locale}",
     "mailBody": "（請寫下你的意見）",
     "debugHeader": "— 技術資訊 —",

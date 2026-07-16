@@ -129,9 +129,7 @@
   },
   "feedback": {
     "invite": "Suggestions to improve your result? We'd love to hear them.",
-    "emailLabel": "Feedback address",
-    "copyEmail": "Copy address",
-    "copied": "Copied",
+    "write": "Send feedback",
     "mailSubject": "[Witch Factor Exam] {tag} / q{quiz} / {locale}",
     "mailBody": "(Share your thoughts.)",
     "debugHeader": "— Technical details —",
