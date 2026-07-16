@@ -16,7 +16,7 @@ const T = (k: string) => t(props.locale, k)
 
 <template>
   <section class="gate" :lang="locale">
-    <div class="gate__doc torn-edge">
+    <div class="gate__doc">
       <p class="gate__eyebrow">{{ T('gate.eyebrow') }}</p>
       <h1 class="gate__title">{{ T('gate.title') }}</h1>
 
@@ -31,8 +31,10 @@ const T = (k: string) => t(props.locale, k)
           <ul>
             <li v-for="c in crisis" :key="c.region + c.name">
               <span class="gate__region">{{ c.region }}</span>
-              <span class="gate__cname">{{ c.name }}</span>
-              <span class="gate__cdetail">{{ c.detail }}</span>
+              <span class="gate__cline">
+                <span class="gate__cname">{{ c.name }}</span>
+                <span class="gate__cdetail">{{ c.detail }}</span>
+              </span>
             </li>
           </ul>
         </div>
@@ -70,12 +72,27 @@ const T = (k: string) => t(props.locale, k)
   box-shadow:
     0 30px 70px -30px rgba(0, 0, 0, 0.9),
     inset 0 0 60px rgba(120, 86, 60, 0.14);
+  /* Torn edges with FIXED tooth depth (px), unlike the %-depth .torn-edge
+   * utility: on this tall document, %-deep teeth grew with page height and
+   * swallowed the eyebrow and the consent button on mobile. Horizontal spread
+   * stays in % so the tear scales with width; depth never exceeds 16px. */
+  clip-path: polygon(
+    0 14px, 4% 3px, 9% 15px, 15% 2px, 22% 12px, 29% 4px, 36% 16px, 44% 3px,
+    52% 13px, 60% 2px, 68% 12px, 76% 3px, 84% 16px, 91% 5px, 96% 13px, 100% 6px,
+    100% calc(100% - 12px), 96% calc(100% - 3px), 91% calc(100% - 14px),
+    84% calc(100% - 2px), 76% calc(100% - 13px), 68% calc(100% - 4px),
+    60% calc(100% - 16px), 52% calc(100% - 2px), 44% calc(100% - 12px),
+    36% calc(100% - 3px), 29% calc(100% - 15px), 22% calc(100% - 4px),
+    15% calc(100% - 13px), 9% calc(100% - 2px), 4% calc(100% - 12px),
+    0 calc(100% - 5px)
+  );
 }
 .gate__eyebrow {
   font-family: var(--font-instrument);
   letter-spacing: 0.28em;
   font-size: 0.8rem;
-  color: var(--verdict-gold-deep);
+  /* stamp ink, not gold: gold-on-parchment sat below comfortable contrast */
+  color: var(--logo-blood);
   text-transform: uppercase;
 }
 .gate__title {
@@ -120,16 +137,24 @@ const T = (k: string) => t(props.locale, k)
   flex-direction: column;
   gap: 0.35rem;
 }
+/* region | name+number as a two-column grid: when the number can't fit beside
+ * a long name (mobile), it wraps UNDER the name, still aligned to the name
+ * column — it used to orphan flush-left under the region. */
 .gate__crisis li {
-  display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 0.9em;
   align-items: baseline;
   font-size: 0.94rem;
 }
 .gate__region {
-  min-width: 4.5em;
   color: #7a5a3c;
+}
+.gate__cline {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.6em;
+  align-items: baseline;
 }
 .gate__cname {
   font-weight: 600;

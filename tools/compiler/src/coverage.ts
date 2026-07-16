@@ -99,8 +99,20 @@ export function buildCoverageMap(args: {
   shipped: ShippedCellInfo[];
   /** authorial §3 THIN-cell routes: fromCellKey -> toCellKey. */
   manifestRedirect: Record<string, string>;
+  /**
+   * Cells that must NOT be redirected but are NOT normal-card cells either —
+   * the special character cells (§3.7) that self-provide coverage. They are
+   * "direct" (a session landing here reaches the cell's own pickset/neighbor,
+   * so the exact character tag can be served), yet they are deliberately kept
+   * OUT of the redirect-target candidate set: no other cell should route INTO
+   * a character-only cell, because it has no normal card to show a redirected
+   * (or non-spoiler) arrival. Cells that also hold a normal card belong in
+   * `shipped`, not here.
+   */
+  directOnly?: string[];
 }): CoverageResult {
   const { families, styles, styleStance, shipped, manifestRedirect } = args;
+  const directOnlySet = new Set(args.directOnly ?? []);
 
   if (shipped.length === 0) {
     throw new Error(
@@ -123,7 +135,9 @@ export function buildCoverageMap(args: {
   for (const fam of families) {
     for (const sty of styles) {
       const from = cellKey(fam, sty);
-      if (shippedSet.has(from)) continue; // direct — no redirect entry
+      // direct — no redirect entry (a shipped normal-card cell, or a character
+      // cell that self-provides coverage per §3.7).
+      if (shippedSet.has(from) || directOnlySet.has(from)) continue;
 
       // 1) authorial intent: keep a §3 route iff its target is a shipped cell.
       const mTarget = manifestRedirect[from];
@@ -175,12 +189,15 @@ export function buildCoverageMap(args: {
   }
 
   // Post-condition: total coverage is an invariant — every grid cell resolves
-  // to a shipped cell (direct, or via a redirect whose target is shipped).
+  // deterministically. A cell is covered when it is a shipped normal-card cell,
+  // a character-only direct cell (§3.7 — served by its own pickset), or it
+  // redirects to a shipped cell.
   const gaps: string[] = [];
   for (const fam of families) {
     for (const sty of styles) {
       const from = cellKey(fam, sty);
-      const landed = shippedSet.has(from) ? from : redirect[from];
+      if (shippedSet.has(from) || directOnlySet.has(from)) continue;
+      const landed = redirect[from];
       if (!landed || !shippedSet.has(landed)) gaps.push(from);
     }
   }

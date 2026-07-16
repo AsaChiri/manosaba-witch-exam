@@ -57,7 +57,13 @@ import {
   CHARACTER_LOCALES,
   type ParsedCharacter,
 } from "./characters.js";
-import { subIndex, STYLE_NAME_TO_CODE, FAMILY_NAME_TO_CODE } from "./taxonomy.js";
+import {
+  subIndex,
+  STYLE_NAME_TO_CODE,
+  FAMILY_NAME_TO_CODE,
+  styleOfCopingSub,
+  familyOfOriginSub,
+} from "./taxonomy.js";
 import { buildCoverageMap, type ShippedCellInfo, type CoverageResult } from "./coverage.js";
 
 // ------------------------------------------------------------------ utilities
@@ -146,6 +152,45 @@ function main(): void {
     }
   }
 
+  // 3b. characters — parsed EARLY because their tags now self-provide coverage
+  // (§3.7 decoupling, user directive 2026-07-15): a shipped character's exact
+  // tag makes its cell reachable un-redirected and servable, so the special
+  // record can trigger even when that cell has no normal card. Files are still
+  // emitted later (step 11b); here we only need shape-valid tags to weave into
+  // the pickset/neighbor/coverage tables below.
+  let characters: ParsedCharacter[] = [];
+  if (shipCharacters) {
+    characters = listCharacterIds(src.charactersDir).map((id) => {
+      try {
+        return parseCharacter(id, src.charactersDir);
+      } catch (e) {
+        throw new Error(`failed to parse character ${id}: ${(e as Error).message}`);
+      }
+    });
+    const shape = validateCharacters(characters); // shape only (no dormancy warn)
+    warnings.push(...shape.warnings);
+    if (shape.errors.length) {
+      throw new Error("COMPILE FAIL — character sources invalid:\n  " + shape.errors.join("\n  "));
+    }
+  }
+  // Character tags as (cell, sub-variant) coverage records. A character whose
+  // tag equals a shipped card's tag (e.g. Leia ED-1_P-1) simply reinforces that
+  // cell; a character-only tag makes its cell newly reachable.
+  interface CharTagInfo {
+    tag: string;
+    cell: string;
+    family: string;
+    style: string;
+    originSub: string;
+    copingSub: string;
+  }
+  const charTagInfos: CharTagInfo[] = characters.map((c) => {
+    const [originSub, copingSub] = c.tag.split("_") as [string, string];
+    const family = familyOfOriginSub(originSub);
+    const style = styleOfCopingSub(copingSub); // throws on an unknown coping code
+    return { tag: c.tag, cell: cellKey(family, style), family, style, originSub, copingSub };
+  });
+
   // 4. derive tags + cells + coverage
   const tagId = (o: string, c: string): string => `${o}_${c}`;
   interface TagAgg {
@@ -172,6 +217,24 @@ function main(): void {
   }
   for (const agg of tags.values()) agg.variants.sort((a, b) => a.variant - b.variant);
 
+  // Weave character tags into the same tag/cell structures. Character-only tags
+  // carry an empty `variants` list (no card prose): they are servable and drive
+  // the pickset/neighbor axes, but emit no card file and count as one variant.
+  for (const info of charTagInfos) {
+    if (!tags.has(info.tag)) {
+      tags.set(info.tag, {
+        tag: info.tag,
+        cell: info.cell,
+        family: info.family,
+        style: info.style,
+        originSub: info.originSub,
+        copingSub: info.copingSub,
+        variants: [],
+      });
+    }
+    (cellTags.get(info.cell) ?? cellTags.set(info.cell, new Set()).get(info.cell)!).add(info.tag);
+  }
+
   // 5. picksets + neighbor + manifest cells
   const picksets: PicksetsFile = { redirect: {}, cells: {} };
   const neighbor: NeighborFile = {};
@@ -179,7 +242,12 @@ function main(): void {
   const manifestTags: CardsManifest["tags"] = {};
   const variantCounts: Record<string, number> = {};
 
-  const orderedTagList = [...tags.keys()].sort();
+  // Card tags first (sorted) so their manifest indices — and therefore every
+  // existing neighbor tie-break and coverage tie-break — are byte-identical to a
+  // characters-off compile; character-only tags are appended after.
+  const cardTagList = [...tags.keys()].filter((t) => tags.get(t)!.variants.length > 0).sort();
+  const charOnlyTagList = [...tags.keys()].filter((t) => tags.get(t)!.variants.length === 0).sort();
+  const orderedTagList = [...cardTagList, ...charOnlyTagList];
   const manifestIndexOf = new Map<string, number>();
   orderedTagList.forEach((t, i) => manifestIndexOf.set(t, i));
 
@@ -188,10 +256,21 @@ function main(): void {
   //     session always reaches a card (design spec §5); §3 authorial routes are
   //     preserved when their target is shipped. Fails loud if coverage is not
   //     total (the coverage invariant).
+  //     A character-ONLY cell (no normal card) is "direct" (never redirected)
+  //     but is kept OUT of the redirect-target set: no other cell should route
+  //     into it, because it has no normal card to show a redirected or
+  //     non-spoiler arrival (§3.7).
   const shippedCells: ShippedCellInfo[] = [];
+  const characterOnlyCells: string[] = [];
   for (const [cell, tset] of cellTags) {
-    const agg0 = tags.get([...tset][0]!)!;
-    const manifestOrder = Math.min(...[...tset].map((t) => manifestIndexOf.get(t)!));
+    const cellTagIds = [...tset];
+    const hasCard = cellTagIds.some((t) => tags.get(t)!.variants.length > 0);
+    const agg0 = tags.get(cellTagIds[0]!)!;
+    if (!hasCard) {
+      characterOnlyCells.push(cell);
+      continue;
+    }
+    const manifestOrder = Math.min(...cellTagIds.map((t) => manifestIndexOf.get(t)!));
     shippedCells.push({
       cell,
       family: agg0.family,
@@ -206,6 +285,7 @@ function main(): void {
     styleStance: copingRaw.style_stance,
     shipped: shippedCells,
     manifestRedirect: redirectParse.redirect,
+    directOnly: characterOnlyCells,
   });
   picksets.redirect = coverage.redirect;
 
@@ -242,7 +322,14 @@ function main(): void {
 
   for (const t of orderedTagList) {
     const a = tags.get(t)!;
-    variantCounts[t] = a.variants.length;
+    // Character-only tags have no card variants; they still resolve to exactly
+    // one served tag (variantIndex 0), so floor the hash count at 1.
+    variantCounts[t] = Math.max(1, a.variants.length);
+    // The cards manifest describes shipped CARDS only (its schema requires
+    // variants > 0). Character-only tags are servable via the neighbor table and
+    // rendered from content/characters/*, so they are intentionally absent here —
+    // the site's card lookup skips them and falls back to the special record.
+    if (a.variants.length === 0) continue;
     manifestTags[t] = {
       tag: t,
       cell: a.cell,
@@ -379,6 +466,7 @@ function main(): void {
   let cardFileCount = 0;
   for (const t of orderedTagList) {
     const a = tags.get(t)!;
+    if (a.variants.length === 0) continue; // character-only tag — no card prose
     const files = emitCardLocaleFiles(a, converter, termMap.overrides);
     for (const [path, obj] of files) {
       writeJson(join(C, "cards", path), obj);
@@ -387,25 +475,13 @@ function main(): void {
   }
 
   // 11b. characters — the 13 special character records (design spec §3.7).
-  // Gated all-or-nothing by ship_list.json's `"characters"` flag. Emitted as
-  // one file per locale (content/characters/<locale>.json); zh-TW derived from
+  // Gated all-or-nothing by ship_list.json's `"characters"` flag. Parsed and
+  // shape-validated in step 3b (their tags feed coverage); here we only emit one
+  // file per locale (content/characters/<locale>.json), zh-TW derived from
   // zh-CN like cards. Deliberately EXCLUDED from the contentVersion hash below:
-  // character edits must never invalidate visitors' saved exam progress.
-  let characters: ParsedCharacter[] = [];
+  // character prose edits must never invalidate visitors' saved exam progress.
   let characterLocaleFiles = 0;
   if (shipCharacters) {
-    characters = listCharacterIds(src.charactersDir).map((id) => {
-      try {
-        return parseCharacter(id, src.charactersDir);
-      } catch (e) {
-        throw new Error(`failed to parse character ${id}: ${(e as Error).message}`);
-      }
-    });
-    const check = validateCharacters(characters, new Set(orderedTagList));
-    warnings.push(...check.warnings);
-    if (check.errors.length) {
-      throw new Error("COMPILE FAIL — character sources invalid:\n  " + check.errors.join("\n  "));
-    }
     const sorted = [...characters].sort((a, b) => a.id.localeCompare(b.id));
     for (const locale of [...CHARACTER_LOCALES, "zh-TW"]) {
       const records = sorted.map((c) => {
@@ -638,12 +714,16 @@ function report(
     }`,
   );
   log("");
+  // character-only cells (§3.7) are direct but not shipped-card cells; count
+  // them separately so the grid total reconciles.
+  const charCovered = cellTags.size - direct;
   log(`  TOTAL cell coverage of the ${gridSize}-cell grid (invariant: 0 uncovered):`);
   log(`    direct (shipped-covered):   ${direct}`);
+  log(`    character-covered (§3.7):   ${charCovered}`);
   log(`    manifest-redirect (§3):     ${manifest}`);
   log(`    fallback-redirect (tiers):  ${fallback}`);
   log(`    ---------------------------------`);
-  log(`    total:                      ${direct + manifest + fallback}`);
+  log(`    total:                      ${direct + charCovered + manifest + fallback}`);
   log("");
   log(`  fallback-redirect tier distribution:`);
   log(`    tier 1 (same family + stance):   ${tier[1] ?? 0}`);

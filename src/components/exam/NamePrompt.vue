@@ -104,7 +104,7 @@ function skip() {
 .name__input::placeholder {
   color: var(--bone-faint);
   font-family: var(--font-body);
-  font-style: italic;
+  font-style: var(--font-style-em);
 }
 .name__input:focus {
   outline: none;
@@ -126,20 +126,27 @@ function skip() {
   gap: 1.4rem;
   flex-wrap: wrap;
 }
+/* Outlined, not filled: gold stays seal/ornament (spec §2.1) — a solid gold
+ * slab was the palette's only filled-gold control and read louder than the
+ * ceremony it opens. */
 .name__confirm {
   font-family: var(--font-inscription);
   font-weight: 600;
   font-size: 1.02rem;
   letter-spacing: 0.06em;
-  color: var(--ink);
-  background: linear-gradient(160deg, var(--verdict-gold-bright), var(--verdict-gold-deep));
+  color: var(--verdict-gold-bright);
+  background: color-mix(in srgb, var(--verdict-gold) 8%, transparent);
+  border: 1px solid var(--verdict-gold);
   padding: 0.8rem 1.9rem;
-  box-shadow: 0 10px 24px -12px var(--verdict-gold);
-  transition: transform 160ms var(--ease-ceremony), filter 160ms;
+  transition:
+    transform 160ms var(--ease-ceremony),
+    background-color 160ms,
+    box-shadow 160ms;
 }
 .name__confirm:hover {
   transform: translateY(-1px);
-  filter: brightness(1.08);
+  background: color-mix(in srgb, var(--verdict-gold) 16%, transparent);
+  box-shadow: 0 10px 24px -14px var(--verdict-gold);
 }
 .name__skip {
   font-family: var(--font-body);

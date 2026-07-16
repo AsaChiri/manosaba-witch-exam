@@ -23,6 +23,18 @@ const specimenCode = `${100 + Math.floor(Math.random() * 900)}-${'ABCD'[Math.flo
 
 const SEGMENTS = 12
 const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * SEGMENTS)))
+
+/* Reading anchor for the long bank options: nearly every option opens with a
+ * head phrase before a ——; rendering that head a weight up makes a 7-option
+ * screen scannable. Presentation only — the label text is untouched. */
+function optHead(label: string): string | null {
+  const i = label.indexOf('——')
+  return i > 0 && i <= 40 ? label.slice(0, i) : null
+}
+function optRest(label: string): string {
+  const i = label.indexOf('——')
+  return i > 0 && i <= 40 ? label.slice(i) : label
+}
 </script>
 
 <template>
@@ -60,7 +72,13 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
               @click="opt.disabled ? undefined : emit('answer', opt.id)"
             >
               <span class="quiz__opt-mark" aria-hidden="true"></span>
-              <span class="quiz__opt-label">{{ opt.label }}</span>
+              <span class="quiz__opt-label">
+                <template v-if="optHead(opt.label)"
+                  ><strong class="quiz__opt-head">{{ optHead(opt.label) }}</strong
+                  >{{ optRest(opt.label) }}</template
+                >
+                <template v-else>{{ opt.label }}</template>
+              </span>
               <span v-if="opt.disabled" class="quiz__opt-lock">{{ T('exam.chosenAsMost') }}</span>
             </button>
           </li>
@@ -161,7 +179,9 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
 .quiz__opt {
   width: 100%;
   display: flex;
-  align-items: center;
+  /* anchor to the first line — centered diamonds floated mid-paragraph on
+   * multi-line options and gave the eye no row start to scan down */
+  align-items: flex-start;
   gap: 0.9rem;
   text-align: left;
   padding: 1.05rem 1.2rem;
@@ -181,6 +201,7 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
   flex: none;
   width: 10px;
   height: 10px;
+  margin-top: 0.42em; /* optically centers the diamond on the first text line */
   transform: rotate(45deg);
   border: 1px solid color-mix(in srgb, var(--exam-cyan) 60%, transparent);
   transition: background 180ms, box-shadow 180ms;
@@ -213,6 +234,10 @@ const filled = computed(() => Math.max(1, Math.round(props.progress.resonance * 
   border-color: var(--hairline-faint);
   background: color-mix(in srgb, var(--bone) 25%, transparent);
   box-shadow: none;
+}
+.quiz__opt-head {
+  font-weight: 600;
+  color: color-mix(in srgb, var(--bone) 88%, #fff);
 }
 .quiz__opt-lock {
   margin-left: auto;

@@ -6,8 +6,8 @@
     "tagline": "你体内的魔女因子，还在沉睡。",
     "descLanding": "一场魔女因子检测。看看倘若被送上那座岛，你会成为哪一种魔女。",
     "descExam": "检测已经开始。",
-    "descCard": "魔女因子检测的记录，检测出{magic}。",
-    "descShare": "检测出魔法：{magic}——你也来测测会检出哪一种魔女。",
+    "descCard": "魔女因子检测的记录，检出{magic}。",
+    "descShare": "检出魔法：{magic}——你也来测测会检出哪一种魔女。",
     "descCharacter": "这份检测记录，检出了与『{name}』相同的魔法「{magic}」。你也来测测会检出哪一种魔女。"
   },
   "nav": {
@@ -104,8 +104,7 @@
     "detected": "已检出魔女因子",
     "sentence": "你将被送往监牢。",
     "skip": "跳过",
-    "teaser": "发现魔法——",
-    "unfold": "展开记录"
+    "teaser": "发现魔法——"
   },
   "card": {
     "specimenLabel": "姓名",

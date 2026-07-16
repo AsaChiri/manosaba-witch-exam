@@ -17,6 +17,8 @@ import {
 } from '../../lib/collection'
 import { t } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
+// rose-window is pure geometry (no content import) — the island stays content-lean
+import { roseWindowSvg, CHARACTER_MOTIFS } from '../../lib/rose-window'
 import Seal from '../exam/Seal.vue'
 
 interface Entry {
@@ -56,6 +58,17 @@ function href(tag: string): string {
 function charHref(id: string): string {
   return localePath(props.locale, `/c/${id}/`) + '#collector'
 }
+
+/* Her rose window as the tile crest — the record's own mark, not the generic
+ * seal (deterministic SVG from lib/rose-window; safe for v-html). */
+function charWindow(id: string): string {
+  const c = props.characterCatalog[id]
+  return roseWindowSvg({
+    color: c.color,
+    motif: CHARACTER_MOTIFS[id] ?? 'ray',
+    magicName: c.magicName,
+  })
+}
 </script>
 
 <template>
@@ -85,7 +98,6 @@ function charHref(id: string): string {
       </ul>
 
       <template v-if="chars.length > 0">
-        <h2 class="collection__special-title">{{ T('collection.specialTitle') }}</h2>
         <ul class="collection__grid">
           <li v-for="id in chars" :key="id">
             <a
@@ -93,10 +105,7 @@ function charHref(id: string): string {
               :href="charHref(id)"
               :style="{ '--char-color': characterCatalog[id].color }"
             >
-              <span class="collection-tile__crest">
-                <Seal :size="40" stained :title="T('meta.siteName')" />
-              </span>
-              <span class="collection-tile__mark">{{ T('result.specialCard.mark') }}</span>
+              <span class="collection-tile__window" aria-hidden="true" v-html="charWindow(id)"></span>
               <h2 class="collection-tile__name collection-tile__name--char">
                 {{ characterCatalog[id].name }}
               </h2>
@@ -146,7 +155,7 @@ function charHref(id: string): string {
   margin-top: 0.4rem;
   color: var(--bone-dim);
   font-family: var(--font-body);
-  font-style: italic;
+  font-style: var(--font-style-em);
 }
 .collection__grid {
   list-style: none;
@@ -218,6 +227,16 @@ function charHref(id: string): string {
 .collection-tile--char:hover,
 .collection-tile--char:focus-visible {
   border-color: color-mix(in srgb, var(--char-color) 55%, transparent);
+}
+.collection-tile__window {
+  width: 4.5rem;
+  line-height: 0;
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--char-color) 35%, transparent));
+}
+.collection-tile__window :deep(svg) {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .collection-tile__name--char {
   color: color-mix(in srgb, var(--char-color) 78%, var(--bone));

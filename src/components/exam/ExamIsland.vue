@@ -136,8 +136,18 @@ function onName(name: string) {
   result.value = r
   if (r) {
     resultLanded(r.cell, r.tag)
-    recordCollected(r.tag) // accumulate across retakes (the archive)
-    if (specialCharacter.value) recordCharacter(specialCharacter.value.id)
+    const special = specialCharacter.value
+    if (special) recordCharacter(special.id)
+    // Archive the normal card when one exists; a special-only result (a
+    // character cell with no normal card, §3.7) is archived via recordCharacter.
+    if (resolvedCard.value) recordCollected(r.tag)
+    // Neither a normal card nor a triggered special record — a character cell
+    // reached without the spoiler gate, or a subvariant with neither. Show the
+    // graceful no-record screen instead of a blank verdict.
+    if (!resolvedCard.value && !special) {
+      state.value = 'inconclusive'
+      return
+    }
   }
   state.value = 'verdict'
 }
@@ -215,7 +225,7 @@ onMounted(() => {
       @done="onVerdictDone"
     />
     <ResultView
-      v-else-if="state === 'result' && result && resolvedCard"
+      v-else-if="state === 'result' && result && (resolvedCard || specialCharacter)"
       :locale="locale"
       :card="resolvedCard"
       :result="result"

@@ -90,7 +90,9 @@ export function familyOfOriginSub(id: string): string {
   return m ? m[1]!.toUpperCase() : "";
 }
 
-/** coping sub-variant id -> style name (via normalized code). */
+/** coping sub-variant id -> style name (via normalized code). Throws (via
+ *  normalizeCopingSub) on an unknown code, so a malformed character/card tag
+ *  fails the compile loudly rather than deriving a cell nothing routes to. */
 export function styleOfCopingSub(id: string): string {
   const norm = normalizeCopingSub(id);
   const m = /^([A-Za-z]+)/.exec(norm);

@@ -118,8 +118,13 @@ const seo = {
     font-family: var(--font-body);
     font-size: clamp(1.1rem, 3.4vw, 1.4rem);
     color: var(--bone-dim);
-    font-style: italic;
-    max-width: 28ch;
+    font-style: var(--font-style-em);
+    /* wide enough that every locale's hook sits on ONE desktop line (em, not
+     * ch — a ch is half a CJK glyph); when a narrow viewport forces a wrap,
+     * balance + strict kinsoku keep the break legal (no line-leading っ) */
+    max-width: min(30em, 100%);
+    text-wrap: balance;
+    line-break: strict;
   }
   .hero__cta {
     margin-top: 2.6rem;
@@ -130,7 +135,10 @@ const seo = {
     font-size: 0.86rem;
     letter-spacing: 0.05em;
     color: var(--bone-faint);
-    max-width: 34ch;
+    /* em, not ch: a ch is a Latin zero — half a CJK glyph — and 34ch used to
+     * force a mid-word break in every CJK locale ("通常二十…" split at 二/十) */
+    max-width: min(26em, 100%);
+    text-wrap: balance;
   }
   .hero__scroll {
     position: absolute;

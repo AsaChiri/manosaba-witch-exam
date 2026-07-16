@@ -17,7 +17,9 @@ import SpecialCard from './SpecialCard.vue'
 
 const props = defineProps<{
   locale: Locale
-  card: Card
+  /** The resolved normal card, or null when the exam landed on a character-only
+   *  cell (§3.7) — then `specialCharacter` is set and supplies the whole surface. */
+  card: Card | null
   result: ExamResult
   quizVersion: string
   /** Exact-hit special character record (§3.7) — replaces the witch card. */
@@ -37,19 +39,22 @@ const shareCard = computed<ShareCard>(() => {
   if (sc) {
     return {
       locale: props.locale,
-      tag: props.card.tag,
+      tag: props.result.tag,
       name: witchName.value,
       magic: sc.magicName,
       magicText: `${sc.awakening.before} ${sc.awakening.after}`,
       character: { id: sc.id, name: sc.name },
     }
   }
+  // No special character → a normal card is guaranteed present (the island only
+  // mounts ResultView when card || specialCharacter).
+  const card = props.card!
   return {
     locale: props.locale,
-    tag: props.card.tag,
+    tag: props.result.tag,
     name: witchName.value,
-    magic: props.card.magic.name,
-    magicText: props.card.magic.text,
+    magic: card.magic.name,
+    magicText: card.magic.text,
   }
 })
 
@@ -80,7 +85,7 @@ const hex = (n: number) => (n >>> 0).toString(16).padStart(8, '0')
 function feedbackBody(): string {
   const d = props.result.debug
   const lines = [T('feedback.mailBody'), '', T('feedback.debugHeader')]
-  lines.push(`${T('feedback.debugCard')}: ${props.card.tag}`)
+  lines.push(`${T('feedback.debugCard')}: ${props.result.tag}`)
   if (d) {
     const route =
       d.resolvedCell === d.landedCell ? d.resolvedCell : `${d.resolvedCell} → ${d.landedCell}`
@@ -95,7 +100,7 @@ function feedbackBody(): string {
 
 const mailto = computed(() => {
   const subject = T('feedback.mailSubject', {
-    tag: props.card.tag,
+    tag: props.result.tag,
     quiz: props.quizVersion,
     locale: props.locale,
   })
@@ -157,7 +162,7 @@ watch(() => props.specialCharacter, refreshQr)
               :witch-name="witchName"
               :qr-src="qrSrc"
             />
-            <article v-else class="witch-card">
+            <article v-else-if="card" class="witch-card">
               <div class="witch-card__crest"><Seal :size="72" stained :title="T('meta.siteName')" /></div>
               <p class="witch-card__specimen">
                 <span class="witch-card__specimen-label">{{ T('card.specimenLabel') }}</span>

@@ -166,13 +166,18 @@ export function listCharacterIds(charactersDir: string): string[] {
 }
 
 /**
- * Strict shape validation (throws via returned errors) + dormancy warnings.
- * `shippedTags` is the compiled manifest tag list — a character tag outside it
- * is unreachable as a result tag and therefore dormant (warning, not error).
+ * Strict shape validation (throws via returned errors).
+ *
+ * `shippedTags` is optional and, when omitted, no dormancy warning is emitted:
+ * since 2026-07-15 a shipped character's tag self-provides coverage (§3.7
+ * decoupling — see compile-content.ts step 3b), so a character is reachable
+ * whether or not a normal card exists at its tag. The parameter is retained
+ * (and still warns when a set IS passed) so a caller can flag a character tag
+ * that falls entirely outside the compiled corpus if it ever wants to.
  */
 export function validateCharacters(
   chars: ParsedCharacter[],
-  shippedTags: ReadonlySet<string>,
+  shippedTags?: ReadonlySet<string>,
 ): { errors: string[]; warnings: string[] } {
   const errors: string[] = [];
   const warnings: string[] = [];
@@ -194,8 +199,8 @@ export function validateCharacters(
       errors.push(`${c.id}: tag ${c.tag} already assigned to ${tagOwners.get(c.tag)} — character tags must be unique`);
     } else {
       tagOwners.set(c.tag, c.id);
-      if (!shippedTags.has(c.tag)) {
-        warnings.push(`${c.id}: tag ${c.tag} is not shipped yet — character stays dormant until its exact card ships`);
+      if (shippedTags && !shippedTags.has(c.tag)) {
+        warnings.push(`${c.id}: tag ${c.tag} falls outside the compiled corpus`);
       }
     }
 

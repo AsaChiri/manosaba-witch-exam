@@ -1,10 +1,32 @@
 {
-  "ABN|Clinger": {
+  "ABN|Avenger": {
     "table": {
-      "ABN-1|CL-1": "ABN-1_CL-1"
+      "ABN-2|AG-2": "ABN-2_AG-2"
     },
     "tiers": {
-      "ABN-1|CL-1": 0
+      "ABN-2|AG-2": 0
+    }
+  },
+  "ABN|Clinger": {
+    "table": {
+      "ABN-1|CL-1": "ABN-1_CL-1",
+      "ABN-1|CL-2": "ABN-1_CL-1",
+      "ABN-7|CL-1": "ABN-7_CL-2",
+      "ABN-7|CL-2": "ABN-7_CL-2"
+    },
+    "tiers": {
+      "ABN-1|CL-1": 0,
+      "ABN-1|CL-2": 1,
+      "ABN-7|CL-1": 1,
+      "ABN-7|CL-2": 0
+    }
+  },
+  "ABN|Fantasist": {
+    "table": {
+      "ABN-3|FA-1": "ABN-3_FA-1"
+    },
+    "tiers": {
+      "ABN-3|FA-1": 0
     }
   },
   "ABN|Resigned": {
@@ -15,38 +37,42 @@
       "ABN-1|RS-3": 0
     }
   },
-  "ALN|Avoider": {
+  "ABN|Self-Reliant": {
     "table": {
-      "ALN-1|AV-1": "ALN-1_AV-1"
+      "ABN-4|SR-1": "ABN-4_SR-1"
     },
     "tiers": {
-      "ALN-1|AV-1": 0
+      "ABN-4|SR-1": 0
     }
   },
   "ALN|Concealer": {
     "table": {
-      "ALN-10|CO-1": "ALN-10_CO-1",
-      "ALN-11|CO-1": "ALN-11_CO-1"
+      "ALN-10|CO-1": "ALN-10_CO-1"
     },
     "tiers": {
-      "ALN-10|CO-1": 0,
-      "ALN-11|CO-1": 0
+      "ALN-10|CO-1": 0
     }
   },
-  "ALN|Fantasist": {
+  "DEF|Concealer": {
     "table": {
-      "ALN-10|FA-2": "ALN-10_FA-2"
+      "DEF-1|CO-2": "DEF-1_CO-2",
+      "DEF-1|CO-5": "DEF-1_CO-2",
+      "DEF-7|CO-2": "DEF-7_CO-5",
+      "DEF-7|CO-5": "DEF-7_CO-5"
     },
     "tiers": {
-      "ALN-10|FA-2": 0
+      "DEF-1|CO-2": 0,
+      "DEF-1|CO-5": 1,
+      "DEF-7|CO-2": 1,
+      "DEF-7|CO-5": 0
     }
   },
-  "DEF|Avoider": {
+  "DEF|Depender": {
     "table": {
-      "DEF-3|AV-2": "DEF-3_AV-2"
+      "DEF-4|DP-3": "DEF-4_DP-3"
     },
     "tiers": {
-      "DEF-3|AV-2": 0
+      "DEF-4|DP-3": 0
     }
   },
   "DEF|Detacher": {
@@ -59,12 +85,26 @@
   },
   "DEF|Self-Punisher": {
     "table": {
-      "DEF-3|SP-1": "DEF-3_SP-1",
-      "DEF-8|SP-1": "DEF-8_SP-1"
+      "DEF-3|SP-1": "DEF-3_SP-1"
     },
     "tiers": {
-      "DEF-3|SP-1": 0,
-      "DEF-8|SP-1": 0
+      "DEF-3|SP-1": 0
+    }
+  },
+  "DEF|Watcher": {
+    "table": {
+      "DEF-5|WT-3": "DEF-5_WT-3"
+    },
+    "tiers": {
+      "DEF-5|WT-3": 0
+    }
+  },
+  "ED|Avoider": {
+    "table": {
+      "ED-4|AV-1": "ED-4_AV-1"
+    },
+    "tiers": {
+      "ED-4|AV-1": 0
     }
   },
   "ED|Performer": {
@@ -97,6 +137,14 @@
       "ED-9|P-3": 1
     }
   },
+  "ED|Self-Punisher": {
+    "table": {
+      "ED-3|SP-1": "ED-3_SP-1"
+    },
+    "tiers": {
+      "ED-3|SP-1": 0
+    }
+  },
   "ED|Self-Soother": {
     "table": {
       "ED-1|SS-1": "ED-1_SS-1"
@@ -107,12 +155,18 @@
   },
   "FAI|Perfectionist": {
     "table": {
-      "FAI-3|PF-2": "FAI-3_PF-2",
       "FAI-5|PF-2": "FAI-5_PF-2"
     },
     "tiers": {
-      "FAI-3|PF-2": 0,
       "FAI-5|PF-2": 0
+    }
+  },
+  "MB|Concealer": {
+    "table": {
+      "MB-2|CO-5": "MB-2_CO-5"
+    },
+    "tiers": {
+      "MB-2|CO-5": 0
     }
   },
   "MB|Depender": {
@@ -137,6 +191,14 @@
     },
     "tiers": {
       "MB-2|SS-3": 0
+    }
+  },
+  "MB|Trickster": {
+    "table": {
+      "MB-1|TR-2": "MB-1_TR-2"
+    },
+    "tiers": {
+      "MB-1|TR-2": 0
     }
   },
   "MB|Watcher": {

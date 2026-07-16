@@ -61,6 +61,12 @@
   --font-wordmark:
     'Grenze Gotisch', 'Noto Serif SC', 'Source Han Serif SC', serif;
 
+  /* Emphasis slant: only the Latin faces carry true italics. The CJK serifs
+     (Noto Serif SC/TC, Shippori Mincho) have none — browsers shear the glyphs
+     into a faux oblique the game's typography never uses. Emphasis is upright
+     by default; the EN override below restores real italics. */
+  --font-style-em: normal;
+
   /* ── Motion & metrics ── */
   --ease-ceremony: cubic-bezier(0.22, 0.68, 0.32, 1);
   --ease-out-sharp: cubic-bezier(0.55, 0, 0.68, 0.32);
@@ -72,6 +78,7 @@
 
 /* English — Latin inscription + garamond body + VT323 pixel instrument. */
 :root[lang='en'] {
+  --font-style-em: italic;
   --font-inscription: 'Cinzel', 'Cormorant Garamond', 'Trajan Pro', Georgia, serif;
   --font-body: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --font-instrument: 'VT323', ui-monospace, 'Cascadia Mono', 'Consolas', monospace;

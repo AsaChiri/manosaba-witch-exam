@@ -94,8 +94,7 @@
     "detected": "Witch factor — detected.",
     "sentence": "You are taken to the prison.",
     "skip": "Skip",
-    "teaser": "Magic detected —",
-    "unfold": "Open the record"
+    "teaser": "Magic detected —"
   },
   "card": {
     "specimenLabel": "Name",

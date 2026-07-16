@@ -1,17 +1,46 @@
 {
   "cells": {
-    "ABN|Clinger": {
+    "ABN|Avenger": {
       "authoredTags": [
-        "ABN-1_CL-1"
+        "ABN-2_AG-2"
       ],
       "coveredCoping": [
-        "CL-1"
+        "AG-2"
       ],
       "coveredOrigin": [
-        "ABN-1"
+        "ABN-2"
+      ],
+      "family": "ABN",
+      "style": "Avenger"
+    },
+    "ABN|Clinger": {
+      "authoredTags": [
+        "ABN-1_CL-1",
+        "ABN-7_CL-2"
+      ],
+      "coveredCoping": [
+        "CL-1",
+        "CL-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-7"
       ],
       "family": "ABN",
       "style": "Clinger"
+    },
+    "ABN|Fantasist": {
+      "authoredTags": [
+        "ABN-3_FA-1"
+      ],
+      "coveredCoping": [
+        "FA-1"
+      ],
+      "coveredOrigin": [
+        "ABN-3"
+      ],
+      "family": "ABN",
+      "style": "Fantasist"
     },
     "ABN|Resigned": {
       "authoredTags": [
@@ -26,59 +55,60 @@
       "family": "ABN",
       "style": "Resigned"
     },
-    "ALN|Avoider": {
+    "ABN|Self-Reliant": {
       "authoredTags": [
-        "ALN-1_AV-1"
+        "ABN-4_SR-1"
       ],
       "coveredCoping": [
-        "AV-1"
+        "SR-1"
       ],
       "coveredOrigin": [
-        "ALN-1"
+        "ABN-4"
       ],
-      "family": "ALN",
-      "style": "Avoider"
+      "family": "ABN",
+      "style": "Self-Reliant"
     },
     "ALN|Concealer": {
       "authoredTags": [
-        "ALN-10_CO-1",
-        "ALN-11_CO-1"
+        "ALN-10_CO-1"
       ],
       "coveredCoping": [
         "CO-1"
       ],
       "coveredOrigin": [
-        "ALN-10",
-        "ALN-11"
+        "ALN-10"
       ],
       "family": "ALN",
       "style": "Concealer"
     },
-    "ALN|Fantasist": {
+    "DEF|Concealer": {
       "authoredTags": [
-        "ALN-10_FA-2"
+        "DEF-1_CO-2",
+        "DEF-7_CO-5"
       ],
       "coveredCoping": [
-        "FA-2"
+        "CO-2",
+        "CO-5"
       ],
       "coveredOrigin": [
-        "ALN-10"
-      ],
-      "family": "ALN",
-      "style": "Fantasist"
-    },
-    "DEF|Avoider": {
-      "authoredTags": [
-        "DEF-3_AV-2"
-      ],
-      "coveredCoping": [
-        "AV-2"
-      ],
-      "coveredOrigin": [
-        "DEF-3"
+        "DEF-1",
+        "DEF-7"
       ],
       "family": "DEF",
-      "style": "Avoider"
+      "style": "Concealer"
+    },
+    "DEF|Depender": {
+      "authoredTags": [
+        "DEF-4_DP-3"
+      ],
+      "coveredCoping": [
+        "DP-3"
+      ],
+      "coveredOrigin": [
+        "DEF-4"
+      ],
+      "family": "DEF",
+      "style": "Depender"
     },
     "DEF|Detacher": {
       "authoredTags": [
@@ -95,18 +125,42 @@
     },
     "DEF|Self-Punisher": {
       "authoredTags": [
-        "DEF-3_SP-1",
-        "DEF-8_SP-1"
+        "DEF-3_SP-1"
       ],
       "coveredCoping": [
         "SP-1"
       ],
       "coveredOrigin": [
-        "DEF-3",
-        "DEF-8"
+        "DEF-3"
       ],
       "family": "DEF",
       "style": "Self-Punisher"
+    },
+    "DEF|Watcher": {
+      "authoredTags": [
+        "DEF-5_WT-3"
+      ],
+      "coveredCoping": [
+        "WT-3"
+      ],
+      "coveredOrigin": [
+        "DEF-5"
+      ],
+      "family": "DEF",
+      "style": "Watcher"
+    },
+    "ED|Avoider": {
+      "authoredTags": [
+        "ED-4_AV-1"
+      ],
+      "coveredCoping": [
+        "AV-1"
+      ],
+      "coveredOrigin": [
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Avoider"
     },
     "ED|Performer": {
       "authoredTags": [
@@ -130,6 +184,19 @@
       "family": "ED",
       "style": "Performer"
     },
+    "ED|Self-Punisher": {
+      "authoredTags": [
+        "ED-3_SP-1"
+      ],
+      "coveredCoping": [
+        "SP-1"
+      ],
+      "coveredOrigin": [
+        "ED-3"
+      ],
+      "family": "ED",
+      "style": "Self-Punisher"
+    },
     "ED|Self-Soother": {
       "authoredTags": [
         "ED-1_SS-1"
@@ -145,18 +212,29 @@
     },
     "FAI|Perfectionist": {
       "authoredTags": [
-        "FAI-3_PF-2",
         "FAI-5_PF-2"
       ],
       "coveredCoping": [
         "PF-2"
       ],
       "coveredOrigin": [
-        "FAI-3",
         "FAI-5"
       ],
       "family": "FAI",
       "style": "Perfectionist"
+    },
+    "MB|Concealer": {
+      "authoredTags": [
+        "MB-2_CO-5"
+      ],
+      "coveredCoping": [
+        "CO-5"
+      ],
+      "coveredOrigin": [
+        "MB-2"
+      ],
+      "family": "MB",
+      "style": "Concealer"
     },
     "MB|Depender": {
       "authoredTags": [
@@ -196,6 +274,19 @@
       ],
       "family": "MB",
       "style": "Self-Soother"
+    },
+    "MB|Trickster": {
+      "authoredTags": [
+        "MB-1_TR-2"
+      ],
+      "coveredCoping": [
+        "TR-2"
+      ],
+      "coveredOrigin": [
+        "MB-1"
+      ],
+      "family": "MB",
+      "style": "Trickster"
     },
     "MB|Watcher": {
       "authoredTags": [
@@ -277,58 +368,6 @@
       "tag": "ALN-10_CO-1",
       "variants": 1
     },
-    "ALN-10_FA-2": {
-      "cell": "ALN|Fantasist",
-      "copingSub": "FA-2",
-      "locales": [
-        "en",
-        "ja",
-        "zh-CN",
-        "zh-TW"
-      ],
-      "originSub": "ALN-10",
-      "tag": "ALN-10_FA-2",
-      "variants": 1
-    },
-    "ALN-11_CO-1": {
-      "cell": "ALN|Concealer",
-      "copingSub": "CO-1",
-      "locales": [
-        "en",
-        "ja",
-        "zh-CN",
-        "zh-TW"
-      ],
-      "originSub": "ALN-11",
-      "tag": "ALN-11_CO-1",
-      "variants": 1
-    },
-    "ALN-1_AV-1": {
-      "cell": "ALN|Avoider",
-      "copingSub": "AV-1",
-      "locales": [
-        "en",
-        "ja",
-        "zh-CN",
-        "zh-TW"
-      ],
-      "originSub": "ALN-1",
-      "tag": "ALN-1_AV-1",
-      "variants": 1
-    },
-    "DEF-3_AV-2": {
-      "cell": "DEF|Avoider",
-      "copingSub": "AV-2",
-      "locales": [
-        "en",
-        "ja",
-        "zh-CN",
-        "zh-TW"
-      ],
-      "originSub": "DEF-3",
-      "tag": "DEF-3_AV-2",
-      "variants": 1
-    },
     "DEF-3_DT-3": {
       "cell": "DEF|Detacher",
       "copingSub": "DT-3",
@@ -353,19 +392,6 @@
       ],
       "originSub": "DEF-3",
       "tag": "DEF-3_SP-1",
-      "variants": 1
-    },
-    "DEF-8_SP-1": {
-      "cell": "DEF|Self-Punisher",
-      "copingSub": "SP-1",
-      "locales": [
-        "en",
-        "ja",
-        "zh-CN",
-        "zh-TW"
-      ],
-      "originSub": "DEF-8",
-      "tag": "DEF-8_SP-1",
       "variants": 1
     },
     "ED-1_P-1": {
@@ -444,19 +470,6 @@
       ],
       "originSub": "ED-9",
       "tag": "ED-9_P-1",
-      "variants": 1
-    },
-    "FAI-3_PF-2": {
-      "cell": "FAI|Perfectionist",
-      "copingSub": "PF-2",
-      "locales": [
-        "en",
-        "ja",
-        "zh-CN",
-        "zh-TW"
-      ],
-      "originSub": "FAI-3",
-      "tag": "FAI-3_PF-2",
       "variants": 1
     },
     "FAI-5_PF-2": {

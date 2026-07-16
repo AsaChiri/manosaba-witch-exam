@@ -151,7 +151,7 @@ onBeforeUnmount(() => {
 }
 .verdict__sentence {
   font-family: var(--font-body);
-  font-style: italic;
+  font-style: var(--font-style-em);
   font-size: clamp(1rem, 3.2vw, 1.22rem);
   color: var(--witch-violet);
   margin-top: 1rem;
