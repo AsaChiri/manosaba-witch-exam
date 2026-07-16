@@ -464,10 +464,9 @@ function buildCharacterSvg(cfg: LocaleCfg, ch: any): string {
   )}</g>`
 
   const sealBottom = winTop + WIN
-  // no name line between the window and the rule — close the gap the name held
-  const ruleY = sealBottom + 44
   const markText = String(s.card?.magicMark ?? '魔法')
-  const markY = ruleY + 56
+  // the 魔法 mark sits below the window (no name/rule line between them)
+  const markY = sealBottom + 100
   const markHalf = cfg.isCjk ? 40 : 46
   const orn = (dir: 1 | -1) => {
     const x0 = 600 + dir * markHalf
@@ -482,15 +481,7 @@ function buildCharacterSvg(cfg: LocaleCfg, ch: any): string {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   ${bgAndDefs()}
-  <defs>
-    <linearGradient id="crule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="${color}" stop-opacity="0"/>
-      <stop offset="50%" stop-color="${color}" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
   ${window}
-  <rect x="500" y="${ruleY}" width="200" height="1.8" fill="url(#crule)"/>
   <text x="600" y="${markY}" text-anchor="middle" fill="${C.gold}" font-family="${fam(cfg)}" font-size="22" letter-spacing="10">${escapeXml(markText)}</text>
   ${orn(1)}${orn(-1)}
   <text text-anchor="middle" fill="${color}" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${magicL.size}" letter-spacing="3">${m.tspans}</text>
