@@ -1,9 +1,9 @@
 {
   "bankVersion": "v4",
-  "contentVersion": "0xe1c09554",
+  "contentVersion": "0xdc451570",
   "counts": {
     "authoredCells": 27,
-    "cardLocaleFiles": 92,
+    "cardLocaleFiles": 96,
     "characterLocaleFiles": 4,
     "characters": 13,
     "fallbackRedirects": 173,
@@ -12,12 +12,12 @@
     "originBlocks": 14,
     "quizStringLocaleFiles": 4,
     "redirects": 173,
-    "shippedCards": 23,
-    "shippedTags": 35,
+    "shippedCards": 24,
+    "shippedTags": 36,
     "slots": 85,
     "styles": 25
   },
-  "generatedAt": "2026-07-16T04:15:26.655Z",
+  "generatedAt": "2026-07-16T04:56:31.219Z",
   "locales": [
     "en",
     "ja",

@@ -59,7 +59,10 @@
         "auto": "CO-1"
       },
       "origin": {
-        "auto": "ALN-10"
+        "options": [
+          "ALN-10",
+          "ALN-11"
+        ]
       }
     },
     "ALN|Fantasist": {

@@ -83,13 +83,15 @@
     },
     "ALN|Concealer": {
       "authoredTags": [
-        "ALN-10_CO-1"
+        "ALN-10_CO-1",
+        "ALN-11_CO-1"
       ],
       "coveredCoping": [
         "CO-1"
       ],
       "coveredOrigin": [
-        "ALN-10"
+        "ALN-10",
+        "ALN-11"
       ],
       "family": "ALN",
       "style": "Concealer"
@@ -422,6 +424,19 @@
       ],
       "originSub": "ALN-10",
       "tag": "ALN-10_FA-2",
+      "variants": 1
+    },
+    "ALN-11_CO-1": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-11",
+      "tag": "ALN-11_CO-1",
       "variants": 1
     },
     "ALN-1_AV-1": {

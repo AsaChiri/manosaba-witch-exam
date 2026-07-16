@@ -55,10 +55,12 @@
   },
   "ALN|Concealer": {
     "table": {
-      "ALN-10|CO-1": "ALN-10_CO-1"
+      "ALN-10|CO-1": "ALN-10_CO-1",
+      "ALN-11|CO-1": "ALN-11_CO-1"
     },
     "tiers": {
-      "ALN-10|CO-1": 0
+      "ALN-10|CO-1": 0,
+      "ALN-11|CO-1": 0
     }
   },
   "ALN|Fantasist": {
