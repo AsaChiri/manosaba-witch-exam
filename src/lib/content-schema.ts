@@ -12,6 +12,19 @@
  */
 import { z } from 'zod'
 import { LOCALES } from '../i18n/config'
+import type {
+  Card,
+  WitchCharacter,
+  TagInfo,
+  Manifest,
+  ContentMeta,
+} from './content-types'
+
+// The normalized UI-facing types + cardTitle live in the zod-free
+// content-types.ts (island code imports them from there); re-exported here so
+// server/build code keeps its single import site.
+export type { Cell, Magic, Card, WitchCharacter, TagInfo, Manifest, ContentMeta } from './content-types'
+export { cardTitle } from './content-types'
 
 export const localeSchema = z.enum(['zh-CN', 'en', 'ja', 'zh-TW'])
 export type Locale = z.infer<typeof localeSchema>
@@ -63,6 +76,9 @@ export const rawMetaSchema = z
   .object({
     contentVersion: z.string(),
     quizVersion: z.string(),
+    /** Runtime /data/ asset cache-buster (design spec §5, 2026-07-16);
+     *  absent in packages compiled before it existed and in fixtures. */
+    assetsVersion: z.string().optional(),
     locales: z.array(localeSchema),
     phase: z.enum(['soft', 'launch']).optional(),
     counts: z
@@ -75,27 +91,6 @@ export const rawMetaSchema = z
   })
   .passthrough()
 
-// ── NORMALIZED (UI-facing) ──
-export interface Cell {
-  origin: string
-  coping: string
-  label: string
-}
-export interface Magic {
-  name: string
-  text: string
-}
-export interface Card {
-  tag: string
-  locale: Locale
-  cell: Cell
-  epithet: string
-  magic: Magic
-  crime: string[]
-  execution: string[]
-  epitaph: string
-  meta?: { pattern?: 'A' | 'B' }
-}
 // ── Characters — the 13 special character records (design spec §3.7) ──
 // On-disk: content/characters/<locale>.json, an array of per-locale records.
 // color is plain #rrggbb by compiler invariant (html2canvas export constraint).
@@ -118,22 +113,6 @@ export const rawCharacterSchema = z
   .passthrough()
 export const rawCharactersFileSchema = z.array(rawCharacterSchema)
 
-export interface WitchCharacter {
-  id: string
-  tag: string
-  color: string
-  locale: Locale
-  name: string
-  magicName: string
-  awakening: { before: string; after: string }
-  /** The character's 原罪 — the record's epithet field. */
-  epithet: string
-  /** The character's artbook signature quote — the record's closing line. */
-  quote: string
-  /** Per-character warden remark (required; authored per character). */
-  warden: string
-}
-
 export function normalizeCharacter(
   raw: z.infer<typeof rawCharacterSchema>,
 ): WitchCharacter {
@@ -151,34 +130,10 @@ export function normalizeCharacter(
   }
 }
 
-export interface TagInfo {
-  cell: string
-  origin: string
-  coping: string
-  cellLabel: string
-  locales: Locale[]
-}
-export interface Manifest {
-  version: string
-  tags: Record<string, TagInfo>
-}
-export interface ContentMeta {
-  contentVersion: string
-  quizVersion: string
-  phase?: 'soft' | 'launch'
-  corpus: { authoredTags: number; cells: number; locales: Locale[] }
-}
-
 // ── Normalizers ──
 function splitCell(cell: string): [string, string] {
   const [a, b] = cell.split('|')
   return [a ?? cell, b ?? '']
-}
-
-/** The card's display title: canon knows a witch by her magic's name.
- *  The name is structurally required (compiler hard-fails without it) — no fallback. */
-export function cardTitle(card: Card): string {
-  return card.magic.name
 }
 
 export function normalizeCard(raw: z.infer<typeof rawCardSchema>): Card {
@@ -220,6 +175,7 @@ export function normalizeMeta(raw: z.infer<typeof rawMetaSchema>): ContentMeta {
   return {
     contentVersion: raw.contentVersion,
     quizVersion: raw.quizVersion,
+    assetsVersion: raw.assetsVersion,
     phase: raw.phase,
     corpus: {
       authoredTags: raw.counts?.shippedTags ?? Object.keys({}).length,

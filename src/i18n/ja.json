@@ -74,6 +74,9 @@
     "questionOrdinal": "第 {n} 問",
     "back": "前の問い",
     "booting": "装置を調整中……",
+    "retrieving": "記録を照会中……",
+    "fetchError": "ネットワークの問題で記録を取得できません。検査結果は保持されています。接続を確認して、もう一度お試しください。",
+    "fetchRetry": "記録を再取得する",
     "namePrompt": {
       "eyebrow": "登録",
       "title": "記録に刻む名",

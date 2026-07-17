@@ -27,10 +27,6 @@ import type { ContentPackage } from '@manosaba/witch-exam-engine'
 const quizModules = import.meta.glob<{ default: unknown }>('/content/quiz/*.json', {
   eager: true,
 })
-const manifestModules = import.meta.glob<{ default: unknown }>(
-  '/content/cards/manifest.json',
-  { eager: true },
-)
 
 function byName(
   mods: Record<string, { default: unknown }>,
@@ -45,10 +41,9 @@ function byName(
 /**
  * The engine's runtime content package. Only the fields the session driver
  * touches are populated (questions/strings power the UI; the trees + hashSpec
- * power resolution; picksets + neighbor power the pick tail; cardsManifest is
- * carried for completeness). The engine does not validate on load, so a plain
- * object matching ContentPackage is accepted; the shapes are the compiler's
- * zod-checked output.
+ * power resolution; picksets + neighbor power the pick tail). The engine does
+ * not validate on load, so a plain object matching ContentPackage is accepted;
+ * the shapes are the compiler's zod-checked output.
  */
 /**
  * Per-locale display strings. Every compiled `strings.<loc>.json` is loaded and
@@ -78,6 +73,9 @@ export const QUIZ_STRINGS_BY_LOCALE = buildStringsByLocale() as unknown as Recor
   ContentPackage['strings']
 >
 
+// cardsManifest is deliberately NOT included: the engine's resolution never
+// reads it (schemas.ts keeps the field optional), and at the corpus end state
+// (~1,200 tags) it would be ~400KB of dead weight in the island chunk.
 export const QUIZ_CONTENT = {
   questions: byName(quizModules, 'questions.json'),
   strings: byName(quizModules, 'strings.en.json'),
@@ -86,5 +84,4 @@ export const QUIZ_CONTENT = {
   hashSpec: byName(quizModules, 'hash.spec.json'),
   picksets: byName(quizModules, 'picksets.json'),
   neighbor: byName(quizModules, 'neighbor.json'),
-  cardsManifest: byName(manifestModules, 'manifest.json'),
 } as unknown as ContentPackage

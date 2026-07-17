@@ -6,8 +6,7 @@
  */
 import { ref, computed, onMounted, watch } from 'vue'
 import type { ExamResult } from '../../lib/engine-api'
-import { cardTitle, type Card, type WitchCharacter } from '../../lib/content-schema'
-import { CONTENT_HASH } from '../../lib/content'
+import { cardTitle, type Card, type WitchCharacter } from '../../lib/content-types'
 import { t, messages } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
 import { generateShareQr, type ShareCard } from '../../lib/share'
@@ -22,6 +21,10 @@ const props = defineProps<{
   card: Card | null
   result: ExamResult
   quizVersion: string
+  /** Progress-invalidation hash, threaded from the island as a prop so this
+   *  component never imports the (server-only) content layer. Feedback-mail
+   *  debug line only. */
+  contentHash: string
   /** Exact-hit special character record (§3.7) — replaces the witch card. */
   specialCharacter?: WitchCharacter | null
 }>()
@@ -91,7 +94,7 @@ function feedbackBody(): string {
       d.resolvedCell === d.landedCell ? d.resolvedCell : `${d.resolvedCell} → ${d.landedCell}`
     lines.push(`${T('feedback.debugRouting')}: ${route} · v${d.variantIndex} · #${hex(d.answersHash)}`)
   }
-  lines.push(`${T('feedback.debugVersion')}: ${props.locale} / q${props.quizVersion} / ${CONTENT_HASH}`)
+  lines.push(`${T('feedback.debugVersion')}: ${props.locale} / q${props.quizVersion} / ${props.contentHash}`)
   if (d?.answers.length) {
     lines.push('', T('feedback.debugAnswersNote'), `${T('feedback.debugAnswers')}: ${d.answers.join(' ')}`)
   }

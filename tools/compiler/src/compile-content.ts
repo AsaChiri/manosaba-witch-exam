@@ -463,6 +463,12 @@ function main(): void {
     );
   }
 
+  // Inputs for meta.assetsVersion (below): every emitted card/character prose
+  // artifact, in deterministic emission order. Distinct from the contentVersion
+  // inputs, which stay quiz-tables-only so prose edits never invalidate saved
+  // exam progress.
+  const assetHashParts: string[] = [];
+
   let cardFileCount = 0;
   for (const t of orderedTagList) {
     const a = tags.get(t)!;
@@ -470,6 +476,7 @@ function main(): void {
     const files = emitCardLocaleFiles(a, converter, termMap.overrides);
     for (const [path, obj] of files) {
       writeJson(join(C, "cards", path), obj);
+      assetHashParts.push(`${path} ${stableStringify(obj)}`);
       cardFileCount++;
     }
   }
@@ -505,6 +512,7 @@ function main(): void {
         };
       });
       writeJson(join(C, "characters", `${locale}.json`), records);
+      assetHashParts.push(`characters/${locale}.json ${stableStringify(records)}`);
       characterLocaleFiles++;
     }
   } else {
@@ -516,8 +524,13 @@ function main(): void {
   const contentHash = fnv1a32String(
     [questions, copingRaw, originBlocks, picksets, neighbor, hashSpec].map(stableStringify).join(""),
   );
-  const meta: Meta = {
+  // assetsVersion busts the runtime /data/ card+character JSON fetches (site
+  // delivery contract, design spec §5 revision 2026-07-16). Prose-sensitive by
+  // design; kept OUT of contentVersion so prose edits never wipe saved progress.
+  const assetsHash = fnv1a32String(assetHashParts.join("\n"));
+  const meta: Meta & { assetsVersion: string } = {
     contentVersion: `0x${(contentHash >>> 0).toString(16).padStart(8, "0")}`,
+    assetsVersion: `0x${(assetsHash >>> 0).toString(16).padStart(8, "0")}`,
     quizVersion: "v4-84",
     bankVersion: "v4",
     manifestVersion: "v1",

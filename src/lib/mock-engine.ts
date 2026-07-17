@@ -14,6 +14,7 @@ import type {
   ExamSnapshot,
   ExamPhase,
 } from './engine-api'
+import { MOCK_CELLS } from './mock-cells'
 import type { Locale } from '../i18n/config'
 
 interface Localized {
@@ -322,7 +323,7 @@ class MockSession implements ExamSession {
 
   result(): ExamResult | null {
     if (!this.isDone()) return null
-    const cells = this.content.cells
+    const cells = this.content.cells ?? MOCK_CELLS
     if (cells.length === 0) return null
     let sum = 0
     this.answers.forEach((a, i) => {

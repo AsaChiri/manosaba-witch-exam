@@ -69,6 +69,9 @@
     "questionOrdinal": "Question {n}",
     "back": "Previous",
     "booting": "Calibrating instrument…",
+    "retrieving": "Retrieving the record…",
+    "fetchError": "A network problem is keeping us from retrieving your record. Your result is saved — please check your connection and try again.",
+    "fetchRetry": "Retrieve the record again",
     "namePrompt": {
       "eyebrow": "RECORD",
       "title": "The name for the record",

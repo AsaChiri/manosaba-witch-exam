@@ -12,7 +12,7 @@
  * Keep the markup in sync with SpecialCard.astro (the /c/<id>/ share page).
  */
 import { computed } from 'vue'
-import type { WitchCharacter } from '../../lib/content-schema'
+import type { WitchCharacter } from '../../lib/content-types'
 import { t } from '../../i18n'
 import type { Locale } from '../../i18n/config'
 import { roseWindowSvg, CHARACTER_MOTIFS } from '../../lib/rose-window'

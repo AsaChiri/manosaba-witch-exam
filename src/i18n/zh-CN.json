@@ -79,6 +79,9 @@
     "questionOrdinal": "第 {n} 问",
     "back": "上一问",
     "booting": "仪器校准中……",
+    "retrieving": "档案调取中……",
+    "fetchError": "网络连接出现问题，暂时无法取回你的记录。检测结果已保留，请检查网络后重试。",
+    "fetchRetry": "重新取回记录",
     "namePrompt": {
       "eyebrow": "登记",
       "title": "留在记录上的名字",

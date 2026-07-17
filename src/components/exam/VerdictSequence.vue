@@ -7,7 +7,7 @@
  */
 import { onMounted, onBeforeUnmount, ref } from 'vue'
 import type { ExamResult } from '../../lib/engine-api'
-import type { Card } from '../../lib/content-schema'
+import type { Card } from '../../lib/content-types'
 import { t } from '../../i18n'
 import type { Locale } from '../../i18n/config'
 import Seal from './Seal.vue'

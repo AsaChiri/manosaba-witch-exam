@@ -1,4 +1,5 @@
 {
+  "assetsVersion": "0x25bf5faf",
   "bankVersion": "v4",
   "contentVersion": "0x51e724b2",
   "counts": {
@@ -17,7 +18,7 @@
     "slots": 85,
     "styles": 25
   },
-  "generatedAt": "2026-07-17T01:54:23.612Z",
+  "generatedAt": "2026-07-17T04:14:59.758Z",
   "locales": [
     "en",
     "ja",

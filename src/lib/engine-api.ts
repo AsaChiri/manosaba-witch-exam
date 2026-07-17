@@ -22,8 +22,13 @@ export interface CellCandidate {
 export interface ExamContent {
   locale: Locale
   quizVersion: string
-  /** Authored cells available to resolve to (from the content manifest). */
-  cells: CellCandidate[]
+  /**
+   * Authored cells available to resolve to. Consumed ONLY by the dev mock
+   * engine (which fabricates a result from them and defaults to mock-cells.ts
+   * when absent); the real adapter resolves from its compiled rule tables and
+   * ignores this entirely — the UI no longer supplies it.
+   */
+  cells?: CellCandidate[]
 }
 
 export interface ExamOption {

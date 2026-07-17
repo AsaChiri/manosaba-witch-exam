@@ -79,6 +79,9 @@
     "questionOrdinal": "第 {n} 題",
     "back": "上一題",
     "booting": "儀器校準中……",
+    "retrieving": "檔案調取中……",
+    "fetchError": "網路連線出現問題，暫時無法取回你的記錄。檢測結果已保留，請檢查網路後重試。",
+    "fetchRetry": "重新取回記錄",
     "namePrompt": {
       "eyebrow": "登記",
       "title": "留在記錄上的名字",

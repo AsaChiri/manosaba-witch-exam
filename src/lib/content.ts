@@ -101,6 +101,13 @@ export function getContentMeta(): ContentMeta {
 /** Content hash for localStorage invalidation (design spec §4). */
 export const CONTENT_HASH = `${CONTENT_META.contentVersion}~${CONTENT_META.quizVersion}`
 
+/** Cache-buster for the runtime /data/ card+character JSON assets (design spec
+ *  §5, 2026-07-16). Prose-sensitive, unlike contentVersion; falls back to
+ *  contentVersion for packages compiled before the field existed (fixtures). */
+export function getAssetsVersion(): string {
+  return CONTENT_META.assetsVersion ?? CONTENT_META.contentVersion
+}
+
 export function getCard(tag: string, locale: Locale): Card | null {
   return CARD_INDEX.get(`${tag}::${locale}`) ?? null
 }
@@ -162,11 +169,4 @@ export function listCharacters(locale: Locale): WitchCharacter[] {
 
 export function getCharacter(id: string, locale: Locale): WitchCharacter | null {
   return listCharacters(locale).find((c) => c.id === id) ?? null
-}
-
-/** Character lookup keyed by result tag — the exam island's trigger map. */
-export function getCharactersByTag(locale: Locale): Record<string, WitchCharacter> {
-  const out: Record<string, WitchCharacter> = {}
-  for (const c of listCharacters(locale)) out[c.tag] = c
-  return out
 }

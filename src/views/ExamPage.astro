@@ -10,33 +10,27 @@ import Seal from '../components/Seal.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
 import {
-  getManifest,
-  getCardOrFallback,
   getContentMeta,
-  getCharactersByTag,
+  getAssetsVersion,
+  listCharacters,
+  CONTENT_HASH,
 } from '../lib/content'
-import type { Card } from '../lib/content-schema'
 
 interface Props {
   locale: Locale
 }
 const { locale } = Astro.props
-const manifest = getManifest()
 const meta = getContentMeta()
 
-const cells = Object.entries(manifest.tags).map(([tag, info]) => ({
-  tag,
-  cell: info.cell,
-  origin: info.origin,
-  coping: info.coping,
-}))
-const cards: Record<string, Card> = {}
-for (const tag of Object.keys(manifest.tags)) {
-  const card = getCardOrFallback(tag, locale)
-  if (card) cards[tag] = card
-}
-// the 13 special character records, keyed by result tag ({} = feature off)
-const characters = getCharactersByTag(locale)
+/* Delivery contract (design spec §5, 2026-07-16): the island receives NO card
+ * prose and no cell list — it fetches the one resolved card from /data/ at
+ * result time (payload stays O(1) as the corpus grows to ~1,200 tags). The
+ * only per-corpus data is the 13-entry character trigger map: tag → {id,
+ * magicName}, magicName so the verdict teaser is fetch-independent. The
+ * record's prose is fetched on an actual exact-hit trigger, never inlined. */
+const characterHits = Object.fromEntries(
+  listCharacters(locale).map((c) => [c.tag, { id: c.id, magicName: c.magicName }]),
+)
 
 const seo = {
   routeKey: '/exam/',
@@ -57,9 +51,9 @@ const seo = {
       client:only="vue"
       locale={locale}
       quizVersion={meta.quizVersion}
-      cells={cells}
-      cards={cards}
-      characters={characters}
+      contentHash={CONTENT_HASH}
+      assetsVersion={getAssetsVersion()}
+      characterHits={characterHits}
     />
   </main>
 </BaseLayout>

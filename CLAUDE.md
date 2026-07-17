@@ -21,6 +21,9 @@ content/               THE compiled content package (committed; reviewable diffs
                        spoiler-gated exact-hit replacements for the normal card
 scripts/generate-og.ts OG PNG generation (worker pool, content-hash incremental)
 src/                   app: pages (4 locales), exam island, share, i18n catalogs, styles
+src/pages/data/        per-(tag,locale) card + character JSON endpoints — the exam island
+                       fetches ONE at result time (?v=meta.assetsVersion busts); exam HTML
+                       carries no corpus prose, so /exam/ stays O(1) as the corpus grows
 ```
 
 Key seams:
