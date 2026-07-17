@@ -81,8 +81,10 @@ export function recordCharacter(id: string): void {
   saveStore(store)
 }
 
-/** Has the visitor collected at least one card (i.e. finished ≥1 exam)?
- * Gates the discreet footer link so it only appears to returning collectors. */
+/** Has the visitor collected at least one record (i.e. finished ≥1 exam)?
+ * Special character records count — a special-only result (§3.7) stores no
+ * tag. Gates the discreet footer link so it only appears to returning
+ * collectors. */
 export function hasCollected(): boolean {
-  return loadCollected().length > 0
+  return loadCollected().length > 0 || loadCollectedCharacters().length > 0
 }

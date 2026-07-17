@@ -1,0 +1,37 @@
+{
+  "cell": "ABN|Avenger",
+  "copingSub": "AG-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Avenger",
+  "tag": "ABN-1_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She kept a book of accounts — everything given and taken, dated, nothing written off — and a marker-box where small things of those who owed her waited as pledges. The other girls knew about both.",
+          "A ribbon she had given the friend months before appeared at another girl's wrist. That night she drew a line under the friend's page.",
+          "During free time she took from the friend's shelf the comb the friend had kept since before the prison and laid it in the marker-box.",
+          "At dusk the friend sat at the courtyard fountain, as every evening. In her own cell, she sank the comb in a filled wash-pail and held it under.",
+          "The friend was found a step from the fountain rim, drowned. Hair and sleeves dry, no mark of any hand on the body. Girls at the second-floor railing had watched the courtyard through dusk; no one had crossed it.",
+          "The friend's comb was gone from the shelf — found damp in the marker-box beside the emptied wash-pail.",
+          "The act carried to the owner, not the water. Only she could have drowned the friend through it."
+        ],
+        "epitaph": "The only debt she wanted paid was staying, and no ledger could hold it.",
+        "epithet": "She Who Charged Every Leaving",
+        "execution": [
+          "She was seated on an iron chair at the center of the execution stand, ringed by small iron hatches in the floor, each one dated.",
+          "Behind each hatch waited a charge of coals; beneath the chair, a channel.",
+          "A slow clock opened the first hatch on the stroke — its coals ran down the channel. The next opened at the next stroke, and the next, each feeding its charge beneath her.",
+          "When every hatch stood open and the channel held its full measure, she burned dead in the chair."
+        ],
+        "magic": {
+          "name": "Marker Due",
+          "text": "What she does to a thing another has long kept as their own, held now in her keeping, is done in kind to its owner."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

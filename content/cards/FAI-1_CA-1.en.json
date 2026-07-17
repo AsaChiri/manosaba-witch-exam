@@ -1,0 +1,37 @@
+{
+  "cell": "FAI|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Catastrophizer",
+  "tag": "FAI-1_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The other girls called her the survivor of a great fire. She had never lived it — the story was invented. She rehearsed that fire every night, always the same opening: the lamps burning blue before the smoke.",
+          "A girl assembling a book of the prisoners' life stories scheduled her for an interview — the next evening at the courtyard fountain, the fire in full detail. Every girl in the prison had heard her tell it; refusing would unmask her, and once written down, the invented fire would become fixed and checkable.",
+          "Weeks earlier — the interview rounds already moving girl by girl toward her — she tested the cast at dusk: a girl near the fountain leapt shrieking into the water where nothing burned. Others nearby pulled her out and laughed it off as a waking nightmare.",
+          "The next evening, the dinner hour. The girl waited alone on the fountain's rim, notebook open. From the courtyard's edge, in sight of the fountain, she set her rehearsed fire running in the girl's senses, then went in to dinner.",
+          "The cast fire reached the waterline, flames standing over the basin. To escape, the girl went under the water; in the vision there was nowhere above the surface to breathe. Alone at the empty courtyard hour, no one near, the girl drowned in the knee-deep basin.",
+          "The girl lay unmarked in the basin, the notebook dry on the rim.",
+          "The girl from the earlier incident, asked what the nightmare had shown, reported the lamps burning blue before the smoke — the detail from the invented fire, the one no real fire has. A cast vision carries only what its maker has rehearsed. This one, carrying her private telling, was cast by her."
+        ],
+        "epitaph": "She had rehearsed every death but her own.",
+        "epithet": "The Survivor of Nothing",
+        "execution": [
+          "Six iron arms ringed the stand, leveled at her from all sides, a lamp mounted above each.",
+          "Before each stroke a lamp lit. She read it and braced.",
+          "The stroke came from a lit arm or an unlit one; there was no pattern. Every time she set her guard, the blow landed from somewhere else.",
+          "The last stroke came from an arm whose lamp had never lit. It struck her dead at the center of the ring."
+        ],
+        "magic": {
+          "name": "the Cast Disaster",
+          "text": "A disaster she has fully rehearsed in her own head, she can set running in the senses of a person in her sight; for its span, that person lives it as real."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

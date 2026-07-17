@@ -1,0 +1,38 @@
+{
+  "cell": "ALN|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Self-Reliant",
+  "tag": "ALN-1_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "One supper the victim read the round of small debts aloud — who owed whom a dessert, a shift, a shower turn — and every girl was in it somewhere. Her name was nowhere. The victim said, to laughter, that she was not part of the economy.",
+          "The victim swam the lake each midday, her phone propped on the bank to stream it; the girls watched from the lounge. That noon she had carried her mending to the trees south of the bank.",
+          "Mid-swim the stream showed the swimmer fold and go straight down. For two heartbeats a thin taut line broke the surface, running shoreward toward the trees; then the water was smooth.",
+          "Her flat braid-cord — the mending cord the girls had seen at her belt a hundred times — had looped the swimmer's ankles and drawn her under. Then it came back to her hand and left the lake empty.",
+          "The drowned girl had thin even welts circling both ankles, patterned like a flat braid. The girls dragged the lake and brought up nothing that could have made them.",
+          "From that day the braid-cord was gone from her belt. She came to the dragging with a plain rope; the girls had seen the braid daily and they marked the absence.",
+          "The welts matched the cord and the cord vanished the same day — her cord was the weapon. A weapon that left the lake on its own means her magic.",
+          "She told the court she spent midday in the courtyard. The stream's opening frame shows a figure in the tree-shade south of the bank, seated with mending across the knees."
+        ],
+        "epitaph": "Nothing of hers ever rested in another girl's hands, and so nothing of her did either.",
+        "epithet": "She Who Owed Nothing",
+        "execution": [
+          "A great loom stood on the execution stand. She was bound upright inside the frame, against the backing cloth.",
+          "Shuttles drove thread across the frame, layer above layer, working upward from her feet.",
+          "The weave took the legs, the arms, the shoulders — each course binding her tighter to the backing.",
+          "The last courses closed over her nose and mouth, and the frame filled with cloth."
+        ],
+        "magic": {
+          "name": "At Her Bidding",
+          "text": "Her own belongings move at her will wherever she is, and answer no hand but hers."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

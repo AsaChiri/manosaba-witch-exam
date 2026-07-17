@@ -1,0 +1,37 @@
+{
+  "cell": "VC|Ritualist",
+  "copingSub": "RI-1",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-8",
+  "style": "Ritualist",
+  "tag": "VC-8_RI-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her grandmother pulled wet-haired girls off their pillows — wet hair brings fever by morning; her mother rehearsed funeral rites aloud at supper. She learned the family's list of ill-signs before anything else.",
+          "Every night before the cells locked she walked her round — hair, pillows, spilled salt, the set of the beds — and the whole prison knew the list by heart; she had recited it at every offense.",
+          "The girl in the solo cell slept every night with dripping hair, laughed at the list, and woke fine every morning. That evening, in front of the others, the girl laughed off the nightly warning once more.",
+          "That same evening, while the girl showered, she turned the bedding and set the pillow to the bed's north end. In her family's teaching, a north pillow is a dead girl's pillow — the one sign on the list that brings death.",
+          "Her round ended at that doorway just before the cells locked, as it always did; she looked in at the made sign and laid her grandmother's word on it. The girl went to bed without looking.",
+          "At morning unlock the girl lay dead in a cell locked from the outside — no wound, no sickness, nothing disturbed. The pillow was still at the north end.",
+          "No natural cause could reach a locked cell. The sign the death followed was on one girl's family list, recited to the whole prison a hundred times, and her round ended at that door just before the lock."
+        ],
+        "epitaph": "Her only bedtime stories were warnings — and she made one come true.",
+        "epithet": "Heir to the Household Alarm",
+        "execution": [
+          "A ring of small iron stations circled the stand — a lock, a tap, a lamp, a made bed. She stood noosed at the center, a chain running from the noose up over the beam above the stand and down to the stations' latch-wheel.",
+          "A single mechanical arm began its round. It checked the lock — it held; one link latched home and the chain lifted her by that much.",
+          "The tap: dry. The lamp: dark. The bed: made. Each all-clear latched another link, each link lifting her higher.",
+          "The arm walked the ring unhurried, in her own nightly order. The last station passed its check, the final link latched, and she hung dead at the center of the ring, feet off the stand."
+        ],
+        "magic": {
+          "name": "Grandmother's Law",
+          "text": "When she sees one of her family's taught ill-signs made, she can lay the family's word on it; the taught misfortune follows before the day is out, exactly as taught."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

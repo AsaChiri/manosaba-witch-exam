@@ -1,0 +1,38 @@
+{
+  "cell": "MB|Trickster",
+  "copingSub": "TR-2",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Trickster",
+  "tag": "MB-2_TR-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She had told the trader, once and plainly, that she cannot sleep in the dark. Before the stream tonight, the trader sold that secret to the girls around the fireplace — the price of a seat among them. She watched from the doorway.",
+          "Nearly everyone went to the recreation room for the weekly stream. The lounge stood empty.",
+          "She approached the trader. The trader looked up, saw her own dearest, and followed her toward the lounge.",
+          "Two girls late to the stream passed them in the corridor. Each saw the trader walking with a different companion, and thought nothing of it.",
+          "In the lounge she took a sword down from the wall to show the trader. At close quarters she ran her through, wiped the blade, and set it back on its hooks.",
+          "The girls returning from the stream found the trader on the lounge floor. The swords hung complete on the wall; one guard bore a wiped smear at the seam.",
+          "The two late girls each named the companion they saw with the trader — two different names, both belonging to girls who had sat through the whole stream.",
+          "A companion seen as a different trusted face by each eye is her known power. Only two were absent from the stream that night: the trader and the witch."
+        ],
+        "epitaph": "Every door opened, and not one of them for her.",
+        "epithet": "Dearest to Every Eye, Known to None",
+        "execution": [
+          "Three great iron bells stood on the execution stand, open end down. She was set beneath one.",
+          "Shuffling arms traded the bells' places; after each shuffle, a maul fell on one bell.",
+          "The game was honest. The shuffles went on and the maul kept its turns.",
+          "The maul fell on the bell she was under, and the blow crushed her beneath it."
+        ],
+        "magic": {
+          "name": "the Dearest Face",
+          "text": "The Dearest Face — While she wills it, every eye that falls on her sees its own most-trusted person."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

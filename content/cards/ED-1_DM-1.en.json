@@ -1,0 +1,38 @@
+{
+  "cell": "ED|Doomer",
+  "copingSub": "DM-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Doomer",
+  "tag": "ED-1_DM-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At dinner the girls traded wishes for when they got out; she always passed — nothing for me. One girl made a game of answering for her, and every guess was some other girl's want pinned on her as her own.",
+          "One night the guess was word for word the wish of the girl beside her, and the table agreed: that's so you.",
+          "She told the guesser to come to the flower field at dusk — she would show her the one thing she actually loved. The guesser came.",
+          "At the far edge she took the guesser's hand and laid her asleep in the deep grass. She walked back before lockup and told the others the girl had stayed out for the stars.",
+          "At lockup the guesser was missed. The guards walked the paths by lantern through the night; a sleeper in deep grass, silent and still, is not found.",
+          "At first light they found the guesser dead of the cold — hands open, limbs straight, the grass beneath her unstirred.",
+          "Cold normally rouses a sleeper; this one the night's cold never woke. No draught was in her.",
+          "Such a sleep, in this prison, could only be laid by her. The guesser was last seen at dusk, hand in hers."
+        ],
+        "epitaph": "The door was always lit, and always one step ahead.",
+        "epithet": "The Girl Who Answered No for the World",
+        "execution": [
+          "The execution stand rose as a turning floor. At its far edge stood a doorway opening on a small lit room.",
+          "She walked toward the door. The floor carried it away as fast as she walked.",
+          "Behind her the floor ran off into the dark below the stand.",
+          "The court watched her walk toward the lit room until her legs gave. The floor carried her off the trailing edge, and from the dark below came the sound of the fall. Then nothing more."
+        ],
+        "magic": {
+          "name": "Lullaby",
+          "text": "A sleep she lays with her hand on a person does not break — not by shaking, not by calling, not by cold — until she lifts it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

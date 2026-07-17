@@ -26,8 +26,8 @@ interface Entry {
   epithet: string
 }
 interface CharacterEntry {
-  name: string
   magicName: string
+  epithet: string
   color: string
 }
 const props = defineProps<{
@@ -42,8 +42,6 @@ const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k,
 const tags = loadCollected()
   .filter((tag) => props.catalog[tag])
   .reverse()
-const count = tags.length
-const revealed = count >= COLLECTOR_REVEAL_THRESHOLD
 
 /* Special character records (§3.7) — rendered ONLY once at least one is
  * collected. The section (and that the set exists at all) is never advertised
@@ -51,6 +49,12 @@ const revealed = count >= COLLECTOR_REVEAL_THRESHOLD
 const chars = loadCollectedCharacters()
   .filter((id) => props.characterCatalog[id])
   .reverse()
+
+// Every tile on the shelf counts — special records included, so a
+// special-only collector (character cell with no normal card) isn't shown
+// the empty state.
+const count = tags.length + chars.length
+const revealed = count >= COLLECTOR_REVEAL_THRESHOLD
 
 function href(tag: string): string {
   return localePath(props.locale, `/r/${tag}/`) + '#collector'
@@ -84,7 +88,7 @@ function charWindow(id: string): string {
       </p>
       <p v-if="revealed" class="collection__collector">{{ T('collection.collectorNote', { total }) }}</p>
 
-      <ul class="collection__grid">
+      <ul v-if="tags.length > 0" class="collection__grid">
         <li v-for="tag in tags" :key="tag">
           <a class="collection-tile" :href="href(tag)">
             <span class="collection-tile__crest">
@@ -107,9 +111,9 @@ function charWindow(id: string): string {
             >
               <span class="collection-tile__window" aria-hidden="true" v-html="charWindow(id)"></span>
               <h2 class="collection-tile__name collection-tile__name--char">
-                {{ characterCatalog[id].name }}
+                {{ characterCatalog[id].magicName }}
               </h2>
-              <p class="collection-tile__epithet">{{ characterCatalog[id].magicName }}</p>
+              <p class="collection-tile__epithet">{{ characterCatalog[id].epithet }}</p>
             </a>
           </li>
         </ul>

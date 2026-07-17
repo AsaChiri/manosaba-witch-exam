@@ -25,14 +25,18 @@ for (const tag of listTags()) {
   const card = getCardOrFallback(tag, locale)
   if (card) catalog[tag] = { title: cardTitle(card), epithet: card.epithet }
 }
-const total = Object.keys(catalog).length
 
 // trimmed character catalog for the special-records section (§3.7) — never
-// the awakening prose, and never the tag mapping
-const characterCatalog: Record<string, { name: string; magicName: string; color: string }> = {}
+// the awakening prose, never the tag mapping, and not even the character's
+// name: her tile mirrors a normal tile (magic name + epithet) under her window
+const characterCatalog: Record<string, { magicName: string; epithet: string; color: string }> = {}
 for (const c of listCharacters(locale)) {
-  characterCatalog[c.id] = { name: c.name, magicName: c.magicName, color: c.color }
+  characterCatalog[c.id] = { magicName: c.magicName, epithet: c.epithet, color: c.color }
 }
+
+// Special records are collectibles too: they count in the collected number,
+// so they belong in the revealed total — a bare figure that names nothing.
+const total = Object.keys(catalog).length + Object.keys(characterCatalog).length
 
 const seo = {
   routeKey: '/collection/',

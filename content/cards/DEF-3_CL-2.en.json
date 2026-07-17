@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Clinger",
+  "copingSub": "CL-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Clinger",
+  "tag": "DEF-3_CL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She was close to one girl — the one who told her, night after night, that she was all right. Every kind word the girl spoke to her she kept, to sound again in the girl's own voice on the bad nights. Everyone knew she kept voices, and knew that what she re-sounded was only ever real words truly said to her.",
+          "One night the girl, lying close, overheard her mutter a cruelty in her half-sleep — an ugly wish, spoken to no one. Next day the girl confronted her: had seen what she was, would not unsee it, would not say the kind words again. None of the kept voices answered this.",
+          "The girl went to the lake alone that evening. She held her under the water until she went still, and left her there.",
+          "When the others doubted the girl would drown herself, she gave them the girl's own voice — I can't do this anymore, I'm so tired. The girl had said those words to her once, long before.",
+          "Her death was recorded as a self-drowning.",
+          "Another girl recognized those words — the girl had said them months before, footsore and laughing after a long cleaning.",
+          "Her power gives a saying back whole, not a word altered. The same words months apart meant they had been replayed. Only she held the girl's voice.",
+          "Hold-down marks on the girl's shoulders showed where a hand had pressed her under."
+        ],
+        "epitaph": "She kept every kind word ever spoken to her, and the one she needed had never been said.",
+        "epithet": "She Who Kept Every Kind Word",
+        "execution": [
+          "She was bound at the execution stand with a cord-end set in each hand. The two cords ran up over a beam to a raised iron weight, held aloft only by her pull; the same cords looped about her chest.",
+          "Taut against the weight, the cords pressed the breath from her by degrees.",
+          "She held, and no one spoke.",
+          "The cords drew shut on her chest, and the breath left her."
+        ],
+        "magic": {
+          "name": "Kept Voice",
+          "text": "She can re-sound aloud any words once spoken to her, exactly as they were said, in the speaker's own voice."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
