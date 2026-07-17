@@ -1,0 +1,38 @@
+{
+  "cell": "VC|Doomer",
+  "copingSub": "DM-1",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Doomer",
+  "tag": "VC-1_DM-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her father went to a routine check-up one morning and came home with a terminal diagnosis. She stopped asking the world for anything after that.",
+          "She had been coughing all winter. The earnest girl booked the medical room without asking and told the others she would walk her there the next morning. Every time she had tried to pull away, the girl had only pressed closer.",
+          "The earnest girl rinsed her washcloths at the fountain rim each evening after her shower.",
+          "At dusk she followed the girl into the yard and shut the courtyard door behind them.",
+          "At the fountain she held the kneeling girl's head under the rim-water until the struggling stopped, then reopened the door and stepped back into the lounge among the other girls.",
+          "The earnest girl lay over the fountain rim, drowned in a hand's depth of water. Nothing was overturned; the stones were dry.",
+          "She told the court she had crossed the yard early and left it empty. But through the dusk hour several girls tried the courtyard door and found it stuck, and the girl at the second-floor railing saw two figures at the fountain.",
+          "The first girl through the freed door met her coming out — hair dry, both sleeves soaked past the elbow."
+        ],
+        "epitaph": "She asked the world for nothing, and it answered anyway.",
+        "epithet": "The Girl Who Never Asked",
+        "execution": [
+          "She stood unbound on a platform ringed with open doorways, a blade set in every lintel.",
+          "The platform began to tilt beneath her feet.",
+          "She leaned against the slope and would not step through any door; the floor steepened by slow degrees.",
+          "The tilt took her footing. The floor slid her to a doorway, and the lintel blade came down."
+        ],
+        "magic": {
+          "name": "Doorfast",
+          "text": "When she shuts a door or passage, no one else can open it until she does."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

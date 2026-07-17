@@ -1,0 +1,37 @@
+{
+  "cell": "ABN|Pleaser",
+  "copingSub": "PL-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Pleaser",
+  "tag": "ABN-1_PL-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her friend asked months ago for the dinner table cleared each night; she said yes, and every evening since, when the hall empties, the pots and trays carry themselves back across it — a spoken yes keeps running. The other girls passed her their chores in turn; she never refused.",
+          "Her friend's requests had dwindled to nothing over weeks. That evening, the friend handed a torn hem to another girl for mending, in front of her, and never turned to her.",
+          "Each evening, the friend ate alone after everyone else had left the hall.",
+          "That night the clearing ran as always, but the soup pot broke from its nightly line, rose above the friend's seat, and overturned on her — boiling. She was in the lounge among the other girls.",
+          "At the morning meal, the girls found the friend at her seat beneath the overturned pot, scalded across the back from above. Her palms had no marks.",
+          "A girl who pulls a pot down on herself normally takes the scald on her hands and chest; the friend never touched it. The spill fell two tables off the line the clearing takes every night.",
+          "Her clearing runs as she intends; no one else directs it. The pot left its fixed nightly line because she steered it — thus the scald was deliberate."
+        ],
+        "epitaph": "Every favor kept, and no one kept her.",
+        "epithet": "She Who Kept Every Yes",
+        "execution": [
+          "An iron armature closed around her limbs and back, jointed at the arms, spine, and knees.",
+          "Whatever motion she begins, the frame carries it to its end and locks it there.",
+          "She shifted an arm; the frame drove it straight and fixed it. She eased her knees; the frame folded them down and held them.",
+          "She sagged; the frame folded her chest shut and locked. Breath stopped."
+        ],
+        "magic": {
+          "name": "Standing Yes",
+          "text": "A favor she agrees to aloud carries itself out, without her hands or her presence."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "cell": "ALN|Wall-of-Anger",
+  "copingSub": "WA-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Wall-of-Anger",
+  "tag": "ALN-1_WA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "That day she overheard the girls in the dining hall deciding someone would have to sit with her. That evening the girl they chose came to the lounge and sat beside her in the corner.",
+          "They sat the full hour in the corner, the room around them. No one had ever sat at her side that long; she held the girl there and never shifted. A few seats off, the others felt nothing beyond the usual chill.",
+          "Through the hour the girl beside her faded and slowed — warmth, strength, and color draining away — and put it down to tiredness. The room saw two girls sitting quietly.",
+          "The hour ended. The girl did not rise — dead in the seat, withered through.",
+          "The girls found the body in the corner seat. The side that had faced her was drawn grey and bloodless, the far side ordinary.",
+          "A body that fails on its own fails evenly. This one was drained on one side only — the side toward the seat beside it — so whatever took the life had sat there a long time.",
+          "She had held that seat the whole evening, the full room watching."
+        ],
+        "epitaph": "Every hand that reached for her was sent.",
+        "epithet": "The Storm They Sent No One Into",
+        "execution": [
+          "A single iron band was coiled around her from shoulder to knee, standing loose; a drum at the foot of the stand held the lower end of the band.",
+          "The drum turned. The whole band drew tight at once, the iron closing on her from every side.",
+          "The drum went on; the iron pressed closer.",
+          "The coil tightened until her chest could not take air, and she died constricted inside it."
+        ],
+        "magic": {
+          "name": "Witherfield",
+          "text": "A field stands always about her body; a living thing that lingers in it withers, warmth and strength and color drawn from it, worst on the nearest side, deepening the longer it stays."
+        }
+      },
+      "variant": 3
+    }
+  ]
+}

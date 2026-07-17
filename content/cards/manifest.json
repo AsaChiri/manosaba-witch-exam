@@ -45,6 +45,19 @@
       "family": "ABN",
       "style": "Fantasist"
     },
+    "ABN|Pleaser": {
+      "authoredTags": [
+        "ABN-1_PL-3"
+      ],
+      "coveredCoping": [
+        "PL-3"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Pleaser"
+    },
     "ABN|Resigned": {
       "authoredTags": [
         "ABN-1_RS-3"
@@ -124,6 +137,19 @@
       ],
       "family": "ALN",
       "style": "Self-Reliant"
+    },
+    "ALN|Wall-of-Anger": {
+      "authoredTags": [
+        "ALN-1_WA-3"
+      ],
+      "coveredCoping": [
+        "WA-3"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Wall-of-Anger"
     },
     "DEF|Avoider": {
       "authoredTags": [
@@ -208,6 +234,19 @@
       "family": "DEF",
       "style": "Self-Punisher"
     },
+    "DEF|Sovereign": {
+      "authoredTags": [
+        "DEF-3_SV-1"
+      ],
+      "coveredCoping": [
+        "SV-1"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Sovereign"
+    },
     "DEF|Watcher": {
       "authoredTags": [
         "DEF-5_WT-3"
@@ -269,6 +308,19 @@
       "family": "ED",
       "style": "Performer"
     },
+    "ED|Ruminator": {
+      "authoredTags": [
+        "ED-1_RU-1"
+      ],
+      "coveredCoping": [
+        "RU-1"
+      ],
+      "coveredOrigin": [
+        "ED-1"
+      ],
+      "family": "ED",
+      "style": "Ruminator"
+    },
     "ED|Self-Punisher": {
       "authoredTags": [
         "ED-3_SP-1"
@@ -323,6 +375,19 @@
       "family": "FAI",
       "style": "Perfectionist"
     },
+    "FAI|Thrill-Seeker": {
+      "authoredTags": [
+        "FAI-5_TS-1"
+      ],
+      "coveredCoping": [
+        "TS-1"
+      ],
+      "coveredOrigin": [
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Thrill-Seeker"
+    },
     "MB|Concealer": {
       "authoredTags": [
         "MB-2_CO-5"
@@ -375,6 +440,19 @@
       "family": "MB",
       "style": "Self-Soother"
     },
+    "MB|Striker": {
+      "authoredTags": [
+        "MB-2_ST-2"
+      ],
+      "coveredCoping": [
+        "ST-2"
+      ],
+      "coveredOrigin": [
+        "MB-2"
+      ],
+      "family": "MB",
+      "style": "Striker"
+    },
     "MB|Trickster": {
       "authoredTags": [
         "MB-1_TR-2",
@@ -415,6 +493,19 @@
       ],
       "family": "POW",
       "style": "Depender"
+    },
+    "VC|Doomer": {
+      "authoredTags": [
+        "VC-1_DM-1"
+      ],
+      "coveredCoping": [
+        "DM-1"
+      ],
+      "coveredOrigin": [
+        "VC-1"
+      ],
+      "family": "VC",
+      "style": "Doomer"
     },
     "VC|Ritualist": {
       "authoredTags": [
@@ -468,6 +559,19 @@
       ],
       "originSub": "ABN-1",
       "tag": "ABN-1_CL-1",
+      "variants": 1
+    },
+    "ABN-1_PL-3": {
+      "cell": "ABN|Pleaser",
+      "copingSub": "PL-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_PL-3",
       "variants": 1
     },
     "ABN-1_RS-3": {
@@ -548,6 +652,19 @@
       "tag": "ALN-1_SR-1",
       "variants": 1
     },
+    "ALN-1_WA-3": {
+      "cell": "ALN|Wall-of-Anger",
+      "copingSub": "WA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_WA-3",
+      "variants": 1
+    },
     "DEF-3_AV-2": {
       "cell": "DEF|Avoider",
       "copingSub": "AV-2",
@@ -600,6 +717,19 @@
       "tag": "DEF-3_SP-1",
       "variants": 1
     },
+    "DEF-3_SV-1": {
+      "cell": "DEF|Sovereign",
+      "copingSub": "SV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_SV-1",
+      "variants": 1
+    },
     "DEF-8_SP-1": {
       "cell": "DEF|Self-Punisher",
       "copingSub": "SP-1",
@@ -650,6 +780,19 @@
       ],
       "originSub": "ED-1",
       "tag": "ED-1_P-2",
+      "variants": 1
+    },
+    "ED-1_RU-1": {
+      "cell": "ED|Ruminator",
+      "copingSub": "RU-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_RU-1",
       "variants": 1
     },
     "ED-1_SS-1": {
@@ -743,6 +886,19 @@
       "tag": "FAI-5_PF-2",
       "variants": 1
     },
+    "FAI-5_TS-1": {
+      "cell": "FAI|Thrill-Seeker",
+      "copingSub": "TS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_TS-1",
+      "variants": 1
+    },
     "MB-10_WT-2": {
       "cell": "MB|Watcher",
       "copingSub": "WT-2",
@@ -782,6 +938,19 @@
       "tag": "MB-2_SS-3",
       "variants": 1
     },
+    "MB-2_ST-2": {
+      "cell": "MB|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-2",
+      "tag": "MB-2_ST-2",
+      "variants": 1
+    },
     "MB-2_TR-2": {
       "cell": "MB|Trickster",
       "copingSub": "TR-2",
@@ -819,6 +988,19 @@
       ],
       "originSub": "POW-3",
       "tag": "POW-3_DP-2",
+      "variants": 1
+    },
+    "VC-1_DM-1": {
+      "cell": "VC|Doomer",
+      "copingSub": "DM-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "VC-1",
+      "tag": "VC-1_DM-1",
       "variants": 1
     },
     "VC-1_WT-1": {

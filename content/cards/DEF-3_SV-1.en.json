@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Sovereign",
+  "copingSub": "SV-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Sovereign",
+  "tag": "DEF-3_SV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge the other girls made way for her. One night a homesick girl sat weeping, and she laid her hand on the girl's head. Under that hand, the thought: slap the tears off her.",
+          "After that the girl came to her every evening to weep. Each time the thought came back and stayed longer. On the last evening the girl would not let go, and the thought came worst of all.",
+          "Between tears the girl had mentioned a habit: every dawn, before the others woke, reading the same picture-book alone in the library.",
+          "That night, after the cells were locked, she walked out and unseated the tall bookcase in the library at its feet, leaving it balanced so that a pull on its shelves would bring it down. She went back to her bunk.",
+          "At half past six the homesick girl lay under the fallen bookcase, the picture-book beneath her. The other girls called it the old case giving way.",
+          "She offered, unasked, that the case had been leaning for weeks. The girls who shelved books on it every day said it had stood straight through the last free hour.",
+          "The bookcase was rigged in the hours the cells stand bolted, when no girl can leave. At the dawn round one cell's bolt was found open. A cell she left in the night could not bolt again behind her, and so the open cell was hers."
+        ],
+        "epitaph": "Every door in the prison opened for her; the one behind her eyes never once closed.",
+        "epithet": "The Gutter Beneath the Crown",
+        "execution": [
+          "A stone well stood on the execution stand, a high seat fixed inside it.",
+          "She was placed in the seat, her wrists bound to the armrests. The well's one sluice stood open.",
+          "The water climbed steadily — past the foot of the seat, past the armrests — fed from the open sluice.",
+          "It rose over her face and closed over her head, and she drowned in the filled well."
+        ],
+        "magic": {
+          "name": "Right of Way",
+          "text": "Every lock, bolt, and bar in the prison opens to her hand; it only opens, and never closes again."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

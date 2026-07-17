@@ -1,0 +1,38 @@
+{
+  "cell": "MB|Striker",
+  "copingSub": "ST-2",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Striker",
+  "tag": "MB-2_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The tall girl had been her only friend. She had told her what came after every fight — the shaking, the sickness.",
+          "After her next fight, the tall girl brought the others around the corner to see. By that evening, the girls no longer feared her. They mocked her.",
+          "The tall girl — a head taller than her, the quickest hands in the prison — took to shoving her in the meal queue, flicking her ear. The night before, the tall girl told the others to come watch again at breakfast.",
+          "Before the breakfast hour, she waited in the entrance hall, alone in the tall girl's morning path. When the tall girl came through, she repeated what she had confided, word for word.",
+          "The tall girl lunged, her full weight behind the swing. She struck the jaw first. The tall girl's own weight carried the head backward to the stone floor.",
+          "The tall girl was found by the hall doors. A single bruise on the jaw; the skull broken where it met the stone behind. Her right fist was still half-closed.",
+          "She said she had come up with the others for breakfast. A girl who woke early had watched from the staircase: she had crossed the entrance hall alone, well before the hour.",
+          "At breakfast, one girl's right knuckle was fresh-split."
+        ],
+        "epitaph": "There is no fist fast enough to take back a word.",
+        "epithet": "She Who Was Never Second",
+        "execution": [
+          "She was locked kneeling in iron stocks at the center of the stand, fists clamped at her sides, a brace holding her chin forward.",
+          "An iron arm on a geared rail was set before her face. A click of the gear, and it struck her open-handed.",
+          "The click came at a fixed interval. Every swing was visible the whole way in.",
+          "The arm was still striking when the stocks went still."
+        ],
+        "magic": {
+          "name": "First Fist",
+          "text": "Against anyone who moves to strike her, her blow lands first."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
