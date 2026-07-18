@@ -1,0 +1,37 @@
+{
+  "cell": "MB|Performer",
+  "copingSub": "P-2",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-6",
+  "style": "Performer",
+  "tag": "MB-6_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She ran the dinner entertainment — acts, impressions, pratfalls. She performed as the giver — the room's laughter was, to her, the happiness she brought them, her gift landing. The girls adored her for it, and as long as they did, no one gave her trouble.",
+          "One dinner a sheet reached her by mistake — covered in one girl's handwriting: who would call for her turns each night, all of it arranged by that girl for the others to follow. A game run on her from the start. The laughter had been at her all along, not the happiness she thought she brought them.",
+          "That evening the same girl was writing out a fresh sheet of it — the game set to run again. She sat quiet at her bench by the serving board, no act, no joke; the girl had her back to it, and one of the girls, as usual, had her phone out filming the table.",
+          "Halfway through the meal she aimed the room's laughter at the far corner, and everyone turned and laughed. She held the laughter there, crossed to the serving board, swung the iron pot once into the back of the girl's head, dropped it, and went back to her bench.",
+          "The laughter stopped. The girl was face-down at her seat, the pot on the floor beside her. Every girl had been in the dining hall, and every girl had been facing the corner.",
+          "No one could say what had been funny — nothing had been in the corner. She had not performed once all evening.",
+          "She said she never left her bench — the laughter, she said, was her act. The filming girl's clip ran the full minute: every girl in the frame facing the corner, the corner itself empty, and at the frame's edge, her bench empty too."
+        ],
+        "epitaph": "She could make them laugh, and so she never knew whether they had.",
+        "epithet": "She Who Turned the Laugh",
+        "execution": [
+          "Rings of paired iron clappers surrounded her on the stand, beating together in time.",
+          "Between beats, each pair stepped one pace inward. The tempo rose.",
+          "The applause was loud, mechanical, and owed to nothing she had done.",
+          "The pairs met at the center with her between them, and the beat went on."
+        ],
+        "magic": {
+          "name": "the Owned Joke",
+          "text": "She directs a room's laughter at any target she chooses, and no one present resists. It holds as long as she wills, whether anything to laugh at is there or not."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

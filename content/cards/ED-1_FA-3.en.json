@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Fantasist",
+  "copingSub": "FA-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Fantasist",
+  "tag": "ED-1_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For years she had maintained her world in full — the rooms, the hours, the companion's face sketched again and again. One drawing hung above her bunk.",
+          "For months she had shared a library table with a girl who talked while she listened. One evening she told the girl about her world. The girl watched her phone the whole time and at the end said: sorry — what?",
+          "The girl ate early and spent her evenings alone at the guest house, in the fire-sprite room, for the quiet.",
+          "That same evening, while she sat in plain sight at her place in the dining hall, she sent the companion out — through the entrance, up the path, into the fire-sprite room. It struck the girl with a stone from the path, and she let it go.",
+          "A girl coming up the path had passed a stranger leaving the guest house.",
+          "The girl was found beaten in the fire-sprite room before lock, the stone beside her. Every prisoner had been at dinner through that hour, each placed by the others — no one was missing.",
+          "The stranger appeared on no roll on the island. The face the girl on the path had seen was the one pinned above her bunk."
+        ],
+        "epitaph": "She drew the only eyes that ever stayed.",
+        "epithet": "She Who Built Her Own Witness",
+        "execution": [
+          "A small furnished room stood whole on the execution stand, complete to its curtains. She was bound in the chair at its center.",
+          "Mechanical arms began at the furnishings — table, shelf, curtains — and took them away piece by piece.",
+          "The walls came away panel by panel, then the rafters, working inward.",
+          "The roof-beam was the last piece taken. It came down onto the chair where she sat."
+        ],
+        "magic": {
+          "name": "the Companion",
+          "text": "The Companion — She can set the person she has shaped in her mind walking in the world, real to every sense, doing her will even beyond her sight; when she lets it go, nothing of it remains."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

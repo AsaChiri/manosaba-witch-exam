@@ -1,0 +1,37 @@
+{
+  "cell": "POW|Catastrophizer",
+  "copingSub": "CA-4",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-3",
+  "style": "Catastrophizer",
+  "tag": "POW-3_CA-4",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Whoever she was watching at the edge of a small risk flinched at a disaster only they could see — a hand halted over a hot pan, a girl at the lip of a jump. The girls knew her as a strange chill and thought no more of it.",
+          "One girl had taken the turns that were hers — clearing the dining tables after meals, her place on the entrance-hall sweeping rota, fetching the day's deliveries — and told the others she would go to pieces under them. The girls believed it and treated her as the one who could not be handed anything. The evening before, in front of everyone, the girl took the supper tray from her hands and carried it to her seat — the last thing she still did for herself, and after it nothing in the prison's day was left that was hers to do.",
+          "In the morning rush the girls filed toward the staircase. She stood at its foot, aside from the mouth and clear of the fall line, her eyes on the girl at the lip.",
+          "The girl's foot went out over the first stair and the flash struck. The girl flinched — her weight already past the lip — and the wrench broke her footing and sent her down the full flight.",
+          "The girl lay dead at the foot of the staircase, her fall begun in a backward twist at the lip.",
+          "Questioned about the chill they had always felt near her, the girls each described the same thing — a lived disaster striking the instant before they moved, always while she was watching.",
+          "The morning-rush girls had seen her there. A backward twist at the lip meant a recoil; she had placed herself where the flinch would kill."
+        ],
+        "epitaph": "She could see every ending but never a way through.",
+        "epithet": "Drowned Among Ways Out",
+        "execution": [
+          "The execution stand bore a floor-plate at its center. Plank bridges led from it to ledges on every side, each one of them sound.",
+          "She had only to choose a bridge and cross before the plate dropped.",
+          "Her eyes moved to one bridge, then the next, then the next. She never took a step.",
+          "The plate dropped from under her. She fell into the pit below, and every bridge still stood."
+        ],
+        "magic": {
+          "name": "the Worst Case",
+          "text": "When a person she is watching commits to a self-endangering act, the true worst end of that act flashes whole before them; it fires of itself on the one her gaze holds, and she cannot hold it back."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

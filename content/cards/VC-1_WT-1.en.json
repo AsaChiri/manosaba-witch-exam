@@ -33,6 +33,33 @@
         }
       },
       "variant": 1
+    },
+    {
+      "fields": {
+        "crime": [
+          "Years ago, on a still afternoon, an iron shop sign came down off a wall onto her — an ordinary errand, weeks in a hospital bed. In the prison she posted her eyes at the stair-heads, the corridor mouths, the shower-room door.",
+          "The girl who held the last shower slot liked her — played the same game again and again, stealing up from behind, hands clapped over her eyes, laughing: guess who.",
+          "The girls showered on their own through the evening hour; the last-slot girl always bathed last, alone. From anywhere but the door, no one could know whether the room was occupied or the instant it emptied.",
+          "That evening the last-slot girl came up behind her in the lounge once more — hands over her eyes. Later the last-slot girl went in to bathe, last as always; the other girls finished through the hour and drifted back to the lounge.",
+          "From the lounge no one could tell the room had emptied to the last-slot girl alone — but her posted eye at the shower door showed it: the last of the others stepped out, and the last-slot girl stood alone under the running water, the corridor clear.",
+          "She rose from the lounge, took the girl from behind through the spray — sleeves pushed back, uniform dry — and was back among the others inside ten minutes.",
+          "At the night lock the guards found the last-slot girl on the shower-room floor, the water long cold, her throat bruised from behind.",
+          "The girls in the lounge place her absence to ten minutes, bracketing the kill — but it began the instant the room truly cleared, an instant no one in the lounge could have marked. No sound left the soundproofed door; no sightline reached the room. Only she could have seen it empty; the girl who rose at that instant was the one whose posted eye watched inside."
+        ],
+        "epitaph": "She watched every door, and the blow still came from behind.",
+        "epithet": "She Who Faced Every Door",
+        "execution": [
+          "A post set on a slowly turning base; on a track around the platform's rim, a single spear-arm.",
+          "She was bound upright to the post. The base began to turn; wherever it carried her, the arm held its station behind her shoulders.",
+          "The base turned and she craned against it; the arm kept its place. For a long time nothing else happened.",
+          "The spear-arm drove home through her back, and the post went still."
+        ],
+        "magic": {
+          "name": "Posted Eye",
+          "text": "She can post an eye at any spot she has stood and see through every posted eye from wherever she is."
+        }
+      },
+      "variant": 2
     }
   ]
 }

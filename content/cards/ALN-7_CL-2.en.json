@@ -1,0 +1,38 @@
+{
+  "cell": "ALN|Clinger",
+  "copingSub": "CL-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-7",
+  "style": "Clinger",
+  "tag": "ALN-7_CL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She had one friend in the prison, and every day she asked her the same question: are we okay? The answer was always yes.",
+          "Each dusk the girls went down to the lake to swim their lengths; her friend had lately been drawn in among them, and she herself never went in the water. One evening the talk of the swim in the lounge stopped, politely, when she came in — the way a classroom had once gone quiet around her, years ago. Her friend sat among them, giving half-answers and looking away.",
+          "That night she asked the question with her power. The answer came flat, unwilling, and true: no one had decided anything — it was simply easier without her.",
+          "At dusk her friend was swimming her lengths in the lake. She came to the water's edge and asked again: are we okay? Her friend answered at once and aloud, mid-stroke with her face to the water. The compelled answer does not wait for the body.",
+          "She asked again before her friend could recover, and again. Each forced answer spent air and let the water in; the answers grew faint, then stopped.",
+          "The girls along the bank had heard the swimmer answering — short flat replies, one after another — though they had seen no one beside her in the water. Her friend was found drowned without a mark; it read at first as a swimming accident, until they weighed what they had heard.",
+          "A swimmer drowning does not answer by choice. She had been made to answer, and only one prisoner can compel the truth.",
+          "A girl along the bank that dusk saw her at the water's edge — standing apart, facing the swimmer and speaking low across the water — the girl who kept to herself and had never come to the evening swim. The answers the bank had heard were to are we okay? — the question everyone knew was hers alone."
+        ],
+        "epitaph": "She asked are we okay until the answer drowned, and after it came the quiet she had always known.",
+        "epithet": "She Who Asked Until Nothing Held",
+        "execution": [
+          "A harness held her above the execution stand, the full height of the court's two floors. From the harness a cord ran up over a wheel; the wheel's rim carried an edge.",
+          "The wheel turned without hurry; each pass of the rim parted one strand of the many-stranded cord.",
+          "Strand by strand the cord thinned. Nothing was severed at once — the hold just became less.",
+          "The last strand parted, and the harness dropped the full height of the court to the stand's stone."
+        ],
+        "magic": {
+          "name": "True Answer",
+          "text": "Any question she asks aloud compels a true answer."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

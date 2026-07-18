@@ -4,13 +4,17 @@
       "ABN-1|AG-1": "ABN-1_AG-1",
       "ABN-1|AG-2": "ABN-1_AG-1",
       "ABN-2|AG-1": "ABN-2_AG-2",
-      "ABN-2|AG-2": "ABN-2_AG-2"
+      "ABN-2|AG-2": "ABN-2_AG-2",
+      "ABN-6|AG-1": "ABN-6_AG-1",
+      "ABN-6|AG-2": "ABN-6_AG-1"
     },
     "tiers": {
       "ABN-1|AG-1": 0,
       "ABN-1|AG-2": 1,
       "ABN-2|AG-1": 1,
-      "ABN-2|AG-2": 0
+      "ABN-2|AG-2": 0,
+      "ABN-6|AG-1": 0,
+      "ABN-6|AG-2": 1
     }
   },
   "ABN|Clinger": {
@@ -65,6 +69,14 @@
     },
     "tiers": {
       "ALN-1|AV-1": 0
+    }
+  },
+  "ALN|Clinger": {
+    "table": {
+      "ALN-7|CL-2": "ALN-7_CL-2"
+    },
+    "tiers": {
+      "ALN-7|CL-2": 0
     }
   },
   "ALN|Concealer": {
@@ -133,10 +145,16 @@
   },
   "DEF|Depender": {
     "table": {
-      "DEF-4|DP-3": "DEF-4_DP-3"
+      "DEF-4|DP-1": "DEF-4_DP-3",
+      "DEF-4|DP-3": "DEF-4_DP-3",
+      "DEF-6|DP-1": "DEF-6_DP-1",
+      "DEF-6|DP-3": "DEF-6_DP-1"
     },
     "tiers": {
-      "DEF-4|DP-3": 0
+      "DEF-4|DP-1": 1,
+      "DEF-4|DP-3": 0,
+      "DEF-6|DP-1": 0,
+      "DEF-6|DP-3": 1
     }
   },
   "DEF|Detacher": {
@@ -187,6 +205,14 @@
     },
     "tiers": {
       "ED-1|DM-1": 0
+    }
+  },
+  "ED|Fantasist": {
+    "table": {
+      "ED-1|FA-3": "ED-1_FA-3"
+    },
+    "tiers": {
+      "ED-1|FA-3": 0
     }
   },
   "ED|Performer": {
@@ -293,6 +319,14 @@
       "MB-2|DT-2": 0
     }
   },
+  "MB|Performer": {
+    "table": {
+      "MB-6|P-2": "MB-6_P-2"
+    },
+    "tiers": {
+      "MB-6|P-2": 0
+    }
+  },
   "MB|Self-Soother": {
     "table": {
       "MB-2|SS-3": "MB-2_SS-3"
@@ -327,12 +361,36 @@
       "MB-10|WT-2": 0
     }
   },
+  "POW|Caretaker": {
+    "table": {
+      "POW-2|CT-1": "POW-2_CT-1"
+    },
+    "tiers": {
+      "POW-2|CT-1": 0
+    }
+  },
+  "POW|Catastrophizer": {
+    "table": {
+      "POW-3|CA-4": "POW-3_CA-4"
+    },
+    "tiers": {
+      "POW-3|CA-4": 0
+    }
+  },
   "POW|Depender": {
     "table": {
       "POW-3|DP-2": "POW-3_DP-2"
     },
     "tiers": {
       "POW-3|DP-2": 0
+    }
+  },
+  "POW|Self-Reliant": {
+    "table": {
+      "POW-2|SR-3": "POW-2_SR-3"
+    },
+    "tiers": {
+      "POW-2|SR-3": 0
     }
   },
   "VC|Doomer": {

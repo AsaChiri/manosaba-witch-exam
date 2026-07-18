@@ -1,0 +1,37 @@
+{
+  "cell": "POW|Self-Reliant",
+  "copingSub": "SR-3",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Self-Reliant",
+  "tag": "POW-2_SR-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She mended her own uniform, carried her own basin, kept her own bunk — what little she did for herself. The victim took each from her: stitched over her mending in front of the others, pulled the basin from her arms as she carried it — help she could not refuse. That morning the victim stripped and remade her bed, squaring the corners she had just squared herself, before the others.",
+          "At midday she staged her fall on the great staircase, timed to the victim's fixed crossing — the stairs empty by then, the laundry-girl already past. That laundry-girl, minutes before, had seen her wiping wash-water along the lip of the upper steps.",
+          "She hung from the balustrade with both arms hooked over it, feet seeming to slide on the slick, calling for no one. The victim came unbidden and reached to pull her up — every failed rescue before had only made the victim press in harder.",
+          "The grip slid off the wet sleeve, and the lunge carried the victim off the slick step and down the flight.",
+          "She stayed where she was, both arms still hooked over the balustrade. The victim lay dead at the foot of the stairs — fallen reaching for a girl who hung unharmed above.",
+          "On the upper steps, a dried soap-slick; her shoe-soles were dry. The slick was laid by the girl the laundry-girl had seen wiping the steps, whose own soles never stood on it.",
+          "Every near-fall since she arrived, every hand that failed to catch her — the girls remember them now. She never laid a hand on the victim."
+        ],
+        "epitaph": "The word that would have held her was the one she could never say.",
+        "epithet": "The Girl No Hand Could Hold",
+        "execution": [
+          "She hung above the drop by her own arms, hooked over a fixed bar.",
+          "A rescuer on the stand cast a rope to her, again and again, without being asked. Her power spoiled each throw — every cast fell short.",
+          "The rope would reach her on her word. She did not call.",
+          "Her arms gave out, and she fell."
+        ],
+        "magic": {
+          "name": "the Spoiled Rescue",
+          "text": "Any help she did not ask for fails to reach her, and the failure endangers the helper as far as physics allows."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

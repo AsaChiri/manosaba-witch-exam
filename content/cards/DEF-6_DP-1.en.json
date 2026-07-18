@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Depender",
+  "copingSub": "DP-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Depender",
+  "tag": "DEF-6_DP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her cellmate kept her — carried her plate from the dining hall at every meal, held the same corner of the lounge for the two of them, answered for her when another girl spoke to her. Months ago the keeper carved a cane and pressed it into her hands; it came home to her cell from wherever it was left, every morning since.",
+          "One of the girls told the keeper, in front of her: nothing was wrong with her, and she was being kept like a doll. The girl got the keeper to agree — a month of taking her own meals and speaking for herself, starting that week, where everyone could see.",
+          "The girl showered alone at the end of the hour, winter nights. The cane held the shower-room door shut, wedged fast across it. She walked down to the cells with the keeper before lockup. The walls were soundproof; the girl spent the night forcing a door that would not give, and froze on the wet tile.",
+          "Before the block woke, the cane did what it had always done — it left wherever it lay and was home in her cell. The door stood shut with nothing holding it.",
+          "At six a girl pushed the shower-room door; it opened at a touch. Just inside, the girl lay dead of the cold, her hands and the door's inner face scored from a night of forcing. Something had held the door through the night and was gone.",
+          "The door frame bore the press-marks of a wedged bar — the length and shape of the cane the keeper had given her. She leaned on it every day; that night she had been seen walking to lockup without it. It was not at the door — it was in her cell, home by morning as it always was."
+        ],
+        "epitaph": "Everything given to her was kept. What she was — no one would take.",
+        "epithet": "The Gift That Could Not Be Returned",
+        "execution": [
+          "She kneels bound at the centre of the stand, arms held open. A machine arm hangs above her, its rack loaded with iron bars.",
+          "The arm lays a bar into her arms, and waits. Then the next.",
+          "Each one stays where it was placed. Nothing is taken back.",
+          "She sinks lower with each.",
+          "The rack empties and the arm goes still; the weight it laid in her arms presses her into the stone until she is crushed."
+        ],
+        "magic": {
+          "name": "The Unreturnable",
+          "text": "Anything given to her is hers permanently; it cannot be reclaimed. Lost or left behind, it returns to her by morning."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "cell": "POW|Caretaker",
+  "copingSub": "CT-1",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Caretaker",
+  "tag": "POW-2_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "With the warden's leave she cooked for a few of the girls — what each of them liked, brought to them by her own hand. It was the one thing that had ever been hers, and the thing she liked best.",
+          "One girl would not leave her even the cooking. The girl stood at her shoulder — told her what to cook, how to season it, corrected her before the others, sent her dishes back to be made again. It was the one thing she had made her own, and even there the girl's word ran it.",
+          "Before the others, the girl sent back the dish she had made and stood over her while she cooked it again to order. She would not be commanded again in the one thing that was hers. She chose the girl: from then, nothing fed the girl but what she cooked and brought her.",
+          "Every dish set before the girl spoiled the moment it reached her, and every plate the girl took for herself did the same. Only what she cooked and carried her stayed good. The others watched dish after dish sour at her seat.",
+          "But to keep the girl alive was to cook for her for good. She cooked her less and less — a little less each meal, telling the others the girl could keep little down. The rot needed no cover; only the amount was hidden.",
+          "What she gave was no longer enough; the girl wasted, week by week.",
+          "The girl was found dead of starvation; the tables stood laden. The others would have fed her — every plate had rotted in the trying.",
+          "The rot had touched only the girl's food — every dish, brought or taken by her own hand. Only her cooking had ever fed the girl; and that cooking had thinned, week by week, as the girl wasted."
+        ],
+        "epitaph": "She was never allowed a hand in her own life, and the one she was given, she closed.",
+        "epithet": "The Only Thing She Chose",
+        "execution": [
+          "A table stood on the execution stand, laden end to end, with a single chair before it. She was seated there, and iron cases were locked over both her hands.",
+          "The warden stated the stand's one rule: nothing would pass her lips except what her own hand brought there.",
+          "The court was full of girls who could have fed her in a moment. Her own hands, sealed inside the cases, could not move.",
+          "Course after course was set before her, the cases never opened, until she starved at the full table."
+        ],
+        "magic": {
+          "name": "the Jealous Provision",
+          "text": "She chooses a person; for the one she chooses, nothing feeds them but what her own hand gives, and any other food rots the moment it comes to them — whoever brings it, even a plate they take for themselves."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

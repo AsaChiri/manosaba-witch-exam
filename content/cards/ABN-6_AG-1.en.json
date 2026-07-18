@@ -1,0 +1,39 @@
+{
+  "cell": "ABN|Avenger",
+  "copingSub": "AG-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Avenger",
+  "tag": "ABN-6_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her warmest friend of a season — the one who held her cold hands on winter evenings, who sat close enough to share her heat — found a new circle, and the warmth stopped. She never let that go.",
+          "Over the months that followed, the friend grew cold and weary — hands always chilled, tired without cause — and visited the medical room more than once. Nothing was found.",
+          "At the last the friend lost the feeling of cold itself.",
+          "On a cold evening she saw the friend cup another girl's cold hands the old way. She asked the friend to wait for her at the lakeside.",
+          "A girl saw the two by the lake at dusk; she walked back alone. The friend, feeling no chill, waited on into the dark.",
+          "Absent at the lock roll, the friend was found dead of exposure at the lakeside. The night had not been cold enough to kill a girl who could feel it.",
+          "The medical room's records showed months of the friend's causeless cold and fatigue. The same records showed the pattern in every girl who had once been warm to her and then cooled.",
+          "It was she who had asked the friend to the lakeside and left her there — the girl at dusk had seen her come back alone. What had seemed months of illness had not been illness; the friend's warmth had been drawn from her, body-heat first and then the sense of cold, and a girl who could no longer feel it froze where she sat."
+        ],
+        "epitaph": "Every degree of warmth came back to her, and she was the colder for it.",
+        "epithet": "Keeper of the Warm Days' Receipts",
+        "execution": [
+          "She is bound at the stand's centre. A close ring of white ice stands about her, smoking with cold, its faces pressed against her body.",
+          "Where a face touches, frost spreads on her skin. The ice stands dry and whole — it never melts, and no water ever comes off it.",
+          "Her breath-cloud thins as her body cools. The smoke off the ice is the only thing that grows.",
+          "Her shivering stops while the frost is still climbing her.",
+          "She frosted dead at the stand's centre; the ice stood not one measure smaller, still dry, and its smoke thinned to nothing."
+        ],
+        "magic": {
+          "name": "the Warmth Owed",
+          "text": "Anyone who was once genuinely warm to her and then withdrew that warmth loses it back to her, gradually — body-heat and vigor first, then the feeling of cold itself, until none of that warmth remains with them. Warmth freely returned to her halts the drain."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
