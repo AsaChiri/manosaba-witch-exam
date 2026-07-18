@@ -1,0 +1,39 @@
+{
+  "cell": "DEF|Ritualist",
+  "copingSub": "RI-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-10",
+  "style": "Ritualist",
+  "tag": "DEF-10_RI-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every morning before breakfast she scrubbed the entrance hall — her routine, known to everyone. What the girls also knew was the other scrubbing: after certain evenings, her wrist scrubbed raw at the shower queue. What those evenings had in common was a runner who caught wrists to drag people along — to games, to meals, laughing. It was always the same wrist. Other hands had gripped it years before and left her dirty; the filth was never hers, but she had carried it as her own ever since.",
+          "Every other stain answered to soap and to her gift alike. This one sat on no surface. Neither could touch it.",
+          "Each morning the runner cut through the hall on the way to the courtyard and caught her wrist in passing. At that hour the hall was otherwise empty.",
+          "The evening before had been the worst — her wrist scrubbed raw at the queue, and the feeling had stayed through the night. When the hand closed on her wrist the next morning, she swung the iron pail, and swung again, until the runner lay dead on the wet stone.",
+          "She lifted every drop off the floor, the pail, her sleeves — all of it moved whole to her wash-rags. She rinsed the rags in the wash-water and poured the gray water away. She put the pail back on its hook and went to breakfast.",
+          "Girls crossing to the courtyard after breakfast came on the dead runner on a damp, spotless floor.",
+          "A beating like that normally throws blood; the hall held not a drop. The pail on its hook was clean, and dented along one side to the shape of the wounds.",
+          "Her account: she had finished, left the hall clean and empty, seen no one. If she left before the runner fell, the blood would still be there. If the blood was gone, she was there after. And there was no other hand to clean it: the dawn hall had held only the two of them, and from breakfast to the finding the girls sat at the meal together."
+        ],
+        "epitaph": "What dirtied her was never on the skin. No water in the world could have reached it.",
+        "epithet": "She Whom No Washing Cleaned",
+        "execution": [
+          "The execution stand held a feed-bed, a pair of great rollers at its head, and a plain white sheet.",
+          "She was laid on the bed and the sheet drawn over her, tucked at the edges.",
+          "The bed advanced toward the rollers a turn at a time.",
+          "The rollers took the sheet and what it held, pressing flat whatever passed between them.",
+          "She was drawn through with the sheet and pressed flat; behind her the bed was empty, and nothing remained on it."
+        ],
+        "magic": {
+          "name": "the Stain Transfer",
+          "text": "The Stain Transfer — Whatever dirties a surface, she can pull off whole and lay onto another. What sits on no surface does not answer to her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

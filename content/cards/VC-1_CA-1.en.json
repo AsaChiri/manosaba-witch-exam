@@ -1,0 +1,37 @@
+{
+  "cell": "VC|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Catastrophizer",
+  "tag": "VC-1_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On a still morning years ago, the school gymnasium roof came down during assembly; she was pulled out. After that, every room she sat in, she rehearsed its disaster night after night until she had survived it in her head.",
+          "The girls watched her at the recreation-room door every evening — eyes closed, one hand drawing the same arc through the air, from the game cabinet down to the floor.",
+          "One clear, still morning, her pool partner and the girls burst from behind the projection screen — a birthday surprise, planned for her, out of an ordinary quiet.",
+          "That night was the tournament's last; with it done, the emptied cabinet was to follow its game boxes down to the lounge, and with it would go the ruin she had drilled at that spot. Near the night lock, her pool partner stayed alone at the table for her last frames; from the doorway she loosed the fall she had made whole, and the cabinet came down on her.",
+          "At the night locking the warders came to one cell that could not be locked — the pool partner's, empty. The search found the pool partner in the recreation room beneath the fallen cabinet, the chest staved flat. The cabinet itself lay light and hollow on her, its game boxes long since carried to the lounge for the card tournament.",
+          "A cabinet that light does not stave a chest flat; the wounds carried a loaded cabinet's full weight, the cabinet as it had stood a month of nights ago.",
+          "A fall carrying weight the room no longer holds is a rehearsed fall; its path was the arc one girl had drawn from that doorway, night after night, before them all."
+        ],
+        "epitaph": "Every disaster, she had survived before it came. A kindness — never.",
+        "epithet": "She Who Had Already Survived Everything",
+        "execution": [
+          "She was bound standing at the center of the execution stand.",
+          "Facing her at arm's length stood a single iron figure, a long blade in its grip. It drove the blade through one fixed arc, and the edge stopped a finger's width from her throat.",
+          "It swung and stopped, swung and stopped, at no fixed interval, with the whole court watching. Nothing told one pass from the next.",
+          "On one pass the blade did not stop, and it carried through her throat."
+        ],
+        "magic": {
+          "name": "Ruin Rehearsal",
+          "text": "When she has rehearsed a place's disaster night after night until she holds the whole event in her mind, she can loose it once upon the real place before her; it falls exactly as it fell in her head."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

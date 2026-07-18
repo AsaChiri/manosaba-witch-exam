@@ -1,0 +1,37 @@
+{
+  "cell": "ALN|Performer",
+  "copingSub": "P-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Performer",
+  "tag": "ALN-1_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She had brought jokes of her own to the evening joke-circle, night after night, though none had ever landed. The night one finally did, the room roared; as it died, the girl with the big laugh went on alone — louder than the rest and longer — and traded a glance with her neighbor: *can you believe her*. That laugh, still ringing at her expense, she kept.",
+          "Each clear evening the girl with the big laugh climbed high into the great tree at the forest's edge and sat on a bough above the roots, facing the water — the knotted tangle a long drop straight below her, the lake out past them.",
+          "The next dusk she climbed up after her and pushed her from the bough. The fall to the roots killed her. Rain fell after dark and was done before supper ended.",
+          "Near lock, filing down to the cells with the others, she stopped at the dead girl's cell and poured the kept laugh into the corridor — that girl's own laugh, alive in the air. She reckoned nothing of hours; she only could not leave her one triumph unperformed. The neighbors took the girl for alive, laughing alone minutes before the doors locked.",
+          "At first light, a girl walking toward the lake found the girl with the big laugh among the roots below the tree. The ground under the body was dry, though the earth all around had soaked up the evening rain.",
+          "The body had lain there since before the rain — dead at dusk, hours before the laugh the neighbors heard near lock. A girl dead since dusk cannot laugh. The fall had looked like an accident; the girls read the pour as a hand covering a killing.",
+          "Keeping and pouring laughter is her magic alone. At lock she had stood in the corridor by the dead girl's cell; a girl filing beside her placed the laugh's source there — not inside the cell but where she stood. And the laugh itself was the girl with the big laugh's own — the solo peal that rang longest the night the joke landed."
+        ],
+        "epitaph": "She kept every laugh she ever heard, and not one had been for her.",
+        "epithet": "The Keeper of Borrowed Laughter",
+        "execution": [
+          "A sealed iron chest rose on the execution stand with her inside it.",
+          "Above it stood an organ of brass mouths, its bellows drawing from the chest.",
+          "The organ played laughter to the court, peal on peal, and with each one the air in the chest grew thinner.",
+          "The last of the air went out as laughter, and she suffocated in the sealed chest."
+        ],
+        "magic": {
+          "name": "Canned Laughter",
+          "text": "She can catch and hold any burst of laughter she hears. Wherever she stands, she can loose it again as living sound, exactly as it first rose."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "cell": "ED|Avenger",
+  "copingSub": "AG-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Avenger",
+  "tag": "ED-1_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For half a year they shared the same rooms. Not once had the girl so much as looked at her.",
+          "That morning the girl set an empty tray on her lap in passing, the way someone puts something down on a shelf.",
+          "Within the hour, on the entrance path, she settled the girl's account. The girl dropped mid-stride among the others, and the marks rose as she fell.",
+          "The body bore hundreds of marks, every one small — nail-crescents, pinch-bruises, welts from a flicked finger, the print of an elbow. No single mark would have killed. The whole half-year of them, landing at once, did.",
+          "At trial her testimony was flat: no quarrel had ever stood between them, and the girl had never done her any wrong worth the name.",
+          "The marks were examined one by one. Each called up a memory among the prisoners — a pinch from a game in winter, a shove in line at the showers, the tray that morning. Each had its date and its witness.",
+          "Testimony by testimony, each trivial alone, the accounts converged on what nobody had noticed while it was happening: every one of those slights had been done to her.",
+          "Her own sworn \"no wrong worth the name\" stood against the itemized skin."
+        ],
+        "epitaph": "None of it was worth remembering. All of it was kept.",
+        "epithet": "She Who Kept What No One Counted",
+        "execution": [
+          "She was bound flat beneath a great cistern on the execution stand.",
+          "A warden read the dead girl's account into the record, entry by entry; for each entry read, a single drop fell from the cistern.",
+          "The reading was long. Drop by drop, one for every entry.",
+          "At the last entry the whole balance came down at once — every drop the cistern still held. Her breath was gone under the water."
+        ],
+        "magic": {
+          "name": "the Settled Score",
+          "text": "The Settled Score — Every hurt dealt to her is kept; she can settle a debtor's whole account at once, each mark landing on that person exactly as it was first made."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

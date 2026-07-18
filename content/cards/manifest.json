@@ -34,6 +34,19 @@
       "family": "ABN",
       "style": "Clinger"
     },
+    "ABN|Detacher": {
+      "authoredTags": [
+        "ABN-1_DT-2"
+      ],
+      "coveredCoping": [
+        "DT-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Detacher"
+    },
     "ABN|Fantasist": {
       "authoredTags": [
         "ABN-3_FA-1"
@@ -140,6 +153,19 @@
       "family": "ALN",
       "style": "Fantasist"
     },
+    "ALN|Performer": {
+      "authoredTags": [
+        "ALN-1_P-2"
+      ],
+      "coveredCoping": [
+        "P-2"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Performer"
+    },
     "ALN|Self-Reliant": {
       "authoredTags": [
         "ALN-1_SR-1"
@@ -237,6 +263,19 @@
       "family": "DEF",
       "style": "Detacher"
     },
+    "DEF|Ritualist": {
+      "authoredTags": [
+        "DEF-10_RI-3"
+      ],
+      "coveredCoping": [
+        "RI-3"
+      ],
+      "coveredOrigin": [
+        "DEF-10"
+      ],
+      "family": "DEF",
+      "style": "Ritualist"
+    },
     "DEF|Self-Punisher": {
       "authoredTags": [
         "DEF-3_SP-1",
@@ -277,6 +316,19 @@
       ],
       "family": "DEF",
       "style": "Watcher"
+    },
+    "ED|Avenger": {
+      "authoredTags": [
+        "ED-1_AG-1"
+      ],
+      "coveredCoping": [
+        "AG-1"
+      ],
+      "coveredOrigin": [
+        "ED-1"
+      ],
+      "family": "ED",
+      "style": "Avenger"
     },
     "ED|Avoider": {
       "authoredTags": [
@@ -406,6 +458,19 @@
       "family": "FAI",
       "style": "Perfectionist"
     },
+    "FAI|Ritualist": {
+      "authoredTags": [
+        "FAI-3_RI-2"
+      ],
+      "coveredCoping": [
+        "RI-2"
+      ],
+      "coveredOrigin": [
+        "FAI-3"
+      ],
+      "family": "FAI",
+      "style": "Ritualist"
+    },
     "FAI|Thrill-Seeker": {
       "authoredTags": [
         "FAI-5_TS-1"
@@ -418,6 +483,19 @@
       ],
       "family": "FAI",
       "style": "Thrill-Seeker"
+    },
+    "MB|Clinger": {
+      "authoredTags": [
+        "MB-7_CL-1"
+      ],
+      "coveredCoping": [
+        "CL-1"
+      ],
+      "coveredOrigin": [
+        "MB-7"
+      ],
+      "family": "MB",
+      "style": "Clinger"
     },
     "MB|Concealer": {
       "authoredTags": [
@@ -577,6 +655,19 @@
       "family": "POW",
       "style": "Self-Reliant"
     },
+    "VC|Catastrophizer": {
+      "authoredTags": [
+        "VC-1_CA-1"
+      ],
+      "coveredCoping": [
+        "CA-1"
+      ],
+      "coveredOrigin": [
+        "VC-1"
+      ],
+      "family": "VC",
+      "style": "Catastrophizer"
+    },
     "VC|Doomer": {
       "authoredTags": [
         "VC-1_DM-1"
@@ -642,6 +733,19 @@
       ],
       "originSub": "ABN-1",
       "tag": "ABN-1_CL-1",
+      "variants": 1
+    },
+    "ABN-1_DT-2": {
+      "cell": "ABN|Detacher",
+      "copingSub": "DT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_DT-2",
       "variants": 1
     },
     "ABN-1_PL-3": {
@@ -735,6 +839,19 @@
       "tag": "ALN-1_AV-1",
       "variants": 1
     },
+    "ALN-1_P-2": {
+      "cell": "ALN|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_P-2",
+      "variants": 1
+    },
     "ALN-1_SR-1": {
       "cell": "ALN|Self-Reliant",
       "copingSub": "SR-1",
@@ -772,6 +889,19 @@
       ],
       "originSub": "ALN-7",
       "tag": "ALN-7_CL-2",
+      "variants": 1
+    },
+    "DEF-10_RI-3": {
+      "cell": "DEF|Ritualist",
+      "copingSub": "RI-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-10",
+      "tag": "DEF-10_RI-3",
       "variants": 1
     },
     "DEF-3_AV-2": {
@@ -863,6 +993,19 @@
       ],
       "originSub": "DEF-8",
       "tag": "DEF-8_SP-1",
+      "variants": 1
+    },
+    "ED-1_AG-1": {
+      "cell": "ED|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_AG-1",
       "variants": 1
     },
     "ED-1_DM-1": {
@@ -1008,6 +1151,19 @@
       "tag": "FAI-3_PF-2",
       "variants": 1
     },
+    "FAI-3_RI-2": {
+      "cell": "FAI|Ritualist",
+      "copingSub": "RI-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_RI-2",
+      "variants": 1
+    },
     "FAI-5_PF-2": {
       "cell": "FAI|Perfectionist",
       "copingSub": "PF-2",
@@ -1125,6 +1281,19 @@
       "tag": "MB-6_P-2",
       "variants": 1
     },
+    "MB-7_CL-1": {
+      "cell": "MB|Clinger",
+      "copingSub": "CL-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-7",
+      "tag": "MB-7_CL-1",
+      "variants": 1
+    },
     "POW-2_CT-1": {
       "cell": "POW|Caretaker",
       "copingSub": "CT-1",
@@ -1175,6 +1344,19 @@
       ],
       "originSub": "POW-3",
       "tag": "POW-3_DP-2",
+      "variants": 1
+    },
+    "VC-1_CA-1": {
+      "cell": "VC|Catastrophizer",
+      "copingSub": "CA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "VC-1",
+      "tag": "VC-1_CA-1",
       "variants": 1
     },
     "VC-1_DM-1": {

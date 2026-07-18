@@ -31,6 +31,14 @@
       "ABN-7|CL-2": 0
     }
   },
+  "ABN|Detacher": {
+    "table": {
+      "ABN-1|DT-2": "ABN-1_DT-2"
+    },
+    "tiers": {
+      "ABN-1|DT-2": 0
+    }
+  },
   "ABN|Fantasist": {
     "table": {
       "ABN-3|FA-1": "ABN-3_FA-1"
@@ -95,6 +103,14 @@
     },
     "tiers": {
       "ALN-10|FA-2": 0
+    }
+  },
+  "ALN|Performer": {
+    "table": {
+      "ALN-1|P-2": "ALN-1_P-2"
+    },
+    "tiers": {
+      "ALN-1|P-2": 0
     }
   },
   "ALN|Self-Reliant": {
@@ -165,6 +181,14 @@
       "DEF-3|DT-3": 0
     }
   },
+  "DEF|Ritualist": {
+    "table": {
+      "DEF-10|RI-3": "DEF-10_RI-3"
+    },
+    "tiers": {
+      "DEF-10|RI-3": 0
+    }
+  },
   "DEF|Self-Punisher": {
     "table": {
       "DEF-3|SP-1": "DEF-3_SP-1",
@@ -189,6 +213,14 @@
     },
     "tiers": {
       "DEF-5|WT-3": 0
+    }
+  },
+  "ED|Avenger": {
+    "table": {
+      "ED-1|AG-1": "ED-1_AG-1"
+    },
+    "tiers": {
+      "ED-1|AG-1": 0
     }
   },
   "ED|Avoider": {
@@ -287,12 +319,28 @@
       "FAI-5|PF-2": 0
     }
   },
+  "FAI|Ritualist": {
+    "table": {
+      "FAI-3|RI-2": "FAI-3_RI-2"
+    },
+    "tiers": {
+      "FAI-3|RI-2": 0
+    }
+  },
   "FAI|Thrill-Seeker": {
     "table": {
       "FAI-5|TS-1": "FAI-5_TS-1"
     },
     "tiers": {
       "FAI-5|TS-1": 0
+    }
+  },
+  "MB|Clinger": {
+    "table": {
+      "MB-7|CL-1": "MB-7_CL-1"
+    },
+    "tiers": {
+      "MB-7|CL-1": 0
     }
   },
   "MB|Concealer": {
@@ -391,6 +439,14 @@
     },
     "tiers": {
       "POW-2|SR-3": 0
+    }
+  },
+  "VC|Catastrophizer": {
+    "table": {
+      "VC-1|CA-1": "VC-1_CA-1"
+    },
+    "tiers": {
+      "VC-1|CA-1": 0
     }
   },
   "VC|Doomer": {

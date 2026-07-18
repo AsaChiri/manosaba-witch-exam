@@ -1,0 +1,38 @@
+{
+  "cell": "FAI|Ritualist",
+  "copingSub": "RI-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Ritualist",
+  "tag": "FAI-3_RI-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her evening rounds trace the same path through the entrance hall — the same steps, the same order, down to the minute. The prison calls it discipline.",
+          "One girl found the routine lovely and took to joining her partway through each evening's circuit. One evening the girl came early and caught her mid-sequence — disturbed, she dropped the loaded tray she was carrying. The others laughed; the girl laughed with them.",
+          "The girl crossed the entrance hall at the same minute each evening, coming from dinner. One stretch of the circuit passes a corridor mouth off the hall where, for half a minute, she is out of sight.",
+          "The next evening her rounds ran at their hour, in their order, unbroken. From the corridor mouth, at the girl's minute, she flung the iron doorstop across the hall into the girl's head — a throw her arm alone could never land. She stepped back onto her circuit.",
+          "The girl was found dead in the entrance hall, the back of her skull caved in. The iron doorstop lay against the far wall.",
+          "She swore she was on her rounds the whole evening, never off them — the circuit itself was her alibi. The girls who spent that evening in the entrance hall said the same.",
+          "Her route and the crime scene cross. The corridor mouth — half a minute unseen by anyone — falls at the very minute the girl crossed the hall."
+        ],
+        "epitaph": "She kept every step in its place, and not one of them kept her.",
+        "epithet": "She Who Kept What Would Not Keep Her",
+        "execution": [
+          "A ring of iron latches circled the execution stand, a press suspended above its center. She was placed beneath it.",
+          "To hold off the press she had to close every latch in the ring, in order.",
+          "Each latch she closed sprang the one before it open. The full ring could never be held shut.",
+          "Her magic answers only to a completed sequence. This one is built never to complete.",
+          "She worked the latches and the press descended. It settled home on the stand, her body beneath it, hands still on the latches."
+        ],
+        "magic": {
+          "name": "Sure Sequence",
+          "text": "When she performs her fixed sequence of preparatory steps, in order and unbroken, the next act she attempts comes off exactly as she intends."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

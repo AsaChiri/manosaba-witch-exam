@@ -1,0 +1,38 @@
+{
+  "cell": "MB|Clinger",
+  "copingSub": "CL-1",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-7",
+  "style": "Clinger",
+  "tag": "MB-7_CL-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her cellmate slept in the upper bunk, an arm above her. By day she kept her beside her; by night every way down from that bunk passed within her reach.",
+          "Over recent weeks, small treasures went missing in the wing — a comb, a ribbon, sweets. Night by night she knew each taking as it crossed her reach and went up to the upper bunk — her cellmate's hands, never bringing them back down. She said nothing; to name the thief would mean losing the girl beside her.",
+          "That evening the girls forced the question of the thefts in the lounge. Her cellmate stood on the far side of the room and named her: \"I sleep an arm from her. I have felt her come and go at night.\" The room believed the nearest witness; the circle that had lost the most drew her cellmate in among them that same hour, and a search of every cell was set for the morning.",
+          "After the ten-o'clock lock, in the small hours, her cellmate lowered a wrapped bundle to the floor and came down after it, the phone's glow cupped in one hand, and knelt at the mattress. The stolen pieces went one by one into the seam under her sleeping side. Sleeping made no difference; she knew every motion as it came.",
+          "She rose from the bunk onto the kneeling girl and struck her head against the stone floor until the girl lay still.",
+          "Without light — she needed none — she drew the planted pieces from the seam and left them with the fallen wrap beside the dead hand. She pressed the seam flat and set the phone back where it sat every night — on the pillow above.",
+          "At the six-o'clock unlock she called the wing in. Her cellmate lay a step from the bunk, her temple cracked on the stone, the missing treasures strewn from the fallen wrap. The girls read the floor as the night's answer — the thief, come down in the dark to hide the stolen things, and fallen.",
+          "At the trial, one of the girls laid the dead girl's phone before the court: dark, working, taken from the upper pillow. The scene read as a descent in the dark to hide stolen things — but hiding is close work, done with light in hand; the scene had been dressed after the death. The cell had been locked from the outside from ten to six, both seen entering at the lock, the body long cold at the unlock; through those hours, she was the only girl alive inside."
+        ],
+        "epitaph": "Nothing within her arm was ever hidden from her, and nothing she knew was ever kept.",
+        "epithet": "The Sentinel of One",
+        "execution": [
+          "The execution stand bore an iron box, open-fronted and narrow as a sentry-post. She was bound upright inside it, facing the court.",
+          "The box began to turn from the room, notch by notch. With each turn a panel folded across the open front, closing it further, but the front never quite shut — a hand's width of the mouth stayed open.",
+          "The court lost her by degrees — profile, shoulder, back — and the room went on behind her.",
+          "The box turned its last notch. The hand's width met a spiked wall-face and closed onto it, and the points drove home into her."
+        ],
+        "magic": {
+          "name": "Arm's-Reach Sense",
+          "text": "Everything within her arm's reach is known to her — every touch and taking, waking or sleeping."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

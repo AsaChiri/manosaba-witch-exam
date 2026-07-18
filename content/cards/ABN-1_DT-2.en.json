@@ -1,0 +1,38 @@
+{
+  "cell": "ABN|Detacher",
+  "copingSub": "DT-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Detacher",
+  "tag": "ABN-1_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The girls knew her for it: a scraped knee pinched to a scratch, a burn pressed small between her fingers.",
+          "That afternoon on the stairs, her friend told her she wanted to spend less time together. \"It's nothing,\" she said.",
+          "That evening: film night in the recreation room. The two of them sat at the back as always, a seat apart from the rest. The projector was loud.",
+          "In the dark she slid a filed edge beneath her friend's ribs and pinched the wound to a pin's width. Her friend stiffened once against the seat and went still. The edge went back up her sleeve.",
+          "When the lights came up the girls filed out past what they took for a sleeper. One girl came back to shake her and found her cold — no wound anywhere. A heart given out, they said.",
+          "They opened the jacket. The shirt was soaked stiff over the ribs: a bloodstain a hand wide, and under it a puncture the size of a pin. A pin's wound does not bleed that wide. The wound had been pinched small. The blood it had already spilled had not.",
+          "Every girl knew whose hands made hurts small. The seat beside the dead girl had been hers — the two of them at the back, apart, as always."
+        ],
+        "epitaph": "She called it nothing every time, and enough nothings were the whole of it.",
+        "epithet": "The Girl Who Called It Nothing",
+        "execution": [
+          "She was bound upright in a ring-frame set with pins, none yet touching.",
+          "A clock drove the ring. At each minute's stroke one pin pressed a finger's depth into her and withdrew.",
+          "At each stroke she shrank the wound to nothing. The finger-deep harm the stroke had dealt was already done.",
+          "No single puncture was mortal. The clock advanced the ring, and the count went on.",
+          "When the count was complete the sum of them killed her."
+        ],
+        "magic": {
+          "name": "Pinchsmall",
+          "text": "She can shrink any hurt — wound, ache, or break — until it is nearly nothing. What the hurt has already done remains done."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
