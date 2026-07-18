@@ -21,3 +21,6 @@ scripts/.fonts-cache/
 Thumbs.db
 *.log
 npm-debug.log*
+
+# Claude Code worktrees (session-local, never commit)
+.claude/worktrees/
