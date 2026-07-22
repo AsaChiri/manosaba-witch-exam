@@ -1,0 +1,38 @@
+{
+  "cell": "POW|Watcher",
+  "copingSub": "WT-2",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Watcher",
+  "tag": "POW-2_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For months, one girl had decided everything of hers — her days, her things, her place — and never once had to call for her: whatever the girl settled, she had already come. The others watched and called it devotion.",
+          "Every morning it was the same: the water sprite room the girl had claimed as a parlor, the chair, the low table, the kit of comb and ribbons laid out. She sat while the girl braided her hair.",
+          "That morning she tied her hair back herself with a ribbon of her own — the first time since she came — and went to breakfast past the parlor. The girl came from the empty room, loosened the knot at the table before the others, braided the usual plait, and pocketed the ribbon.",
+          "That evening a film the girl had arranged filled the recreation room; the girl sat among those who ran it with her, one at either side. Mid-reel the girl settled it — tonight, the parlor, the braid done over — and rose without a word to anyone. The settling reached her at the room's edge; she followed.",
+          "In the parlor the girl was bent over the low table, laying out the kit: the chair squared for her, the comb, the braiding-ribbon next — each small settling reaching her as it was made. She crossed the room while the girl's back stayed to the door. The girl did not turn at the step behind her. She doubled the braiding-ribbon over the bowed head and drew it to the throat, and held the girl against the table's edge until still.",
+          "She took her ribbon back from the girl's pocket and left the braiding-ribbon where it lay. She was back inside before the night lock. At the sweep the girl's cell stood empty; the guards found the girl in the parlor — the guest house otherwise empty, the chair squared, the kit half-laid, a narrow band-mark at the throat, no sign of having turned to face anyone.",
+          "No message on any phone, no spoken word of any meeting — from the film preparations through supper to the reel the girl was never out of the others' company, no private word possible — and the parlor ritual had never once been held in the evening. Yet the meeting was held. In court the months of watching were read again: what was decided about her had always reached her, and the parlor had reached her the same way. Her ribbon — seen into the girl's pocket at breakfast, turned once round the girl's fingers at the table that evening; through the reel the girl sat flanked by those who ran the film, she at the room's edge — came to the trial tied in her hair. Only the parlor could have passed it."
+        ],
+        "epitaph": "Everything decided for her reached her early; the one thing she decided reached no one at all.",
+        "epithet": "She Who Came Uncalled",
+        "execution": [
+          "She was bound upright at an iron frame on the execution stand, a striker cocked against her.",
+          "Above and beside her, a hopper had been filled with iron lots, all alike to the eye — one among them heavier than the rest, cast in unseen, its place known to no one.",
+          "The lots fell one by one past her, clear of her body, in the room's view, into the base of the frame. Only the odd lot carried the weight to trip the striker.",
+          "Fall after fall the blanks dropped and nothing came; she braced at each, and each left her braced for the next. No watcher, no warden, no loader could say which fall would end it.",
+          "The odd lot fell; the striker drove home; her body against the frame."
+        ],
+        "magic": {
+          "name": "Foreknown",
+          "text": "When anyone settles a decision that concerns her, she knows it, whole, wherever she is. A wavering mind reaches her not at all, and the knowing carries no veto."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

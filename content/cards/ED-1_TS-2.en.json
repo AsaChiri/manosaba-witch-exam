@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Thrill-Seeker",
+  "copingSub": "TS-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Thrill-Seeker",
+  "tag": "ED-1_TS-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The lounge ran on small wagers — bits saved from meals staked on which door opened next, whose luck turned — and the caller was the girl who opened them. In half a year the caller had laid a stake, one evening or another, on every girl in the prison. Never once on her.",
+          "One slow evening the caller laid stakes on the fire's last log and on the next door to open. She sat opposite the whole evening. No stake came to her.",
+          "Some evenings later she offered the caller a wager: she could cut the pack to the card the caller named, first try, and the loser would wash the winner's kept uniforms and hang them at the courtyard line, alone, while the others sat at the next evening meal. The caller named a card and accepted; the cut landed true — a practiced sleight, months of the evening cards behind it.",
+          "At the next evening meal the caller stood alone at the courtyard tub and drying-line, washing and hanging the winner's kept uniforms while the others ate.",
+          "One blow of the laundry paddle from behind — a full swing, edge-on — as the caller hung the wash. The paddle went back in the tub's kit, and she went in to the evening meal.",
+          "The first girls out after the meal found the caller beneath the half-hung wash. The uniforms on the line and in the basket were not the caller's but the winner's — each girl's designated set, known at sight.",
+          "At the trial she said the whole lounge had heard the stake; any girl could have known where the caller would stand, and when. The girls at the tables recalled no other empty chair, and hers was empty until the meal's middle. The place, the hour, and the solitude were the stake as she herself had worded it."
+        ],
+        "epitaph": "Every wager she spoke was kept to the letter. In half a year, not one was placed on her.",
+        "epithet": "The Unbacked Wager",
+        "execution": [
+          "A great upright wheel stood half-sunk in a slot in the execution stand's floor, and she was bound along its rim.",
+          "A notch-rail beside the slot marked the floor's remaining rise; from the first turn, anyone in the court could number the passes she would clear.",
+          "The wheel turned at one fixed pace. Each revolution carried her down through the slot and out of the court's sight, then up again, and the floor rose one notch at every turn.",
+          "The rim carried her into the edge of the risen floor, and the wheel turned no further."
+        ],
+        "magic": {
+          "name": "the Standing Bet",
+          "text": "The Standing Bet — A wager she speaks and another freely accepts binds them both; the loser must deliver the stake exactly as it was worded."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

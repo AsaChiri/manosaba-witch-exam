@@ -1,9 +1,7 @@
 {
   "_doc": "Allowlist controlling which cards compile into content/. Only `shipped` compiles. Move a tag from pendingReview to shipped after owner review, then recompile. Ids are output/cards/*.md basenames. `characters` (all-or-nothing) gates the 13 special character records (design spec §3.7) compiled from output/characters/*.md.",
   "characters": true,
-  "pendingReview": [
-    "POW-WT-001"
-  ],
+  "pendingReview": [],
   "shipped": [
     "DEF-DP-001",
     "MB-P-001",
@@ -58,6 +56,16 @@
     "ABN-DT-001",
     "ED-AG-001",
     "VC-CA-001",
-    "MB-CL-001"
+    "MB-CL-001",
+    "POW-WT-001",
+    "ABN-CT-001",
+    "ALN-RS-001",
+    "DEF-WA-001",
+    "POW-PL-001",
+    "MB-SV-001",
+    "VC-ST-001",
+    "FAI-SR-001",
+    "FAI-SP-001",
+    "ED-TS-001"
   ]
 }

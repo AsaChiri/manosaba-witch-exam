@@ -17,6 +17,14 @@
       "ABN-6|AG-2": 1
     }
   },
+  "ABN|Caretaker": {
+    "table": {
+      "ABN-1|CT-3": "ABN-1_CT-3"
+    },
+    "tiers": {
+      "ABN-1|CT-3": 0
+    }
+  },
   "ABN|Clinger": {
     "table": {
       "ABN-1|CL-1": "ABN-1_CL-1",
@@ -113,6 +121,14 @@
       "ALN-1|P-2": 0
     }
   },
+  "ALN|Resigned": {
+    "table": {
+      "ALN-1|RS-1": "ALN-1_RS-1"
+    },
+    "tiers": {
+      "ALN-1|RS-1": 0
+    }
+  },
   "ALN|Self-Reliant": {
     "table": {
       "ALN-1|SR-1": "ALN-1_SR-1"
@@ -205,6 +221,14 @@
     },
     "tiers": {
       "DEF-3|SV-1": 0
+    }
+  },
+  "DEF|Wall-of-Anger": {
+    "table": {
+      "DEF-3|WA-1": "DEF-3_WA-1"
+    },
+    "tiers": {
+      "DEF-3|WA-1": 0
     }
   },
   "DEF|Watcher": {
@@ -301,6 +325,14 @@
       "ED-1|SS-1": 0
     }
   },
+  "ED|Thrill-Seeker": {
+    "table": {
+      "ED-1|TS-2": "ED-1_TS-2"
+    },
+    "tiers": {
+      "ED-1|TS-2": 0
+    }
+  },
   "FAI|Catastrophizer": {
     "table": {
       "FAI-1|CA-1": "FAI-1_CA-1"
@@ -325,6 +357,22 @@
     },
     "tiers": {
       "FAI-3|RI-2": 0
+    }
+  },
+  "FAI|Self-Punisher": {
+    "table": {
+      "FAI-1|SP-1": "FAI-1_SP-1"
+    },
+    "tiers": {
+      "FAI-1|SP-1": 0
+    }
+  },
+  "FAI|Self-Reliant": {
+    "table": {
+      "FAI-1|SR-1": "FAI-1_SR-1"
+    },
+    "tiers": {
+      "FAI-1|SR-1": 0
     }
   },
   "FAI|Thrill-Seeker": {
@@ -383,6 +431,14 @@
       "MB-2|SS-3": 0
     }
   },
+  "MB|Sovereign": {
+    "table": {
+      "MB-5|SV-1": "MB-5_SV-1"
+    },
+    "tiers": {
+      "MB-5|SV-1": 0
+    }
+  },
   "MB|Striker": {
     "table": {
       "MB-2|ST-2": "MB-2_ST-2"
@@ -433,12 +489,28 @@
       "POW-3|DP-2": 0
     }
   },
+  "POW|Pleaser": {
+    "table": {
+      "POW-2|PL-3": "POW-2_PL-3"
+    },
+    "tiers": {
+      "POW-2|PL-3": 0
+    }
+  },
   "POW|Self-Reliant": {
     "table": {
       "POW-2|SR-3": "POW-2_SR-3"
     },
     "tiers": {
       "POW-2|SR-3": 0
+    }
+  },
+  "POW|Watcher": {
+    "table": {
+      "POW-2|WT-2": "POW-2_WT-2"
+    },
+    "tiers": {
+      "POW-2|WT-2": 0
     }
   },
   "VC|Catastrophizer": {
@@ -463,6 +535,14 @@
     },
     "tiers": {
       "VC-8|RI-1": 0
+    }
+  },
+  "VC|Striker": {
+    "table": {
+      "VC-1|ST-2": "VC-1_ST-2"
+    },
+    "tiers": {
+      "VC-1|ST-2": 0
     }
   },
   "VC|Watcher": {

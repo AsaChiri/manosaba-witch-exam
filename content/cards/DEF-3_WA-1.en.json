@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Wall-of-Anger",
+  "copingSub": "WA-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Wall-of-Anger",
+  "tag": "DEF-3_WA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The others kept their distance. One girl did not: the girl sat beside her through the worst of it, left small things by her plate, and told anyone who asked that something soft lay underneath.",
+          "What was underneath was not soft. In flashes she wanted to see that kind face afraid of her — just once, fully — and hated the thought each time it came.",
+          "One supper the girl reached across the table and took her hand before everyone. She held the heat down while the anger pushed it higher; her palm stayed cool.",
+          "Days later, in the early evening shower hour, the girl found her alone in the recreation room and sat close, as always. This time the girl opened her arms. She let the embrace come — held it, and lit, and held it down against the floor.",
+          "The girl lay dead on the recreation-room floor, burned. The room was not: no hearth or lamp stands there, the floorboards scorched only beneath the body, nothing else singed. The others were at the showers below; one girl coming up found the body.",
+          "The burns ran deepest along the palms and the inner arms. The outer arms were unmarked.",
+          "That heat came from someone's skin. One prisoner carries it; the dead girl had spent months trying to hold her.",
+          "At the trial she offered no explanation."
+        ],
+        "epitaph": "She fed the fire her whole life. What it kept was never what they reached for.",
+        "epithet": "The Fire That Wanted to Be Feared",
+        "execution": [
+          "She was bound to a stake on the execution stand, her feet on a bed of oil-soaked wood. At her waist, a band of iron thorns. The device brought no flame of its own.",
+          "The band began to turn inward, thorn by measured thorn. It would complete its turns and kill her regardless.",
+          "Her heat rose on its own under the pain. The oil at her feet caught.",
+          "The fire on the stake burned until there was nothing left."
+        ],
+        "magic": {
+          "name": "Thornfire",
+          "text": "She can heat her skin to a burn at will; it climbs on its own when her temper does. Contact with her scorches."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

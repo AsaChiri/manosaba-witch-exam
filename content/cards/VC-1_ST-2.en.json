@@ -1,0 +1,38 @@
+{
+  "cell": "VC|Striker",
+  "copingSub": "ST-2",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Striker",
+  "tag": "VC-1_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Since she came, she had struck down a dozen accidents the instant they started. Wherever she stood, the girls stood easy.",
+          "That day the victim mocked her in front of the others: she stopped nothing — things simply happened, and no fist could catch fate. Long before the prison, on a bright day, a collapse across a yard had taken a friend her fist could not reach.",
+          "Her chore was tending the entrance hall's stacked stores, a leaning pile held by a retaining chock in her keeping. That evening she worked the chock to a hair-trigger and stood beside the stack as always — where the girls passed easy, and where the victim came through each evening on her way in from the grounds.",
+          "The victim came through and jostled the hair-triggered stack; it began to topple, no hand driving it. The girls coming in behind her saw her arm rise a hand's breadth and hold. The stores came down on the victim.",
+          "The victim lay under the fallen stores. She stood beside them, unhurt, as always.",
+          "The stack had been worked to give: the retaining chock was in her chore-keeping, and a girl had seen her at the stores off-hours that evening. It was no accident.",
+          "She had struck down a dozen since she came. This one — the one she had reason to let fall — she let fall, and the girls had seen her arm start up and hold."
+        ],
+        "epitaph": "She never missed — until the once she chose to.",
+        "epithet": "The Fist Before the Fall",
+        "execution": [
+          "The execution stand held her with one arm free. Before her a pendant weight swung on its cord, a hand's breadth past the reach of her fist.",
+          "Beyond it a heavy frame stood open on its track. A guard set hand to its drive.",
+          "She swung at the weight and could not reach it.",
+          "The frame drew closed from the far side, the guard's hand at its drive the whole way.",
+          "It shut its full span and crushed her within it. The weight still swung a hand's breadth from her fist."
+        ],
+        "magic": {
+          "name": "Deadstop",
+          "text": "When a sudden harm that no hand is driving begins within arm's reach — whatever set it up — she may land one blow on the event itself and it stops dead."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

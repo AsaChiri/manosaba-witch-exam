@@ -1,0 +1,37 @@
+{
+  "cell": "FAI|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Self-Reliant",
+  "tag": "FAI-1_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She mended the girls' torn things alone — each came back whole, without seam or stitch-mark. She worked apart, unwatched; no mend of hers had ever come back botched. She did not want to show her magic to anyone.",
+          "The admirer announced before the group: tomorrow, she teaches the mending in front of them — three girls at her side. Before them all, the admirer told her, glad: she was always the last still down in the cell corridor before lockup — come find her there.",
+          "That evening, the cell corridor before lockup. She waited at the dead-end stretch beyond the last cell, where the admirer's own cell stood. The other girls were in their open, iron-barred cells back toward the stairs — no sightline to the dead end, and a struck sound before lockup went unplaced.",
+          "She took up a loose iron bar from the corridor's disused fittings and struck the admirer down. No trace of a hand remained — not on the bar, not on the wall, not on her.",
+          "The admirer lay dead at the dead end, the iron bar beside her, blood thrown across the near wall.",
+          "A swung bar throws spatter around the wielder — the body cuts a void where the blows come from, and a gripped weapon holds prints. This wall bore no void; the spatter closed complete, as though no hand had swung the bar. The grip held no print. A wielding with no wielder: the doing of the one prisoner whose hand leaves no trace.",
+          "The bar named no one — it belonged to the corridor. But the admirer had named the corridor and the hour before the full group, and asked her to come; of all who heard it, only she had the morning's lesson, set in her name, to dread."
+        ],
+        "epitaph": "Two hands that left no mark, and she made certain there would never be a third.",
+        "epithet": "She Who Left No Handle",
+        "execution": [
+          "Above the execution stand a heavy lid hung, stayed only while two release-holds were held. The holds were set a body's width too far apart for one person to reach both.",
+          "She stood alone between them.",
+          "She gripped one hold and stretched for the other. Her reach fell a body's width short.",
+          "With only one held, the lid was not stayed. It fell its full drop and crushed her beneath it."
+        ],
+        "magic": {
+          "name": "Unhandled",
+          "text": "Whatever she does to a thing leaves it and her own person bearing no trace of a hand — no print, no grip-mark, no wielder's disturbance; the thing shows as if it happened untouched."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

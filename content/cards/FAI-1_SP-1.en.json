@@ -1,0 +1,37 @@
+{
+  "cell": "FAI|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Self-Punisher",
+  "tag": "FAI-1_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "A clock in the lounge had been stopped for months. She turned its key on the way past, and the hands moved again. The girls started calling her the one who fixes things. She said it was luck — nothing she did — and they took it for modesty.",
+          "The games-room girl brought the recreation room's broken projector and set a date: the weekend gathering, the whole floor watching. She had fixed the clock; she would fix this. Her protest was taken the same way. In her cell she kept a day-count written small inside her sleeve-hem.",
+          "The night before the gathering, in her two-bunk cell with her cellmate asleep, she spoke the games-room girl's name and drew a folded cord tight across her own throat. She held it long enough. Her own throat took only a faint line; beside her, the cellmate did not stir.",
+          "At the six-o'clock unlock the games-room girl lay dead in her sealed cell — a deep ligature furrow across the throat, blood risen in the whites of her eyes, no cord anywhere inside, the door still barred from outside.",
+          "The girls reasoned it through: no one had entered, and the games-room girl had slept alone in a cell of her own — harm that crosses a locked door belongs to one power in this place. She answered the way she always answered — condemned herself first, then said she could not have strangled a girl through a wall. They heard modesty a third time.",
+          "She had kept her collar high all morning. When it was drawn down, a thin cord-mark circled her throat — the same line as the dead girl's furrow, faint but exact."
+        ],
+        "epitaph": "She was always first to say it, and the world in the end simply agreed.",
+        "epithet": "She Who Sentenced Herself First",
+        "execution": [
+          "She stood on an iron plate above the stand's open shaft — two floors of drop to stone below.",
+          "At the plate's edge a long latch-bar ran back, and on it stood an iron figure. While the figure's weight rested anywhere on the bar, the plate stayed shut.",
+          "At each stroke of the hour-wheel the figure stepped one pace backward along the bar. It stepped back, too, at every word she spoke.",
+          "The court kept its silence; the wheel turned slowly. It was she who spoke, three times, and the figure stepped with each.",
+          "The last step carried it past the bar's end. The plate swung free, and she fell two floors to the stone."
+        ],
+        "magic": {
+          "name": "the Addressed Stroke",
+          "text": "A hurt she deals her own body lands whole on the one she names, wherever that one is inside the prison. Her own flesh keeps only its faint, fading shadow."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

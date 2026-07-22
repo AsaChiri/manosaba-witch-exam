@@ -1,0 +1,38 @@
+{
+  "cell": "ABN|Caretaker",
+  "copingSub": "CT-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Caretaker",
+  "tag": "ABN-1_CT-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She foraged herbs at the forest edge and steeped the common pot herself; after the midday meal, the girls' tea went through her hands, cup by cup. From forest to pour, no other hand touched it — the girls let her keep the whole ritual because everything her hand served was safe. The prison's meals were plain; her brew was the day's one comfort.",
+          "Over the past week, the friend who had been at her side for half a year — first at every brew, gladly taking each small service — had been pulling free. Carrying her own tray, mending her own clothes, meeting every offered hand with I'll manage, filling her own cup. That morning the friend refused even the pour and said that after today she would brew her own herbs — no more of the common pot.",
+          "She steeped a poison root into the pot with the day's herbs. The root was no forager's mistake — dug deliberately, long-steeped to draw the poison out.",
+          "She poured for every girl in turn, cup into hand. The friend, keeping her new habit, filled her own from the pot.",
+          "The sickness came on through the afternoon. When free time resumed, a bunkmate could not wake the friend; dead by nightfall. Every girl who had been poured for stayed well.",
+          "The girls looked for a dosed cup — but the friend had filled hers herself, from the pot they all drank, in everyone's sight. No one could have poisoned that cup and no other.",
+          "Laid together, the girls' accounts showed one pattern: every girl she poured for lived; the one who died had filled her own from the same pot. The poison was in the pot, and her hand, in the giving, unmade it for every cup she passed."
+        ],
+        "epitaph": "She held them all up, and no one thought to carry her.",
+        "epithet": "She Who Wove Herself Into the Walls",
+        "execution": [
+          "A stone arch stood over the execution stand, its crown left open — the keystone slot empty.",
+          "An iron yoke was closed on her shoulders and socketed into the open crown; she stood as the missing stone.",
+          "The side props were drawn out one by one, and the full weight of the arch settled onto the yoke.",
+          "She bore it as long as her legs held.",
+          "When her knees gave, the arch came down where she stood."
+        ],
+        "magic": {
+          "name": "Wholesome Hand",
+          "text": "Food or drink given from her hand cannot harm the one who takes it. Her giving unmakes the harm."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

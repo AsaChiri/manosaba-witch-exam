@@ -1,0 +1,37 @@
+{
+  "cell": "POW|Pleaser",
+  "copingSub": "PL-3",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Pleaser",
+  "tag": "POW-2_PL-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The trader ran a barter market in the lounge — shampoo, sweets, mended things — and kept a goods-chest that took two girls to lift. She had been asked once to carry it up to the trader's cell after each market; she always did, and it weighed nothing in her hands. The other girls had stopped offering to help.",
+          "This market night the trader refused her the usual share. Name a price, the trader told her — everyone else does; name yours or don't come back. She stood with her mouth open, said nothing, and left the table empty-handed.",
+          "The trader counted stock every night atop the bunk-frame — climbing up to reach into the chest, never lifting the chest itself. The girls joked about it openly.",
+          "That same evening she carried the chest up as always — it weighed nothing while the ask stood — and set it at the very lip of the frame, overhung above the spot the trader rose to when climbing, with nothing to prop it. The ask was still open: the trader's own hands had never touched the chest, and it stayed light. She joined the shower queue.",
+          "In the locked night the trader climbed to count. Finding the chest at the very edge, the trader took hold of it — and the ask was fulfilled the instant the chest passed into those hands. Its full weight returned at once, out over the edge, onto the trader.",
+          "At the six-o'clock unlock the corridor girls found the trader under the chest — taken for a hoarder's accident. But the dust-shadow on the boards — the clean patch where the chest had rested — reached the frame's very edge and was narrower than the chest itself: the base had overhung the lip, half of it out past the boards with nothing beneath and nothing propping it. A chest that heavy does not balance at its own edge; it had been set there weighing nothing.",
+          "She said the trader had asked that evening to set the chest ready at the edge. But the card girls had heard the trader at the table: the chest was being traded away tomorrow and carried down in the morning — the trader would ask her then. No evening ask was ever given. The only hands that ever carried that chest had set it at the killing edge unasked."
+        ],
+        "epitaph": "She could carry anything in the world except a want of her own.",
+        "epithet": "The Girl Who Never Said No",
+        "execution": [
+          "She stood within an iron frame on the execution stand. Beside her, a rack of iron weights; above her, a broad tray balanced on a catch.",
+          "The warden asked her to carry a weight from the rack to the tray. It weighed nothing in her hands. She set it on the tray, and its full weight returned the instant it rested there.",
+          "The tray sank toward her. The warden asked again.",
+          "She carried every weight the warden asked for. The loaded tray came down onto her, and she was crushed beneath it."
+        ],
+        "magic": {
+          "name": "the Weightless Errand",
+          "text": "The Weightless Errand — Whatever another person asks her to carry turns weightless in her hands, however heavy, and remains so as long as the ask stands. Its full weight returns the instant the ask is fulfilled: when the carried thing reaches the asker's own hands, or the place the ask named for it. But what is brought for its owner stays weightless, though set down, until the owner's own hands take it up."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "cell": "ALN|Resigned",
+  "copingSub": "RS-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Resigned",
+  "tag": "ALN-1_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "One afternoon the girls played hide-and-seek across the courtyard and the flower field. She took the best hiding spot and stayed, hands folded. The game had been called an hour earlier and moved inside; no one noticed her missing.",
+          "When she walked in at the lock bell, the seeker girl looked up: oh — were you playing?",
+          "The next morning, at the end of free time, she prepared the library's far aisle: set a shelf-board against the tall stack to take its lean, pried the wedge-blocks from its base and pocketed them, and ran a cord from the board to the aisle's blind end.",
+          "The ten-o'clock cell-stay sealed the room. Lunch kept it empty; the girls ate at the long tables below. She let the meal begin, then settled at the blind end behind the stack and waited for the seeker girl.",
+          "Mid-meal the seeker girl set down her spoon and walked out — up the staircase, past two girls who greeted her and got no answer. No one could later find the errand.",
+          "The seeker girl came up the far aisle as if remembering something there. From the blind end she pulled the cord; the stack toppled across the aisle. She was through the door and down the staircase when the crash brought the girls up from below.",
+          "The seeker girl beneath the toppled stack, buried in books. Where the wedge-blocks had sat: clean dust-shadows and fresh pry marks.",
+          "A wordless walk out of a half-eaten meal, past greetings, to an aisle with no errand at its end — retraced and found hollow. A drawn walk ends where the waiter waits; one girl had been missing from the tables the whole meal and joined the crowd only from the staircase, after the crash."
+        ],
+        "epitaph": "She waited her whole life to be found.",
+        "epithet": "She Who Kept Her Hiding Place",
+        "execution": [
+          "Rows of iron screens rose on the execution stand, making lanes.",
+          "She was set loose among them, unbound. A single iron figure began walking the lanes from the far end, turning always toward where she stood.",
+          "She ran; it followed. She hid behind a screen; it slowed, then turned the corner. Hiding bought minutes. Stillness bought nothing.",
+          "It found her, and its iron arms closed around her against its frame and did not open."
+        ],
+        "magic": {
+          "name": "the Homing Wait",
+          "text": "The Homing Wait — When she settles and waits for one person, that person's feet set out toward her at once and bring them to her before the day is out, by a way that seems their own idea; she must keep her place while the waiting runs. Being drawn is not being sought."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

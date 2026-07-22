@@ -1,0 +1,38 @@
+{
+  "cell": "MB|Sovereign",
+  "copingSub": "SV-1",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-5",
+  "style": "Sovereign",
+  "tag": "MB-5_SV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The harvest-queen learned what her claiming could bring, and made her a procurer — every taking put on show at the window corner as the harvest-queen's own. One midday the harvest-queen ordered the next before the whole circle — the tall girl's embroidered handkerchief, by Friday — and turned away without waiting for a reply.",
+          "The harvest-queen kept a jar of sweet syrup for tea. No hand but the harvest-queen's own ever moved it.",
+          "One evening she claimed the heart-tincture from the medical room. Its keeper carried the vial out, placed it before her, and walked away half-certain the trip had been the keeper's own idea. A spoonful steadies a weak heart; a whole vial stops a healthy one.",
+          "Next morning she claimed the jar. The harvest-queen carried it to her door and set it down; she took it behind her door, poured the whole vial over the thick syrup — it sat as an unmixed layer at the top — and set the jar back out. The harvest-queen, still muddled — saying she had meant to show it to someone — picked it up and carried it home; it was the only time the jar had ever left its owner's keeping.",
+          "At midday the harvest-queen spooned from the top of the jar, stirred it into tea, and drank before the circle. The harvest-queen was dead among the collection within the hour — one spoonful off the surface had drawn up nearly all the tincture.",
+          "The keeper's shelf stood one vial short, and the keeper could not settle whether she had lent it. The syrup smelled faintly of the tincture — the keeper knew her own bitters.",
+          "The vial had left a shut room no girl came asking at. The jar had left its owner's keeping once in its life, that very morning — and the door where its owner stood muddled was the witch's own."
+        ],
+        "epitaph": "She put a price on everything — except the taking itself.",
+        "epithet": "The Girl No One Could Afford",
+        "execution": [
+          "A ring of empty iron seats circled the execution stand. Above them, a single hand on a track.",
+          "The hand closed on her, carried her to the first seat, and set her down before it. It took a new grip and carried her to the next.",
+          "Seat after seat the hand moved her, and at each one the grip tightened.",
+          "The hand that held her belonged to no one.",
+          "At the last seat the grip closed and did not open. It tightened until she was crushed."
+        ],
+        "magic": {
+          "name": "Requisition",
+          "text": "When she claims a thing belonging to another, its owner carries it to her, sets it down, and leaves half-certain the errand was their own."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
