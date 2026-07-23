@@ -4,11 +4,11 @@
     "wordmark": "魔女因子檢測",
     "latin": "WITCH FACTOR EXAMINATION",
     "tagline": "你體內的魔女因子，還在沉睡。",
-    "descLanding": "一場魔女因子檢測。看看倘若被送上那座島，你會成為哪一種魔女。",
+    "descLanding": "一場魔女因子檢測。看看倘若被送上那座島，你會成為什麽樣的魔女。",
     "descExam": "檢測已經開始。",
     "descCard": "魔女因子檢測的記錄，檢出{magic}。",
-    "descShare": "檢出魔法：{magic}——你也來測測會檢出哪一種魔女。",
-    "descCharacter": "這份檢測記錄，檢出了與『{name}』相同的魔法「{magic}」。你也來測測會檢出哪一種魔女。"
+    "descShare": "檢出魔法：{magic}——你也來測測會檢出哪一種魔法。",
+    "descCharacter": "這份檢測記錄，檢出了與『{name}』相同的魔法「{magic}」。你也來測測會檢出哪一種魔法。"
   },
   "nav": {
     "skipToContent": "跳到正文",
@@ -135,7 +135,7 @@
     "line": "分享到 LINE",
     "more": "更多分享方式",
     "template": "魔女因子已檢出，我的魔法是「{magic}」",
-    "specialTemplate": "我檢出了與『{name}』相同的魔法——「{magic}」",
+    "specialTemplate": "#まのさばネタバレ 我檢出了與『{name}』相同的魔法——「{magic}」",
     "hint": "接受檢測：",
     "qrCaption": "掃碼接受檢測",
     "exportTag": "魔女因子檢測"

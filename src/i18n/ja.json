@@ -7,8 +7,8 @@
     "descLanding": "魔女因子の検査。あの島へ送られたら、どんな魔女になるのか。",
     "descExam": "検査は始まっている。",
     "descCard": "魔女因子検査の記録――検出された魔法「{magic}」。",
-    "descShare": "検出された魔法「{magic}」。あなたも検査を受けて、どんな魔女が現れるか確かめて。",
-    "descCharacter": "『{name}』と同じ魔法「{magic}」が検出された検査記録。あなたも検査を受けて、どんな魔女が現れるか確かめて。"
+    "descShare": "検出された魔法「{magic}」。あなたも検査を受けて、どんな魔法が現れるか確かめて。",
+    "descCharacter": "『{name}』と同じ魔法「{magic}」が検出された検査記録。あなたも検査を受けて、どんな魔法が現れるか確かめて。"
   },
   "nav": {
     "skipToContent": "本文へ",
@@ -130,7 +130,7 @@
     "line": "LINEで送る",
     "more": "その他のシェア先",
     "template": "魔女因子、検出。わたしの魔法は「{magic}」。",
-    "specialTemplate": "『{name}』と同じ魔法が検出された。わたしの魔法は「{magic}」。",
+    "specialTemplate": "#まのさばネタバレ『{name}』と同じ魔法が検出された。わたしの魔法は「{magic}」。",
     "hint": "検査を受ける：",
     "qrCaption": "コードを読んで検査を受ける",
     "exportTag": "魔女因子検査"

@@ -4,11 +4,11 @@
     "wordmark": "Witch Factor Examination",
     "latin": "WITCH FACTOR EXAMINATION",
     "tagline": "The witch factor in you is still asleep.",
-    "descLanding": "An examination for the witch factor. See which witch you would become, were you sent to the island.",
+    "descLanding": "An examination for the witch factor. See what kind of witch you would become, were you sent to the island.",
     "descExam": "The examination has begun.",
     "descCard": "A Witch Factor Examination record — magic detected: {magic}.",
-    "descShare": "Magic detected: {magic}. Take the examination and see which witch is found in you.",
-    "descCharacter": "An examination record where the same magic as {name}'s was detected: “{magic}.” Take the examination and see which witch is found in you."
+    "descShare": "Magic detected: {magic}. Take the examination and see which magic is found in you.",
+    "descCharacter": "An examination record where the same magic as {name}'s was detected: “{magic}.” Take the examination and see which magic is found in you."
   },
   "nav": {
     "skipToContent": "Skip to content",
@@ -125,7 +125,7 @@
     "line": "Share on LINE",
     "more": "More ways to share",
     "template": "Witch factor detected. My magic: “{magic}.”",
-    "specialTemplate": "The same magic as {name}'s was detected in me: “{magic}.”",
+    "specialTemplate": "#まのさばネタバレ The same magic as {name}'s was detected in me: “{magic}.”",
     "hint": "Take the examination: ",
     "qrCaption": "Scan to be examined",
     "exportTag": "Witch Factor Examination"
