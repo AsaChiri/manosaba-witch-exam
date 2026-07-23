@@ -1,0 +1,38 @@
+{
+  "cell": "FAI|Trickster",
+  "copingSub": "TR-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Trickster",
+  "tag": "FAI-1_TR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Things got done around her — a fence-rail mended, a wardrobe shifted, mislaid things found. The girls called it her knack.",
+          "None of it was hers. She steered sleeping girls from their open cells at night and put their hands to the work. By day, no one had ever seen her finish anything.",
+          "At dinner, the apprentice-girl asked to spend the coming week at her side — starting the next morning, watching everything she did. The table agreed. That evening the apprentice-girl went to bed early.",
+          "In the dusk before the ten o'clock lock, she steered the sleeping apprentice from the open cell, through the entrance hall and the prison entrance to the lake, walking alongside the whole way.",
+          "Into the shallows, then past them. She held the apprentice asleep until the water went still, let go, and walked back alone before the lock.",
+          "When the apprentice was missing at the ten o'clock lock, the guards searched. At first light they found the apprentice at the lakeshore — barefoot, in nightclothes, unmarked. The prison called it sleepwalking.",
+          "A sleepwalker drifts and halts. On the soft ground from the prison entrance to the waterline, these prints ran straight. A second set kept pace half a stride alongside, reached the water's edge, and turned back dry.",
+          "The guards checked the prisoners' shoes. One pair still held the shore's black mud in its seams, and its owner was the last through the door before the ten o'clock lock."
+        ],
+        "epitaph": "Her life's work walked to the lake on another girl's feet.",
+        "epithet": "She Who Built With Borrowed Hands",
+        "execution": [
+          "A kneeling-frame waited on the stand, its iron sleeves open. She knelt; the sleeves swallowed her arms to the elbows, and inside them gauntlets fitted over her hands.",
+          "Before her, a windlass. A cord ran from it to the collar at her throat.",
+          "The gauntlets closed and worked her hands on the crank — a measured turn, a pause, another turn — while the court watched.",
+          "Her hands made the last turn, and the cord drew the collar tight."
+        ],
+        "magic": {
+          "name": "Night Strings",
+          "text": "She can steer a sleeping person's body as her own so long as she keeps it in sight."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

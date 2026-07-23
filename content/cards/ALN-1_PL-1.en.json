@@ -1,0 +1,37 @@
+{
+  "cell": "ALN|Pleaser",
+  "copingSub": "PL-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Pleaser",
+  "tag": "ALN-1_PL-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In private, the fishmonger's daughter named her a favorite — a book of witch history that was not in the library. The next evening the whole table put the question to her, and she gave the same title; every girl had been in on the test. Through the laughter, the fishmonger's daughter told her that talking to her gave nothing back — no answer ever came.",
+          "On nights the course was fish, the guards laid a carving knife on the serving board and counted it back at hall-close. The fishmonger's daughter would take it up, bone the fish for her whole table in seconds, and set it back edge-out, the way her father kept them, every night.",
+          "That night she sat on at the long table as the hall thinned. The girls going out saw the fishmonger's daughter still sitting with her.",
+          "In the fishmonger's daughter's presence, her hands were the fishmonger's daughter's hands. She took the carving knife from the board; one stroke — the trade's own, fast and single — and the voice was gone before any cry.",
+          "With the death, the skill had left; her hands were her own. She wiped the knife, laid it back, and was gone before the guards came to collect. At hall-close: the fishmonger's daughter at the long table, one clean wound; the count perfect, the knife in its place.",
+          "The knife lay edge-in. In years at her father's stall, the fishmonger's daughter had never once set a knife backward; the whole hall had watched her do it right a hundred nights. Another hand had put it back.",
+          "The cut itself the girls knew — the dead girl's own single stroke, no hesitation, at an angle no self-dealt wound allows. Hands that could do exactly what hers could: the table had proven whose those were, laughing, over a book that did not exist. And the girls going out had seen her still at the table with the fishmonger's daughter."
+        ],
+        "epitaph": "Every laugh she ever laughed was someone else's.",
+        "epithet": "The Girl of Borrowed Laughter",
+        "execution": [
+          "A raised basin of still black water at the center of the stand. Above it, a tilting board; she was bound face-down to it.",
+          "The board lowered by degrees. All the way down, the water held nothing but her own face.",
+          "Her face met the surface. The board lowered her under.",
+          "The water closed over her, and stilled."
+        ],
+        "magic": {
+          "name": "Echo Hands",
+          "text": "Whatever the person beside her can do, she can do exactly as well."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

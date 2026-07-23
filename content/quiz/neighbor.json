@@ -137,6 +137,14 @@
       "ALN-1|P-2": 0
     }
   },
+  "ALN|Pleaser": {
+    "table": {
+      "ALN-1|PL-1": "ALN-1_PL-1"
+    },
+    "tiers": {
+      "ALN-1|PL-1": 0
+    }
+  },
   "ALN|Resigned": {
     "table": {
       "ALN-1|RS-1": "ALN-1_RS-1"
@@ -241,6 +249,14 @@
       "DEF-8|SP-1": 0
     }
   },
+  "DEF|Self-Soother": {
+    "table": {
+      "DEF-3|SS-1": "DEF-3_SS-1"
+    },
+    "tiers": {
+      "DEF-3|SS-1": 0
+    }
+  },
   "DEF|Sovereign": {
     "table": {
       "DEF-3|SV-1": "DEF-3_SV-1"
@@ -325,6 +341,14 @@
       "ED-9|P-1": 0,
       "ED-9|P-2": 1,
       "ED-9|P-3": 1
+    }
+  },
+  "ED|Resigned": {
+    "table": {
+      "ED-1|RS-1": "ED-1_RS-1"
+    },
+    "tiers": {
+      "ED-1|RS-1": 0
     }
   },
   "ED|Ruminator": {
@@ -425,6 +449,14 @@
       "FAI-5|TS-1": 0
     }
   },
+  "FAI|Trickster": {
+    "table": {
+      "FAI-1|TR-1": "FAI-1_TR-1"
+    },
+    "tiers": {
+      "FAI-1|TR-1": 0
+    }
+  },
   "MB|Clinger": {
     "table": {
       "MB-7|CL-1": "MB-7_CL-1"
@@ -507,6 +539,14 @@
       "MB-2|TR-2": 0
     }
   },
+  "MB|Wall-of-Anger": {
+    "table": {
+      "MB-2|WA-1": "MB-2_WA-1"
+    },
+    "tiers": {
+      "MB-2|WA-1": 0
+    }
+  },
   "MB|Watcher": {
     "table": {
       "MB-10|WT-2": "MB-10_WT-2"
@@ -545,6 +585,14 @@
     },
     "tiers": {
       "POW-2|PL-3": 0
+    }
+  },
+  "POW|Ruminator": {
+    "table": {
+      "POW-2|RU-1": "POW-2_RU-1"
+    },
+    "tiers": {
+      "POW-2|RU-1": 0
     }
   },
   "POW|Self-Reliant": {
@@ -609,6 +657,14 @@
     },
     "tiers": {
       "VC-1|ST-2": 0
+    }
+  },
+  "VC|Thrill-Seeker": {
+    "table": {
+      "VC-1|TS-3": "VC-1_TS-3"
+    },
+    "tiers": {
+      "VC-1|TS-3": 0
     }
   },
   "VC|Watcher": {

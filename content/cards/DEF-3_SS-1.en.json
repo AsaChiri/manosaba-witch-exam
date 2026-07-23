@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Self-Soother",
+  "copingSub": "SS-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Self-Soother",
+  "tag": "DEF-3_SS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She took thirds at every meal. The girls knew her for it.",
+          "A girl had tamed a little bird, and when it died the girls buried it at the edge of the flower field. At the graveside, while the bird's keeper wept, what crossed her mind was: that much grief over vermin — dig the hole wider and throw the crying in after it. That evening she ate until it hurt.",
+          "The keeper visited the grave every day, and the mourning did not stop. Each time, the thought returned and sat longer.",
+          "After the burial the keeper had also picked up the evening errand — the dining hall's scrap-pail, carried down to the incinerator room after supper for the quiet.",
+          "That evening at supper the keeper wept over the bird again, and the thought came at its worst. She followed her down and, standing in the doorway, drank the breath from her — and every breath clawed back after it. The keeper dropped in place.",
+          "Sent down after her at half past nine, one of the others found the keeper slumped beside the cold incinerator, the pail overturned. There was nothing at her throat, nothing over her face — only spots of burst blood risen in her eyes. Marks of that kind mean a death without air, and the door had been open.",
+          "A girl in the corridor had seen her on the basement stair just after the keeper carried the pail down — the same window in which the keeper died. And from that supper forward, the third-helping girl did not eat. Three days she sat before full plates: breath drunk into the body feeds its drinker while it remains, and reckoned backward, the fast began the evening the keeper stopped breathing."
+        ],
+        "epitaph": "Everything went down but the thought.",
+        "epithet": "The Third Helping",
+        "execution": [
+          "An upright iron shaft stood on the execution stand, its top a mouth-wide rim with a ring set into it.",
+          "A chain lowered her into the shaft feet-first, a measured length at a time.",
+          "The shaft swallowed her by increments — knees, waist, shoulders.",
+          "The last length left nothing above the rim but her head, and the ring closed on her throat."
+        ],
+        "magic": {
+          "name": "the Long Draught",
+          "text": "The Long Draught — She can drink the air from a room or a body into herself. What she has drunk remains in her as fullness, and while it sits she does not hunger."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

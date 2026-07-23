@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Resigned",
+  "copingSub": "RS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Resigned",
+  "tag": "ED-1_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She kept to the waiting places — the windows, the wall's shadow, the turn of the lake path — for hours. Girls passed without a glance.",
+          "A girl streamed every evening to a handful of watchers, greeting each by name. Half a year of evenings. Her name, not once.",
+          "That afternoon the streamer carried the broadcast out to the flower field. She was within earshot when the greeting ran once more — name by name. Hers was not among them.",
+          "When the broadcast ended she was waiting in the flowers. She took the streamer's hands; the streamer sank among the stalks, and the breath went quiet.",
+          "At the evening hour, girls found the streamer in the flower field — no wound, nothing under the nails. At a glance, a stopped heart. But faint pressure bands ringed both wrists, and the palms lay cupped open, as though someone had only just let go.",
+          "She said she had gone no farther than the wall's shadow and turned back, meeting no one. A girl from the lake path placed her past the field's edge, heading into the flowers.",
+          "The bands at the wrists were a hold, not a failing heart — the streamer died in someone's hands. She had sworn she never reached the flowers; the girl from the lake path put her there."
+        ],
+        "epitaph": "She kept still enough to be found by anyone who looked. No one ever looked.",
+        "epithet": "She Who Held Still to Be Found",
+        "execution": [
+          "An iron collar closed on her throat, its chain running up through a ratchet at the beam overhead.",
+          "The chain shortened only while she was still; when she struggled, the ratchet held.",
+          "She fought it at first. Then she stopped, as she had always done, and each stillness drew the chain a few links closer.",
+          "When she was still for the last time, the ratchet drew home and she hung from the beam."
+        ],
+        "magic": {
+          "name": "the Becalming",
+          "text": "The Becalming — When she takes hold of a body, its fight drains out: clenched hands fall open, labored breath goes easy. Held long enough, the breath stops."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

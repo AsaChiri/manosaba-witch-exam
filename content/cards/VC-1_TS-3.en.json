@@ -1,0 +1,37 @@
+{
+  "cell": "VC|Thrill-Seeker",
+  "copingSub": "TS-3",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Thrill-Seeker",
+  "tag": "VC-1_TS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The river was still on an ordinary afternoon. An undertow dragged her under mid-breath; she was pulled out downstream, alive. After that, every spring, she was the first into the cold lake.",
+          "No cup dropped near her ever reached the floor. Every girl had seen it: a cup slipped, and she was already there, holding it.",
+          "One still morning by the lake, the swimmer girl shoved her into the water mid-sentence, laughing. \"Spring came early.\"",
+          "Some mornings later, on the breakfast stairs, the swimmer girl started down from the head of the flight; she was standing three steps below. Her hand went to the girl's back, and the long breath opened — inside it she sent the girl headlong down the full flight. Every other girl on the stairs saw nothing but a missed step.",
+          "The swimmer girl struck the lower flight and the landing and broke her neck. Her arms were full of borrowed library books. Every girl on the staircase had been placed by the others; none had been within reach. It was first taken for a fall.",
+          "A girl who stumbles takes the stairs one by one; the swimmer girl cleared the first four without touching them. A flight that clean means force at the back, not a lost footing.",
+          "A hand no one on the stairs saw is a hand that moved inside the fall's first instant. That instant opens for one girl in this prison — the one who had been standing three steps below."
+        ],
+        "epitaph": "She went ahead of every fear she had. The last one would not be hurried.",
+        "epithet": "She Who Arrived Early",
+        "execution": [
+          "A straight track ran the length of the floor; a bladed carriage sat at one end. She was bound upright to a post at the other.",
+          "The carriage started forward at a constant crawl — no pause, no quickening.",
+          "The blade held level with her chest — that line, the whole way from the far side of the court. Nothing about it changed. She watched it come.",
+          "At the crawl's end the blade met her breastbone — into the chest, then through. She was dead, still bound to the post."
+        ],
+        "magic": {
+          "name": "Long Instant",
+          "text": "When a danger breaks open, even one she begins herself, time stretches for her: one long breath in which only she can move."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

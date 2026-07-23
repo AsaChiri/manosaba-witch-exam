@@ -1,0 +1,39 @@
+{
+  "cell": "POW|Ruminator",
+  "copingSub": "RU-1",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Ruminator",
+  "tag": "POW-2_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her cellmate had the bunk above hers and ran her days — choosing her meals, calling her lights. A note pinned by the bunks, in the cellmate's hand, set out her day: wake, wash, fold, lights. The cellmate died in the spring; the note stayed, and her days still ran on it.",
+          "Every night at lights, she brought back the dead girl's two knocks on her cell bars and slept to them. The near cells knew whose power could bring a moment back.",
+          "That winter, a scuffle at the lounge shelf sent the stone bust down — a hand's width past her cellmate in the armchair beneath the shelf. It dented the floorboard and was set back. She watched the whole arc from her seat across the room.",
+          "Weeks after the death, one girl called the mourning done and took to the cellmate's evening armchair. The girl read there each night, head bent past the edge of the seat, crown above the dent.",
+          "That morning, the girl came to the cell, pulled the yellowed note from the wall, and tossed it into the morning pail before the breakfast girls: a living girl does not need a dead girl's orders.",
+          "That calm evening, the lounge full, she returned the winter topple from her seat across the room. The bust traced its old arc down — onto the bowed crown.",
+          "The girls' first word was a second accident. But no one had stood within three steps of the shelf, and a resting bust does not fall on its own. The new dent sat inside the old to a finger's width — two independent falls do not land the same way.",
+          "Bringing a moment back is one girl's known power; the near cells heard it every night. And she had watched that first arc from the very seat she sat in again that night."
+        ],
+        "epitaph": "She could bring back any moment — except the ones that never came.",
+        "epithet": "She Whose Hours Were All Second Hours",
+        "execution": [
+          "A great flat wheel filled the stand, an iron wall ringing its edge. A bare post rose from the center.",
+          "She was set on the wheel unbound, her hands on the post.",
+          "The wheel turned — slow, then faster by set degrees. Her hold on the post was the only stay.",
+          "Her grip gave. The wheel cast her outward and her body struck the iron wall at the rim.",
+          "The wheel kept turning."
+        ],
+        "magic": {
+          "name": "the Returned Instant",
+          "text": "She can make a brief event she has witnessed happen once more: the same objects, the same motion, from wherever they now rest — a breath's length, no more."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
