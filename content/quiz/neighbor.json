@@ -71,6 +71,14 @@
       "ABN-1|RS-3": 0
     }
   },
+  "ABN|Ruminator": {
+    "table": {
+      "ABN-1|RU-1": "ABN-1_RU-1"
+    },
+    "tiers": {
+      "ABN-1|RU-1": 0
+    }
+  },
   "ABN|Self-Reliant": {
     "table": {
       "ABN-4|SR-1": "ABN-4_SR-1"
@@ -85,6 +93,14 @@
     },
     "tiers": {
       "ALN-1|AV-1": 0
+    }
+  },
+  "ALN|Caretaker": {
+    "table": {
+      "ALN-1|CT-1": "ALN-1_CT-1"
+    },
+    "tiers": {
+      "ALN-1|CT-1": 0
     }
   },
   "ALN|Clinger": {
@@ -163,14 +179,24 @@
   },
   "DEF|Concealer": {
     "table": {
+      "DEF-1|CO-1": "DEF-1_CO-2",
       "DEF-1|CO-2": "DEF-1_CO-2",
       "DEF-1|CO-5": "DEF-1_CO-2",
+      "DEF-3|CO-1": "DEF-3_CO-1",
+      "DEF-3|CO-2": "DEF-3_CO-1",
+      "DEF-3|CO-5": "DEF-3_CO-1",
+      "DEF-7|CO-1": "DEF-7_CO-5",
       "DEF-7|CO-2": "DEF-7_CO-5",
       "DEF-7|CO-5": "DEF-7_CO-5"
     },
     "tiers": {
+      "DEF-1|CO-1": 1,
       "DEF-1|CO-2": 0,
       "DEF-1|CO-5": 1,
+      "DEF-3|CO-1": 0,
+      "DEF-3|CO-2": 1,
+      "DEF-3|CO-5": 1,
+      "DEF-7|CO-1": 1,
       "DEF-7|CO-2": 1,
       "DEF-7|CO-5": 0
     }
@@ -325,12 +351,28 @@
       "ED-1|SS-1": 0
     }
   },
+  "ED|Sovereign": {
+    "table": {
+      "ED-1|SV-2": "ED-1_SV-2"
+    },
+    "tiers": {
+      "ED-1|SV-2": 0
+    }
+  },
   "ED|Thrill-Seeker": {
     "table": {
       "ED-1|TS-2": "ED-1_TS-2"
     },
     "tiers": {
       "ED-1|TS-2": 0
+    }
+  },
+  "FAI|Avenger": {
+    "table": {
+      "FAI-3|AG-1": "FAI-3_AG-1"
+    },
+    "tiers": {
+      "FAI-3|AG-1": 0
     }
   },
   "FAI|Catastrophizer": {
@@ -413,6 +455,14 @@
     },
     "tiers": {
       "MB-2|DT-2": 0
+    }
+  },
+  "MB|Doomer": {
+    "table": {
+      "MB-2|DM-1": "MB-2_DM-1"
+    },
+    "tiers": {
+      "MB-2|DM-1": 0
     }
   },
   "MB|Performer": {
@@ -505,6 +555,14 @@
       "POW-2|SR-3": 0
     }
   },
+  "POW|Trickster": {
+    "table": {
+      "POW-2|TR-1": "POW-2_TR-1"
+    },
+    "tiers": {
+      "POW-2|TR-1": 0
+    }
+  },
   "POW|Watcher": {
     "table": {
       "POW-2|WT-2": "POW-2_WT-2"
@@ -527,6 +585,14 @@
     },
     "tiers": {
       "VC-1|DM-1": 0
+    }
+  },
+  "VC|Perfectionist": {
+    "table": {
+      "VC-1|PF-2": "VC-1_PF-2"
+    },
+    "tiers": {
+      "VC-1|PF-2": 0
     }
   },
   "VC|Ritualist": {

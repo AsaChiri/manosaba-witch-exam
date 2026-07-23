@@ -1,0 +1,38 @@
+{
+  "cell": "ABN|Ruminator",
+  "copingSub": "RU-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Ruminator",
+  "tag": "ABN-1_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her cellmate was executed in the spring. Once a season since, at the girls' asking, she set a past evening playing in the lounge — the cellmate at her cards again for an hour.",
+          "The girl who sat with her through the months after had never been close to her before the spring. She lent her a book, a ribbon; lately, one by one, they came back.",
+          "On the memorial evening the lounge filled. She set the spring hour playing: the cellmate at her cards, and beside the cellmate, herself. While the room watched the figures, she slipped out.",
+          "The girl never joined the replays — would not watch the dead brought back — and spent those evenings upstairs at the pool table.",
+          "She strangled the girl at the pool table and was back at the lounge wall before the hour ran out.",
+          "At lock the girl was missed, found strangled beside the pool table.",
+          "The girls swore she had never left the lounge — they had seen her at the fire-corner, beside the cellmate's figure, the whole hour. Through that hour the girls sat together, each in her neighbors' sight. One remembered holding a cup out to her; it was never taken.",
+          "Figures take nothing. The one who let a cup go untaken all evening, seated where she had sat in the spring hour, was the hour's figure. No eye in the lounge had watched the living one since the figures rose."
+        ],
+        "epitaph": "Every hour she had lost, she could bring back. She never held one that was still leaving.",
+        "epithet": "The Keeper of Finished Hours",
+        "execution": [
+          "The execution stand bore a great hourglass. She was sealed standing in its lower bulb; the upper held an hour of sand.",
+          "The sand began to run.",
+          "It came down grain by grain — about her feet, her knees, her waist. The court watched the hour descend.",
+          "The upper bulb ran empty, and the sand stood over her."
+        ],
+        "magic": {
+          "name": "Replay",
+          "text": "In a place where an hour once passed, she can set that hour playing again. Its figures move exactly as they did, seen by every eye and touched by none; once started, the hour runs to its end."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

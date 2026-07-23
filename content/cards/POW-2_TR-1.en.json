@@ -1,0 +1,38 @@
+{
+  "cell": "POW|Trickster",
+  "copingSub": "TR-1",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Trickster",
+  "tag": "POW-2_TR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Nothing in her life came to her or left her except through the victim — the one who spoke for her, answered for her, and handled every dealing she had.",
+          "The night before the victim's two-day penalty, the victim told the others in the corridor: no one was to speak to her until the penalty was over. The victim turned a girl away from her door.",
+          "The victim was given two days in the punishment room. Each morning of the term, in the corridor, within the witch's hearing, the warden gave the guard that day's order — water and bread to carry down.",
+          "She re-addressed each order the moment it was spoken. None reached the guard, and nothing was carried down. The first morning's water landed on a girl bedridden with fever in the medical room. The girl held the duty as her own but could not rise, and the victim received no water.",
+          "On the second morning the warden spoke two orders to the guard: the day's water down, and — the victim a day unseen — a look-in before the night's lock. She sent the water to a girl serving her own small penalty, barred from the B1 corridor. The girl started down, was turned back at the stair, and again no water reached the victim.",
+          "The look-in she held and delivered at the lock-minute — onto a girl standing at her own cell door as the bolts went home. Locked behind the bolts, the girl could not go, and no one looked in on the victim that night.",
+          "When the term was up the guard came down to release the victim and found her dead. Two days without water and the cold of the second night in the stone room had killed her before the term was out.",
+          "The warden swore every keeping-order had been given to the guard in the corridor — water and bread each morning, the look-in before the last night's lock. The guard said nothing; the victim went unkept. Three girls no one had ordered held those duties as their own, each that day unable to act. One girl had been in the corridor each time the warden spoke."
+        ],
+        "epitaph": "She could move any word to any ear. Every one that reached hers came through another mouth.",
+        "epithet": "The Girl Who Moved the Orders",
+        "execution": [
+          "She was brought to the execution stand and set over a trap held shut by a lever. A guard stood at the lever.",
+          "The warden's instruction to the guard had been given before she entered the court: release at the bell, unless ordered otherwise.",
+          "From the moment she was brought in, not a word was spoken in her hearing.",
+          "The bell sounded. The lever went over, and she fell."
+        ],
+        "magic": {
+          "name": "Misdelivered",
+          "text": "An instruction she overhears given live from one person to another, she can re-address to a different, plausible hearer, who receives it as genuinely her own duty and will not forget it. The one it was meant for never hears it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "cell": "ED|Sovereign",
+  "copingSub": "SV-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Sovereign",
+  "tag": "ED-1_SV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She had never carried her own weight in the prison — duties traded away, heavy work pushed onto whoever was closest, never a word of thanks.",
+          "For half a year, the girl who held the entrance-hall sweeping turn had worked around her every morning — swept past her feet, shifted her chair without a word, never once looking at her. One morning she spoke to the sweeper for the first time: said good morning, gave her own name. The girl swept on without breaking stride.",
+          "That evening the entrance hall was empty. She pushed the stone figure forward on its plinth, shove by shove — each push within her own strength, but the summed labor more than any single body could sustain. She set a wedge beneath it, in the path the morning broom always swept.",
+          "Across the lounge and the shower room, a heaviness settled into every girl's limbs at once; a few sank where they stood.",
+          "She came to the lounge afterward and sat reading at the far end. The heaviness still hung on them; it passed within the hour. One girl it had never touched, her pages turning at a steady pace.",
+          "At the morning sweep the broom caught the wedge, and the stone figure toppled onto the sweeper.",
+          "Scrape marks arced across the plinth — the trail of a heavy mass pushed along its surface. That labor could not have been sustained by a single body, yet it had been done. That same evening, heaviness had fallen on every girl in the prison at once.",
+          "When the toll of a labor falls on every girl but one, the labor is hers. The heaviness had passed over one girl — she had sat reading in the lounge, in front of them all, while they sagged."
+        ],
+        "epitaph": "Every girl in the prison carried her. Not one of them ever carried her name.",
+        "epithet": "Borne by All, Beheld by None",
+        "execution": [
+          "A broom-arm geared to a chain drum on the stand — its one drive-weight an open iron case hung by the chain in a shaft, still water at the bottom.",
+          "A guard binds her upright inside the case and draws the latch at the shaft's lip.",
+          "The hung weight frees the pawl. The broom-arm begins its first row across the court floor.",
+          "Each swept row pays a length of chain off the drum; the case drops by that length.",
+          "The court follows the broom across the floor. The water closes over the cased girl."
+        ],
+        "magic": {
+          "name": "Debtless",
+          "text": "Whatever labor she performs, the physical toll leaves her body and settles on every other girl in the prison. She bears none of it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

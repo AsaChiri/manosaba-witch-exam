@@ -1,0 +1,38 @@
+{
+  "cell": "VC|Perfectionist",
+  "copingSub": "PF-2",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Perfectionist",
+  "tag": "VC-1_PF-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She was the prison's first-responder. When anything went wrong, hands reached for her.",
+          "A fire had once taken the unprepared on a clear, ordinary afternoon. She drilled for everything after.",
+          "One girl mocked her drilling in front of everyone — nothing goes wrong on a calm day — and mocked it again that evening at the showers.",
+          "In the shower that girl slipped and struck her head on the stone. The drain had clogged; water pooled, and she lay face-down in it. The others called, and she came.",
+          "She went to work on the girl. She held the airway shut, deliberately, through the one moment it needed to be open.",
+          "The girl did not come back. What remained was a body dead of a fall and water, and a responder who, by all appearances, had done everything.",
+          "A girl had knelt beside her through the work — one who had learned the reviving procedure from watching her. That girl caught the single step held wrong, at the moment it had to be right.",
+          "Every case before had been flawless. The single deviation came at the single one she had reason to lose."
+        ],
+        "epitaph": "She drilled for every disaster but the one her drilling made.",
+        "epithet": "She Who Had Drilled for Everything",
+        "execution": [
+          "On the execution stand, a heavy iron vessel of burning oil hung above her from a single cord. The cord rose from the vessel through the jaws of a shear fixed at her hand, then up to an overhead anchor.",
+          "A flame was lit at the top of the cord and began burning through, working its way down toward the vessel.",
+          "Her hands closed the shear on the cord below the flame — the textbook break in a fire-line.",
+          "The cord was all that held the vessel. The burning oil came down on her."
+        ],
+        "magic": {
+          "name": "the Drill",
+          "text": "The Drill — In a genuine emergency, her body performs the trained response she never trained: the right knot, the compression rhythm, the fire-line order. The response is textbook, at a drilled human's level, only under real alarm; between emergencies she is ordinary, and she may override it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

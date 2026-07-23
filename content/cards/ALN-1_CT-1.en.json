@@ -1,0 +1,37 @@
+{
+  "cell": "ALN|Caretaker",
+  "copingSub": "CT-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Caretaker",
+  "tag": "ALN-1_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She had brought meals to the girl with the weak chest, fetched things for her, and for her birthday arranged the whole lounge gathering tray by tray — the cups, the sweets she had saved from meals. At the door with the last tray she heard the girl tell the table to let her bring things — it spared them having to speak with her.",
+          "The girl's breathing fits were common knowledge. The one who mixed her drops in the medical room had said plainly that one bad night without them could kill her. The girl kept the small bottle on her at all times.",
+          "Days later the girl came back five minutes past the lock hour and drew the standard penalty: two days in the punishment room. A guard walked her down; the girls in the B1 cells saw her led past their barred doors, the small bottle buttoned into her breast pocket.",
+          "On the second night, from her own locked cell, she held the girl in her attention. The fit began — a hand to the breast pocket. She felt the reach, drew the bottle through stone and locks into her own hand, and kept it.",
+          "At the term's end a guard opened the punishment room; the girl was dead of her fit. The bottle was not on her, not in the room, not anywhere the search found.",
+          "At the trial she testified the bottle had never gone in — the girl had left it behind at the gathering, and she had cleared the cups without seeing it after.",
+          "The girls in the B1 cells had seen the bottle buttoned into her breast pocket as the guard led her past. Her word and theirs could not both hold; hers broke. The bottle had gone in; the door had been locked both nights, the walls were stone, no one had entered. No hand outside a sealed room could have emptied a pocket within it — and she had once provided for every girl in the prison, the girl with the weak chest among them."
+        ],
+        "epitaph": "She carried everything the room could want, and the room never wanted her.",
+        "epithet": "The Bearer Who Never Sat",
+        "execution": [
+          "On the execution stand, a slow belt ran from one end to the lip of the pit beneath.",
+          "Provisions were laid along it — trays, loaves, folded blankets — and one by one each was carried to the lip and tipped off.",
+          "She was bound at the tail of the belt.",
+          "The belt did not slow for her; it tipped her from the lip, and the pit took her."
+        ],
+        "magic": {
+          "name": "Providence",
+          "text": "Anyone she has once provided for is hers to provide. She feels that girl's reach only while holding her in her attention, and may draw the thing through walls and locks to her own hand first. She may then give it to that girl or withhold it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

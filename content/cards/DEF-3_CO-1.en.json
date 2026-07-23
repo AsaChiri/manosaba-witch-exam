@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Concealer",
+  "copingSub": "CO-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Concealer",
+  "tag": "DEF-3_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "One night the girls sat up with one of their own who could not stop crying, and something stirred in her — a gladness, quick and ugly. For one instant it reached her face. The girl beside her saw it.",
+          "The girl never spoke of it, but after that night the girl took over her clearing shifts, yielded the better seat, agreed with her at once. She read the careful handling for what it was — the girl knew what she was.",
+          "That day the girl asked to be taken off their shared clearing. That evening the girl was in the emptied dining hall alone, finishing both their shares — stacking the supper cookware on the end table for the guards to carry in. The great pot sat steaming among the rest.",
+          "She came in, and as the girl turned back to the stack she struck her once with the iron pan from it. The girl fell and pulled the steaming pot off the table after her. The crash brought two girls from the corridor at a run.",
+          "They found her standing over the body. Her face, breath, and color were a bystander's. She told them she had just come in from the corridor and found the girl so.",
+          "The pot had overturned in the fall, and the fine hot spray it threw had dried across the front of her sleeves and hem. The two who ran in had nothing on theirs.",
+          "Spray reaches only what stands within arm's length at the instant of the fall, facing it. She said she had just come in, but dried spray on the front of her sleeves placed her at the end table when the pot came down. Her account and her sleeves could not both be true."
+        ],
+        "epitaph": "Everyone has felt it stir. Only she was certain it was all she was.",
+        "epithet": "The Unremarkable Monster",
+        "execution": [
+          "She was set upright in a frame at the center of the execution stand, under one hard light, facing the room.",
+          "A heavy iron weight hung above her on a catch that answered to her voice: a cry held it; silence released it.",
+          "She kept the even face and made no sound.",
+          "The weight came down."
+        ],
+        "magic": {
+          "name": "Unruffled",
+          "text": "Whatever she feels or knows, her face, breath, and color hold to a bystander's ordinary."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

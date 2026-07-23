@@ -69,6 +69,14 @@
         "auto": "ABN-1"
       }
     },
+    "ABN|Ruminator": {
+      "coping": {
+        "auto": "RU-1"
+      },
+      "origin": {
+        "auto": "ABN-1"
+      }
+    },
     "ABN|Self-Reliant": {
       "coping": {
         "auto": "SR-1"
@@ -80,6 +88,14 @@
     "ALN|Avoider": {
       "coping": {
         "auto": "AV-1"
+      },
+      "origin": {
+        "auto": "ALN-1"
+      }
+    },
+    "ALN|Caretaker": {
+      "coping": {
+        "auto": "CT-1"
       },
       "origin": {
         "auto": "ALN-1"
@@ -163,6 +179,7 @@
     "DEF|Concealer": {
       "coping": {
         "options": [
+          "CO-1",
           "CO-2",
           "CO-5"
         ]
@@ -170,6 +187,7 @@
       "origin": {
         "options": [
           "DEF-1",
+          "DEF-3",
           "DEF-7"
         ]
       }
@@ -312,12 +330,28 @@
         "auto": "ED-1"
       }
     },
+    "ED|Sovereign": {
+      "coping": {
+        "auto": "SV-2"
+      },
+      "origin": {
+        "auto": "ED-1"
+      }
+    },
     "ED|Thrill-Seeker": {
       "coping": {
         "auto": "TS-2"
       },
       "origin": {
         "auto": "ED-1"
+      }
+    },
+    "FAI|Avenger": {
+      "coping": {
+        "auto": "AG-1"
+      },
+      "origin": {
+        "auto": "FAI-3"
       }
     },
     "FAI|Catastrophizer": {
@@ -398,6 +432,14 @@
     "MB|Detacher": {
       "coping": {
         "auto": "DT-2"
+      },
+      "origin": {
+        "auto": "MB-2"
+      }
+    },
+    "MB|Doomer": {
+      "coping": {
+        "auto": "DM-1"
       },
       "origin": {
         "auto": "MB-2"
@@ -494,6 +536,14 @@
         "auto": "POW-2"
       }
     },
+    "POW|Trickster": {
+      "coping": {
+        "auto": "TR-1"
+      },
+      "origin": {
+        "auto": "POW-2"
+      }
+    },
     "POW|Watcher": {
       "coping": {
         "auto": "WT-2"
@@ -513,6 +563,14 @@
     "VC|Doomer": {
       "coping": {
         "auto": "DM-1"
+      },
+      "origin": {
+        "auto": "VC-1"
+      }
+    },
+    "VC|Perfectionist": {
+      "coping": {
+        "auto": "PF-2"
       },
       "origin": {
         "auto": "VC-1"
@@ -548,11 +606,10 @@
     "ABN|Catastrophizer": "ABN|Avenger",
     "ABN|Concealer": "ABN|Resigned",
     "ABN|Depender": "ABN|Clinger",
-    "ABN|Doomer": "ABN|Resigned",
+    "ABN|Doomer": "ABN|Ruminator",
     "ABN|Perfectionist": "ABN|Avenger",
     "ABN|Performer": "ABN|Avenger",
     "ABN|Ritualist": "ABN|Avenger",
-    "ABN|Ruminator": "ABN|Resigned",
     "ABN|Self-Punisher": "ABN|Resigned",
     "ABN|Self-Soother": "ABN|Detacher",
     "ABN|Sovereign": "ABN|Avenger",
@@ -562,13 +619,12 @@
     "ABN|Wall-of-Anger": "ABN|Avenger",
     "ABN|Watcher": "ABN|Avenger",
     "ALN|Avenger": "ALN|Wall-of-Anger",
-    "ALN|Caretaker": "ALN|Clinger",
     "ALN|Catastrophizer": "ALN|Fantasist",
     "ALN|Depender": "ALN|Clinger",
     "ALN|Detacher": "ALN|Avoider",
     "ALN|Doomer": "ALN|Resigned",
     "ALN|Perfectionist": "ALN|Fantasist",
-    "ALN|Pleaser": "ALN|Clinger",
+    "ALN|Pleaser": "ALN|Caretaker",
     "ALN|Ritualist": "ALN|Fantasist",
     "ALN|Ruminator": "ALN|Resigned",
     "ALN|Self-Punisher": "ALN|Resigned",
@@ -588,7 +644,7 @@
     "DEF|Pleaser": "DEF|Clinger",
     "DEF|Resigned": "DEF|Self-Punisher",
     "DEF|Ruminator": "DEF|Self-Punisher",
-    "DEF|Self-Reliant": "DEF|Avoider",
+    "DEF|Self-Reliant": "DEF|Concealer",
     "DEF|Self-Soother": "DEF|Detacher",
     "DEF|Striker": "DEF|Wall-of-Anger",
     "DEF|Thrill-Seeker": "DEF|Detacher",
@@ -604,46 +660,43 @@
     "ED|Resigned": "ED|Ruminator",
     "ED|Ritualist": "ED|Fantasist",
     "ED|Self-Reliant": "ED|Ruminator",
-    "ED|Sovereign": "ED|Performer",
     "ED|Striker": "ED|Avenger",
     "ED|Trickster": "ED|Avenger",
     "ED|Wall-of-Anger": "ED|Avenger",
     "ED|Watcher": "ED|Fantasist",
-    "FAI|Avenger": "FAI|Perfectionist",
     "FAI|Avoider": "FAI|Self-Reliant",
     "FAI|Caretaker": "FAI|Self-Punisher",
     "FAI|Clinger": "FAI|Self-Punisher",
     "FAI|Concealer": "FAI|Self-Reliant",
-    "FAI|Depender": "FAI|Self-Punisher",
+    "FAI|Depender": "FAI|Avenger",
     "FAI|Detacher": "FAI|Thrill-Seeker",
     "FAI|Doomer": "FAI|Self-Punisher",
     "FAI|Fantasist": "FAI|Perfectionist",
-    "FAI|Performer": "FAI|Perfectionist",
+    "FAI|Performer": "FAI|Avenger",
     "FAI|Pleaser": "FAI|Self-Punisher",
     "FAI|Resigned": "FAI|Self-Punisher",
     "FAI|Ruminator": "FAI|Self-Punisher",
     "FAI|Self-Soother": "FAI|Thrill-Seeker",
-    "FAI|Sovereign": "FAI|Perfectionist",
-    "FAI|Striker": "FAI|Self-Punisher",
-    "FAI|Trickster": "FAI|Perfectionist",
-    "FAI|Wall-of-Anger": "FAI|Perfectionist",
+    "FAI|Sovereign": "FAI|Avenger",
+    "FAI|Striker": "FAI|Avenger",
+    "FAI|Trickster": "FAI|Avenger",
+    "FAI|Wall-of-Anger": "FAI|Avenger",
     "FAI|Watcher": "FAI|Catastrophizer",
     "MB|Avenger": "MB|Trickster",
     "MB|Avoider": "MB|Self-Soother",
     "MB|Caretaker": "MB|Clinger",
     "MB|Catastrophizer": "MB|Watcher",
-    "MB|Doomer": "MB|Clinger",
     "MB|Fantasist": "MB|Sovereign",
     "MB|Perfectionist": "MB|Watcher",
     "MB|Pleaser": "MB|Clinger",
-    "MB|Resigned": "MB|Self-Soother",
+    "MB|Resigned": "MB|Doomer",
     "MB|Ritualist": "MB|Watcher",
-    "MB|Ruminator": "MB|Clinger",
-    "MB|Self-Punisher": "MB|Clinger",
-    "MB|Self-Reliant": "MB|Self-Soother",
+    "MB|Ruminator": "MB|Doomer",
+    "MB|Self-Punisher": "MB|Doomer",
+    "MB|Self-Reliant": "MB|Doomer",
     "MB|Thrill-Seeker": "MB|Self-Soother",
     "MB|Wall-of-Anger": "MB|Striker",
-    "POW|Avenger": "POW|Depender",
+    "POW|Avenger": "POW|Trickster",
     "POW|Avoider": "POW|Self-Reliant",
     "POW|Clinger": "POW|Caretaker",
     "POW|Concealer": "POW|Self-Reliant",
@@ -651,17 +704,16 @@
     "POW|Doomer": "POW|Pleaser",
     "POW|Fantasist": "POW|Watcher",
     "POW|Perfectionist": "POW|Watcher",
-    "POW|Performer": "POW|Watcher",
+    "POW|Performer": "POW|Trickster",
     "POW|Resigned": "POW|Self-Reliant",
     "POW|Ritualist": "POW|Watcher",
     "POW|Ruminator": "POW|Pleaser",
     "POW|Self-Punisher": "POW|Self-Reliant",
     "POW|Self-Soother": "POW|Self-Reliant",
-    "POW|Sovereign": "POW|Watcher",
-    "POW|Striker": "POW|Depender",
+    "POW|Sovereign": "POW|Trickster",
+    "POW|Striker": "POW|Trickster",
     "POW|Thrill-Seeker": "POW|Self-Reliant",
-    "POW|Trickster": "POW|Depender",
-    "POW|Wall-of-Anger": "POW|Depender",
+    "POW|Wall-of-Anger": "POW|Trickster",
     "VC|Avenger": "VC|Striker",
     "VC|Avoider": "VC|Doomer",
     "VC|Caretaker": "VC|Doomer",
@@ -669,16 +721,15 @@
     "VC|Concealer": "VC|Doomer",
     "VC|Depender": "VC|Striker",
     "VC|Detacher": "VC|Doomer",
-    "VC|Fantasist": "VC|Ritualist",
-    "VC|Perfectionist": "VC|Ritualist",
-    "VC|Performer": "VC|Ritualist",
+    "VC|Fantasist": "VC|Perfectionist",
+    "VC|Performer": "VC|Perfectionist",
     "VC|Pleaser": "VC|Doomer",
     "VC|Resigned": "VC|Doomer",
     "VC|Ruminator": "VC|Doomer",
     "VC|Self-Punisher": "VC|Doomer",
     "VC|Self-Reliant": "VC|Doomer",
     "VC|Self-Soother": "VC|Doomer",
-    "VC|Sovereign": "VC|Striker",
+    "VC|Sovereign": "VC|Perfectionist",
     "VC|Thrill-Seeker": "VC|Doomer",
     "VC|Trickster": "VC|Striker",
     "VC|Wall-of-Anger": "VC|Striker"

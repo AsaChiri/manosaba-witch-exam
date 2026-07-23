@@ -1,0 +1,38 @@
+{
+  "cell": "MB|Doomer",
+  "copingSub": "DM-1",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Doomer",
+  "tag": "MB-2_DM-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She told the stunt girl the one hope she still kept — that her mother was out there, looking for her. It was the first thing she had trusted anyone with in years.",
+          "After that, whenever the monitors showed an announcement, the same call came from the stunt girl — *it's your mother!* — and the same laughter down the corridor. She stopped hoping aloud; everything she said from then on was prediction: this will fail, that will end badly.",
+          "Most evenings the stunt girl rode the banister on the main stairs, filming each run on her phone. She had said more than once, flatly, that the banister would be the end of that girl.",
+          "That evening: another announcement, another *it's your mother!*, another round of laughter.",
+          "Minutes later she was standing at the foot of the stairs. The stunt girl pushed off above, phone in hand; at the newel post the witch spoke her no, and the grab found nothing. The ride went off the end head-first.",
+          "The stunt girl lay on the corridor floor below the last step, dead from the fall onto stone. The phone lay beside her, still filming.",
+          "She said she had come running with the others, after the fall.",
+          "The phone had filmed to the end. Its last frames showed the foot of the stairs: she was already there before the fall, facing the rider, lips parting, hands at her sides. The girls remembered whose forecasts always came to pass."
+        ],
+        "epitaph": "She asked once, and they laughed; everything she said after that was no.",
+        "epithet": "She Who Said No Before the World Could",
+        "execution": [
+          "She was bound in a seat at the center of the execution stand, facing the court. A bell-pull hung at her right hand.",
+          "Behind her, out of her sight, a ratchet arm tipped with a spike advanced toward the base of her skull whenever the bell was quiet; each ring reset it fully.",
+          "The bell was answered every time, without fail, for as long as she rang.",
+          "When the bell stayed quiet, the arm completed its travel."
+        ],
+        "magic": {
+          "name": "Nullword",
+          "text": "To a single act begun before her eyes she can say no, and that act fails to complete. One no, one act; only what she sees."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
