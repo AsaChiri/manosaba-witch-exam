@@ -79,22 +79,94 @@ const email = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'witch-exam-feedback@asac
 
 const hex = (n: number) => (n >>> 0).toString(16).padStart(8, '0')
 
+/** Compact "KEY:val KEY:val" score readout, sorted strongest-first (ties by
+ *  canonical key order) so a near-tie between the top two is visible at a glance. */
+const votes = (m: Record<string, number>): string =>
+  Object.entries(m)
+    .sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0))
+    .map(([k, v]) => `${k}:${v}`)
+    .join(' ')
+
 /**
  * Prefilled body: the visitor's free note, then an out-of-world technical block
- * that lets us reproduce the routing (design spec §6) — card shown, resolved
- * cell (pre-redirect → served), variant, version, and the raw answer sequence.
- * The answers are the replay key; the note beside them says they may be deleted.
+ * built for one job — answering "why did this person get a card that feels
+ * wrong?" from the mail alone, without re-running anything (design spec §6).
+ *
+ * It reads top-down as the resolution did. The OUTCOME (served tag + how far it
+ * fell back), then the RAW CONDITIONS behind it: the origin family with its
+ * per-family sums (a 4-vs-3 top-two is a near-tie, and a coin-flip is the usual
+ * "this isn't me" culprit); the coping style with its raw core votes plus
+ * whatever tiebreak/guard swung it and which stance block was entered; the cell
+ * redirect if one fired (the "original decided cell before redirect"); the
+ * pick-tail sub-variant that chose the exact tag inside the cell; and any
+ * anomaly flags. The answer line at the end replays it all and may be deleted.
  */
 function feedbackBody(): string {
   const d = props.result.debug
   const lines = [T('feedback.mailBody'), '', T('feedback.debugHeader')]
-  lines.push(`${T('feedback.debugCard')}: ${props.result.tag}`)
+
+  // Card + served-tag fallback distance (tier 0 = exact authored hit; higher =
+  // a neighbor tag stood in, itself a common "feels off" cause).
+  lines.push(`${T('feedback.debugCard')}: ${props.result.tag}${d ? ` · tier ${d.tier}` : ''}`)
+
   if (d) {
-    const route =
-      d.resolvedCell === d.landedCell ? d.resolvedCell : `${d.resolvedCell} → ${d.landedCell}`
-    lines.push(`${T('feedback.debugRouting')}: ${route} · v${d.variantIndex} · #${hex(d.answersHash)}`)
+    // Origin — resolved family (← runner-up it beat) · raw sums · M-pick counts.
+    const o = [d.originFamily]
+    if (d.originRunnerUp) o.push(`(← ${d.originRunnerUp})`)
+    const sums = votes(d.originSums)
+    if (sums) o.push(`· S ${sums}`)
+    const most = votes(d.originMostCounts)
+    if (most) o.push(`· most ${most}`)
+    lines.push(`${T('feedback.debugOrigin')}: ${o.join(' ')}`)
+
+    // Coping — style/stance · confidence (← runner-up) · raw core votes · which
+    // stance block was entered (with router votes + shadow) · tiebreak · guard.
+    const c = [`${d.copingStyle}/${d.copingStance}`]
+    c.push(`· ${d.copingConfidence}${d.copingRunnerUp ? ` (← ${d.copingRunnerUp})` : ''}`)
+    const core = votes(d.copingCoreTally)
+    if (core) c.push(`· core ${core}`)
+    if (d.enteredBlock) {
+      const sv = votes(d.stanceVotes)
+      c.push(`· entered ${d.enteredBlock}${sv ? ` (${sv})` : ''}`)
+      if (d.shadowStance) c.push(`shadow ${d.shadowStance}`)
+    }
+    if (d.tiebreak) {
+      c.push(
+        d.tiebreak.abstained || d.tiebreak.voted === null
+          ? `· tiebreak ${d.tiebreak.qid} (abstained)`
+          : `· tiebreak ${d.tiebreak.qid}→${d.tiebreak.voted}`,
+      )
+    }
+    if (d.guard) {
+      c.push(
+        d.guard.outcome === 'flip'
+          ? `· guard ${d.guard.qid} ${d.guard.from}→${d.guard.to}`
+          : `· guard ${d.guard.qid} (confirm)`,
+      )
+    }
+    lines.push(`${T('feedback.debugCoping')}: ${c.join(' ')}`)
+
+    // Cell routing — the pre-redirect cell → the cell actually served, when the
+    // neighbor table redirected; otherwise just the one cell.
+    lines.push(
+      `${T('feedback.debugRouting')}: ${
+        d.redirected ? `${d.resolvedCell} → ${d.landedCell} (redirect)` : d.landedCell
+      }`,
+    )
+
+    // Pick tail — the sub-variant pair (and group) that chose the served tag.
+    const picks = `${d.originPick} × ${d.copingPick}`
+    lines.push(
+      `${T('feedback.debugPicks')}: ${picks}${d.originGroup ? ` · group ${d.originGroup}` : ''}`,
+    )
+
+    if (d.flags.length) lines.push(`${T('feedback.debugFlags')}: ${d.flags.join(', ')}`)
   }
-  lines.push(`${T('feedback.debugVersion')}: ${props.locale} / q${props.quizVersion} / ${props.contentHash}`)
+
+  lines.push(
+    `${T('feedback.debugVersion')}: ${props.locale} / q${props.quizVersion} / ${props.contentHash}` +
+      (d ? ` · variant ${d.variantIndex} · #${hex(d.answersHash)}` : ''),
+  )
   if (d?.answers.length) {
     lines.push('', T('feedback.debugAnswersNote'), `${T('feedback.debugAnswers')}: ${d.answers.join(' ')}`)
   }

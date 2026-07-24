@@ -82,16 +82,69 @@ export interface ExamResult {
   debug?: ExamDebug
 }
 
+/**
+ * Everything the feedback triage needs to answer "why did this visitor get a
+ * card that feels wrong?" without re-running anything. The top of the block is
+ * the *outcome* (cell, redirect, served tag/variant); the rest is the *raw
+ * decision conditions* that produced it — the origin per-family sums and coping
+ * per-style votes behind each argmax (so a near-tie is visible as a near-tie),
+ * the stance routing, whatever tiebreak/guard swung the coping style, the
+ * pick-tail sub-variant that chose the exact tag within the cell, and any
+ * resolution anomaly flags. None of this is shown in-world.
+ */
 export interface ExamDebug {
   /** Raw cell "F|S" the hard-axes walk scored to, before any neighbor redirect. */
   resolvedCell: string
   /** Landed cell "F|S" after redirect; equals resolvedCell when none fired. */
   landedCell: string
+  /** Whether the neighbor redirect table moved resolvedCell → landedCell. */
+  redirected: boolean
   /** Served authored variant index. */
   variantIndex: number
+  /** How far the served tag sits from the picked pair in its cell (0 = exact
+   *  authored hit; higher = a neighbor fallback stood in — a prime "this isn't
+   *  me" cause even when the cell itself is right). */
+  tier: number
   /** FNV-1a fingerprint of the resolved answers (identifies the answer-set even
    *  if the reporter deletes the raw answers below). */
   answersHash: number
+
+  // ---- origin axis (which family — the dominant driver of card identity) ----
+  /** Resolved origin family and the runner-up it beat (top2[1]). */
+  originFamily: string
+  originRunnerUp: string | null
+  /** Per-family sums S — the raw argmax input; a 4-vs-3 top-two reads as a
+   *  near-tie here. Zero-score families are dropped. */
+  originSums: Record<string, number>
+  /** Per-family most-mine counts — the first origin tie-break key. */
+  originMostCounts: Record<string, number>
+
+  // ---- coping axis (which style) ----
+  /** Resolved style, its true stance, HIGH/MODERATE confidence, and runner-up. */
+  copingStyle: string
+  copingStance: string
+  copingConfidence: string
+  copingRunnerUp: string | null
+  /** Raw 3-vote core tally behind the style argmax (pre-tiebreak/guard). */
+  copingCoreTally: Record<string, number>
+  /** Stance routing: entered block, shadow, and the router votes behind them. */
+  stanceVotes: Record<string, number>
+  enteredBlock: string | null
+  shadowStance: string | null
+  /** The tiebreak that broke a core-tally tie (qid + voted style), if any. */
+  tiebreak?: { qid: string; voted: string | null; abstained: boolean } | null
+  /** The guard that confirmed or flipped the style (from → to), if any. */
+  guard?: { qid: string; outcome: string; from: string; to: string } | null
+
+  // ---- pick tail (which exact tag within the cell) ----
+  /** Sub-variant picks (origin × coping) that selected the served tag. */
+  originPick: string
+  copingPick: string
+  /** Two-stage origin group, when the cell routed through V.OGROUP. */
+  originGroup?: string
+
+  /** Resolution anomaly flags (filter violations, ml conflicts, degraded slots). */
+  flags: string[]
   /** Ordered answer option-ids — the exact input to replay the routing. */
   answers: string[]
 }

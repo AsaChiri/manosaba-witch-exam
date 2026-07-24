@@ -16,6 +16,8 @@ import {
   Pending,
   type Prepared,
   type AnswerMap,
+  type TieResolverRec,
+  type GuardRec,
 } from "./resolver.js";
 import { canonicalString, fnv1a32String } from "./hash.js";
 import { permute } from "./permute.js";
@@ -59,6 +61,33 @@ export interface ExamResult {
   variantIndex: number;
   answersHash: number;
   canonicalString: string;
+  /**
+   * Read-only walker internals for out-of-world diagnostics (feedback replay /
+   * "why this cell" triage). Never consumed by resolution, hashing, or the UI —
+   * pure reporting. The top-level fields above are the *outcome*; this block is
+   * the *raw conditions* that produced it: the per-family origin sums and the
+   * per-style coping votes behind each argmax, the stance routing, whatever
+   * tiebreak/guard fired, and any resolution anomaly flags.
+   */
+  diagnostics?: ExamDiagnostics;
+}
+
+export interface ExamDiagnostics {
+  /** K-ROUTE: stance-router votes and the entered/shadow coping stance blocks. */
+  stanceVotes: Record<string, number>;
+  enteredBlock: string | null;
+  shadowStance: string | null;
+  /** K-BLOCK: raw per-style core votes (3-vote tally, before any tiebreak/guard). */
+  coreTally: Record<string, number>;
+  /** K-TIE: the tiebreak that fired to break a 2-1 / 1-1-1 core tally, if any. */
+  tieResolver: TieResolverRec | null;
+  /** K-GUARD: the guard that confirmed or flipped the resolved style, if any. */
+  guard: GuardRec | null;
+  /** O-RESOLVE: per-family sums S (argmax input) and the M-pick tie-break counts. */
+  originSums: Record<string, number>;
+  originMostCounts: Record<string, number>;
+  /** Resolution anomalies (filter violations, ml conflicts, degraded new slots). */
+  flags: string[];
 }
 
 export interface CreateExamOptions {
@@ -347,6 +376,17 @@ class Session implements ExamSession {
     };
     if (redirect) result.redirectedCell = parseCellKey(landedKey);
     if (groupFired && chosenGroup) result.originGroup = chosenGroup;
+    result.diagnostics = {
+      stanceVotes: { ...w.stanceVotes },
+      enteredBlock: w.enteredBlock,
+      shadowStance: w.shadowStance,
+      coreTally: { ...w.coreTally },
+      tieResolver: w.tieResolver,
+      guard: w.guard,
+      originSums: { ...w.originSums },
+      originMostCounts: { ...w.originMostCounts },
+      flags: [...w.flags],
+    };
     return { kind: "done", result };
   }
 

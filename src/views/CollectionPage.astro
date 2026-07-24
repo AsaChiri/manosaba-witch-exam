@@ -34,10 +34,6 @@ for (const c of listCharacters(locale)) {
   characterCatalog[c.id] = { magicName: c.magicName, epithet: c.epithet, color: c.color }
 }
 
-// Special records are collectibles too: they count in the collected number,
-// so they belong in the revealed total — a bare figure that names nothing.
-const total = Object.keys(catalog).length + Object.keys(characterCatalog).length
-
 const seo = {
   routeKey: '/collection/',
   title: `${t(locale, 'collection.title')} · ${t(locale, 'meta.siteName')}`,
@@ -58,7 +54,6 @@ const seo = {
       client:only="vue"
       locale={locale}
       catalog={catalog}
-      total={total}
       characterCatalog={characterCatalog}
     />
   </main>

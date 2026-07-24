@@ -13,6 +13,7 @@ export {
   ExamError,
   type ExamSession,
   type ExamResult,
+  type ExamDiagnostics,
   type QuestionInstance,
   type CreateExamOptions,
   type Phase,

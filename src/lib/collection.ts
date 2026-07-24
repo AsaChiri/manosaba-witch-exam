@@ -22,14 +22,6 @@ interface StoredCollection {
   chars?: string[]
 }
 
-/**
- * At/above this many distinct collected cards, the archive stops hiding the
- * catalog total (design: hidden until you're a genuine collector). A plain
- * one-line knob — retune freely as the ~440-card corpus and real retake
- * behaviour settle. Read only by the collection island's reveal logic.
- */
-export const COLLECTOR_REVEAL_THRESHOLD = 12
-
 function loadStore(): StoredCollection | null {
   try {
     const raw = localStorage.getItem(COLLECTION_KEY)

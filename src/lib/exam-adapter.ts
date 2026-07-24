@@ -48,6 +48,14 @@ const PHASE_MAP: Record<EnginePhase, ExamPhase> = {
   picks: 'match',
 }
 
+/** Drop zero-score entries so the feedback block shows only families that
+ *  actually moved (the origin sum/most maps carry a slot for every family). */
+function nonZero(m: Record<string, number>): Record<string, number> {
+  const out: Record<string, number> = {}
+  for (const [k, v] of Object.entries(m)) if (v !== 0) out[k] = v
+  return out
+}
+
 // Nominal sizes for the resonance gauge. Origin is derived per-package from the
 // real block count (see estTotal); coping length is captured at runtime once the
 // walk crosses into origin; only the short pick tail (0..3) is estimated.
@@ -174,6 +182,7 @@ export class RealExamSession implements ExamSession {
     if (!this.view.done || this.view.inconclusive) return null
     const r: EngineResult = this.engine.result()
     const landed = r.redirectedCell ?? r.cell
+    const dg = r.diagnostics
     return {
       tag: r.tag,
       cell: `${landed.family}|${landed.style}`,
@@ -184,8 +193,39 @@ export class RealExamSession implements ExamSession {
       debug: {
         resolvedCell: `${r.cell.family}|${r.cell.style}`,
         landedCell: `${landed.family}|${landed.style}`,
+        redirected: r.redirectedCell !== undefined,
         variantIndex: r.variantIndex,
+        tier: r.tier,
         answersHash: r.answersHash,
+        // origin axis
+        originFamily: r.family,
+        originRunnerUp: r.top2[1] ?? null,
+        originSums: nonZero(dg?.originSums ?? {}),
+        originMostCounts: nonZero(dg?.originMostCounts ?? {}),
+        // coping axis
+        copingStyle: r.style,
+        copingStance: r.trueStance,
+        copingConfidence: r.confidence,
+        copingRunnerUp: r.runnerUp,
+        copingCoreTally: dg?.coreTally ?? {},
+        stanceVotes: dg?.stanceVotes ?? {},
+        enteredBlock: dg?.enteredBlock ?? null,
+        shadowStance: dg?.shadowStance ?? null,
+        tiebreak: dg?.tieResolver
+          ? {
+              qid: dg.tieResolver.qid,
+              voted: dg.tieResolver.voted,
+              abstained: dg.tieResolver.abstained ?? false,
+            }
+          : null,
+        guard: dg?.guard
+          ? { qid: dg.guard.qid, outcome: dg.guard.outcome, from: dg.guard.from, to: dg.guard.to }
+          : null,
+        // pick tail
+        originPick: r.picks.o,
+        copingPick: r.picks.c,
+        originGroup: r.originGroup,
+        flags: dg?.flags ?? [],
         answers: [...this.log],
       },
     }

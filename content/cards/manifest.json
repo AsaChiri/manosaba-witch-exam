@@ -125,6 +125,19 @@
       "family": "ABN",
       "style": "Self-Reliant"
     },
+    "ABN|Striker": {
+      "authoredTags": [
+        "ABN-1_ST-2"
+      ],
+      "coveredCoping": [
+        "ST-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Striker"
+    },
     "ALN|Avoider": {
       "authoredTags": [
         "ALN-1_AV-1"
@@ -957,6 +970,19 @@
       "family": "VC",
       "style": "Doomer"
     },
+    "VC|Fantasist": {
+      "authoredTags": [
+        "VC-1_FA-4"
+      ],
+      "coveredCoping": [
+        "FA-4"
+      ],
+      "coveredOrigin": [
+        "VC-1"
+      ],
+      "family": "VC",
+      "style": "Fantasist"
+    },
     "VC|Perfectionist": {
       "authoredTags": [
         "VC-1_PF-2"
@@ -1113,6 +1139,19 @@
       ],
       "originSub": "ABN-1",
       "tag": "ABN-1_RU-1",
+      "variants": 1
+    },
+    "ABN-1_ST-2": {
+      "cell": "ABN|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_ST-2",
       "variants": 1
     },
     "ABN-6_AG-1": {
@@ -1971,6 +2010,19 @@
       ],
       "originSub": "VC-1",
       "tag": "VC-1_DM-1",
+      "variants": 1
+    },
+    "VC-1_FA-4": {
+      "cell": "VC|Fantasist",
+      "copingSub": "FA-4",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "VC-1",
+      "tag": "VC-1_FA-4",
       "variants": 1
     },
     "VC-1_PF-2": {

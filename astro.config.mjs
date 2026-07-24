@@ -13,7 +13,16 @@ const SITE = process.env.PUBLIC_SITE_URL || 'https://manosaba-witch-exam.asachir
 // `zh-tw` (it becomes the `/zh-tw/` segment); our catalog key is `zh-TW`.
 export default defineConfig({
   site: SITE,
-  trailingSlash: 'always',
+  // 'ignore', not 'always': the /data/ card+character endpoints are file routes
+  // (…/<tag>.json). With 'always', `astro dev` only matches them WITH a trailing
+  // slash and hard-404s the slash-less URL the island actually fetches — so the
+  // result screen silently falls back to "no record" in dev. Built output is
+  // unaffected either way (real .json files served at their literal path), and
+  // 'ignore' leaves generated URLs identical: pages still emit at /exam/index.html
+  // (build.format 'directory') and the sitemap still appends the trailing slash
+  // (only 'never'/format:'file' drop it). It only relaxes the dev router to match
+  // how the static host serves files.
+  trailingSlash: 'ignore',
   build: { format: 'directory' },
   i18n: {
     defaultLocale: 'zh-cn',

@@ -1,0 +1,37 @@
+{
+  "cell": "VC|Fantasist",
+  "copingSub": "FA-4",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Fantasist",
+  "tag": "VC-1_FA-4",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Before the island there had been a fire, and she told it as the story of her rescue. One girl knew the truth: she had rescued no one — she had only been lucky, and the rest had burned. The girl had said so before, and that day said so again in front of the others.",
+          "That evening she gathered the girls in the water-spirit room for a tale about a shipwreck.",
+          "Behind the folding screen, the girl was in the deep tub — brought in on the warden's permission for her wash day and filled to the brim. The tub's heavy cover stood propped open above her, held by a cord that ran across the brazier's coals; its far end was tied to the frame of the folding screen.",
+          "As she told the storm, the cord burned through over the coals. The cover fell shut over the tub and latched flush with the water — no air beneath it. The girl's thrashing and cry came through the screen, and the girls heard the storm.",
+          "She told the tale to its end. The girl drowned beneath the cover, and the girls remembered only a good story.",
+          "Afterward every retelling agreed: a groan, a cry, a rush of water — the sounds of the drowning, in its order. A story does not match a death beat for beat by chance.",
+          "The cord that held the cover had been cut from the folding screen's own ties. The girls had seen her setting that screen before the gathering."
+        ],
+        "epitaph": "She had a story for every disaster but the last.",
+        "epithet": "She Who Gave the Fire a Hero",
+        "execution": [
+          "An iron ring stood around her at the center of the stand. The warden bade her tell.",
+          "She told. The ring began to close, and it made no sound.",
+          "She went on telling. The ring gave no creak, no groan — not a sound. Every eye in the court watched it tighten.",
+          "It drew against her ribs and kept closing, soundless, until her chest could no longer rise."
+        ],
+        "magic": {
+          "name": "the Telling",
+          "text": "The Telling — While she narrates aloud to listeners, any real sound whose like is already in her story is heard as part of it; only sounds, not sights."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

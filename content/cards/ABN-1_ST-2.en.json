@@ -1,0 +1,38 @@
+{
+  "cell": "ABN|Striker",
+  "copingSub": "ST-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Striker",
+  "tag": "ABN-1_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her cell was the solo one; her friend's was next door, a stone wall between them. After the night lock, they knocked each other goodnight through the shared wall — two taps and two knocked back. Nightly, for months.",
+          "Her friend began spending free evenings in another girl's cell down the corridor — slipped in when no guard was looking, back just before the lock. She knocked goodnight; no knock came back.",
+          "Just before the lock that evening, her friend stepped out of the other girl's cell and tapped the double-knock on that cell's door bars. She watched from her own door.",
+          "The next evening — her friend at the other girl's cell, her friend's cellmate in the lounge — she slipped into her friend's empty cell and struck one blow into the shared wall, at the spot where the goodnight was always knocked. She stepped out; a girl passing the cells saw her leave.",
+          "The night lock. Her friend at the bunk, hand to the wall at the old goodnight spot — one knock. The blow fell out of the wall into the friend's chest at full force; the friend dropped at the head of the bunk. The cellmate, in the dark, heard one knock, one heavy blow, the fall.",
+          "Morning unlock: her friend lay dead beneath the goodnight spot. A single crushing blow to the chest, and nothing in the cell could account for it. The door had been locked from the outside all night.",
+          "The blow was past any bare hand's force; the cellmate cleared. The cell locked from the outside, nothing inside to swing — a blow left waiting. The heard order, knock then blow then fall — the blow met the friend at her own knock.",
+          "The wall tested ordinary under every later touch — a lodged blow spends itself in one landing; the unmarked wall was the spent weapon. Lodging is done by hand, in person; she was seen stepping out of the friend's empty cell that evening. The blow had waited at the spot where the friend knocked goodnight to her."
+        ],
+        "epitaph": "She threw the first blow at every leaving. The only one that ever came back for her was her own.",
+        "epithet": "She Who Strikes Before",
+        "execution": [
+          "A post rose on the execution stand. She was bound to it upright, one arm left free; before the free hand, a strike-plate.",
+          "Behind the plate, a heavy iron arm was drawn back on a spring, its catch tied to the plate.",
+          "Beside the catch, a slow clockwork of gears was walking it loose on its own, tooth by tooth.",
+          "She struck the plate. The catch freed, and the drawn arm swung through where she stood and took her across the chest."
+        ],
+        "magic": {
+          "name": "Forefist",
+          "text": "When she strikes a thing, the blow lodges where her fist landed. The first to disturb that spot takes the full force of the blow, and the thing is ordinary again."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

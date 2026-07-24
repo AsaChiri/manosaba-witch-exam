@@ -87,6 +87,14 @@
       "ABN-4|SR-1": 0
     }
   },
+  "ABN|Striker": {
+    "table": {
+      "ABN-1|ST-2": "ABN-1_ST-2"
+    },
+    "tiers": {
+      "ABN-1|ST-2": 0
+    }
+  },
   "ALN|Avoider": {
     "table": {
       "ALN-1|AV-1": "ALN-1_AV-1"
@@ -633,6 +641,14 @@
     },
     "tiers": {
       "VC-1|DM-1": 0
+    }
+  },
+  "VC|Fantasist": {
+    "table": {
+      "VC-1|FA-4": "VC-1_FA-4"
+    },
+    "tiers": {
+      "VC-1|FA-4": 0
     }
   },
   "VC|Perfectionist": {

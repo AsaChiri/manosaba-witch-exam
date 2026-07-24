@@ -2,19 +2,15 @@
 /*
  * The archive (design: unadvertised collection page). A client-only island
  * because the collected-TAG set lives only in this device's localStorage.
- * Renders the subset of the authored catalog the visitor has reached; hides the
- * catalog total until they're a genuine collector (COLLECTOR_REVEAL_THRESHOLD).
+ * Renders the subset of the authored catalog the visitor has reached; the
+ * catalog total is never shown (the archive is a keepsake, not a checklist).
  *
  * Content-lean: the trimmed `catalog` (title + epithet per tag) arrives as a
  * prop from the server — the island never imports the content layer. Each tile
  * links to the existing card page with the #collector flag (which suppresses
  * that page's newcomer CTA and shows a return link instead).
  */
-import {
-  loadCollected,
-  loadCollectedCharacters,
-  COLLECTOR_REVEAL_THRESHOLD,
-} from '../../lib/collection'
+import { loadCollected, loadCollectedCharacters } from '../../lib/collection'
 import { t } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
 // rose-window is pure geometry (no content import) — the island stays content-lean
@@ -33,7 +29,6 @@ interface CharacterEntry {
 const props = defineProps<{
   locale: Locale
   catalog: Record<string, Entry>
-  total: number
   characterCatalog: Record<string, CharacterEntry>
 }>()
 const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k, p)
@@ -45,7 +40,7 @@ const tags = loadCollected()
 
 /* Special character records (§3.7) — rendered ONLY once at least one is
  * collected. The section (and that the set exists at all) is never advertised
- * beforehand, consistent with the archive's hidden-total design. */
+ * beforehand. */
 const chars = loadCollectedCharacters()
   .filter((id) => props.characterCatalog[id])
   .reverse()
@@ -54,7 +49,6 @@ const chars = loadCollectedCharacters()
 // special-only collector (character cell with no normal card) isn't shown
 // the empty state.
 const count = tags.length + chars.length
-const revealed = count >= COLLECTOR_REVEAL_THRESHOLD
 
 function href(tag: string): string {
   return localePath(props.locale, `/r/${tag}/`) + '#collector'
@@ -83,10 +77,7 @@ function charWindow(id: string): string {
     </header>
 
     <template v-if="count > 0">
-      <p class="collection__count">
-        {{ revealed ? T('collection.countTotal', { count, total }) : T('collection.count', { count }) }}
-      </p>
-      <p v-if="revealed" class="collection__collector">{{ T('collection.collectorNote', { total }) }}</p>
+      <p class="collection__count">{{ T('collection.count', { count }) }}</p>
 
       <ul v-if="tags.length > 0" class="collection__grid">
         <li v-for="tag in tags" :key="tag">
@@ -154,12 +145,6 @@ function charWindow(id: string): string {
   font-family: var(--font-instrument);
   letter-spacing: 0.08em;
   color: var(--witch-violet);
-}
-.collection__collector {
-  margin-top: 0.4rem;
-  color: var(--bone-dim);
-  font-family: var(--font-body);
-  font-style: var(--font-style-em);
 }
 .collection__grid {
   list-style: none;

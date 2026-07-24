@@ -85,6 +85,14 @@
         "auto": "ABN-4"
       }
     },
+    "ABN|Striker": {
+      "coping": {
+        "auto": "ST-2"
+      },
+      "origin": {
+        "auto": "ABN-1"
+      }
+    },
     "ALN|Avoider": {
       "coping": {
         "auto": "AV-1"
@@ -616,6 +624,14 @@
         "auto": "VC-1"
       }
     },
+    "VC|Fantasist": {
+      "coping": {
+        "auto": "FA-4"
+      },
+      "origin": {
+        "auto": "VC-1"
+      }
+    },
     "VC|Perfectionist": {
       "coping": {
         "auto": "PF-2"
@@ -669,10 +685,9 @@
     "ABN|Self-Punisher": "ABN|Resigned",
     "ABN|Self-Soother": "ABN|Detacher",
     "ABN|Sovereign": "ABN|Avenger",
-    "ABN|Striker": "ABN|Avenger",
     "ABN|Thrill-Seeker": "ABN|Detacher",
     "ABN|Trickster": "ABN|Avenger",
-    "ABN|Wall-of-Anger": "ABN|Avenger",
+    "ABN|Wall-of-Anger": "ABN|Striker",
     "ABN|Watcher": "ABN|Avenger",
     "ALN|Avenger": "ALN|Wall-of-Anger",
     "ALN|Catastrophizer": "ALN|Fantasist",
@@ -771,15 +786,14 @@
     "VC|Concealer": "VC|Thrill-Seeker",
     "VC|Depender": "VC|Striker",
     "VC|Detacher": "VC|Thrill-Seeker",
-    "VC|Fantasist": "VC|Perfectionist",
-    "VC|Performer": "VC|Perfectionist",
+    "VC|Performer": "VC|Fantasist",
     "VC|Pleaser": "VC|Doomer",
     "VC|Resigned": "VC|Doomer",
     "VC|Ruminator": "VC|Doomer",
     "VC|Self-Punisher": "VC|Doomer",
     "VC|Self-Reliant": "VC|Thrill-Seeker",
     "VC|Self-Soother": "VC|Thrill-Seeker",
-    "VC|Sovereign": "VC|Perfectionist",
+    "VC|Sovereign": "VC|Fantasist",
     "VC|Trickster": "VC|Striker",
     "VC|Wall-of-Anger": "VC|Striker"
   }
