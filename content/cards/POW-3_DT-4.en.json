@@ -1,0 +1,38 @@
+{
+  "cell": "POW|Detacher",
+  "copingSub": "DT-4",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-3",
+  "style": "Detacher",
+  "tag": "POW-3_DT-4",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "One girl brokered her hands. When the prison's small tasks first piled too high for her to start, the broker sorted the pile — and ran her days from then on: each task handed her one at a time, named, told, never asked. The pile never stood before her again.",
+          "Girls asked the broker; their tasks fell to her, the favors owed to the broker, who traded them for goods and sent her to fetch what was traded. The supper-clearing of the dining hall had been hers alone for months, its clatter the hall's known evening sound; each evening she carried the day's goods down to the broker's cell, where the broker knelt at an under-bunk box before the lock-call, sorting what came in. One hour the broker's parceling always left empty: dusk at the fountain rim, where she sat alone.",
+          "At the midday meal that day, the broker traded that hour too — promised it to another girl for a favor owed back: she only sits at the water. She said nothing.",
+          "At supper's end a plate went over; the shards were left on the table for the clearing, as always. The hall emptied; she set the clearing running — her power, spent for the first time — and the clatter went on: to anyone passing, she was still at the clearing. She took up the delivery basket, the great pot's iron lid inside it under the worn rags.",
+          "Down the stairs among the evening foot-traffic; a girl passed her on the way, the usual basket on her arm. In the cell the broker knelt at the box, back turned, sorting. One two-handed blow of the lid, through the rags, to the broker's lowered head; she put the lid back in the basket under the rags.",
+          "Up to the shower room, where the hall's worn rags go down the chute some evenings; the bundle went in. She came back to the hall and stood at her work as the round ran out.",
+          "At the lock-call the broker's cellmate came back from the lounge and found her collapsed at the box; the alarm ran the corridor before the doors closed. In the cleared hall the broken plate's shards stood stacked among the whole bowls; the service count found the great pot's iron lid missing.",
+          "Her account: the delivery as on every evening, the broker alive when she left, the week's rags down the chute, the clearing hers from supper to the lock-call. The Monday burn was days off; the rag-bundle was found in the incinerator room, and inside it the lid, dark at the rim. At the girls' demand she stood before the court and set the clearing round running in the dining hall; the girls sent to the hall watched it work with no one at it — blind, as practiced — so the clearing had placed no one anywhere, and the alibi she had built no longer stood."
+        ],
+        "epitaph": "She took one hour back for herself, and no one saw her life in it.",
+        "epithet": "She Who Lived No Hour of Her Own",
+        "execution": [
+          "Burner-mouths ringed the stand's rim at its quarters; she was bound upright at the center post.",
+          "A jet of flame crossed the stand from one quarter, then another from a direction she had not been watching. No two fell on the same beat.",
+          "She flinched at each one.",
+          "The burns accumulated until she hung slack against the post's bindings."
+        ],
+        "magic": {
+          "name": "the Absent Hand",
+          "text": "The Absent Hand — A round of handwork she has served for weeks in one place, she can set running in its place. It works as her hands always have, on what it finds."
+        }
+      },
+      "variant": 4
+    }
+  ]
+}

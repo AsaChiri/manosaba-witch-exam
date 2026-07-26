@@ -1,0 +1,38 @@
+{
+  "cell": "ED|Concealer",
+  "copingSub": "CO-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Concealer",
+  "tag": "ED-1_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at dusk the girls stepped out through the lounge door for their turn through the courtyard — the fountain, the paths, back in — and from the railing above the courtyard, a row watched while the caller named each one below by the walk alone. She stood in the row at the caller's elbow every evening for months.",
+          "This evening she went down and took the turn herself. The caller watched her the whole way out and back and asked the row who that was.",
+          "At the game's tail — the light going, the row gone down — the caller stayed leaning out over the rail for the last girl below. The caller named her; the girl went in at the lounge door; the courtyard stood empty. She took the caller at the knees and sent her over the railing headfirst to the stones.",
+          "She came down through the lounge and stepped out at the courtyard door. One stoop, one touch — and where the caller lay, a sweeper's pile of leaves. Back in at the same door, among the others.",
+          "All evening the courtyard stayed open — girls at the fountain, on the paths, along the rail above. Every eye passed the pile. One girl sat filming her friends at the fountain in the last light; on her screen, too, only leaves at the edge of the frame.",
+          "Before the lock-in count she lifted the seeming from the lounge. The count came up one short, and the search found the caller on the courtyard stones under the rail — not one leaf where every girl remembered a pile. The death was taken for a fall of the last half hour.",
+          "The clip from the fountain, played back, kept the true look: the caller on the stones where every memory held leaves. The stones had been clear when the last girl went in; the pile appeared by full dark; no sweeping duty, no barrow claimed it — the pile had been the caller, under a seeming lifted for the finding. The death belonged to dusk, not to the last half hour.",
+          "The row left two alone at the rail. The last girl below waved up at both before going in; a girl by the lounge door saw her step out and back in — the lull's only use of the courtyard's one door. In the believed half hour she sat in the lounge, surrounded; in the true hour, alone with the caller at the rail."
+        ],
+        "epitaph": "She knew what no room would look at twice. She had been it all her life.",
+        "epithet": "The One No Eye Would Keep",
+        "execution": [
+          "At the center of the stand a board stood upright, its face lined with felt. An iron armature faced the board — rows of long pins, the longest at the center.",
+          "She was set against the felt. The armature advanced.",
+          "The outer pins went home first — through cloth and hair, fixing her flat to the board. The rows walked inward: sleeve, hem, collar.",
+          "The center pin drove through her chest and into the board."
+        ],
+        "magic": {
+          "name": "the Seeming",
+          "text": "The Seeming — With a touch she lays a seeming on a thing — never a living body — and to every eye it is the ordinary thing she chose, until she lifts it from wherever she stands. A recording keeps the true look."
+        }
+      },
+      "variant": 2
+    }
+  ]
+}

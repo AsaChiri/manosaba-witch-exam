@@ -1,0 +1,39 @@
+{
+  "cell": "MB|Avoider",
+  "copingSub": "AV-2",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Avoider",
+  "tag": "MB-2_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She never went near the lake, and took the long way whenever it came up in talk. Once, she told the whisperer the reason: her sister had drowned holding her hand.",
+          "At dinner she watched it travel. The whisperer leaned to the girl beside her, and the story ran the length of the table, head to head, each one glancing back at her as it passed.",
+          "She gave no answer — changed seats, changed routes, was never where the whisperer was. No one would confirm the story; the whisperer, a girl who always led with her hands, came after her again and again to make her say it herself.",
+          "That day the whisperer told her, in front of the others: confirm it that evening, or she would tell the whole table again. At dusk she stopped keeping clear — went to the upper hall, stood at the iron railing above the courtyard, back to the rail, and waited where the whisperer would pass.",
+          "The whisperer found her and shoved — both hands, full weight. The shove met nothing where she stood. The railing caught the whisperer at the hips.",
+          "The whisperer lay on the courtyard stone below. From the courtyard a girl had seen it against the evening sky: the whisperer at the railing, arms out toward someone — then over, alone.",
+          "Her account was that she had already gone into the library before the cry. The girl shelving inside said the door opened a breath after it, and she came in quick and unsettled.",
+          "A shove that lands sends the one shoved over the rail. A shove that meets nothing sends the one who shoved. The whisperer went over mid-shove, at the spot where the other figure stood and was not carried — and the girl who entered the library a breath after the cry came by the only door, from the upper hall with the railing."
+        ],
+        "epitaph": "Everything thrown at her missed; what found her was never thrown.",
+        "epithet": "She Who Lived a Half-Step Aside",
+        "execution": [
+          "An iron plate sat level on the execution stand, rimmed to the waist with a smooth wall.",
+          "She stood on it, unbound. The plate began to warm, everywhere at once, by even degrees.",
+          "She could go where she chose. Every step led to the same floor.",
+          "The heat rose through the hours until she could no longer keep her feet.",
+          "She went down onto the plate, and nothing on it moved after that."
+        ],
+        "magic": {
+          "name": "the Certain Miss",
+          "text": "Anything aimed at her passes through the place she stood; she is always a half-step beside it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

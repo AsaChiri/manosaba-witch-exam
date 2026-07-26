@@ -47,6 +47,19 @@
       "family": "ABN",
       "style": "Clinger"
     },
+    "ABN|Depender": {
+      "authoredTags": [
+        "ABN-1_DP-2"
+      ],
+      "coveredCoping": [
+        "DP-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Depender"
+    },
     "ABN|Detacher": {
       "authoredTags": [
         "ABN-1_DT-2"
@@ -244,6 +257,19 @@
       "family": "ALN",
       "style": "Resigned"
     },
+    "ALN|Self-Punisher": {
+      "authoredTags": [
+        "ALN-5_SP-2"
+      ],
+      "coveredCoping": [
+        "SP-2"
+      ],
+      "coveredOrigin": [
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Self-Punisher"
+    },
     "ALN|Self-Reliant": {
       "authoredTags": [
         "ALN-1_SR-1"
@@ -282,6 +308,19 @@
       ],
       "family": "DEF",
       "style": "Avoider"
+    },
+    "DEF|Catastrophizer": {
+      "authoredTags": [
+        "DEF-3_CA-1"
+      ],
+      "coveredCoping": [
+        "CA-1"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Catastrophizer"
     },
     "DEF|Clinger": {
       "authoredTags": [
@@ -450,6 +489,19 @@
       "family": "ED",
       "style": "Avoider"
     },
+    "ED|Concealer": {
+      "authoredTags": [
+        "ED-1_CO-1"
+      ],
+      "coveredCoping": [
+        "CO-1"
+      ],
+      "coveredOrigin": [
+        "ED-1"
+      ],
+      "family": "ED",
+      "style": "Concealer"
+    },
     "ED|Doomer": {
       "authoredTags": [
         "ED-1_DM-1"
@@ -589,6 +641,19 @@
       "family": "FAI",
       "style": "Avenger"
     },
+    "FAI|Caretaker": {
+      "authoredTags": [
+        "FAI-6_CT-1"
+      ],
+      "coveredCoping": [
+        "CT-1"
+      ],
+      "coveredOrigin": [
+        "FAI-6"
+      ],
+      "family": "FAI",
+      "style": "Caretaker"
+    },
     "FAI|Catastrophizer": {
       "authoredTags": [
         "FAI-1_CA-1"
@@ -681,6 +746,19 @@
       ],
       "family": "FAI",
       "style": "Trickster"
+    },
+    "MB|Avoider": {
+      "authoredTags": [
+        "MB-2_AV-2"
+      ],
+      "coveredCoping": [
+        "AV-2"
+      ],
+      "coveredOrigin": [
+        "MB-2"
+      ],
+      "family": "MB",
+      "style": "Avoider"
     },
     "MB|Clinger": {
       "authoredTags": [
@@ -878,6 +956,19 @@
       ],
       "family": "POW",
       "style": "Depender"
+    },
+    "POW|Detacher": {
+      "authoredTags": [
+        "POW-3_DT-4"
+      ],
+      "coveredCoping": [
+        "DT-4"
+      ],
+      "coveredOrigin": [
+        "POW-3"
+      ],
+      "family": "POW",
+      "style": "Detacher"
     },
     "POW|Pleaser": {
       "authoredTags": [
@@ -1089,6 +1180,19 @@
       "tag": "ABN-1_CT-3",
       "variants": 1
     },
+    "ABN-1_DP-2": {
+      "cell": "ABN|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_DP-2",
+      "variants": 1
+    },
     "ABN-1_DT-2": {
       "cell": "ABN|Detacher",
       "copingSub": "DT-2",
@@ -1297,6 +1401,19 @@
       "tag": "ALN-1_WA-3",
       "variants": 1
     },
+    "ALN-5_SP-2": {
+      "cell": "ALN|Self-Punisher",
+      "copingSub": "SP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_SP-2",
+      "variants": 1
+    },
     "ALN-7_CL-2": {
       "cell": "ALN|Clinger",
       "copingSub": "CL-2",
@@ -1334,6 +1451,19 @@
       ],
       "originSub": "DEF-3",
       "tag": "DEF-3_AV-2",
+      "variants": 1
+    },
+    "DEF-3_CA-1": {
+      "cell": "DEF|Catastrophizer",
+      "copingSub": "CA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_CA-1",
       "variants": 1
     },
     "DEF-3_CL-2": {
@@ -1464,6 +1594,19 @@
       ],
       "originSub": "ED-1",
       "tag": "ED-1_AG-1",
+      "variants": 1
+    },
+    "ED-1_CO-1": {
+      "cell": "ED|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_CO-1",
       "variants": 1
     },
     "ED-1_DM-1": {
@@ -1739,6 +1882,19 @@
       "tag": "FAI-5_TS-1",
       "variants": 1
     },
+    "FAI-6_CT-1": {
+      "cell": "FAI|Caretaker",
+      "copingSub": "CT-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-6",
+      "tag": "FAI-6_CT-1",
+      "variants": 1
+    },
     "MB-10_WT-2": {
       "cell": "MB|Watcher",
       "copingSub": "WT-2",
@@ -1750,6 +1906,19 @@
       ],
       "originSub": "MB-10",
       "tag": "MB-10_WT-2",
+      "variants": 1
+    },
+    "MB-2_AV-2": {
+      "cell": "MB|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-2",
+      "tag": "MB-2_AV-2",
       "variants": 1
     },
     "MB-2_DM-1": {
@@ -1984,6 +2153,19 @@
       ],
       "originSub": "POW-3",
       "tag": "POW-3_DP-2",
+      "variants": 1
+    },
+    "POW-3_DT-4": {
+      "cell": "POW|Detacher",
+      "copingSub": "DT-4",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "POW-3",
+      "tag": "POW-3_DT-4",
       "variants": 1
     },
     "VC-1_CA-1": {

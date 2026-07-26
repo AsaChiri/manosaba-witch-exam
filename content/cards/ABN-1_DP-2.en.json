@@ -1,0 +1,38 @@
+{
+  "cell": "ABN|Depender",
+  "copingSub": "DP-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Depender",
+  "tag": "ABN-1_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She never chose where she was going, but anyone had only to rise to leave and she would name the place. The others found it charming.",
+          "Her friend kept a life apart — every so often slipping away with no word of where, always careful to leave unseen. What she did not see she could not read, and she had never caught the going.",
+          "One place her friend guarded above all: a quiet corner by the cherry tree in the library, told to no one.",
+          "That morning she asked for the first time — stay, just this once, give me one hour. Her friend laced her shoes and rose to go anyway. In that setting-out — the first she had seen — she read the corner.",
+          "She was there first. When her friend arrived, she struck her once with a flat stone off the rim of the planter.",
+          "Her friend lay dead in the corner — the place no one else knew.",
+          "Among her friend's things, a hidden journal. The corner had been kept a close secret — told to no living soul. Yet someone had already been waiting in it.",
+          "That morning a girl saw her friend slip off by a roundabout way, and minutes later saw her on the stairs going straight up — the library's direct route. Her friend's way was the long one; hers the short. She reached the corner first — not following, but going straight to a place already known."
+        ],
+        "epitaph": "She knew where everyone was bound — never where she was — and no one was bound for her.",
+        "epithet": "She Who Knew Where Everyone Was Bound",
+        "execution": [
+          "An iron traveling-coach stood free-wheeled on the stand, its cabin door open. Its term, stated by the warden: the coach carries its rider to wherever she is bound, and its door opens again only on arrival.",
+          "She was strapped to the cabin seat; through the glass panes the whole court could see her. The door swung to and latched airtight of itself.",
+          "The coach waited on its rider's destination. She gave it nothing to roll toward.",
+          "It stood the whole session where it first stood — wheels never once turned, door still latched. Inside, slack against the straps, her breath had gone with the air."
+        ],
+        "magic": {
+          "name": "Waysight",
+          "text": "A glance at anyone setting out gives her their destination, place-certain."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

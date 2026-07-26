@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Catastrophizer",
+  "tag": "DEF-3_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her nights were spent rehearsing — the blaze, the drop, the door that stays shut — each disaster drilled through until her body knew it the way it knows yesterday.",
+          "At dusk she walked with the girl to the forest's edge for berries. A sweet bush and its poisonous twin grew wound through each other in one stand, their fruit identical; the leaf was the only difference, and legible only in good light. The lore was common among the girls: the twin's berries bring heaviness first, then a sleep no one wakes from.",
+          "On those walks — the girl just ahead, trusting, unaware — the thought crossed her: what if the handful were the twin's. One evening the girl recounted a dream, laughing — fed the wrong berries by her, of all people. They both laughed.",
+          "That night her rehearsal took a new shape: the twin's heaviness, the slide under, the body that does not stir. She drilled it until that death was as familiar as yesterday's. Days later, alone in full afternoon light, she crouched at the stand, read the leaves, and knotted two low twigs at the killer twin's base.",
+          "On the next dusk walk her fingers closed on the knot. She picked a handful from the marked bush and shared it with the girl on the way back; the girls at the flower field's edge saw them pass, the berries between them. She ate her share. The girl turned in early, heavy, and did not wake.",
+          "At the six-o'clock unlock the cellmate found the girl cold in the lower bunk. The first reading was the lore's own lesson — a pick gone wrong at dusk, the leaves unseen. Asked, she said it plainly: the handful had been picked in failing light; she had eaten from it too; the twin's death had long been among her rehearsals, and her body had refused it.",
+          "At first light girls walked to the stand. The picked stems were the twin's, and two twigs at its base were knotted together; the lake-path girl recalled her crouched there alone in full daylight, days before. The girls drew the line: whoever knotted the twin's base could not mispick it at dusk — the handful was chosen, and by her own word her body was safe from those berries before she ever picked them."
+        ],
+        "epitaph": "She had pre-lived every ending but her own.",
+        "epithet": "She Who Survived It All in Advance",
+        "execution": [
+          "A sealed iron hood was lowered over her head. She was bound upright to a post.",
+          "Before her, in the full view of the court, a spring-driven ram was assembled on a track, wound, and aimed.",
+          "The winding took its time. Under the hood she was given nothing of its shape.",
+          "The ram drove once into her chest and crushed her against the post at her back."
+        ],
+        "magic": {
+          "name": "Foresuffered",
+          "text": "Any harm she has fully pre-lived in her mind, rehearsed in every particular, passes her body by when it comes in truth."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

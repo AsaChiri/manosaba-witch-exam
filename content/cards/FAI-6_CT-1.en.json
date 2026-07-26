@@ -1,0 +1,38 @@
+{
+  "cell": "FAI|Caretaker",
+  "copingSub": "CT-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-6",
+  "style": "Caretaker",
+  "tag": "FAI-6_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "By the warden's leave the builder kept the guest-house furnishings in repair, tools and timber stored in the earth-sprite room. In the early weeks the builder set her to the first cuts for a stool; the saw wandered, and board after board came out short. The builder took the cutting back and offered the arrangement that became their standing way: the builder begins, she finishes.",
+          "Months of it. Girls left half-done things at her elbow and they came back done; the room called hers the hands that finish anything. She had never begun a single thing.",
+          "At dinner the builder announced it before the room, meaning it as a gift: in the morning they would set the finished cabinet in its place, and after that the next piece was hers alone — whole, from the first cut, in front of everyone.",
+          "The tall cabinet for the water-sprite room stood all but done that afternoon — eight pegs cut, counted, left to drive. The builder told the helper girl eight remained, asked her to carry the shelf-boards over for the morning, and stayed in company from dinner to the lock.",
+          "On her usual evening she crossed to the earth-sprite room; her power completed the cabinet at once — whole and flawless. The helper girl, coming to leave the boards, found her beside the finished piece; the lounge saw the helper come back, and saw her come in later, before the lock.",
+          "Alone in between, she drew the two front pegs that pin the body to its base — the pair a mover's tilt bears on — out whole with the pincers from the builder's kit, and pocketed them.",
+          "At first light the builder and the helper girl came for the cabinet. The builder walked every finished piece to its place herself. The builder tilted the cabinet toward herself; the body parted from the base at the freed joint and came down on the builder.",
+          "Six pegs stood home; of eight cut, two bores at the front of the base stood empty, whole, and clean — no stub, no splinter, no peg anywhere in the room. A split peg leaves its shards and a fallen peg lies where it drops; these were drawn out whole and carried away. The night was locked; from the count to the fall, the one hand at the piece was hers."
+        ],
+        "epitaph": "Hand her a beginning and she was a master; hand her nothing, and she was the slow one again.",
+        "epithet": "The Hand That Finished Everything and Began Nothing",
+        "execution": [
+          "A frame on the stand held every piece of a simple brace, laid out loose. Not one had been joined.",
+          "She bent over the parts. Above her a press was descending toward the frame; a finished brace, set in its housing, would trip the catch that stayed it.",
+          "No joint had been started.",
+          "The parts lay untouched. The press came down over her and crushed her against the frame."
+        ],
+        "magic": {
+          "name": "the Finishing Hand",
+          "text": "The Finishing Hand — When someone else has started a task and set it aside, her hands can finish it at once — perfectly, and exactly as its beginner intended."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

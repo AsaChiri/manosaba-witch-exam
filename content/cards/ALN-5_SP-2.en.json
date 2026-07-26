@@ -1,0 +1,39 @@
+{
+  "cell": "ALN|Self-Punisher",
+  "copingSub": "SP-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Self-Punisher",
+  "tag": "ALN-5_SP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She pressed flowers from the island into a hand-bound book, writing a line beside each one. She kept it in her cell drawer and showed it to no one.",
+          "On a lounge cleanup a girl found the book, read one of her lines aloud in a funny voice, and the others laughed; over the laughing heads the girl's eyes found hers, and the room knew whose book it was. The girl dropped it into the discard bag bound for the incinerator; she said nothing and did not take it back.",
+          "Carrying the cleanup bags down to the incinerator room was her standing chore — the one nobody wanted, hers for weeks. The girl's pendant-case — off the neck and onto the lounge shelf whenever the work was dirty — went down with the bags. Alone in the room she emptied them into the cold chamber and bedded the pendant under the book near the mouth, a hand's depth down.",
+          "The girl hunted the pendant for days, asking through the block. Monday after lunch, alone with her in the corridor, she told the girl it had probably gone down with the cleanup bags — and that the burn was at three.",
+          "The girl told another girl the errand and went down alone, digging at the near edge of the mouth — the only ground a hand could reach. From the doorway she called the book to flame; the flare filled the dug hollow face-on, and the girl fell back before the open mouth and did not rise.",
+          "At three the incinerator ran. When the girl did not come back that evening, the one who knew her errand went down and found her burned before the open mouth, the chamber's load gone to ash behind her. It read as the machine's own doing — a dig that had pushed too close to the hour.",
+          "Two girls by the shower-room door had smelled the burn before the clock said three; the machine keeps its hour, so a fire had burned before the machine lit. Raked from the ash at the near edge: the metal pendant-case and the part-burned flower-book, together.",
+          "The week of open hunting left the pendant no innocent route into the chamber — a hand had placed it. Her tip had named a resting place no eye saw the pendant travel to, and the bags had passed through her hands alone every week. The flare's seat matched the place the tip named, and its hour fell before the machine's own."
+        ],
+        "epitaph": "The only thing that answered when she called was the one she loved alone, and she gave it to the fire.",
+        "epithet": "The Keeper of the Burned Book",
+        "execution": [
+          "A deep bed of the softest down rose open on the stand.",
+          "She was laid into it. The down took her weight and gave, and she sank.",
+          "Above her, a broad lid of the same down was lowered. The lid met the bed, and the down closed over her from below and above.",
+          "Her fire takes nothing she has not cherished, and she had cherished nothing in that bed.",
+          "The down filled every space around her face and held. The bed settled, and lay still."
+        ],
+        "magic": {
+          "name": "Cherishflame",
+          "text": "Anything she has long cherished, she can call to sudden flame from within sight of where it lies. Hidden or buried, the thing still answers if she is in sight of the place."
+        }
+      },
+      "variant": 2
+    }
+  ]
+}
