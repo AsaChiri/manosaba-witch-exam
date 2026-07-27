@@ -67,14 +67,18 @@ The whole flow drives against `src/lib/engine-api.ts`. Today
 ### Content contract
 
 The site never hardcodes card content. It consumes the compiled package under
-`content/` (owned by the sibling compiler; **read-only**) when present, else the
-fixtures under `src/fixtures/`. On-disk cards are the raw shape
+`content/` when present, else the fixtures under `src/fixtures/`. Quiz structure,
+card routing, cards, and characters are compiler-owned. The four
+`content/quiz/strings.<locale>.json` files are authoritative source in this repo
+and are never regenerated. On-disk cards are the raw shape
 (`variants[].fields`, `magic` as a string, `cell` = `"FAMILY|Style"`);
 `lib/content.ts` validates with zod and normalizes to the UI-facing `Card`.
 
-**Update workflow:** author in workspace → compile `content/` → review the diff →
-`npm run build` (regenerates OG + pages for new tags) → deploy. Adding cards
-requires no code change.
+**Update workflow:** author cards/characters in the workspace → compile
+`content/` → review the diff → `npm run build` (regenerates OG + pages for new
+tags) → deploy. Adding cards automatically rebuilds picksets, neighbor tables,
+redirect coverage, variant counts, and result pages; no code change is required.
+Question/choice wording is maintained directly in the four quiz-string files.
 
 ## Environment
 

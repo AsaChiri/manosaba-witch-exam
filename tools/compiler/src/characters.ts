@@ -2,8 +2,7 @@
  * Character parser for the 13 special character records (design spec §3.7).
  * Sources live in <workspace>/output/characters/<id>.md — YAML frontmatter
  * (id / tag / color scalars + one-level `name:` / `magic_name:` locale maps)
- * and ## EN / ## JA / ## ZH sections carrying the two 覚醒前/覚醒後 fields.
- * zh-TW is derived from zh-CN at emission (same OpenCC pipeline as cards).
+ * and four authored locale sections carrying the two 覚醒前/覚醒後 fields.
  *
  * Gating is all-or-nothing via ship_list.json's top-level `"characters"` flag —
  * a partially shipped cast would be a broken feature, so there is no per-id
@@ -15,7 +14,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
-export const CHARACTER_LOCALES = ["en", "ja", "zh-CN"] as const;
+export const CHARACTER_LOCALES = ["en", "ja", "zh-CN", "zh-TW"] as const;
 export const CHARACTER_CAST_SIZE = 13;
 
 export interface CharacterFields {
@@ -34,20 +33,21 @@ export interface ParsedCharacter {
   file: string;
   tag: string;
   color: string;
-  name: Record<string, string>; // en, ja, zh-CN
-  magicName: Record<string, string>; // en, ja, zh-CN
-  locales: Record<string, CharacterFields>; // en, ja, zh-CN
+  name: Record<string, string>; // en, ja, zh-CN, zh-TW
+  magicName: Record<string, string>; // en, ja, zh-CN, zh-TW
+  locales: Record<string, CharacterFields>; // en, ja, zh-CN, zh-TW
 }
 
 const LOCALE_HEADERS: { locale: string; re: RegExp }[] = [
   { locale: "en", re: /^##\s+EN\s*$/i },
   { locale: "ja", re: /^##\s+JA\s*$/i },
   { locale: "zh-CN", re: /^##\s+ZH\s*$/i },
+  { locale: "zh-TW", re: /^##\s+ZH-TW\s*$/i },
 ];
 
 function classify(bold: string): keyof CharacterFields | null {
-  if (/覚醒前|觉醒前|\bBefore\b/i.test(bold)) return "before";
-  if (/覚醒後|觉醒后|\bAfter\b/i.test(bold)) return "after";
+  if (/覚醒前|觉醒前|覺醒前|\bBefore\b/i.test(bold)) return "before";
+  if (/覚醒後|觉醒后|覺醒後|\bAfter\b/i.test(bold)) return "after";
   if (/原罪|\bEpithet\b/i.test(bold)) return "epithet";
   if (/台詞|台词|\bQuote\b/i.test(bold)) return "quote";
   if (/典獄長|典狱长|\bWarden\b/i.test(bold)) return "warden";
@@ -168,12 +168,11 @@ export function listCharacterIds(charactersDir: string): string[] {
 /**
  * Strict shape validation (throws via returned errors).
  *
- * `shippedTags` is optional and, when omitted, no dormancy warning is emitted:
- * since 2026-07-15 a shipped character's tag self-provides coverage (§3.7
- * decoupling — see compile-content.ts step 3b), so a character is reachable
- * whether or not a normal card exists at its tag. The parameter is retained
- * (and still warns when a set IS passed) so a caller can flag a character tag
- * that falls entirely outside the compiled corpus if it ever wants to.
+ * `shippedTags` is optional and, when omitted, no dormancy warning is emitted.
+ * Quiz reachability is owned by the locked `content/quiz/` source and is
+ * deliberately outside this compiler. The parameter is retained (and still
+ * warns when a set IS passed) for callers that explicitly want to compare
+ * character tags with a supplied corpus.
  */
 export function validateCharacters(
   chars: ParsedCharacter[],

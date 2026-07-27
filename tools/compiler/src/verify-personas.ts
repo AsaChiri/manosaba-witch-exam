@@ -1,28 +1,18 @@
 #!/usr/bin/env -S npx tsx
 /**
- * Total-coverage verification (design spec §5). Replays all 200 reference
- * personas through the PUBLIC session against the RECOMPILED content package and
- * asserts the soft-launch coverage invariant: every persona reaches a shipped
- * tag (no dead-end / inconclusive session), regardless of which of the 200 grid
- * cells it scored into.
- *
- * Also:
- *  - counts how many results carry `redirectedCell` (cross-cell archival serving);
- *  - proves determinism by replaying the entire suite twice and asserting the
- *    per-persona (tag, tier, variant, hash, redirect) tuples are identical;
- *  - spot-checks that at least one persona from each of the 8 origin families
- *    lands deterministically on a shipped tag.
- *
- * Exit 0 iff 200/200 reach a shipped tag AND the two passes are identical AND
- * all 8 families are represented; else 1.
+ * Total-coverage verification. Replays all certified origin-v2 personas through
+ * the public session and proves every one reaches a shipped tag deterministically.
  */
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { createExam, type ContentPackage } from "@manosaba/witch-exam-engine";
+import {
+  createExam,
+  type ContentPackage,
+} from "@manosaba/witch-exam-engine";
 import { makeSources, DEFAULT_WORKSPACE } from "./sources.js";
 
-function loadJson<T>(p: string): T {
-  return JSON.parse(readFileSync(p, "utf8")) as T;
+function loadJson<T>(path: string): T {
+  return JSON.parse(readFileSync(path, "utf8")) as T;
 }
 
 interface Persona {
@@ -31,69 +21,90 @@ interface Persona {
 }
 interface Landing {
   personaId: string;
-  family: string; // scored origin family
-  designFamily: string; // family encoded in the persona id (e.g. ABN-P01 -> ABN)
+  family: string;
+  designFamily: string;
   tag: string;
   tier: number;
   variant: number;
-  redirected: string | null; // landed (served) cell key when cross-cell routed
+  redirected: string | null;
   hash: string;
 }
 
-function loadContent(C: string): ContentPackage {
-  const q = (f: string) => loadJson(join(C, "quiz", f));
+function loadContent(content: string): ContentPackage {
+  const quiz = (file: string) =>
+    loadJson(join(content, "quiz", file));
   return {
-    questions: q("questions.json"),
-    strings: q("strings.en.json"),
-    copingTree: q("tree.coping.json"),
-    originBlocks: q("blocks.origin.json"),
-    hashSpec: q("hash.spec.json"),
-    picksets: q("picksets.json"),
-    neighbor: q("neighbor.json"),
-    cardsManifest: loadJson(join(C, "cards", "manifest.json")),
+    questions: quiz("questions.json"),
+    strings: quiz("strings.en.json"),
+    copingTree: quiz("tree.coping.json"),
+    originBlocks: quiz("blocks.origin.json"),
+    hashSpec: quiz("hash.spec.json"),
+    picksets: quiz("picksets.json"),
+    neighbor: quiz("neighbor.json"),
+    cardsManifest: loadJson(
+      join(content, "cards", "manifest.json"),
+    ),
   } as unknown as ContentPackage;
 }
 
-/** Drive one persona's session to completion, deterministically. */
-function drive(content: ContentPackage, persona: Persona): Landing {
+function drive(
+  content: ContentPackage,
+  persona: Persona,
+): Landing {
   const exam = createExam(content);
   let guard = 0;
   while (!exam.isDone()) {
-    if (guard++ > 60) throw new Error(`persona ${persona.personaId}: did not terminate`);
-    const cur = exam.current()!;
-    const offered = cur.options.map((o) => o.oid);
-    const raw = persona.answers[cur.qid];
+    if (guard++ > 60) {
+      throw new Error(
+        `persona ${persona.personaId}: did not terminate`,
+      );
+    }
+    const current = exam.current()!;
+    const offered = current.options.map((option) => option.oid);
+    const raw = persona.answers[current.qid];
     let choice: string;
     if (Array.isArray(raw)) {
-      // ranking list — first offered option in the ranking, else first offered.
-      choice = raw.map(String).find((x) => offered.includes(x)) ?? offered[0]!;
-    } else if (typeof raw === "string" && offered.includes(raw)) {
+      choice =
+        raw
+          .map(String)
+          .find((oid) => offered.includes(oid)) ?? offered[0]!;
+    } else if (
+      typeof raw === "string" &&
+      offered.includes(raw)
+    ) {
       choice = raw;
     } else {
-      // unanswered new-v3 slot / pick screen / filtered fallback: canonical first.
       choice = offered[0]!;
     }
     exam.answer(choice);
   }
-  const r = exam.result();
-  const m = /^([A-Za-z]+)/.exec(persona.personaId);
+  const result = exam.result();
+  const match = /^([A-Za-z]+)/.exec(persona.personaId);
   return {
     personaId: persona.personaId,
-    family: r.cell.family,
-    designFamily: m ? m[1]!.toUpperCase() : "?",
-    tag: r.tag,
-    tier: r.tier,
-    variant: r.variantIndex,
-    redirected: r.redirectedCell ? `${r.redirectedCell.family}|${r.redirectedCell.style}` : null,
-    hash: `0x${(r.answersHash >>> 0).toString(16).toUpperCase()}`,
+    family: result.cell.family,
+    designFamily: match ? match[1]!.toUpperCase() : "?",
+    tag: result.tag,
+    tier: result.tier,
+    variant: result.variantIndex,
+    redirected: result.redirectedCell
+      ? `${result.redirectedCell.family}|${result.redirectedCell.style}`
+      : null,
+    hash: `0x${(result.answersHash >>> 0)
+      .toString(16)
+      .toUpperCase()}`,
   };
 }
 
-function replayAll(content: ContentPackage, personas: Persona[]): Landing[] {
-  return personas.map((p) => drive(content, p));
-}
-function key(l: Landing): string {
-  return `${l.personaId}|${l.tag}|${l.tier}|${l.variant}|${l.redirected}|${l.hash}`;
+function key(landing: Landing): string {
+  return [
+    landing.personaId,
+    landing.tag,
+    landing.tier,
+    landing.variant,
+    landing.redirected,
+    landing.hash,
+  ].join("|");
 }
 
 function main(): void {
@@ -103,68 +114,81 @@ function main(): void {
   const src = makeSources(workspace);
   const content = loadContent(src.contentDir);
   const shippedTags = new Set(
-    Object.keys((content.cardsManifest as { tags: Record<string, unknown> }).tags),
+    Object.keys(
+      (
+        content.cardsManifest as {
+          tags: Record<string, unknown>;
+        }
+      ).tags,
+    ),
   );
-  // origin-v2 reference personas: coping answers (v1 certified vectors) merged
-  // with the N-block origin answers.
+  for (const character of loadJson<{ tag: string }[]>(
+    join(src.contentDir, "characters", "en.json"),
+  )) {
+    shippedTags.add(character.tag);
+  }
   const cells = loadJson<
-    { personaId: string; originAnswers: Record<string, string>; copingAnswers: Record<string, string | string[]> }[]
+    {
+      personaId: string;
+      originAnswers: Record<string, string>;
+      copingAnswers: Record<string, string | string[]>;
+    }[]
   >(join(src.originV2, "reference_cells.json"));
-  const personas: Persona[] = cells.map((c) => ({
-    personaId: c.personaId,
-    answers: { ...c.copingAnswers, ...c.originAnswers },
+  const personas: Persona[] = cells.map((cell) => ({
+    personaId: cell.personaId,
+    answers: {
+      ...cell.copingAnswers,
+      ...cell.originAnswers,
+    },
   }));
 
-  // Pass 1 + Pass 2 (determinism).
-  const pass1 = replayAll(content, personas);
-  const pass2 = replayAll(content, personas);
-
-  let reached = 0;
-  let redirectedCount = 0;
-  const badTag: string[] = [];
+  const first = personas.map((persona) => drive(content, persona));
+  const second = personas.map((persona) => drive(content, persona));
+  const badTags: string[] = [];
   const nonDeterministic: string[] = [];
-  const byDesignFamily = new Map<string, Landing>();
-  const byScoredFamily = new Set<string>();
+  const designFamilies = new Set<string>();
+  let redirected = 0;
 
-  for (let i = 0; i < pass1.length; i++) {
-    const l = pass1[i]!;
-    const l2 = pass2[i]!;
-    if (key(l) !== key(l2)) nonDeterministic.push(l.personaId);
-    if (l.tag && shippedTags.has(l.tag)) reached++;
-    else badTag.push(`${l.personaId} -> ${l.tag || "(none)"}`);
-    if (l.redirected) redirectedCount++;
-    byScoredFamily.add(l.family);
-    if (!byDesignFamily.has(l.designFamily)) byDesignFamily.set(l.designFamily, l);
-  }
-
-  console.log(`persona-session replay (recompiled content):`);
-  console.log(`  reached a shipped tag:  ${reached}/${personas.length}`);
-  console.log(`  carry redirectedCell:   ${redirectedCount}`);
-  console.log(`  direct (no redirect):   ${personas.length - redirectedCount}`);
-  console.log(`  determinism (2 passes):  ${nonDeterministic.length === 0 ? "identical" : `DIVERGED (${nonDeterministic.length})`}`);
-  console.log("");
-  console.log(`  scored origin families represented: ${[...byScoredFamily].sort().join(", ")}`);
-  console.log(`  per-family spot-check (design family -> deterministic landing):`);
-  for (const fam of [...byDesignFamily.keys()].sort()) {
-    const l = byDesignFamily.get(fam)!;
-    const via = l.redirected ? `  via ${l.redirected}` : "";
-    console.log(`    ${fam.padEnd(4)} ${l.personaId.padEnd(9)} -> ${l.tag} (tier ${l.tier}, v${l.variant})${via}`);
-  }
-  if (badTag.length) {
-    console.log("");
-    console.log(`  DEAD-ENDS (${badTag.length}): ${badTag.slice(0, 12).join(", ")}${badTag.length > 12 ? " ..." : ""}`);
+  for (let index = 0; index < first.length; index++) {
+    const landing = first[index]!;
+    if (key(landing) !== key(second[index]!)) {
+      nonDeterministic.push(landing.personaId);
+    }
+    if (!landing.tag || !shippedTags.has(landing.tag)) {
+      badTags.push(
+        `${landing.personaId} -> ${landing.tag || "(none)"}`,
+      );
+    }
+    if (landing.redirected) redirected++;
+    designFamilies.add(landing.designFamily);
   }
 
-  const familiesOk = byDesignFamily.size >= 8;
-  const ok = reached === personas.length && nonDeterministic.length === 0 && familiesOk;
-  console.log("");
-  if (ok) {
-    console.log(`VERIFY PERSONAS PASS — ${reached}/${personas.length} reach a shipped tag; ${byDesignFamily.size} families; deterministic.`);
-    process.exit(0);
+  process.stdout.write(
+    `reached shipped tag: ${first.length - badTags.length}/${first.length}\n` +
+      `redirected: ${redirected}\n` +
+      `deterministic: ${nonDeterministic.length === 0}\n` +
+      `design families: ${designFamilies.size}\n`,
+  );
+  if (
+    badTags.length ||
+    nonDeterministic.length ||
+    designFamilies.size < 8
+  ) {
+    if (badTags.length) {
+      process.stdout.write(
+        `dead ends: ${badTags.slice(0, 12).join(", ")}\n`,
+      );
+    }
+    if (nonDeterministic.length) {
+      process.stdout.write(
+        `non-deterministic: ${nonDeterministic
+          .slice(0, 12)
+          .join(", ")}\n`,
+      );
+    }
+    process.exit(1);
   }
-  if (!familiesOk) console.log(`  only ${byDesignFamily.size}/8 families represented`);
-  console.log("VERIFY PERSONAS FAIL");
-  process.exit(1);
+  process.stdout.write("VERIFY PERSONAS PASS\n");
 }
 
 main();

@@ -1,17 +1,18 @@
 #!/usr/bin/env -S npx tsx
 /**
- * End-to-end smoke on the REAL compiled content: load the full package, pick a
- * persona that lands on an authored cell, drive the public session to a served
- * card, and print the result. Proves picksets/neighbor/strings + the pick tail
- * all wire together at runtime.
+ * End-to-end smoke on the compiled content: drive one certified persona through
+ * the public session to a served card.
  */
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { createExam, type ContentPackage } from "@manosaba/witch-exam-engine";
+import {
+  createExam,
+  type ContentPackage,
+} from "@manosaba/witch-exam-engine";
 import { makeSources, DEFAULT_WORKSPACE } from "./sources.js";
 
-function loadJson<T>(p: string): T {
-  return JSON.parse(readFileSync(p, "utf8")) as T;
+function loadJson<T>(path: string): T {
+  return JSON.parse(readFileSync(path, "utf8")) as T;
 }
 
 function main(): void {
@@ -19,20 +20,22 @@ function main(): void {
     ? process.argv[process.argv.indexOf("--workspace") + 1]!
     : DEFAULT_WORKSPACE;
   const src = makeSources(workspace);
-  const C = src.contentDir;
-  const q = (f: string) => loadJson(join(C, "quiz", f));
-  const content = {
-    questions: q("questions.json"),
-    strings: q("strings.en.json"),
-    copingTree: q("tree.coping.json"),
-    originBlocks: q("blocks.origin.json"),
-    hashSpec: q("hash.spec.json"),
-    picksets: q("picksets.json"),
-    neighbor: q("neighbor.json"),
-    cardsManifest: loadJson(join(C, "cards", "manifest.json")),
+  const content = src.contentDir;
+  const quiz = (file: string) =>
+    loadJson(join(content, "quiz", file));
+  const pkg = {
+    questions: quiz("questions.json"),
+    strings: quiz("strings.en.json"),
+    copingTree: quiz("tree.coping.json"),
+    originBlocks: quiz("blocks.origin.json"),
+    hashSpec: quiz("hash.spec.json"),
+    picksets: quiz("picksets.json"),
+    neighbor: quiz("neighbor.json"),
+    cardsManifest: loadJson(
+      join(content, "cards", "manifest.json"),
+    ),
   } as unknown as ContentPackage;
 
-  // find a reference persona whose expected origin-v2 cell is an authored cell
   const cells = loadJson<
     {
       personaId: string;
@@ -41,38 +44,54 @@ function main(): void {
       expected: { cell: [string, string] };
     }[]
   >(join(src.originV2, "reference_cells.json"));
-  const authored = new Set(Object.keys((content.picksets as { cells: object }).cells));
-  const target = cells.find((r) => authored.has(`${r.expected.cell[0]}|${r.expected.cell[1]}`));
+  const authored = new Set(
+    Object.keys(
+      (pkg.picksets as { cells: object }).cells,
+    ),
+  );
+  const target = cells.find((record) =>
+    authored.has(
+      `${record.expected.cell[0]}|${record.expected.cell[1]}`,
+    ),
+  );
   if (!target) {
-    console.log("no persona lands on an authored cell (expected on a tiny ship list)");
-    return;
+    throw new Error("no certified persona lands on an authored cell");
   }
-  const persona = {
-    personaId: target.personaId,
-    answers: { ...target.copingAnswers, ...target.originAnswers },
-  };
 
-  const exam = createExam(content);
+  const answers = {
+    ...target.copingAnswers,
+    ...target.originAnswers,
+  };
+  const exam = createExam(pkg);
   const asked: string[] = [];
   let guard = 0;
   while (!exam.isDone()) {
-    if (guard++ > 60) throw new Error("did not terminate");
-    const cur = exam.current()!;
-    const offered = cur.options.map((o) => o.oid);
-    const raw = persona.answers[cur.qid];
+    if (guard++ > 60) throw new Error("session did not terminate");
+    const current = exam.current()!;
+    const offered = current.options.map((option) => option.oid);
+    const raw = answers[current.qid];
     let choice: string;
-    if (Array.isArray(raw)) choice = raw.find((x) => offered.includes(String(x))) ?? offered[0]!;
-    else if (typeof raw === "string" && offered.includes(raw)) choice = raw;
-    else choice = offered[0]!; // pick screens + filtered fallbacks
-    asked.push(`${cur.qid}:${choice}`);
+    if (Array.isArray(raw)) {
+      choice =
+        raw.find((oid) => offered.includes(String(oid))) ??
+        offered[0]!;
+    } else if (
+      typeof raw === "string" &&
+      offered.includes(raw)
+    ) {
+      choice = raw;
+    } else {
+      choice = offered[0]!;
+    }
+    asked.push(`${current.qid}:${choice}`);
     exam.answer(choice);
   }
-  const r = exam.result();
-  console.log(`persona ${persona.personaId} -> cell ${r.cell.family} x ${r.cell.style}`);
-  console.log(`  path (${asked.length}): ${asked.join(" ")}`);
-  console.log(`  picks: o=${r.picks.o} c=${r.picks.c}  served tag: ${r.tag} (tier ${r.tier}, variant ${r.variantIndex})`);
-  console.log(`  answersHash: 0x${(r.answersHash >>> 0).toString(16).toUpperCase()}  (${new TextEncoder().encode(r.canonicalString).length} bytes)`);
-  console.log("SESSION SMOKE PASS");
+  const result = exam.result();
+  process.stdout.write(
+    `persona ${target.personaId} -> ${result.cell.family}|${result.cell.style}\n` +
+      `served ${result.tag} (tier ${result.tier}, variant ${result.variantIndex})\n` +
+      `path length ${asked.length}\nSESSION SMOKE PASS\n`,
+  );
 }
 
 main();

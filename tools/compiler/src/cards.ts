@@ -28,14 +28,17 @@ export interface ParsedCard {
   originSub: string;
   copingSub: string;
   variant: number; // 1-based authored variant index (vN of vN/M)
-  locales: Record<string, CardFields>; // en, ja, zh-CN
+  locales: Record<string, CardFields>; // en, ja, zh-CN, zh-TW
   warnings: string[];
 }
+
+export const CARD_LOCALES = ["en", "ja", "zh-CN", "zh-TW"] as const;
 
 const LOCALE_HEADERS: { locale: string; re: RegExp }[] = [
   { locale: "en", re: /^##\s+EN(\s+card)?\s*$/i },
   { locale: "ja", re: /^##\s+JA\s*$/i },
   { locale: "zh-CN", re: /^##\s+ZH\s*$/i },
+  { locale: "zh-TW", re: /^##\s+ZH-TW\s*$/i },
 ];
 
 type Field = keyof CardFields;
@@ -43,7 +46,7 @@ type Field = keyof CardFields;
 function classify(bold: string): Field | null {
   if (/原罪/.test(bold) || /\bEpithet\b/i.test(bold)) return "epithet";
   if (/魔法/.test(bold) || /\bMagic\b/i.test(bold)) return "magic";
-  if (/処刑|处刑/.test(bold) || /\bExecution\b/i.test(bold)) return "execution";
+  if (/処刑|处刑|處刑/.test(bold) || /\bExecution\b/i.test(bold)) return "execution";
   if (/銘|铭/.test(bold) || /\bEpitaph\b/i.test(bold)) return "epitaph";
   if (/罪/.test(bold) || /\bCrime\b/i.test(bold)) return "crime"; // after 原罪
   return null;
@@ -187,16 +190,31 @@ export function parseCard(sourceId: string, cardsDir: string): ParsedCard {
     const end = m + 1 < marks.length ? marks[m + 1]!.idx : lines.length;
     locales[marks[m]!.locale] = parseSection(lines.slice(start, end));
   }
-  for (const loc of ["en", "ja", "zh-CN"]) {
+  const missingLocales = CARD_LOCALES.filter((loc) => !locales[loc]);
+  if (missingLocales.length) {
+    throw new Error(
+      `${sourceId}: missing authored locale section(s): ${missingLocales.join(", ")}`,
+    );
+  }
+  for (const loc of CARD_LOCALES) {
     const f = locales[loc];
-    if (!f) {
-      warnings.push(`${sourceId}: missing ${loc} section`);
-      continue;
-    }
+    if (!f) continue; // guarded by missingLocales above
     // magic name is authoritative from frontmatter; strip it off the prose text
     const name = magicName[loc] ?? "";
     if (!name) warnings.push(`${sourceId}: frontmatter magic_name.${loc} missing`);
     f.magic = { name, text: stripLeadingName(f.magic.text, name) };
+    const missingFields = [
+      !f.epithet && "epithet",
+      (!f.magic.name || !f.magic.text) && "magic",
+      f.crime.length === 0 && "crime",
+      f.execution.length === 0 && "execution",
+      !f.epitaph && "epitaph",
+    ].filter((field): field is string => Boolean(field));
+    if (missingFields.length) {
+      throw new Error(
+        `${sourceId}: ${loc} parsed field(s) empty: ${missingFields.join(", ")}`,
+      );
+    }
   }
 
   return { sourceId, file, family: fields.family!, style: fields.style!, originSub, copingSub, variant, locales, warnings };

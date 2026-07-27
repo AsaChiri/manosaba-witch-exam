@@ -36,12 +36,10 @@ export const STYLE_NAME_TO_CODE: Record<string, string> = {
   Trickster: "TR",
   Avenger: "AG",
   Sovereign: "SV",
-  // Performer is P, not PE — every source writes P-1..P-5 (the frozen
-  // ed_subvariants.md §2, the pickset bank, the authoring manifest, and the card
-  // frontmatter). "PE" was a compiler-only invention that the removed
-  // COPING_CODE_ALIAS laundered P->PE, leaking a code no source ever used into
-  // every compiled tag. Codes are matched whole (split on the dash), so P never
-  // collides with PF/PL.
+  // Performer is P, not PE — the authoritative card frontmatter uses P-1..P-5.
+  // "PE" was a compiler-only invention that the removed COPING_CODE_ALIAS
+  // laundered P->PE, leaking a code no source ever used into compiled card tags.
+  // Codes are matched whole (split on the dash), so P never collides with PF/PL.
   Performer: "P",
   Fantasist: "FA",
   Perfectionist: "PF",
@@ -59,9 +57,7 @@ export const STYLE_CODE_TO_NAME: Record<string, string> = Object.fromEntries(
  * removed 2026-07-12, so a code means exactly what the source wrote.
  *
  * An unrecognized code is a hard error, not a pass-through — that error is what
- * replaces the alias. Silently accepting one would derive a tag nothing routes
- * to: the alias used to rewrite the sources' P-2 into PE-2, so every compiled
- * tag, pickset and neighbor entry carried a "PE" code that no source ever used.
+ * replaces the alias. Silently accepting one could emit an invalid card tag.
  */
 export function normalizeCopingSub(id: string): string {
   const raw = id.trim();

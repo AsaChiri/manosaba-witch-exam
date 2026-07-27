@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Compiles authored Manosaba workspace markdown into the runtime content/ package.",
+  "description": "Compiles authored Manosaba workspace structure and cards into the runtime content package.",
   "license": "UNLICENSED",
   "bin": {
     "compile-content": "./src/compile-content.ts"
@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "@manosaba/witch-exam-engine": "file:../../packages/engine",
-    "opencc-js": "^1.0.5",
     "zod": "^3.23.8"
   },
   "devDependencies": {
