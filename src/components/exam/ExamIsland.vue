@@ -372,6 +372,36 @@ const specialCharacter = computed<WitchCharacter | null>(() =>
   specialHit.value && charFetch.value.phase === 'hit' ? charFetch.value.data : null,
 )
 
+const despairLevel = computed(() => {
+  switch (state.value) {
+    case 'loading':
+      return 0
+    case 'consent':
+      return 0.05
+    case 'quiz': {
+      const answered = progress.value?.answered ?? 0
+      return 0.1 + Math.min(answered / 35, 1) * 0.45
+    }
+    case 'spoiler':
+      return 0.6
+    case 'name':
+      return 0.7
+    case 'verdict':
+    case 'retrieving':
+      return 0.9
+    case 'result':
+      return 1.0
+    case 'inconclusive':
+      return 0.5
+    default:
+      return 0
+  }
+})
+
+const despairStyle = computed(() => ({
+  '--despair': despairLevel.value,
+}))
+
 onMounted(() => {
   finished.value = getFinished() === 'yes'
   if (hasConsent()) {
@@ -392,7 +422,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="exam-island">
+  <div class="exam-island" :style="despairStyle">
     <div v-if="state === 'loading'" class="exam-island__boot">
       <span class="exam-island__boot-text">{{ t(locale, 'exam.booting') }}<span class="exam-island__cursor">▊</span></span>
     </div>
@@ -462,6 +492,23 @@ onMounted(() => {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+  --despair: 0;
+}
+.exam-island::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 40%,
+      rgba(92, 15, 26, 0.10) 0%,
+      rgba(40, 5, 10, 0.55) 100%),
+    radial-gradient(ellipse at 50% 50%,
+      transparent 15%,
+      rgba(8, 4, 6, 0.92) 72%);
+  opacity: var(--despair, 0);
+  transition: opacity 1.8s var(--ease-ceremony);
 }
 .exam-island__boot {
   flex: 1;

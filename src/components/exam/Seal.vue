@@ -46,8 +46,8 @@ const uid = 'vseal-' + Math.random().toString(36).slice(2, 8)
     <defs>
       <radialGradient :id="`${uid}-core`" cx="50%" cy="50%" r="55%">
         <stop offset="0%" stop-color="var(--seal-rose, #eb8b79)" :stop-opacity="stained ? 0.9 : 0" />
-        <stop offset="55%" stop-color="var(--seal-cobalt, #4f86b8)" :stop-opacity="stained ? 0.5 : 0" />
-        <stop offset="100%" stop-color="var(--seal-cobalt, #4f86b8)" stop-opacity="0" />
+        <stop offset="55%" stop-color="var(--seal-cobalt, #c45830)" :stop-opacity="stained ? 0.5 : 0" />
+        <stop offset="100%" stop-color="var(--seal-cobalt, #c45830)" stop-opacity="0" />
       </radialGradient>
       <filter v-if="glow" :id="`${uid}-glow`" x="-30%" y="-30%" width="160%" height="160%">
         <feGaussianBlur stdDeviation="1.6" result="b" />

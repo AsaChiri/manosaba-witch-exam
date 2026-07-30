@@ -1,22 +1,23 @@
 /*
  * 魔女因子検査 — design tokens
- * Palette sampled from the game's shipped backgrounds (design spec §2.1).
- * Colour is the information structure: cyan = examination instrument ONLY,
- * violet = verdict + card/archive ONLY, gold = seals/ornament ONLY, pink =
+ * Palette rebuilt from game backgrounds (design spec §2.1): blood-red + black,
+ * evoking the prisoner's descent — magic → candidacy → murder → execution.
+ * Colour is the information structure: ember = examination instrument ONLY,
+ * blood-red = verdict + card/archive ONLY, gold = seals/ornament ONLY, pink =
  * the single primary CTA. Oxblood/velvet are structural everywhere.
  */
 :root {
   /* ── Grounds & surfaces ── */
-  --ink: #0d0b10; /* page ground — near-black, violet cast */
+  --ink: #0a0608; /* page ground — near-black, blood cast */
   --velvet: #1b1016; /* panels, cards */
   --velvet-raised: #251721; /* raised surfaces, hover */
   --oxblood: #5c0f1a; /* structural accents, rules, borders */
   --crimson: #a12833; /* emphasis, warning, wax seal */
 
   /* ── Narrative glows (each owns exactly one phase) ── */
-  --witch-violet: #a17dde; /* the witch factor itself (verdict + card) */
-  --witch-violet-deep: #6b4fae; /* violet shadows/gradients */
-  --exam-cyan: #7cf0f1; /* examination instrumentation ONLY */
+  --witch-violet: #c42838; /* the witch factor itself (verdict + card) — blood-red */
+  --witch-violet-deep: #7a1828; /* blood shadows/gradients */
+  --exam-cyan: #e87848; /* examination instrumentation ONLY — ember/firelight */
 
   /* ── Text & seals ── */
   --bone: #e9dfcc; /* body text on dark */
@@ -36,7 +37,7 @@
   --parchment-ink: #241b16; /* ink on parchment */
 
   /* ── Stained-glass accents (rosette SVG only) ── */
-  --glass-cobalt: #4f86b8;
+  --glass-cobalt: #c45830; /* flame glass (was cobalt blue) */
   --glass-flame: #eb8b79;
   --logo-blood: #9e1224; /* blackletter wordmark + seal ink */
 

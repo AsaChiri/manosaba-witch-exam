@@ -1,7 +1,7 @@
 /*
  * The 魔女図鑑 card — typography-only gothic (design spec §3.5). Shared by the
  * static card page (WitchCard.astro) and the interactive result (ResultCard.vue)
- * so the shared PNG is pixel-identical to the page. Violet owns this surface
+ * so the shared PNG is pixel-identical to the page. Blood-red owns this surface
  * (the witch factor); gold is seal/ornament only; bone is prose.
  */
 .witch-card {

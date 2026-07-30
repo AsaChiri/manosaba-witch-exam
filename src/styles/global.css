@@ -22,17 +22,17 @@ html {
   scrollbar-color: var(--rule-oxblood) transparent;
 }
 
-/* Fixed atmosphere layer: a courtroom-dark vignette with a faint violet cast
- * at the crown and oxblood pooling at the base. CSS-built — no screenshots. */
+/* Fixed atmosphere layer: blood-dark vignette — crimson seeping from the crown,
+ * deeper oxblood pooling at the base. Evoking the prisoner's cell. */
 html::before {
   content: '';
   position: fixed;
   inset: 0;
   z-index: -2;
   background:
-    radial-gradient(120% 80% at 50% -10%, rgba(107, 79, 174, 0.1), transparent 60%),
-    radial-gradient(120% 90% at 50% 115%, rgba(92, 15, 26, 0.22), transparent 62%),
-    linear-gradient(180deg, #100c14 0%, var(--ink) 46%, #08060a 100%);
+    radial-gradient(120% 80% at 50% -10%, rgba(92, 15, 26, 0.14), transparent 60%),
+    radial-gradient(120% 90% at 50% 115%, rgba(80, 10, 18, 0.30), transparent 62%),
+    linear-gradient(180deg, #0c0608 0%, var(--ink) 46%, #080406 100%);
 }
 
 body {

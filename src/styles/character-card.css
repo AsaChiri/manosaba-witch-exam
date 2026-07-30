@@ -10,7 +10,7 @@
  * Shared by the interactive result (SpecialCard.vue) and the static character
  * share page (SpecialCard.astro) so the exported PNG is identical to /c/<id>/.
  *
- * This file is the ONE documented exception to the violet card palette:
+ * This file is the ONE documented exception to the blood-red card palette:
  * `--char-color` (a plain #rrggbb from compiled character data — html2canvas
  * export constraint) may tint this surface only. Gold stays seal/ornament;
  * translucency only ever via `color-mix(in srgb, …)` (the export flattener

@@ -34,12 +34,12 @@ mkdirSync(CACHE, { recursive: true })
 
 // ── Palette (mirrors src/styles/tokens.css) ──
 const C = {
-  ink: '#0d0b10',
-  ink2: '#100c14',
+  ink: '#0a0608',
+  ink2: '#0c0608',
   velvet: '#1b1016',
   oxblood: '#5c0f1a',
-  violet: '#a17dde',
-  violetDeep: '#6b4fae',
+  violet: '#c42838',
+  violetDeep: '#7a1828',
   gold: '#c9954a',
   goldBright: '#e8b04a',
   goldDeep: '#ad7237',

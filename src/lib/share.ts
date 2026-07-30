@@ -115,7 +115,7 @@ export async function generateShareQr(card: ShareCard): Promise<string> {
   return QRCode.toDataURL(shareUrl(card), {
     margin: 1,
     width: 200,
-    color: { dark: '#c9954a', light: '#0d0b10' },
+    color: { dark: '#c9954a', light: '#0a0608' },
     errorCorrectionLevel: 'M',
   })
 }
@@ -236,7 +236,7 @@ export async function saveResultImage(
     const { default: html2canvas } = await import('html2canvas')
     const canvas = await html2canvas(element, {
       scale: 2,
-      backgroundColor: '#0d0b10',
+      backgroundColor: '#0a0608',
       useCORS: true,
       windowWidth: CAPTURE_WIDTH + 40,
       onclone: (_doc, clone) => flattenExportColors(clone),
