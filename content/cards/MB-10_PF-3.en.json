@@ -1,0 +1,38 @@
+{
+  "cell": "MB|Perfectionist",
+  "copingSub": "PF-3",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-10",
+  "style": "Perfectionist",
+  "tag": "MB-10_PF-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She kept lists in her own hand — clothes, small things — and the girls read those freely. Nothing private went to paper; where she came from, paper had been read. Her diary lived in unsent drafts on her phone.",
+          "The quoter borrowed from the girls and returned what was taken; the phone was lent. The quoter opened the drafts — typed words sit outside the power, and these were plain. That evening at the fire-circle the quoter answered her with lines from those drafts, every word exact, in front of the girls.",
+          "Next midday in the dining hall, a girl who had not been at the circle used one of the lines on her. The quoter said there were more, and the rest would come at the next evening's circle.",
+          "That afternoon she went into the quoter's cell and left a folded paper on the bunk. To the quoter it read as a message from the keeper of the medical room: come at the shower hour, alone. To any other eye it read as her own clothes listed for washing.",
+          "At the shower hour the girls were all in the shower room and no one was in the medical room, as every evening at that hour. The quoter told her friend the keeper had sent for her, and crossed to the medical room.",
+          "She was behind the door. Two blows to the back of the head with the stone mortar from the shelf; the quoter dead on the floor.",
+          "At the twenty-two-hundred lock the quoter's cell was a girl short. The wing was searched; the quoter found on the medical-room floor, the mortar beside the body, the folded paper in the pocket. The keeper had sent for no one; the friend repeated what the quoter had said.",
+          "The paper from the pocket: her own clothes listed for washing, none of them the dead girl's, in a hand the girls knew from the lists she kept. The power changes nothing on the page — the marks stay in the hand that wrote them. She was the one no girl could place in the shower room that evening, in the hour she had never once missed."
+        ],
+        "epitaph": "She left no page anyone could read, and no one ever knew her.",
+        "epithet": "She Who Left Nothing to Hold",
+        "execution": [
+          "A great bowl of polished metal stood on the stand, mouth-up, its inner face smooth — no seam, no edge, nothing to hold. Dark water stood in the well at its base.",
+          "She was set on the inner slope, low, just above the waterline. The rim ran a full body's length above the highest her hands could reach.",
+          "She climbed. Each climb ended where her hands slipped, and she slid back to the base. The water took each slide; the climbs grew shorter.",
+          "The last one left her at the bottom. The water closed over her face, and the slope above carried not a mark."
+        ],
+        "magic": {
+          "name": "the Doubled Page",
+          "text": "Anything she writes by hand shows each reader only the words she intended for that reader. She alone sees what the writing truly says."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

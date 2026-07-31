@@ -89,9 +89,11 @@
   },
   "ABN|Self-Reliant": {
     "table": {
+      "ABN-1|SR-1": "ABN-1_SR-1",
       "ABN-4|SR-1": "ABN-4_SR-1"
     },
     "tiers": {
+      "ABN-1|SR-1": 0,
       "ABN-4|SR-1": 0
     }
   },
@@ -135,6 +137,14 @@
     "tiers": {
       "ALN-10|CO-1": 0,
       "ALN-11|CO-1": 0
+    }
+  },
+  "ALN|Doomer": {
+    "table": {
+      "ALN-1|DM-3": "ALN-1_DM-3"
+    },
+    "tiers": {
+      "ALN-1|DM-3": 0
     }
   },
   "ALN|Fantasist": {
@@ -261,6 +271,14 @@
     },
     "tiers": {
       "DEF-3|DT-3": 0
+    }
+  },
+  "DEF|Resigned": {
+    "table": {
+      "DEF-3|RS-3": "DEF-3_RS-3"
+    },
+    "tiers": {
+      "DEF-3|RS-3": 0
     }
   },
   "DEF|Ritualist": {
@@ -431,6 +449,14 @@
       "ED-1|TS-2": 0
     }
   },
+  "ED|Wall-of-Anger": {
+    "table": {
+      "ED-1|WA-1": "ED-1_WA-1"
+    },
+    "tiers": {
+      "ED-1|WA-1": 0
+    }
+  },
   "FAI|Avenger": {
     "table": {
       "FAI-3|AG-1": "FAI-3_AG-1"
@@ -471,6 +497,14 @@
     },
     "tiers": {
       "FAI-3|RI-2": 0
+    }
+  },
+  "FAI|Ruminator": {
+    "table": {
+      "FAI-1|RU-1": "FAI-1_RU-1"
+    },
+    "tiers": {
+      "FAI-1|RU-1": 0
     }
   },
   "FAI|Self-Punisher": {
@@ -551,6 +585,14 @@
     },
     "tiers": {
       "MB-2|DM-1": 0
+    }
+  },
+  "MB|Perfectionist": {
+    "table": {
+      "MB-10|PF-3": "MB-10_PF-3"
+    },
+    "tiers": {
+      "MB-10|PF-3": 0
     }
   },
   "MB|Performer": {
@@ -643,6 +685,14 @@
       "POW-3|DT-4": 0
     }
   },
+  "POW|Fantasist": {
+    "table": {
+      "POW-2|FA-3": "POW-2_FA-3"
+    },
+    "tiers": {
+      "POW-2|FA-3": 0
+    }
+  },
   "POW|Pleaser": {
     "table": {
       "POW-2|PL-3": "POW-2_PL-3"
@@ -681,6 +731,14 @@
     },
     "tiers": {
       "POW-2|WT-2": 0
+    }
+  },
+  "VC|Avoider": {
+    "table": {
+      "VC-1|AV-2": "VC-1_AV-2"
+    },
+    "tiers": {
+      "VC-1|AV-2": 0
     }
   },
   "VC|Catastrophizer": {

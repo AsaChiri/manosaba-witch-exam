@@ -1,0 +1,38 @@
+{
+  "cell": "ALN|Doomer",
+  "copingSub": "DM-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Doomer",
+  "tag": "ALN-1_DM-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "She had known it since before the prison: she was not the sort they let in. At the end of the dining hall's table, another girl sat where she sat, just as silent.",
+          "Every evening a circle of girls gathered at the courtyard fountain while one read aloud from a library book until the light was gone. Within a week the table-mate had a night to read. The other silent one had been let in, and it had never been the world keeping her out.",
+          "That midday the table-mate came to the table's end: the circle wanted her to stop standing at the railing over the courtyard while they read. She had watched from up there every evening, and she knew the table-mate always stayed for a drink at the basin after the others went in.",
+          "That afternoon she stopped at the courtyard fountain and drank from the basin, as the girls do. The fountain does not run; its basin holds still water.",
+          "At dusk the light went and the circle went in. The rest of the girls left for the showers, and the courtyard stood empty. The table-mate stayed, knelt at the basin's rim, and drank face-down from the water.",
+          "She was standing at the railing above. The water turned to stone around the table-mate's face, from the surface to the floor of the basin — mouth and nose under water. When the struggling stopped she let it go, and the stone was water again.",
+          "The girls came back before the cells were locked. The table-mate lay face-down in the basin, drowned in a hand's depth of water. Across cheeks and jaw and into the hair ran one smooth, even band of pressure — no finger-marks, no scratches.",
+          "Drowning in a hand's depth takes a hold, and a hold leaves finger-marks. The band was smooth and had none; nothing but the basin's water had touched the table-mate's face. Every other girl that evening was with the circle indoors or in the shower room. She was with neither, and since the midday word every girl knew she spent her evenings at the railing over the courtyard."
+        ],
+        "epitaph": "The ground she stood on was a shut door, and it opened for someone else.",
+        "epithet": "She Who Stood on the Shut Door",
+        "execution": [
+          "A pool sat in the top of the stand, kept turning by wheels in its walls. Loose iron plates rode on the moving water.",
+          "She was set out on the plates. No plate carried more than a step before it tipped or went under, and the wheels kept the water turning beneath all of it.",
+          "She put her hands into the water. The wheels went on turning.",
+          "She went down between two plates, her head under the surface. They rode on above her, and she drowned."
+        ],
+        "magic": {
+          "name": "Stonewater",
+          "text": "Still water she has touched, she can turn to stone whenever she wills — as much of it as she chooses — and turn it back."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

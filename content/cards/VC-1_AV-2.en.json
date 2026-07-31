@@ -1,0 +1,38 @@
+{
+  "cell": "VC|Avoider",
+  "copingSub": "AV-2",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Avoider",
+  "tag": "VC-1_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The light was green on an ordinary school morning when the car came through. It was months before she walked again, and after that she went around — that crossing first, and then no straight way at all. In the prison the other girls laughed at the dog-leg she walked through the entrance hall to keep off the main corridor.",
+          "That evening in the lounge, the brisk girl — her company there, and fond of her — told the room that from tonight she was going to be walked straight: every corridor, every stair, until she stopped going around. The girls laughed. The brisk girl took her arm and marched her down the main corridor then and there.",
+          "As the girls left the lounge and most of the wing was already down, she warded the main corridor. Her ward held one stretch, and the entrance hall it turned feet onto stood open behind it. Two girls bound for the cells came through the hall and went down without noticing.",
+          "The hall's watch had gone down to the cell rows for the 22:00 lock. She waited for the two to pass, took her own way through the empty hall, and rigged the dark turn behind her. Two tall iron candelabra flanked the turn, part of the mansion's ornament, heavy and old, never moved from there; she took a cord from the cleaning things in the hall, tied it at the foot of one stand and stretched it wall to wall at ankle height, then ran it up the shaft of the other and made it fast above the balance point, and leaned that stand back from the turn past its centre — nothing but the cord held it upright.",
+          "The brisk girl left the lounge last, as was her habit, heading for the cells. The ward turned her feet into the entrance hall. At the dark turn her foot struck the cord; it snapped tight, hauled the leaning stand forward past its balance, and brought the iron head down on the back of her skull.",
+          "At the 22:00 lock she stood in the cell row in the other girls' sight and let the ward go. On the sweep the guards found the brisk girl at the dark turn under the fallen candelabrum, the back of her skull broken, the cord still fast at the other stand's foot.",
+          "At the trial the girls accounted for that half hour. Three had turned off an open, unobstructed corridor and none could say why — something other than their own choice had closed it. The turn where the brisk girl died lies on a passage the brisk girl had never walked; only someone who knew the corridor was closed would set a trap for her there.",
+          "The span was uncrossable: anything that struck the cord brought the stand down, and the two who turned before the brisk girl had passed the turn untouched. The cord went in after them and before her. The girls in the lounge and the girls at the cell row accounted for every other girl. In that gap, exactly one had gone through the entrance hall, by the way that had always been hers."
+        ],
+        "epitaph": "It was never the street.",
+        "epithet": "She Who Goes Around Since the Green Light",
+        "execution": [
+          "A flat plate of iron hung high and level above the stand. On every side its rim reached past the stand's edge. Below it lay the stand's floor, bare and open.",
+          "She stood unbound on the stand's floor beneath the iron. She crossed the floor at her own pace, kept to its edge, stood still. The iron was above every place she took.",
+          "For an hour nothing above her moved and nothing sounded.",
+          "Then, with nothing to mark it, the whole plate fell at once. The iron struck her head and shoulders and drove her to the floor, her whole body beneath it. That fall killed her."
+        ],
+        "magic": {
+          "name": "Wardaway",
+          "text": "She wards a stretch of ground, and anyone walking toward it is turned onto another way around without a thought."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

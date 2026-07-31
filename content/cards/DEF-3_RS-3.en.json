@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Resigned",
+  "copingSub": "RS-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Resigned",
+  "tag": "DEF-3_RS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every fair afternoon for months the girl called her over in the lounge, put the basket in her hands, and walked her out to a mushroom stand in the forest — ground the girl had found and shown to no one but her. At the stand the girl picked and pronounced which were good; she carried and was asked nothing. What the girl picked was hers: roasted late at the lounge fire when the room had thinned, and shared with no one.",
+          "At the stand the thought would come: the deadly caps grew deeper in the forest, and a handful of them mixed in with the good ones would kill the girl. It came and went every walk for months, and she had never acted on a thought like it.",
+          "One evening at the fire the girl told her: a third girl — one who had asked more than once to come along on the walks — would carry from tomorrow, since she could not tell one mushroom from another anyway. That night the thought came back and did not leave.",
+          "At first light she went out the entrance alone — in all her months, the one time she went out without the girl. She knew where the deadly caps grew, and the young ones could be taken for the good kind. She worked a dozen out of the ground by hand, set them into the girl's stand, and was back before breakfast.",
+          "In the afternoon the girl walked out with the third girl carrying and picked her stand clean. Late that evening the girl roasted what she had picked at the lounge fire and ate it alone — her own rule, months old. From across the room, she sealed the course now running in the girl.",
+          "The cramps came in the locked night, behind the cell door. At first light the girl's cellmate and another carried her up to the medical room; the medicines given through the day did nothing. The girl told the ones tending her it had been a bad pick, and by the next evening was dead.",
+          "The girls walked the stand. Two young caps the girl had left to grow came up rootless at a touch, set into the moss by hand; deeper in, the deadly caps' own ground was stripped, a dozen fresh stumps in it. The stand had been known to two — the girl and the one who carried — and the third girl had not seen it until that afternoon, with the caps already in.",
+          "The girls had carried sick girls up at first light before and seen the medicines bring them round; the medicines did not slow this one by an hour. They remembered the jug she had tipped over weeks before — she stood and let it run, and the rag did not stop the water until it had all run out. A course nothing can stop is a sealed course; she is the only girl who can seal one; and a girl in the entrance hall had seen her go out alone that morning."
+        ],
+        "epitaph": "The one thing she picked was the killing kind.",
+        "epithet": "Driftwood That Salted the Water",
+        "execution": [
+          "An iron post stood on the stand at her back. At its head, an open band of iron sat round her throat; inside the post, a spring strained to close it.",
+          "Below the band a long iron bar was hinged to the post, its far end down in her two hands, her wrists ironed to it. Held down, the bar kept the spring pressed back and the band open.",
+          "Nothing in the device moved. Her arms gave out by degrees, and the spring took the bar up beneath her failing hands.",
+          "The band closed on her throat at the spring's full travel, and she did not breathe again."
+        ],
+        "magic": {
+          "name": "the Sealed Course",
+          "text": "The Sealed Course — She can seal a course already running before her eyes, in a thing or in a body, to its end; nothing then stops it, slows it, or turns it aside until it ends on its own."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

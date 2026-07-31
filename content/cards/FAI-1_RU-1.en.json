@@ -1,0 +1,38 @@
+{
+  "cell": "FAI|Ruminator",
+  "copingSub": "RU-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Ruminator",
+  "tag": "FAI-1_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every song she gave the circle she had copied from a dead friend's handwritten songbook. She had burned the book herself weeks before and kept its ash in a tin. Each afternoon in the guest house's water-sprite room she raised the book from its ash, wrote out the next song in her own hand, and let it fall back.",
+          "The organizer had founded the circle around her songs and set when and where it met. At breakfast the organizer told the circle it was settled: starting tomorrow, the girls would come to the room in the afternoons too, to sit with her while she worked. Her cell was shared; that afternoon hour in the room was the only time she had alone.",
+          "That afternoon she carried a pail of ash from the incinerator out past the entrance and across the grounds to the guest house, in sight of the girls sitting outside. In the water-sprite room she took the ash in her hands and raised what it had burned from — worn matting, old bedding, sweepings, many times the pail. She laid it low along both side walls and across both sides of the doorway, the middle of the floor left clear.",
+          "At dusk the organizer came alone to ready the room for that evening's circle. It was dark; the organizer lit the lamp on the low table inside the door and turned for the cushions at the far wall. She stepped in at the doorway, tipped the lamp from the table into the matting beside it, and stepped back out.",
+          "The doorway caught first — the room's only way out — and the fire ran both side walls. The circle's girls fought it off the rest of the guest house, but the room burned to its frame, the organizer inside. A knocked lamp; an accident, at first.",
+          "The room had held two cushions, a low table, and one lamp; the circle's girls had furnished it and knew its contents. The burn had bitten deepest along both side walls and across both sides of the doorway, places where nothing had ever stood. A heavy load had lain and burned there, and none of its own burnt matter was left on the floor.",
+          "When asked, she said she had carried a pail of the incinerator's ash out that afternoon to scour the floorboards. The girls sitting outside the entrance had seen her carry it. Nothing else went out to that room that day.",
+          "The prisoners know what her power does with ash. The fuel the burning needed and the ash she admits carrying in are the same matter."
+        ],
+        "epitaph": "Everything they loved in her came out of a dead girl's ash, and nothing underneath was her own.",
+        "epithet": "She Who Built Her Name in Ash",
+        "execution": [
+          "A flower-press stood open on the stand, built to the size of a girl — two iron boards with layers of cloth leaves between them, a screw at each corner.",
+          "She was laid face down on the leaves, more leaves spread over her, the upper board set on top.",
+          "The screws were turned a quarter at a time, corner to corner — the upper board pressing down through the cloth onto her back, the lower board taking her chest. The leaves took her shape.",
+          "The boards were drawn together until her chest no longer rose between them. The press was left closed."
+        ],
+        "magic": {
+          "name": "Raised from Ash",
+          "text": "When she takes ash in her hands, what burned to make it comes back whole at its original size. It stays where she sets it down until she lets it go or it is destroyed a second time; then it falls back to ash."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
