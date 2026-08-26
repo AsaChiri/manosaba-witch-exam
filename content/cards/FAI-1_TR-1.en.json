@@ -10,11 +10,11 @@
     {
       "fields": {
         "crime": [
-          "Things got done around her — a fence-rail mended, a wardrobe shifted, mislaid things found. The girls called it her knack.",
-          "None of it was hers. She steered sleeping girls from their open cells at night and put their hands to the work. By day, no one had ever seen her finish anything.",
+          "Things got done around {WITCH_NAME} — a fence-rail mended, a wardrobe shifted, mislaid things found. The girls called it her knack.",
+          "None of it was hers. {WITCH_NAME} steered sleeping girls from their open cells at night and put their hands to the work. By day, no one had ever seen her finish anything.",
           "At dinner, the apprentice-girl asked to spend the coming week at her side — starting the next morning, watching everything she did. The table agreed. That evening the apprentice-girl went to bed early.",
-          "In the dusk before the ten o'clock lock, she steered the sleeping apprentice from the open cell, through the entrance hall and the prison entrance to the lake, walking alongside the whole way.",
-          "Into the shallows, then past them. She held the apprentice asleep until the water went still, let go, and walked back alone before the lock.",
+          "In the dusk before the ten o'clock lock, {WITCH_NAME} steered the sleeping apprentice from the open cell, through the entrance hall and the prison entrance to the lake, walking alongside the whole way.",
+          "Into the shallows, then past them. {WITCH_NAME} held the apprentice asleep until the water went still, let go, and walked back alone before the lock.",
           "When the apprentice was missing at the ten o'clock lock, the guards searched. At first light they found the apprentice at the lakeshore — barefoot, in nightclothes, unmarked. The prison called it sleepwalking.",
           "A sleepwalker drifts and halts. On the soft ground from the prison entrance to the waterline, these prints ran straight. A second set kept pace half a stride alongside, reached the water's edge, and turned back dry.",
           "The guards checked the prisoners' shoes. One pair still held the shore's black mud in its seams, and its owner was the last through the door before the ten o'clock lock."
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "Night Strings",
-          "text": "She can steer a sleeping person's body as her own so long as she keeps it in sight."
+          "text": "She can control a sleeping person's body."
         }
       },
       "variant": 1

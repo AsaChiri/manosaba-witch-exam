@@ -10,13 +10,13 @@
     {
       "fields": {
         "crime": [
-          "She ran the dinner entertainment — acts, impressions, pratfalls. She performed as the giver — the room's laughter was, to her, the happiness she brought them, her gift landing. The girls adored her for it, and as long as they did, no one gave her trouble.",
+          "{WITCH_NAME} ran the dinner entertainment — acts, impressions, pratfalls. She performed as the giver — the room's laughter was, to her, the happiness she brought them, her gift landing. The girls adored her for it, and as long as they did, no one gave her trouble.",
           "One dinner a sheet reached her by mistake — covered in one girl's handwriting: who would call for her turns each night, all of it arranged by that girl for the others to follow. A game run on her from the start. The laughter had been at her all along, not the happiness she thought she brought them.",
           "That evening the same girl was writing out a fresh sheet of it — the game set to run again. She sat quiet at her bench by the serving board, no act, no joke; the girl had her back to it, and one of the girls, as usual, had her phone out filming the table.",
-          "Halfway through the meal she aimed the room's laughter at the far corner, and everyone turned and laughed. She held the laughter there, crossed to the serving board, swung the iron pot once into the back of the girl's head, dropped it, and went back to her bench.",
+          "Halfway through the meal {WITCH_NAME} aimed the room's laughter at the far corner, and everyone turned and laughed. She held the laughter there, crossed to the serving board, swung the iron pot once into the back of the girl's head, dropped it, and went back to her bench.",
           "The laughter stopped. The girl was face-down at her seat, the pot on the floor beside her. Every girl had been in the dining hall, and every girl had been facing the corner.",
-          "No one could say what had been funny — nothing had been in the corner. She had not performed once all evening.",
-          "She said she never left her bench — the laughter, she said, was her act. The filming girl's clip ran the full minute: every girl in the frame facing the corner, the corner itself empty, and at the frame's edge, her bench empty too."
+          "No one could say what had been funny — nothing had been in the corner. {WITCH_NAME} had not performed once all evening.",
+          "{WITCH_NAME} said she never left her bench — the laughter, she said, was her act. The filming girl's clip ran the full minute: every girl in the frame facing the corner, the corner itself empty, and at the frame's edge, her bench empty too."
         ],
         "epitaph": "She could make them laugh, and so she never knew whether they had.",
         "epithet": "She Who Turned the Laugh",
@@ -28,7 +28,7 @@
         ],
         "magic": {
           "name": "the Owned Joke",
-          "text": "She directs a room's laughter at any target she chooses, and no one present resists. It holds as long as she wills, whether anything to laugh at is there or not."
+          "text": "She can force everyone in a room to laugh at a target she chooses."
         }
       },
       "variant": 1

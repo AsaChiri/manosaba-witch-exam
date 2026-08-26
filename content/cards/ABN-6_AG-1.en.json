@@ -10,27 +10,25 @@
     {
       "fields": {
         "crime": [
-          "Her warmest friend of a season — the one who held her cold hands on winter evenings, who sat close enough to share her heat — found a new circle, and the warmth stopped. She never let that go.",
-          "Over the months that followed, the friend grew cold and weary — hands always chilled, tired without cause — and visited the medical room more than once. Nothing was found.",
-          "At the last the friend lost the feeling of cold itself.",
-          "On a cold evening she saw the friend cup another girl's cold hands the old way. She asked the friend to wait for her at the lakeside.",
-          "A girl saw the two by the lake at dusk; she walked back alone. The friend, feeling no chill, waited on into the dark.",
-          "Absent at the lock roll, the friend was found dead of exposure at the lakeside. The night had not been cold enough to kill a girl who could feel it.",
-          "The medical room's records showed months of the friend's causeless cold and fatigue. The same records showed the pattern in every girl who had once been warm to her and then cooled.",
-          "It was she who had asked the friend to the lakeside and left her there — the girl at dusk had seen her come back alone. What had seemed months of illness had not been illness; the friend's warmth had been drawn from her, body-heat first and then the sense of cold, and a girl who could no longer feel it froze where she sat."
+          "The girl began meeting {WITCH_NAME} in the recreation room for evening films. They took turns choosing what to watch, and both stayed until each film ended. At first, the girl always sat through {WITCH_NAME}'s choices.",
+          "After growing close to her cellmate, the girl began leaving {WITCH_NAME}'s films halfway through without warning to spend time with the cellmate instead.",
+          "On the day of the murder, the girl privately messaged her cellmate that she would watch one last film with {WITCH_NAME} and tell {WITCH_NAME} in person that she would not come again. Halfway through the film {WITCH_NAME} had chosen, the girl switched off the projector and said she would not return.",
+          "When the girl failed to meet her cellmate afterward, the cellmate went to the recreation room and found the girl strangled beside the projector.",
+          "Several short threads caught between the girl's teeth matched a fresh tear in {WITCH_NAME}'s collar. Within the bruises around the girl's neck was a fresh bite on the side of her neck, beyond the reach of her own mouth. Its tooth pattern matched the girl's teeth, while {WITCH_NAME} had no corresponding bite.",
+          "The cellmate then showed the prisoners the private message from before the viewing. It named {WITCH_NAME} and said the girl would end their shared viewings that evening. {WITCH_NAME} had not known the message existed.",
+          "While {WITCH_NAME} strangled the girl, the girl bit her attacker's neck and collar. {WITCH_NAME} used Returned Wounds to make the bite appear in the same place on the girl's neck instead, leaving herself unmarked, and then finished strangling the girl. The unreachable bite exposed the magic, the threads linked it to the torn collar, and the private message proved who the girl had gone to meet that night."
         ],
-        "epitaph": "Every degree of warmth came back to her, and she was the colder for it.",
-        "epithet": "Keeper of the Warm Days' Receipts",
+        "epitaph": "She could send every wound back. No one came back with it.",
+        "epithet": "A Wound for Every Goodbye",
         "execution": [
-          "She is bound at the stand's centre. A close ring of white ice stands about her, smoking with cold, its faces pressed against her body.",
-          "Where a face touches, frost spreads on her skin. The ice stands dry and whole — it never melts, and no water ever comes off it.",
-          "Her breath-cloud thins as her body cools. The smoke off the ice is the only thing that grows.",
-          "Her shivering stops while the frost is still climbing her.",
-          "She frosted dead at the stand's centre; the ice stood not one measure smaller, still dry, and its smoke thinned to nothing."
+          "An enormous iron hand stands open toward her. She is bound upright before its palm, within reach of all five fingers.",
+          "The hand closes gently around her once, then opens and withdraws without hurting her. Her bound hands stretch toward the retreating palm as her shoulders tilt forward. Before she can touch it, the hand returns and closes again.",
+          "It repeats the motion, gripping harder each time. The fingers pin her arms and ribs against the palm. Each new grip crushes her chest further and compresses her body inside the fist.",
+          "At last, the hand stays closed around her crushed, motionless corpse."
         ],
         "magic": {
-          "name": "the Warmth Owed",
-          "text": "Anyone who was once genuinely warm to her and then withdrew that warmth loses it back to her, gradually — body-heat and vigor first, then the feeling of cold itself, until none of that warmth remains with them."
+          "name": "Returned Wounds",
+          "text": "When someone injures her, she can make the same injury appear in the same place on that person's body instead."
         }
       },
       "variant": 1

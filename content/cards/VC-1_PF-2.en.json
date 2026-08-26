@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "She was the prison's first-responder. When anything went wrong, hands reached for her.",
-          "A fire had once taken the unprepared on a clear, ordinary afternoon. She drilled for everything after.",
+          "{WITCH_NAME} was the prison's first-responder. When anything went wrong, hands reached for her.",
+          "A fire had once taken the unprepared on a clear, ordinary afternoon. {WITCH_NAME} drilled for everything after.",
           "One girl mocked her drilling in front of everyone — nothing goes wrong on a calm day — and mocked it again that evening at the showers.",
-          "In the shower that girl slipped and struck her head on the stone. The drain had clogged; water pooled, and she lay face-down in it. The others called, and she came.",
-          "She went to work on the girl. She held the airway shut, deliberately, through the one moment it needed to be open.",
+          "In the shower that girl slipped and struck her head on the stone. The drain had clogged; water pooled, and she lay face-down in it. The others called, and {WITCH_NAME} came.",
+          "{WITCH_NAME} went to work on the girl. She held the airway shut, deliberately, through the one moment it needed to be open.",
           "The girl did not come back. What remained was a body dead of a fall and water, and a responder who, by all appearances, had done everything.",
           "A girl had knelt beside her through the work — one who had learned the reviving procedure from watching her. That girl caught the single step held wrong, at the moment it had to be right.",
-          "Every case before had been flawless. The single deviation came at the single one she had reason to lose."
+          "Every case before had been flawless. The single deviation came at the single one {WITCH_NAME} had reason to lose."
         ],
         "epitaph": "She drilled for every disaster but the one her drilling made.",
         "epithet": "She Who Had Drilled for Everything",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "the Drill",
-          "text": "The Drill — In a genuine emergency, her body performs the trained response she never trained: the right knot, the compression rhythm, the fire-line order."
+          "text": "The Drill — In an emergency, she instinctively performs the correct response without prior training."
         }
       },
       "variant": 1

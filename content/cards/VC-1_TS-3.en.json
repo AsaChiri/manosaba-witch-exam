@@ -10,10 +10,10 @@
     {
       "fields": {
         "crime": [
-          "The river was still on an ordinary afternoon. An undertow dragged her under mid-breath; she was pulled out downstream, alive. After that, every spring, she was the first into the cold lake.",
+          "The river was still on an ordinary afternoon. An undertow dragged {WITCH_NAME} under mid-breath; she was pulled out downstream, alive. After that, every spring, she was the first into the cold lake.",
           "No cup dropped near her ever reached the floor. Every girl had seen it: a cup slipped, and she was already there, holding it.",
           "One still morning by the lake, the swimmer girl shoved her into the water mid-sentence, laughing. \"Spring came early.\"",
-          "Some mornings later, on the breakfast stairs, the swimmer girl started down from the head of the flight; she was standing three steps below. Her hand went to the girl's back, and the long breath opened — inside it she sent the girl headlong down the full flight. Every other girl on the stairs saw nothing but a missed step.",
+          "Some mornings later, on the breakfast stairs, the swimmer girl started down from the head of the flight; {WITCH_NAME} was standing three steps below. Her hand went to the girl's back, and the long breath opened — inside it she sent the girl headlong down the full flight. Every other girl on the stairs saw nothing but a missed step.",
           "The swimmer girl struck the lower flight and the landing and broke her neck. Her arms were full of borrowed library books. Every girl on the staircase had been placed by the others; none had been within reach. It was first taken for a fall.",
           "A girl who stumbles takes the stairs one by one; the swimmer girl cleared the first four without touching them. A flight that clean means force at the back, not a lost footing.",
           "A hand no one on the stairs saw is a hand that moved inside the fall's first instant. That instant opens for one girl in this prison — the one who had been standing three steps below."
@@ -28,7 +28,7 @@
         ],
         "magic": {
           "name": "Long Instant",
-          "text": "When a danger breaks open, even one she begins herself, time stretches for her: one long breath in which only she can move."
+          "text": "When danger begins, time stretches for her so that only she can move."
         }
       },
       "variant": 1

@@ -10,7 +10,7 @@
     {
       "fields": {
         "crime": [
-          "Every evening at seven she danced in the lounge, and the prisoners all came to watch — all but one, who stayed in the dining hall with her book, every night, and never once came to see.",
+          "Every evening at seven {WITCH_NAME} danced in the lounge, and the prisoners all came to watch — all but one, who stayed in the dining hall with her book, every night, and never once came to see.",
           "As a child she had danced just this way for a mother who never turned from the window.",
           "The dancer in the lounge that evening was her double, replaying the dance of three nights before. She herself took the back corridor to the dining hall, strangled the girl over her book, and was back before the finale to take the bow in person.",
           "Both evenings had been streamed on prisoners' phones. Side by side, the clips match frame for frame.",

@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "For half a year they shared the same rooms. Not once had the girl so much as looked at her.",
+          "For half a year they shared the same rooms. Not once had the girl so much as looked at {WITCH_NAME}.",
           "That morning the girl set an empty tray on her lap in passing, the way someone puts something down on a shelf.",
-          "Within the hour, on the entrance path, she settled the girl's account. The girl dropped mid-stride among the others, and the marks rose as she fell.",
+          "Within the hour, on the entrance path, {WITCH_NAME} settled the girl's account. The girl dropped mid-stride among the others, and the marks rose as she fell.",
           "The body bore hundreds of marks, every one small — nail-crescents, pinch-bruises, welts from a flicked finger, the print of an elbow. No single mark would have killed. The whole half-year of them, landing at once, did.",
           "At trial her testimony was flat: no quarrel had ever stood between them, and the girl had never done her any wrong worth the name.",
           "The marks were examined one by one. Each called up a memory among the prisoners — a pinch from a game in winter, a shove in line at the showers, the tray that morning. Each had its date and its witness.",
           "Testimony by testimony, each trivial alone, the accounts converged on what nobody had noticed while it was happening: every one of those slights had been done to her.",
-          "Her own sworn \"no wrong worth the name\" stood against the itemized skin."
+          "{WITCH_NAME}'s own sworn \"no wrong worth the name\" stood against the itemized skin."
         ],
         "epitaph": "None of it was worth remembering. All of it was kept.",
         "epithet": "She Who Kept What No One Counted",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "the Settled Score",
-          "text": "The Settled Score — Every hurt dealt to her is kept; she can settle a debtor's whole account at once, each mark landing on that person exactly as it was first made."
+          "text": "The Settled Score — She can return every past hurt she has received to the person who caused it."
         }
       },
       "variant": 1

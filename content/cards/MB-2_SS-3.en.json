@@ -10,11 +10,11 @@
     {
       "fields": {
         "crime": [
-          "Her ears were never empty — a feed, songs, noise in both ears at all hours. She had once told the silence-maker why: in quiet she cries without knowing the reason, and cannot stop it.",
-          "One dinner the whole dining hall went silent on cue as she walked in — every girl at once, on a signal the silence-maker had set — and the room watched her come apart on schedule.",
+          "{WITCH_NAME}'s ears were never empty — a feed, songs, noise in both ears at all hours. She had once told the silence-maker why: in quiet she cries without knowing the reason, and cannot stop it.",
+          "One dinner the whole dining hall went silent on cue as {WITCH_NAME} walked in — every girl at once, on a signal the silence-maker had set — and the room watched her come apart on schedule.",
           "Each evening the silence-maker came back from the courtyard last, cutting through the west corridor.",
-          "That evening she had strung a cord across the corridor's dark end at throat height, tied to the door-irons on either side.",
-          "When the silence-maker entered, a crowd of voices rose behind her where no crowd was, filling the lit end wall to wall and coming on. She let it be heard, reckoning that no death could be laid against a night's uproar, and that the cord left behind traced back to no one. The silence-maker ran from it, headlong into the dark.",
+          "That evening {WITCH_NAME} had strung a cord across the corridor's dark end at throat height, tied to the door-irons on either side.",
+          "When the silence-maker entered, a crowd of voices rose behind her where no crowd was, filling the lit end wall to wall and coming on. {WITCH_NAME} let it be heard, reckoning that no death could be laid against a night's uproar, and that the cord left behind traced back to no one. The silence-maker ran from it, headlong into the dark.",
           "The cord took her at the throat. The voices stopped in a breath.",
           "Girls came with lamps toward the sound half the prison had heard. The corridor stood empty and soundless — the silence-maker at its dark end, her throat crushed against the cord, and one girl already in the corridor's mouth when the lamps arrived."
         ],
@@ -30,7 +30,7 @@
         ],
         "magic": {
           "name": "the Static",
-          "text": "She can flood a space within her hearing with overlapping sound out of no source, and steer it where she wills."
+          "text": "She can fill a place with sounds that have no source and move them at will."
         }
       },
       "variant": 1

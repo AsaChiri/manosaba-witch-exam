@@ -17,6 +17,14 @@
       "ABN-6|AG-2": 1
     }
   },
+  "ABN|Avoider": {
+    "table": {
+      "ABN-1|AV-2": "ABN-1_AV-2"
+    },
+    "tiers": {
+      "ABN-1|AV-2": 0
+    }
+  },
   "ABN|Caretaker": {
     "table": {
       "ABN-1|CT-3": "ABN-1_CT-3"
@@ -57,10 +65,16 @@
   },
   "ABN|Fantasist": {
     "table": {
-      "ABN-3|FA-1": "ABN-3_FA-1"
+      "ABN-1|FA-1": "ABN-1_FA-3",
+      "ABN-1|FA-3": "ABN-1_FA-3",
+      "ABN-3|FA-1": "ABN-3_FA-1",
+      "ABN-3|FA-3": "ABN-3_FA-1"
     },
     "tiers": {
-      "ABN-3|FA-1": 0
+      "ABN-1|FA-1": 1,
+      "ABN-1|FA-3": 0,
+      "ABN-3|FA-1": 0,
+      "ABN-3|FA-3": 1
     }
   },
   "ABN|Pleaser": {
@@ -177,6 +191,14 @@
     },
     "tiers": {
       "ALN-1|RS-1": 0
+    }
+  },
+  "ALN|Ritualist": {
+    "table": {
+      "ALN-9|RI-2": "ALN-9_RI-2"
+    },
+    "tiers": {
+      "ALN-9|RI-2": 0
     }
   },
   "ALN|Self-Punisher": {
@@ -315,6 +337,14 @@
       "DEF-3|SV-1": 0
     }
   },
+  "DEF|Trickster": {
+    "table": {
+      "DEF-3|TR-1": "DEF-3_TR-1"
+    },
+    "tiers": {
+      "DEF-3|TR-1": 0
+    }
+  },
   "DEF|Wall-of-Anger": {
     "table": {
       "DEF-3|WA-1": "DEF-3_WA-1"
@@ -441,6 +471,14 @@
       "ED-1|SV-2": 0
     }
   },
+  "ED|Striker": {
+    "table": {
+      "ED-1|ST-2": "ED-1_ST-2"
+    },
+    "tiers": {
+      "ED-1|ST-2": 0
+    }
+  },
   "ED|Thrill-Seeker": {
     "table": {
       "ED-1|TS-2": "ED-1_TS-2"
@@ -523,6 +561,14 @@
       "FAI-1|SR-1": 0
     }
   },
+  "FAI|Sovereign": {
+    "table": {
+      "FAI-1|SV-3": "FAI-1_SV-3"
+    },
+    "tiers": {
+      "FAI-1|SV-3": 0
+    }
+  },
   "FAI|Thrill-Seeker": {
     "table": {
       "FAI-5|TS-1": "FAI-5_TS-1"
@@ -601,6 +647,14 @@
     },
     "tiers": {
       "MB-6|P-2": 0
+    }
+  },
+  "MB|Pleaser": {
+    "table": {
+      "MB-2|PL-2": "MB-2_PL-2"
+    },
+    "tiers": {
+      "MB-2|PL-2": 0
     }
   },
   "MB|Self-Soother": {
@@ -717,6 +771,14 @@
       "POW-2|SR-3": 0
     }
   },
+  "POW|Thrill-Seeker": {
+    "table": {
+      "POW-2|TS-2": "POW-2_TS-2"
+    },
+    "tiers": {
+      "POW-2|TS-2": 0
+    }
+  },
   "POW|Trickster": {
     "table": {
       "POW-2|TR-1": "POW-2_TR-1"
@@ -773,12 +835,28 @@
       "VC-1|PF-2": 0
     }
   },
+  "VC|Resigned": {
+    "table": {
+      "VC-1|RS-2": "VC-1_RS-2"
+    },
+    "tiers": {
+      "VC-1|RS-2": 0
+    }
+  },
   "VC|Ritualist": {
     "table": {
       "VC-8|RI-1": "VC-8_RI-1"
     },
     "tiers": {
       "VC-8|RI-1": 0
+    }
+  },
+  "VC|Self-Soother": {
+    "table": {
+      "VC-1|SS-2": "VC-1_SS-2"
+    },
+    "tiers": {
+      "VC-1|SS-2": 0
     }
   },
   "VC|Striker": {

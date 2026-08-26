@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Trickster",
+  "copingSub": "TR-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Trickster",
+  "tag": "DEF-3_TR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During evening free time in the dining hall, {WITCH_NAME} and her usual game partner alternated drawing and solving route puzzles on a single sheet with one sharpened pencil. That night, while solving her route, the companion praised the cellmate who usually came to escort the companion to their shared cell.",
+          "After the round, {WITCH_NAME} posed with the solved sheet held beside her while her companion used her unlocked phone to take their customary portrait. After taking the photo, her companion left the camera app and saw an unsent draft wishing the named cellmate would disappear.",
+          "{WITCH_NAME}'s companion read it and said the cellmate would first see the exact draft; deletion would only force a later account from memory. The cellmate was due to arrive before lockup.",
+          "They struggled at close range for the phone. {WITCH_NAME} escaped as the cellmate reached the doorway. Still alive and seated facing the door, her companion asked the cellmate to stop her before deletion, then remained there while the cellmate immediately followed.",
+          "The dining hall was otherwise empty. The cellmate caught her several steps down the corridor and faced her. They heard a chair fall behind them.",
+          "The cellmate returned to find the companion dead beside the fallen chair, a deep puncture with graphite around its edge below the jaw. The pencil was on neither the body nor the table. The death seemed beyond her reach.",
+          "Yet the cellmate had seen the skin below the companion's jaw intact at the doorway and watched her leave with the phone and the only pencil. When the chair fell, she and the cellmate were facing each other in the corridor, both away from the companion, and she still held the same pencil.",
+          "The pencil point could have touched that spot only during their close struggle. {WITCH_NAME} had driven it inward then but withheld the movement's physical effect with Deferred Impact. From the corridor, she released the delayed puncture. The puncture severed an artery in the companion's neck, causing fatal blood loss."
+        ],
+        "epitaph": "The one thought she could not bear anyone seeing was all she left in plain sight.",
+        "epithet": "The Wish Almost Delivered",
+        "execution": [
+          "An upright press seals her between a clear front and a rear plate, with her graphite-coated palms held against the front and her wrists fixed beside her face.",
+          "The rear plate advances into her back. Her palmprints darken as her face is forced into view between them.",
+          "The plate keeps closing, crushing her back, chest, ribs, organs, and face against the clear front. Her breathing stops and her organs rupture, but the plate continues to move after she dies."
+        ],
+        "magic": {
+          "name": "Deferred Impact",
+          "text": "She can delay the physical effect of a movement she makes with an object."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

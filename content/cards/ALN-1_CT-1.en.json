@@ -10,25 +10,20 @@
     {
       "fields": {
         "crime": [
-          "She had brought meals to the girl with the weak chest, fetched things for her, and for her birthday arranged the whole lounge gathering tray by tray — the cups, the sweets she had saved from meals. At the door with the last tray she heard the girl tell the table to let her bring things — it spared them having to speak with her.",
-          "The girl's breathing fits were common knowledge. The one who mixed her drops in the medical room had said plainly that one bad night without them could kill her. The girl kept the small bottle on her at all times.",
-          "Days later the girl came back five minutes past the lock hour and drew the standard penalty: two days in the punishment room. A guard walked her down; the girls in the B1 cells saw her led past their barred doors, the small bottle buttoned into her breast pocket.",
-          "On the second night, from her own locked cell, she held the girl in her attention. The fit began — a hand to the breast pocket. She felt the reach, drew the bottle through stone and locks into her own hand, and kept it.",
-          "At the term's end a guard opened the punishment room; the girl was dead of her fit. The bottle was not on her, not in the room, not anywhere the search found.",
-          "At the trial she testified the bottle had never gone in — the girl had left it behind at the gathering, and she had cleared the cups without seeing it after.",
-          "The girls in the B1 cells had seen the bottle buttoned into her breast pocket as the guard led her past. Her word and theirs could not both hold; hers broke. The bottle had gone in; the door had been locked both nights, the walls were stone, no one had entered. No hand outside a sealed room could have emptied a pocket within it — and she had once provided for every girl in the prison, the girl with the weak chest among them."
+          "{WITCH_NAME} regularly laid out a girl's comb, ribbons, and wooden hair beads after the girl's evening showers and braided the girl's hair. The girl liked the braids and quiet routine, and let her choose and replace the supplies. The roommate knew the girl's plans and often walked with the girl to the shower room.",
+          "At the start of evening free time, the girl requested a braid for a casual group photo in the courtyard. While braiding, {WITCH_NAME} found one bead split along the side, removed and pocketed it for later replacement, then finished with the rest as the roommate and another participant watched. The roommate invited her into the picture, but the girl handed the phone to her instead. “You always smile after everyone else. You should take it.” {WITCH_NAME} photographed the group.",
+          "The girl, the roommate, and the other participant went straight to the shower room. Meanwhile, she headed toward the cells with the cracked bead. The girl entered the soundproof room alone, the other beads still in the braid, while both companions waited at its only entrance.",
+          "When the girl stopped answering, both companions entered together. Neither had heard the girl choke or seen anyone pass. The girl was dead, with the same split bead lodged in the airway and the other beads beside the girl's clothes.",
+          "At first, it appeared that the girl had put one of her own beads into her mouth while undoing the braid and accidentally choked. But both witnesses had watched her pocket the fatal cracked bead. They stayed together with the girl until the girl entered the shower room, then watched the entrance together; neither could have returned the bead unseen by the other. After leaving the courtyard, she held the cracked bead and used Object Transfer to send it directly into the girl's throat, blocking the airway and killing the girl."
         ],
-        "epitaph": "She carried everything the room could want, and the room never wanted her.",
-        "epithet": "The Bearer Who Never Sat",
+        "epitaph": "She filled every open hand, then lay alone inside the one that never asked.",
+        "epithet": "A Smile Too Late",
         "execution": [
-          "On the execution stand, a slow belt ran from one end to the lip of the pit beneath.",
-          "Provisions were laid along it — trays, loaves, folded blankets — and one by one each was carried to the lip and tipped off.",
-          "She was bound at the tail of the belt.",
-          "The belt did not slow for her; it tipped her from the lip, and the pit took her."
+          "An enormous iron hand opens palm-up, with her restrained on her back across its center. The fingers close in one continuous motion, pressing her legs, arms, torso, and head into the palm and crushing her skull, shoulders, ribs, chest, pelvis, and spine. The hand finishes as a fist around her crushed corpse."
         ],
         "magic": {
-          "name": "Providence",
-          "text": "Anyone she has once provided for is hers to provide. She feels that girl's reach only while holding her in her attention, and may draw the thing through walls and locks to her own hand first. She may then give it to that girl or withhold it."
+          "name": "Object Transfer",
+          "text": "She can instantly move an object she is holding to another place she chooses."
         }
       },
       "variant": 1

@@ -10,26 +10,26 @@
     {
       "fields": {
         "crime": [
-          "The light was green on an ordinary school morning when the car came through. It was months before she walked again, and after that she went around — that crossing first, and then no straight way at all. In the prison the other girls laughed at the dog-leg she walked through the entrance hall to keep off the main corridor.",
-          "That evening in the lounge, the brisk girl — her company there, and fond of her — told the room that from tonight she was going to be walked straight: every corridor, every stair, until she stopped going around. The girls laughed. The brisk girl took her arm and marched her down the main corridor then and there.",
-          "As the girls left the lounge and most of the wing was already down, she warded the main corridor. Her ward held one stretch, and the entrance hall it turned feet onto stood open behind it. Two girls bound for the cells came through the hall and went down without noticing.",
-          "The hall's watch had gone down to the cell rows for the 22:00 lock. She waited for the two to pass, took her own way through the empty hall, and rigged the dark turn behind her. Two tall iron candelabra flanked the turn, part of the mansion's ornament, heavy and old, never moved from there; she took a cord from the cleaning things in the hall, tied it at the foot of one stand and stretched it wall to wall at ankle height, then ran it up the shaft of the other and made it fast above the balance point, and leaned that stand back from the turn past its centre — nothing but the cord held it upright.",
-          "The brisk girl left the lounge last, as was her habit, heading for the cells. The ward turned her feet into the entrance hall. At the dark turn her foot struck the cord; it snapped tight, hauled the leaning stand forward past its balance, and brought the iron head down on the back of her skull.",
-          "At the 22:00 lock she stood in the cell row in the other girls' sight and let the ward go. On the sweep the guards found the brisk girl at the dark turn under the fallen candelabrum, the back of her skull broken, the cord still fast at the other stand's foot.",
-          "At the trial the girls accounted for that half hour. Three had turned off an open, unobstructed corridor and none could say why — something other than their own choice had closed it. The turn where the brisk girl died lies on a passage the brisk girl had never walked; only someone who knew the corridor was closed would set a trap for her there.",
-          "The span was uncrossable: anything that struck the cord brought the stand down, and the two who turned before the brisk girl had passed the turn untouched. The cord went in after them and before her. The girls in the lounge and the girls at the cell row accounted for every other girl. In that gap, exactly one had gone through the entrance hall, by the way that had always been hers."
+          "Before {WITCH_NAME} was imprisoned, her father died during an ordinary meal. He had shown no illness, no warning, and no change in routine. Since then, whenever a place, person, or subject gives her an unexpected shock, she changes her route.",
+          "{WITCH_NAME} shares a cell with another girl. Before the cell is locked each night, her cellmate waits while {WITCH_NAME} checks the bunks and floor in the same order. {WITCH_NAME} then listens to the cellmate recount her day until the cellmate falls asleep.",
+          "One night, that routine ends normally. After a long silence, the sleeping cellmate sits up without a sound and closes both hands around {WITCH_NAME}'s throat. {WITCH_NAME} fights free. Only then does the cellmate wake, with no memory of the attack. The bruises on {WITCH_NAME}'s throat remain visible the next day.",
+          "{WITCH_NAME} asks the warden for another cell, but the warden refuses because assignments are fixed. The cellmate is horrified but cannot promise that the attack will not happen again. Before the next cell lock, {WITCH_NAME} asks the cellmate to talk during the courtyard walk. The cellmate agrees only after a third girl promises to meet them both at the courtyard fountain so that neither will face the other alone.",
+          "Before the meeting, {WITCH_NAME} presses her palm to the direct path beside a courtyard tree and leaves a ward there. She and the cellmate enter the courtyard first. Following them toward the fountain, the third girl sees the pair ahead and notices that the earlier throat bruises are still visible. The pair stop out of sight behind the tree.",
+          "The third girl heads down the direct path to the fountain. The ward turns her onto the other existing route, and the choice feels ordinary. The third girl waits at the fountain for the pair to join her.",
+          "Behind the tree, {WITCH_NAME} strangles the cellmate. Once the cellmate stops moving, {WITCH_NAME} ends the ward and calls the third girl back from the fountain.",
+          "The path is direct again when the third girl returns and finds {WITCH_NAME} beside the body. {WITCH_NAME} says the cellmate closed both hands around her bruised throat again and that she killed the cellmate to break the grip. The third girl sees no new redness or broken skin beyond the bruises visible before the meeting.",
+          "The third girl later remembers reaching the fountain from the wrong side on the way there. The third girl had seen the pair go behind the tree before the detour. The caster could place the ward only by pressing a palm to that distant path, so it had been prepared before the sudden attack {WITCH_NAME} later claimed.",
+          "The old bruises made self-defense seem credible at first. The absence of fresh marks on her throat disproves the alleged second grip, while the prepared ward shows that {WITCH_NAME} removed the agreed safety witness in advance. Together, they expose a planned killing."
         ],
-        "epitaph": "It was never the street.",
-        "epithet": "She Who Goes Around Since the Green Light",
+        "epitaph": "Every way around danger closed in at once.",
+        "epithet": "The Quiet That Proved Nothing",
         "execution": [
-          "A flat plate of iron hung high and level above the stand. On every side its rim reached past the stand's edge. Below it lay the stand's floor, bare and open.",
-          "She stood unbound on the stand's floor beneath the iron. She crossed the floor at her own pace, kept to its edge, stood still. The iron was above every place she took.",
-          "For an hour nothing above her moved and nothing sounded.",
-          "Then, with nothing to mark it, the whole plate fell at once. The iron struck her head and shoulders and drove her to the floor, her whole body beneath it. That fall killed her."
+          "A circular iron cage descends around her and stops.",
+          "Without warning, the cage contracts from every side at once. The bars pin her upper arms against her ribs and press into her chest and back. The cage keeps closing until her ribs and spine break and her chest collapses. The bars remain locked around her until her chest stops moving."
         ],
         "magic": {
-          "name": "Wardaway",
-          "text": "She wards a stretch of ground, and anyone walking toward it is turned onto another way around without a thought."
+          "name": "Detour Ward",
+          "text": "She can ward a short stretch of ground, making anyone who would cross it take another route."
         }
       },
       "variant": 1

@@ -10,26 +10,22 @@
     {
       "fields": {
         "crime": [
-          "In the lounge the other girls made way for her. One night a homesick girl sat weeping, and she laid her hand on the girl's head. Under that hand, the thought: slap the tears off her.",
-          "After that the girl came to her every evening to weep. Each time the thought came back and stayed longer. On the last evening the girl would not let go, and the thought came worst of all.",
-          "Between tears the girl had mentioned a habit: every dawn, before the others woke, reading the same picture-book alone in the library.",
-          "That night, after the cells were locked, she walked out and unseated the tall bookcase in the library at its feet, leaving it balanced so that a pull on its shelves would bring it down. She went back to her bunk.",
-          "At half past six the homesick girl lay under the fallen bookcase, the picture-book beneath her. The other girls called it the old case giving way.",
-          "She offered, unasked, that the case had been leaning for weeks. The girls who shelved books on it every day said it had stood straight through the last free hour.",
-          "The bookcase was rigged in the hours the cells stand bolted, when no girl can leave. At the dawn round one cell's bolt was found open. A cell she left in the night could not bolt again behind her, and so the open cell was hers."
+          "During free time, {WITCH_NAME} often met a quiet girl in the library. The quiet girl always asked what to read next. The witch chose the book and stayed while the girl began it.",
+          "One afternoon, the girl reached for a book without asking. {WITCH_NAME} suddenly wanted to break the girl's fingers for taking it. When the girl asked why the witch was staring, the witch stated the thought and waited to choose the next book as usual.",
+          "The girl called the thought cruel and said she would choose for herself from then on. The girl walked around a freestanding double-sided bookcase into the aisle between it and the wall, found a book, and said she would take it.",
+          "From the opposite side, {WITCH_NAME} used Remote Push to drive the loaded case away from herself. The case crossed the narrow aisle, drove the girl against the wall, and crushed her. She left before anyone entered.",
+          "The girl was found dead between the upright case and the wall. At first, it seemed the case had shifted while the girl pulled at its shelves.",
+          "When the prisoners moved the case, they found two straight fresh scrapes beneath its feet. The books remained on the shelves, and the case had crossed the aisle without tipping.",
+          "The loaded case was too heavy for one girl to drive across the aisle while it remained upright. Its straight movement matched Remote Push. A strip from {WITCH_NAME}'s assigned prison garment, visibly distinct from every other girl's, had been pressed beneath one foot and dragged along a fresh scrape. A new tear in that garment's lower edge matched the strip. The trapped cloth placed the witch beside the case while it moved and identified her as the person who had used the magic."
         ],
-        "epitaph": "Every door in the prison opened for her; the one behind her eyes never once closed.",
-        "epithet": "The Gutter Beneath the Crown",
+        "epitaph": "The world made way for her; when the crown fell, the thought had already drawn blood.",
+        "epithet": "The Stain Beneath the Crown",
         "execution": [
-          "She sat bound by a strap to a high seat on the execution stand, raised above the court, an iron canopy of state hooded shut to a peak over her.",
-          "The panels' inner faces were polished iron, mirror-bright: while the canopy held, the only face before her on every side was her own.",
-          "The machine sprang the panels one at a time. Each swung wide, latched open, its polished face tilted down at the seat.",
-          "Panel by panel the iron held another angle of her to the room, until no side of her was left unseen.",
-          "With the peak opened, the panels cradled nothing. The weight fell through the opened center onto her and did not rise, and the polished faces went on holding her to the room."
+          "An enormous iron crown hangs above her as she stands on the execution stand. It descends. She uses Remote Push against it and slows it, but cannot stop it. The lower rim strikes both shoulders and drives her to her knees. The crown keeps falling and crushes her head and chest against the stand. It remains down, with her dead beneath it."
         ],
         "magic": {
-          "name": "Right of Way",
-          "text": "Every lock, bolt, and bar in the prison opens to her hand; it only opens, and never closes again."
+          "name": "Remote Push",
+          "text": "She can push anything away from herself without touching it."
         }
       },
       "variant": 1

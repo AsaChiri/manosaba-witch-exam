@@ -10,26 +10,22 @@
     {
       "fields": {
         "crime": [
-          "The block had formed around one girl — easy talk, shared jokes. She watched from the edge, as she has all her life.",
-          "That week, at the evening gathering, the girl saved her a seat and called on her to speak. The line came a half-beat wrong, the laugh never came, and the girl filled the silence kindly and moved on.",
-          "Every Monday the girl carried the block's discards to the incinerator room and loaded them before the furnace lit at three. She watched her do it for weeks.",
-          "The next Monday, she was already in the basement corridor when the girl went in with the load. The heavy iron door swung shut behind the girl.",
-          "As the girl turned back for the handle, she fixed the distance — the girl could not come within reach of the door, though it stood an arm's length ahead. At three the furnace took, and the small stone room filled with smoke and heat.",
-          "The girl was found after the firing, face down inside the incinerator room, one hand stretched toward the unlocked door — a clear step of untouched floor between her fingers and it.",
-          "A prisoner overcome by smoke normally gets to the door and falls against it. This one fell a full step short — an even margin of untouched floor before her.",
-          "That even margin means a line was held around a point out in the corridor — and the one prisoner who could set a distance no one else could close had stood there when the furnace took."
+          "For several weeks, {WITCH_NAME} and another girl silently exchanged ordinary library books during afternoon free time. {WITCH_NAME} understood each book the girl returned as an answer to the one she had chosen.",
+          "One afternoon, a third reader returned a book to the girl. The girl immediately understood why it had been chosen. The girl then told {WITCH_NAME} that none of her choices had ever made sense; the girl had assumed {WITCH_NAME} was passing along unrelated books she had finished. The girl offered to explain each future choice.",
+          "One book {WITCH_NAME} had left for the girl was still in the girl's cell. During the same free-time period, the girl went to fetch it. The witch followed, and the barred door remained open.",
+          "Later, the prisoners found the girl slumped at the base of the far stone wall. The back bore bruises from the wall, and the ribs, sternum, and spine had been crushed. At first, the injuries suggested that an attacker or a heavy object removed afterward had pinned the girl against the stone.",
+          "But the prisoners found two straight, unbroken heel streaks running from the middle of the cell to the wall. They showed that the girl had remained upright while a sustained force drove the body backward. The wall had marked only the back; the front of the torso had no contact mark, and no heavy object remained in the cell. A torn strip of {WITCH_NAME}'s distinctive prison clothes was clenched in the girl's hand. It matched a fresh tear in the witch's sleeve.",
+          "The girl had caught {WITCH_NAME}'s sleeve before being pushed away. From beside the open doorway, the witch kept using Repulsion to drive the girl straight back. Even after the wall stopped the girl, the witch continued pushing until the pressure crushed the torso and spine."
         ],
-        "epitaph": "She was never quite in reach, and then she made sure of it.",
-        "epithet": "The Far Side of the Room",
+        "epitaph": "The distance she guarded left no room for her in the end.",
+        "epithet": "The Reply That Meant Nothing",
         "execution": [
-          "A great ring of iron links lay around the stand in a rim channel, every coupling unseated. She stood in the circle's one gap, and the final span was brought around her chest — the two end-links coupled to each other before her, closing the ring with her inside its line.",
-          "A winch beneath the stand took up the ring. The slack left it join by join, each coupling seating true — the click walking the round toward her from both sides.",
-          "The last two end-links met before her chest and closed, iron to iron, around her. The circle was fast.",
-          "The winch kept taking up. The one span not riding the channel was the span around her; it tightened until the chest could no longer draw breath."
+          "Two tall iron plates stand face to face, with her restrained upright between them, one before her and one behind.",
+          "They advance together, closing the gaps before and behind her. The plates strike her chest and back and keep closing. Her ribs and sternum collapse, and her spine breaks. The plates stop with her flattened corpse held between them."
         ],
         "magic": {
-          "name": "the Set Distance",
-          "text": "She fixes a distance between herself and one chosen person; that person can never close it."
+          "name": "Repulsion",
+          "text": "She can push people away from her."
         }
       },
       "variant": 1

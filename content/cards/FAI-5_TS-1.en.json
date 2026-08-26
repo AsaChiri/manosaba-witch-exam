@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "As a child she had been a blade-throwing prodigy. The skill had left her.",
+          "As a child {WITCH_NAME} had been a blade-throwing prodigy. The skill had left her.",
           "A younger prisoner — a blade prodigy the whole prison gathers to watch — admired her as the old master, and had arranged a weekend demonstration: the two of them throwing side by side, for everyone to see.",
           "The girl practiced alone in the courtyard at dusk, throwing at a mark near the fountain.",
-          "The other prisoners knew her habit: she walked the second-floor railing over the courtyard for the thrill, balanced out over the drop, rosin on her palms for grip.",
-          "At dusk she stepped onto the railing above the girl; her hands came back. She threw a single practice-knife — palmed earlier from the girl's own set — down into her, and stepped in off the railing.",
+          "The other prisoners knew her habit: {WITCH_NAME} walked the second-floor railing over the courtyard for the thrill, balanced out over the drop, rosin on her palms for grip.",
+          "At dusk {WITCH_NAME} stepped onto the railing above the girl; her hands came back. She threw a single practice-knife — palmed earlier from the girl's own set — down into her, and stepped in off the railing.",
           "The girl was found dead by the courtyard fountain, a thrown blade in her, struck steeply from above.",
           "The wound's steep angle placed the throw on the second-floor railing — from on top of it, out over the drop. Fresh scuffs and a smear of hand-rosin marked the top rail.",
-          "Her account: her hands are gone; the throw is beyond her. The railing over the drop is the edge she alone walks, and at that edge, her hands return."
+          "Her account: her hands are gone; the throw is beyond her. The railing over the drop is the edge {WITCH_NAME} alone walks, and at that edge, her hands return."
         ],
         "epitaph": "She was no one until she was about to die.",
         "epithet": "She Who Shone Only at the Edge",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "Edge-Bright",
-          "text": "When she steps into true mortal danger by her own act, the skill she lost comes back in full while she holds that edge."
+          "text": "Mortal danger restores the skill she has lost."
         }
       },
       "variant": 1

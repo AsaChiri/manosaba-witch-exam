@@ -88,7 +88,7 @@ function parseFrontmatter(lines: string[]): { fields: Record<string, string>; ma
     const m = /^([A-Za-z_][\w-]*):\s*(.*)$/.exec(line);
     if (!m) continue;
     if (m[1] === "magic_name") inMagic = true;
-    else fields[m[1]!] = m[2]!.trim();
+    else fields[m[1]!] = stripQuotes(m[2]!);
   }
   return { fields, magicName };
 }

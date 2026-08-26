@@ -10,11 +10,11 @@
     {
       "fields": {
         "crime": [
-          "The prison knew her as the girl who always had the needed thing — thread for a torn hem, a spare candle, the right blade from the boxed craft-set the other girls borrowed. She had it ready before anyone asked.",
-          "She had been a famous prodigy once. That morning at breakfast the victim pinned her ten-year-old prize portrait above the dining-hall board — the girl from whom everything was expected — and asked the room, laughing, what had ever become of so much potential.",
-          "That afternoon she was busy in the empty reception room, where the victim pasted her scrapbook alone each evening. For the victim's hour she laid out a blade from her own set, her apron, and a covered pail of wash-water; and by the door — named to the moment a hand would next kneel to the body — she set a basin of clean water and folded linen.",
+          "The prison knew {WITCH_NAME} as the girl who always had the needed thing — thread for a torn hem, a spare candle, the right blade from the boxed craft-set the other girls borrowed. She had it ready before anyone asked.",
+          "{WITCH_NAME} had been a famous prodigy once. That morning at breakfast the victim pinned her ten-year-old prize portrait above the dining-hall board — the girl from whom everything was expected — and asked the room, laughing, what had ever become of so much potential.",
+          "That afternoon {WITCH_NAME} was busy in the empty reception room, where the victim pasted her scrapbook alone each evening. For the victim's hour she laid out a blade from her own set, her apron, and a covered pail of wash-water; and by the door — named to the moment a hand would next kneel to the body — she set a basin of clean water and folded linen.",
           "In the victim's hour she walked the reception corridor empty-handed; inside, her preparation was simply there. She put on the apron and, as the victim bent over the scrapbook page she was in the middle of pasting, cut her throat.",
-          "She washed her hands and the blade in the provisioned pail, wrapped blade and apron, and sealed the reddened water back into the covered pail. She named the whole bundle to the room's second search and laid it beneath the settle, then walked out as empty-handed as she came.",
+          "{WITCH_NAME} washed her hands and the blade in the provisioned pail, wrapped blade and apron, and sealed the reddened water back into the covered pail. She named the whole bundle to the room's second search and laid it beneath the settle, then walked out as empty-handed as she came.",
           "In the morning the victim lay at her scrapbook, throat cut. No blade was anywhere in the prison, no bloodied water, no blood on any girl. By the door stood the clean basin and folded linen, and the medical girl, kneeling to the body, reached for them without wondering.",
           "The first search found the reception room bare; the second found the kit beneath the settle — her blade, her apron, her knot, the sealed pail of reddened water. A blade and a bloodied pail that no one carried in or out, surfacing where searching hands had already passed, is a keeping beyond hands.",
           "The prison had one girl whose needed things were always already there. Her boxed set, in her locked cell, was missing exactly that blade, and the owls that watched the reception corridor had marked only one walk down it in the victim's hour — hers."
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "the Provisioned Hour",
-          "text": "For a coming moment she names — an hour on the clock, or an occasion still to arrive — she lays one full preparation with her own hands, and it waits unseen and untouchable until that moment, when it is simply there, exactly as she left it."
+          "text": "She can prepare a set of things and make it appear at a future moment she chooses."
         }
       },
       "variant": 1

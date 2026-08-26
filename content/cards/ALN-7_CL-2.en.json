@@ -10,26 +10,22 @@
     {
       "fields": {
         "crime": [
-          "She had one friend in the prison, and every day she asked her the same question: are we okay? The answer was always yes.",
-          "Each dusk the girls went down to the lake to swim their lengths; her friend had lately been drawn in among them, and she herself never went in the water. One evening the talk of the swim in the lounge stopped, politely, when she came in — the way a classroom had once gone quiet around her, years ago. Her friend sat among them, giving half-answers and looking away.",
-          "That night she asked the question with her power. The answer came flat, unwilling, and true: no one had decided anything — it was simply easier without her.",
-          "At dusk her friend was swimming her lengths in the lake. She came to the water's edge and asked again: are we okay? Her friend answered at once and aloud, mid-stroke with her face to the water. The compelled answer does not wait for the body.",
-          "She asked again before her friend could recover, and again. Each forced answer spent air and let the water in; the answers grew faint, then stopped.",
-          "The girls along the bank had heard the swimmer answering — short flat replies, one after another — though they had seen no one beside her in the water. Her friend was found drowned without a mark; it read at first as a swimming accident, until they weighed what they had heard.",
-          "A swimmer drowning does not answer by choice. She had been made to answer, and only one prisoner can compel the truth.",
-          "A girl along the bank that dusk saw her at the water's edge — standing apart, facing the swimmer and speaking low across the water — the girl who kept to herself and had never come to the evening swim. The answers the bank had heard were to are we okay? — the question everyone knew was hers alone."
+          "During afternoon free time, {WITCH_NAME} sometimes took phone pictures in the courtyard with her only close friend. The friend enjoyed it and trusted her with the camera. {WITCH_NAME} often asked if they were still all right, and the friend always said yes. One afternoon, the friend handed her a phone and asked her to photograph the friend with several other girls beside the fountain. They posed together, then left without offering to take another picture that included her.",
+          "Later, {WITCH_NAME} used True Answer to ask whether the group had meant to leave her out. The friend had to give the answer she believed: no one had discussed excluding her. The girls had simply wanted a picture of themselves and had never thought of her as part of their group.",
+          "{WITCH_NAME} invited the friend back to the fountain during the next morning's free time for a picture of the two of them. The friend agreed because she intended to tell her to stop forcing answers. Frightened by the earlier compulsion, the friend secretly started a phone recording before entering the courtyard and kept the phone with her.",
+          "Later that morning, prisoners found the friend bent over the fountain rim with her face in the water. She had drowned. The water was shallow, her head was uninjured, and her phone was still recording. At first, it appeared that she had fainted or slipped while preparing the photograph and had been unable to lift her head.",
+          "Prisoners who knew both voices listened to the uninterrupted recording. The friend first said that she wanted distance. A splash and repeated sounds of a struggle followed. {WITCH_NAME} kept asking whether they were still all right, and every question forced the friend to answer no through the water. The answers stopped, and {WITCH_NAME} left the courtyard; the recording captured her footsteps.",
+          "The body and recording showed that {WITCH_NAME} had held the friend's upper body over the fountain rim while repeatedly using True Answer. Each forced reply drew water into the friend's airway, and her physical hold prevented the friend from lifting her head. The friend drowned."
         ],
-        "epitaph": "She asked are we okay until the answer drowned, and after it came the quiet she had always known.",
-        "epithet": "She Who Asked Until Nothing Held",
+        "epitaph": "Her last question was sealed inside the bell, where no answer could reach it.",
+        "epithet": "The Truth Outside the Frame",
         "execution": [
-          "A harness held her above the execution stand, the full height of the court's two floors. From the harness a cord ran up over a wheel; the wheel's rim carried an edge.",
-          "The wheel turned without hurry; each pass of the rim parted one strand of the many-stranded cord.",
-          "Strand by strand the cord thinned. Nothing was severed at once — the hold just became less.",
-          "The last strand parted, and the harness dropped the full height of the court to the stand's stone."
+          "A massive iron bell hangs above her as she is restrained upright beneath it. Its opening is wide enough to cover her head, while its thick lower rim meets her shoulders.",
+          "The bell descends without stopping. It covers her head and seals her voice inside, then strikes her shoulders and drives her body downward against the stand. The iron rim crushes her shoulders, chest, ribs, and spine. It stops with her collapsed corpse pinned beneath the rim and her head still sealed inside."
         ],
         "magic": {
           "name": "True Answer",
-          "text": "Any question she asks aloud compels a true answer."
+          "text": "She can force someone to answer a question with what that person believes is true."
         }
       },
       "variant": 1

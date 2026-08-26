@@ -10,12 +10,12 @@
     {
       "fields": {
         "crime": [
-          "Most evenings she stayed behind after the others left, head tilted, listening for hours. The other girls knew the magic, and let her be.",
-          "One night she stood in the dark lounge and listened back through six months of its evenings. The girl who ran those evenings had asked after every girl by name — is she eating, where is she tonight — every name in the prison, across half a year. Never hers.",
-          "She listened back through a library aisle and heard a conversation months old. The girl had told a cellmate — one no longer in the prison — about a hollow behind the end panel of the witch histories, and the girl's visits to it: last thing on the week's last evening.",
-          "Before that evening's showers, she went to the empty library and reset the strut beneath the heavy end panel so it would give under a reaching weight. When the girl knelt and leaned deep into the recess, the panel came down across the back of her neck and folded her down, past rising.",
+          "Most evenings {WITCH_NAME} stayed behind after the others left, head tilted, listening for hours. The other girls knew the magic, and let her be.",
+          "One night {WITCH_NAME} stood in the dark lounge and listened back through six months of its evenings. The girl who ran those evenings had asked after every girl by name — is she eating, where is she tonight — every name in the prison, across half a year. Never hers.",
+          "{WITCH_NAME} listened back through a library aisle and heard a conversation months old. The girl had told a cellmate — one no longer in the prison — about a hollow behind the end panel of the witch histories, and the girl's visits to it: last thing on the week's last evening.",
+          "Before that evening's showers, {WITCH_NAME} went to the empty library and reset the strut beneath the heavy end panel so it would give under a reaching weight. When the girl knelt and leaned deep into the recess, the panel came down across the back of her neck and folded her down, past rising.",
           "The girl lay folded in the recess, the panel across her neck, her keepsakes around her. The prop-strut lay clear of the recess, whole and unmarked — a panel falling of its own weight pins or splinters its prop; a strut that slips free intact was set to slip.",
-          "At trial she called it old wood and an accident, and placed herself in the shower queue. But the hollow had been spoken of once, months before, to a girl now gone from the prison — told to no one else. The only way to hear that conversation was her magic.",
+          "At trial {WITCH_NAME} called it old wood and an accident, and placed herself in the shower queue. But the hollow had been spoken of once, months before, to a girl now gone from the prison — told to no one else. The only way to hear that conversation was her magic.",
           "One girl had been streaming that evening, and the stream caught the shower queue. Every girl who placed herself there appeared in the frame. She did not."
         ],
         "epitaph": "Every word ever spoken was hers to hear, and not one was meant for her.",
@@ -28,7 +28,7 @@
         ],
         "magic": {
           "name": "Aftersound",
-          "text": "She stands where words were spoken and hears them again, reaching as far back as she chooses."
+          "text": "Where she stands, she can hear words spoken there in the past."
         }
       },
       "variant": 1

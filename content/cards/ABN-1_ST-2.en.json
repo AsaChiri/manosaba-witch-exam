@@ -10,26 +10,25 @@
     {
       "fields": {
         "crime": [
-          "Her cell was the solo one; her friend's was next door, a stone wall between them. After the night lock, they knocked each other goodnight through the shared wall — two taps and two knocked back. Nightly, for months.",
-          "Her friend began spending free evenings in another girl's cell down the corridor — slipped in when no guard was looking, back just before the lock. She knocked goodnight; no knock came back.",
-          "Just before the lock that evening, her friend stepped out of the other girl's cell and tapped the double-knock on that cell's door bars. She watched from her own door.",
-          "The next evening — her friend at the other girl's cell, her friend's cellmate in the lounge — she slipped into her friend's empty cell and struck one blow into the shared wall, at the spot where the goodnight was always knocked. She stepped out; a girl passing the cells saw her leave.",
-          "The night lock. Her friend at the bunk, hand to the wall at the old goodnight spot — one knock. The blow fell out of the wall into the friend's chest at full force; the friend dropped at the head of the bunk. The cellmate, in the dark, heard one knock, one heavy blow, the fall.",
-          "Morning unlock: her friend lay dead beneath the goodnight spot. A single crushing blow to the chest, and nothing in the cell could account for it. The door had been locked from the outside all night.",
-          "The blow was past any bare hand's force; the cellmate cleared. The cell locked from the outside, nothing inside to swing — a blow left waiting. The heard order, knock then blow then fall — the blow met the friend at her own knock.",
-          "The wall tested ordinary under every later touch — a lodged blow spends itself in one landing; the unmarked wall was the spent weapon. Lodging is done by hand, in person; she was seen stepping out of the friend's empty cell that evening. The blow had waited at the spot where the friend knocked goodnight to her."
+          "For several weeks, a girl met {WITCH_NAME} beside the courtyard fountain at the start of evening free time. They walked one circuit of the courtyard and talked about the day.",
+          "Over the last few evenings, the girl began bringing another companion. The three walked together, but the girl spoke more to the newcomer than to {WITCH_NAME}.",
+          "On a clear evening, the girl and the companion found {WITCH_NAME} waiting at the fountain. The girl told the witch not to wait the next day; from then on, the girl and her new companion would take the walk together.",
+          "They immediately set out without {WITCH_NAME}. On the sunlit side of the fountain, the low evening sun cast the girl's long shadow across the rim.",
+          "The girl suddenly collapsed beside the companion. At first, it seemed that a sudden illness had killed the girl, but the prisoners found the girl's skull completely shattered beneath a scalp with no bruise, swelling, cut, or other sign of impact.",
+          "The companion had seen the shadow cast by the girl's head cross the rim and had watched the girl collapse without any object falling on the girl. The companion immediately ran back around the fountain and found {WITCH_NAME} rising from behind it with freshly split, bleeding knuckles.",
+          "Four fresh blood smears still marked the spot on the rim where the shadow of the girl's head had fallen, forming the print of a closed fist. The prisoners matched the four smears to the four fresh wounds on {WITCH_NAME}'s knuckles.",
+          "No blow had struck the girl's head. Hidden behind the fountain, {WITCH_NAME} had punched the part of the shadow corresponding to the girl's head, and Shadow Wound had shattered the girl's skull."
         ],
-        "epitaph": "She threw the first blow at every leaving. Nothing ever came for her. The one thing that did was already on its way — her fist only brought it sooner.",
-        "epithet": "She Who Strikes Before",
+        "epitaph": "Her hands never closed. The hammer was the only thing that came back.",
+        "epithet": "The First Shadow of Goodbye",
         "execution": [
-          "A heavy iron arm was already swinging toward her — slow and steady, its blunt head even with her chest. It kept coming.",
-          "She stood strapped to the post, one arm unbound. The swing would find her on its own.",
-          "She struck the arm.",
-          "It reached her in the same instant — one blow, straight through her chest."
+          "An enormous pendulum hammer faced a tall target slab. She was fastened upright against the slab, both hands spread open beside her shoulders.",
+          "The hammer began its downswing. Her fingers strained but could not close before the hammer's head slammed into her chest and crushed her against the slab.",
+          "Her ribs and sternum collapsed, and her spine snapped against the slab. The hammer came to rest against her caved-in chest, leaving her corpse hanging from the restraints that still held both hands open."
         ],
         "magic": {
-          "name": "Forefist",
-          "text": "When she strikes a thing, the blow lodges where her fist landed. The first to disturb that spot takes the full force of the blow, and the thing is ordinary again."
+          "name": "Shadow Wound",
+          "text": "She can injure a person by striking that person's shadow."
         }
       },
       "variant": 1

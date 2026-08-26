@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "She had told the trader, once and plainly, that she cannot sleep in the dark. Before the stream tonight, the trader sold that secret to the girls around the fireplace — the price of a seat among them. She watched from the doorway.",
+          "{WITCH_NAME} had told the trader, once and plainly, that she cannot sleep in the dark. Before the stream tonight, the trader sold that secret to the girls around the fireplace — the price of a seat among them. She watched from the doorway.",
           "Nearly everyone went to the recreation room for the weekly stream. The lounge stood empty.",
-          "She approached the trader. The trader looked up, saw her own dearest, and followed her toward the lounge.",
+          "{WITCH_NAME} approached the trader. The trader looked up, saw her own dearest, and followed her toward the lounge.",
           "Two girls late to the stream passed them in the corridor. Each saw the trader walking with a different companion, and thought nothing of it.",
-          "In the lounge she took a sword down from the wall to show the trader. At close quarters she ran her through, wiped the blade, and set it back on its hooks.",
+          "In the lounge {WITCH_NAME} took a sword down from the wall to show the trader. At close quarters she ran her through, wiped the blade, and set it back on its hooks.",
           "The girls returning from the stream found the trader on the lounge floor. The swords hung complete on the wall; one guard bore a wiped smear at the seam.",
           "The two late girls each named the companion they saw with the trader — two different names, both belonging to girls who had sat through the whole stream.",
-          "A companion seen as a different trusted face by each eye is her known power. Only two were absent from the stream that night: the trader and the witch."
+          "A companion seen as a different trusted face by each eye is her known power. Only two were absent from the stream that night: the trader and {WITCH_NAME}."
         ],
         "epitaph": "Every door opened, and not one of them for her.",
         "epithet": "Dearest to Every Eye, Known to None",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "the Dearest Face",
-          "text": "The Dearest Face — While she wills it, every eye that falls on her sees its own most-trusted person."
+          "text": "The Dearest Face — Everyone who looks at her sees the person they trust most."
         }
       },
       "variant": 1

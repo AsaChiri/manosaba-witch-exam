@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "Every night, in the last free hour, she went alone to the incinerator room on the lower level and spoke the day's ugly thoughts aloud, where no one could hear. The girls knew only that she vanished, the same hour, every night.",
+          "Every night, in the last free hour, {WITCH_NAME} went alone to the incinerator room on the lower level and spoke the day's ugly thoughts aloud, where no one could hear. The girls knew only that she vanished, the same hour, every night.",
           "The seeker had sought her out and stayed, restful in her stillness. \"You're the only one nothing can reach,\" the seeker said, leaning close. In that instant the flash came — a cold wish to see how far she could go before something reached the girl — and she was certain the wish was what she was.",
-          "That night the seeker followed her down. At the foot of the stairs she turned aside by habit into the dark and let the seeker pass.",
+          "That night the seeker followed {WITCH_NAME} down. At the foot of the stairs {WITCH_NAME} turned aside by habit into the dark and let the seeker pass.",
           "Alone in the unlit incinerator room, the seeker stumbled over the spilled edge of the burn-pile and pitched throat-first onto the edge of the cold furnace's open door. Stunned, the seeker could not lift herself off it, and no one was near.",
-          "She came back to finish her hour and found the seeker on the stones, past help. The flash came — cold relief, that no one was left who kept reaching — and she did what she had done all her life: stepped back, walked away, told no one.",
+          "{WITCH_NAME} came back to finish her hour and found the seeker on the stones, past help. The flash came — cold relief, that no one was left who kept reaching — and she did what she had done all her life: stepped back, walked away, told no one.",
           "Missed at the lock count, the seeker was found on the incinerator-room stones — one unbroken pressure-line high across the throat, no finger marks, what looked like the bruises of a struggle at shoulder and hip, the body settled clear of the furnace's open door.",
           "A fighting girl smears a pressure-line; a line this clean read as a hold that never shifted, and only a body that cannot flinch holds so. The ground read as chosen — who enters the one room no one visits after dark but the girl who goes there nightly? A girl from the corridor had seen her take the stairs at her hour, the seeker following — and no one saw the seeker come up.",
-          "She said \"no,\" once, flat, and it was true; asked where she had been, she said nothing. Where another girl's shaking innocence would have pleaded for her, her body had nothing to give. The verdict came unresisted."
+          "{WITCH_NAME} said \"no,\" once, flat, and it was true; asked where she had been, she said nothing. Where another girl's shaking innocence would have pleaded for her, her body had nothing to give. The verdict came unresisted."
         ],
         "epitaph": "Nothing she felt ever reached anyone — not the worst of it, and not the one true word.",
         "epithet": "The Girl Nothing Reached",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "No Startle",
-          "text": "Nothing makes her body flinch, gasp, blush, or start; the reaction is simply absent."
+          "text": "Her body never reacts involuntarily to surprise or emotion."
         }
       },
       "variant": 3

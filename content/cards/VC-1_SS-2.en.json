@@ -1,0 +1,34 @@
+{
+  "cell": "VC|Self-Soother",
+  "copingSub": "SS-2",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Self-Soother",
+  "tag": "VC-1_SS-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} takes the upper bunk in a cell shared with a regular cellmate, who sleeps below. Before lockup, they choose one large ordinary book from the library and bring it back to read together. {WITCH_NAME} depends on repeating that quiet sequence nightly; the cellmate enjoys taking turns choosing and reading passages. Sometimes {WITCH_NAME} lies below with the closed book across her chest, increasing its weight until the pressure makes her drowsy.",
+          "One quiet night after lockup, the book's apparently sound binding breaks with a sharp crack during an ordinary page turn. {WITCH_NAME} recoils, closes the book, lies below, and makes it far heavier on her chest than usual. Her breathing turns shallow. The cellmate tells her to stop; {WITCH_NAME} releases the extra weight. The cellmate says nobody else knows about this dangerous use and promises to report it to the warden in person at morning unlock.",
+          "The cellmate later falls asleep below. At morning unlock, {WITCH_NAME} calls nearby prisoners and claims the book slipped off her upper bunk onto the sleeper. The cellmate is dead. The ordinary-weight book lies flat across the body. Beneath its broad cover, the chest is crushed inward.",
+          "A short fall from the upper bunk onto a mattress could not make an ordinary book produce the broad, sustained pressure shown by the collapse. Only her touch sustains amplified weight; the object returns to normal weight when {WITCH_NAME} stops touching it. The barred cell remained locked from the warning until the discovery, with only the two cellmates inside.",
+          "Together, the clues show that {WITCH_NAME} laid the book across the sleeping cellmate's chest, kept one hand on the cover, and amplified its weight until the pressure killed the cellmate. {WITCH_NAME} then withdrew her hand, leaving the normal-weight book on the body to stage an apparent accident that supported her later story."
+        ],
+        "epitaph": "She had always mistaken being held down for being held.",
+        "epithet": "The Quiet Night's Hidden Weight",
+        "execution": [
+          "An upright open frame suspends her by restraints around her wrists and ankles, leaving her body clear of every support.",
+          "The frame pulls all four restraints outward without pause, keeping her limbs spread so she can neither curl inward nor brace against anything. The sustained pull dislocates her shoulders and hips and tears tissue and major blood vessels inside her torso.",
+          "She bleeds until her heart stops. The frame continues pulling after her death."
+        ],
+        "magic": {
+          "name": "Weight Amplification",
+          "text": "She can make an object heavier by touching it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

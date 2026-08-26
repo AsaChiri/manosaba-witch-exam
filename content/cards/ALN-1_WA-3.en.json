@@ -10,25 +10,21 @@
     {
       "fields": {
         "crime": [
-          "That day she overheard the girls in the dining hall deciding someone would have to sit with her. That evening the girl they chose came to the lounge and sat beside her in the corner.",
-          "They sat the full hour in the corner, the room around them. No one had ever sat at her side that long; she held the girl there and never shifted. A few seats off, the others felt nothing beyond the usual chill.",
-          "Through the hour the girl beside her faded and slowed — warmth, strength, and color draining away — and put it down to tiredness. The room saw two girls sitting quietly.",
-          "The hour ended. The girl did not rise — dead in the seat, withered through.",
-          "The girls found the body in the corner seat. The side that had faced her was drawn grey and bloodless, the far side ordinary.",
-          "A body that fails on its own fails evenly. This one was drained on one side only — the side toward the seat beside it — so whatever took the life had sat there a long time.",
-          "She had held that seat the whole evening, the full room watching."
+          "{WITCH_NAME} regularly chose a girl's next library book by remembering what the girl had finished and returned. The girl enjoyed her unexpected selections. Each evening, they met in the lounge to exchange the chosen book for one the girl had selected for {WITCH_NAME}. The girl received books she liked, while {WITCH_NAME} received a predictable private meeting without having to explain her own taste.",
+          "One afternoon in the library, {WITCH_NAME} heard the girl ask a friend to choose her next book. Before the girl had finished describing what she wanted, the friend had already taken the right volume from the shelf. The friend shared the girl's taste and agreed to join their next exchange.",
+          "That evening, the friend came to the lounge with them. {WITCH_NAME} asked how the girl chose books for her. The girl said she could only guess, because {WITCH_NAME} never said what she liked and only complained about what was wrong. {WITCH_NAME} pointed out a bent corner in the returned book, took one of the lounge swords, and advanced on the girl.",
+          "The girl seized the lounge crossbow and fired. {WITCH_NAME} stopped the bolt before it reached her, and it fell between them. The friend saw it stop and ran into the corridor to call for help. The girl turned toward the doorway. The friend did not see what happened next.",
+          "The friend looked back, passed the departing witch in the doorway, and found the girl dead beside the exchange table. The discharged crossbow lay beside the body. The stopped bolt remained between the body and where she had stood, and a deep stab wound marked the girl's upper back.",
+          "{WITCH_NAME} claimed that the girl had fired first and that the killing was self-defense. But the friend had seen her take the sword and advance before the girl raised the crossbow. The wound in the girl's back showed that after the bolt fell, the girl had turned to flee. {WITCH_NAME} had stopped the shot, pursued the retreating girl, and stabbed her from behind."
         ],
-        "epitaph": "Every hand that reached for her was sent.",
-        "epithet": "The Storm They Sent No One Into",
+        "epitaph": "Every approach stopped short of her, until the wall crossed the distance.",
+        "epithet": "The Page We Never Shared",
         "execution": [
-          "A single iron band was coiled around her from shoulder to knee, held a hand's breadth off her body on every side. A drum at the foot of the stand held the lower end.",
-          "The drum turned. The band that had stood off her drew in across the gap and came against her from every side at once.",
-          "It pressed on, and did not draw back.",
-          "The coil closed on her past drawing breath, and she died constricted inside it."
+          "A massive iron wall faces her as she is restrained upright against the execution stand. It advances steadily. She tries to stop it, but the wall is not flying and continues forward. It presses her legs, pelvis, chest, arms, and skull against the stand until her entire body is crushed and she dies."
         ],
         "magic": {
-          "name": "Witherfield",
-          "text": "A field stands always about her body; a living thing that lingers in it withers, warmth and strength and color drawn from it, worst on the nearest side, deepening the longer it stays."
+          "name": "Stillness Field",
+          "text": "She can stop anything flying toward her before it reaches her."
         }
       },
       "variant": 3

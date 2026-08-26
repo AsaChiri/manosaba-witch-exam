@@ -10,7 +10,7 @@
     {
       "fields": {
         "crime": [
-          "She and her cellmate shared a cell, and that cellmate was the one bond she kept close; she had watched her long enough to know her evenings — reading in the library, then back along the gallery above the courtyard.",
+          "{WITCH_NAME} and her cellmate shared a cell, and that cellmate was the one bond she kept close; she had watched her long enough to know her evenings — reading in the library, then back along the gallery above the courtyard.",
           "The cellmate's things were bundled by the cell door, to move to a cell of her own that had come open — the sign she had watched for all her life, that the one she kept was already leaving.",
           "One evening she waited down in the courtyard while the cellmate read above.",
           "When the cellmate came to the iron railing over the courtyard, she drew her straight toward where she stood below; the cellmate went over it, and the fall to the stone finished it.",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "The Draw",
-          "text": "She can draw a person she has bound to herself straight to her side from any distance, and that person cannot resist the pull."
+          "text": "She can pull a person she has bound to herself straight to her side."
         }
       },
       "variant": 1

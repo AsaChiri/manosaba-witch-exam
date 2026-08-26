@@ -10,12 +10,12 @@
     {
       "fields": {
         "crime": [
-          "She had been certain since she was small that she was switched in among strangers, her own kind waiting somewhere else. The other girl had kept a seat for her at every table and, from the first day, said she belonged with them.",
+          "{WITCH_NAME} had been certain since she was small that she was switched in among strangers, her own kind waiting somewhere else. The other girl had kept a seat for her at every table and, from the first day, said she belonged with them.",
           "That evening, before the whole table, the other girl named her family for good, and it was taken as settled. The kindest thing anyone had ever done for her closed off the elsewhere she had waited for all her life.",
-          "That same evening, from the medical room, she took a medicine that stops the heart.",
-          "She got the other girl alone in the recreation room and traded places with her.",
-          "Minutes later she gave the other girl the laced drink. Trusting her, the other girl swallowed it and died in the room, before ever leaving it or being met by anyone who would have called her by the wrong name.",
-          "The prisoners took the body for her and read the death as a suicide. She was mourned, the case closed; and she stayed on among them under the other girl's name, past all suspicion.",
+          "That same evening, from the medical room, {WITCH_NAME} took a medicine that stops the heart.",
+          "{WITCH_NAME} got the other girl alone in the recreation room and traded places with her.",
+          "Minutes later {WITCH_NAME} gave the other girl the laced drink. Trusting her, the other girl swallowed it and died in the room, before ever leaving it or being met by anyone who would have called her by the wrong name.",
+          "The prisoners took the body for her and read the death as a suicide. {WITCH_NAME} was mourned, the case closed; and she stayed on among them under the other girl's name, past all suspicion.",
           "The dead girl's forearm carried a crescent scar — the other girl had cut it on the courtyard fountain's rim in front of half the prison. The one now living in her name bore no such mark.",
           "The swap had moved whom a face was taken for, never the scar from the arm that wore it. So the girl on the floor was the other girl, and the one living in her name had killed her."
         ],
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "the Likeness Swap",
-          "text": "she trades places with one person: everyone who knew the two of them takes her for that person, and that person for her."
+          "text": "She can swap identities with another person in the minds of everyone who knows them."
         }
       },
       "variant": 1

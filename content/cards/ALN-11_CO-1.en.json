@@ -10,26 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Her two circles traded notes for the first time at midday. Each had taken her for the other's; the victim asked the room, laughing, whose she actually was. No one answered.",
-          "The victim's circle named its evening gathering aloud in that same room — a guest-house room, after supper. That evening she walked in among the closed eight, a box of kept things among them; their stock arrived in her, and each member took her for another member's near-one.",
-          "The victim, laughing, claimed her — ours, then — and seated her. At evening's end two always stayed to put the room right and pack the box — a fixed order every member had learned on her own turns. She claimed that turn with the victim in the circle's words; the displaced member ceded.",
-          "The members left. The victim knelt at the box; she took the cord from it and held it around the victim's throat from behind until breath stopped.",
-          "She put the room right, packed the box, tied the cord back on it, and returned before the bell. At lock bell one cell stood empty; the victim lay in the circle's closed room among put-away things, a cord-line bruise at her throat.",
-          "Only the gathering knew who had stayed behind. Eight members and a ninth: each of the eight had taken her for another's, and every attribution failed. The sole aloud claim was the dead girl's joke.",
-          "She had never sat with them before that night, yet she answered signs predating the evening and used terms no afternoon of coaching could supply. The box was packed to no member's order. It could only be done with her magic.",
-          "All eight members witnessed her claim the turn; she was seen returning alone before the bell. The victim never returned."
+          "{WITCH_NAME} regularly borrowed books from one reader, agreed with every opinion during their discussions, and became the eager partner the reader wanted. A second reader had recommended another kind of book, and she had claimed that reader's incompatible tastes as her own too.",
+          "During midday free time, the second reader joined them in the library and mentioned that different book. The readers compared her claims. The first reader placed both books before her and asked her to choose before either reader offered an opinion. She waited for someone else to answer. The first reader asked for the loaned book back, ended their private book discussions, and told her to leave it in the library before evening free time.",
+          "That evening, the second reader followed her into the upper hall and watched from a distance as she carried what appeared to be the loaned book into the library. She left empty-handed and went downstairs without noticing. The reader stayed by the library entrance to meet the first reader before they went to the recreation room.",
+          "The second reader saw no one enter before the first reader arrived and opened the library door. A crossbow bolt struck the first reader in the chest and killed her. The second reader rushed inside at once. There was no shooter or visible crossbow, and no one had escaped past the second reader. Only the apparent loaned book lay where the bolt had come from, suggesting that a hidden attacker had fired from inside and taken the weapon.",
+          "When the second reader lifted the apparent book, its weight and the rigid shape beneath the image did not feel like a book. By touch, the reader found the stock, bow, and door trigger of the fired lounge crossbow, still aimed at the doorway. The reader had seen her carry that same object inside and leave without it, then had guarded the entrance until the shot. This proved that she had used Mimicry to disguise the crossbow as the returned book and leave a delayed trap. The disguise remained after she let go and changed only what the crossbow looked like, so it could still fire normally."
         ],
-        "epitaph": "She belonged wherever she stood, and nowhere the moment she stepped away.",
-        "epithet": "One of Ours, Surely",
+        "epitaph": "Under the glass, every borrowed answer falls away.",
+        "epithet": "The Borrowed Self",
         "execution": [
-          "A single closed door stood in a heavy frame on the execution stand. The door was keyed to the circle's own word.",
-          "She was set alone before it. No word came.",
-          "The frame drew inward.",
-          "The door never opened. The frame closed on her."
+          "A massive transparent glass slab hangs above her. She is restrained face-up on the execution stand directly beneath it.",
+          "The slab descends without stopping. Everyone can see her through it as it lowers onto her entire body and presses her against the stand. It crushes her skull, shoulders, chest, ribs, pelvis, and spine. The slab comes to rest on her flattened corpse, which remains fully visible through the glass."
         ],
         "magic": {
-          "name": "Assimilate",
-          "text": "Among any gathered group, the group's shared stock arrives in her — the in-jokes, references, and private signs — and she reads as native for as long as she stands among them."
+          "name": "Mimicry",
+          "text": "She can make an object she touches look like another object she can see."
         }
       },
       "variant": 1

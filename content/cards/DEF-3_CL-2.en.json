@@ -10,13 +10,13 @@
     {
       "fields": {
         "crime": [
-          "She was close to one girl — the one who told her, night after night, that she was all right. Every kind word the girl spoke to her she kept, to sound again in the girl's own voice on the bad nights. Everyone knew she kept voices, and knew that what she re-sounded was only ever real words truly said to her.",
+          "{WITCH_NAME} was close to one girl — the one who told her, night after night, that she was all right. Every kind word the girl spoke to her she kept, to sound again in the girl's own voice on the bad nights. Everyone knew she kept voices, and knew that what she re-sounded was only ever real words truly said to her.",
           "One night the girl, lying close, overheard her mutter a cruelty in her half-sleep — an ugly wish, spoken to no one. Next day the girl confronted her: had seen what she was, would not unsee it, would not say the kind words again. None of the kept voices answered this.",
-          "The girl went to the lake alone that evening. She held her under the water until she went still, and left her there.",
+          "The girl went to the lake alone that evening. {WITCH_NAME} held her under the water until she went still, and left her there.",
           "When the others doubted the girl would drown herself, she gave them the girl's own voice — I can't do this anymore, I'm so tired. The girl had said those words to her once, long before.",
-          "Her death was recorded as a self-drowning.",
+          "The girl's death was recorded as a self-drowning.",
           "Another girl recognized those words — the girl had said them months before, footsore and laughing after a long cleaning.",
-          "Her power gives a saying back whole, not a word altered. The same words months apart meant they had been replayed. Only she held the girl's voice.",
+          "Her power gives a saying back whole, not a word altered. The same words months apart meant they had been replayed. Only {WITCH_NAME} held the girl's voice.",
           "Hold-down marks on the girl's shoulders showed where a hand had pressed her under."
         ],
         "epitaph": "She kept every kind word ever spoken to her, and the one she needed had never been said.",

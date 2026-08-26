@@ -1,0 +1,32 @@
+{
+  "cell": "FAI|Sovereign",
+  "copingSub": "SV-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Sovereign",
+  "tag": "FAI-1_SV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} enjoyed informal logic games and was praised as the prison's best solver, though every difficult solution credited to her came from a quiet friend who enjoyed constructing and solving hard puzzles. Their arrangement began when one game stalled and the friend, unable to explain the solution while several prisoners watched her, sent her the answer instead. After that, {WITCH_NAME} brought the friend new puzzle books and spent time alone with the friend. In return, the friend sent complete solutions and reasoning by phone for her to memorize and present as her own, and at first preferred anonymity to public attention.",
+          "During morning free time, another prisoner brought her a hard puzzle and requested a lesson that evening. The prisoner planned to ask the friend about the reasoning afterward and compare that account with the lesson. {WITCH_NAME} sent the puzzle's image to the friend and asked for the usual answer. For the first time, she also ordered the friend by message to tell the prisoner, if asked, that the friend could not solve it. The friend refused to give her another answer to repeat and planned to meet the prisoner alone, teach the solution, and reveal who had written the earlier answers. The exchange was later found on the friend's phone.",
+          "Shortly before the guards confined everyone to their cells, {WITCH_NAME} visited the friend to return a borrowed book. As another prisoner passed the cell, {WITCH_NAME} gave the friend a farewell hug, touching the friend's back through the prison-issued shirt while gripping its fabric with her other hand. The friend settled on the lower bunk to read the book while {WITCH_NAME} was still there. {WITCH_NAME} left as the guards arrived, and they locked the barred door from outside. When the cells opened again, the friend was found dead on the bunk, still wearing the shirt.",
+          "{WITCH_NAME}'s departure before the door was locked appeared to clear her. But narrow seam and fold impressions crossed the crushed shoulders and chest, without the bruises or hand marks left by pressure from above. The shirt contained no cord, weight, or rigid insert and was not fastened to the bunk; the locked door excluded an ordinary attacker. The passing prisoner had seen her touch both the friend and the shirt. Rank Pressure could rank the light shirt while it was worn. During the hug, {WITCH_NAME} had ranked the shirt first and the friend second, then commanded it from her own cell to pin the friend to the bunk and crush her chest until she died."
+        ],
+        "epitaph": "On the completed solution, the friend's name remained over hers.",
+        "epithet": "Borrowed Brilliance at the Top",
+        "execution": [
+          "A massive correction stamp hangs above her as she lies restrained face-down on the execution stand. A sheet lies across her back, bearing the friend's complete solution credited to her; the stamp's face bears the friend's name.",
+          "The stamp drops again and again. The first strike prints the friend's name over hers on the solution. Every strike drives the stamp against her back through the paper and presses her chest into the stand. It crushes her spine, ribs, and chest, and keeps falling until she stops breathing and her circulation stops."
+        ],
+        "magic": {
+          "name": "Rank Pressure",
+          "text": "She can make one thing she has touched crush another on command."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

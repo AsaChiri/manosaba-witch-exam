@@ -8,6 +8,7 @@ import Seal from './Seal.astro'
 import { t } from '../i18n'
 import type { Locale } from '../i18n/config'
 import { cardTitle, type Card } from '../lib/content-schema'
+import { resolveWitchName } from '../lib/name-reference'
 
 interface Props {
   card: Card
@@ -21,9 +22,10 @@ interface Props {
 }
 const { card, locale, witchName, showName = true, class: className } = Astro.props
 const name = witchName && witchName.length ? witchName : t(locale, 'card.nameless')
+const resolve = (text: string) => resolveWitchName(text, name)
 const L = (k: string) => t(locale, `card.labels.${k}`)
 // The headline is the magic's name (canon: a witch is known by her magic).
-const title = cardTitle(card)
+const title = resolve(cardTitle(card))
 ---
 
 <article class:list={['witch-card', className]} lang={locale}>
@@ -45,27 +47,27 @@ const title = cardTitle(card)
       <svg class="witch-card__mark-orn witch-card__mark-orn--flip" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
     </span>
     <h2 class="witch-card__epithet">{title}</h2>
-    <p class="witch-card__magic-lead">{card.magic.text}</p>
+    <p class="witch-card__magic-lead">{resolve(card.magic.text)}</p>
   </div>
 
   <hr class="witch-card__divider" />
 
   <section class="witch-card__field">
     <span class="witch-card__field-label">{L('epithet')}</span>
-    <p class="witch-card__field-body">{card.epithet}</p>
+    <p class="witch-card__field-body">{resolve(card.epithet)}</p>
   </section>
 
   <section class="witch-card__field">
     <span class="witch-card__field-label">{L('crime')}</span>
-    <div class="witch-card__prose">{card.crime.map((line) => <p>{line}</p>)}</div>
+    <div class="witch-card__prose">{card.crime.map((line) => <p>{resolve(line)}</p>)}</div>
   </section>
 
   <section class="witch-card__field">
     <span class="witch-card__field-label">{L('execution')}</span>
-    <div class="witch-card__prose">{card.execution.map((line) => <p>{line}</p>)}</div>
+    <div class="witch-card__prose">{card.execution.map((line) => <p>{resolve(line)}</p>)}</div>
   </section>
 
   <section class="witch-card__field" style="text-align:center">
-    <p class="witch-card__epitaph">{card.epitaph}</p>
+    <p class="witch-card__epitaph">{resolve(card.epitaph)}</p>
   </section>
 </article>

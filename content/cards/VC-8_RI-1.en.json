@@ -10,25 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Her grandmother pulled wet-haired girls off their pillows — wet hair brings fever by morning; her mother rehearsed funeral rites aloud at supper. She learned the family's list of ill-signs before anything else.",
-          "Every night before the cells locked she walked her round — hair, pillows, spilled salt, the set of the beds — and the whole prison knew the list by heart; she had recited it at every offense.",
-          "The girl in the solo cell slept every night with dripping hair, laughed at the list, and woke fine every morning. That evening, in front of the others, the girl laughed off the nightly warning once more.",
-          "That same evening, while the girl showered, she turned the bedding and set the pillow to the bed's north end. In her family's teaching, a north pillow is a dead girl's pillow — the one sign on the list that brings death.",
-          "Her round ended at that doorway just before the cells locked, as it always did; she looked in at the made sign and laid her grandmother's word on it. The girl went to bed without looking.",
-          "At morning unlock the girl lay dead in a cell locked from the outside — no wound, no sickness, nothing disturbed. The pillow was still at the north end.",
-          "No natural cause could reach a locked cell. The sign the death followed was on one girl's family list, recited to the whole prison a hundred times, and her round ended at that door just before the lock."
+          "Before any disaster had struck, {WITCH_NAME}'s family made her empty and repack her school bag before leaving home while reciting a fixed list of warnings. Missing one meant starting over. None of them had ever come true.",
+          "During evening free time in prison, {WITCH_NAME} regularly played pool with another girl in the recreation room. {WITCH_NAME} checked the rack twice before every game, then kept an accurate record of every shot. Her partner accepted the routine because she wanted a patient opponent and an accurate record of every practice game.",
+          "One evening, {WITCH_NAME} restarted the rack check. Before the second check was finished, her partner scattered the balls and said she had followed the checks and warnings only to preserve their friendship. She would not do it anymore.",
+          "One family warning said that anyone who whistled indoors after the evening meal would lose her voice the next time the whistler tried to call out, until sunrise. Her partner repeated it before {WITCH_NAME} and a third girl, then whistled to reject it. {WITCH_NAME} watched.",
+          "{WITCH_NAME}'s partner and the third girl went to the library. {WITCH_NAME} followed and asked to speak with her partner. The third girl browsed elsewhere as the pair moved between shelves beyond her sight, and did not watch the entrance continuously.",
+          "{WITCH_NAME} left a short time later. She later claimed that her partner had still been alive and anyone could have entered afterward. The third girl had remained close enough to hear a call, but heard none.",
+          "The third girl found her partner strangled between the shelves. The dead girl was clutching a piece torn from her pool partner's distinctive prison clothes. Those clothes had a fresh tear that matched the piece.",
+          "The third girl had seen the victim whistle while {WITCH_NAME} watched, and the absence of any call matched the warning's stated consequence. The torn cloth showed that {WITCH_NAME} had fought with the victim and disproved her story about a later attacker. After watching her partner whistle, {WITCH_NAME} had made the warning come true, followed her partner between the shelves, and strangled the victim while the warning kept the victim from calling for help."
         ],
-        "epitaph": "Her only bedtime stories were warnings — and she made one come true.",
-        "epithet": "Heir to the Household Alarm",
+        "epitaph": "The last safe mark fell in the shape of the disaster she inherited.",
+        "epithet": "The Terms of Safety",
         "execution": [
-          "A ring of small iron stations circled the stand — a lock, a tap, a lamp, a made bed. She stood noosed at the center, a chain running from the noose up over the beam above the stand and down to the stations' latch-wheel.",
-          "A single mechanical arm began its round. It checked the lock — it held; one link latched home and the chain lifted her by that much.",
-          "The tap: dry. The lamp: dark. The bed: made. Each all-clear latched another link, each link lifting her higher.",
-          "The arm walked the ring unhurried, in her own nightly order. The last station passed its check, the final link latched, and she hung dead at the center of the ring, feet off the stand."
+          "A massive solid iron check mark descends toward her on the execution stand. Its long stroke pins her shoulders and chest against the stand. The machine keeps pressing the iron down until her ribs collapse, her breathing stops, and she dies."
         ],
         "magic": {
           "name": "Grandmother's Law",
-          "text": "When she sees one of her family's taught ill-signs made, she can lay the family's word on it; the taught misfortune follows before the day is out, exactly as taught."
+          "text": "After seeing someone break one of her family's fixed warnings, she can make its stated misfortune happen to that person."
         }
       },
       "variant": 1

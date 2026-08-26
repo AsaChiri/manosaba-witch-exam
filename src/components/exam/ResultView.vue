@@ -10,6 +10,7 @@ import { cardTitle, type Card, type WitchCharacter } from '../../lib/content-typ
 import { t, messages } from '../../i18n'
 import { localePath, type Locale } from '../../i18n/config'
 import { generateShareQr, type ShareCard } from '../../lib/share'
+import { resolveWitchName } from '../../lib/name-reference'
 import Seal from './Seal.vue'
 import ShareRow from './ShareRow.vue'
 import SpecialCard from './SpecialCard.vue'
@@ -35,6 +36,7 @@ const L = (k: string) => t(props.locale, `card.labels.${k}`)
 const witchName = computed(
   () => props.result.witchName?.trim() || t(props.locale, 'card.nameless'),
 )
+const resolve = (text: string) => resolveWitchName(text, witchName.value)
 /* With a special character, the share surface pivots to the character record:
  * template/URL/QR/filename all follow ShareCard.character (see share.ts). */
 const shareCard = computed<ShareCard>(() => {
@@ -56,8 +58,8 @@ const shareCard = computed<ShareCard>(() => {
     locale: props.locale,
     tag: props.result.tag,
     name: witchName.value,
-    magic: card.magic.name,
-    magicText: card.magic.text,
+    magic: resolve(card.magic.name),
+    magicText: resolve(card.magic.text),
   }
 })
 
@@ -242,28 +244,28 @@ watch(() => props.specialCharacter, refreshQr)
                   {{ T('card.magicMark') }}
                   <svg class="witch-card__mark-orn witch-card__mark-orn--flip" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
                 </span>
-                <h2 class="witch-card__epithet">{{ cardTitle(card) }}</h2>
-                <p class="witch-card__magic-lead">{{ card.magic.text }}</p>
+                <h2 class="witch-card__epithet">{{ resolve(cardTitle(card)) }}</h2>
+                <p class="witch-card__magic-lead">{{ resolve(card.magic.text) }}</p>
               </div>
               <hr class="witch-card__divider" />
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('epithet') }}</span>
-                <p class="witch-card__field-body">{{ card.epithet }}</p>
+                <p class="witch-card__field-body">{{ resolve(card.epithet) }}</p>
               </section>
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('crime') }}</span>
                 <div class="witch-card__prose">
-                  <p v-for="(line, i) in card.crime" :key="i">{{ line }}</p>
+                  <p v-for="(line, i) in card.crime" :key="i">{{ resolve(line) }}</p>
                 </div>
               </section>
               <section class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('execution') }}</span>
                 <div class="witch-card__prose">
-                  <p v-for="(line, i) in card.execution" :key="i">{{ line }}</p>
+                  <p v-for="(line, i) in card.execution" :key="i">{{ resolve(line) }}</p>
                 </div>
               </section>
               <section class="witch-card__field" style="text-align:center">
-                <p class="witch-card__epitaph">{{ card.epitaph }}</p>
+                <p class="witch-card__epitaph">{{ resolve(card.epitaph) }}</p>
               </section>
 
               <div class="witch-card__export-footer">

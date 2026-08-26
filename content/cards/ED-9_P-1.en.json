@@ -10,7 +10,7 @@
     {
       "fields": {
         "crime": [
-          "In the prison she filled the evening free hours with a show, and being watched was the whole of it.",
+          "In the prison {WITCH_NAME} filled the evening free hours with a show, and being watched was the whole of it.",
           "One prisoner came to every performance, took the nearest place, and praised her at the end, until she let herself believe this watcher had come for her and not the act.",
           "On an evening she chose not to perform, she sat as herself beside the watcher, who soon grew restless, said she was better when there was a show, and left to find one.",
           "She announced a last performance in the courtyard at dusk, and the prisoners gathered below and along the iron railing above.",

@@ -10,9 +10,9 @@
     {
       "fields": {
         "crime": [
-          "One afternoon the girls played hide-and-seek across the courtyard and the flower field. She took the best hiding spot and stayed, hands folded. The game had been called an hour earlier and moved inside; no one noticed her missing.",
-          "When she walked in at the lock bell, the seeker girl looked up: oh — were you playing?",
-          "The next morning, at the end of free time, she prepared the library's far aisle: set a shelf-board against the tall stack to take its lean, pried the wedge-blocks from its base and pocketed them, and ran a cord from the board to the aisle's blind end.",
+          "One afternoon the girls played hide-and-seek across the courtyard and the flower field. {WITCH_NAME} took the best hiding spot and stayed, hands folded. The game had been called an hour earlier and moved inside; no one noticed her missing.",
+          "When {WITCH_NAME} walked in at the lock bell, the seeker girl looked up: oh — were you playing?",
+          "The next morning, at the end of free time, {WITCH_NAME} prepared the library's far aisle: set a shelf-board against the tall stack to take its lean, pried the wedge-blocks from its base and pocketed them, and ran a cord from the board to the aisle's blind end.",
           "The ten-o'clock cell-stay sealed the room. Lunch kept it empty; the girls ate at the long tables below. She let the meal begin, then settled at the blind end behind the stack and waited for the seeker girl.",
           "Mid-meal the seeker girl set down her spoon and walked out — up the staircase, past two girls who greeted her and got no answer. No one could later find the errand.",
           "The seeker girl came up the far aisle as if remembering something there. From the blind end she pulled the cord; the stack toppled across the aisle. She was through the door and down the staircase when the crash brought the girls up from below.",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "the Homing Wait",
-          "text": "The Homing Wait — When she settles and waits for one person, that person's feet set out toward her at once and bring them to her before the day is out, by a way that seems their own idea."
+          "text": "The Homing Wait — When she waits for someone, that person is compelled to come to her."
         }
       },
       "variant": 1

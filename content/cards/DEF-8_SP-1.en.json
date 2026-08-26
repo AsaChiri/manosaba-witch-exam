@@ -10,13 +10,13 @@
     {
       "fields": {
         "crime": [
-          "Since she came, her skin has never once been clear — a welt, a bruise, the old line of a cut — and no one ever saw her take a hurt.",
-          "The reading-girl kept the last quiet hour with her by the unwilting cherry tree. Once, the girl found a fresh mark on her wrist and, saying nothing, only drew the sleeve down over it.",
+          "Since {WITCH_NAME} came, her skin has never once been clear — a welt, a bruise, the old line of a cut — and no one ever saw her take a hurt.",
+          "The reading-girl kept the last quiet hour with her by the unwilting cherry tree. Once, the girl found a fresh mark on {WITCH_NAME}'s wrist and, saying nothing, only drew the sleeve down over it.",
           "One evening they had the library to themselves. Gathering her books, the reading-girl stepped back; her heel turned on the smooth floor, and the back of her head struck the corner of a heavy bookshelf. No one touched the girl.",
-          "She caught the girl a breath too late. The breath went out in her arms.",
-          "Before the girls came, alone with the body, she drew back her sleeves and wrote the marks into her arms — deep grip-bruises, a clawed line down the forearm, the exact print of a girl fighting for her life.",
-          "The girls found her holding the body, her sleeves back, her arms marked. She said it first and hardest: \"It was me.\" Not once, from the finding to the verdict, did she say otherwise.",
-          "The head wound read as a blow struck down. The marks on her forearms read as the dying girl's grip on her killer. She had been alone with the girl, by her own word and the girls' finding."
+          "{WITCH_NAME} caught the girl a breath too late. The breath went out in her arms.",
+          "Before the girls came, alone with the body, {WITCH_NAME} drew back her sleeves and wrote the marks into her arms — deep grip-bruises, a clawed line down the forearm, the exact print of a girl fighting for her life.",
+          "The girls found {WITCH_NAME} holding the body, her sleeves back, her arms marked. She said it first and hardest: \"It was me.\" Not once, from the finding to the verdict, did she say otherwise.",
+          "The head wound read as a blow struck down. The marks on {WITCH_NAME}'s forearms read as the dying girl's grip on her killer. {WITCH_NAME} had been alone with the girl, by her own word and the girls' finding."
         ],
         "epitaph": "She signed the one crime that was never hers, in a hand only she could forge.",
         "epithet": "The Girl Who Wrote Her Own Guilt",
@@ -28,7 +28,7 @@
         ],
         "magic": {
           "name": "the Written Wound",
-          "text": "She can raise on her own flesh, at will, the true wound of any hurt — real, lasting, and of no one's making but hers."
+          "text": "She can place any real wound she chooses on her own body."
         }
       },
       "variant": 1

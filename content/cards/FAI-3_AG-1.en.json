@@ -10,26 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Every evening the linen-keeper carried the day's dried wash to the shower room in one chin-high stack — up the step-stool, onto the top shelf of the tall cupboard. One trip, never two. Most evenings the linen-keeper said it where the girls could hear: a second trip means the first one failed.",
-          "At supper the witch's stacked dishes slipped and broke. The linen-keeper knelt, gathered the pieces, and set them back in her hands — \"again\" — and the others laughed.",
-          "Years before, her hands had gone wrong at the one audition that decided her life: a piece she had played without error many times came apart that morning, the place went to another girl, and no second audition was offered.",
-          "The next evening, after the linen-keeper's shelving, the witch spoke the binding over her in passing — the nightly carry was the bound act. Once the showers were empty she pulled everything from the cupboard, tipped it back against the wall, and ground its front feet down — enough that a loaded top shelf would carry the cupboard forward past balance. She set it upright, returned the wash to the lower shelves, and left the top shelf empty.",
-          "The next night the linen-keeper loaded the top shelf, and the front feet let the top-heavy cupboard pitch forward. Any other girl would have dropped the wash and stepped off the stool, but both are a breaking-off partway, and the binding allowed none. The linen-keeper did neither, and the cupboard came down.",
-          "At the night lock the linen-keeper's cell was empty. The girls who went looking found the linen-keeper in the shower room, crushed beneath the toppled cupboard, the wash still on its shelves, the step-stool in place.",
-          "The cupboard's front feet were ground to raw, pale wood. On the floor beneath, wood dust a sweep had missed.",
-          "The last girl out of the showers the night before had seen her at the cupboard after the linen-keeper had gone, with nothing of her own to dry and no wash to shelve."
+          "During afternoon free time, {WITCH_NAME} and another girl recorded short readings from ordinary library books on the girl's phone. The girl enjoyed choosing passages and sharing the recordings with the other prisoners. {WITCH_NAME} treasured being the chosen reader and looked forward to each new session.",
+          "One day, the girl brought an unfamiliar page and said its first reading would decide whether they kept working together. Repeated takes had begun to consume the time she wanted for choosing and sharing passages. {WITCH_NAME} stumbled near the end and asked to start again. The girl refused, said the decision had been made, and ended their partnership.",
+          "The girl said the recording was over and placed the phone face down. {WITCH_NAME} kept staring at the girl with her hands clenched. Frightened, the girl secretly left the file running, picked up the phone, and left the library for the recreation room. {WITCH_NAME} followed her into the second-floor hall beside the iron railing over the courtyard.",
+          "Other prisoners heard a fall and found the girl dead in the courtyard. {WITCH_NAME} admitted following her, but said she had only wanted to apologize. According to {WITCH_NAME}, the girl pulled away, lost her balance, and fell before she could catch her.",
+          "The phone in the girl's pocket held one continuous recording from the failed reading through the fall. It captured {WITCH_NAME} saying that the girl's next move would fail, the girl telling her to stop pushing, a body striking the railing, and the fall. {WITCH_NAME} had chosen failure and then pushed the girl toward the railing. The girl's first attempt to regain her balance or catch the rail failed, and she fell before she could try again. The recording proved that {WITCH_NAME} had not failed to rescue the girl; she had used her magic to prevent the girl from saving herself."
         ],
-        "epitaph": "Her life was one morning long, and she never gave anyone a second.",
-        "epithet": "She Who Handed Back the Day, Whole",
+        "epitaph": "She settled every outcome but the coin's final fall.",
+        "epithet": "The Page Without a Second Take",
         "execution": [
-          "A single blade hung on a threaded rod above the execution stand. The rod crept downward.",
-          "At her hand was a single lever she could throw once. Thrown at the one right instant, it would stop the blade for good; at any other instant, or not at all, the rod would run its full descent.",
-          "Nothing marked the right instant. There was nothing to read and nothing to count.",
-          "She threw. The rod did not stop. It ran to its end, and the blade came down."
+          "An iron coin taller and wider than she is stands on its edge. A check mark covers one face, a cross covers the other, and tally cuts ring its rim. The coin spins, then wobbles toward her. Its rim strikes her shoulders and knocks her onto her back before the broad face crashes across her head, ribs, and chest. Her skull and chest are crushed beneath it."
         ],
         "magic": {
-          "name": "All or Nothing",
-          "text": "She names aloud one act of one person in her presence and binds it; the next time that person does the act, it goes flawlessly or fails outright — no partial outcome, no stopping partway, no second attempt."
+          "name": "Outcome Decree",
+          "text": "She can decide whether another person's next attempted action succeeds or fails."
         }
       },
       "variant": 1

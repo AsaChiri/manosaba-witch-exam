@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "Whatever the girls needed done went through the go-between girl, and the go-between passed every one of those asks on to her. The go-between carried nothing herself — she held the solo cell.",
-          "On days the pile grew past starting, she folded into the doll on her bunk and let the hours pass. The girls knew the cloth doll on her pillow whenever she was elsewhere; each time she came back, the pile had grown.",
-          "That evening the go-between promised the girls the week's washing by morning and tipped all of it onto her before the whole lounge. The go-between demanded her doll as forfeit — it would sit in the solo cell tonight; done by morning, or it went in the lounge fire.",
-          "In her own cell she rolled her spare clothes into a sleeping shape under her blanket. In the empty solo cell, on the shelf, she folded.",
+          "Whatever the girls needed done went through the go-between girl, and the go-between passed every one of those asks on to {WITCH_NAME}. The go-between carried nothing herself — she held the solo cell.",
+          "On days the pile grew past starting, {WITCH_NAME} folded into the doll on her bunk and let the hours pass. The girls knew the cloth doll on her pillow whenever she was elsewhere; each time she came back, the pile had grown.",
+          "That evening the go-between promised the girls the week's washing by morning and tipped all of it onto {WITCH_NAME} before the whole lounge. The go-between demanded {WITCH_NAME}'s doll as forfeit — it would sit in the solo cell tonight; done by morning, or it went in the lounge fire.",
+          "In her own cell {WITCH_NAME} rolled her spare clothes into a sleeping shape under her blanket. In the empty solo cell, on the shelf, she folded.",
           "The go-between came back at lock, found the doll on the shelf, and held it up at the bars for the neighbor-cell girl — \"she actually brought it.\" The door was locked from the outside.",
-          "In the locked hours she became a girl again, pressed the bedding down over the go-between's face, and held it. She folded back onto the shelf.",
-          "The guard's unlock round passed a sleeping shape in her cell. After the morning stream she stepped out of the solo cell; one girl saw her at its doorway. Mid-morning the go-between was found cold under her own bedding — smothered in the locked hours, inside a cell whose barred door admits no arm as far as the bunk.",
-          "Her cellmate woke in the night and touched the sleeping shape: rolled clothes. The doll — demanded before the whole lounge, shown at the bars at lock — was gone from the sealed cell; no girl had ever seen her and the doll at the same time. The vanished doll and the girl in no bed were one: she was the doll locked in with the go-between, and the hands that held the bedding down were hers."
+          "In the locked hours {WITCH_NAME} became a girl again, pressed the bedding down over the go-between's face, and held it. She folded back onto the shelf.",
+          "The guard's unlock round passed a sleeping shape in her cell. After the morning stream {WITCH_NAME} stepped out of the solo cell; one girl saw her at its doorway. Mid-morning the go-between was found cold under her own bedding — smothered in the locked hours, inside a cell whose barred door admits no arm as far as the bunk.",
+          "{WITCH_NAME}'s cellmate woke in the night and touched the sleeping shape: rolled clothes. The doll — demanded before the whole lounge, shown at the bars at lock — was gone from the sealed cell; no girl had ever seen {WITCH_NAME} and the doll at the same time. The vanished doll and the girl in no bed were one: {WITCH_NAME} was the doll locked in with the go-between, and the hands that held the bedding down were hers."
         ],
         "epitaph": "The days always came all at once, and she could only ever be carried — the one road she went alone led into that locked cell.",
         "epithet": "The Forfeit Delivered",
@@ -30,7 +30,7 @@
         ],
         "magic": {
           "name": "the Doll-Fold",
-          "text": "At her will she folds into a small cloth doll — a made thing to every eye and hand, which sees and hears as she does, goes only where hands carry it, and becomes a girl again only at her own will."
+          "text": "She can transform herself into a small cloth doll and back."
         }
       },
       "variant": 1

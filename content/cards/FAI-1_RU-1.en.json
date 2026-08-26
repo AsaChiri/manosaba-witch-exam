@@ -10,26 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Every song she gave the circle she had copied from a dead friend's handwritten songbook. She had burned the book herself weeks before and kept its ash in a tin. Each afternoon in the guest house's water-sprite room she raised the book from its ash, wrote out the next song in her own hand, and let it fall back.",
-          "The organizer had founded the circle around her songs and set when and where it met. At breakfast the organizer told the circle it was settled: starting tomorrow, the girls would come to the room in the afternoons too, to sit with her while she worked. Her cell was shared; that afternoon hour in the room was the only time she had alone.",
-          "That afternoon she carried a pail of ash from the incinerator out past the entrance and across the grounds to the guest house, in sight of the girls sitting outside. In the water-sprite room she took the ash in her hands and raised what it had burned from — worn matting, old bedding, sweepings, many times the pail. She laid it low along both side walls and across both sides of the doorway, the middle of the floor left clear.",
-          "At dusk the organizer came alone to ready the room for that evening's circle. It was dark; the organizer lit the lamp on the low table inside the door and turned for the cushions at the far wall. She stepped in at the doorway, tipped the lamp from the table into the matting beside it, and stepped back out.",
-          "The doorway caught first — the room's only way out — and the fire ran both side walls. The circle's girls fought it off the rest of the guest house, but the room burned to its frame, the organizer inside. A knocked lamp; an accident, at first.",
-          "The room had held two cushions, a low table, and one lamp; the circle's girls had furnished it and knew its contents. The burn had bitten deepest along both side walls and across both sides of the doorway, places where nothing had ever stood. A heavy load had lain and burned there, and none of its own burnt matter was left on the floor.",
-          "When asked, she said she had carried a pail of the incinerator's ash out that afternoon to scour the floorboards. The girls sitting outside the entrance had seen her carry it. Nothing else went out to that room that day.",
-          "The prisoners know what her power does with ash. The fuel the burning needed and the ash she admits carrying in are the same matter."
+          "{WITCH_NAME} was known as the prison's songwriter, but every song she gave the evening circle came from a dead friend's handwritten songbook. Weeks earlier, she had burned it and kept the ash in a tin. Each afternoon, alone in the guest house's water-spirit room, she raised the book, copied out the next song, then released it back to ash. The organizer who had founded the circle around those songs also set its time and place and looked after the room. At breakfast, the organizer announced that starting the next day the whole circle would join {WITCH_NAME} there in the afternoons and watch her write. With a roommate in her cell, that had been {WITCH_NAME}'s only hour alone.",
+          "That afternoon, {WITCH_NAME} carried a covered pail and a cleaning cloth past the girls sitting outside the prison entrance and across the grounds to the water-spirit room. Inside, she took up the incinerator ash from the pail and raised the worn matting, bedding, and sweepings that had made it. She did not release the restored material; it remained in place as a low bank across the inside threshold and along both side walls, with the middle clear. At dusk, the organizer came alone to prepare the room. The organizer lit the lamp by the door, crossed to the cushions at the far wall, and stayed there. Outside the room, {WITCH_NAME} waited until the organizer was beside the cushions, then stepped to the doorway, tipped the lamp into the threshold bank, and retreated. The spilling oil set the threshold bank alight; fire ran along both walls and closed the room's only exit before the organizer could return.",
+          "The other girls kept the fire from the rest of the guest house, but the room burned to its frame with the organizer inside. At first, the fallen lamp looked accidental.",
+          "But the circle had furnished the room with only two cushions, the low table, and the lamp. The deepest burns ran across the threshold and along both walls, where nothing had stood. Loose incinerator ash lay over those marks, with no recognizable charred matting or bedding; everyone knew a restored object returned to its source ash when destroyed again. {WITCH_NAME} claimed the covered pail had held water and the cloth was for wiping the low table and lamp before the evening circle. The girls outside the entrance confirmed that she had carried the pail and cloth to the room that afternoon, and that no other container or bulky load had gone there. The burn pattern required a bank of fuel, and only her power could have made it from the ash hidden in the pail she carried."
         ],
-        "epitaph": "Everything they loved in her came out of a dead girl's ash, and nothing underneath was her own.",
-        "epithet": "She Who Built Her Name in Ash",
+        "epitaph": "The cloth kept her shape. Her songs had never contained a note of her own.",
+        "epithet": "The Borrowed Refrain",
         "execution": [
-          "A flower-press stood open on the stand, built to the size of a girl — two iron boards with layers of cloth leaves between them, a screw at each corner.",
-          "She was laid face down on the leaves, more leaves spread over her, the upper board set on top.",
-          "The screws were turned a quarter at a time, corner to corner — the upper board pressing down through the cloth onto her back, the lower board taking her chest. The leaves took her shape.",
-          "The boards were drawn together until her chest no longer rose between them. The press was left closed."
+          "A flower press built to a girl's size stood open. Layers of cloth covered the lower iron board, and an upper iron board was joined to it by a screw at each corner. She was laid face down on the cloth and covered with more layers before the upper board was placed over her.",
+          "The screws turned a quarter turn at a time, moving from corner to corner. The upper board bore down on her back as the lower board pressed into her chest, and the cloth took the shape of her body. The screws kept turning until her chest no longer rose. The press remained closed."
         ],
         "magic": {
           "name": "Raised from Ash",
-          "text": "When she takes ash in her hands, what burned to make it comes back whole at its original size. It stays where she sets it down until she lets it go or it is destroyed a second time; then it falls back to ash."
+          "text": "Ash held in her hands becomes the intact material or object that burned to make it, restored to its former size."
         }
       },
       "variant": 1

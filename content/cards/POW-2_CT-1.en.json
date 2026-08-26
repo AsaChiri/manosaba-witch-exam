@@ -10,26 +10,22 @@
     {
       "fields": {
         "crime": [
-          "With the warden's leave she cooked for a few of the girls — what each of them liked, brought to them by her own hand. It was the one thing that had ever been hers, and the thing she liked best.",
-          "One girl would not leave her even the cooking. The girl stood at her shoulder — told her what to cook, how to season it, corrected her before the others, sent her dishes back to be made again. It was the one thing she had made her own, and even there the girl's word ran it.",
-          "Before the others, the girl sent back the dish she had made and stood over her while she cooked it again to order. She would not be commanded again in the one thing that was hers. She chose the girl: from then, nothing fed the girl but what she cooked and brought her.",
-          "Every dish set before the girl spoiled the moment it reached her, and every plate the girl took for herself did the same. Only what she cooked and carried her stayed good. The others watched dish after dish sour at her seat.",
-          "But to keep the girl alive was to cook for her for good. She cooked her less and less — a little less each meal, telling the others the girl could keep little down. The rot needed no cover; only the amount was hidden.",
-          "What she gave was no longer enough; the girl wasted, week by week.",
-          "The girl was found dead of starvation; the tables stood laden. The others would have fed her — every plate had rotted in the trying.",
-          "The rot had touched only the girl's food — every dish, brought or taken by her own hand. Only her cooking had ever fed the girl; and that cooking had thinned, week by week, as the girl wasted."
+          "During free time, {WITCH_NAME}'s usual companion always chose whether they would read in the library or play pool. Before the companion even asked, {WITCH_NAME} would have the chosen book, cue, seat, or extra layer ready.",
+          "One evening, a message invited her to walk by the lake. {WITCH_NAME} wanted to go and began typing an acceptance, but the companion took her phone, declined it for her, and decided that they would play pool as usual.",
+          "The roommate saw them enter the recreation room together that evening. {WITCH_NAME}'s forearms were unmarked. The companion told the roommate that she had chosen pool for both of them.",
+          "During the game, {WITCH_NAME} rolled a ball beneath the pool table. When the companion bent to retrieve it, {WITCH_NAME} forced her under the table. The companion scratched {WITCH_NAME}'s forearm during the struggle. {WITCH_NAME} touched the table and made it extremely heavy. All four feet sank into the floor, one leg broke, and the tabletop fell onto the companion and crushed her chest. {WITCH_NAME} then restored the table's usual weight.",
+          "{WITCH_NAME} returned to the cell alone with fresh scratches and told the roommate that the companion had stayed behind to practise. The roommate later found the dead girl under the fallen table and initially believed that a leg had failed while she was reaching beneath it.",
+          "Four fresh, deep impressions marked the places where the table's feet had stood, although the table at its restored weight could not have made them. The four simultaneous marks and the broken leg showed that the whole table had briefly become much heavier, which required her to touch it. Blood under the dead girl's fingernails matched the fresh scratches on the forearm of the woman who returned alone. The roommate had seen her enter without scratches and return alone with them. Those traces placed her in the struggle and exposed the structural accident as a cover."
         ],
-        "epitaph": "She was never allowed a hand in her own life, and the one she was given, she closed.",
-        "epithet": "The Only Thing She Chose",
+        "epitaph": "Empty-handed, she receives the final offering she cannot refuse.",
+        "epithet": "The Answer Chosen for Her",
         "execution": [
-          "A table stood on the execution stand, laden end to end, with a single chair before it. She was seated there, and iron cases were locked over both her hands.",
-          "The warden stated the stand's one rule: nothing would pass her lips except what her own hand brought there.",
-          "The court was full of girls who could have fed her in a moment. Her own hands, sealed inside the cases, could not move.",
-          "Course after course was set before her, the cases never opened, until she starved at the full table."
+          "A high-backed feeding chair holds her arms and torso beneath broad restraints, while a wide band pins her forehead to the backrest. A large iron spoon rises from a full bowl and swings toward her mouth.",
+          "Again and again, the spoon forces thick food between her teeth. She cannot turn her head or use her hands. Each stroke packs more food into her mouth and throat. Even after her airway is blocked and her chest stops moving, the spoon brings her another mouthful."
         ],
         "magic": {
-          "name": "the Jealous Provision",
-          "text": "She chooses a person; for the one she chooses, nothing feeds them but what her own hand gives, and any other food rots the moment it comes to them — whoever brings it, even a plate they take for themselves."
+          "name": "Weight Control",
+          "text": "She can change the weight of anything she touches."
         }
       },
       "variant": 1

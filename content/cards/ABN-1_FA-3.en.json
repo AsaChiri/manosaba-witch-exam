@@ -1,0 +1,35 @@
+{
+  "cell": "ABN|Fantasist",
+  "copingSub": "FA-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Fantasist",
+  "tag": "ABN-1_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "After dinner each day, a companion met {WITCH_NAME} beside the courtyard fountain and recounted something that had happened. {WITCH_NAME} retold the event with different choices and outcomes so that every choice led toward a future in which she mattered, while the companion listened and pointed out the amusing inconsistencies.",
+          "One evening, the companion arrived with another prisoner and announced a plan to join the other prisoner for pool starting the next day. The companion offered to move their fountain meetings to whatever evenings remained free. {WITCH_NAME} began retelling the announcement as though the companion had declined the invitation, but the companion stopped her and said the changed version could not replace the decision already made. The two prisoners then left for their first game.",
+          "The new pool partner later walked the companion back to her cell. From the barred doorway, the two finished arranging the next evening's game while the companion got ready for bed. Before the cells were locked, {WITCH_NAME} came to apologize, offered to straighten the bottom sheet, which had become twisted, and received the companion's permission. She then bent over the bunk, took hold of the sheet's hem, smoothed it, and left, all in the pool partner's sight. The companion lay down without touching the sheet.",
+          "When the warning sounded for the cells to be locked, the pool partner left. The companion was later found dead on her bunk.",
+          "The sheet was loose again around the body, except for stretched folds at the neck. A continuous pressure mark as wide as the cloth circled the neck, but the sheet had no knot or fixed point that could have tightened it in the usual way.",
+          "While examining the mark, a prisoner lifted the sheet and found blurred, reversed writing transferred to the mattress beneath the hem. Reflected in a mirror, the words read: after the cell door shuts, the sheet winds around the neck of the person lying on it and tightens until that person stops moving.",
+          "{WITCH_NAME} claimed the companion had copied an abandoned story fragment. But the transfer showed where the command had disappeared from the sheet's underside after it was carried out. A copied fragment could not have made the sheet move; because the sheet carried out the command, she must have written it herself. When the cell door shut, her magic made the sheet wind around the companion's neck and tighten until the companion died."
+        ],
+        "epitaph": "The perfect life closed over the stain at its edge.",
+        "epithet": "The Only Life Allowed",
+        "execution": [
+          "A room-sized picture book stands open around her, its pages showing a richly furnished life at full scale. She is unrestrained between them, beside a painted chair.",
+          "She reaches for the chair, but her hand strikes the flat page. The covers begin to close, pressing pages against the front and back of her body. Driven shut by the machine, the book crushes her chest and skull and keeps pressing after her death."
+        ],
+        "magic": {
+          "name": "Command Inscription",
+          "text": "She can write a command on an object and make it obey."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

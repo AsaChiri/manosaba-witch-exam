@@ -10,26 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Nothing in her life came to her or left her except through the victim — the one who spoke for her, answered for her, and handled every dealing she had.",
-          "The night before the victim's two-day penalty, the victim told the others in the corridor: no one was to speak to her until the penalty was over. The victim turned a girl away from her door.",
-          "The victim was given two days in the punishment room. Each morning of the term, in the corridor, within the witch's hearing, the warden gave the guard that day's order — water and bread to carry down.",
-          "She re-addressed each order the moment it was spoken. None reached the guard, and nothing was carried down. The first morning's water landed on a girl bedridden with fever in the medical room. The girl held the duty as her own but could not rise, and the victim received no water.",
-          "On the second morning the warden spoke two orders to the guard: the day's water down, and — the victim a day unseen — a look-in before the night's lock. She sent the water to a girl serving her own small penalty, barred from the B1 corridor. The girl started down, was turned back at the stair, and again no water reached the victim.",
-          "The look-in she held and delivered at the lock-minute — onto a girl standing at her own cell door as the bolts went home. Locked behind the bolts, the girl could not go, and no one looked in on the victim that night.",
-          "When the term was up the guard came down to release the victim and found her dead. Two days without water and the cold of the second night in the stone room had killed her before the term was out.",
-          "The warden swore every keeping-order had been given to the guard in the corridor — water and bread each morning, the look-in before the last night's lock. The guard said nothing; the victim went unkept. Three girls no one had ordered held those duties as their own, each that day unable to act. One girl had been in the corridor each time the warden spoke."
+          "During free time, {WITCH_NAME}'s planning partner wrote a simple plan for their next afternoon together. The partner chose the activities and gained a companion who always followed; {WITCH_NAME} never had to decide. One day at a recreation-room table, with the partner's roommate beside them, {WITCH_NAME} took the pencil in her left hand and wrote that she wanted to visit the lake. The partner took the pencil in her right hand, crossed out the lake, replaced it with the recreation room, and said she would keep deciding for both of them because {WITCH_NAME} always hesitated.",
+          "That evening, the roommate saw the partner enter the library and saw {WITCH_NAME} follow soon afterward. Several minutes later, {WITCH_NAME} returned alone and handed over a folded note written in pencil. Its letters matched the partner's handwriting exactly. She said the partner had written it and wanted to remain alone in the library until lockup.",
+          "Near lockup, the roommate found the partner strangled in the library. A thread from {WITCH_NAME}'s left cuff was caught under the partner's fingernails, and the same cuff had a fresh tear. Graphite streaks ran from the written lines toward the note's right edge.",
+          "Borrowed Handwriting changes letter forms, not the hand moving the pencil. At the recreation-room table, the roommate had watched the partner write with her right hand, but {WITCH_NAME}, who later brought the note, used her left. The rightward graphite streaks therefore showed that {WITCH_NAME} had written the note. The thread under the partner's fingernails matched the fresh tear in {WITCH_NAME}'s left cuff and proved they had struggled during the strangulation. {WITCH_NAME} had strangled the partner, whose hand tore the cuff while resisting, then used the handwriting sample she had touched at the recreation-room table to forge the request for solitude. {WITCH_NAME} never noticed the thread."
         ],
-        "epitaph": "She could move any word to any ear. Every one that reached hers came through another mouth.",
-        "epithet": "The Girl Who Moved the Orders",
+        "epitaph": "Her last motion belonged to another hand.",
+        "epithet": "The First Choice Crossed Out",
         "execution": [
-          "She was brought to the execution stand and set over a trap held shut by a lever. A guard stood at the lever.",
-          "The warden's instruction to the guard had been given before she entered the court: release at the bell, unless ordered otherwise.",
-          "From the moment she was brought in, not a word was spoken in her hearing.",
-          "The bell sounded. The lever went over, and she fell."
+          "A single giant iron hand closes around her standing torso, pinning both arms to her sides. It lifts her and carries her away on its own.",
+          "Its fingers tighten across her chest and back. Her ribs and spine break, and her chest collapses. The hand remains closed until her chest stops moving."
         ],
         "magic": {
-          "name": "Misdelivered",
-          "text": "An instruction she overhears given live from one person to another, she can re-address to a different, plausible hearer, who receives it as genuinely her own duty and will not forget it. The one it was meant for never hears it."
+          "name": "Borrowed Handwriting",
+          "text": "After touching a sample written by one person, she can make her next short message appear in that person's handwriting."
         }
       },
       "variant": 1

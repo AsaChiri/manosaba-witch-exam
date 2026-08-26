@@ -10,26 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Every evening at dusk the girls stepped out through the lounge door for their turn through the courtyard — the fountain, the paths, back in — and from the railing above the courtyard, a row watched while the caller named each one below by the walk alone. She stood in the row at the caller's elbow every evening for months.",
-          "This evening she went down and took the turn herself. The caller watched her the whole way out and back and asked the row who that was.",
-          "At the game's tail — the light going, the row gone down — the caller stayed leaning out over the rail for the last girl below. The caller named her; the girl went in at the lounge door; the courtyard stood empty. She took the caller at the knees and sent her over the railing headfirst to the stones.",
-          "She came down through the lounge and stepped out at the courtyard door. One stoop, one touch — and where the caller lay, a sweeper's pile of leaves. Back in at the same door, among the others.",
-          "All evening the courtyard stayed open — girls at the fountain, on the paths, along the rail above. Every eye passed the pile. One girl sat filming her friends at the fountain in the last light; on her screen, too, only leaves at the edge of the frame.",
-          "Before the lock-in count she lifted the seeming from the lounge. The count came up one short, and the search found the caller on the courtyard stones under the rail — not one leaf where every girl remembered a pile. The death was taken for a fall of the last half hour.",
-          "The clip from the fountain, played back, kept the true look: the caller on the stones where every memory held leaves. The stones had been clear when the last girl went in; the pile appeared by full dark; no sweeping duty, no barrow claimed it — the pile had been the caller, under a seeming lifted for the finding. The death belonged to dusk, not to the last half hour.",
-          "The row left two alone at the rail. The last girl below waved up at both before going in; a girl by the lounge door saw her step out and back in — the lull's only use of the courtyard's one door. In the believed half hour she sat in the lounge, surrounded; in the true hour, alone with the caller at the rail."
+          "Over several evenings, one girl practiced pool in the recreation room while {WITCH_NAME} kept score and returned balls across the table. Each night, the player asked her to come back the next evening.",
+          "Then one night, the player handed her the chalk and asked her to pass it to the girl who usually kept score. {WITCH_NAME} said she was the regular scorekeeper. The player finally looked up and admitted that she had never studied her face closely enough to recognize it.",
+          "Later that evening, prisoners found the player dead behind the pool table, with deep sword wounds in her chest. A sword was missing from the lounge, and at first it seemed that the weapon had been removed from the rooms used by the prisoners.",
+          "A girl who had crossed the entrance hall during the interval remembered seeing her descend the great stairs with what looked like an extra wooden handle for the cleaning tools. {WITCH_NAME} placed it among the other tools. The witness had not touched it. When another prisoner did, the false appearance vanished. The handle was the missing lounge sword, still stained with the dead girl's blood.",
+          "One of the dead girl's hands was pinned beneath her body, still clutching a clump of hair torn out at the roots. It matched a fresh, uneven gap in {WITCH_NAME}'s hair. She claimed that she had only found the body and hidden the sword in panic, but the trapped hair showed that the dead girl had grabbed her during a close struggle. The witness's account also placed the bloodied sword in her hands. She had disguised the lounge sword as a cleaning handle before carrying it upstairs. Its shape, weight, and texture never changed, and the victim's first contact with the blade broke the guise. She stabbed the girl, gave the sword the same false appearance again, and carried it down to the entrance-hall tools."
         ],
-        "epitaph": "She knew what no room would look at twice. She had been it all her life.",
-        "epithet": "The One No Eye Would Keep",
+        "epitaph": "At last she could not leave their sight, and still no gaze met hers.",
+        "epithet": "The Unrecognized Scorekeeper",
         "execution": [
-          "At the center of the stand a board stood upright, its face lined with felt. An iron armature faced the board — rows of long pins, the longest at the center.",
-          "She was set against the felt. The armature advanced.",
-          "The outer pins went home first — through cloth and hair, fixing her flat to the board. The rows walked inward: sleeve, hem, collar.",
-          "The center pin drove through her chest and into the board."
+          "A clear glass display case encloses her alone. Its transparent walls move inward together, pinning her arms and torso before pressing into her shoulders, sides, chest, and back. They keep closing until her ribs and chest are crushed. The walls stop only when the case is shut around her lifeless body, leaving her crushed and fully visible inside."
         ],
         "magic": {
-          "name": "the Seeming",
-          "text": "The Seeming — With a touch she lays a seeming on a thing — never a living body — and to every eye it is the ordinary thing she chose, until she lifts it from wherever she stands. A recording keeps the true look."
+          "name": "Common Guise",
+          "text": "By touching anything, she can make it look like any ordinary object she chooses."
         }
       },
       "variant": 2

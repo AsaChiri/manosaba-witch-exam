@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "She read the worst into everything made, and was always right. It was the same verdict she held on herself.",
+          "{WITCH_NAME} read the worst into everything made, and was always right. It was the same verdict she held on herself.",
           "Weeks before, in the recreation room, the victim caught her face lit with real pleasure at a girl mocked to tears — one unguarded second before it smoothed away. Wary, the victim began a craft project in the earth-spirit room: a worked wooden ornament.",
-          "She had marked the victim's guest-house hours. One evening during the victim's supper absence she slipped in and studied the half-built ornament — and read its true purpose.",
+          "{WITCH_NAME} had marked the victim's guest-house hours. One evening during the victim's supper absence she slipped in and studied the half-built ornament — and read its true purpose.",
           "Deep in the fretwork sat a phone, its eye worked to a slot covering her own seat in the recreation room: a snare to catch on record the very look the victim had glimpsed. She knew the girl had judged her, and judged right.",
-          "She went to the earth-spirit room. The victim's carving knife lay on the bench beside the fretwork; she took it and stabbed the victim before the snare was finished.",
-          "She left the ornament where it stood. To break an innocent-looking craft the day its maker died would name her.",
+          "{WITCH_NAME} went to the earth-spirit room. The victim's carving knife lay on the bench beside the fretwork; she took it and stabbed the victim before the snare was finished.",
+          "{WITCH_NAME} left the ornament where it stood. To break an innocent-looking craft the day its maker died would name her.",
           "The victim was found dead of the wound, the carving knife beside the body; on the bench, a half-built ornament no one could make sense of.",
-          "Worked over and completed by the court, the ornament was no craft: a concealed phone trained on her seat, built to catch her. A half-built disguise normally tells no ordinary eye anything; that she struck before it could run means she had already read its purpose. A girl saw her go to the guest house that evening."
+          "Worked over and completed by the court, the ornament was no craft: a concealed phone trained on her seat, built to catch her. A half-built disguise normally tells no ordinary eye anything; that {WITCH_NAME} struck before it could run means she had already read its purpose. A girl saw her go to the guest house that evening."
         ],
         "epitaph": "She understood everything, and it was never once the same as being safe.",
         "epithet": "The Girl Who Read the Worst",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "the Confessing Thing",
-          "text": "Studying any made or arranged thing for minutes, she knows its maker's intent: what it was really for, hidden purposes and all."
+          "text": "By studying an object, she can learn what its maker intended it to do."
         }
       },
       "variant": 1

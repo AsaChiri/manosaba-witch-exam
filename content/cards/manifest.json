@@ -18,6 +18,19 @@
       "family": "ABN",
       "style": "Avenger"
     },
+    "ABN|Avoider": {
+      "authoredTags": [
+        "ABN-1_AV-2"
+      ],
+      "coveredCoping": [
+        "AV-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Avoider"
+    },
     "ABN|Caretaker": {
       "authoredTags": [
         "ABN-1_CT-3"
@@ -75,12 +88,15 @@
     },
     "ABN|Fantasist": {
       "authoredTags": [
+        "ABN-1_FA-3",
         "ABN-3_FA-1"
       ],
       "coveredCoping": [
-        "FA-1"
+        "FA-1",
+        "FA-3"
       ],
       "coveredOrigin": [
+        "ABN-1",
         "ABN-3"
       ],
       "family": "ABN",
@@ -271,6 +287,19 @@
       ],
       "family": "ALN",
       "style": "Resigned"
+    },
+    "ALN|Ritualist": {
+      "authoredTags": [
+        "ALN-9_RI-2"
+      ],
+      "coveredCoping": [
+        "RI-2"
+      ],
+      "coveredOrigin": [
+        "ALN-9"
+      ],
+      "family": "ALN",
+      "style": "Ritualist"
     },
     "ALN|Self-Punisher": {
       "authoredTags": [
@@ -465,6 +494,19 @@
       "family": "DEF",
       "style": "Sovereign"
     },
+    "DEF|Trickster": {
+      "authoredTags": [
+        "DEF-3_TR-1"
+      ],
+      "coveredCoping": [
+        "TR-1"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Trickster"
+    },
     "DEF|Wall-of-Anger": {
       "authoredTags": [
         "DEF-3_WA-1"
@@ -643,6 +685,19 @@
       "family": "ED",
       "style": "Sovereign"
     },
+    "ED|Striker": {
+      "authoredTags": [
+        "ED-1_ST-2"
+      ],
+      "coveredCoping": [
+        "ST-2"
+      ],
+      "coveredOrigin": [
+        "ED-1"
+      ],
+      "family": "ED",
+      "style": "Striker"
+    },
     "ED|Thrill-Seeker": {
       "authoredTags": [
         "ED-1_TS-2"
@@ -775,6 +830,19 @@
       "family": "FAI",
       "style": "Self-Reliant"
     },
+    "FAI|Sovereign": {
+      "authoredTags": [
+        "FAI-1_SV-3"
+      ],
+      "coveredCoping": [
+        "SV-3"
+      ],
+      "coveredOrigin": [
+        "FAI-1"
+      ],
+      "family": "FAI",
+      "style": "Sovereign"
+    },
     "FAI|Thrill-Seeker": {
       "authoredTags": [
         "FAI-5_TS-1"
@@ -904,6 +972,19 @@
       ],
       "family": "MB",
       "style": "Performer"
+    },
+    "MB|Pleaser": {
+      "authoredTags": [
+        "MB-2_PL-2"
+      ],
+      "coveredCoping": [
+        "PL-2"
+      ],
+      "coveredOrigin": [
+        "MB-2"
+      ],
+      "family": "MB",
+      "style": "Pleaser"
     },
     "MB|Self-Soother": {
       "authoredTags": [
@@ -1089,6 +1170,19 @@
       "family": "POW",
       "style": "Self-Reliant"
     },
+    "POW|Thrill-Seeker": {
+      "authoredTags": [
+        "POW-2_TS-2"
+      ],
+      "coveredCoping": [
+        "TS-2"
+      ],
+      "coveredOrigin": [
+        "POW-2"
+      ],
+      "family": "POW",
+      "style": "Thrill-Seeker"
+    },
     "POW|Trickster": {
       "authoredTags": [
         "POW-2_TR-1"
@@ -1180,6 +1274,19 @@
       "family": "VC",
       "style": "Perfectionist"
     },
+    "VC|Resigned": {
+      "authoredTags": [
+        "VC-1_RS-2"
+      ],
+      "coveredCoping": [
+        "RS-2"
+      ],
+      "coveredOrigin": [
+        "VC-1"
+      ],
+      "family": "VC",
+      "style": "Resigned"
+    },
     "VC|Ritualist": {
       "authoredTags": [
         "VC-8_RI-1"
@@ -1192,6 +1299,19 @@
       ],
       "family": "VC",
       "style": "Ritualist"
+    },
+    "VC|Self-Soother": {
+      "authoredTags": [
+        "VC-1_SS-2"
+      ],
+      "coveredCoping": [
+        "SS-2"
+      ],
+      "coveredOrigin": [
+        "VC-1"
+      ],
+      "family": "VC",
+      "style": "Self-Soother"
     },
     "VC|Striker": {
       "authoredTags": [
@@ -1247,6 +1367,19 @@
       "tag": "ABN-1_AG-1",
       "variants": 1
     },
+    "ABN-1_AV-2": {
+      "cell": "ABN|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_AV-2",
+      "variants": 1
+    },
     "ABN-1_CL-1": {
       "cell": "ABN|Clinger",
       "copingSub": "CL-1",
@@ -1297,6 +1430,19 @@
       ],
       "originSub": "ABN-1",
       "tag": "ABN-1_DT-2",
+      "variants": 1
+    },
+    "ABN-1_FA-3": {
+      "cell": "ABN|Fantasist",
+      "copingSub": "FA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_FA-3",
       "variants": 1
     },
     "ABN-1_PL-3": {
@@ -1546,6 +1692,19 @@
       "tag": "ALN-7_CL-2",
       "variants": 1
     },
+    "ALN-9_RI-2": {
+      "cell": "ALN|Ritualist",
+      "copingSub": "RI-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-9",
+      "tag": "ALN-9_RI-2",
+      "variants": 1
+    },
     "DEF-10_RI-3": {
       "cell": "DEF|Ritualist",
       "copingSub": "RI-3",
@@ -1674,6 +1833,19 @@
       ],
       "originSub": "DEF-3",
       "tag": "DEF-3_SV-1",
+      "variants": 1
+    },
+    "DEF-3_TR-1": {
+      "cell": "DEF|Trickster",
+      "copingSub": "TR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_TR-1",
       "variants": 1
     },
     "DEF-3_WA-1": {
@@ -1832,6 +2004,19 @@
       "tag": "ED-1_SS-1",
       "variants": 1
     },
+    "ED-1_ST-2": {
+      "cell": "ED|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_ST-2",
+      "variants": 1
+    },
     "ED-1_SV-2": {
       "cell": "ED|Sovereign",
       "copingSub": "SV-2",
@@ -1960,6 +2145,19 @@
       ],
       "originSub": "FAI-1",
       "tag": "FAI-1_SR-1",
+      "variants": 1
+    },
+    "FAI-1_SV-3": {
+      "cell": "FAI|Sovereign",
+      "copingSub": "SV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_SV-3",
       "variants": 1
     },
     "FAI-1_TR-1": {
@@ -2116,6 +2314,19 @@
       ],
       "originSub": "MB-2",
       "tag": "MB-2_DT-2",
+      "variants": 1
+    },
+    "MB-2_PL-2": {
+      "cell": "MB|Pleaser",
+      "copingSub": "PL-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-2",
+      "tag": "MB-2_PL-2",
       "variants": 1
     },
     "MB-2_SS-3": {
@@ -2300,6 +2511,19 @@
       "tag": "POW-2_TR-1",
       "variants": 1
     },
+    "POW-2_TS-2": {
+      "cell": "POW|Thrill-Seeker",
+      "copingSub": "TS-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "POW-2",
+      "tag": "POW-2_TS-2",
+      "variants": 1
+    },
     "POW-2_WT-2": {
       "cell": "POW|Watcher",
       "copingSub": "WT-2",
@@ -2415,6 +2639,32 @@
       ],
       "originSub": "VC-1",
       "tag": "VC-1_PF-2",
+      "variants": 1
+    },
+    "VC-1_RS-2": {
+      "cell": "VC|Resigned",
+      "copingSub": "RS-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "VC-1",
+      "tag": "VC-1_RS-2",
+      "variants": 1
+    },
+    "VC-1_SS-2": {
+      "cell": "VC|Self-Soother",
+      "copingSub": "SS-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "VC-1",
+      "tag": "VC-1_SS-2",
       "variants": 1
     },
     "VC-1_ST-2": {

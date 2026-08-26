@@ -10,13 +10,13 @@
     {
       "fields": {
         "crime": [
-          "She mended the girls' torn things alone — each came back whole, without seam or stitch-mark. She worked apart, unwatched; no mend of hers had ever come back botched. She did not want to show her magic to anyone.",
-          "The admirer announced before the group: tomorrow, she teaches the mending in front of them — three girls at her side. Before them all, the admirer told her, glad: she was always the last still down in the cell corridor before lockup — come find her there.",
-          "That evening, the cell corridor before lockup. She waited at the dead-end stretch beyond the last cell, where the admirer's own cell stood. The other girls were in their open, iron-barred cells back toward the stairs — no sightline to the dead end, and a struck sound before lockup went unplaced.",
-          "She took up a loose iron bar from the corridor's disused fittings and struck the admirer down. No trace of a hand remained — not on the bar, not on the wall, not on her.",
+          "{WITCH_NAME} mended the girls' torn things alone — each came back whole, without seam or stitch-mark. She worked apart, unwatched; no mend of hers had ever come back botched. She did not want to show her magic to anyone.",
+          "The admirer announced before the group: tomorrow, {WITCH_NAME} teaches the mending in front of them — three girls at her side. Before them all, the admirer told her, glad: she was always the last still down in the cell corridor before lockup — come find her there.",
+          "That evening, the cell corridor before lockup. {WITCH_NAME} waited at the dead-end stretch beyond the last cell, where the admirer's own cell stood. The other girls were in their open, iron-barred cells back toward the stairs — no sightline to the dead end, and a struck sound before lockup went unplaced.",
+          "{WITCH_NAME} took up a loose iron bar from the corridor's disused fittings and struck the admirer down. No trace of a hand remained — not on the bar, not on the wall, not on her.",
           "The admirer lay dead at the dead end, the iron bar beside her, blood thrown across the near wall.",
           "A swung bar throws spatter around the wielder — the body cuts a void where the blows come from, and a gripped weapon holds prints. This wall bore no void; the spatter closed complete, as though no hand had swung the bar. The grip held no print. A wielding with no wielder: the doing of the one prisoner whose hand leaves no trace.",
-          "The bar named no one — it belonged to the corridor. But the admirer had named the corridor and the hour before the full group, and asked her to come; of all who heard it, only she had the morning's lesson, set in her name, to dread."
+          "The bar named no one — it belonged to the corridor. But the admirer had named the corridor and the hour before the full group, and asked her to come; of all who heard it, only {WITCH_NAME} had the morning's lesson, set in her name, to dread."
         ],
         "epitaph": "Two hands that left no mark, and she made certain there would never be a third.",
         "epithet": "She Who Left No Handle",
@@ -28,7 +28,7 @@
         ],
         "magic": {
           "name": "Unhandled",
-          "text": "Whatever she does to a thing leaves it and her own person bearing no trace of a hand."
+          "text": "Whatever she does leaves no trace of her touch."
         }
       },
       "variant": 1

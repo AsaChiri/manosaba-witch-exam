@@ -10,14 +10,14 @@
     {
       "fields": {
         "crime": [
-          "She had told one girl — the confidante — about the little sister she raised, and what had happened. She said it once.",
-          "In a quarrel at the dining hall the confidante spoke the sister's name, nothing more, and she went quiet at once in front of everyone. Within the week any girl who wanted her silent said it too.",
+          "{WITCH_NAME} had told one girl — the confidante — about the little sister she raised, and what had happened. {WITCH_NAME} said it once.",
+          "In a quarrel at the dining hall the confidante spoke the sister's name, nothing more, and {WITCH_NAME} went quiet at once in front of everyone. Within the week any girl who wanted her silent said it too.",
           "That evening the confidante said the name again, in front of the others, to quiet her.",
           "The confidante took the last shower turn every night and lingered in the steam.",
-          "She left with the second-to-last group and turned back — her soap, she said, passing a girl with a comb in the corridor.",
-          "In the steam she stood between the confidante and the door and brought the air to a scald.",
-          "She left. At the ten-o'clock lock the confidante was not in her cell; the guards found her in the shower room, burned past blistering, the taps above her still running cold.",
-          "Shower water reddens the skin but does not blister it; the confidante had been burned past what the taps could do, and the heat in that room was not the water's. She told the court she had left with the others and had been inside only a moment, but the girl with the comb had seen her going back, and a girl sitting outside the shower room had watched the door and not seen her leave until just before ten. Each account was broken by a different girl."
+          "{WITCH_NAME} left with the second-to-last group and turned back — her soap, she said, passing a girl with a comb in the corridor.",
+          "In the steam {WITCH_NAME} stood between the confidante and the door and brought the air to a scald.",
+          "{WITCH_NAME} left. At the ten-o'clock lock the confidante was not in her cell; the guards found her in the shower room, burned past blistering, the taps above her still running cold.",
+          "Shower water reddens the skin but does not blister it; the confidante had been burned past what the taps could do, and the heat in that room was not the water's. {WITCH_NAME} told the court she had left with the others and had been inside only a moment, but the girl with the comb had seen her going back, and a girl sitting outside the shower room had watched the door and not seen her leave until just before ten. Each account was broken by a different girl."
         ],
         "epitaph": "Her heat kept out everything except what she had already let in.",
         "epithet": "The Heat That Answered to a Name",
@@ -30,7 +30,7 @@
         ],
         "magic": {
           "name": "the Standing Heat",
-          "text": "She can raise the air about her, out to arm's length, from an uncomfortable warmth to a scald, and drop it again in an instant. Her own skin is untouched."
+          "text": "She can fill the air around her with scalding heat without burning herself."
         }
       },
       "variant": 1

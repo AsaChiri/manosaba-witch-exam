@@ -10,7 +10,7 @@
     {
       "fields": {
         "crime": [
-          "Outside, the guardian paid to watch over her had sold what he knew of her to whoever asked. She arrived at the prison certain that anyone can be bought — and just as certain that she had never once managed a day alone.",
+          "Outside, the guardian paid to watch over {WITCH_NAME} had sold what he knew of her to whoever asked. She arrived at the prison certain that anyone can be bought — and just as certain that she had never once managed a day alone.",
           "So she picked the steadiest of the prisoners and made her a keeper, paid in shares of everything she owned: the tasting of her food, the pouring of her nightly draught, the carrying of her washing.",
           "The pay came bound to an oath, sworn aloud on the first day: taste everything first; wait before you hand it over; tell no one what you see. Once, early on, the keeper reached to pass the cup untasted — her arm stopped in the air until she drank.",
           "Then one evening she heard the keeper retelling her night terrors to the lounge, word for word. The listeners had simply paid better. That was the evening she learned the magic has no hold on talk.",
@@ -29,7 +29,7 @@
         ],
         "magic": {
           "name": "Oathlock",
-          "text": "A promise spoken to her binds the speaker's body: any motion that would break it stops mid-motion."
+          "text": "A promise made to her prevents the speaker from doing anything that would break it."
         }
       },
       "variant": 1

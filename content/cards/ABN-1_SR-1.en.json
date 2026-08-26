@@ -10,26 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Craftwork was a permitted pastime — scraps of cloth and cord, small tools kept in the cells with the warden's leave. Hers was the only cell with one girl in it. The friend came every evening after supper and the two worked together; the friend left her box and half-made pieces there between evenings.",
-          "For a week the friend had spent her evenings in another girl's cell instead. That day the friend carried her box out, down the corridor to that girl's, and left the half-made pieces behind. Twice that week the friend and that girl had been heard arguing over cord taken from the friend's unfinished work.",
-          "She almost never borrowed. That afternoon she asked for the other girl's craft-knife in front of others — a strap of her own to mend. After supper, within earshot, she told the friend she would carry the remaining pieces up to the library before lock.",
-          "She carried the pieces up to the library, where near half past nine the friend was crouched over them. From behind she took the friend by the hair and opened her throat with the borrowed blade, and held her there until the friend stopped moving. She left the blade beside the friend and went down before lock with empty hands.",
-          "In the morning the other girl found the blade among her things, bloodied. The girls found the friend in the library, the half-made pieces beside her.",
-          "Before the court she said she had taken the pieces up and left the friend alive, and returned the knife to its owner that afternoon.",
-          "The other girl had stood in the shower queue at the hour of the killing. At ten the doors were locked from the outside, each girl shut in her own cell until the dawn unlocking. Inside hers the other girl turned out her craft box for the knife while her cellmate watched, and there was none.",
-          "The girls who had ever handed her anything of theirs were asked one by one, and none had told another before. Each said the same: what they handed her was back with them by morning, unseen, gone out of her hands from wherever she had left it. The blade went back that night — it was in her keeping when it was used."
+          "For several weeks, a girl brought a boxed two-player strategy game to {WITCH_NAME}'s cell each evening. They each chose their own moves, but {WITCH_NAME} politely refused help and insisted on setting up, moving both sides' pieces, and packing the game herself.",
+          "In the final week, the girl began playing with someone else in the recreation room. On the day of the murder, the girl returned to the cell, packed the remaining pieces, said the game would stay with the new partner from then on, and carried it away. When {WITCH_NAME} asked for one last private conversation in the library before lock, the girl agreed.",
+          "At 9:35 p.m., the girl placed the palm-sized metal turn marker in the box, closed it, and pasted a strip with the final score and the girl's signature over the lid seam. A prisoner at the pool table watched the girl do it. {WITCH_NAME} was not there, and neither player told her about the strip. The new partner took the sealed box to the assigned cell. From 9:45 until lock, the same witness remained beside the new partner in the shower line.",
+          "The next morning, the girl was found dead in the library. Repeated blows from a palm-sized hard object had shattered one side of her skull. {WITCH_NAME} acknowledged that they had spoken but said the girl had left alive.",
+          "The signed strip across the box was still intact. When the prisoners broke it and opened the lid, they found the metal marker inside, with the dead girl's blood and hair on its edge. The weapon appeared to have spent the night inside the new partner's locked cell, although the victim had sealed the box before the killing window and it had never been opened.",
+          "That alibi cleared the new partner. Only {WITCH_NAME} had met the victim alone and could take the marker through a closed lid and put it back. Unseen in the library, she drew it into her hand, beat the girl to death, and returned it bloodied to the box, never knowing that the lid had been sealed."
         ],
-        "epitaph": "She always knew that people go. In the end, so did everything she held.",
-        "epithet": "She With Whom Nothing Stayed",
+        "epitaph": "The last case to close carried only her away.",
+        "epithet": "The Hand That Could Not Hold On",
         "execution": [
-          "An iron frame stood on its own iron base, a crossbar spanning the top. At the warden's order every girl of the court put a strap of her own into her hands; those straps were tied around her — each at one end to a peg on the crossbar — and held her close beneath the bar, the full height of the frame between her and the base.",
-          "Through the hour the straps left their pegs one at a time, and the girls on the benches found them in their own hands.",
-          "The harness thinned; her weight shifted onto what remained.",
-          "The last strap was in its lender's hands, and nothing held her. She fell the height of the frame and struck the iron base."
+          "An enormous iron travel case opens in front of her. She is bound inside its narrow, shallow lower half, with the lid poised over her entire body.",
+          "The lid closes. Its rim drives her straight arms and legs inward as she strains to keep them extended. It keeps pressing, folding her knees and arms into the case and crushing her ribs.",
+          "At last the lid breaks her chest and skull, and the latch snaps shut. The case does not open again. Her corpse lies crushed and motionless inside."
         ],
         "magic": {
-          "name": "Back by Morning",
-          "text": "Whatever its owner hands over to her returns to that owner by morning, on its own and unseen."
+          "name": "Through the Lid",
+          "text": "She can take an item from a sealed box or put one inside without opening it."
         }
       },
       "variant": 1

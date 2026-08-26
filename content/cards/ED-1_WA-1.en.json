@@ -10,27 +10,23 @@
     {
       "fields": {
         "crime": [
-          "She kept the lounge hearth, and every evening the reader took the nearest seat while she knelt to feed the fire; the reader tilted her book toward the light and read on. The girls kept out of her way, and small figures she had plaited from dried grass stood in a row at her end of the hearth. Months of this.",
-          "That evening she went out for the night's wood. The fire ran low; the reader fed it with what lay nearest — the row of figures, used as kindling — and was back in her book before the wood came in. Girls at the games saw it done.",
-          "She carried the wood in and found her end of the hearth bare. The girls told her whose hand had fed the figures in. The reader took her book and candle to the reception room as every night, shut the door, and dozed in the chair.",
-          "Later she walked out through the entrance hall and down the passage to the reception room, empty-handed. She stood in the doorway, never entering, and held her stare on the back of the chair behind the sleeping reader's shoulder until her heat settled in the cloth and a live ember sat in the stuffing. She drew the door shut.",
-          "The cellmate knocked before the lock, as every night; smoke filled the small room and rolled out at the opened door. The reader sat dead in the chair as if still asleep, no burn on her. The chair had burned hollow from inside, no flame at any point, the burn deepest behind the reader's shoulder.",
-          "Her account: she left the lounge once for the wood, straight out and straight back, and sat at her own fire from then to the lock. A girl at the games went to the hearth for wood after the wood was in, knelt and fed the fire herself. No one was in the corner.",
-          "At trial the girls read the candle: the room's one flame, its wax all in the cup, so it had burned nowhere but where it stood. No spark carried from the hearth reached the seat of that burn. The fire in that chair had not started of itself, and no girl in the court could name what set it.",
-          "The girls walked the evening back: one crossing the entrance hall and one turning to the shower room at the passage mouth had each stepped out of her way after the wood was in, her hands empty, the wood store the other way. The passage runs to the reception room and nowhere else."
+          "A courtyard branch tore the cuff of {WITCH_NAME}'s issued coat. A girl who enjoyed mending agreed to repair it at a dining-hall table that afternoon.",
+          "{WITCH_NAME} held the sleeve flat and passed thread while the girl stitched and answered her without lifting her eyes from the cuff, needle, or seam. After hours together, {WITCH_NAME} expected the girl to know her.",
+          "When the work was done, the girl handed her the coat and asked her to return it to its owner. She said it was hers and that she had sat across the table all afternoon. The girl admitted she had never looked up long enough to learn her face.",
+          "That evening, prisoners found the girl dead beside a lounge sofa, with one deep sword wound in her chest and a lounge sword beside her. Fresh burns crossed both palms where the handle had touched them.",
+          "The repaired cuff was scorched and missing a piece. A matching blackened scrap was caught across the front of the guard. When its torn edge was matched to the cuff, one blood smear and one deep crease continued across both pieces.",
+          "{WITCH_NAME} admitted that the girl had drawn the sword during an argument and that she had heated the handle until the girl let go. She claimed she left the girl alive and that someone else later used the sword.",
+          "The palm burns showed that heat had spread through the handle while the girl held it. More decisively, the continuous smear and crease showed that the cuff was still attached to her sleeve and folded across the guard when the guard struck the bloodied chest around the wound; the cloth tore only afterward.",
+          "{WITCH_NAME} had stared at the exposed end until the girl dropped the sword. Before the handle cooled, she wrapped her repaired cuff around it, picked it up, and drove it into the girl's chest. Pulling the blade free tore the scrap from her sleeve and left it on the guard."
         ],
-        "epitaph": "The whole room knew where she knelt, and no one looked.",
-        "epithet": "The Unwatched Fire",
+        "epitaph": "The nearest eye was carved in stone, where no gaze had ever lived.",
+        "epithet": "The Face She Never Saw",
         "execution": [
-          "A slab of iron stood at the center of the stand, as tall as she was: the smooth shape of a face with nothing on it. From each side, level with her shoulders, an iron arm reached out, ending in an iron hand.",
-          "The hands caught her shoulders and held her standing on the boards, the reach of the arms between her and the iron. The face began to glow, and the longer she stood before it the fiercer the glow grew.",
-          "She grabbed the arms and shoved, and nothing moved. She twisted away, but the blank face stayed square on her and the glow went on climbing.",
-          "The iron went red, and the heat of it crossed the gap onto her face and chest and hands.",
-          "Her legs gave. The hands held her where she was — hanging in their grip, the blank face fixed before her, until the heat took her breath."
+          "An enormous stone eye, carved with an iris and pupil, rolls straight at her. It knocks her flat on her back and continues over her body, pressing its full weight across her shoulders, ribs, and chest. When it rolls away, her ribs and chest are crushed, and she lies dead on the execution stand."
         ],
         "magic": {
-          "name": "the Heating Stare",
-          "text": "The Heating Stare — Her stare, held on a thing, heats it; the longer she holds, the fiercer the heat, to searing and then to fire."
+          "name": "Heating Stare",
+          "text": "She can heat anything by staring at it, and the longer she looks, the hotter it gets."
         }
       },
       "variant": 1
