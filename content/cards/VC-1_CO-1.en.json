@@ -1,0 +1,36 @@
+{
+  "cell": "VC|Concealer",
+  "copingSub": "CO-1",
+  "family": "VC",
+  "locale": "en",
+  "originSub": "VC-1",
+  "style": "Concealer",
+  "tag": "VC-1_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} often walked outside with another girl. Whenever she sensed danger, even when the weather and surroundings looked safe, the girl would listen and return to the prison with her. The girl no longer walked alone, and every warning finally gave both of them a reason to turn back.",
+          "After several walks ended without incident, the girl refused to turn back at the prison entrance one dusk. The girl said that someone who never looked afraid could no longer expect others to retreat on a warning alone. The girl then set off for the lake by herself.",
+          "The girl crossed the damp forest ground first. {WITCH_NAME} followed later. Beyond sight of the prison, she came up behind the girl, pulled the girl's own scarf tight around the neck, and strangled the girl. Before the cells were locked, another girl at the entrance saw her return alone from the direction of the lake.",
+          "When the cells were locked, the girl had not returned. The victim's body was found near the lake with the scarf still tight around the neck and the shoes still on.",
+          "Three separate lines of footprints crossed the damp ground, but every print bore the victim's tread. One line led outward toward the lake. A second outward line followed beside it as far as the body. A third line returned from beside the body toward the prison. No other tread appeared.",
+          "No one else could have worn the victim's shoes to make the second line, because the victim was still wearing them when both outward lines were made. The return line could not have come from the dead girl whose shoes remained on the body. Each line occupied its own position and direction, so the later two were fresh steps rather than the victim's original footprints.",
+          "The entrance witness saw {WITCH_NAME} return alone along the third line. {WITCH_NAME}'s own approach and return had copied the victim's tread, while each footprint lay where her foot had landed and pointed in the direction she had walked."
+        ],
+        "epitaph": "Every mark they believed on her had belonged to someone else.",
+        "epithet": "The Warning Without a Mark",
+        "execution": [
+          "Two thick clay slabs stand upright, one before her and one behind her. Both surfaces are smooth and unmarked, and she is bound upright between them.",
+          "The slabs close against her face, chest, back, hands, and legs. The clay yields just enough to take the exact shape of every part it touches, but the pressure keeps building.",
+          "Her ribs break and her organs fail between the slabs until she stops breathing. They meet around her crushed body and hold a single impression that belongs only to her."
+        ],
+        "magic": {
+          "name": "Common Trace",
+          "text": "She can make a fresh physical mark left by her body copy a nearby mark of the same kind."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

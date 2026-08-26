@@ -1,0 +1,31 @@
+{
+  "cell": "POW|Avoider",
+  "copingSub": "AV-3",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Avoider",
+  "tag": "POW-2_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME}'s reading companion always chose their library books and read them aloud in the cells. {WITCH_NAME} never had to decide, and the reader always had {WITCH_NAME}'s undivided attention.",
+          "One day, {WITCH_NAME} finally took a book from the library shelf herself. Her companion took it from her hands, put it back unopened, and chose another, saying that {WITCH_NAME} was too slow and had poor taste.",
+          "Later, the companion sat on the lower bunk in her own cell and read from the replacement. After listening for a while, {WITCH_NAME} stepped behind the reader, laid her own neck ribbon across the front of the reader's throat, crossed the ends once behind it, and pulled tight enough to stop her breath. She could maintain only one active lock. Before crossing the ends a second time to finish the knot, she stopped, chose the ribbon, locked that exact shape, released both ends, and left. Only her own hands could resume the work and release the seal. The reader could neither loosen nor cut the ribbon and was strangled.",
+          "During free time, the cellmate found the body. The ribbon had one tight crossing and two loose ends, yet the crossing would not slip, and the cellmate could neither shift nor cut the cloth. The ribbon was recognizable as part of {WITCH_NAME}'s visibly distinctive prison clothing. {WITCH_NAME} claimed that she had lent the ribbon untied and that the dead girl later tied it herself. But once {WITCH_NAME} sealed it, no one else could change it. The tight, unfinished knot could only have been formed and deliberately left by her own hands."
+        ],
+        "epitaph": "Every page she left unturned already bore another hand's choice.",
+        "epithet": "Never Her Turn to Choose",
+        "execution": [
+          "One ring circles her ankles as it feeds out a broad, unbroken band. She stands fixed at its center while the ring rises without stopping, wrapping the band tightly around her legs, arms, and chest. Its final turns compress her ribs, close around her throat, and cover her mouth and nose. By the time the ring passes above her head, the band holds her motionless, wrapped from feet to face. She suffocates inside it."
+        ],
+        "magic": {
+          "name": "Unfinished Seal",
+          "text": "She can lock an object's shape."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

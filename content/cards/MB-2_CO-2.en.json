@@ -1,0 +1,31 @@
+{
+  "cell": "MB|Concealer",
+  "copingSub": "CO-2",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Concealer",
+  "tag": "MB-2_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} had told only one girl that she was raised inside a cult and had escaped. At midday, that girl forwarded the private account to the prison group chat. Replies from several others showed that it had spread.",
+          "During evening free time, {WITCH_NAME} asked the girl to meet her alone in the lounge. The girl replied that she was waiting there. Before entering, she chose a calm, unmarked appearance for her skin and froze that visible state. It would persist while later wounds, swelling, stains, and facial movements remained physically present but unseen. She took the crossbow from the lounge wall, braced its wooden stock against her shoulder, and fired a bolt into the girl's chest at close range. Then she wiped the crossbow, returned it to the wall, and left with the same calm face and flawless skin.",
+          "Another girl later found the victim dead in the lounge with the bolt still lodged in the victim's chest. A thin triangular wood chip lay beside the body. It fitted a fresh break at the shoulder end of the crossbow's stock. The bolt and matching chip proved that the wall crossbow had fired the fatal shot and that its stock had broken at that moment.",
+          "The victim's last private reply showed that she had been waiting there for her. Recoil from the shot would have driven the newly broken corner into the shooter's shoulder. Her shoulder looked smooth, but the other prisoners felt a fresh, raised triangular welt beneath the unchanged appearance. Its shape matched the broken stock, identifying her as the person who had braced and fired the crossbow when it broke."
+        ],
+        "epitaph": "Her smile never changed, so everyone believed nothing beneath it had changed either.",
+        "epithet": "The Unbroken Smile",
+        "execution": [
+          "A clear, flexible hood drops over her head and shoulders and draws tight against her face. Every breath and struggle deforms its visible surface. The hood keeps shrinking over her nose and mouth until no fresh air can enter. It remains sealed around her as her breaths weaken, her body goes still, and she dies."
+        ],
+        "magic": {
+          "name": "Fixed Appearance",
+          "text": "She can freeze the visible appearance of her skin."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

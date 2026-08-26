@@ -1,0 +1,32 @@
+{
+  "cell": "DEF|Fantasist",
+  "copingSub": "FA-4",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Fantasist",
+  "tag": "DEF-3_FA-4",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} turned prison humiliations into a private adventure serial about an unnamed heroine overcoming secret trials. A trusted editor received each chapter, marked weak passages, and proposed titles. The editor could shape a continuing story, while {WITCH_NAME} gained her one serious reader and a partner for harmless “ghost” performances with paired props. For several weeks, {WITCH_NAME} first touched two objects small enough to hold and paired them. When she moved the object beside her by hand, the other moved at the same time in the same direction and by the same distance, then remained where it stopped. They used this to make a prop slide or turn in an empty room as an unseen action from the latest chapter. The other prisoners thought a ghost was moving the props and did not know who was responsible. A second reader sometimes joined after the first edit and took notes during the remaining discussion.",
+          "During evening free time, {WITCH_NAME} and the editor began a new chapter at the dining table before the second reader arrived. The heroine imagined disfiguring a real prisoner after a slight that had happened that day. The editor recognized both the incident and the intended target, said that the scene expressed {WITCH_NAME}'s own cruel thought rather than a fictional villain's, and promised to tell the named prisoner after reading the ending. The serial’s author closed her bound manuscript and kept it. The second reader arrived only after this exchange and had not seen the chapter.",
+          "{WITCH_NAME} said the ending would be at the usual center seat of a lounge sofa. She went to the empty lounge alone to leave the pages, then returned to the dining table with her pencil. The editor went to the lounge, called the second reader, stated that she was in the center seat, and began reading aloud. During the open call, the second reader wrote a proposed title in her own bound notebook. The serial’s author fixed the notebook’s angle and crossed out the title with one long, straight pencil stroke. The editor’s voice stopped during that stroke. One impact came through the phone, followed by silence. The second reader had watched the entire stroke and kept the notebook.",
+          "{WITCH_NAME} said the call must have dropped. The second reader went straight to the lounge and found the editor dead in the center seat. One of the lounge swords had passed through the back of the sofa and through the editor’s upper back and chest. The sofa stood flush against the wall, with no person, cord, spring, or other mechanism behind it. The straight cut through the upholstery showed how far the sword had moved and in what direction, exactly matching the pencil line. The stroke, the impact on the call, and the death had occurred together.",
+          "{WITCH_NAME} insisted that she had left only the pages, then returned to the second reader at the dining table and never approached the editor again. She said someone else must have used the sword while she was writing there. But the call fixed the editor’s position and time of death, while the second reader had watched her draw the line and never released the notebook. Only her solitary visit had let her hide the sword behind the center seat and pair it with the pencil. The exact match between the witnessed pencil line and the sword's hidden path showed that {WITCH_NAME} had used Motion Copy to send the sword in the same direction and over the same distance, driving it through the sofa and killing the editor."
+        ],
+        "epitaph": "She gave the cruelty a heroine's name; the last page still named its author.",
+        "epithet": "The Cruel Thought Behind the Heroine",
+        "execution": [
+          "A broad iron printing plate hangs above a solid press bed covered with a blank sheet. Restraints hold her face-up by the wrists, ankles, and torso. The plate descends in one continuous stroke, crushing her abdomen, chest, throat, and skull against the bed. Her ribs break, her chest collapses, and her breathing stops as her skull gives way. The plate holds through her death, then rises to reveal the full bloody imprint of her body on the sheet."
+        ],
+        "magic": {
+          "name": "Motion Copy",
+          "text": "She can make one object copy another object's movement."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

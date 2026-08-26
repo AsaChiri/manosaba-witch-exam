@@ -1,0 +1,32 @@
+{
+  "cell": "DEF|Perfectionist",
+  "copingSub": "PF-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Perfectionist",
+  "tag": "DEF-3_PF-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During free time, {WITCH_NAME} often worked in the library with a girl who wrote short stories by hand. {WITCH_NAME} prepared clean copies, checking every page several times before returning it. While doing so, touching one of the writer's handwritten characters preserved its exact strokes and ink gaps for her to reuse whenever she wrote. The writer treasured the copies; {WITCH_NAME} treasured the writer's trust in their accuracy. The writer lived alone in the prison's single-occupancy cell.",
+          "One day, {WITCH_NAME} confessed that while a sick girl depended on her, she had briefly wished the illness would last longer. The writer said that an unwanted thought did not make her cruel and promised to keep it secret.",
+          "Later, at a library gathering, a third girl admitted feeling ashamed of an unkind thought. Trying to reassure the third girl, the writer named the girl who made the clean copies and repeated that girl's exact confession, saying that good people sometimes think cruel things. The third girl accepted this and announced a visit to the writer's cell later that afternoon.",
+          "When the third girl arrived, the writer was kneeling beside the lower bunk, with a cord around the writer's neck tied to the upper bunk. A handwritten note said that the writer regretted betraying a confidence and had chosen to die. Broad fingertip bruises lay beneath the narrow cord mark, and a strip of cloth was caught beneath a broken fingernail. {WITCH_NAME} called the note genuine and said the cloth might have torn during their earlier library work.",
+          "But several repeated characters in the note had identical strokes and ink gaps. Natural handwriting varies; comparison with the writer's notebook showed that the note had been assembled from copied characters, something only Exact Script could produce. The bruises proved that the writer had been strangled by hand, and the cloth came from a fresh tear in {WITCH_NAME}'s assigned blouse. Under the pretense of returning a clean copy, {WITCH_NAME} entered the cell, strangled the writer, arranged the body beneath the upper bunk, chose the note's wording, and used stored character forms in a new order to write it in the writer's hand."
+        ],
+        "epitaph": "She copied every line exactly. The only line she could not revise was the one no one had written.",
+        "epithet": "The Thought She Could Not Correct",
+        "execution": [
+          "A heavy steel bar spans a long steel table just above its surface. She is strapped face up on the table. The bar moves from her feet toward her head, crushing every part of her body that rises above the surface. Her legs, pelvis, and ribs break against the steel. The bar crushes her skull, killing her."
+        ],
+        "magic": {
+          "name": "Exact Script",
+          "text": "She can reproduce another person's handwriting exactly."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

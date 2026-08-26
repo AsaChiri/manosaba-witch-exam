@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Watcher",
+  "copingSub": "WT-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Watcher",
+  "tag": "ED-1_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} often read a breakfast companion's smallest reactions and offered food trades before the companion asked. The companion accepted, asked how she had noticed, and listened to her observations; a third girl sometimes joined them. One morning, the companion took the usual trade but spent the meal looking at and talking to the third girl without turning toward the person who had offered it.",
+          "That afternoon, the companion announced plans to pick flowers in the flower field, alone if necessary. The third girl wanted the last open spot in a pool game, but said concern for the companion would make the third girl keep a promise to go along.",
+          "{WITCH_NAME} heard both statements. The third girl's concern for the companion appeared to her as a visible thread between them, and she selected that one thread. Where the third girl could see, she trimmed a loose thread from her cuff with small sewing scissors, then walked between the pair while still holding them. One blade of the scissors passed through the selected thread and erased the concern from the third girl. The third girl abruptly said the promise no longer mattered and joined the pool game. The companion went to the flower field alone.",
+          "Another prisoner later found the companion dead there. One continuous set of bruises from two hands surrounded the crushed throat. Three small triangular pressure marks crossed the deepest bruise; their shape and spacing matched the raised clasps on {WITCH_NAME}'s distinctive cuff. One clasp was freshly missing, and the missing clasp lay inside the dead girl's collar below the marks.",
+          "{WITCH_NAME} admitted following the companion to apologize, but said the companion had attacked first. She claimed that she had only gripped the companion's throat to push the companion away and had left while the companion was still breathing. She denied using magic.",
+          "The third girl remembered losing all concern for the companion at the exact moment {WITCH_NAME} passed between them with the scissors. The promise remained in memory, but the feeling that had sustained it was gone. The exact timing showed that the witch had cut the thread to send the companion away alone.",
+          "The triangular impressions lay within the deepest span of the uninterrupted throat bruising, and the newly missing clasp matched them. This showed that {WITCH_NAME}'s cuff remained pressed to the companion's throat during the fatal compression; together with her deliberate isolation of the companion, it ruled out a brief defensive push."
+        ],
+        "epitaph": "To the very end, not one pair of eyes opened for her.",
+        "epithet": "The Eyes That Never Turned",
+        "execution": [
+          "An enormous iron face rises from the execution stand directly before her. Its eyelids remain shut while she watches for a change. Without opening its eyes or shifting its expression, the face lunges.",
+          "Its jaws close around her chest and upper arms, pinning both arms to her sides and lifting her from the stand. The jaws keep closing. Her ribs break inward, her chest collapses, and she dies unable to breathe."
+        ],
+        "magic": {
+          "name": "Heartstring Severance",
+          "text": "She can cut away a feeling one person holds for another."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

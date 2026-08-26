@@ -1,0 +1,33 @@
+{
+  "cell": "FAI|Fantasist (ELEVATE stance)",
+  "copingSub": "FA-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Fantasist (ELEVATE stance)",
+  "tag": "FAI-3_FA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Before prison, {WITCH_NAME} and another girl competed for the only place in an illustration apprenticeship. Their entrance exercise was a single drawing from the same model. One wrong proportion cost {WITCH_NAME} the place; the other girl's drawing passed.",
+          "In prison, the old rival still sketches with her during free time. The rival enjoys teaching, and {WITCH_NAME} treats every lesson as preparation for the recognition she still expects. When a third prisoner asks the rival for a small portrait for her cell, {WITCH_NAME} makes a competing portrait without being asked. The requester chooses the rival's work and hands {WITCH_NAME}'s portrait back. {WITCH_NAME} tells both girls that tomorrow will be her day and they will finally understand her, then names that date for her magic.",
+          "The next day, {WITCH_NAME} copies the rival's handwriting from captions in their shared sketch pages and writes a brief false suicide note. She asks the rival to advise her on a perspective drawing of the courtyard from the second-floor railing. The familiar request brings the rival to the rail, where she leans over to inspect the view. With Flawless Day, one shove within {WITCH_NAME}'s normal strength sends the rival headfirst onto a courtyard path exactly as intended. The rival catches {WITCH_NAME}'s sleeve during the shove. A narrow strip tears from the witch's distinctive prison uniform and stays wound around the rival's fingers. {WITCH_NAME} places the false note in the rival's sketchbook beside the railing and leaves.",
+          "Another prisoner finds the body below and the sketchbook above. At first, the scene looks like a jump after a written farewell.",
+          "A prisoner compares the note with the captions in the dead girl's sketch pages. When the dead girl wrote the same character more than once, the forms naturally varied, but every repetition in the note copies one sample down to the same small angles and spacing. The note is a physical copy, not the dead girl's natural writing. The prisoner who requested the portrait recalls what she announced the previous day and when, tying the false note to Flawless Day. The strip in the dead girl's hand fits a fresh gap and torn edge in {WITCH_NAME}'s distinctive sleeve, proving forceful contact at the railing. The forged note rules out innocent earlier contact. Together, the false cover and the cloth prove that {WITCH_NAME} pushed the girl."
+        ],
+        "epitaph": "Tomorrow stayed on the other side.",
+        "epithet": "The Prologue That Never Ended",
+        "execution": [
+          "Two monumental doors rise on either side of her. A rigid belt across her waist holds her upright in their threshold. The doors open onto a bright passage, but the belt keeps her from crossing it.",
+          "The doors close from both sides. Their inner edges clamp her shoulders and chest while the belt keeps her centered. They press on until her ribs break, her chest collapses, and the crushing stops her breathing and circulation."
+        ],
+        "magic": {
+          "name": "Flawless Day",
+          "text": "She can make every physical action on a chosen day achieve its intended result."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

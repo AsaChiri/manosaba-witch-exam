@@ -1,0 +1,34 @@
+{
+  "cell": "ABN|Watcher",
+  "copingSub": "WT-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Watcher",
+  "tag": "ABN-1_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} often took afternoon walks from the prison to the lake with the same companion. Whenever the companion slowed down, lost focus, or wanted to turn back, {WITCH_NAME} noticed and suggested a rest or return before being asked. The companion appreciated her attentiveness and kept choosing her for the walks. Recently, a third girl had begun spending more time with the companion at meals.",
+          "One morning at breakfast, the companion repeatedly glanced at the third girl, left the usual seat beside {WITCH_NAME}, and sat next to the third girl. The companion said that all future walks had been promised to the third girl, then proposed one last walk to the lake together that afternoon.",
+          "At the lake, the companion said that after finishing the current chapter, the companion would return to the prison alone while the other two stayed longer. Before the chapter was finished, {WITCH_NAME} fixed her gaze on the companion. Her magic worked only on a living person held in her gaze. It could only advance the timing of a voluntary action the target had already formed but not begun; it could not choose or alter the action. The companion closed the book, stood, and started back without explaining the early departure. The third girl saw {WITCH_NAME} keep watching as the companion entered the forest.",
+          "Just before a crossbow fired among the trees, {WITCH_NAME} flinched and turned toward the forest. {WITCH_NAME} and the third girl found the companion dead on the return path with a bolt in the back. The hidden crossbow and the cord attached to its trigger remained between the trees.",
+          "{WITCH_NAME} claimed that the companion had chosen to leave early, that she knew nothing about the crossbow, and that its sound had made her turn.",
+          "The companion had already decided to return after finishing the chapter. The third girl's account showed that {WITCH_NAME} had advanced the departure and had known the trap would fire before it made a sound. She had prepared the crossbow, sent the companion alone through its line of fire at the chosen moment, and killed the companion."
+        ],
+        "epitaph": "By the time her goodbye arrived, the footsteps were gone.",
+        "epithet": "The Goodbye She Saw Coming",
+        "execution": [
+          "An enormous iron travel case lies open. She is strapped flat inside its lower half, facing the raised lid. The lid begins to close slowly, and she watches its entire descent.",
+          "It presses against the front of her body and keeps closing. Her ribs break against the bottom of the case. Her chest collapses under the pressure until she suffocates and dies."
+        ],
+        "magic": {
+          "name": "Action Advance",
+          "text": "She can make a person perform their next intended action immediately."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

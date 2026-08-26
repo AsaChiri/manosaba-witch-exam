@@ -1,0 +1,33 @@
+{
+  "cell": "FAI|Resigned",
+  "copingSub": "RS-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Resigned",
+  "tag": "FAI-1_RS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} played pool with the same girl in the recreation room most afternoons. Wanting her to keep coming back, the girl sometimes missed an easy final shot on purpose during a close game. The other girls praised her winning record, and she never admitted that several of those wins had been given to her.",
+          "When the others began mocking the player for never beating her, the player promised to admit at dinner that the close games had been deliberately thrown. Without her knowledge, the player also messaged a friend that the two of them were alone for one last game before the false record was revealed at dinner.",
+          "During the game, {WITCH_NAME} knocked an object ball off the table toward the stone wall beyond a corner pocket, then asked the player to retrieve it. The player crouched by the wall with her back to the table.",
+          "Moments later, {WITCH_NAME} called for help. She claimed that she had accidentally struck the cue ball while the player was still crouching and had not meant to send it off the table. The player was dead by the wall. The first ball lay beside one hand, and the cue ball rested by the player's head. A round impact mark covered the back of the player's skull, and the player's forehead had shattered against the stone.",
+          "At table height, the cue ball had passed straight through the open corner pocket, where an ordinary ball would have dropped. The message's timestamp placed the pair alone and showed that the planned disclosure predated the death. The two balls and the body's position showed that the first ball had drawn the player to the wall. While placing the cue ball, {WITCH_NAME} had deliberately touched it so Course Lock would mark its next movement, then aimed through the opening and struck it at the crouching player. When the ball began moving, its direction and speed locked and held through the pocket until it struck the player and drove her head into the wall. The deliberate mark and exact path ruled out her claim of an accidental shot."
+        ],
+        "epitaph": "She followed every course that promised a win and never learned which way was hers.",
+        "epithet": "The Borrowed Winning Streak",
+        "execution": [
+          "An enormous iron stake hangs over the execution stand. She is strapped flat beneath it, with its point aimed at the center of her chest.",
+          "The machine drives the stake through her chest and into the stand, pinning her in place. The descending iron splits her ribs and crushes her heart, pressing down until her chest is fixed to the stand and she is dead."
+        ],
+        "magic": {
+          "name": "Course Lock",
+          "text": "She can lock an object's movement to its initial direction and speed."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

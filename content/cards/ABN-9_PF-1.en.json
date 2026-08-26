@@ -1,0 +1,32 @@
+{
+  "cell": "ABN|Perfectionist",
+  "copingSub": "PF-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-9",
+  "style": "Perfectionist",
+  "tag": "ABN-9_PF-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During evening free time, a girl in the solo cell often asked {WITCH_NAME} to give mending lessons and inspect each finished seam. The student got sturdy repairs; {WITCH_NAME} reserved the final inspection for herself, unpicking and resewing any uneven stitch. A prisoner in the opposite cell sometimes joined them. {WITCH_NAME} had told both girls that a doorway she crossed while open would admit her again while closed.",
+          "One evening, as {WITCH_NAME} started unpicking a short seam, the student warned that changing one more stitch would end her visits. {WITCH_NAME} found one uneven stitch, resewed it anyway, and was ordered out. The opposite-cell girl saw the student take back the garment and shut the barred door after {WITCH_NAME} left.",
+          "At 22:00, guards locked the cells. Alone inside, the student told the opposite-cell girl she expected the expelled visitor to cross the closed door. To prove it had not opened normally, she tied a hair-thin dark thread between a door bar and the latch-side frame, pressed it into the closed seam, and showed the witness both attachment points. Opening the door would pull them apart and snap the thread; passing through the center while the door stayed still would not. The witness spoke with her after placement.",
+          "When the guards came for the routine morning opening, the witness watched from her opposite cell. The guard's first pull drew the hidden thread out and snapped it between the two attachment points she had seen. Inside was only the strangled girl. {WITCH_NAME} claimed she had returned to her own cell before lock and never left.",
+          "The witness had spoken to the girl after lock, so the death occurred during the sealed interval. Manual strangling required another person, yet no intruder could hide until morning and then leave without opening the sealed door. The seal had been set after lock without {WITCH_NAME}'s knowledge and recessed away from her route through the door. Her repeated visits through the solo cell's open door and her ordinary passage through her own open cell door made both eligible for Door Memory; her correction had just cost her future access. Only she could pass through the closed door of her own cell, enter through the sealed door, strangle the girl, and return without moving either door or breaking the thread."
+        ],
+        "epitaph": "The seam stayed flawless; the welcome beyond the door split open.",
+        "epithet": "A Revocable Welcome",
+        "execution": [
+          "A giant powered seam-ripper blade rises before her as the apparatus holds her upright inside a fitted cloth covering. Its forked tip starts beneath a straight seam at her lower abdomen, then drives upward in one continuous stroke. It opens the flawless stitches and continues through clothing and flesh, splitting the abdominal wall and chest before severing her throat. Fatal blood loss and the destroyed airway kill her, but the blade keeps cutting to the seam's top."
+        ],
+        "magic": {
+          "name": "Door Memory",
+          "text": "She can pass through a door she previously walked through."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

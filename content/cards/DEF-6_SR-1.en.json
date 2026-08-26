@@ -1,0 +1,34 @@
+{
+  "cell": "DEF|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Self-Reliant",
+  "tag": "DEF-6_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, {WITCH_NAME} played pool with the same girl. Her partner kept score while she racked the balls, retrieved every stray ball, and put all the equipment away by herself.",
+          "One night, a ball rolled away from the table. Her partner bent down to return it, but {WITCH_NAME} caught the girl's wrist before her hand reached the ball. She held on until a bruise formed. Her partner ended the game, said the reaction was wrong but could not explain why, and said she would show the bruise to the warden the next morning.",
+          "Earlier executions had left each of them alone in a different assigned cell. At ten o'clock, guards locked both barred doors from the corridor. Once the patrol had passed, {WITCH_NAME} took one step through her own barred door and emerged in the corridor. She crossed the corridor and used the same step to pass through her partner's door.",
+          "{WITCH_NAME}'s partner was lying on the bunk. {WITCH_NAME} pressed a pillow over the girl's nose and mouth and leaned her weight into it. During the struggle, the girl scraped her nails across the inside seam of her attacker's cuff and tore out several fibers. {WITCH_NAME} kept pressing until the girl stopped breathing. Then she replaced the pillow beneath the girl's head, crossed both doors again, and waited in her locked cell for morning without noticing the fibers beneath the girl's nails.",
+          "The guards found the girl dead on her bunk. Bruising inside her lips and around her nose showed that someone had smothered her for a sustained period. Both cell-door locks were intact.",
+          "A timestamped message on another prisoner's phone proved that the girl had still been alive after both cells were locked. After {WITCH_NAME}'s cell was locked, that prisoner had also seen {WITCH_NAME} grip the bars and confirmed that the inside seam of {WITCH_NAME}'s cuff was intact. The fibers beneath the dead girl's nails matched the distinctive color and weave of the suspect's assigned clothes, and their torn ends fit a fresh gap in that seam. The fibers were therefore pulled out after lockdown. No one could have entered either cell normally without opening or damaging a door. With both locks untouched, only she could have passed through both cell doors using the Wall-Passage and come into contact with the girl."
+        ],
+        "epitaph": "She never placed her burden in another's hands; in the end, no hand knew how to hold her gently.",
+        "epithet": "The Flaw Without a Name",
+        "execution": [
+          "An enormous articulated hand rises open from the execution stand with her standing on its palm. Its fingers close around her waist and chest, pinning her arms to her sides, and lift her clear of the stand.",
+          "The fingers tighten across her ribs while the thumb drives through her sternum. Her ribs collapse, her chest can no longer expand, and her breathing and heartbeat stop. The hand opens and drops her broken body onto the stand."
+        ],
+        "magic": {
+          "name": "the Wall-Passage",
+          "text": "She can pass through a closed door or wall."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

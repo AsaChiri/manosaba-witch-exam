@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Detacher",
+  "copingSub": "DT-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Detacher",
+  "tag": "ED-1_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For weeks, a girl practiced pool in the recreation room during afternoon free time and asked {WITCH_NAME} to keep score. The player gained a patient scorekeeper; {WITCH_NAME} gained a regular place beside the table and the player's running conversation.",
+          "One afternoon, a newcomer joined them. {WITCH_NAME} admitted that a nightmare had frightened her and asked the player to sit with her before lockup. Still studying the newcomer's next shot, the player called it only a dream and handed {WITCH_NAME} the score sheet. {WITCH_NAME} said it was nothing. Without turning, the player replied, “That's good.”",
+          "That evening, the player returned to her solo cell and sat on the lower bunk. {WITCH_NAME} followed and asked to finish their conversation, and the player let her in. At the end of the bunks, {WITCH_NAME} pressed one bare palm to the hand-wide load-bearing stone where the upper bunk met the wall. The stone vanished at once. The unsupported end of the upper stone bunk broke free and crushed the player's head and chest, leaving her without breath or a pulse.",
+          "As {WITCH_NAME} left, a girl at the far end of the basement corridor saw her emerge from the cell. {WITCH_NAME} did not see the observer. The observer then entered her own cell, leaving an unwatched interval before lockup when someone else could have visited.",
+          "After the cells opened the next morning, another girl looked inside and cried out. The fallen upper bunk lay across the body. Its impact had scattered rough chips and dust, but a smooth hand-wide gap marked the wall joint, with no matching piece among the debris.",
+          "{WITCH_NAME} claimed the player had been alive when she left: the old bunk might have failed later, or another visitor might have entered. The prisoners found that ordinary breakage explained the rough debris, but not the smooth, fragmentless gap. Together, the fragmentless gap and the sighting she never knew about exposed her account as a lie."
+        ],
+        "epitaph": "She kept making herself smaller so no one had to look. In the end, no one did.",
+        "epithet": "The Call They Passed Over",
+        "execution": [
+          "An upright iron rack clamps iron bands around her wrists and ankles, holding her palms open and turned away from the rack. It pulls her wrists upward and her ankles downward without stopping. Her shoulders and hips dislocate; then the strain tears her spine and major blood vessels. The bands keep her limbs fixed as her torso stretches, until blood loss and spinal damage stop her breathing and heartbeat."
+        ],
+        "magic": {
+          "name": "Matter Erasure",
+          "text": "She can erase part of a nonliving solid."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

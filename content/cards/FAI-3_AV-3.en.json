@@ -1,0 +1,36 @@
+{
+  "cell": "FAI|Avoider",
+  "copingSub": "AV-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Avoider",
+  "tag": "FAI-3_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Before prison, {WITCH_NAME} and another girl trained on the same relay team. In a qualifying heat that decided an athletic scholarship, {WITCH_NAME} froze after the starting signal and missed the cutoff. Her teammate qualified.",
+          "In prison, the teammate began an untimed lap around the courtyard most mornings. {WITCH_NAME} waited until the teammate was moving before joining her. They ran together, ate breakfast together, and never recorded a time.",
+          "During one morning lap, the teammate said {WITCH_NAME} had asked a friend who knew nothing about the old heat to time a short sprint during evening free time. If she refused to run, the teammate would tell that friend the exact time recorded for her failed heat.",
+          "{WITCH_NAME} agreed and asked the teammate to walk with her to the lake before the sprint. The teammate sat on damp ground beside the lake and, without her noticing, sent the friend a local chat message asking her to bring her phone timer there.",
+          "{WITCH_NAME} rested a hand on the seated teammate's shoulder as if ending the argument, then said they should go back.",
+          "The friend came because of the message and saw her leave the open area beside the lake. From that moment until the friend reached the body, she had an uninterrupted view and saw no one else enter or leave.",
+          "Paired finger and thumb bruises circled the dead girl's throat. Two deep, unsmeared palm impressions lay beside her, and both palms held matching traces of damp soil. There were no other handprints and no restraint injuries on her wrists or forearms.",
+          "The time-stamped message proved that the teammate had been alive with her moments earlier, and the friend's uninterrupted view ruled out a later attacker. The bruises required both of the killer's hands, yet the palm impressions and soil showed that both of the dead girl's hands had stayed planted without restraints. The evidence showed that she had marked the teammate during the shoulder touch while the girl sat motionless. When the teammate planted both palms and began to rise, the First-Move Lock stopped her at the first instant, conscious and breathing but unable to move farther. She then strangled the teammate with both hands, held on until death, released the lock, and left. The friend's unbroken view disproved her claim that the teammate had still been alive when she left."
+        ],
+        "epitaph": "She called every failed beginning an ending; the world began again without asking.",
+        "epithet": "No Second Start",
+        "execution": [
+          "An enormous starting bell is suspended with her inside it. Her torso and arms are strapped along its long clapper, with her face toward the inner wall. A machine swings the clapper without any movement from her. At the first toll, her body strikes the bell, rebounds, and is driven into the opposite side.",
+          "The clapper swings faster. The inner wall batters her skull, shoulders, ribs, and back on alternating passes while the straps keep her fixed to the moving clapper. Repeated impacts crush her chest and skull. One final swing pins her broken body against the bell until she dies."
+        ],
+        "magic": {
+          "name": "the First-Move Lock",
+          "text": "She can stop a person's next voluntary movement as it begins."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

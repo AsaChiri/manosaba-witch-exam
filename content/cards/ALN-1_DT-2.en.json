@@ -1,0 +1,36 @@
+{
+  "cell": "ALN|Detacher",
+  "copingSub": "DT-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Detacher",
+  "tag": "ALN-1_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} and another girl often traded the parts of their meals they did not want, so both could get food they preferred.",
+          "One evening at supper, her partner caught another tablemate's eye and slid a dish toward the tablemate. The tablemate silently pushed a different dish back. Following her usual routine with her partner, {WITCH_NAME} reached for the first dish. Her partner pulled it away and explained that it was meant for the other girl, not her. The two finished their exchange without another word. {WITCH_NAME} called her mistake a minor misunderstanding.",
+          "Later, during evening free time, her partner sat on a lounge sofa facing the fireplace. Another girl lay on a separate sofa with her back turned and her eyes closed. {WITCH_NAME} entered and believed the reclining girl was asleep.",
+          "The reclining girl was awake and heard a greeting from the seated girl, followed by an answer from {WITCH_NAME}. A soft impact came next, but the crossbow string made no sound. When the door opened again, the reclining girl looked up in time to see the witch enter the hall, then found the seated girl dead on the sofa.",
+          "The body bore a crossbow-bolt wound at the base of the skull. The lounge crossbow was back on the wall. A thread wedged beneath a frayed strand of its string matched the threads newly torn from {WITCH_NAME}'s distinctive cuff.",
+          "The reclining girl had been awake throughout, confining the fatal shot to {WITCH_NAME}'s visit and making the missing release an anomaly. The wound and caught thread showed that the wall crossbow had fired while the witch's cuff was beside its moving string. An ordinary shooter would have produced a release. Her magic could suppress it only while she held the crossbow; once she let go, its sound returned, so no one could pick it up later and find it still silent.",
+          "Together, the interval, missing release, and thread proved that {WITCH_NAME} used her grip to silence the crossbow and fired from behind into the base of the seated girl's skull. Silencing the weapon did not reduce the bolt's force. The shot killed the girl immediately; the witch returned the crossbow to the wall and left."
+        ],
+        "epitaph": "Each absence was too small to count. Together, they left no one beside her.",
+        "epithet": "The Gap She Called Nothing",
+        "execution": [
+          "A broad iron band locks around her chest and holds her upright. A toothed wheel at its side turns by one notch.",
+          "The band tightens by an amount almost too small to see and presses deeper into her ribs. The wheel keeps advancing, one notch at a time.",
+          "The accumulated pressure breaks her ribs inward. Her lungs collapse, and she dies."
+        ],
+        "magic": {
+          "name": "Mute Touch",
+          "text": "She can silence an object."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

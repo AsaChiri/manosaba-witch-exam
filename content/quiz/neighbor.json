@@ -63,6 +63,14 @@
       "ABN-1|DT-2": 0
     }
   },
+  "ABN|Doomer": {
+    "table": {
+      "ABN-1|DM-2": "ABN-1_DM-2"
+    },
+    "tiers": {
+      "ABN-1|DM-2": 0
+    }
+  },
   "ABN|Fantasist": {
     "table": {
       "ABN-1|FA-1": "ABN-1_FA-3",
@@ -75,6 +83,14 @@
       "ABN-1|FA-3": 0,
       "ABN-3|FA-1": 0,
       "ABN-3|FA-3": 1
+    }
+  },
+  "ABN|Perfectionist": {
+    "table": {
+      "ABN-9|PF-1": "ABN-9_PF-1"
+    },
+    "tiers": {
+      "ABN-9|PF-1": 0
     }
   },
   "ABN|Pleaser": {
@@ -91,6 +107,14 @@
     },
     "tiers": {
       "ABN-1|RS-3": 0
+    }
+  },
+  "ABN|Ritualist (CONTROL stance)": {
+    "table": {
+      "ABN-4|RI-1": "ABN-4_RI-1"
+    },
+    "tiers": {
+      "ABN-4|RI-1": 0
     }
   },
   "ABN|Ruminator": {
@@ -117,6 +141,14 @@
     },
     "tiers": {
       "ABN-1|ST-2": 0
+    }
+  },
+  "ABN|Watcher": {
+    "table": {
+      "ABN-1|WT-2": "ABN-1_WT-2"
+    },
+    "tiers": {
+      "ABN-1|WT-2": 0
     }
   },
   "ALN|Avoider": {
@@ -153,6 +185,14 @@
       "ALN-11|CO-1": 0
     }
   },
+  "ALN|Detacher": {
+    "table": {
+      "ALN-1|DT-2": "ALN-1_DT-2"
+    },
+    "tiers": {
+      "ALN-1|DT-2": 0
+    }
+  },
   "ALN|Doomer": {
     "table": {
       "ALN-1|DM-3": "ALN-1_DM-3"
@@ -167,6 +207,14 @@
     },
     "tiers": {
       "ALN-10|FA-2": 0
+    }
+  },
+  "ALN|Perfectionist": {
+    "table": {
+      "ALN-2|PF-3": "ALN-2_PF-3"
+    },
+    "tiers": {
+      "ALN-2|PF-3": 0
     }
   },
   "ALN|Performer": {
@@ -215,6 +263,22 @@
     },
     "tiers": {
       "ALN-1|SR-1": 0
+    }
+  },
+  "ALN|Sovereign": {
+    "table": {
+      "ALN-1|SV-1": "ALN-1_SV-1"
+    },
+    "tiers": {
+      "ALN-1|SV-1": 0
+    }
+  },
+  "ALN|Striker": {
+    "table": {
+      "ALN-1|ST-2": "ALN-1_ST-2"
+    },
+    "tiers": {
+      "ALN-1|ST-2": 0
     }
   },
   "ALN|Wall-of-Anger": {
@@ -295,6 +359,30 @@
       "DEF-3|DT-3": 0
     }
   },
+  "DEF|Fantasist": {
+    "table": {
+      "DEF-3|FA-4": "DEF-3_FA-4"
+    },
+    "tiers": {
+      "DEF-3|FA-4": 0
+    }
+  },
+  "DEF|Perfectionist": {
+    "table": {
+      "DEF-3|PF-1": "DEF-3_PF-1"
+    },
+    "tiers": {
+      "DEF-3|PF-1": 0
+    }
+  },
+  "DEF|Performer (ELEVATE stance)": {
+    "table": {
+      "DEF-3|P-2": "DEF-3_P-2"
+    },
+    "tiers": {
+      "DEF-3|P-2": 0
+    }
+  },
   "DEF|Resigned": {
     "table": {
       "DEF-3|RS-3": "DEF-3_RS-3"
@@ -319,6 +407,14 @@
     "tiers": {
       "DEF-3|SP-1": 0,
       "DEF-8|SP-1": 0
+    }
+  },
+  "DEF|Self-Reliant": {
+    "table": {
+      "DEF-6|SR-1": "DEF-6_SR-1"
+    },
+    "tiers": {
+      "DEF-6|SR-1": 0
     }
   },
   "DEF|Self-Soother": {
@@ -377,12 +473,36 @@
       "ED-4|AV-1": 0
     }
   },
+  "ED|Caretaker": {
+    "table": {
+      "ED-1|CT-1": "ED-1_CT-1"
+    },
+    "tiers": {
+      "ED-1|CT-1": 0
+    }
+  },
+  "ED|Clinger": {
+    "table": {
+      "ED-1|CL-2": "ED-1_CL-2"
+    },
+    "tiers": {
+      "ED-1|CL-2": 0
+    }
+  },
   "ED|Concealer": {
     "table": {
       "ED-1|CO-1": "ED-1_CO-1"
     },
     "tiers": {
       "ED-1|CO-1": 0
+    }
+  },
+  "ED|Detacher": {
+    "table": {
+      "ED-1|DT-2": "ED-1_DT-2"
+    },
+    "tiers": {
+      "ED-1|DT-2": 0
     }
   },
   "ED|Doomer": {
@@ -495,12 +615,28 @@
       "ED-1|WA-1": 0
     }
   },
+  "ED|Watcher": {
+    "table": {
+      "ED-1|WT-2": "ED-1_WT-2"
+    },
+    "tiers": {
+      "ED-1|WT-2": 0
+    }
+  },
   "FAI|Avenger": {
     "table": {
       "FAI-3|AG-1": "FAI-3_AG-1"
     },
     "tiers": {
       "FAI-3|AG-1": 0
+    }
+  },
+  "FAI|Avoider": {
+    "table": {
+      "FAI-3|AV-3": "FAI-3_AV-3"
+    },
+    "tiers": {
+      "FAI-3|AV-3": 0
     }
   },
   "FAI|Caretaker": {
@@ -519,6 +655,22 @@
       "FAI-1|CA-1": 0
     }
   },
+  "FAI|Depender": {
+    "table": {
+      "FAI-1|DP-2": "FAI-1_DP-2"
+    },
+    "tiers": {
+      "FAI-1|DP-2": 0
+    }
+  },
+  "FAI|Fantasist (ELEVATE stance)": {
+    "table": {
+      "FAI-3|FA-1": "FAI-3_FA-1"
+    },
+    "tiers": {
+      "FAI-3|FA-1": 0
+    }
+  },
   "FAI|Perfectionist": {
     "table": {
       "FAI-3|PF-2": "FAI-3_PF-2",
@@ -527,6 +679,14 @@
     "tiers": {
       "FAI-3|PF-2": 0,
       "FAI-5|PF-2": 0
+    }
+  },
+  "FAI|Resigned": {
+    "table": {
+      "FAI-1|RS-3": "FAI-1_RS-3"
+    },
+    "tiers": {
+      "FAI-1|RS-3": 0
     }
   },
   "FAI|Ritualist": {
@@ -593,6 +753,14 @@
       "MB-2|AV-2": 0
     }
   },
+  "MB|Catastrophizer": {
+    "table": {
+      "MB-2|CA-1": "MB-2_CA-1"
+    },
+    "tiers": {
+      "MB-2|CA-1": 0
+    }
+  },
   "MB|Clinger": {
     "table": {
       "MB-7|CL-1": "MB-7_CL-1"
@@ -603,9 +771,11 @@
   },
   "MB|Concealer": {
     "table": {
+      "MB-2|CO-2": "MB-2_CO-2",
       "MB-2|CO-5": "MB-2_CO-5"
     },
     "tiers": {
+      "MB-2|CO-2": 0,
       "MB-2|CO-5": 0
     }
   },
@@ -655,6 +825,22 @@
     },
     "tiers": {
       "MB-2|PL-2": 0
+    }
+  },
+  "MB|Ritualist": {
+    "table": {
+      "MB-2|RI-1": "MB-2_RI-1"
+    },
+    "tiers": {
+      "MB-2|RI-1": 0
+    }
+  },
+  "MB|Self-Reliant": {
+    "table": {
+      "MB-2|SR-1": "MB-2_SR-1"
+    },
+    "tiers": {
+      "MB-2|SR-1": 0
     }
   },
   "MB|Self-Soother": {
@@ -707,6 +893,14 @@
       "MB-10|WT-2": 0
     }
   },
+  "POW|Avoider": {
+    "table": {
+      "POW-2|AV-3": "POW-2_AV-3"
+    },
+    "tiers": {
+      "POW-2|AV-3": 0
+    }
+  },
   "POW|Caretaker": {
     "table": {
       "POW-2|CT-1": "POW-2_CT-1"
@@ -755,12 +949,28 @@
       "POW-2|PL-3": 0
     }
   },
+  "POW|Ritualist (CONTROL stance)": {
+    "table": {
+      "POW-2|RI-2": "POW-2_RI-2"
+    },
+    "tiers": {
+      "POW-2|RI-2": 0
+    }
+  },
   "POW|Ruminator": {
     "table": {
       "POW-2|RU-1": "POW-2_RU-1"
     },
     "tiers": {
       "POW-2|RU-1": 0
+    }
+  },
+  "POW|Self-Punisher": {
+    "table": {
+      "POW-2|SP-1": "POW-2_SP-1"
+    },
+    "tiers": {
+      "POW-2|SP-1": 0
     }
   },
   "POW|Self-Reliant": {
@@ -787,6 +997,14 @@
       "POW-2|TR-1": 0
     }
   },
+  "POW|Wall-of-Anger": {
+    "table": {
+      "POW-2|WA-1": "POW-2_WA-1"
+    },
+    "tiers": {
+      "POW-2|WA-1": 0
+    }
+  },
   "POW|Watcher": {
     "table": {
       "POW-2|WT-2": "POW-2_WT-2"
@@ -809,6 +1027,30 @@
     },
     "tiers": {
       "VC-1|CA-1": 0
+    }
+  },
+  "VC|Clinger": {
+    "table": {
+      "VC-1|CL-3": "VC-1_CL-3"
+    },
+    "tiers": {
+      "VC-1|CL-3": 0
+    }
+  },
+  "VC|Concealer": {
+    "table": {
+      "VC-1|CO-1": "VC-1_CO-1"
+    },
+    "tiers": {
+      "VC-1|CO-1": 0
+    }
+  },
+  "VC|Detacher": {
+    "table": {
+      "VC-2|DT-4": "VC-2_DT-4"
+    },
+    "tiers": {
+      "VC-2|DT-4": 0
     }
   },
   "VC|Doomer": {
@@ -873,6 +1115,14 @@
     },
     "tiers": {
       "VC-1|TS-3": 0
+    }
+  },
+  "VC|Wall-of-Anger": {
+    "table": {
+      "VC-4|WA-3": "VC-4_WA-3"
+    },
+    "tiers": {
+      "VC-4|WA-3": 0
     }
   },
   "VC|Watcher": {

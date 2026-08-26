@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Sovereign",
+  "copingSub": "SV-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Sovereign",
+  "tag": "ALN-1_SV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At dinner, {WITCH_NAME} took the head seat without asking, and the other girls made room. They began trading unwanted dishes with gestures. One girl slid a dish to a friend, received another in return, then reached around {WITCH_NAME} to pass a second dish to someone else. {WITCH_NAME} nudged one of her own dishes forward, but no one took it or responded.",
+          "During evening free time, {WITCH_NAME} followed that girl into the shower room and demanded to know why the girl had reached around {WITCH_NAME}. The girl said she had only been trading food and had not even noticed the offered dish. The soundproof door then closed behind them.",
+          "The next girl to enter found the body on the wet floor. At first, it looked like a fatal slip. Two deep, knee-shaped pressure marks covered the upper chest, with a crushed sternum and broken ribs beneath them. No fall could have caused those injuries. The bruises also preserved the broad checked weave from the fabric at the knees of a pair of trousers. The prisoners compared that pattern with the visibly distinct uniforms they were wearing. Only {WITCH_NAME}'s trousers used that fabric.",
+          "The paired knee marks and checked weave showed that {WITCH_NAME} had knelt on the girl's upper chest. Their impossible depth showed that she had increased her own weight. Once the soundproof door was shut, {WITCH_NAME} had shoved the girl onto her back, planted both knees on her chest, and made herself heavier until the girl's sternum and ribs broke and she could no longer breathe. {WITCH_NAME} then restored her weight to normal and left."
+        ],
+        "epitaph": "Everyone made room for her; no one ever moved closer.",
+        "epithet": "The Outsider at the Head",
+        "execution": [
+          "A thick iron collar locks around her neck and is pulled toward the floor. It drags her from standing onto both knees, then keeps drawing lower and tightening. The collar presses her neck down between her shoulders until her larynx breaks, her airway closes, and her breathing and pulse stop."
+        ],
+        "magic": {
+          "name": "Self-Weight Amplification",
+          "text": "She can increase her own weight."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

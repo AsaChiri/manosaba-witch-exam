@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Performer (ELEVATE stance)",
+  "copingSub": "P-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Performer (ELEVATE stance)",
+  "tag": "DEF-3_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Before prison, a sick classmate returned to school and received a warm welcome. For a moment, {WITCH_NAME} wished the girl had stayed sick so the attention would end. She never voiced the wish and still carried the classmate's bag.",
+          "In prison, {WITCH_NAME} turned similar cruel thoughts into short comic stories at dinner. One table companion loved the stories and laughed louder than anyone each night. Those laughs made {WITCH_NAME} less afraid of her own thoughts. Her companion lived alone in the solo cell and showed a chipped front tooth whenever she laughed.",
+          "At 5:50 one morning, the companion called {WITCH_NAME} from the solo cell. She demanded that {WITCH_NAME} deny the stories reflected her real thoughts and warned that, without an answer, she would tell everyone at breakfast what she believed.",
+          "{WITCH_NAME} waited until her roommate's steady breathing showed the roommate was asleep, then whispered into the phone. While the companion could still hear her voice, {WITCH_NAME} opened a doorway beside her bunk and entered the locked solo cell. The doorway worked in both directions and remained until she closed it. She closed both hands around the companion's throat. During the struggle, the companion bit her wrist, leaving a gap in the bite where the chipped tooth made no impression. {WITCH_NAME} strangled her to death, crossed back through the doorway, and closed it before the cell doors opened.",
+          "At six, a prisoner heading to breakfast saw the companion lying motionless through the solo cell's barred door. She went inside and found the body still warm. The phone still displayed the 5:50 call with {WITCH_NAME}, and blood remained on the dead girl's teeth. A fresh bite on {WITCH_NAME}'s wrist was still bleeding and bore the same gap.",
+          "The call proved the companion had been alive after the cells were locked, while the body's warmth placed her death shortly before they opened. The blood and distinctive fresh bite proved that {WITCH_NAME} had been with her during that interval. Because the companion had heard her live voice during the call, the prisoners concluded that {WITCH_NAME} had used Voice Door to enter and return."
+        ],
+        "epitaph": "The laughter faded. The thought did not.",
+        "epithet": "Condemned by a Passing Thought",
+        "execution": [
+          "A full iron mask seals over her face and clamps her jaw shut. Bellows in its cheeks keep air flowing while the mask speaks every cruel thought that crosses her mind in a flat voice. The court hears each thought without comic delivery, and no one laughs. When the mask finishes speaking, its voice and bellows stop together. It remains sealed as lack of air stops her breathing and heartbeat."
+        ],
+        "magic": {
+          "name": "Voice Door",
+          "text": "She can open a doorway from where she is to beside anyone hearing her live voice."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

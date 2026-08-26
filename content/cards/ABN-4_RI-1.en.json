@@ -1,0 +1,34 @@
+{
+  "cell": "ABN|Ritualist (CONTROL stance)",
+  "copingSub": "RI-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-4",
+  "style": "Ritualist (CONTROL stance)",
+  "tag": "ABN-4_RI-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Before prison, someone close to {WITCH_NAME} died during an ordinary absence: present one day and gone the next, without a goodbye. In prison, a friend often read thick hardbacks beside her in the lounge. Whenever her friend carried one elsewhere, she touched it, fixed its return place and time, then checked the book, place, and time. This kept her friend from blame for an overdue book and let her endure the separation.",
+          "Another prisoner had been stealing portions of other prisoners' meals. One morning, her friend caught the thief, took back the food, and said she would report the theft that afternoon. Later, her friend collapsed while reading on a lounge sofa. {WITCH_NAME} had not yet returned from the entrance hall when a guard carried her friend to the medical room, leaving the hardback behind.",
+          "{WITCH_NAME} laid the book flat on its cushion, touched it, and set its return for 15:00, the end of free time. The touch saved the book's exact position and orientation. No other object was set to return, and {WITCH_NAME} could cancel the book's return before 15:00. After checking the book, its resting place, and the time, she took it to her friend. From the lounge doorway, the thief watched those checks and saw the book enter the medical room.",
+          "Shortly before 15:00, the thief removed that cushion and set the lounge crossbow on the sofa. The thief loaded and cocked it, braced it so its trigger faced upward at the height where the book's lower cover had rested, and aimed it at the space before the sofa. The thief then told the recovering friend, “Your friend will return through the entrance hall at 15:00 and wants you there to welcome her.” Her friend waited in front of the sofa, facing the hall with the crossbow behind her.",
+          "At 15:00, the book vanished from her friend's hands. Because the space where it had been was empty, it reappeared there in the saved orientation, its lower cover resting on the trigger. The hardback's weight pressed it down. The crossbow fired a bolt into her friend's upper back and killed her.",
+          "Another prisoner entered and found the friend, the crossbow that had fired, and the returned book still on its trigger. The book lay at the saved position, the bolt path matched the wound, and {WITCH_NAME} admitted setting the 15:00 return. The prisoners concluded that Fixed-Place Return had supplied the fatal pressure. The loaded, aimed crossbow proved that someone else had arranged the killing, but the court still convicted the owner of the magic that fired it."
+        ],
+        "epitaph": "The book came home on time. Her goodbye never did.",
+        "epithet": "A Place Before Parting",
+        "execution": [
+          "THE LAST ALL-CLEAR is a tall transparent box marked with three white horizontal lines. It closes around her and holds her upright.",
+          "Sand pours continuously into the box, crossing each line without pausing. It packs around her ribs until its weight compresses her chest, then rises over her mouth and nose. The flow does not stop until her breathing and heartbeat do."
+        ],
+        "magic": {
+          "name": "Fixed-Place Return",
+          "text": "She can make an object return later to a position it occupied."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
