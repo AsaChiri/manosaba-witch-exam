@@ -5,7 +5,9 @@
  * hard-won workarounds intact:
  *  - html2canvas dynamic import, scale:2, forced 520px capture width,
  *    document.fonts.ready await, an `exporting` class that kills
- *    animations/shadows/backdrop-filter during capture;
+ *    animations/shadows/backdrop-filter during capture, and a style guard
+ *    keeping html2canvas's FontMetrics baseline probe inline (the global
+ *    img reset otherwise sinks every exported text run by the leading);
  *  - Web Share files+text fallback chain with AbortError silence, download
  *    fallback, clipboard execCommand fallback;
  *  - exact intent URL templates (X/Threads/Weibo/QQ/Facebook/Reddit/LINE);
@@ -218,6 +220,22 @@ export async function saveResultImage(
     }
   }
 
+  /*
+   * html2canvas paints each text run at `range-rect top + baseline`, where
+   * `baseline` is measured with a 1×1 baseline-aligned <img> probe appended
+   * to THIS document's body. The global `img { display: block }` reset knocks
+   * that probe onto its own line, so the measurement returns ascent + leading
+   * (line-height) instead of ascent — and every exported text run paints
+   * ~half a line too low. Pure prose shifts uniformly and looks fine, but the
+   * 魔法 mark's rule-and-diamond SVGs paint at true bounds, so the label
+   * visibly sank below its ornaments in the saved PNG. Pin the probe back to
+   * inline for the duration of the capture.
+   */
+  const probeFix = document.createElement('style')
+  probeFix.textContent =
+    "body > div > img[width='1'][height='1'] { display: inline !important; }"
+  document.head.appendChild(probeFix)
+
   const CAPTURE_WIDTH = 520
   const originalWidth = element.style.width
   const originalMaxWidth = element.style.maxWidth
@@ -279,6 +297,7 @@ export async function saveResultImage(
     document.body.removeChild(a)
     if (blob) setTimeout(() => URL.revokeObjectURL(href), 60_000)
   } finally {
+    probeFix.remove()
     element.classList.remove('exporting')
     element.style.width = originalWidth
     element.style.maxWidth = originalMaxWidth

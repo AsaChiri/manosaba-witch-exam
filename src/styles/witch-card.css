@@ -73,12 +73,13 @@
   text-indent: 0.42em;
   margin-top: 0.4rem;
 }
+/* The right-hand ornament is mirrored in its SVG geometry, NOT via a CSS
+ * scaleX(-1) on the <svg> — html2canvas serializes inline SVG with its
+ * computed style and a root-level flip is lost/mispainted in the export
+ * (same constraint as the fleuron note at the bottom of this file). */
 .witch-card__mark-orn {
   flex: none;
   opacity: 0.9;
-}
-.witch-card__mark-orn--flip {
-  transform: scaleX(-1);
 }
 .witch-card__epithet {
   font-family: var(--font-inscription);

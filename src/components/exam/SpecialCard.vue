@@ -54,7 +54,7 @@ const windowSvg = computed(() =>
       <span class="witch-card__magic-mark">
         <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
         {{ T('card.magicMark') }}
-        <svg class="witch-card__mark-orn witch-card__mark-orn--flip" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
+        <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M10 3.5 H46" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="3.8" y="1.4" width="4.2" height="4.2" transform="rotate(45 5.9 3.5)" fill="currentColor"/></svg>
       </span>
       <h2 class="character-card__magic-name">{{ character.magicName }}</h2>
       <div class="character-card__stages">
