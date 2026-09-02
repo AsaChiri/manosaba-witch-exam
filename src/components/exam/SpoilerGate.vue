@@ -100,20 +100,20 @@ const T = (k: string) => t(props.locale, k)
   width: 10px;
   height: 10px;
   transform: rotate(45deg);
-  border: 1px solid color-mix(in srgb, var(--exam-cyan) 60%, transparent);
+  border: 1px solid color-mix(in srgb, var(--exam-ember) 60%, transparent);
   transition: background 180ms, box-shadow 180ms;
 }
 .spoiler__opt:hover,
 .spoiler__opt:focus-visible {
-  border-color: color-mix(in srgb, var(--exam-cyan) 55%, transparent);
-  background: color-mix(in srgb, var(--exam-cyan) 8%, var(--velvet-raised));
+  border-color: color-mix(in srgb, var(--exam-ember) 55%, transparent);
+  background: color-mix(in srgb, var(--exam-ember) 8%, var(--velvet-raised));
   transform: translateX(3px);
-  box-shadow: -3px 0 0 0 var(--exam-cyan), 0 0 26px -6px color-mix(in srgb, var(--exam-cyan) 40%, transparent);
+  box-shadow: -3px 0 0 0 var(--exam-ember), 0 0 26px -6px color-mix(in srgb, var(--exam-ember) 40%, transparent);
   outline: none;
 }
 .spoiler__opt:hover .spoiler__opt-mark,
 .spoiler__opt:focus-visible .spoiler__opt-mark {
-  background: var(--exam-cyan);
-  box-shadow: 0 0 10px color-mix(in srgb, var(--exam-cyan) 70%, transparent);
+  background: var(--exam-ember);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--exam-ember) 70%, transparent);
 }
 </style>

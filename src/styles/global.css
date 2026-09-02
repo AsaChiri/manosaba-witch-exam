@@ -195,7 +195,7 @@ svg {
   background: color-mix(in srgb, var(--crimson) 45%, transparent);
 }
 ::selection {
-  background: color-mix(in srgb, var(--witch-violet) 40%, transparent);
+  background: color-mix(in srgb, var(--witch-red) 40%, transparent);
   color: #fff;
 }
 

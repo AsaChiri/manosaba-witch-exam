@@ -144,7 +144,7 @@ function charWindow(id: string): string {
   margin-top: 1.9rem;
   font-family: var(--font-instrument);
   letter-spacing: 0.08em;
-  color: var(--witch-violet);
+  color: var(--witch-red);
 }
 .collection__grid {
   list-style: none;
@@ -169,7 +169,7 @@ function charWindow(id: string): string {
 }
 .collection-tile:hover,
 .collection-tile:focus-visible {
-  border-color: color-mix(in srgb, var(--witch-violet) 45%, transparent);
+  border-color: color-mix(in srgb, var(--witch-red) 45%, transparent);
   transform: translateY(-2px);
 }
 .collection-tile__crest {
@@ -188,8 +188,8 @@ function charWindow(id: string): string {
   font-weight: 600;
   font-size: 1.05rem;
   line-height: 1.25;
-  color: var(--witch-violet);
-  text-shadow: 0 0 14px color-mix(in srgb, var(--witch-violet) 28%, transparent);
+  color: var(--witch-red);
+  text-shadow: 0 0 14px color-mix(in srgb, var(--witch-red) 28%, transparent);
 }
 .collection-tile__epithet {
   font-family: var(--font-body);
@@ -200,7 +200,7 @@ function charWindow(id: string): string {
 }
 
 /* Special character records (§3.7): the tile carries the character's theme
- * color — the one sanctioned exception to the violet archive. */
+ * color — the one sanctioned exception to the blood-red archive. */
 .collection__special-title {
   margin-top: 2.6rem;
   font-family: var(--font-instrument);

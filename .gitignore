@@ -8,6 +8,9 @@ dist/
 # generated OG images + SEO artifacts (rebuilt by `npm run gen:og`)
 public/og/
 scripts/.fonts-cache/
+# subset CJK font chunks (rebuilt by `npm run gen:fonts`; the generated
+# src/styles/fonts-*.css that references them IS committed)
+public/fonts/
 
 # environment
 .env

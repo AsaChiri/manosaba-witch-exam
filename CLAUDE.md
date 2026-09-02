@@ -71,7 +71,7 @@ Character records (design doc §3.7) ride the same loop: author `output/characte
 ## Hard rules
 
 - Determinism: no `Date.now`/`Math.random` in any resolution path; engine tests are the tripwire.
-- Color discipline: cyan = examination only, violet = verdict/card only, gold = seals/ornament, pink = the one CTA. Never mix glows on a screen except the verdict transition.
+- Color discipline (revised 2026-09-02, owner decision — the game's identity is red-and-black gothic): ember `--exam-ember` = examination instrument only, blood-red `--witch-red` = verdict/card only, gold = seals/ornament, pink = the one CTA. Never mix glows on a screen except the verdict transition (ember dying into red). The earlier cyan/violet scheme is retired; do not reintroduce it.
 - Safety text (18+, content notice, crisis links) stays plain-language and out-of-world — diegesis never dilutes it.
 - The card page share surface stays near-zero-JS; per-card content is data, never hardcoded.
 - Game assets are inspiration only (palette/motifs rebuilt as SVG/CSS); no ripped images shipped without an explicit owner decision (design doc §9).

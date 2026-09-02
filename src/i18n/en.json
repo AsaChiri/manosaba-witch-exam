@@ -18,7 +18,8 @@
     "title": "Witch Factor Examination",
     "hook": "The witch factor in you is still asleep.",
     "ctaBegin": "Begin the examination",
-    "ctaAside": "Adapts to you — usually 20 to 40 questions."
+    "promise": "When it wakes, your story on that island will already be written.",
+    "ctaAside": "About 22 questions, ten minutes or so."
   },
   "footer": {
     "disclaimer": "This site is a non-commercial fan work based on 魔法少女ノ魔女裁判 (Magical Girl · Witch Trial), unaffiliated with the original and its rights holders.",
@@ -67,6 +68,7 @@
     "caseNoLabel": "Case No.",
     "resonance": "Witch factor",
     "questionOrdinal": "Question {n}",
+    "questionOfTotal": "Question {n} of about {total}",
     "back": "Previous",
     "booting": "Calibrating instrument…",
     "retrieving": "Retrieving the record…",
@@ -80,7 +82,7 @@
       "skip": "Skip",
       "confirm": "Complete the examination"
     },
-    "chosenAsMost": "Chosen in the previous question",
+    "chosenAsMost": "Chosen as most like you",
     "spoiler": {
       "question": "One last question — the story that happened on that island: have you heard it through to the end?",
       "note": "(That is, having finished the main story of the original game, Magical Girl · Witch Trial. This does not affect your result; it only decides whether spoiler content may be shown.)",
@@ -124,8 +126,8 @@
     "reddit": "Share on Reddit",
     "line": "Share on LINE",
     "more": "More ways to share",
-    "template": "Witch factor detected. My magic: “{magic}.”",
-    "specialTemplate": "#まのさばネタバレ The same magic as {name}'s was detected in me: “{magic}.”",
+    "template": "Witch factor detected. My magic: “{magic}.” Is the witch factor in you still asleep?",
+    "specialTemplate": "#まのさばネタバレ The same magic as {name}'s was detected in me: “{magic}.” Is the witch factor in you still asleep?",
     "hint": "Take the examination: ",
     "qrCaption": "Scan to be examined",
     "exportTag": "Witch Factor Examination"

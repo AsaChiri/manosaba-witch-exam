@@ -10,9 +10,9 @@ import type { ContentPackage, HashSpec, PicksetsFile, NeighborFile } from "../sr
 // (spec §4.5): {(DEF-1,P-5), (DEF-7,P-2), (DEF-11,P-2)}. Picking (DEF-1,P-2)
 // is unauthored -> tier-1 origin match -> serves (DEF-1,P-5).
 const AUTHORED: AuthoredTag[] = [
-  { tag: "DEF-1xPE-5", origin: "DEF-1", coping: "P-5", manifestIndex: 0 },
-  { tag: "DEF-7xPE-2", origin: "DEF-7", coping: "P-2", manifestIndex: 1 },
-  { tag: "DEF-11xPE-2", origin: "DEF-11", coping: "P-2", manifestIndex: 2 },
+  { tag: "DEF-1xP-5", origin: "DEF-1", coping: "P-5", manifestIndex: 0 },
+  { tag: "DEF-7xP-2", origin: "DEF-7", coping: "P-2", manifestIndex: 1 },
+  { tag: "DEF-11xP-2", origin: "DEF-11", coping: "P-2", manifestIndex: 2 },
 ];
 
 function buildContent(): ContentPackage {
@@ -45,7 +45,7 @@ function buildContent(): ContentPackage {
     slots,
     sentinel: "X",
     fnv: { offset: 2166136261, prime: 16777619 },
-    variantCounts: { "DEF-1xPE-5": 2 },
+    variantCounts: { "DEF-1xP-5": 2 },
     permutation: {
       prng: "xorshift32",
       shuffle: "fisher-yates-descending",
@@ -82,7 +82,7 @@ const answerMap: Record<string, string> = {
 describe("session drives the v2 exam end-to-end", () => {
   const content = buildContent();
 
-  it("asks coping, then all 28 N-slots in order, then picks; resolves the served card", () => {
+  it("asks all 28 N-slots in order, then coping, then picks; resolves the served card", () => {
     const exam = createExam(content);
     const asked: string[] = [];
     let guard = 0;
@@ -100,11 +100,12 @@ describe("session drives the v2 exam end-to-end", () => {
       const id = `N${String(i).padStart(2, "0")}`;
       nOrder.push(`${id}M`, `${id}L`);
     }
+    // origin first (owner decision 2026-09-02), then the coping walk, then picks
     expect(asked).toEqual([
+      ...nOrder,
       "K.R1", "K.R2", "K.R3",
       "K.A1", "K.A2", "K.A3",
       "K.P10",
-      ...nOrder,
       "V.OPICK", "V.CPICK",
     ]);
 
@@ -118,7 +119,7 @@ describe("session drives the v2 exam end-to-end", () => {
     expect(r.cell).toEqual({ family: "DEF", style: "Performer" });
     expect(r.redirectedCell).toBeUndefined();
     expect(r.picks).toEqual({ o: "DEF-1", c: "P-2" });
-    expect(r.tag).toBe("DEF-1xPE-5"); // tier-1 origin-preserving fallback
+    expect(r.tag).toBe("DEF-1xP-5"); // tier-1 origin-preserving fallback
     expect(r.tier).toBe(1);
 
     // canonical 84-slot string: exactly the administered slots tokenized, the
@@ -133,10 +134,7 @@ describe("session drives the v2 exam end-to-end", () => {
 
   it("display-filters the M pick off the L screen (M≠L), unless M escaped", () => {
     const exam = createExam(content);
-    // answer coping up to N01M
-    for (const qid of ["K.R1", "K.R2", "K.R3", "K.A1", "K.A2", "K.A3", "K.P10"]) {
-      exam.answer(answerMap[qid]!);
-    }
+    // origin opens the exam: N01M is the first screen
     // N01M: escape offered alongside A-D
     let q = exam.current()!;
     expect(q.qid).toBe("N01M");
@@ -160,12 +158,12 @@ describe("session drives the v2 exam end-to-end", () => {
 
   it("progress + back behave", () => {
     const exam = createExam(content);
-    expect(exam.progress()).toEqual({ phase: "coping", answeredCount: 0 });
-    exam.answer("d"); // K.R1
+    expect(exam.progress()).toEqual({ phase: "origin", answeredCount: 0 });
+    exam.answer("A"); // N01M — origin opens the exam
     expect(exam.progress().answeredCount).toBe(1);
     expect(exam.canGoBack()).toBe(true);
     exam.back();
     expect(exam.progress().answeredCount).toBe(0);
-    expect(exam.current()!.qid).toBe("K.R1");
+    expect(exam.current()!.qid).toBe("N01M");
   });
 });

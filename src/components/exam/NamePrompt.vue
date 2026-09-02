@@ -72,7 +72,7 @@ function skip() {
   font-family: var(--font-instrument);
   letter-spacing: 0.26em;
   font-size: 0.78rem;
-  color: var(--exam-cyan);
+  color: var(--exam-ember);
   text-transform: uppercase;
 }
 .name__title {
@@ -92,7 +92,7 @@ function skip() {
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 1px solid color-mix(in srgb, var(--exam-cyan) 45%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--exam-ember) 45%, transparent);
   color: var(--bone);
   font-family: var(--font-inscription);
   font-size: clamp(1.4rem, 5vw, 1.9rem);
@@ -108,8 +108,8 @@ function skip() {
 }
 .name__input:focus {
   outline: none;
-  border-bottom-color: var(--exam-cyan);
-  box-shadow: 0 6px 18px -12px var(--exam-cyan);
+  border-bottom-color: var(--exam-ember);
+  box-shadow: 0 6px 18px -12px var(--exam-ember);
 }
 .name__meta {
   display: flex;

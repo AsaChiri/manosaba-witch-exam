@@ -15,9 +15,9 @@
   --crimson: #a12833; /* emphasis, warning, wax seal */
 
   /* ── Narrative glows (each owns exactly one phase) ── */
-  --witch-violet: #c42838; /* the witch factor itself (verdict + card) — blood-red */
-  --witch-violet-deep: #7a1828; /* blood shadows/gradients */
-  --exam-cyan: #e87848; /* examination instrumentation ONLY — ember/firelight */
+  --witch-red: #c42838; /* the witch factor itself (verdict + card) — blood-red */
+  --witch-red-deep: #7a1828; /* blood shadows/gradients */
+  --exam-ember: #e87848; /* examination instrumentation ONLY — ember/firelight */
 
   /* ── Text & seals ── */
   --bone: #e9dfcc; /* body text on dark */

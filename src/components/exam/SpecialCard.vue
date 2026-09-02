@@ -91,7 +91,7 @@ const windowSvg = computed(() =>
         </svg>
       </span>
       <p class="character-card__warden-text">{{ wardenLine }}</p>
-      <span class="character-card__warden-sig">——{{ T('result.specialCard.wardenTag') }}</span>
+      <span class="character-card__warden-sig"><span class="character-card__warden-dash" aria-hidden="true">——</span>{{ T('result.specialCard.wardenTag') }}</span>
     </aside>
 
     <section class="character-card__field" style="text-align:center">

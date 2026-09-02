@@ -23,6 +23,9 @@ import {
   clearProgress,
   getFinished,
   setFinished,
+  getCaseNo,
+  setCaseNo,
+  newCaseNo,
 } from '../../lib/storage'
 import { recordCollected, recordCharacter } from '../../lib/collection'
 import { examStart, questionAnswered, resultLanded } from '../../lib/beacon'
@@ -72,6 +75,13 @@ const progress = ref<ExamProgress | null>(null)
 const result = shallowRef<ExamResult | null>(null)
 // the spoiler gate's answer, mirrored from storage (design spec §3.7)
 const finished = ref(false)
+// the instrument's case number: drawn once per run, kept across reloads
+const caseNo = ref('')
+function ensureCaseNo(fresh = false): void {
+  const stored = fresh ? null : getCaseNo()
+  caseNo.value = stored ?? newCaseNo()
+  if (!stored) setCaseNo(caseNo.value)
+}
 
 /* ── /data/ asset state (design spec §5 delivery contract) ──
  * 'absent' = HTTP 404, a SEMANTIC outcome (no card exists at this tag), routed
@@ -108,6 +118,11 @@ function track<T>(
       target.value = { phase: 'error' }
     },
   )
+}
+
+/** Current phase of a fetch, read fresh (defeats stale control-flow narrowing). */
+function phaseOf<T>(target: ShallowRef<FetchPhase<T>>): FetchPhase<T> {
+  return target.value
 }
 
 /** Resolves when the fetch leaves 'pending' (immediately if it already has). */
@@ -168,6 +183,7 @@ function startPrefetch(s: ExamSession): void {
 function onConsent() {
   setConsent(true)
   examStart()
+  ensureCaseNo(true)
   const s = newSession()
   refresh()
   state.value = 'quiz'
@@ -326,7 +342,8 @@ async function onRetryFetch() {
     state.value = 'retrieving'
     await settled(charFetch)
     if (seq !== fetchSeq) return
-    const c = charFetch.value
+    // read through a call so TS drops the `!== 'hit'` narrowing from above
+    const c = phaseOf(charFetch)
     if (c.phase === 'hit') state.value = verdictPlayed.value ? 'result' : 'verdict'
     else if (c.phase === 'absent') await settleCard(r)
     else {
@@ -345,6 +362,7 @@ function onRetake() {
   charFetch.value = { phase: 'idle' }
   retrieveFailed.value = false
   verdictPlayed.value = false
+  ensureCaseNo(true)
   newSession()
   refresh()
   result.value = null
@@ -378,10 +396,8 @@ const despairLevel = computed(() => {
       return 0
     case 'consent':
       return 0.05
-    case 'quiz': {
-      const answered = progress.value?.answered ?? 0
-      return 0.1 + Math.min(answered / 35, 1) * 0.45
-    }
+    case 'quiz':
+      return 0.1 + Math.min(progress.value?.resonance ?? 0, 1) * 0.45
     case 'spoiler':
       return 0.6
     case 'name':
@@ -405,6 +421,7 @@ const despairStyle = computed(() => ({
 onMounted(() => {
   finished.value = getFinished() === 'yes'
   if (hasConsent()) {
+    ensureCaseNo()
     const s = newSession()
     const snap = loadProgress(props.contentHash)
     if (snap) s.restore(snap)
@@ -437,6 +454,7 @@ onMounted(() => {
       :locale="locale"
       :question="question"
       :progress="progress"
+      :case-no="caseNo"
       @answer="onAnswer"
       @back="onBack"
     />
@@ -521,7 +539,7 @@ onMounted(() => {
 }
 .exam-island__boot-text {
   font-family: var(--font-instrument);
-  color: var(--exam-cyan);
+  color: var(--exam-ember);
   letter-spacing: 0.16em;
   font-size: 0.95rem;
   opacity: 0.8;

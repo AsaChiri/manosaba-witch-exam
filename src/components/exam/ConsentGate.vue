@@ -20,26 +20,34 @@ const T = (k: string) => t(props.locale, k)
       <p class="gate__eyebrow">{{ T('gate.eyebrow') }}</p>
       <h1 class="gate__title">{{ T('gate.title') }}</h1>
 
+      <!-- Order (revised 2026-09-02): what you are consenting to first — the
+           age line + content list — then the fiction note, the pacing line,
+           the crisis line with its hotline list one tap away, storage, and
+           the fan disclaimer last, just above the decision. Every sentence
+           kept; the consent button lands inside ~1.5 phone screens. -->
       <div class="gate__body">
-        <p>{{ T('gate.fan') }}</p>
         <p class="gate__warn">{{ T('gate.age') }}</p>
         <p class="gate__note">{{ T('gate.fictional') }}</p>
         <p>{{ T('gate.content') }}</p>
 
         <div class="gate__crisis">
           <p>{{ T('gate.crisisIntro') }}</p>
-          <ul>
-            <li v-for="c in crisis" :key="c.region + c.name">
-              <span class="gate__region">{{ c.region }}</span>
-              <span class="gate__cline">
-                <span class="gate__cname">{{ c.name }}</span>
-                <span class="gate__cdetail">{{ c.detail }}</span>
-              </span>
-            </li>
-          </ul>
+          <details class="gate__crisis-list">
+            <summary>{{ T('gate.crisisLinksLabel') }}</summary>
+            <ul>
+              <li v-for="c in crisis" :key="c.region + c.name">
+                <span class="gate__region">{{ c.region }}</span>
+                <span class="gate__cline">
+                  <span class="gate__cname">{{ c.name }}</span>
+                  <span class="gate__cdetail">{{ c.detail }}</span>
+                </span>
+              </li>
+            </ul>
+          </details>
         </div>
 
         <p class="gate__storage">{{ T('gate.storage') }}</p>
+        <p class="gate__storage">{{ T('gate.fan') }}</p>
       </div>
 
       <div class="gate__actions">
@@ -108,10 +116,10 @@ const T = (k: string) => t(props.locale, k)
 .gate__body {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.85rem;
   font-family: var(--font-body);
   font-size: 1.02rem;
-  line-height: 1.75;
+  line-height: 1.7;
   color: var(--parchment-ink);
 }
 /* Formal content descriptor (game-disclaimer register): measured, not shouty. */
@@ -136,6 +144,24 @@ const T = (k: string) => t(props.locale, k)
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
+}
+/* the hotline list sits one tap away; its label stays visible and the same
+ * list is repeated in full on the result screen */
+.gate__crisis-list {
+  margin-top: 0.35rem;
+}
+.gate__crisis-list summary {
+  cursor: pointer;
+  font-family: var(--font-instrument);
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  color: #6d1520;
+  text-decoration: underline;
+  text-decoration-color: rgba(109, 21, 32, 0.4);
+  text-underline-offset: 0.2em;
+}
+.gate__crisis-list summary:hover {
+  color: #3a0a10;
 }
 /* region | name+number as a two-column grid: when the number can't fit beside
  * a long name (mobile), it wraps UNDER the name, still aligned to the name

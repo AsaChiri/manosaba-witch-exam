@@ -154,7 +154,7 @@ export async function copyText(text: string): Promise<boolean> {
  * html2canvas 1.4.1's color parser only knows hex/rgb()/hsl()/named colors: any
  * other function throws `unsupported color function`, aborting the capture. Our
  * palette leans on `color-mix(in srgb, …)` (tokens.css hairlines, the card's
- * frame rules and violet text), which Chrome *serializes in computed style* as
+ * frame rules and red text), which Chrome *serializes in computed style* as
  * `color(srgb r g b / a)` — so every capture died before ever reaching toBlob.
  * Fix: rewrite those computed values to rgba() on the cloned tree html2canvas
  * parses (via its `onclone` hook), leaving the live DOM untouched.

@@ -9,6 +9,40 @@ import type { ExamSnapshot } from './engine-api'
 const CONSENT_KEY = 'manosaba-exam-consent-v1'
 const PROGRESS_KEY = 'manosaba-exam-progress-v1'
 const FINISHED_KEY = 'manosaba-exam-finished-v1'
+const CASE_KEY = 'manosaba-exam-case-v1'
+
+/*
+ * The instrument's case number (「编号 No.732-B」) — flavour only, never part of
+ * resolution. Drawn once per run and kept for the run's lifetime so a reload
+ * mid-examination shows the same number; a retake draws a fresh one.
+ */
+export function getCaseNo(): string | null {
+  try {
+    return localStorage.getItem(CASE_KEY)
+  } catch {
+    return null
+  }
+}
+
+export function setCaseNo(caseNo: string): void {
+  try {
+    localStorage.setItem(CASE_KEY, caseNo)
+  } catch {
+    /* localStorage disabled — the in-memory value still serves this run */
+  }
+}
+
+export function newCaseNo(): string {
+  const buf = new Uint32Array(2)
+  if (typeof crypto !== 'undefined' && crypto.getRandomValues) crypto.getRandomValues(buf)
+  else {
+    buf[0] = Date.now() & 0xffffffff
+    buf[1] = (Date.now() >>> 8) & 0xffffffff
+  }
+  const num = 100 + ((buf[0] ?? 0) % 900)
+  const letter = 'ABCD'[(buf[1] ?? 0) % 4]
+  return `${num}-${letter}`
+}
 
 interface StoredProgress {
   version: 1

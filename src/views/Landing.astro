@@ -13,12 +13,18 @@ import Footer from '../components/Footer.astro'
 import LangSuggestBanner from '../components/LangSuggestBanner.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
+import { roseWindowSvg } from '../lib/rose-window'
 
 interface Props {
   locale: Locale
 }
 const { locale } = Astro.props
 const showLatin = locale !== 'en'
+/* A faint stained-glass halo behind the Seal — the same tracery engine that
+ * glazes the 13 special records, here in the witch red (tokens.css
+ * --witch-red, literal hex: the generator emits plain fills). Atmosphere
+ * only: no card content appears before the consent gate. */
+const halo = roseWindowSvg({ color: '#c42838', motif: 'leaf', magicName: t(locale, 'meta.siteName') })
 const seo = {
   routeKey: '/',
   title: t(locale, 'meta.siteName'),
@@ -35,10 +41,14 @@ const seo = {
     <section class="hero">
       <div class="hero__glass" aria-hidden="true"></div>
       <div class="hero__content">
-        <Seal size={92} stained glow class="hero__seal" title={t(locale, 'meta.siteName')} />
+        <div class="hero__crest">
+          <div class="hero__halo" aria-hidden="true" set:html={halo} />
+          <Seal size={92} stained glow class="hero__seal" title={t(locale, 'meta.siteName')} />
+        </div>
         <h1 class="hero__title inscription">{t(locale, 'landing.title')}</h1>
         {showLatin && <p class="hero__latin instrument">{t(locale, 'meta.latin')}</p>}
         <p class="hero__hook">{t(locale, 'landing.hook')}</p>
+        <p class="hero__promise">{t(locale, 'landing.promise')}</p>
         <div class="hero__cta">
           <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'landing.ctaBegin')} />
         </div>
@@ -87,9 +97,41 @@ const seo = {
     text-transform: uppercase;
     margin-bottom: 1.8rem;
   }
-  .hero__seal {
-    color: var(--verdict-gold);
+  .hero__crest {
+    position: relative;
+    display: grid;
+    place-items: center;
     margin-bottom: 1.4rem;
+  }
+  .hero__seal {
+    position: relative;
+    z-index: 1;
+    color: var(--verdict-gold);
+  }
+  /* the stained-glass halo: a slow-turning rose window at low opacity behind
+     the Seal — depth without a screenshot, no content before the gate */
+  .hero__halo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: clamp(260px, 62vw, 440px);
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    opacity: 0.17;
+    pointer-events: none;
+    animation: halo-turn 140s linear infinite;
+    -webkit-mask-image: radial-gradient(circle, #000 35%, transparent 72%);
+    mask-image: radial-gradient(circle, #000 35%, transparent 72%);
+  }
+  .hero__halo :global(svg) {
+    width: 100%;
+    height: 100%;
+  }
+  @keyframes halo-turn {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero__halo { animation: none; }
   }
   .hero__title {
     font-size: clamp(2.5rem, 8.5vw, 4.4rem);
@@ -126,8 +168,19 @@ const seo = {
     text-wrap: balance;
     line-break: strict;
   }
+  /* what the record will hold — the one promise line, still in register */
+  .hero__promise {
+    margin-top: 1rem;
+    font-family: var(--font-body);
+    font-size: clamp(0.95rem, 2.6vw, 1.05rem);
+    line-height: 1.7;
+    color: var(--bone-faint);
+    max-width: min(30em, 100%);
+    text-wrap: balance;
+    line-break: strict;
+  }
   .hero__cta {
-    margin-top: 2.6rem;
+    margin-top: 2.4rem;
   }
   .hero__aside {
     margin-top: 1.3rem;

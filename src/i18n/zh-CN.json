@@ -18,7 +18,8 @@
     "title": "魔女因子检测",
     "hook": "你体内的魔女因子，还在沉睡。",
     "ctaBegin": "接受检测",
-    "ctaAside": "题目数量因人而异，通常二十到四十问。"
+    "promise": "待它醒来，你在那座孤岛上的故事，便已写好。",
+    "ctaAside": "约二十二问，十分钟左右。"
   },
   "footer": {
     "disclaimer": "本站是『魔法少女ノ魔女裁判』的非商业同人作品，与原作及其权利方没有关联。",
@@ -77,6 +78,7 @@
     "caseNoLabel": "编号",
     "resonance": "魔女因子",
     "questionOrdinal": "第 {n} 问",
+    "questionOfTotal": "第 {n} 问 · 共约 {total} 问",
     "back": "上一问",
     "booting": "仪器校准中……",
     "retrieving": "档案调取中……",
@@ -90,7 +92,7 @@
       "skip": "略过",
       "confirm": "完成检测"
     },
-    "chosenAsMost": "已在上一问中选择",
+    "chosenAsMost": "已选为最像",
     "spoiler": {
       "question": "最后一问——那座孤岛上发生过的故事，你可曾听闻至结局？",
       "note": "（指已通关原作『魔法少女ノ魔女裁判』本篇。此问不影响检测结果，仅用于判断能否展示涉及剧透的内容。）",
@@ -134,8 +136,8 @@
     "reddit": "分享到 Reddit",
     "line": "分享到 LINE",
     "more": "更多分享方式",
-    "template": "魔女因子已检出，我的魔法是「{magic}」",
-    "specialTemplate": "#まのさばネタバレ 我检出了与『{name}』相同的魔法——「{magic}」",
+    "template": "魔女因子已检出，我的魔法是「{magic}」。你体内的魔女因子，还在沉睡吗？",
+    "specialTemplate": "#まのさばネタバレ 我检出了与『{name}』相同的魔法——「{magic}」。你体内的魔女因子，还在沉睡吗？",
     "hint": "接受检测：",
     "qrCaption": "扫码接受检测",
     "exportTag": "魔女因子检测"

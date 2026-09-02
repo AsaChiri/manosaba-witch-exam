@@ -51,15 +51,29 @@ export interface ExamQuestion {
   options: ExamOption[]
   /** Back permitted from here (scorer-gated). */
   canGoBack: boolean
+  /**
+   * Origin most/least pairing. 'most' opens a block; 'least' is the second
+   * step of the SAME screen — the UI keeps the option list in place, flips the
+   * prompt, and shows the most-pick as marked. Absent on every other screen.
+   */
+  pair?: 'most' | 'least'
+  /** Shared id of a most/least pair (e.g. 'N01') — the UI's screen key. */
+  blockId?: string
 }
 
 export interface ExamProgress {
   phase: ExamPhase
   /** Questions answered so far. */
   answered: number
-  /** 1-based ordinal of the current question, for the readout. */
+  /** 1-based ordinal of the current SCREEN (a most/least pair counts once). */
   ordinal: number
-  /** Soft 0..1 resonance for the gauge — NOT a completion percentage. */
+  /**
+   * Estimated number of screens this session will show, pairs counted once.
+   * Adaptive by a few either way (the coping block and the pick tail vary), so
+   * the UI prints it as "about N" and the gauge fills against it.
+   */
+  total: number
+  /** 0..1 fill for the 魔女因子 gauge — ordinal progress against `total`. */
   resonance: number
 }
 

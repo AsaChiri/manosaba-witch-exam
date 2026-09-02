@@ -56,11 +56,13 @@ function nonZero(m: Record<string, number>): Record<string, number> {
   return out
 }
 
-// Nominal sizes for the resonance gauge. Origin is derived per-package from the
-// real block count (see estTotal); coping length is captured at runtime once the
-// walk crosses into origin; only the short pick tail (0..3) is estimated.
-const COPING_EST = 8 // stand-in until the real coping length is known
-const PICKS_EST = 2 // the pick tail is the last 0..3 screens
+// Nominal screen counts for the readout ("第 n 问 · 共约 N 问") and the gauge.
+// Origin is read per-package from the real block count (one SCREEN per block:
+// its most/least pair shares a screen); coping length is captured at runtime
+// once the walk crosses into origin (observed 6–7); only the short pick tail
+// (0..2 screens, usually 1) is estimated.
+const COPING_EST = 7 // stand-in until the real coping length is known
+const PICKS_EST = 1 // the pick tail is the last 0..2 screens
 
 function mapQuestion(q: QuestionInstance, canGoBack: boolean): ExamQuestion {
   const options: ExamQuestion['options'] = q.options.map((o) => ({
@@ -74,12 +76,17 @@ function mapQuestion(q: QuestionInstance, canGoBack: boolean): ExamQuestion {
     for (const o of disabled) options.push({ id: o.oid, label: o.text, disabled: true })
     options.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
   }
+  // Origin most/least pairs (N01M / N01L …) render as ONE screen in the UI.
+  const pair = q.kind === 'most' ? 'most' : q.kind === 'least' ? 'least' : undefined
+  const blockId = pair && /[ML]$/.test(q.qid) ? q.qid.slice(0, -1) : undefined
   return {
     id: q.qid,
     phase: PHASE_MAP[q.phase] ?? 'observe',
     prompt: q.stem,
     options,
     canGoBack,
+    ...(pair ? { pair } : {}),
+    ...(blockId ? { blockId } : {}),
   }
 }
 
@@ -88,12 +95,14 @@ type View = { done: boolean; inconclusive: boolean; question: ExamQuestion | nul
 export class RealExamSession implements ExamSession {
   private engine: EngineSession
   private readonly log: string[] = []
+  /** Parallel to `log`: 'least' for answers given on a least step, so the
+   *  screen ordinal can count a most/least pair once. */
+  private readonly steps: string[] = []
+  /** Parallel to `log`: the UI phase each answer was given in, so the coping
+   *  length can be counted whatever order the engine walks the axes in. */
+  private readonly phases: ExamPhase[] = []
   private witchName: string | undefined
   private view: View = { done: false, inconclusive: false, question: null }
-  /** Actual coping question count, captured once the walk enters origin; null
-   *  while still in coping (and reset if the user steps back into it). Lets the
-   *  resonance gauge size itself to this session's real length. */
-  private copingLen: number | null = null
 
   constructor(
     private readonly pkg: ContentPackage,
@@ -115,12 +124,6 @@ export class RealExamSession implements ExamSession {
       this.view = q
         ? { done: false, inconclusive: false, question: mapQuestion(q, this.engine.canGoBack()) }
         : { done: true, inconclusive: false, question: null }
-      // Snapshot the coping length at the coping→origin boundary. The current
-      // question is the *next* one to answer, so when it is the first origin
-      // (or pick) screen, log.length is exactly the coping count.
-      const phase = this.view.question?.phase
-      if (phase === 'observe') this.copingLen = null
-      else if (phase && this.copingLen === null) this.copingLen = this.log.length
     } catch (e) {
       if (e instanceof ExamError) {
         this.view = { done: true, inconclusive: true, question: null }
@@ -140,6 +143,8 @@ export class RealExamSession implements ExamSession {
     if (!q.options.some((o) => o.id === optionId)) return // unknown ids ignored
     this.engine.answer(optionId)
     this.log.push(optionId)
+    this.steps.push(q.pair ?? '')
+    this.phases.push(q.phase)
     this.recompute()
   }
 
@@ -147,6 +152,8 @@ export class RealExamSession implements ExamSession {
     if (!this.engine.canGoBack()) return
     this.engine.back()
     this.log.pop()
+    this.steps.pop()
+    this.phases.pop()
     this.recompute()
   }
 
@@ -156,14 +163,24 @@ export class RealExamSession implements ExamSession {
 
   progress(): ExamProgress {
     const answered = this.log.length
-    const phase: ExamPhase = this.view.question ? this.view.question.phase : 'match'
-    // Size the gauge to this session's real length: actual coping + the fixed
-    // origin block count (×2 for most/least) + the short pick tail. Origin is
-    // read from the package, so growing the bank re-sizes the gauge for free.
-    const originTotal = this.pkg.originBlocks.blocks.length * 2
-    const total = (this.copingLen ?? COPING_EST) + originTotal + PICKS_EST
-    const resonance = Math.min(0.995, answered / total)
-    return { phase, answered, ordinal: answered + 1, resonance }
+    const cur = this.view.question
+    const phase: ExamPhase = cur ? cur.phase : 'match'
+    // Screens, not engine questions: a most/least pair shares one screen, so a
+    // least answer does not advance the ordinal and a pending least step still
+    // belongs to the screen its most answer opened.
+    const screensDone = answered - this.steps.filter((s) => s === 'least').length
+    const onLeast = cur?.pair === 'least'
+    const ordinal = onLeast ? screensDone : screensDone + 1
+    // Size the readout to this session's real length: one screen per origin
+    // block + the coping count (actual once the walk has left coping, the
+    // nominal estimate before/while it runs) + the short pick tail. Counted by
+    // phase, not by position, so it holds for either axis order.
+    const copingAnswered = this.phases.filter((p) => p === 'observe').length
+    const copingDone = copingAnswered > 0 && phase !== 'observe'
+    const total =
+      this.pkg.originBlocks.blocks.length + (copingDone ? copingAnswered : COPING_EST) + PICKS_EST
+    const resonance = Math.min(0.995, (screensDone + (onLeast ? 0.5 : 0)) / total)
+    return { phase, answered, ordinal, total, resonance }
   }
 
   isDone(): boolean {
@@ -241,7 +258,8 @@ export class RealExamSession implements ExamSession {
     // no longer applies (content changed under the save) stops the replay.
     this.engine = createRealExam(this.pkg)
     this.log.length = 0
-    this.copingLen = null
+    this.steps.length = 0
+    this.phases.length = 0
     this.witchName = snapshot.witchName
     this.recompute()
     for (const oid of snapshot.answers) {
@@ -249,6 +267,8 @@ export class RealExamSession implements ExamSession {
       if (!q || !q.options.some((o) => o.id === oid)) break
       this.engine.answer(oid)
       this.log.push(oid)
+      this.steps.push(q.pair ?? '')
+      this.phases.push(q.phase)
       this.recompute()
       if (this.view.done) break
     }

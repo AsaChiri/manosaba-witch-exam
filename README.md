@@ -53,9 +53,10 @@ scripts/          generate-og.ts + og-worker.mjs
 public/           _headers · robots.txt · favicon.svg · og/ (generated)
 ```
 
-**Colour is the information structure** (design spec §2.1): cyan lives only
-inside the examination instrument, violet owns the verdict + card, gold is
-seals/ornament only, and the hot-pink CTA is the single loudest element.
+**Colour is the information structure** (design spec §2.1, revised 2026-09-02
+to the game's red-and-black identity): ember (`--exam-ember`) lives only inside
+the examination instrument, blood-red (`--witch-red`) owns the verdict + card,
+gold is seals/ornament only, and the hot-pink CTA is the single loudest element.
 
 ### Quiz engine seam
 

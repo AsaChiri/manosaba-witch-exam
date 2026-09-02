@@ -64,6 +64,14 @@ const shareCard = computed<ShareCard>(() => {
 })
 
 const frameEl = ref<HTMLElement | null>(null)
+/* The verdict card (owner decision 2026-09-02): 「保存图像」 exports a compact
+ * 4:5 plate — seal, name, magic, one line, 原罪, epitaph, brand + QR — not the
+ * full record strip, so the preview a feed shows carries the hook. Rendered
+ * off-screen at the capture width; the full record stays on the page and on
+ * the /r/ link the copy-share carries. Special records already are this shape
+ * and keep exporting their own frame. */
+const exportEl = ref<HTMLElement | null>(null)
+const captureEl = computed(() => (props.specialCharacter ? frameEl.value : exportEl.value))
 const qrSrc = ref('')
 /* The corner offsets live on the wrapping <span> and the flip inside the SVG —
  * never on the <svg> element itself, which html2canvas would carry into the
@@ -281,8 +289,63 @@ watch(() => props.specialCharacter, refreshQr)
       </div>
     </div>
 
+    <!-- off-screen verdict card: what 「保存图像」 captures for a normal record -->
+    <div v-if="card && !specialCharacter" ref="exportEl" class="result__export" aria-hidden="true">
+      <div class="card-frame card-frame--verdict">
+        <div class="card-frame__rule">
+          <span
+            v-for="corner in corners"
+            :key="'x-' + corner.c"
+            :class="`card-frame__fleuron card-frame__fleuron--${corner.c}`"
+            aria-hidden="true"
+          >
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
+              <g :transform="corner.flip">
+                <path d="M3 49 L3 15 Q3 3 15 3 L49 3" stroke="currentColor" stroke-width="1.1" opacity="0.9" />
+                <path d="M9 49 L9 17 Q9 9 17 9 L49 9" stroke="currentColor" stroke-width="0.6" opacity="0.45" />
+                <path d="M15 33 C15 23, 23 15, 33 15" stroke="currentColor" stroke-width="0.8" opacity="0.8" />
+                <path d="M15 33 C19 27, 21 25, 20 20 M15 33 C21 29, 23 31, 28 30" stroke="currentColor" stroke-width="0.7" opacity="0.7" />
+                <circle cx="16" cy="16" r="1.7" fill="currentColor" opacity="0.85" />
+              </g>
+            </svg>
+          </span>
+          <div class="card-frame__inner">
+            <article class="witch-card witch-card--verdict">
+              <div class="witch-card__crest"><Seal :size="64" stained :title="T('meta.siteName')" /></div>
+              <p class="witch-card__specimen">
+                <span class="witch-card__specimen-label">{{ T('card.specimenLabel') }}</span>
+                &nbsp;·&nbsp;{{ witchName }}
+              </p>
+              <div class="witch-card__epithet-block">
+                <span class="witch-card__magic-mark">
+                  <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
+                  {{ T('card.magicMark') }}
+                  <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M10 3.5 H46" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="3.8" y="1.4" width="4.2" height="4.2" transform="rotate(45 5.9 3.5)" fill="currentColor"/></svg>
+                </span>
+                <h2 class="witch-card__epithet">{{ resolve(cardTitle(card)) }}</h2>
+                <p class="witch-card__magic-lead">{{ resolve(card.magic.text) }}</p>
+              </div>
+              <hr class="witch-card__divider" />
+              <section class="witch-card__field witch-card__field--verdict">
+                <span class="witch-card__field-label">{{ L('epithet') }}</span>
+                <p class="witch-card__verdict-epithet">{{ resolve(card.epithet) }}</p>
+              </section>
+              <p class="witch-card__epitaph">{{ resolve(card.epitaph) }}</p>
+              <div class="witch-card__export-footer">
+                <div class="witch-card__export-brand">
+                  <div class="brand">{{ T('share.exportTag') }}</div>
+                  <div class="cap">{{ T('share.qrCaption') }}</div>
+                </div>
+                <img v-if="qrSrc" class="witch-card__export-qr" :src="qrSrc" alt="" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="result__actions">
-      <ShareRow :locale="locale" :card="shareCard" :card-el="frameEl" />
+      <ShareRow :locale="locale" :card="shareCard" :card-el="captureEl" />
       <div class="result__links">
         <button type="button" class="result__retake" @click="emit('retake')">
           {{ T('card.retake') }}
@@ -331,6 +394,14 @@ watch(() => props.specialCharacter, refreshQr)
   width: 100%;
   margin-inline: auto;
 }
+/* laid out but off-screen — html2canvas needs a rendered box, not display:none */
+.result__export {
+  position: absolute;
+  top: 0;
+  left: -10000px;
+  width: 520px;
+  pointer-events: none;
+}
 .result__actions {
   display: flex;
   flex-direction: column;
@@ -347,7 +418,7 @@ watch(() => props.specialCharacter, refreshQr)
   text-decoration-color: var(--hairline-faint);
 }
 .result__retake:hover {
-  color: var(--witch-violet);
+  color: var(--witch-red);
 }
 .result__links {
   display: flex;

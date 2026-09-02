@@ -198,11 +198,18 @@ class Session implements ExamSession {
   }
 
   private compute(): Step {
-    // 1. Hard-axes walk (session mode): pends on the next unanswered K/O slot.
+    // 1. Hard-axes walk (session mode): pends on the next unanswered O/K slot.
+    //    ORIGIN FIRST (owner decision 2026-09-02): the 14 most/least blocks open
+    //    the examination, the coping routers + style block follow. The two
+    //    passes are independent (origin() reads no coping state and vice
+    //    versa), the canonical string is slot-ordered, and the pick-tail seed
+    //    is canonical too — so every resolution, hash and variant is identical
+    //    to the coping-first walk; only the asking order changes. The full-map
+    //    path (resolveHardAxes) is order-agnostic and untouched.
     const w = new Walker(this.prepared, "session", this.answers, "session");
     try {
-      w.coping();
       w.origin();
+      w.coping();
     } catch (e) {
       if (e instanceof Pending) return this.questionFromPending(e);
       throw e;

@@ -190,6 +190,13 @@
   color: var(--verdict-gold-deep);
   text-transform: uppercase;
 }
+/* the signature's em dash in the serif face — the pixel face has none and
+ * drew it as two hyphens */
+.character-card__warden-dash {
+  font-family: var(--font-body);
+  letter-spacing: 0;
+  margin-right: 0.15em;
+}
 
 /* the character's artbook quote — the record's closing line, sitting where
  * the epitaph sits on the witch card */

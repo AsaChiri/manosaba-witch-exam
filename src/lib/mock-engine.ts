@@ -304,6 +304,7 @@ class MockSession implements ExamSession {
       phase,
       answered,
       ordinal: Math.min(answered + 1, QUESTIONS.length),
+      total: QUESTIONS.length,
       resonance: Math.min(1, answered / QUESTIONS.length),
     }
   }

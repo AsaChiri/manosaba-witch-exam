@@ -1,11 +1,11 @@
 <script setup lang="ts">
 /*
  * The verdict reveal (design spec §2.4/§3.4) — the ONE orchestrated animation.
- * readout completes → cyan flatlines → violet bloom rises → the Seal stamps in
+ * readout completes → ember flatlines → blood-red bloom rises → the Seal stamps in
  * → 「魔女因子――検出。」 → sentence + magic-name teaser → unfold into the card.
  * Skippable on tap; prefers-reduced-motion gets a static cut.
  */
-import { onMounted, onBeforeUnmount, ref } from 'vue'
+import { onMounted, onBeforeUnmount, ref, computed } from 'vue'
 import type { ExamResult } from '../../lib/engine-api'
 import type { Card } from '../../lib/content-types'
 import { t } from '../../i18n'
@@ -25,6 +25,15 @@ const T = (k: string) => t(props.locale, k)
 
 const reduced = ref(false)
 let timer: number | undefined
+
+/* The teaser label ends in an em dash (「发现魔法——」). The instrument pixel
+ * face has no proper em dash — DotGothic16 draws it as two hyphens — so the
+ * dash run is split off and set in the serif face. */
+const teaser = computed(() => {
+  const raw = T('verdict.teaser')
+  const m = /^(.*?)([—―–\-]+)\s*$/u.exec(raw)
+  return m ? { text: m[1] ?? '', dash: m[2] ?? '' } : { text: raw, dash: '' }
+})
 
 function finish() {
   if (timer) window.clearTimeout(timer)
@@ -64,7 +73,7 @@ onBeforeUnmount(() => {
       <h1 class="verdict__detected">{{ T('verdict.detected') }}</h1>
       <p class="verdict__sentence">{{ T('verdict.sentence') }}</p>
       <p v-if="card || teaserOverride" class="verdict__teaser">
-        <span class="verdict__teaser-label">{{ T('verdict.teaser') }}</span>
+        <span class="verdict__teaser-label">{{ teaser.text }}<span v-if="teaser.dash" class="verdict__dash">{{ teaser.dash }}</span></span>
         <span class="verdict__epithet">{{ teaserOverride ?? card?.magic.name }}</span>
       </p>
     </div>
@@ -93,8 +102,8 @@ onBeforeUnmount(() => {
   transform: translateX(-50%) scale(0.2);
   background: radial-gradient(
     circle,
-    color-mix(in srgb, var(--witch-violet) 42%, transparent) 0%,
-    color-mix(in srgb, var(--witch-violet-deep) 24%, transparent) 34%,
+    color-mix(in srgb, var(--witch-red) 42%, transparent) 0%,
+    color-mix(in srgb, var(--witch-red-deep) 24%, transparent) 34%,
     transparent 62%
   );
   opacity: 0;
@@ -111,10 +120,10 @@ onBeforeUnmount(() => {
 }
 .verdict__reading {
   font-family: var(--font-instrument);
-  color: var(--exam-cyan);
+  color: var(--exam-ember);
   letter-spacing: 0.18em;
   font-size: 1rem;
-  text-shadow: 0 0 12px color-mix(in srgb, var(--exam-cyan) 55%, transparent);
+  text-shadow: 0 0 12px color-mix(in srgb, var(--exam-ember) 55%, transparent);
   animation: reading-fade 0.9s ease 0.7s forwards;
 }
 .verdict__cursor {
@@ -124,8 +133,8 @@ onBeforeUnmount(() => {
   width: min(22rem, 70vw);
   height: 2px;
   margin: 0.9rem 0 0;
-  background: var(--exam-cyan);
-  box-shadow: 0 0 14px var(--exam-cyan);
+  background: var(--exam-ember);
+  box-shadow: 0 0 14px var(--exam-ember);
   transform-origin: center;
   animation: flatline 1.2s var(--ease-out-sharp) 0.7s forwards;
 }
@@ -147,13 +156,13 @@ onBeforeUnmount(() => {
   opacity: 0;
   transform: translateY(10px);
   animation: rise 0.7s var(--ease-ceremony) 2.5s forwards;
-  text-shadow: 0 0 26px color-mix(in srgb, var(--witch-violet) 30%, transparent);
+  text-shadow: 0 0 26px color-mix(in srgb, var(--witch-red) 30%, transparent);
 }
 .verdict__sentence {
   font-family: var(--font-body);
   font-style: var(--font-style-em);
   font-size: clamp(1rem, 3.2vw, 1.22rem);
-  color: var(--witch-violet);
+  color: var(--witch-red);
   margin-top: 1rem;
   opacity: 0;
   animation: rise 0.7s var(--ease-ceremony) 3s forwards;
@@ -173,11 +182,17 @@ onBeforeUnmount(() => {
   color: var(--verdict-gold-deep);
   text-transform: uppercase;
 }
+/* the em dash in the serif face — the pixel face draws it as two hyphens */
+.verdict__dash {
+  font-family: var(--font-body);
+  letter-spacing: 0;
+  margin-left: 0.1em;
+}
 .verdict__epithet {
   font-family: var(--font-inscription);
   font-weight: 600;
   font-size: clamp(1.4rem, 5vw, 2rem);
-  color: var(--witch-violet);
+  color: var(--witch-red);
 }
 .verdict__skip {
   position: absolute;
@@ -193,8 +208,10 @@ onBeforeUnmount(() => {
   color: var(--bone);
 }
 
+/* the readout leaves entirely before the seal stamps — a 15% ghost above the
+ * verdict read as a stuck element */
 @keyframes reading-fade {
-  to { opacity: 0.15; }
+  to { opacity: 0; }
 }
 @keyframes blink {
   50% { opacity: 0; }
@@ -206,8 +223,8 @@ onBeforeUnmount(() => {
   100% {
     transform: scaleY(0.5);
     opacity: 0;
-    background: var(--witch-violet);
-    box-shadow: 0 0 14px var(--witch-violet);
+    background: var(--witch-red);
+    box-shadow: 0 0 14px var(--witch-red);
   }
 }
 @keyframes bloom-rise {
