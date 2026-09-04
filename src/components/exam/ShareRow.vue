@@ -176,14 +176,23 @@ onBeforeUnmount(() => {
   display: flex;
   align-items: center;
 }
+/* The share is the result screen's one CTA — the magica pink (design spec
+ * §2.1: pink = the primary CTA only), revised 2026-09-03 from the gold slab. */
 .is-primary .share-row__btn,
 .share-row__btn.is-primary {
-  color: var(--ink);
-  background: linear-gradient(160deg, var(--verdict-gold-bright), var(--verdict-gold-deep));
+  color: #fff5f8;
+  font-family: var(--font-inscription);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-shadow: 0 1px 8px rgba(60, 6, 24, 0.45);
+  background:
+    radial-gradient(120% 160% at 20% -20%, color-mix(in srgb, #fff 20%, var(--magica-pink)), transparent 55%),
+    linear-gradient(160deg, var(--magica-pink) 0%, var(--magica-pink-deep) 100%);
   border-color: transparent;
+  box-shadow: 0 10px 22px -12px rgba(184, 53, 95, 0.6);
 }
 .is-primary .share-row__btn--toggle {
-  border-left: 1px solid color-mix(in srgb, var(--ink) 35%, transparent);
+  border-left: 1px solid rgba(60, 6, 24, 0.35);
 }
 .is-primary .share-row__btn:hover,
 .share-row__btn.is-primary:hover {

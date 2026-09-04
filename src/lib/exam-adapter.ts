@@ -168,18 +168,29 @@ export class RealExamSession implements ExamSession {
     // Screens, not engine questions: a most/least pair shares one screen, so a
     // least answer does not advance the ordinal and a pending least step still
     // belongs to the screen its most answer opened.
+    // A most answer already advances screensDone by one while its least step
+    // is still pending, so the least step counts as HALF a screen back from
+    // that — never half a screen forward, which made the gauge dip at every
+    // block boundary (bug found 2026-09-03).
     const screensDone = answered - this.steps.filter((s) => s === 'least').length
     const onLeast = cur?.pair === 'least'
     const ordinal = onLeast ? screensDone : screensDone + 1
+    const progressed = onLeast ? screensDone - 0.5 : screensDone
     // Size the readout to this session's real length: one screen per origin
-    // block + the coping count (actual once the walk has left coping, the
-    // nominal estimate before/while it runs) + the short pick tail. Counted by
-    // phase, not by position, so it holds for either axis order.
+    // block + the coping count (actual once the walk has left coping; while
+    // it runs, the nominal estimate or the screens already seen, whichever is
+    // larger — a tiebreak/guard can push coping past the estimate) + the short
+    // pick tail. Counted by phase, not position, so either axis order works.
+    // The total never drops below the ordinal, so "第 23 问 · 共约 22 问"
+    // cannot appear and the gauge never saturates early.
     const copingAnswered = this.phases.filter((p) => p === 'observe').length
     const copingDone = copingAnswered > 0 && phase !== 'observe'
-    const total =
-      this.pkg.originBlocks.blocks.length + (copingDone ? copingAnswered : COPING_EST) + PICKS_EST
-    const resonance = Math.min(0.995, (screensDone + (onLeast ? 0.5 : 0)) / total)
+    const copingEst = copingDone ? copingAnswered : Math.max(COPING_EST, copingAnswered + 1)
+    const total = Math.max(
+      this.pkg.originBlocks.blocks.length + copingEst + PICKS_EST,
+      ordinal,
+    )
+    const resonance = Math.min(0.995, Math.max(0, progressed) / total)
     return { phase, answered, ordinal, total, resonance }
   }
 

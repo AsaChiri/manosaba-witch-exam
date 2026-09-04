@@ -155,66 +155,55 @@
   text-align: center;
 }
 
-/* ── The verdict card (compact 4:5 export, owner decision 2026-09-02) ──
- * Captured at 520px wide → 1040×1300 at scale 2. Fixed frame padding (the
- * default clamp() tracks the viewport, which would change the plate between
- * a phone and a desktop export); the content centres vertically inside the
- * 4:5 box and the box only grows when a long epithet or epitaph needs it. */
-.card-frame--verdict {
-  min-height: 650px;
-  display: flex;
-  flex-direction: column;
+/* ── The share image (owner decisions 2026-09-02/03) ──
+ * The FULL record as a long image: fixed 520px capture width (1040px PNG, so
+ * text fitted to a phone screen still reads), height following the record,
+ * one column. The HOOK ZONE holds the head block centred so that its centre
+ * is the centre of the image's top square: frame edge (1 + 7 + 1px) + fixed
+ * rule padding 1.6rem (25.6px) ≈ 35px above the zone, so a 450px zone centres
+ * the hook at y ≈ 260 = half the 520px width — a top-anchored 1:1 thumbnail
+ * crop shows it dead-centre with 故事's first lines peeking below; a 4:5 crop
+ * shows it at 40%. The zone is a fixed minimum on every card (only a very
+ * long magic line or epithet can grow it), so a friend group's images line up.
+ * Fixed frame padding: the default clamp() tracks the viewport and would
+ * change the image between a phone and a desktop export. */
+.card-frame--export .card-frame__rule {
+  padding: 1.6rem 1.6rem 1.4rem;
 }
-.card-frame--verdict .card-frame__rule {
-  flex: 1;
+.witch-card__hook {
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.8rem 1.9rem 1.5rem;
-}
-.witch-card--verdict .witch-card__crest {
-  margin-bottom: 0.8rem;
-}
-.witch-card--verdict .witch-card__crest .seal {
-  width: 64px;
-}
-.witch-card--verdict .witch-card__epithet {
-  font-size: 2.8rem;
-  max-width: 12ch;
-}
-.witch-card--verdict .witch-card__magic-lead {
-  font-size: 1rem;
-  line-height: 1.7;
-  max-width: 30ch;
-  margin-top: 0.7rem;
-}
-.witch-card--verdict .witch-card__divider {
-  margin: 1.2rem auto;
-}
-.witch-card__field--verdict {
-  margin-top: 0;
+  align-items: center;
   text-align: center;
 }
-.witch-card__verdict-epithet {
+.witch-card--export .witch-card__crest {
+  margin-bottom: 1rem;
+}
+.witch-card--export .witch-card__crest .seal {
+  width: 72px;
+}
+.witch-card__hook-sin {
+  margin-top: 1.1rem;
+}
+.witch-card__hook-epithet {
   font-family: var(--font-inscription);
   font-weight: 600;
-  font-size: 1.28rem;
+  font-size: 1.2rem;
   line-height: 1.35;
   letter-spacing: 0.04em;
   color: var(--bone);
-  margin: 0.35rem auto 0;
-  max-width: 20ch;
+  margin: 0.3rem auto 0;
+  max-width: 24ch;
   text-wrap: balance;
 }
-.witch-card--verdict .witch-card__epitaph {
-  margin-top: 1.3rem;
-  padding-top: 1.1rem;
-  font-size: 1.02rem;
-  max-width: 30ch;
+/* the record follows the hook in the card's own measure */
+.witch-card--export .witch-card__field:not(:last-child) {
+  margin-top: 1.4rem;
 }
-.witch-card--verdict .witch-card__export-footer {
-  margin-top: 1.5rem;
-  padding-top: 1.1rem;
+.witch-card--export .witch-card__export-footer {
+  margin-top: 1.6rem;
 }
 
 /* Export footer — hidden on screen; revealed only during PNG capture so the

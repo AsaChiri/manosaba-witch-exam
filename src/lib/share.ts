@@ -236,7 +236,9 @@ export async function saveResultImage(
     "body > div > img[width='1'][height='1'] { display: inline !important; }"
   document.head.appendChild(probeFix)
 
-  const CAPTURE_WIDTH = 520
+  // 520px = the card's own measure (1040px PNG): text fitted to a phone screen
+  // still reads. An element may declare another width via data-capture-width.
+  const CAPTURE_WIDTH = Number(element.dataset.captureWidth) || 520
   const originalWidth = element.style.width
   const originalMaxWidth = element.style.maxWidth
   element.classList.add('exporting')

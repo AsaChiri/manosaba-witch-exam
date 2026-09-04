@@ -64,14 +64,23 @@ const shareCard = computed<ShareCard>(() => {
 })
 
 const frameEl = ref<HTMLElement | null>(null)
-/* The verdict card (owner decision 2026-09-02): 「保存图像」 exports a compact
- * 4:5 plate — seal, name, magic, one line, 原罪, epitaph, brand + QR — not the
- * full record strip, so the preview a feed shows carries the hook. Rendered
- * off-screen at the capture width; the full record stays on the page and on
- * the /r/ link the copy-share carries. Special records already are this shape
- * and keep exporting their own frame. */
+/* The share image (owner decisions 2026-09-02/03): 「保存图像」 exports the FULL
+ * record as a long image — fixed width (the card's 520px capture width, so
+ * text stays readable when a phone fits the image to its screen), height
+ * following the record, ONE column. The head block (seal, name, magic, one
+ * line, 原罪) sits centred inside a fixed HOOK ZONE at the top: its centre is
+ * the centre of the image's top square, so a top-anchored 1:1 thumbnail crop
+ * (WeChat · QQ · Weibo) shows the composed hook dead-centre with the first
+ * lines of 故事 peeking below, and a 4:5 crop shows it at 40%. Rendered
+ * off-screen so the on-page card never reflows during capture. Special
+ * records keep exporting their own frame. */
 const exportEl = ref<HTMLElement | null>(null)
 const captureEl = computed(() => (props.specialCharacter ? frameEl.value : exportEl.value))
+
+/** Jump target for the action bar: the record's 故事 section. */
+function jumpToRecord() {
+  document.getElementById('record-story')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
 const qrSrc = ref('')
 /* The corner offsets live on the wrapping <span> and the flip inside the SVG —
  * never on the <svg> element itself, which html2canvas would carry into the
@@ -260,7 +269,7 @@ watch(() => props.specialCharacter, refreshQr)
                 <span class="witch-card__field-label">{{ L('epithet') }}</span>
                 <p class="witch-card__field-body">{{ resolve(card.epithet) }}</p>
               </section>
-              <section class="witch-card__field">
+              <section id="record-story" class="witch-card__field">
                 <span class="witch-card__field-label">{{ L('crime') }}</span>
                 <div class="witch-card__prose">
                   <p v-for="(line, i) in card.crime" :key="i">{{ resolve(line) }}</p>
@@ -289,9 +298,9 @@ watch(() => props.specialCharacter, refreshQr)
       </div>
     </div>
 
-    <!-- off-screen verdict card: what 「保存图像」 captures for a normal record -->
+    <!-- off-screen share image: what 「保存图像」 captures for a normal record -->
     <div v-if="card && !specialCharacter" ref="exportEl" class="result__export" aria-hidden="true">
-      <div class="card-frame card-frame--verdict">
+      <div class="card-frame card-frame--export">
         <div class="card-frame__rule">
           <span
             v-for="corner in corners"
@@ -310,27 +319,42 @@ watch(() => props.specialCharacter, refreshQr)
             </svg>
           </span>
           <div class="card-frame__inner">
-            <article class="witch-card witch-card--verdict">
-              <div class="witch-card__crest"><Seal :size="64" stained :title="T('meta.siteName')" /></div>
-              <p class="witch-card__specimen">
-                <span class="witch-card__specimen-label">{{ T('card.specimenLabel') }}</span>
-                &nbsp;·&nbsp;{{ witchName }}
-              </p>
-              <div class="witch-card__epithet-block">
-                <span class="witch-card__magic-mark">
-                  <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
-                  {{ T('card.magicMark') }}
-                  <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M10 3.5 H46" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="3.8" y="1.4" width="4.2" height="4.2" transform="rotate(45 5.9 3.5)" fill="currentColor"/></svg>
-                </span>
-                <h2 class="witch-card__epithet">{{ resolve(cardTitle(card)) }}</h2>
-                <p class="witch-card__magic-lead">{{ resolve(card.magic.text) }}</p>
-              </div>
-              <hr class="witch-card__divider" />
-              <section class="witch-card__field witch-card__field--verdict">
-                <span class="witch-card__field-label">{{ L('epithet') }}</span>
-                <p class="witch-card__verdict-epithet">{{ resolve(card.epithet) }}</p>
+            <article class="witch-card witch-card--export">
+              <header class="witch-card__hook">
+                <div class="witch-card__crest"><Seal :size="72" stained :title="T('meta.siteName')" /></div>
+                <p class="witch-card__specimen">
+                  <span class="witch-card__specimen-label">{{ T('card.specimenLabel') }}</span>
+                  &nbsp;·&nbsp;{{ witchName }}
+                </p>
+                <div class="witch-card__epithet-block">
+                  <span class="witch-card__magic-mark">
+                    <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M0 3.5 H36" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="38" y="1.4" width="4.2" height="4.2" transform="rotate(45 40.1 3.5)" fill="currentColor"/></svg>
+                    {{ T('card.magicMark') }}
+                    <svg class="witch-card__mark-orn" width="46" height="7" viewBox="0 0 46 7" aria-hidden="true"><path d="M10 3.5 H46" stroke="currentColor" stroke-width="0.8" opacity="0.65"/><rect x="3.8" y="1.4" width="4.2" height="4.2" transform="rotate(45 5.9 3.5)" fill="currentColor"/></svg>
+                  </span>
+                  <h2 class="witch-card__epithet">{{ resolve(cardTitle(card)) }}</h2>
+                  <p class="witch-card__magic-lead">{{ resolve(card.magic.text) }}</p>
+                </div>
+                <section class="witch-card__hook-sin">
+                  <span class="witch-card__field-label">{{ L('epithet') }}</span>
+                  <p class="witch-card__hook-epithet">{{ resolve(card.epithet) }}</p>
+                </section>
+              </header>
+              <section class="witch-card__field">
+                <span class="witch-card__field-label">{{ L('crime') }}</span>
+                <div class="witch-card__prose">
+                  <p v-for="(line, i) in card.crime" :key="'x-c' + i">{{ resolve(line) }}</p>
+                </div>
               </section>
-              <p class="witch-card__epitaph">{{ resolve(card.epitaph) }}</p>
+              <section class="witch-card__field">
+                <span class="witch-card__field-label">{{ L('execution') }}</span>
+                <div class="witch-card__prose">
+                  <p v-for="(line, i) in card.execution" :key="'x-e' + i">{{ resolve(line) }}</p>
+                </div>
+              </section>
+              <section class="witch-card__field" style="text-align:center">
+                <p class="witch-card__epitaph">{{ resolve(card.epitaph) }}</p>
+              </section>
               <div class="witch-card__export-footer">
                 <div class="witch-card__export-brand">
                   <div class="brand">{{ T('share.exportTag') }}</div>
@@ -344,8 +368,26 @@ watch(() => props.specialCharacter, refreshQr)
       </div>
     </div>
 
+    <!-- the action bar (owner decision 2026-09-03): pinned to the viewport from
+         the first frame, so the share is always one tap away and the jump link
+         names the two sections a reader might otherwise never scroll to -->
+    <!-- teleported to <body>: the result's entrance animation (a transform)
+         would otherwise turn `.result` into the fixed bar's containing block
+         and pin it to the page bottom instead of the viewport -->
+    <Teleport to="body">
+      <div class="result__bar" :lang="locale">
+        <div class="result__bar-inner">
+          <button v-if="card" type="button" class="result__jump" @click="jumpToRecord">
+            {{ L('crime') }} · {{ L('execution') }}
+            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="M1 1.5 L6 6.5 L11 1.5" stroke="currentColor" stroke-width="1.3" /></svg>
+          </button>
+          <span v-else></span>
+          <ShareRow :locale="locale" :card="shareCard" :card-el="captureEl" />
+        </div>
+      </div>
+    </Teleport>
+
     <div class="result__actions">
-      <ShareRow :locale="locale" :card="shareCard" :card-el="captureEl" />
       <div class="result__links">
         <button type="button" class="result__retake" @click="emit('retake')">
           {{ T('card.retake') }}
@@ -383,18 +425,88 @@ watch(() => props.specialCharacter, refreshQr)
   flex: 1;
   width: min(46rem, 100%);
   margin-inline: auto;
-  padding: clamp(1.6rem, 5vh, 3rem) 1.2rem 4rem;
+  /* bottom room for the pinned action bar (+ the phone's home indicator) */
+  padding: clamp(1.6rem, 5vh, 3rem) 1.2rem calc(7rem + env(safe-area-inset-bottom));
   display: flex;
   flex-direction: column;
   gap: 2rem;
   animation: rise-fade 500ms var(--ease-ceremony) both;
+}
+/* the record's 故事 anchor lands just under the pinned home seal */
+#record-story {
+  scroll-margin-top: 1.2rem;
+}
+
+/* ── the pinned action bar ── */
+.result__bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 25;
+  background: color-mix(in srgb, var(--ink) 94%, transparent);
+  border-top: 1px solid var(--hairline-faint);
+  padding: 0.55rem 1rem calc(0.55rem + env(safe-area-inset-bottom));
+}
+.result__bar-inner {
+  width: min(36rem, 100%);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.result__jump {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-instrument);
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  color: var(--verdict-gold-deep);
+  white-space: nowrap;
+  transition: color 160ms;
+}
+.result__jump:hover {
+  color: var(--verdict-gold);
+}
+.result__jump svg {
+  display: block;
+}
+/* the share row inside the bar: one line at phone width, menu opens UPWARD */
+.result__bar :deep(.share-row) {
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+.result__bar :deep(.share-row__btn) {
+  padding: 0.5rem 0.9rem;
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+.result__bar :deep(.share-row__btn--toggle) {
+  padding: 0.5rem 0.6rem;
+}
+.result__bar :deep(.share-row__menu) {
+  top: auto;
+  bottom: calc(100% + 0.35rem);
+}
+@media (max-width: 400px) {
+  .result__jump {
+    font-size: 0.82rem;
+    gap: 0.35rem;
+  }
+  .result__bar :deep(.share-row__btn) {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.82rem;
+  }
 }
 .result__stage {
   max-width: 36rem;
   width: 100%;
   margin-inline: auto;
 }
-/* laid out but off-screen — html2canvas needs a rendered box, not display:none */
+/* laid out but off-screen — html2canvas needs a rendered box, not display:none.
+ * The width matches the capture width so the off-screen layout IS the export. */
 .result__export {
   position: absolute;
   top: 0;

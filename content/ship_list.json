@@ -16,7 +16,17 @@
     "POW-RS-001",
     "VC-SR-003",
     "ABN-CO-001",
-    "POW-DM-002"
+    "POW-DM-002",
+    "ABN-CA-001",
+    "ALN-RU-002",
+    "FAI-WA-001",
+    "ED-PF-001",
+    "ED-DP-001",
+    "POW-AG-001",
+    "ABN-P-001",
+    "ABN-SS-001",
+    "ABN-TR-001",
+    "ABN-TS-001"
   ],
   "shipped": [
     "DEF-DP-001",
