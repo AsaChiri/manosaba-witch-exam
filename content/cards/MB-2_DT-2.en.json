@@ -10,23 +10,15 @@
     {
       "fields": {
         "crime": [
-          "All {WITCH_NAME}'s life she had made things small: when her arm broke, she told everyone she had fallen off her bike, and that was all there was to it. Once, to one girl, she told it the true way — who had broken it, and how.",
-          "Then a paper appeared, tied open on the bars of her cell door, for everyone to read on their way up to breakfast: ASK HER WHO REALLY BROKE HER ARM. {WITCH_NAME} took it down, smoothed her sleeve, and said it was nothing. It had already been read.",
-          "The gossip always rose last, and went up only after the corridor below had emptied.",
-          "One morning {WITCH_NAME} stayed behind, and when the gossip came past she took her by the throat with both hands and held on to the end.",
-          "Afterward {WITCH_NAME} knelt by what she had done and passed her hands over all of it — the throat, her own knuckles, the scuffed floor — until no mark was left on any of it.",
-          "The girl who came back for a forgotten spoon found the gossip on the floor of the cell corridor: not one mark on her anywhere, and beneath the skin the small bones of her throat had given sideways to the touch. Her eyes were spotted red, her face dark.",
-          "A strangling by hands normally leaves marks on both sides: bruises where the hands close, and skin under the nails. This body carried neither.",
-          "Marks do not fade on their own. Only one girl in the prison can pass her hand over a thing done and leave no trace of it — and she had come up to breakfast late, from the corridor the others had already left."
+          "When her arm was broken, {WITCH_NAME} told everyone she had fallen off her bicycle. She told just one girl who had really done it, and how.",
+          "One morning a note hung open on her cell bars: “Ask her who really broke her arm.” Everyone going up to breakfast could read it. She took it down and said it was nothing.",
+          "The girl who knew always went up last. Another morning, {WITCH_NAME} waited in the empty cell corridor and strangled her with both hands. Then she passed her hands over the girl's throat, her own knuckles, and the scuffed floor until no marks remained.",
+          "A prisoner returning for a spoon found the body. The girl's face was dark and her eyes speckled red. Beneath the unmarked skin, a broken throat bone shifted at a touch. The violence remained inside, although its fresh surface traces were gone. {WITCH_NAME}, who could erase those traces, had come up long after the others left the corridor."
         ],
-        "epitaph": "She could lift any mark but the one she had spoken herself.",
-        "epithet": "The Girl for Whom Nothing Ever Happened",
+        "epitaph": "Her hands could erase a mark, but never something she had told another person.",
+        "epithet": "The Girl for Whom Nothing Happened",
         "execution": [
-          "The execution stand rose bearing a shallow stone basin, and above it a single pipe.",
-          "She was laid back and bound, the back of her head resting in the basin, the pipe standing over her brow.",
-          "The pipe let one drop fall, then, after a while, another. Each was almost nothing; the basin kept every one.",
-          "Drop by drop the water rose around her head.",
-          "The drops fell on, until the water closed over her face."
+          "A stone basin held the back of her head as she lay bound beneath a dripping pipe. Each drop landed on her forehead and collected in the basin. The water rose around her face. The drops continued after it covered her mouth and nose, until she drowned."
         ],
         "magic": {
           "name": "the Unhappening",

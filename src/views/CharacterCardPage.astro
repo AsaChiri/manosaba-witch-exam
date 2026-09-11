@@ -38,7 +38,7 @@ const seo = {
 }
 ---
 
-<BaseLayout locale={locale} seo={seo}>
+<BaseLayout locale={locale} seo={seo} bodyClass="has-bar">
   <main id="main" class="card-page">
     {/* Runs before the CTA below is parsed → no flash. Marks the page as
         opened from the visitor's own archive so the newcomer CTA is hidden. */}
@@ -72,6 +72,16 @@ const seo = {
 
     <div class="card-page__foot container container--narrow">
       <SafetyNote locale={locale} />
+    </div>
+    {/* Pinned action bar (styles in global.css). A special record has no
+        story section, so the bar carries the CTA alone. */}
+    <div class="page-bar" lang={locale}>
+      <div class="page-bar__inner page-bar__inner--end">
+        <div class="page-bar__cta">
+          <CtaButton compact href={localePath(locale, '/exam/')} label={t(locale, 'shareCta.button')} />
+        </div>
+        <a class="page-bar__back" href={localePath(locale, '/collection/')}>{t(locale, 'collection.back')}</a>
+      </div>
     </div>
   </main>
   <Footer locale={locale} />

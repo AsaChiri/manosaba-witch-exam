@@ -10,21 +10,15 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME}'s friend asked months ago for the dinner table cleared each night; {WITCH_NAME} said yes, and every evening since, when the hall empties, the pots and trays carry themselves back across it — a spoken yes keeps running. The other girls passed {WITCH_NAME} their chores in turn; {WITCH_NAME} never refused.",
-          "{WITCH_NAME}'s friend's requests had dwindled to nothing over weeks. That evening, the friend handed a torn hem to another girl for mending, in front of her, and never turned to her.",
-          "Each evening, the friend ate alone after everyone else had left the hall.",
-          "That night the clearing ran as always, but the soup pot broke from its nightly line, rose above the friend's seat, and overturned on her — boiling. {WITCH_NAME} was in the lounge among the other girls.",
-          "At the morning meal, the girls found the friend at her seat beneath the overturned pot, scalded across the back from above. Her palms had no marks.",
-          "A girl who pulls a pot down on herself normally takes the scald on her hands and chest; the friend never touched it. The spill fell two tables off the line the clearing takes every night.",
-          "Her clearing runs as {WITCH_NAME} intends; no one else directs it. The pot left its fixed nightly line because {WITCH_NAME} steered it — thus the scald was deliberate."
+          "Months ago, her friend asked {WITCH_NAME} to clear the dining hall every evening. Since she agreed, dishes and pots had put themselves away along the same route each night. Soon all the girls brought her chores, and she never refused.",
+          "Lately her friend had stopped asking. That evening, right in front of {WITCH_NAME}, the friend handed another girl her torn hem to mend without once turning to her.",
+          "The friend always ate alone after the others left. That night, while {WITCH_NAME} sat with the girls in the lounge, she directed the soup pot above her friend's seat and overturned its boiling contents onto her.",
+          "At breakfast they found the body beneath the pot. Burns ran down the head and back, while the palms were unmarked: the friend had never reached up to pull it down. The spill was two tables away from the clearing's usual route. The pots moved as {WITCH_NAME} intended, and this one had gone straight to her friend's seat."
         ],
         "epitaph": "Every favor kept, and no one kept her.",
-        "epithet": "She Who Kept Every Yes",
+        "epithet": "A Place Kept With Every Yes",
         "execution": [
-          "An iron armature closed around her limbs and back, jointed at the arms, spine, and knees.",
-          "Whatever motion she begins, the frame carries it to its end and locks it there.",
-          "She shifted an arm; the frame drove it straight and fixed it. She eased her knees; the frame folded them down and held them.",
-          "She sagged; the frame folded her chest shut and locked. Breath stopped."
+          "An iron frame closed around her limbs and back. When she moved an arm, the frame forced it to its limit and locked it there. When her knees bent, it folded them fully and held them. At last she sagged forward; the frame folded her against her own chest until she could no longer breathe."
         ],
         "magic": {
           "name": "Standing Yes",

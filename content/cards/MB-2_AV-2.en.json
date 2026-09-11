@@ -10,23 +10,15 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} never went near the lake, and took the long way whenever it came up in talk. Once, she told the whisperer the reason: her sister had drowned holding her hand.",
-          "At dinner {WITCH_NAME} watched it travel. The whisperer leaned to the girl beside her, and the story ran the length of the table, head to head, each one glancing back at her as it passed.",
-          "{WITCH_NAME} gave no answer — changed seats, changed routes, was never where the whisperer was. No one would confirm the story; the whisperer, a girl who always led with her hands, came after her again and again to make her say it herself.",
-          "That day the whisperer told her, in front of the others: confirm it that evening, or the whisperer would tell the whole table again. At dusk she stopped keeping clear — went to the upper hall, stood at the iron railing above the courtyard, back to the rail, and waited where the whisperer would pass.",
-          "The whisperer found her and shoved — both hands, full weight. The shove met nothing where {WITCH_NAME} stood. The railing caught the whisperer at the hips.",
-          "The whisperer lay on the courtyard stone below. From the courtyard a girl had seen it against the evening sky: the whisperer at the railing, arms out toward someone — then over, alone.",
-          "Her account was that {WITCH_NAME} had already gone into the library before the cry. The girl shelving inside said the door opened a breath after it, and she came in quick and unsettled.",
-          "A shove that lands sends the one shoved over the rail. A shove that meets nothing sends the one who shoved. The whisperer went over mid-shove, at the spot where the other figure stood and was not carried — and the girl who entered the library a breath after the cry came by the only door, from the upper hall with the railing."
+          "{WITCH_NAME} avoided the lake. She told one girl why: her sister had drowned holding her hand. At dinner, that girl whispered to a neighbor, and the story passed down the table with each listener turning to look.",
+          "{WITCH_NAME} changed seats and routes to avoid her. The girl kept cornering her, often shoving first and speaking afterward. That day she demanded that {WITCH_NAME} confirm the story before everyone or hear it told again.",
+          "At dusk, {WITCH_NAME} waited with her back to the upstairs railing above the courtyard, on the girl's usual route. The girl came and shoved with both hands. The push missed. Her hips struck the railing, and she toppled over it onto the stone below.",
+          "A girl in the courtyard had seen the outstretched arms and the lone fall. {WITCH_NAME} claimed she was already in the library before the scream, but the prisoner shelving books had seen her rush in afterward. The library's only door opened onto that railing. She had come from the place where the shove missed."
         ],
         "epitaph": "Everything thrown at her missed; what found her was never thrown.",
-        "epithet": "She Who Lived a Half-Step Aside",
+        "epithet": "The Girl a Half-Step Away",
         "execution": [
-          "An iron plate sat level on the execution stand, rimmed to the waist with a smooth wall.",
-          "She stood on it, unbound. The plate began to warm, everywhere at once, by even degrees.",
-          "She could go where she chose. Every step led to the same floor.",
-          "The heat rose through the hours until she could no longer keep her feet.",
-          "She went down onto the plate, and nothing on it moved after that."
+          "An iron floor lay within a smooth, waist-high wall. She stood unbound on it as it began to heat. She could move, but every part of the floor grew equally hot. The temperature kept rising until she fell onto the plate and lay still."
         ],
         "magic": {
           "name": "the Certain Miss",

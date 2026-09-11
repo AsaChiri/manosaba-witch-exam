@@ -10,22 +10,15 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} had told the trader, once and plainly, that she cannot sleep in the dark. Before the stream tonight, the trader sold that secret to the girls around the fireplace — the price of a seat among them. She watched from the doorway.",
-          "Nearly everyone went to the recreation room for the weekly stream. The lounge stood empty.",
-          "{WITCH_NAME} approached the trader. The trader looked up, saw her own dearest, and followed her toward the lounge.",
-          "Two girls late to the stream passed them in the corridor. Each saw the trader walking with a different companion, and thought nothing of it.",
-          "In the lounge {WITCH_NAME} took a sword down from the wall to show the trader. At close quarters she ran her through, wiped the blade, and set it back on its hooks.",
-          "The girls returning from the stream found the trader on the lounge floor. The swords hung complete on the wall; one guard bore a wiped smear at the seam.",
-          "The two late girls each named the companion they saw with the trader — two different names, both belonging to girls who had sat through the whole stream.",
-          "A companion seen as a different trusted face by each eye is her known power. Only two were absent from the stream that night: the trader and {WITCH_NAME}."
+          "{WITCH_NAME} had told one girl she could not sleep in the dark. Before the weekly stream, she watched from the lounge doorway as the girl traded that secret for a place among the prisoners around the fireplace.",
+          "When the others went to the recreation room, {WITCH_NAME} approached the girl with her magic active. Seeing her most trusted person, the girl followed her to the empty lounge. There, {WITCH_NAME} took a sword from the wall to show her and stabbed her through. She wiped it and returned it to its hooks.",
+          "The prisoners found the body after the stream. Every sword was in place, but one had a smear left at the guard.",
+          "Two girls who had passed the pair on their way to the stream each named a different companion. Both named prisoners had watched the entire broadcast. The witnesses had seen two trusted faces on one person. Only {WITCH_NAME} and the dead girl had missed the stream."
         ],
-        "epitaph": "Every door opened, and not one of them for her.",
-        "epithet": "Dearest to Every Eye, Known to None",
+        "epitaph": "Every door opened, and none of them opened for her.",
+        "epithet": "Dearest to Everyone, Known to No One",
         "execution": [
-          "Three great iron bells stood on the execution stand, open end down. She was set beneath one.",
-          "Shuffling arms traded the bells' places; after each shuffle, a maul fell on one bell.",
-          "The game was honest. The shuffles went on and the maul kept its turns.",
-          "The maul fell on the bell she was under, and the blow crushed her beneath it."
+          "Three huge iron bells stood mouth down, with her beneath one of them. Mechanical arms shuffled them, and a hammer fell on one bell after each round. The shuffling and blows continued until the hammer struck the bell containing her and crushed her beneath it."
         ],
         "magic": {
           "name": "the Dearest Face",

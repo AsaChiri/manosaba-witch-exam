@@ -10,21 +10,18 @@
     {
       "fields": {
         "crime": [
-          "For several weeks, {WITCH_NAME} and another girl played one game of pool together every evening. Her regular opponent always ended by promising another game the next day, until a second girl began joining them in the recreation room.",
-          "One evening, the regular opponent started a game with the second girl before she arrived. She asked whether their games and their bond would continue. Without looking away from the second girl's play, the regular opponent said that their games were over, but agreed to one final private conversation later that evening.",
-          "In the library, the regular opponent sent the second girl a phone message saying that {WITCH_NAME} had arrived and that the game would resume after their conversation. Still looking down at the chat, the regular opponent again refused the witch's request for a game the next day. {WITCH_NAME} kept both hands around the regular opponent's throat until the girl died. One of the witch's long fingernails broke, leaving its tip in a crescent-shaped cut among the fatal bruises.",
-          "{WITCH_NAME} returned to the recreation room, where the second girl was practicing alone. While the witch was gone, the second girl had looked up once and seen the room empty. The witch did not know about that glance. She asked whether the second girl had seen the witch watching the practice throughout the interval after the regular opponent left. Knowing that the answer was no, the second girl said yes to end the questions. She chose to activate her magic, and for the next hour the known lie became a sincere belief.",
-          "When the regular opponent did not return, they went to the library and found the body. The second girl sincerely said that she and {WITCH_NAME} had been together throughout the interval. The dead girl's phone still held the message placing the witch in the library while that alibi put her in the recreation room. After the hour ended, the second girl recalled seeing the empty room, knowingly lying, and then becoming certain that the lie was true. That change identified the use of Sincerity Enforcement.",
-          "{WITCH_NAME} claimed that her question in the recreation room had only been an anxious check on their bond, that the library conversation had ended while the regular opponent was alive, and that someone else had attacked later. The nail tip in the fatal neck wound matched the fresh break on her hand, proving that she had made the fatal contact herself."
+          "On the first night, a girl took {WITCH_NAME}'s outstretched hand and returned her squeeze. In recent days, {WITCH_NAME} had kept asking the girl to squeeze again, to prove they were still friends.",
+          "Today, the girl refused to keep proving it. Seated facing outward on the upper railing, she let go and drew her hand away. From the courtyard, {WITCH_NAME} used her Magic to catch the girl's wrist in both hands and yank her headfirst off the railing. The girl's head struck the path, killing her.",
+          "Afterward, {WITCH_NAME} claimed the girl had already been falling when she reached out to catch her. But a prisoner recalled watching from the second-floor hall: the girl had demanded to be let go while still sitting steadily on the railing. As the prisoner pointed out, {WITCH_NAME} had already been holding her before there was any fall to stop."
         ],
-        "epitaph": "She asked one last time. Still, no face turned toward her.",
-        "epithet": "The Face That Never Turned",
+        "epitaph": "The hand that never let go never answered.",
+        "epithet": "An open palm begging for an answer",
         "execution": [
-          "A tall transparent box seals around her. She calls out and asks question after question, but the movements of her mouth are visible through the glass while no sound escapes. No answer reaches her. Water rises automatically from beneath her feet. It reaches her chin, covers her mouth and nose, and keeps climbing until it fills the last pocket of air. Trapped underwater, she drowns inside the silent box."
+          "A glass tank on the execution stand holds her strapped to a seat. An iron hand clasps hers as the water rises over her face. Her submerged body goes still; the iron hand keeps hold."
         ],
         "magic": {
-          "name": "Sincerity Enforcement",
-          "text": "She can make the speaker sincerely mean any reassurance that is addressed to her."
+          "name": "Within Reach",
+          "text": "She can physically touch distant people and objects as though they were within reach."
         }
       },
       "variant": 1

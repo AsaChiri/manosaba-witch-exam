@@ -10,27 +10,19 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} had told one girl — the confidante — about the little sister she raised, and what had happened. {WITCH_NAME} said it once.",
-          "In a quarrel at the dining hall the confidante spoke the sister's name, nothing more, and {WITCH_NAME} went quiet at once in front of everyone. Within the week any girl who wanted her silent said it too.",
-          "That evening the confidante said the name again, in front of the others, to quiet her.",
-          "The confidante took the last shower turn every night and lingered in the steam.",
-          "{WITCH_NAME} left with the second-to-last group and turned back — her soap, she said, passing a girl with a comb in the corridor.",
-          "In the steam {WITCH_NAME} stood between the confidante and the door and brought the air to a scald.",
-          "{WITCH_NAME} left. At the ten-o'clock lock the confidante was not in her cell; the guards found her in the shower room, burned past blistering, the taps above her still running cold.",
-          "Shower water reddens the skin but does not blister it; the confidante had been burned past what the taps could do, and the heat in that room was not the water's. {WITCH_NAME} told the court she had left with the others and had been inside only a moment, but the girl with the comb had seen her going back, and a girl sitting outside the shower room had watched the door and not seen her leave until just before ten. Each account was broken by a different girl."
+          "{WITCH_NAME} had told one girl about the little sister she raised and what happened to her. During an argument in the dining hall, that girl spoke the sister's name, and {WITCH_NAME} fell silent. Within a week, anyone who wanted her quiet used it.",
+          "That evening, the girl said it again. She always took the last shower. {WITCH_NAME} left with the group before her, then doubled back, telling a prisoner with a comb that she had forgotten her soap.",
+          "In the steam, she stood between the girl and the door and heated the air until the girl was fatally burned. She left just before lockup. The guards found the girl dead beneath taps that had run cold.",
+          "The burns had blistered beyond anything the prisoners' usual shower water caused. Another source of heat had been there. {WITCH_NAME} said she had left with the others and returned only briefly. But one prisoner had seen her go back, and another had watched the door until she finally emerged near ten."
         ],
-        "epitaph": "Her heat kept out everything except what she had already let in.",
+        "epitaph": "Her heat kept out every hand, but not the name she had entrusted to one.",
         "epithet": "The Heat That Answered to a Name",
         "execution": [
-          "A glass retort stands over a low fire on the stand — a flask thick-walled and sealed, tall enough for her to stand in. She is inside.",
-          "Through the glass the court sees everything inside. The heat has nowhere to go.",
-          "Whatever heat she raises adds to the fire's. Anger quickens the climb; stillness only slows it.",
-          "The fire is steady and does not stop. The heat banks in the glass — the fire's and hers — and the glass gives none of it back.",
-          "She stops moving, and the fire does not."
+          "A sealed glass flask held her standing above a low, steady fire. The flask disabled her magic. Heat built up inside its thick walls. The prisoners watched through the glass as she stopped moving. The fire continued beneath her."
         ],
         "magic": {
           "name": "the Standing Heat",
-          "text": "She can fill the air around her with scalding heat without burning herself."
+          "text": "She can make the air around her hot enough to scald others without burning herself."
         }
       },
       "variant": 1

@@ -10,25 +10,18 @@
     {
       "fields": {
         "crime": [
-          "Whoever {WITCH_NAME} was watching at the edge of a small risk flinched at a disaster only they could see — a hand halted over a hot pan, a girl at the lip of a jump. The girls knew her as a strange chill and thought no more of it.",
-          "One girl had taken the turns that were {WITCH_NAME}'s — clearing the dining tables after meals, her place on the entrance-hall sweeping rota, fetching the day's deliveries — and told the others {WITCH_NAME} would go to pieces under them. The girls believed it and treated {WITCH_NAME} as the one who could not be handed anything. The evening before, in front of everyone, the girl took the supper tray from {WITCH_NAME}'s hands and carried it to her seat — the last thing {WITCH_NAME} still did for herself, and after it nothing in the prison's day was left that was hers to do.",
-          "In the morning rush the girls filed toward the staircase. {WITCH_NAME} stood at its foot, aside from the mouth and clear of the fall line, her eyes on the girl at the lip.",
-          "The girl's foot went out over the first stair and the flash struck. The girl flinched — her weight already past the lip — and the wrench broke her footing and sent her down the full flight.",
-          "The girl lay dead at the foot of the staircase, her fall begun in a backward twist at the lip.",
-          "Questioned about the chill they had always felt near {WITCH_NAME}, the girls each described the same thing — a lived disaster striking the instant before they moved, always under her gaze.",
-          "The morning-rush girls had seen {WITCH_NAME} there. A backward twist at the lip meant a recoil; she had placed herself where the flinch would kill."
+          "One girl kept taking over {WITCH_NAME}'s chores, telling the others she could not cope with clearing tables, sweeping, or fetching deliveries. Soon no one trusted her with a task. At dinner the girl even took the tray from her hands and carried it to her seat.",
+          "The next morning, {WITCH_NAME} waited beside the foot of the stairs leading to the cells. As the girl stepped over the first stair, she showed her the whole fall in a sudden vision. The girl recoiled with her weight already forward, lost her balance, and fell down the flight to her death.",
+          "The prisoners had called the feeling near {WITCH_NAME} a strange chill. Asked about it afterward, they described seeing disaster just before a risky movement, always under her gaze. The girls at the stairs had seen her watching the victim at the instant she recoiled. The fall had begun with the same frightened movement."
         ],
-        "epitaph": "She could see every ending but never a way through.",
-        "epithet": "Drowned Among Ways Out",
+        "epitaph": "She could show anyone an ending, but never take her own first step.",
+        "epithet": "Surrounded by Ways Out",
         "execution": [
-          "The execution stand bore a floor-plate at its center. Plank bridges led from it to ledges on every side, each one of them sound.",
-          "She had only to choose a bridge and cross before the plate dropped.",
-          "Her eyes moved to one bridge, then the next, then the next. She never took a step.",
-          "The plate dropped from under her. She fell into the pit below, and every bridge still stood."
+          "A platform stood above a deep pit, with sturdy plank bridges leading to safe ledges around it. She looked from one bridge to another without taking a step. The platform dropped, and she fell to the bottom. Every bridge remained in place."
         ],
         "magic": {
           "name": "the Worst Case",
-          "text": "She can show a person the worst possible outcome of an action they intend to take."
+          "text": "She can show someone the worst possible outcome of an action they intend to take."
         }
       },
       "variant": 1

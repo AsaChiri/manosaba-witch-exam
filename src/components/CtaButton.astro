@@ -10,11 +10,14 @@ interface Props {
   label: string
   class?: string
   id?: string
+  /** Bar-sized variant (the share-page action bar): tighter, no butterfly —
+   *  the page's in-flow CTA already carries the one butterfly. */
+  compact?: boolean
 }
-const { href, label, class: className, id } = Astro.props
+const { href, label, class: className, id, compact = false } = Astro.props
 ---
 
-<a href={href} id={id} class:list={['cta', className]}>
+<a href={href} id={id} class:list={['cta', className, { 'cta--compact': compact }]}>
   <span class="cta__inner">
     <span class="cta__label">{label}</span>
   </span>
@@ -90,5 +93,21 @@ const { href, label, class: className, id } = Astro.props
     .cta {
       animation: none;
     }
+  }
+  /* compact: sized for the pinned action bar */
+  .cta--compact {
+    animation: none;
+    filter: drop-shadow(0 8px 16px rgba(184, 53, 95, 0.28));
+  }
+  .cta--compact .cta__inner {
+    min-width: 0;
+    padding: 0.62rem 1.3rem;
+  }
+  .cta--compact .cta__label {
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+  }
+  .cta--compact .cta__butterfly {
+    display: none;
   }
 </style>

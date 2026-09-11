@@ -37,7 +37,7 @@ const seo = {
 }
 ---
 
-<BaseLayout locale={locale} seo={seo}>
+<BaseLayout locale={locale} seo={seo} bodyClass="has-bar">
   <main id="main" class="card-page">
     {/* Runs before the CTA below is parsed → no flash. Marks the page as
         opened from the visitor's own archive so the newcomer CTA is hidden. */}
@@ -71,6 +71,21 @@ const seo = {
 
     <div class="card-page__foot container container--narrow">
       <SafetyNote locale={locale} />
+    </div>
+
+    {/* Pinned action bar (styles in global.css): read the whole record, the
+        one CTA always one tap away; 「故事 · 处刑 ▾」 jumps to the story. */}
+    <div class="page-bar" lang={locale}>
+      <div class="page-bar__inner">
+        <a class="page-bar__jump" href="#record-story">
+          {t(locale, 'card.labels.crime')} · {t(locale, 'card.labels.execution')}
+          <svg width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="M1 1.5 L6 6.5 L11 1.5" stroke="currentColor" stroke-width="1.3" /></svg>
+        </a>
+        <div class="page-bar__cta">
+          <CtaButton compact href={localePath(locale, '/exam/')} label={t(locale, 'shareCta.button')} />
+        </div>
+        <a class="page-bar__back" href={localePath(locale, '/collection/')}>{t(locale, 'collection.back')}</a>
+      </div>
     </div>
   </main>
   <Footer locale={locale} />

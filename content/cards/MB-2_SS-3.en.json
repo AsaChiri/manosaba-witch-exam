@@ -10,23 +10,15 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME}'s ears were never empty — a feed, songs, noise in both ears at all hours. She had once told the silence-maker why: in quiet she cries without knowing the reason, and cannot stop it.",
-          "One dinner the whole dining hall went silent on cue as {WITCH_NAME} walked in — every girl at once, on a signal the silence-maker had set — and the room watched her come apart on schedule.",
-          "Each evening the silence-maker came back from the courtyard last, cutting through the west corridor.",
-          "That evening {WITCH_NAME} had strung a cord across the corridor's dark end at throat height, tied to the door-irons on either side.",
-          "When the silence-maker entered, a crowd of voices rose behind her where no crowd was, filling the lit end wall to wall and coming on. {WITCH_NAME} let it be heard, reckoning that no death could be laid against a night's uproar, and that the cord left behind traced back to no one. The silence-maker ran from it, headlong into the dark.",
-          "The cord took her at the throat. The voices stopped in a breath.",
-          "Girls came with lamps toward the sound half the prison had heard. The corridor stood empty and soundless — the silence-maker at its dark end, her throat crushed against the cord, and one girl already in the corridor's mouth when the lamps arrived."
+          "{WITCH_NAME} kept music or a stream playing in her ears. She told one girl why: when it was quiet, she cried without knowing why and could not stop.",
+          "That girl arranged for everyone to fall silent when {WITCH_NAME} entered the dining hall. They watched her break down.",
+          "The girl returned from the courtyard through the west corridor last each evening. That night, {WITCH_NAME} tied a cord between the doorframes at the dark end, at throat height. As the girl entered, she sent a crowd of voices advancing from behind her. The girl ran into the darkness, hit the cord with her throat, and fell dead. The voices stopped at once.",
+          "Prisoners came with lamps toward the noise so many had heard. There was no crowd: only the body at the far end and {WITCH_NAME} already at the entrance. The sourceless voices had driven the girl straight into the cord. What she had counted on passing for a night's uproar now connected her magic to the trap."
         ],
-        "epitaph": "She could fill any silence but the one they built her out of.",
-        "epithet": "The Girl With No Quiet In Her",
+        "epitaph": "She could fill every silence except the one she left behind.",
+        "epithet": "The Quiet She Could Not Keep",
         "execution": [
-          "The execution stand rose bearing a curved iron shell that closed around and over her, with her bound at its focal point.",
-          "The shell returned every sound within it to that point, magnified, and it began with a faint hum of its own.",
-          "The hum grew on itself. Every sound she made — a word, a cry, a caught breath — came back larger and joined it.",
-          "Her power could only put more sound into the shell, and more sound was what it magnified back.",
-          "Staying silent would have spared her, but the girl who flooded every silence could never hold quiet — each sound she could not help making only fed the shell and hurried the end.",
-          "The shell keeps returning what it is given until the point at its center gives nothing more."
+          "A curved iron shell closed around her, bound at its center. Its low hum was amplified and sent back toward her. Each cry and breath joined it; the sounds she made with magic returned louder still. The noise kept growing until she hung motionless inside the shell."
         ],
         "magic": {
           "name": "the Static",

@@ -10,26 +10,19 @@
     {
       "fields": {
         "crime": [
-          "The girls knew {WITCH_NAME} for it: a scraped knee pinched to a scratch, a burn pressed small between her fingers.",
-          "That afternoon on the stairs, her friend told her she wanted to spend less time together. \"It's nothing,\" {WITCH_NAME} said.",
-          "That evening: film night in the recreation room. The two of them sat at the back as always, a seat apart from the rest. The projector was loud.",
-          "In the dark {WITCH_NAME} slid a filed edge beneath her friend's ribs and pinched the wound to a pin's width. Her friend stiffened once against the seat and went still. The edge went back up her sleeve.",
-          "When the lights came up the girls filed out past what they took for a sleeper. One girl came back to shake her and found her cold — no wound anywhere. A heart given out, they said.",
-          "They opened the jacket. The shirt was soaked stiff over the ribs: a bloodstain a hand wide, and under it a puncture the size of a pin. A pin's wound does not bleed that wide. The wound had been pinched small. The blood it had already spilled had not.",
-          "Every girl knew whose hands made hurts small. The seat beside the dead girl had been hers — the two of them at the back, apart, as always."
+          "That afternoon on the stairs, her friend told {WITCH_NAME} she wanted to spend less time together. “It's nothing,” she replied.",
+          "That evening they took their usual seats at the back of the recreation room for a film, apart from the other girls. Under the projector's noise, {WITCH_NAME} stabbed her friend beneath the ribs with a sharpened strip of metal, shrank the wound to a pinprick, and hid the blade in her sleeve.",
+          "When the lights came on, the girls walked past what looked like a sleeper. One returned to wake the friend and found her cold. With no obvious wound, they thought her heart had failed.",
+          "But beneath the jacket, a palm-sized bloodstain had dried around a tiny puncture. The wound had shrunk; the blood already spilled remained. The girls knew {WITCH_NAME}'s magic from the scrapes and burns she made small. She had been sitting beside her friend."
         ],
-        "epitaph": "She called it nothing every time, and enough nothings were the whole of it.",
+        "epitaph": "She called each loss nothing, until nothing was all she had.",
         "epithet": "The Girl Who Called It Nothing",
         "execution": [
-          "She was bound upright in a ring-frame set with pins, none yet touching.",
-          "A clock drove the ring. At each minute's stroke one pin pressed a finger's depth into her and withdrew.",
-          "At each stroke she shrank the wound to nothing. The finger-deep harm the stroke had dealt was already done.",
-          "No single puncture was mortal. The clock advanced the ring, and the count went on.",
-          "When the count was complete the sum of them killed her."
+          "A ring of needles surrounded her upright, bound body. Every minute the frame advanced, driving one needle a finger's depth into her before withdrawing it. She shrank each wound, but the damage it had already done remained. The needles continued, one by one, until she stopped moving."
         ],
         "magic": {
           "name": "Pinchsmall",
-          "text": "She can shrink any injury until it is nearly nothing."
+          "text": "She can shrink any injury until it is barely visible."
         }
       },
       "variant": 1

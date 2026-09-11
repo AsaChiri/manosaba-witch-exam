@@ -10,25 +10,19 @@
     {
       "fields": {
         "crime": [
-          "Before the island there had been a fire, and {WITCH_NAME} told it as the story of her rescue. One girl knew the truth: {WITCH_NAME} had rescued no one — she had only been lucky, and the rest had burned. The girl had said so before, and that day said so again in front of the others.",
-          "That evening {WITCH_NAME} gathered the girls in the water-spirit room for a tale about a shipwreck.",
-          "Behind the folding screen, the girl was in the deep tub — brought in on the warden's permission for her wash day and filled to the brim. The tub's heavy cover stood propped open above her, held by a cord that ran across the brazier's coals; its far end was tied to the frame of the folding screen.",
-          "As {WITCH_NAME} told the storm, the cord burned through over the coals. The cover fell shut over the tub and latched flush with the water — no air beneath it. The girl's thrashing and cry came through the screen, and the girls heard the storm.",
-          "{WITCH_NAME} told the tale to its end. The girl drowned beneath the cover, and the girls remembered only a good story.",
-          "Afterward every retelling agreed: a groan, a cry, a rush of water — the sounds of the drowning, in its order. A story does not match a death beat for beat by chance.",
-          "The cord that held the cover had been cut from the folding screen's own ties. The girls had seen her setting that screen before the gathering."
+          "When {WITCH_NAME} told the story of the fire, she said she had rescued others. One girl knew she had saved no one and had survived only by luck. That day, the girl said it again before the others.",
+          "That evening, {WITCH_NAME} gathered the prisoners in the Undine Room for a shipwreck story. Behind a folding screen, the girl was bathing in a deep tub brought in with the warden's permission. Water reached the rim. {WITCH_NAME} had propped its heavy lid with a cord running over a brazier and tied to the screen.",
+          "As she described the storm, the coals burned through the cord. The lid fell and latched shut against the water. The girl's cries and splashing reached the listeners as sounds from the story. {WITCH_NAME} kept telling it until the girl drowned.",
+          "Afterward, the listeners recalled a groan, a cry, then churning water: the struggle they had taken for a storm. The burned cord had been cut from the screen's ties, and they had seen {WITCH_NAME} arranging that screen before the gathering."
         ],
         "epitaph": "She had a story for every disaster but the last.",
-        "epithet": "She Who Gave the Fire a Hero",
+        "epithet": "The Hero She Gave the Fire",
         "execution": [
-          "An iron ring stood around her at the center of the stand. The warden bade her tell.",
-          "She told. The ring began to close, and it made no sound.",
-          "She went on telling. The ring gave no creak, no groan — not a sound. Every eye in the court watched it tighten.",
-          "It drew against her ribs and kept closing, soundless, until her chest could no longer rise."
+          "An iron ring enclosed her bound body. The warden ordered her to tell a story. As she spoke, the ring tightened without a sound. It pressed against her ribs and kept closing until her chest could no longer rise."
         ],
         "magic": {
           "name": "the Telling",
-          "text": "The Telling — She can make real sounds heard during her story seem part of the story."
+          "text": "The Telling — While she tells a story, she can make real sounds seem part of it."
         }
       },
       "variant": 1

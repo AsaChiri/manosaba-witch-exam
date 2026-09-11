@@ -10,22 +10,15 @@
     {
       "fields": {
         "crime": [
-          "The others kept their distance. One girl did not: the girl sat beside {WITCH_NAME} through the worst of it, left small things by her plate, and told anyone who asked that something soft lay underneath.",
-          "What was underneath was not soft. In flashes {WITCH_NAME} wanted to see that kind face afraid of her — just once, fully — and hated the thought each time it came.",
-          "One supper the girl reached across the table and took her hand before everyone. She held the heat down while the anger pushed it higher; her palm stayed cool.",
-          "Days later, in the early evening shower hour, the girl found {WITCH_NAME} alone in the recreation room and sat close, as always. This time the girl opened her arms. {WITCH_NAME} let the embrace come — held it, and lit, and held it down against the floor.",
-          "The girl lay dead on the recreation-room floor, burned. The room was not: no hearth or lamp stands there, the floorboards scorched only beneath the body, nothing else singed. The others were at the showers below; one girl coming up found the body.",
-          "The burns ran deepest along the palms and the inner arms. The outer arms were unmarked.",
-          "That heat came from someone's skin. One prisoner carries it; the dead girl had spent months trying to hold her.",
-          "At the trial {WITCH_NAME} offered no explanation."
+          "For months, one girl sat beside {WITCH_NAME} despite her harsh words, left little gifts by her plate, and insisted she was kind underneath. Sometimes {WITCH_NAME} wanted that girl to be afraid of her, and hated herself for wanting it.",
+          "At supper the girl took her hand before everyone. “See? Nothing happens.” {WITCH_NAME} held down the heat rising with her anger.",
+          "Days later, while the others were showering, the girl found her alone in the recreation room and opened her arms. {WITCH_NAME} returned the embrace, heated her skin, and held the girl against the floor until she was dead.",
+          "A prisoner coming back from the showers found the body. Only the floor beneath it was scorched. The burns were deepest on the palms and inner arms, leaving the outer arms untouched. The heat had come from the person the girl was holding: {WITCH_NAME}."
         ],
-        "epitaph": "She fed the fire her whole life. What it kept was never what they reached for.",
-        "epithet": "The Fire That Wanted to Be Feared",
+        "epitaph": "The girl finally held her, and found only fire.",
+        "epithet": "The Fire Afraid of Its Own Warmth",
         "execution": [
-          "She was bound to a stake on the execution stand, her feet on a bed of oil-soaked wood. At her waist, a band of iron thorns. The device brought no flame of its own.",
-          "The band began to turn inward, thorn by measured thorn. It would complete its turns and kill her regardless.",
-          "Her heat rose on its own under the pain. The oil at her feet caught.",
-          "The fire on the stake burned until there was nothing left."
+          "A stake stood in a bed of oil-soaked wood. She was bound to it with iron thorns around her waist. The band tightened, and pain and anger drove up her skin's heat until the wood caught fire. The flames burned around her until nothing remained."
         ],
         "magic": {
           "name": "Thornfire",

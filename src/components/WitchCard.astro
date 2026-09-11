@@ -57,7 +57,7 @@ const title = resolve(cardTitle(card))
     <p class="witch-card__field-body">{resolve(card.epithet)}</p>
   </section>
 
-  <section class="witch-card__field">
+  <section id="record-story" class="witch-card__field">
     <span class="witch-card__field-label">{L('crime')}</span>
     <div class="witch-card__prose">{card.crime.map((line) => <p>{resolve(line)}</p>)}</div>
   </section>

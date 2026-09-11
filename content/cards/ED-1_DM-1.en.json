@@ -10,22 +10,14 @@
     {
       "fields": {
         "crime": [
-          "At dinner the girls traded wishes for when they got out; {WITCH_NAME} always passed — nothing for me. One girl made a game of answering for her, and every guess was some other girl's want pinned on her as her own.",
-          "One night the guess was word for word the wish of the girl beside her, and the table agreed: that's so you.",
-          "{WITCH_NAME} told the guesser to come to the flower field at dusk — she would show her the one thing she actually loved. The guesser came.",
-          "At the far edge {WITCH_NAME} took the guesser's hand and laid her asleep in the deep grass. She walked back before lockup and told the others the girl had stayed out for the stars.",
-          "At lockup the guesser was missed. The guards walked the paths by lantern through the night; a sleeper in deep grass, silent and still, is not found.",
-          "At first light they found the guesser dead of the cold — hands open, limbs straight, the grass beneath her unstirred.",
-          "Cold normally rouses a sleeper; this one the night's cold never woke. No draught was in her.",
-          "Such a sleep, in this prison, could only be laid by her. The guesser was last seen at dusk, hand in hers."
+          "At dinner, the girls talked about what they would do after leaving the prison. {WITCH_NAME} always said, “Nothing.” One girl made a game of guessing for her. One evening the guess was the exact wish of the prisoner beside her, and everyone agreed: “That's so you.”",
+          "{WITCH_NAME} invited the girl to the flower field at dusk to see what she really loved. At its far edge, she took the girl's hand, put her to sleep, and laid her in the deep grass. She returned before lockup and said the girl had stayed outside to watch the stars.",
+          "The guards searched through the night. At dawn they found the girl dead from the cold, her hands open and the grass beneath her undisturbed. There were no drugs in her body. She had never stirred as the night grew colder. The last person seen holding her hand was {WITCH_NAME}, whose touch could keep a sleeper from waking."
         ],
-        "epitaph": "The door was always lit, and always one step ahead.",
-        "epithet": "The Girl Who Answered No for the World",
+        "epitaph": "No one heard a wish that was hers.",
+        "epithet": "A Wish Answered by Everyone Else",
         "execution": [
-          "The execution stand rose as a turning floor. At its far edge stood a doorway opening on a small lit room.",
-          "She walked toward the door. The floor carried it away as fast as she walked.",
-          "Behind her the floor ran off into the dark below the stand.",
-          "The court watched her walk toward the lit room until her legs gave. The floor carried her off the trailing edge, and from the dark below came the sound of the fall. Then nothing more."
+          "A moving floor led toward an open door and a small, lit room. As she walked toward it, the floor ran backward at her walking pace. The door stayed out of reach. When her legs gave out, the floor carried her over its rear edge into the darkness below. There was one impact, then silence."
         ],
         "magic": {
           "name": "Lullaby",

@@ -10,26 +10,19 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} told the stunt girl the one hope she still kept — that her mother was out there, looking for her. It was the first thing she had trusted anyone with in years.",
-          "After that, whenever the monitors showed an announcement, the same call came from the stunt girl — *it's your mother!* — and the same laughter down the corridor. She stopped hoping aloud; everything she said from then on was prediction: this will fail, that will end badly.",
-          "Most evenings the stunt girl rode the banister on the main stairs, filming each run on her phone. {WITCH_NAME} had said more than once, flatly, that the banister would be the end of that girl.",
-          "That evening: another announcement, another *it's your mother!*, another round of laughter.",
-          "Minutes later {WITCH_NAME} was standing at the foot of the stairs. The stunt girl pushed off above, phone in hand; at the newel post the witch spoke her no, and the grab found nothing. The ride went off the end head-first.",
-          "The stunt girl lay on the corridor floor below the last step, dead from the fall onto stone. The phone lay beside her, still filming.",
-          "{WITCH_NAME} said she had come running with the others, after the fall.",
-          "The phone had filmed to the end. Its last frames showed the foot of the stairs: {WITCH_NAME} was already there before the fall, facing the rider, lips parting, hands at her sides. The girls remembered whose forecasts always came to pass."
+          "{WITCH_NAME} told one girl the hope she still had: her mother was outside looking for her. Afterward, whenever a monitor announcement appeared, the girl shouted, “It's your mother!” and the prisoners laughed. {WITCH_NAME} stopped speaking of hope. Everything would fail; everything would end badly.",
+          "The girl filmed herself sliding down the stair banister most evenings. {WITCH_NAME} had warned more than once that it would kill her.",
+          "That evening brought the same joke. Minutes later, {WITCH_NAME} waited at the foot of the stairs. As the girl slid toward the end, she said no to the hand reaching for the rail. The girl failed to catch it and fell headfirst onto the stone floor. Her phone kept recording beside the body.",
+          "{WITCH_NAME} claimed to have arrived with the others after the fall. But the final frames showed her already waiting below, facing the girl, her lips moving and both hands at her sides."
         ],
-        "epitaph": "She asked once, and they laughed; everything she said after that was no.",
-        "epithet": "She Who Said No Before the World Could",
+        "epitaph": "Her only hope became their joke; afterward, all she offered was no.",
+        "epithet": "A Hope Taught to Say No",
         "execution": [
-          "She was bound in a seat at the center of the execution stand, facing the court. A bell-pull hung at her right hand.",
-          "Behind her, out of her sight, a ratchet arm tipped with a spike advanced toward the base of her skull whenever the bell was quiet; each ring reset it fully.",
-          "The bell was answered every time, without fail, for as long as she rang.",
-          "When the bell stayed quiet, the arm completed its travel."
+          "A bell cord hung beside the chair she was bound to. Behind her, out of sight, a spike advanced toward the back of her head. Each pull of the bell returned it to the start. She rang again and again. When the bell finally fell silent, the spike moved forward and pierced her head."
         ],
         "magic": {
           "name": "Nullword",
-          "text": "She can stop an action by saying no."
+          "text": "She can stop an action she sees from being completed by saying no."
         }
       },
       "variant": 1
