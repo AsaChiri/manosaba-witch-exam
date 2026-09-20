@@ -11,6 +11,7 @@ import Seal from '../components/Seal.astro'
 import CtaButton from '../components/CtaButton.astro'
 import Footer from '../components/Footer.astro'
 import LangSuggestBanner from '../components/LangSuggestBanner.astro'
+import GameBackdrop from '../components/GameBackdrop.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
 import { roseWindowSvg } from '../lib/rose-window'
@@ -37,9 +38,11 @@ const seo = {
 
 <BaseLayout locale={locale} seo={seo}>
   <LangSuggestBanner locale={locale} />
+  {/* the trial chamber, far below the fold of attention: atmosphere only
+      (game asset, owner decision 2026-09-11 — src/assets/game/ATTRIBUTION.md) */}
+  <GameBackdrop scene="court" drift priority />
   <main id="main">
     <section class="hero">
-      <div class="hero__glass" aria-hidden="true"></div>
       <div class="hero__content">
         <div class="hero__crest">
           <div class="hero__halo" aria-hidden="true" set:html={halo} />
@@ -48,7 +51,6 @@ const seo = {
         <h1 class="hero__title inscription">{t(locale, 'landing.title')}</h1>
         {showLatin && <p class="hero__latin instrument">{t(locale, 'meta.latin')}</p>}
         <p class="hero__hook">{t(locale, 'landing.hook')}</p>
-        <p class="hero__promise">{t(locale, 'landing.promise')}</p>
         <div class="hero__cta">
           <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'landing.ctaBegin')} />
         </div>
@@ -68,19 +70,6 @@ const seo = {
     padding: clamp(2rem, 8vh, 5rem) 1.2rem;
     overflow: hidden;
     text-align: center;
-  }
-  /* CSS-built stained-glass drift glow — atmosphere, not a screenshot. */
-  .hero__glass {
-    position: absolute;
-    inset: -20%;
-    z-index: 0;
-    background:
-      radial-gradient(40% 30% at 24% 18%, rgba(79, 134, 184, 0.16), transparent 70%),
-      radial-gradient(36% 28% at 78% 22%, rgba(235, 139, 121, 0.12), transparent 70%),
-      radial-gradient(52% 40% at 50% 6%, rgba(161, 125, 222, 0.14), transparent 72%),
-      radial-gradient(60% 44% at 50% 108%, rgba(92, 15, 26, 0.3), transparent 60%);
-    animation: glass-drift 26s ease-in-out infinite alternate;
-    pointer-events: none;
   }
   .hero__content {
     position: relative;
@@ -164,17 +153,6 @@ const seo = {
     /* wide enough that every locale's hook sits on ONE desktop line (em, not
      * ch — a ch is half a CJK glyph); when a narrow viewport forces a wrap,
      * balance + strict kinsoku keep the break legal (no line-leading っ) */
-    max-width: min(30em, 100%);
-    text-wrap: balance;
-    line-break: strict;
-  }
-  /* what the record will hold — the one promise line, still in register */
-  .hero__promise {
-    margin-top: 1rem;
-    font-family: var(--font-body);
-    font-size: clamp(0.95rem, 2.6vw, 1.05rem);
-    line-height: 1.7;
-    color: var(--bone-faint);
     max-width: min(30em, 100%);
     text-wrap: balance;
     line-break: strict;

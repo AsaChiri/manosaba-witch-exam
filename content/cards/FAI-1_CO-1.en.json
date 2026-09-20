@@ -1,0 +1,31 @@
+{
+  "cell": "FAI|Concealer",
+  "copingSub": "CO-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Concealer",
+  "tag": "FAI-1_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Before supper, {WITCH_NAME} drew in a notebook on her knees, beside a girl with her own paper and pencil. A prisoner nearby saw one loose line complete a flower. The girl praised it. {WITCH_NAME} called it an accident and began closing the book. As the prisoner left for the dining hall, the girl said they would follow.",
+          "Then the girl turned back to a page that looked blank. Her fingertip caught the grooves of earlier attempts. {WITCH_NAME} said she had hidden them because they were private and asked for the notebook. The girl kept it. That effort deserved praise too; she would show everyone at supper.",
+          "{WITCH_NAME} arrived alone, carrying the notebook. She said the girl had returned it and stayed behind. When the girl never came, the prisoner went back and found her dead on the sofa, her chest pierced by a sword. All the swords hung clean on the wall.",
+          "A damp, pale cloth wiped over the blades lifted blood from one of them. The prisoner also felt a row of dried droplets on the outside of {WITCH_NAME}'s clean-looking cuff. A second wipe revealed blood there too: spray from withdrawing the sword, rather than a smear from touching the body. She had stabbed the girl, hidden the blood without removing it, and returned the sword before taking her notebook to supper."
+        ],
+        "epitaph": "One hesitant pencil line remained on the open page.",
+        "epithet": "The Inspection Called Praise",
+        "execution": [
+          "A transparent glass drum closed around her and began turning. She tumbled against its wall, each side of her body brought into view before she could hold a pose. Water poured in. The drum filled and kept rolling her underwater until her struggles stopped."
+        ],
+        "magic": {
+          "name": "Vanishing Traces",
+          "text": "She can hide or reveal visible marks on an object she touches."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

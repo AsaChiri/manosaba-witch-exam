@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Self-Reliant",
+  "tag": "ALN-10_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week, a girl in the cell had mended the shoulder strap on the bag {WITCH_NAME} meant to leave with. {WITCH_NAME} picked out the girl's stitches and sewed the strap again herself.",
+          "During free time that afternoon, the girl interrupted {WITCH_NAME} as she tested an escape key in the barred cell door. The girl threatened to tell the warden about the escape preparations.",
+          "Before they met in the second-floor hall, {WITCH_NAME} had used Magic to knead the upper railing's support joints, shaping what had been continuous iron into separate caps pressed flush together. At the railing, she shoved the girl. The upright section came loose, and the girl fell to her death in the courtyard. Seeing her body there, the prisoners assumed she had leaned against an upper railing that failed by accident.",
+          "One prisoner compared the mating faces at the supposed break. They were not jagged: both were smooth caps, each folded inward in the same way. At the trial court, the prisoners saw what those matching folds meant: the supports had already been separated with {WITCH_NAME}'s Magic, not broken in the fall."
+        ],
+        "epitaph": "The help she refused was the belonging she never recognized.",
+        "epithet": "Forever Halfway Gone",
+        "execution": [
+          "The execution stand suspends her between a pair of giant sculptor's hands, her arms stretched wide. One hand closes over her shoulders and the other over her hips. They rotate in opposite directions, twisting her as if she were clay. When they stop, her twisted body hangs motionless in their grip."
+        ],
+        "magic": {
+          "name": "Sculptor's Touch",
+          "text": "She can shape any solid, inanimate material with her hands as easily as soft clay."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

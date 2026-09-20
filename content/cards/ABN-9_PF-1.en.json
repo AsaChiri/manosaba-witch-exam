@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Perfectionist",
+  "copingSub": "PF-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-9",
+  "style": "Perfectionist",
+  "tag": "ABN-9_PF-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In her first week at the prison, the girl saved a place setting for {WITCH_NAME} in the dining hall so they could eat together. Today, in their cell, {WITCH_NAME} kept redrawing the fringe of the girl's scarf until every strand was even. As soon as she finished, the girl piled a bundle of mending before her and said they would not share supper unless she completed it all.",
+          "{WITCH_NAME} strangled the girl to death with the scarf. Then she flattened the scarf into a drawing, redrew it as a smooth, closed loop, and restored it. The scarf returned as a smooth noose enclosing the girl's neck and suspending her from the upper bunk. One prisoner believed the girl had hanged herself.",
+          "But when the prisoner examined the apparent slipknot, she found no knot to undo: the crossing was one seamless join. The fixed loop was also too narrow to have passed over the girl's head. Together, those impossibilities revealed that {WITCH_NAME} had used her Magic to stage the apparent hanging."
+        ],
+        "epitaph": "Her seat beside a friend should never have been something she had to earn.",
+        "epithet": "The Friend on Permanent Probation",
+        "execution": [
+          "The execution stand clamps the witch to a gridded drawing board, with her head beyond its margin. A paper trimmer runs along that margin and severs her neck. Her cropped body remains motionless within the grid."
+        ],
+        "magic": {
+          "name": "Drawn Anew",
+          "text": "She can flatten inanimate objects into editable drawings, then lift them back out transformed to match her edits."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     "descExam": "The examination has begun.",
     "descCard": "A Witch Factor Examination record — magic detected: {magic}.",
     "descShare": "Magic detected: {magic}. Take the examination and see which magic is found in you.",
-    "descCharacter": "An examination record where the same magic as {name}'s was detected: “{magic}.” Take the examination and see which magic is found in you."
+    "descCharacter": "An examination record where the same magic as {name}’s was detected. Take the examination and see which magic is found in you."
   },
   "nav": {
     "skipToContent": "Skip to content",
@@ -18,7 +18,6 @@
     "title": "Witch Factor Examination",
     "hook": "The witch factor in you is still asleep.",
     "ctaBegin": "Begin the examination",
-    "promise": "When it wakes, your story on that island will already be written.",
     "ctaAside": "About 22 questions, ten minutes or so."
   },
   "footer": {
@@ -182,5 +181,11 @@
     "title": "No such page in the archive.",
     "body": "Nothing is filed here.",
     "back": "Back to the start"
+  },
+  "characterGate": {
+    "eyebrow": "Spoiler notice",
+    "body": "This record contains story details from Magical Girl · Witch Trial. If you have not finished the game, we suggest not opening it yet.",
+    "reveal": "I have finished the game — show the record",
+    "exam": "Take the examination first"
   }
 }

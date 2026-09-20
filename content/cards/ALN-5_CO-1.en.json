@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Concealer",
+  "copingSub": "CO-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Concealer",
+  "tag": "ALN-5_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On the previous afternoon in the lounge, a girl added extra sleeves to one of {WITCH_NAME}'s costume sketches. Today in the lounge, {WITCH_NAME} answered with a sketchbook drawing of the girl in a six-sleeved gown. The girl called the drawing comedy material and announced that she would show the sketchbook around that evening to mock {WITCH_NAME}.",
+          "During afternoon free time, {WITCH_NAME} drove a sword into the girl's chest in the lounge, killing her. She then set the hilt in the girl's hand and used her Magic to make the charcoal costume drawing in the sketchbook appear to the prisoners as a handwritten farewell. Seeing the sword in her grip and the apparent farewell in the sketchbook, a prisoner in the lounge inferred that the girl had killed herself. The prisoner closed the sketchbook to carry it away as evidence.",
+          "At the trial court, when the prisoner opened it again, the facing page bore a mirror-image charcoal transfer of the six-sleeved gown. A handwritten farewell could not have left that image. The discrepancy exposed the note as {WITCH_NAME}'s visual forgery—a magical guise over the charcoal drawing."
+        ],
+        "epitaph": "At last she fit in, once there was nothing of herself left to show.",
+        "epithet": "The Artist Who Kept Her Imagination Hidden",
+        "execution": [
+          "The execution stand pins the witch flat on her back against a drawing board. A grinding eraser scours her torso in relentless pass after pass. It keeps moving over her until the drawing board is smeared with blood and her body lies motionless."
+        ],
+        "magic": {
+          "name": "A Masquerade for Every Eye",
+          "text": "You can make each observer see the same people and objects in a different guise of your choosing."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

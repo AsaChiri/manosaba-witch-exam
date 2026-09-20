@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Avoider",
+  "copingSub": "AV-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Avoider",
+  "tag": "ABN-6_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "A girl saved a chair for {WITCH_NAME} in the dining hall, a quiet invitation to return. But whenever a farewell conversation approached, {WITCH_NAME} escaped it by breaking into a flock and flying away. Today, the girl tucked the chair in.",
+          "During afternoon free time in the courtyard, she asked {WITCH_NAME} for one last farewell conversation. Before they could say goodbye, {WITCH_NAME} fatally stabbed her in the chest with a sword. Then she burst into a flock whose birds gripped the sword together and carried it away.",
+          "The prisoners later found the girl's stabbed body beneath a tree in the courtyard. They took the flock rising from the scene for startled wild birds. In the second-floor hall, however, a prisoner reviewed a photo on a phone and saw those birds carrying the bloodied sword. Another prisoner remembered seeing the flock return to the dining hall earlier and reassemble into {WITCH_NAME}. The birds they had dismissed as startled wildlife were her escape, taking the weapon with them."
+        ],
+        "epitaph": "By leaving first, she made certain no chair would ever wait for her return.",
+        "epithet": "The First to Leave",
+        "execution": [
+          "A birdcage on the execution stand snaps shut around her, binding her to its perch. A flock of metal birds dives through the bars and into her chest, again and again. When her body falls still, the flock settles on it for its final roost."
+        ],
+        "magic": {
+          "name": "One Body, Many Wings",
+          "text": "You can transform your entire body into a flock of birds."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

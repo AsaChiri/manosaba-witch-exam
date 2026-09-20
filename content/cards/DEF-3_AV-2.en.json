@@ -1,0 +1,30 @@
+{
+  "cell": "DEF|Avoider",
+  "copingSub": "AV-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Avoider",
+  "tag": "DEF-3_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, a girl trusted {WITCH_NAME} to cut her hair. Before lowering the scissors, {WITCH_NAME} confessed in distress that she could not shake the image of cutting the girl's throat. Frightened, the girl recoiled from her and the scissors.",
+          "The roommate then saw {WITCH_NAME} holding the bloodied scissors. A prisoner accused {WITCH_NAME} of stabbing the girl in the throat and claimed to have tried to rescue the girl afterward. During the assault, the roommate had been seated by the doorway, where the sofa blocked the girl from view. In the trial court, the roommate said they had watched the doorway continuously and seen no one leave. On that evidence, the prisoners convicted {WITCH_NAME} of the girl's murder.",
+          "In truth, {WITCH_NAME} had dropped the scissors, become living wind, and escaped through the doorway. After the wind left the lounge, the prisoner stabbed the girl in the neck with the scissors, leaving a fatal wound. At the girl's cry, {WITCH_NAME} returned, reformed in human shape, and took the scissors from the prisoner, stopping the attack. The prisoner had exploited the escape no one recognized, turning {WITCH_NAME}'s rescue into evidence against her."
+        ],
+        "epitaph": "She was innocent, even if she never believed herself harmless.",
+        "epithet": "The Danger in Her Own Eyes",
+        "execution": [
+          "The execution stand locks her upright beneath a glass mask connected to the bellows. They pump without pause, drawing every breath from her through the mask. The suction continues until her body slumps against the stand and goes still behind the glass."
+        ],
+        "magic": {
+          "name": "Living Wind",
+          "text": "She can transform her body into a conscious, living wind."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

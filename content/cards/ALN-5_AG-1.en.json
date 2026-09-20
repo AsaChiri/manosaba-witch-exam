@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Avenger",
+  "copingSub": "AG-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Avenger",
+  "tag": "ALN-5_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the library, a girl and {WITCH_NAME} wrote an ending for a heroine together. During their shared readings in the lounge, the girl imitated the picture-book heroine's voice as the witch spoke with the character.",
+          "Today, the girl told her their ending was childish nonsense and tore it up. The witch held out the torn ending and demanded that she restore it. Instead, the girl threw it away and refused to read with her again. The witch stabbed her to death with a sword.",
+          "Afterward, from the dining hall, the witch used a phone to converse remotely with the pictured heroine, turning their exchange into a live recital. She passed the heroine's voice off as the girl's, so even after she left, the recital made it seem the girl was still alive.",
+          "Before it finished, a prisoner returning the picture book to the lounge found the girl's body. A question came through the phone, and the heroine pictured in the book answered aloud beside the corpse. The same voice the girl had imitated was still performing after her death: the supposed survivor was a speaking picture."
+        ],
+        "epitaph": "She took their story back by force, only to own it alone.",
+        "epithet": "The Storyteller No One Hears",
+        "execution": [
+          "The execution stand pins the witch against an upright book with her arms spread. Sewing needles drive through her and stitch her into the spine, soaking the binding in blood. She pleads with the heroine on the illustrated cover to save her. The needles keep sewing until she falls still. Even then, the heroine continues to answer her with words of comfort."
+        ],
+        "magic": {
+          "name": "Conversations Beyond the Frame",
+          "text": "She can talk with fictional characters in pictures, who hear her and answer aloud."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

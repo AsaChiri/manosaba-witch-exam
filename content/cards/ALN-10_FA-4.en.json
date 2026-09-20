@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Fantasist",
+  "copingSub": "FA-4",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Fantasist",
+  "tag": "ALN-10_FA-4",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week in the lounge, the girl wrote a dedication welcoming {WITCH_NAME} in {WITCH_NAME}'s dream notebook. In reply, {WITCH_NAME} retitled the chapter about the prison as the prologue to her homecoming.",
+          "During afternoon free time, the girl recited the notebook to the prisoners as a comedy, then promised them an encore that evening. After the audience left, {WITCH_NAME} asked the girl to give the notebook back in private. In the lounge, she drove a sword into the girl's chest, killing her.",
+          "Afterward, in the courtyard, {WITCH_NAME} used her Magic to grow seeds into a full-sized castle faithful to the sketch. At dinner in the dining hall, she posed as the girl in a phone message and claimed the castle sketch had just been drawn. The prisoners had seen her continuously from the castle's growth until, after the message, one of them found the girl's stabbed body on the lounge sofa.",
+          "At the trial court, the message made them date the sketch to after the castle's growth but before the murder, so the girl appeared to have lived past the castle's creation. Then a prisoner produced a phone photo from that afternoon's performance, taken before the castle grew. It showed the very same sketch. The drawing was not a fresh copy of the castle at all, but {WITCH_NAME}'s blueprint for the castle she had grown."
+        ],
+        "epitaph": "No building she raised could give her the welcome that made it home.",
+        "epithet": "The Heir from Elsewhere, Waiting to Come Home",
+        "execution": [
+          "The execution stand holds the witch by the neck across the threshold of a low doorway. Its weighted door descends, severs her neck, and closes the doorway completely, leaving her motionless body outside."
+        ],
+        "magic": {
+          "name": "Buildings in Bloom",
+          "text": "She can grow seeds into full-sized, usable buildings of her choosing."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

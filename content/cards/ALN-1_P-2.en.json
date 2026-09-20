@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Performer",
+  "copingSub": "P-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Performer",
+  "tag": "ALN-1_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, {WITCH_NAME} mimed a solid, invisible umbrella overhead; a girl linked arms with her beneath it, and they laughed together. The previous evening, trusting that warmth, {WITCH_NAME} had spoken seriously to the girl about her loneliness.",
+          "Today, in the dining hall, the girl turned that confession into a comedy routine for the prisoners and promised an encore at the evening meal. During afternoon free time, she napped on the lounge sofa with a blanket over her chest. After hearing that promise, {WITCH_NAME} went to the lounge. She mimed a dagger into solid, invisible form and drove it through the blanket into the girl's chest, leaving the blade embedded. The blanket hid the wound and blood; only the invisible hilt protruded above it.",
+          "A prisoner later found the girl on the sofa and thought she was still asleep. When the prisoner reached to wake her, their hand struck something solid above her chest. They pulled it free: an invisible dagger, traced in blood that seemed to hang in the air. At the trial court, the blood-outlined dagger revealed that the girl's apparent nap had concealed {WITCH_NAME}'s stabbing."
+        ],
+        "epitaph": "Long after the laughter died, silence was the only answer to her loneliness.",
+        "epithet": "The Unheard Comedian",
+        "execution": [
+          "The execution stand holds her against the back wall of a glass box. The glass front closes in. She raises both palms in a wall mime, but the pane forces her arms back until it reaches her chest, holding her hands flat against it. She struggles; then her palms stop moving, and she goes still."
+        ],
+        "magic": {
+          "name": "Make-Believe Made Solid",
+          "text": "Any inanimate object you mime becomes physically real, solid, and invisible."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

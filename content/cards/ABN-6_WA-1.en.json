@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Wall-of-Anger",
+  "copingSub": "WA-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Wall-of-Anger",
+  "tag": "ABN-6_WA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Early in their friendship, the girl comforted {WITCH_NAME} by braiding her hair in her cell. After the girl canceled a visit, she returned to apologize, but {WITCH_NAME} rejected her apology.",
+          "Today, instead, {WITCH_NAME} used her Magic to give that memory living form: the remembered girl sat in the cell and braided her hair again. In the lounge, the girl demanded that {WITCH_NAME} stop impersonating her. The girl began typing a warning to the prisoners on her phone. Before she could send it, {WITCH_NAME} drove a sword into her chest, killing her. She covered the girl with a blanket on the lounge sofa, making her look asleep. Then she shared a meal in the dining hall with the girl from her memories.",
+          "One prisoner reported seeing the girl eat with {WITCH_NAME} after their quarrel and believed she had survived. But the girl's roommate lifted the blanket in the lounge and found her bloodied body. That same prisoner had received the roommate's call reporting the discovery while the meal was still underway. The prisoners understood then: the girl at dinner had been a living companion made from {WITCH_NAME}'s memory, counterfeiting her survival."
+        ],
+        "epitaph": "She claimed tenderness as hers and forfeited the chance to have it returned.",
+        "epithet": "Bristling Solitude",
+        "execution": [
+          "The execution stand's iron hands closed around hers and held them outstretched. Without releasing their grip, they pulled her arms outward. They kept pulling until both arms tore free, then held the severed arms as her body went still."
+        ],
+        "magic": {
+          "name": "Living Memory",
+          "text": "She can turn her memories of people into living, tangible companions."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

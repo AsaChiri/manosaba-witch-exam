@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Resigned",
+  "copingSub": "RS-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-3",
+  "style": "Resigned",
+  "tag": "ABN-3_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week, after {WITCH_NAME} missed a meal, the girl fed her bread in the lounge. Today, {WITCH_NAME} waited there, hungry again, for the girl to escort her to eat. The girl closed the picture book after their last story together, refused to escort her to any more meals, and told {WITCH_NAME} to learn to care for herself.",
+          "At that, {WITCH_NAME} pressed a sofa cushion over the girl's face and smothered her. To conceal the murder, she set her conjured hands turning the pages of the picture book, which screened the girl's face. Nearby, {WITCH_NAME} braided another prisoner's hair with both of her own hands. Watching the pages turn, the prisoner took the obscured figure for the girl, alive and reading. She photographed her finished braid with her phone, catching the reading scene in the background.",
+          "In the trial court, the prisoner looked at the photo again and saw that the page-turning hands ended at the wrists. The girl in the background had not been reading at all; {WITCH_NAME}'s floating hands had fabricated that sign of life while their controller sat beside the photographer."
+        ],
+        "epitaph": "She could command hands, but never make someone choose to come back.",
+        "epithet": "The Child Left Waiting",
+        "execution": [
+          "An embracing chair on the execution stand locks around her, its harness closing over her shoulders. Mechanical hands rise to cradle her cheeks with a tender touch. Their grip holds as they turn her head backward, then keep her face fixed there while her body goes limp and still."
+        ],
+        "magic": {
+          "name": "Hands from Thin Air",
+          "text": "She can conjure solid, floating hands from empty air and direct them at will."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

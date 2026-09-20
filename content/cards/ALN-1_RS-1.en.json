@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Resigned",
+  "copingSub": "RS-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Resigned",
+  "tag": "ALN-1_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At supper in the dining hall, a girl would hold out her hand, and Magic brought {WITCH_NAME} to her side so they could eat together. One day the girl invited {WITCH_NAME} to her cell during evening free time. She waited in her own cell for the girl to come fetch her. In the other cell, when no one came, the girl put away a second cup. Afterward, the girl phoned and asked if they could take turns visiting each other without needing to be fetched.",
+          "That night, a guard locked them in separate cells, each behind a barred cell door. From her cell, {WITCH_NAME} phoned the girl and pretended to choke. Alone on her upper bunk, the girl sat at its outer edge and held out her hand to help. Magic brought {WITCH_NAME} onto the mattress beside her, their hands clasped. Later, {WITCH_NAME} phoned another prisoner and said the girl had asked to be alone after the visit. The prisoner offered her refuge with an outstretched hand; {WITCH_NAME} accepted, and Magic carried her into that cell.",
+          "At morning unlocking, the prisoners found the girl's body on the stone floor beneath her upper bunk. Since her visitor had left, she seemed to have fallen by accident. Then one prisoner examined her upper back and found the pattern of a shoe tread in the bruising. The mark revealed the truth: after appearing beside the girl, {WITCH_NAME} had answered her request to visit without being fetched by kicking her off the upper bunk headfirst."
+        ],
+        "epitaph": "She never knew the girl she left behind had been waiting with a second cup.",
+        "epithet": "The Guest Left Waiting",
+        "execution": [
+          "The execution stand straps her into a chair inside a tank, facing an empty chair. Before the water reaches her face, she keeps her gaze on that chair and waits. Water rises over her face and holds her under. The last bubbles reach the surface; she goes still."
+        ],
+        "magic": {
+          "name": "Hold Out Your Hand",
+          "text": "When someone offers her a hand, she can vanish and reappear beside them, already holding it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

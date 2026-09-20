@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Self-Reliant",
+  "tag": "ALN-1_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, a girl told {WITCH_NAME} that the others had accepted {WITCH_NAME}'s invitation to sculpt together. At that, {WITCH_NAME} insisted on drafting her reply alone and turned down the girl's offer to help. Her refusal prompted the girl to admit that the invitation had begun as a blunt demand; she had softened it into a friendly request. She said she would not relay any more messages for {WITCH_NAME}, then retired alone to the reception room.",
+          "In answer, {WITCH_NAME} stopped time in the lounge. With the world frozen, she crossed to the reception room and drove a sword into the girl's chest, killing her. She returned to her seat and let time resume.",
+          "During the sculpting session, a prisoner had kept a phone recording {WITCH_NAME} in the lounge. When the body was found, the uninterrupted view of her seated there seemed to give her a perfect alibi. At the trial court, however, one prisoner recalled her earlier assurance that she alone could move while time was stopped. The prisoner compared two adjacent moments in the recording: a fold of her skirt pointed inward, then outward, without any movement between. The alibi reversed itself. The phone had stopped with the rest of the world; {WITCH_NAME} had left the lounge and returned between its recorded moments."
+        ],
+        "epitaph": "Solitude had the last word. No one answered.",
+        "epithet": "An Island Unto Herself",
+        "execution": [
+          "The execution stand locks her flat beneath a pendulum clock. Its bladed pendulum swings across her chest, each pass cutting deeper. Her body goes still, but the blade keeps swinging and the clock keeps ticking without pause."
+        ],
+        "magic": {
+          "name": "Stop the World",
+          "text": "She can stop time for the world around her while remaining free to move."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

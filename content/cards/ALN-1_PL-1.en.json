@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Pleaser",
+  "copingSub": "PL-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Pleaser",
+  "tag": "ALN-1_PL-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During earlier free time, a girl shared her favorite novel with {WITCH_NAME} in the library. Through her Magic, {WITCH_NAME} took on the girl's literary tastes, and they enjoyed the book together.",
+          "Today in the recreation room, the girl tore up {WITCH_NAME}'s duplicate vote for their next book. That evening, she returned their shared novel to {WITCH_NAME} in the library and refused to read together again. Once the book was returned, {WITCH_NAME} strangled her with a scarf and took her phone.",
+          "Later, during an evening discussion in the recreation room, a prisoner gave {WITCH_NAME} fresh, uncredited openings to read. With the girl's borrowed preferences, she ranked these unfamiliar excerpts, then used the stolen phone to send those rankings to the prisoners as if they came from the girl. Though {WITCH_NAME} sat in plain sight at the discussion table, the messages kept arriving.",
+          "One prisoner compared the chat rankings with private ones the girl had given earlier; they matched. The prisoners took the remote reader for the girl and believed she was still alive. Then a prisoner asked the chat about the girl's favorite excerpt. {WITCH_NAME}'s reply showed no knowledge of its ending. The prisoner remembered that earlier that afternoon, after completing her manuscript, the girl had read that very excerpt in the recreation room and publicly claimed it as her own work. Magic could transfer her preferences, but not her memories. In trial court, the prisoners saw what the gap meant: the remote reader was {WITCH_NAME}, impersonating the girl with borrowed taste; the messages had never proved that the girl was alive."
+        ],
+        "epitaph": "Borrowed tastes can mimic belonging, but they cannot make affection answer.",
+        "epithet": "An Echo Left Unanswered",
+        "execution": [
+          "The execution stand locks the witch into a nodding chair, fixing her shoulders in place. A steel head clamp closes over her head and drives it down, each forced nod deeper than the last. Even after her final struggle leaves her head limp, the clamp keeps nodding it in mechanical assent."
+        ],
+        "magic": {
+          "name": "Borrowed Taste",
+          "text": "She can make another person's likes and dislikes genuinely her own."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

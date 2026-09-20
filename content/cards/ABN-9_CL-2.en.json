@@ -1,0 +1,31 @@
+{
+  "cell": "ABN|Clinger",
+  "copingSub": "CL-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-9",
+  "style": "Clinger",
+  "tag": "ABN-9_CL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On earlier evenings, the girl would sit beside {WITCH_NAME} on the lounge sofa and hold her hand until her nightmares passed. Again and again, {WITCH_NAME} asked if they would stay together, and the girl always promised they would.",
+          "Today, the girl demanded that she stop letting one prisoner into their shared dreams. If she refused, the girl said, she would never spend time with her again. During evening free time, {WITCH_NAME} brought the girl into her own dream so they could talk alone. There, she said the prisoner wanted to apologize in private and had asked the girl to meet her in the shower room. They woke together in the cell, each back in her own body.",
+          "Convinced that the invitation was genuine, the girl went to the shower room for the private apology. {WITCH_NAME} came up behind her and strangled her to death with a towel. Afterward, she insisted that the prisoner herself had invited the girl directly.",
+          "The prisoner showed her phone to the prisoners. In the chat, the girl had asked why {WITCH_NAME} had relayed the invitation; the prisoner denied sending it. They put the two together: {WITCH_NAME} had hidden her role as the go-between."
+        ],
+        "epitaph": "Being allowed to stay was never the same as being loved.",
+        "epithet": "A Guest Whose Welcome Could End",
+        "execution": [
+          "The execution stand straps the witch to a bed beneath a suspended pillow. The pillow descends over her face and keeps pressing. Her pleas for someone to promise they will stay emerge only as muffled sounds. The pressure does not ease until those sounds fade and she lies still on the bed, answered only by silence."
+        ],
+        "magic": {
+          "name": "Dream Rendezvous",
+          "text": "She can bring sleeping people into her own dream, where they all share one dream world with her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

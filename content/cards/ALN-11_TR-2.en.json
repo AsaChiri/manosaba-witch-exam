@@ -1,0 +1,32 @@
+{
+  "cell": "ALN|Trickster",
+  "copingSub": "TR-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-11",
+  "style": "Trickster",
+  "tag": "ALN-11_TR-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the courtyard, {WITCH_NAME} took on the personality of a loyal confidant from a story; her tenderness was genuine. The girl trusted her enough to confess how homesick she was.",
+          "That day, she traded the confidant for a mocking jester and reenacted the girl's homesick sobbing for the prisoners. Her amusement was just as real. When {WITCH_NAME} offered her a hand, the girl refused it and ended their friendship. She said that evening she would tell everyone how {WITCH_NAME} had mocked her confidences. So {WITCH_NAME} invited her to the lake for a private reconciliation.",
+          "There, she strangled the girl with a cord. She raised the girl's collar and left her face submerged in the lake. Then she took on the personality of a merciful saint. Her resentment gave way to universal compassion, and she grieved for the girl in earnest. Her Magic did not erase her own memories; she still remembered the murder.",
+          "She phoned a prisoner, sobbing that the girl had drowned. When help arrived, compassion outweighed concealment: she opened the girl's collar to attempt resuscitation, exposing her neck. The prisoner saw a cord-shaped bruise encircling it.",
+          "In the trial court, that ring of bruising overturned the drowning story. The prisoners realized that {WITCH_NAME} had submerged the body to conceal that she had strangled the girl."
+        ],
+        "epitaph": "She died with genuine love for the girl—tenderness the girl could no longer receive.",
+        "epithet": "A Stranger Everywhere",
+        "execution": [
+          "The execution stand clamps her into a mask-fitting chair and pins her head in place. A smiling mask lowers and seals airtight over her nose and mouth. She thrashes against it, but the seal holds. Her struggle dwindles to nothing, and the borrowed smile stays fixed over her final stillness."
+        ],
+        "magic": {
+          "name": "Borrowed Soul",
+          "text": "She can adopt the personality of any fictional character, genuinely thinking, feeling, and behaving as they would."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

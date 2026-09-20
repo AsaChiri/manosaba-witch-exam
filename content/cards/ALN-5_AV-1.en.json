@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Avoider",
+  "copingSub": "AV-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Avoider",
+  "tag": "ALN-5_AV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "A week earlier in the library, the girl had helped {WITCH_NAME} label her insect collection. Today in the lounge, the same girl confiscated her specimen box to force her to socialize, then burned the box and the collection in the fireplace.",
+          "During evening free time, before the cells were locked, {WITCH_NAME} entered the reflected world inside the standing mirror in the girl's cell. That night, a guard locked the girl alone behind the barred cell door. {WITCH_NAME} emerged from the mirror, drove a sword into the girl's chest, and killed her. With bloody hands, she retreated into the reflection.",
+          "By morning, the prisoners saw the sword and the locked cell and believed the girl had killed herself alone. Then one prisoner noticed that the lower bunk was clean, but its reflection bore a bloody handprint. At the trial court, that stain exposed the refuge behind the apparent suicide: {WITCH_NAME} had waited inside the standing mirror until the girl was locked in alone."
+        ],
+        "epitaph": "Only the silent creatures had accepted her without asking her to change.",
+        "epithet": "The Naturalist No One Heard",
+        "execution": [
+          "The execution stand locks her flat on her back inside an open specimen drawer. A specimen pin descends, transfixes her chest, and pierces the backboard beneath her, fixing her in place as the specimen. She struggles against it as the drawer retracts beneath a glass cover. When the drawer stops, she lies motionless on display."
+        ],
+        "magic": {
+          "name": "Beyond the Glass",
+          "text": "You can step bodily into any reflection and inhabit the world it shows."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

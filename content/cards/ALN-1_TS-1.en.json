@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Thrill-Seeker",
+  "copingSub": "TS-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Thrill-Seeker",
+  "tag": "ALN-1_TS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At the upper railing, {WITCH_NAME} lost her balance, and a girl caught her wrist and pulled her to safety. When {WITCH_NAME} invited her to balance on the railing too and share the thrill, the girl refused: she had intervened out of fear. She said she would ask the warden to supervise {WITCH_NAME} the next morning.",
+          "During evening free time, {WITCH_NAME} hid a sword beneath the girl's lower bunk. That night, a guard locked the girl alone behind her barred cell door. {WITCH_NAME} became living lightning, passed through the door, and took shape again inside. She drew the hidden sword and thrust it fatally into the girl's chest, then closed the girl's hand around the hilt. She left through the bars as lightning. The prisoners took the scene for suicide.",
+          "In the trial court, one prisoner recalled a phone conversation with the girl after the door was locked. When the body had been found, a prisoner had opened the hand wrapped around the hilt and discovered cuts made by gripping the blade. The girl had seized it to defend herself during an assault, not to drive it into her own chest. The call placed that assault after lockup; with the struggle exposed, the barred door revealed how {WITCH_NAME} had intruded—as lightning."
+        ],
+        "epitaph": "What she called captivity had been kindness—and rescue was beyond reach when it mattered.",
+        "epithet": "The Unreachable Daredevil",
+        "execution": [
+          "The execution stand lowers two iron hands over her wrists and hoists her into the air. The hands pull her wrists in opposite directions, moving farther and farther apart. When one arm finally tears free, its iron hand keeps the severed arm hanging motionless."
+        ],
+        "magic": {
+          "name": "Lightning Incarnate",
+          "text": "She can become living lightning, streaking through the air and along conductive material."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

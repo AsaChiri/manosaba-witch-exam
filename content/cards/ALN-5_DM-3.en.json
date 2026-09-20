@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Doomer",
+  "copingSub": "DM-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Doomer",
+  "tag": "ALN-5_DM-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week, a girl had joined {WITCH_NAME} in a private performance in the reception room, taking the play’s second role. Today, encouraged by it, she used her phone in the lounge to invite the prisoners to a reading.",
+          "“You’ll only laugh at it,” {WITCH_NAME} told the prisoners. The girl handed one prisoner the private script anyway, giving them a copy to follow. In response, {WITCH_NAME} used her Magic to leave a living duplicate of herself in the lounge. While the duplicate kept the prisoner talking by improvising a hopeful ending to the play, {WITCH_NAME} fatally stabbed the girl in the chest with a sword in the reception room, before the reading began.",
+          "When the girl’s body was discovered in the reception room, that prisoner gave {WITCH_NAME} an alibi: the two had been talking continuously in the lounge. But during that conversation, the prisoner had bandaged the woman’s blistered right palm after a tea scald. Examining {WITCH_NAME}’s right palm now, the prisoner found uninjured skin. That mismatch unraveled the alibi: the prisoner had been talking to {WITCH_NAME}’s living duplicate."
+        ],
+        "epitaph": "Certain they would laugh, she ended the story before she could learn whether they might welcome her.",
+        "epithet": "The Storyteller Who Swallowed Her Words",
+        "execution": [
+          "The execution stand clamps her inside a puppet stage with a troupe of marionettes in her likeness. The marionettes lower a bladed curtain through her neck, then bow before her severed head in a final curtain call."
+        ],
+        "magic": {
+          "name": "Second Selves",
+          "text": "Create living copies of yourself, each with an independent mind and will."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

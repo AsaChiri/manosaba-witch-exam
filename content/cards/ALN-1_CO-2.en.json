@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Concealer",
+  "copingSub": "CO-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Concealer",
+  "tag": "ALN-1_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Whenever {WITCH_NAME} missed her turn during card games in the lounge, the girl reminded her to play. Each time, {WITCH_NAME} kept the same smile and said she preferred to watch. Today, the girl took her at her word and gave her playing cards to another prisoner. Before the evening game, she handed {WITCH_NAME} a serving tray and sent her to serve dessert instead.",
+          "Before the game began, {WITCH_NAME} struck the girl in the head with a stoneware teapot, killing her. She then used her Magic to turn the chipped teapot into a soft cake replica.",
+          "When a prisoner arrived for the game, they found the girl beside the fireplace, her head bloodied. When they lifted the teapot by its handle, it crumbled in their grasp—the teapot was cake. The prisoners took the scene for an accident: she must have fallen and struck her head on the fireplace.",
+          "But a prisoner pulled a ceramic splinter from the wound and found that it fit the gap in the teapot's rim. In the trial court, that match exposed {WITCH_NAME}'s trick: although the teapot was now cake, it had been solid stoneware when it struck the girl."
+        ],
+        "epitaph": "They believed she was content to watch—until watching alone was all she had.",
+        "epithet": "The Ever-Smiling Hostess",
+        "execution": [
+          "The execution stand holds the witch upright on a tiered cake pedestal. A cake-slicing wire presses into her waist and draws steadily backward through her. It keeps moving until it clears her torso, leaving her divided body motionless on the tiers."
+        ],
+        "magic": {
+          "name": "Cake in Disguise",
+          "text": "She can turn any inanimate object into edible cake without changing how it looks."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

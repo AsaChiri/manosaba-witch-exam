@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Concealer",
+  "copingSub": "CO-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Concealer",
+  "tag": "ALN-1_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For days, the girl had clasped {WITCH_NAME}'s hands in the courtyard, offering gentle reassurance. That day at the upper railing, she confided her fear of execution. {WITCH_NAME} answered through her Magic in the girl's own voice, echoing the reassurance the girl had once given her. The girl asked for a genuine answer instead of an imitation. When the girl said she would never confide in {WITCH_NAME} again, {WITCH_NAME} tipped the girl headfirst over the upper railing during afternoon free time.",
+          "As the girl fell, {WITCH_NAME} used her Magic to sound both parts at once: a suicidal farewell in the girl's voice and, over it, a plea in {WITCH_NAME}'s own voice to save the girl. The girl struck her head on the courtyard path and died. A prisoner in the courtyard heard the exchange and believed the girl had jumped while {WITCH_NAME} tried and failed to save her.",
+          "In the trial court, a prisoner reviewed a phone video of the fall. The farewell continued through the instant the girl's head struck the path. The prisoners saw what that timing meant: {WITCH_NAME}'s Magic had counterfeited the farewell and paired it with a staged rescue plea, hiding the push beneath an apparent suicide."
+        ],
+        "epitaph": "The girl's request for a genuine answer will echo forever, unanswered.",
+        "epithet": "The Borrowed Confidante",
+        "execution": [
+          "The execution stand locks her upright inside a cello-shaped frame, leaving her throat exposed. A steel bow begins sawing back and forth across it. Even after her throat falls silent and her body goes still, the bow keeps moving."
+        ],
+        "magic": {
+          "name": "Voice Unbound",
+          "text": "She can turn her voice into any sound she can imagine."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

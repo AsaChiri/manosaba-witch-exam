@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Perfectionist",
+  "copingSub": "PF-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-2",
+  "style": "Perfectionist",
+  "tag": "ALN-2_PF-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Over the past few weeks, a girl had shared picture books with {WITCH_NAME} in the library. Today, she messaged from there to say that her old circle was reuniting and the newcomer would not be included. In the courtyard, she asked {WITCH_NAME} to return the picture book for good.",
+          "The girl had also told her not to wait in the library anymore. When {WITCH_NAME} asked whether they could keep reading together, the girl made it plain: their partnership had only been temporary, and now it was over.",
+          "During free time, {WITCH_NAME} gripped the girl's neck and held her face underwater in the courtyard fountain until she drowned. Afterward, to conceal the rejection behind the murder, she erased from history her own plea to keep reading. The girl's answer vanished with it, and one prisoner now remembered only the earlier farewell, stripped of its explanation.",
+          "The prisoners found the girl in the courtyard fountain, her face still submerged. One prisoner remembered her farewell and thought she had drowned herself. But when they examined her, finger-shaped bruises on opposite sides of her neck showed that someone had held her down. A prisoner read her phone; the chat showed that {WITCH_NAME} had acknowledged that she was excluded and that she would return the book. Together, the bruises and the chat overturned the suicide story: {WITCH_NAME} had stripped the remembered farewell of its context to conceal her assault."
+        ],
+        "epitaph": "No amount of innocence could buy her a place among them.",
+        "epithet": "The Blameless Outsider",
+        "execution": [
+          "The execution stand locks the witch into the last open space of a steel bookshelf. From both sides, steel volumes press inward, narrowing the gap around her until no space remains. Only her fingers protrude; at last, they go still."
+        ],
+        "magic": {
+          "name": "Never Happened",
+          "text": "Erase your past actions and all their consequences from history, leaving reality as if they never happened."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Ruminator",
+  "copingSub": "RU-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Ruminator",
+  "tag": "ALN-1_RU-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On previous afternoons in the library, a girl had translated her favorite childhood novel for {WITCH_NAME}, and they read it together. Today, {WITCH_NAME} reopened yesterday's conversation with a revised reply. The girl closed the novel, ending their shared readings, then invited another prisoner to read it with her that evening instead.",
+          "During afternoon free time in the library, {WITCH_NAME} used her Magic to make the girl and the invited prisoner masters of each other's learned skills. Their shared mastery would last until she deliberately withdrew it. The girl then went to the lake and swam alone for the first time with the borrowed skill. While she was in the water, {WITCH_NAME} deliberately withdrew the other prisoner from the shared mastery. The girl lost the ability to swim and drowned. The prisoners assumed a cramp had caused it.",
+          "A roommate remembered what had happened in the library before the drowning alarm: the invited prisoner, reading that same novel with borrowed fluency, stopped midparagraph and suddenly could not understand it. In the trial court, the prisoners saw that the two losses were reciprocal: what had seemed like a cramp was the girl's borrowed swimming skill vanishing when {WITCH_NAME} deliberately withdrew the shared mastery."
+        ],
+        "epitaph": "A revised reply can reopen yesterday, but never the girl's final silence.",
+        "epithet": "The Friend Who Came Too Late",
+        "execution": [
+          "On the execution stand, a swimming frame clamps around the witch, suspending her above a water tank. It lowers her face-down into the water and forces her arms through swimming strokes. It holds her submerged until her arms go limp, then keeps drawing them through perfect stroke after perfect stroke."
+        ],
+        "magic": {
+          "name": "Mutual Mastery",
+          "text": "She can make people masters of one another's learned skills."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "cell": "ABN|Ruminator",
+  "copingSub": "RU-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Ruminator",
+  "tag": "ABN-6_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The previous evening in the lounge, {WITCH_NAME} embraced the girl, and the girl embraced her back. The next morning in the dining hall, the girl rebuffed {WITCH_NAME}'s greeting. Back in the lounge, {WITCH_NAME} brought forth a tangible replay of herself giving that embrace, then held her past self and felt the girl's warmth again.",
+          "That day in the lounge, the girl appealed to their friendship when she asked {WITCH_NAME} to clean up some spilled tea. Then, in front of the other prisoners, she took it back: they weren't friends after all, and {WITCH_NAME} was her servant.",
+          "After that, {WITCH_NAME} manifested another past self in the lounge, replaying the act of polishing a table with a cleaning cloth to cover her absence. During afternoon free time, she went to the reception room and strangled the girl to death with a scarf.",
+          "When the prisoners found the girl's body there, the alarm spread. One prisoner had seen the girl leave the lounge alive, with {WITCH_NAME} apparently already polishing a table, and swore that {WITCH_NAME} had remained there continuously throughout the murder interval.",
+          "At the alarm, the witness pulled the cleaning cloth from the polisher's hands to hurry her from the lounge. With the cloth gone, the figure went on refolding empty air. That fixed gesture exposed the figure as a replay standing in for {WITCH_NAME}."
+        ],
+        "epitaph": "In the end, the company that remained with her had no choice but to stay.",
+        "epithet": "Yesterday's Friend",
+        "execution": [
+          "The execution stand restrains the witch in a seat, face-to-face with an iron double. Its bladed arms close around her and impale her in an embrace. Without releasing her, the double rocks back and forth; soon only it is moving, cradling her motionless body."
+        ],
+        "magic": {
+          "name": "Living Replay",
+          "text": "You can bring your past actions to life as tangible versions of yourself repeating them."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

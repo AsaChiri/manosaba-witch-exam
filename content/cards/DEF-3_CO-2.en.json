@@ -1,0 +1,52 @@
+{
+  "cell": "DEF|Concealer",
+  "copingSub": "CO-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Concealer",
+  "tag": "DEF-3_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On Thursday evening, her roommate brushed {WITCH_NAME}'s hair in their cell. {WITCH_NAME} returned the care with her practiced smile, soothing her roommate's distress.",
+          "That night, alone in the cell, her roommate fell from the upper bunk onto the stone floor. The fall broke her neck and killed her. At dawn, {WITCH_NAME} felt for her pulse. There was none. “You weren't supposed to fall,” she said.",
+          "She used her Magic to keep the corpse perfectly fresh for three days. Throughout the weekend, she told the other prisoners her roommate was resting in bed.",
+          "The incinerator was due to burn refuse at three on Monday afternoon. That morning, she used a sword to cut the preserved corpse into portions small enough for a chute, then wrapped them. At noon in the shower room, a prisoner intercepted {WITCH_NAME} as she put a bundle into the garbage chute. Inside was what looked like a freshly severed head.",
+          "In the trial court, the prisoners took her weekend story and the apparently fresh head as evidence that she had murdered her roommate by decapitation, and condemned her. No one had witnessed the fall, and the severing had destroyed the fracture site, so they could not corroborate her account of the earlier accident. Yet the head's freshness dated nothing: her Magic had concealed the three days since the accident, so a cut made after death passed for the murder wound."
+        ],
+        "epitaph": "By hiding the truth, she buried her innocence beyond recovery.",
+        "epithet": "The Spotless Caretaker",
+        "execution": [
+          "The execution stand holds her flat on her back inside a transparent vacuum bag. The loose film contracts until it seals tightly over her face, blocking her mouth and nose. She struggles beneath it until every movement stops; the bag keeps her body sealed and still."
+        ],
+        "magic": {
+          "name": "Untouched by Time",
+          "text": "She can stop living beings and objects from aging or decaying, preserving their present age and freshness."
+        }
+      },
+      "variant": 1
+    },
+    {
+      "fields": {
+        "crime": [
+          "Night after night in their cell, {WITCH_NAME} soothed her roommate after nightmares, always calm and reassuring. When the roommate held out a hand to comfort her in return, an unwanted image flashed through her mind: herself pushing the roommate away. Distressed, she declined with a reassuring smile. Her roommate accepted the refusal and withdrew her hand.",
+          "From the cell corridor, another prisoner had only an oblique view through the barred cell door: the two silhouettes on the wall. The prisoner reported seeing {WITCH_NAME} shove her roommate to her death. Still composed, she told the prisoners she had never touched her roommate. Then they found grip marks around the roommate's wrist.",
+          "What had happened was this. Later, her roommate's ankle snagged the bedding as she climbed down from the upper bunk, and she stumbled. {WITCH_NAME} caught her wrist, but the grip slipped. At that instant, she sent her panic into her shadow with her Magic, and its palms thrust forward. Her roommate fell from the upper bunk, struck her head on the stone floor, and died. The witness had mistaken those shadow palms for a shove from {WITCH_NAME}.",
+          "In the trial court, she withdrew her denial and told the prisoners the touch had been an attempt to save her roommate, while the apparent shove came from her shadow. But the marks made her first denial a lie, so the prisoners trusted the silhouette report over her corrected account, rejected the shadow explanation, and convicted her of the fatal shove."
+        ],
+        "epitaph": "She deserved comfort, even when she turned away the hand that offered it.",
+        "epithet": "The Untroubled Comforter",
+        "execution": [
+          "A rigid-backed restraint chair on the execution stand holds her upright, securing her wrists and hips. Its arms close over her chest. As they press in, her feet scrabble against the stand, and the arms cast a shadow that closes around her like an embrace. The pressure mounts until her feet stop scrabbling and the chair holds her motionless within the enclosing shadow."
+        ],
+        "magic": {
+          "name": "The Honest Shadow",
+          "text": "You can transfer your emotional expressions from your body to your shadow, leaving you composed while the shadow acts out what you feel."
+        }
+      },
+      "variant": 2
+    }
+  ]
+}

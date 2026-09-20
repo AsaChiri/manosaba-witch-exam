@@ -1,0 +1,32 @@
+{
+  "cell": "ABN|Ruminator",
+  "copingSub": "RU-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-10",
+  "style": "Ruminator",
+  "tag": "ABN-10_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During free time, the girl used to spend whole afternoons in the lounge teaching {WITCH_NAME} to make miniature furniture. Their first lesson was full of shared laughter. Lately, those afternoons had dwindled to brief visits. After each one, {WITCH_NAME} used her Magic through a miniature window to revisit that first lesson and hear their laughter again.",
+          "Today, the girl packed away their unfinished furniture and said there would be no more lessons. At that, {WITCH_NAME} stabbed her to death with a sword, then hid her body on the floor behind the sofa.",
+          "When a prisoner later came to the lounge, {WITCH_NAME} invited them to inspect the window joinery of the model house. Through one miniature window, she used her Magic to show the lounge during that first lesson. Looking through the miniature window toward the model’s open back, the prisoner saw the girl seated there, making miniature furniture. After the inspection, {WITCH_NAME} and the prisoner walked through the courtyard without once parting company.",
+          "When the walk ended, the prisoners found the girl’s body behind the lounge sofa. The sighting and discovery seemed to place the murder during the walk, giving {WITCH_NAME} an unbroken alibi.",
+          "But during the inspection, the prisoner had shifted sideways until the cupboard no longer blocked their line of sight. Through the window, they glimpsed a miniature cup still intact. They had accidentally broken that same cup the previous day. Its intact state dated the scene to before the break: {WITCH_NAME} had shown an old view through the window, so the murder could already have happened before the walk, and her alibi vanished."
+        ],
+        "epitaph": "The past would always open its arms to her, but it could never embrace her in return.",
+        "epithet": "Yesterday’s Guest",
+        "execution": [
+          "The execution stand held her upright in a window frame, wrists bound and a noose around her neck. A blind cord pulled the neck loop upward, hoisting her until her feet kicked clear of the floor. Then the window blind descended and shut her body from view. Beneath it, her exposed feet kicked until they went still."
+        ],
+        "magic": {
+          "name": "Windows into the Past",
+          "text": "She can make windows reveal the sights and sounds beyond them at any past moment she chooses."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

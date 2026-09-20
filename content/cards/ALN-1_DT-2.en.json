@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Detacher",
+  "copingSub": "DT-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Detacher",
+  "tag": "ALN-1_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Yesterday in the dining hall, a homesick girl confided in {WITCH_NAME} through tears. {WITCH_NAME} brushed her pain aside as trivial.",
+          "At the same table today, she used her Magic to relive the girl's memory of yesterday's conversation and felt the girl's humiliation firsthand. Still, she refused to apologize and again treated the hurt as trivial. The girl warned the prisoners that {WITCH_NAME}'s consolation only belittled their pain.",
+          "{WITCH_NAME} then invited her to the upper railing to apologize in private. She immersed a prisoner in the girl's memory of the dining-hall table, with herself there reading. The memory's original sensations replaced the prisoner's present perception. While that borrowed scene hid her absence, {WITCH_NAME} pushed the girl over the railing. The fall killed her.",
+          "One prisoner later placed {WITCH_NAME} in the dining hall throughout the killing, reading a book without pause. At the trial court, however, the prisoner remembered feeling their tongue touch a molar during that interval. Then they exposed the healed socket where the molar should have been. The contradiction exposed the reading alibi as a borrowed viewpoint: the prisoner had been perceiving the girl's memory, not witnessing {WITCH_NAME} there in the present."
+        ],
+        "epitaph": "She shared the girl's inner world, then abandoned her to the same loneliness.",
+        "epithet": "The Confidante Who Makes Every Hurt Seem Small",
+        "execution": [
+          "The execution stand straps her faceup beneath a tear-shaped pendulum. It sweeps down across her abdomen, cutting deeper with every return. When her body stops moving, it goes on swinging—an unanswered tear."
+        ],
+        "magic": {
+          "name": "Borrowed Memories",
+          "text": "She lets people relive one another's memories through the original person's senses and emotions."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

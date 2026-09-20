@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Catastrophizer",
+  "tag": "ABN-1_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "After {WITCH_NAME} woke from a dream in their cell, her companion held her hand and soothed her with a lullaby. That day, her companion invited her to sing with everyone, then told her it would be their final bedside vigil.",
+          "Spurred by that goodbye, {WITCH_NAME} entered another imagined scene through her Magic; a prisoner saw her slip into the dream. She woke by choice, and her companion sang a new verse about meeting again in the morning. After the song, {WITCH_NAME} wound a scarf around her throat and strangled her until she stopped breathing. Then she returned to the dream, immersing herself in an imagined bedside farewell filled with the new verse.",
+          "Later, a prisoner found {WITCH_NAME} still dreaming beside her unresponsive companion. In the trial court, she told the prisoners that she had remained in the dream throughout the murder. She recited the lullaby she had heard there, including the verse about morning. But another prisoner had composed that verse for the victim in the recreation room while {WITCH_NAME} was already in her first dream. Her Magic blocks all outside sounds during immersion. The prisoners realized she could only have heard the verse after waking and before returning to the dream, exposing the break in her dream alibi."
+        ],
+        "epitaph": "She gave up the one future she never had to dream: a place beside them.",
+        "epithet": "A Rehearsal for Being Left Behind",
+        "execution": [
+          "The execution stand has become a canopied bed, strapping her flat on her back. Above it, a pendulum blade begins to swing. Each pass drops lower, missing her throat by less than the last, while the bed plays the same bedtime refrain that once soothed her. At last the blade catches her throat, staining the pillow with blood. It keeps swinging after her body goes still."
+        ],
+        "magic": {
+          "name": "Dream Diving",
+          "text": "Dive into any scene you imagine and experience it as a lifelike dream with every sense."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

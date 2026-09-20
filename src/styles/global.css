@@ -276,9 +276,56 @@ html.is-collector .page-bar__back {
   48% { opacity: 0.98; }
   72% { opacity: 0.965; }
 }
-@keyframes glass-drift {
-  from { transform: translate3d(-1.5%, 0, 0) scale(1.02); }
-  to { transform: translate3d(1.5%, 0.6%, 0) scale(1.02); }
+/* The game-room backdrop (GameBackdrop.astro / ResultView.vue — owner decision
+ * 2026-09-11, v1's treatment): a fixed image far below full strength, blurred
+ * and desaturated, under a radial veil that pools into the ink at the edges.
+ * z-index -1 sits above the html::before vignette (-2) and below all content.
+ * The court scene drifts (pan + slow zoom, transform only — cheap on phones);
+ * the wall behind the record pages stays still. */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.backdrop__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  opacity: 0.4;
+  filter: blur(1.5px) saturate(0.85) brightness(0.75);
+  transform: scale(1.08);
+}
+.backdrop--wall .backdrop__img {
+  object-position: center top;
+  opacity: 0.32;
+  filter: blur(3px) saturate(0.8) brightness(0.6);
+  transform: scale(1.04);
+}
+.backdrop__veil {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 38%, rgba(10, 6, 8, 0.12) 0%, rgba(10, 6, 8, 0.55) 55%, rgba(10, 6, 8, 0.94) 100%);
+}
+.backdrop--drift .backdrop__img {
+  will-change: transform;
+  animation: backdrop-drift 52s ease-in-out infinite alternate;
+}
+/* the result screen's wall arrives with the record, not before it */
+.backdrop--fade {
+  animation: backdrop-fade 1400ms var(--ease-ceremony) both;
+}
+@keyframes backdrop-drift {
+  from { transform: translate3d(-2%, 0.5%, 0) scale(1.1); }
+  to { transform: translate3d(2%, -1%, 0) scale(1.18); }
+}
+@keyframes backdrop-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 @keyframes paper-slide-in {
   from { opacity: 0; transform: translateX(18px); }

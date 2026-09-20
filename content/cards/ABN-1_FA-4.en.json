@@ -1,0 +1,31 @@
+{
+  "cell": "ABN|Fantasist",
+  "copingSub": "FA-4",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Fantasist",
+  "tag": "ABN-1_FA-4",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that evening, {WITCH_NAME} threw away their shared supper uneaten. When the girl arrived late at the dining hall, she split the dessert she had saved with {WITCH_NAME}. Over dessert, the girl asked to eat alone that night—just for one evening.",
+          "In answer, {WITCH_NAME} unraveled a chipped plate into ceramic thread and knitted it into a crown. She offered the girl a reunion feast the next day, promising it would mark the reconciliation meant for them. Instead, later that evening, the girl set the crown aside on the upper railing.",
+          "As the girl leaned over the upper railing, {WITCH_NAME} unraveled the iron supporting her into thread. The girl and the ceramic crown fell to the courtyard path, where the impact killed her. Afterward, {WITCH_NAME} knitted the iron back into a seamless railing. She said the girl had reached too far for the crown and fallen by accident.",
+          "But a prisoner found fringe from the girl's sleeve woven through the solid iron of the railing. The trapped fringe revealed what the seamless iron concealed: {WITCH_NAME} had knitted the railing back around the sleeve after taking away the girl's support."
+        ],
+        "epitaph": "She could not endure one evening apart, and made every tomorrow together impossible.",
+        "epithet": "The Premature Mourner",
+        "execution": [
+          "The execution stand locks her upright in a knitting frame. Needles knit iron thread upward around her body, forming the hem of a coronation gown first and closing it at her throat. Its iron collar tightens around her throat and holds there. When the needles stop, she hangs motionless inside the finished gown."
+        ],
+        "magic": {
+          "name": "Unravel and Remake",
+          "text": "She can unravel solid, inanimate objects into thread and reknit the same material into new objects."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

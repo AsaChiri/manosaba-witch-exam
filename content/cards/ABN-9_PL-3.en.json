@@ -1,0 +1,32 @@
+{
+  "cell": "ABN|Pleaser",
+  "copingSub": "PL-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-9",
+  "style": "Pleaser",
+  "tag": "ABN-9_PL-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} was a child, her mother threatened to abandon her unless the girl could smile convincingly for a family photograph.",
+          "In recent days, the victim had patiently retaken photos of them together in the lounge, always trying for a natural smile. Whenever she asked for another pose, {WITCH_NAME} agreed without question. Today the request turned cruel: the victim demanded a portrait of her on her knees, pleading, and said their friendship was over if she refused. {WITCH_NAME} knelt before her and pleaded, practicing her smile in a compact makeup mirror. The victim took the picture with her phone.",
+          "Once the humiliating portrait was taken, {WITCH_NAME} answered the threat by sliding a sword's reflection across the compact mirror. The real blade struck the victim in the chest and killed her.",
+          "She fastened a fitted coat around the body and seated it behind the sofa, its back to the doorway. When a prisoner passed, she asked them to take her portrait with a phone from the doorway. As the prisoner raised the phone, {WITCH_NAME} slid the coat's reflection sideways across the compact mirror. The coat rose, carrying the corpse past the sofa. From the doorway, the prisoner saw the victim's back move past the sofa and assumed she had just walked by, alive. {WITCH_NAME} then lowered the coat's reflection behind the sofa, hid the body, and left through the doorway with the prisoner.",
+          "When the body was discovered, the prisoner found two continuous blood streaks leading to the sofa. There were no separate footprints; both trails ended at the bloodied tips of the victim's shoes. The prisoners realized those feet had never taken a step. {WITCH_NAME}'s Magic had carried the corpse in its coat and manufactured the sighting of the victim alive."
+        ],
+        "epitaph": "The perfect smile came at last, and no one answered it.",
+        "epithet": "Hostage to a Smile",
+        "execution": [
+          "The execution stand straps the witch into a portrait chair, fixing her head in place. Cheek hooks pull her mouth into the smile she practiced. A steel spindle enters her mouth and drives steadily inward. When she goes still, the hooks hold the smile in place."
+        ],
+        "magic": {
+          "name": "Mirror Shift",
+          "text": "She can slide a person or object's reflection across a mirror, moving its real counterpart with it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

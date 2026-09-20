@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Wall-of-Anger",
+  "copingSub": "WA-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Wall-of-Anger",
+  "tag": "ALN-10_WA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "A girl used to share two bowls of supper with {WITCH_NAME} in the reception room, just the two of them. At each meal, {WITCH_NAME} recited old slights to the girl until she had worked herself back into anger.",
+          "Today, the girl moved their bowls to side-by-side places at the communal table in the dining hall. She would no longer deliver supper in private; from now on, {WITCH_NAME} would always have a place beside her at the table. In answer, {WITCH_NAME} drove a sword through the girl's chest in the lounge. As footsteps approached, she slipped through a paper fold and into the full-sized reception room it held.",
+          "A prisoner found the girl in the lounge gripping the sword's hilt. To the prisoners, the scene looked like self-impalement. Then one prisoner followed bloody footprints across the threshold of the paper fold. Beyond it was the reception room, where {WITCH_NAME} stood with blood on her shoes. At the trial court, the prisoners used that trail to overturn their first reading: the lounge had seemed empty only because {WITCH_NAME}, the hidden assailant, had retreated into the folded room."
+        ],
+        "epitaph": "Belonging had a place for her; she chose exile anyway.",
+        "epithet": "The Eternal Outsider",
+        "execution": [
+          "The execution stand clamps her flat against the cutting bed of a paper guillotine, holding her in place like a sheet. Its trimming blade swings down and shears through her neck as if cutting paper. Once the cut is complete, the guillotine settles against its bed, and her body lies motionless."
+        ],
+        "magic": {
+          "name": "Foldaway Rooms",
+          "text": "With her Magic, she can fold a room into portable paper; people can still step through a fold into the full-sized room inside."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Self-Soother",
+  "copingSub": "SS-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Self-Soother",
+  "tag": "ALN-1_SS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the days before, the girl would hold {WITCH_NAME}'s hand in the lounge, offering comfort without a word. {WITCH_NAME} answered through her Magic, keeping snow falling around them throughout their shared silence.",
+          "Today, the girl asked her to listen—to keep her company without weather between them. Instead, {WITCH_NAME} conjured a thunderstorm in the lounge, drowning out the girl's voice. With her words lost beneath it, the girl withdrew her hand for the last time.",
+          "That afternoon, during free time, a natural hailstorm battered the courtyard. Under its cover, {WITCH_NAME} answered the farewell with a hailstorm of her own inside the lounge. It bombarded the girl until she died. When the natural storm ended, she dragged the body into the courtyard, then draped a blanket over the hail-pitted sofa. In the courtyard, she told the prisoners that the girl had died outside in the storm.",
+          "But when a prisoner pulled the blanket away in the lounge, a splinter lodged in the girl's palm matched a break in the exposed sofa. That match overturned {WITCH_NAME}'s story: her fatal hail had struck inside the lounge, not outside in the courtyard."
+        ],
+        "epitaph": "The voice she silenced was the companionship she could never reclaim.",
+        "epithet": "An Exile from Silence",
+        "execution": [
+          "The glass rain cabinet on the execution stand holds her fast in a bolted chair. Artificial rain hammers down, filling the cabinet until the water rises over her face. The downpour continues. She hangs in the chair's restraints, motionless beneath the water."
+        ],
+        "magic": {
+          "name": "Weather at Will",
+          "text": "She can conjure any weather she chooses in the air around her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

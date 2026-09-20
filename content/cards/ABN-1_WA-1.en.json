@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Wall-of-Anger",
+  "copingSub": "WA-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Wall-of-Anger",
+  "tag": "ABN-1_WA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier, in the courtyard, the girl had patiently untangled {WITCH_NAME}'s hair. Today, she postponed their walk until tomorrow. When she reached again for a loose strand, {WITCH_NAME} called her tenderness pity. The girl turned away.",
+          "Before she could leave, {WITCH_NAME} seized her wrist and slammed her face-down into the fountain. The words of her rejection materialized as solid letters against the girl's nape, holding her head underwater until she drowned. Then she made the letters disappear, leaving the corpse unburdened.",
+          "Seeing the bruise on her forehead, the prisoners assumed she had drowned by accident. But when one prisoner moved aside the hair covering her nape, she uncovered bruises shaped like reversed letters. At the trial court, those marks exposed the missing weight as {WITCH_NAME}'s solid words, vanished after she drowned the girl."
+        ],
+        "epitaph": "A place in tomorrow had been saved for her. She chose to lose it first.",
+        "epithet": "The One Who Leaves Before She Is Left",
+        "execution": [
+          "The execution stand holds her face-up on a typewriter bed. Metal typebars hammer down one after another, piercing her torso and inscribing her rejection across it. The last stamps a full stop. She goes still."
+        ],
+        "magic": {
+          "name": "Words Made Solid",
+          "text": "Her spoken words become solid objects in the shape of their letters."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

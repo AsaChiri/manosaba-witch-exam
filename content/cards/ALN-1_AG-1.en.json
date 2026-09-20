@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Avenger",
+  "copingSub": "AG-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Avenger",
+  "tag": "ALN-1_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "After rescuing a sparrow, a girl entrusted it to {WITCH_NAME} in the courtyard, and together they cared for it. When it pecked the girl's hand, she flung it away and broke its wing.",
+          "Because she could understand the injured sparrow's suffering, {WITCH_NAME} confronted the girl on every visit and demanded that she care for it. Today, at the upper railing, the girl brushed aside those demands and called the bird's distress a nuisance. She threatened to break its neck and silence it for good. At that threat, the witch flipped the girl over the railing by her ankles and sent her falling to her death.",
+          "A prisoner later found the girl's body on the courtyard paving. Through her Magic, the witch questioned the sparrow and reported that it had seen the body falling. She then claimed it had watched the girl climb onto the railing of her own accord, making the bird a witness to suicide.",
+          "A prisoner checked the view from the sparrow's nest in the tree, where its broken wing had confined it. The upper railing was hidden. The prisoners saw the contradiction: the sparrow could have seen the body falling past, but never the girl climbing onto the railing. The witch had invented that part of its testimony."
+        ],
+        "epitaph": "The sparrow remained her honest companion, never her willing accomplice.",
+        "epithet": "The Unheard Voice of Animals",
+        "execution": [
+          "The execution stand holds the witch with her arms outstretched in splints as an iron bird bends over her. The bird hammers its steel beak into her chest, pecking it bloody. She strains against the splints, but the beak keeps falling after her final struggle and does not stop when she goes still."
+        ],
+        "magic": {
+          "name": "Animal Tongues",
+          "text": "She can talk with animals, and they can talk with her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

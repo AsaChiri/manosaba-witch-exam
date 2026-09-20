@@ -1,0 +1,31 @@
+{
+  "cell": "DEF|Performer",
+  "copingSub": "P-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Performer",
+  "tag": "DEF-3_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On earlier evenings in the dining hall, the victim and {WITCH_NAME} took a shared bow after performing a comic snake duet with a scarf.",
+          "During the next rehearsal, she confessed that an image of strangling someone kept intruding on her thoughts, and that it frightened her. The victim said such an image meant she wanted to murder someone. The victim then gave the scarf back and withdrew from their duet.",
+          "As the victim left, {WITCH_NAME} brought the untied scarf to life. It wrapped itself around the victim's throat, tied a double knot at her nape, and tightened fatally. In her struggle, the victim overturned a chair as she collapsed, and the scarf's trailing end fell across it.",
+          "Afterward, {WITCH_NAME} told the prisoners that the scarf had snagged the chair during their puppet performance, causing the fatal fall. But a prisoner examining the body lifted the victim's hair and found the double knot at her nape. She remembered seeing the victim return the scarf untied during rehearsal. The knot refuted the story of a chair snag: {WITCH_NAME} had deliberately puppeteered the scarf into tying itself."
+        ],
+        "epitaph": "Laughter never answered her plea for absolution.",
+        "epithet": "Begging laughter for borrowed innocence.",
+        "execution": [
+          "The execution stand hoists a marionette cross. Cords from it bind the witch's neck, wrists, and ankles. A noose hauls her up by the neck while the other cords jerk her limbs into a puppet's dance. Her face twists in struggle, then goes still. She dangles from the cords as they keep twitching her through a mechanical encore."
+        ],
+        "magic": {
+          "name": "Puppet Parade",
+          "text": "She can bring inanimate objects to life as obedient puppets that move and gesture like living characters."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

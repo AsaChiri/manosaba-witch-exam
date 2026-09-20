@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Ritualist",
+  "copingSub": "RI-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-9",
+  "style": "Ritualist",
+  "tag": "ALN-9_RI-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The girl welcomed {WITCH_NAME} into the lounge singing circle and gave her the opening solo. At every rehearsal, {WITCH_NAME} restarted the prisoners' warm-up: a hum, scales, then the song. But today the girl gave the solo to another prisoner and told {WITCH_NAME} that at the next rehearsal, she could only sit in the audience.",
+          "After rehearsal, she slashed the girl's throat with a sword, severing her windpipe. Once the girl was dead, she used her Magic on the remains, drawing panicked replies in the girl's own voice. After leaving the lounge, she shared a phone with a prisoner in the dining hall. The frantic exchange made it seem that the girl had survived {WITCH_NAME}'s departure.",
+          "After the call, the prisoner traced bloodied heelprints through the lounge to the pool of blood at the girl's throat. Then she remembered the fresh, bloodied heelprint {WITCH_NAME} had left in the dining hall when the call arrived. That print joined the call to the trail: the girl had already been fatally wounded, and the voice that seemed to prove her alive had come from her remains."
+        ],
+        "epitaph": "The dead would answer her, but the living would not welcome her back.",
+        "epithet": "A Chorister Without a Choir",
+        "execution": [
+          "The execution stand locks her into a music-box chair with a loop around her throat. A pin-studded drum winds the loop tighter, stifling her voice. The chair repeats the old warm-up—a hum, scales, then the song—and at the last note, she goes still."
+        ],
+        "magic": {
+          "name": "The Dead Answer",
+          "text": "She can converse with human remains, which speak in the deceased person's own voice and retain their memories and personality."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

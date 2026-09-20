@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Striker",
+  "copingSub": "ST-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Striker",
+  "tag": "ALN-5_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the library, {WITCH_NAME} would shut her charcoal atlas whenever other prisoners approached, hiding its pages of imaginary countries. One girl, however, named a river in it for her, making the atlas a shared invention. The girl invited her to show it to the others during free time. On the invitation, she named {WITCH_NAME} as the atlas's author.",
+          "At that, {WITCH_NAME} used her Magic to shrink the girl to finger size, then pinched the tiny girl's neck between her fingers until she died. She carried the miniature body to the courtyard in her pocket. There, she restored it to full size; the charcoal clinging to the girl's neck enlarged in the same proportion. She laid the body beneath the upper railing, and the prisoners mistook the death for an accidental fall.",
+          "One prisoner examined the opposing charcoal fingerprints on the girl's neck and noticed that their ridge spacing was far too wide. In the trial court, the prisoners recognized what that impossible spacing meant: the prints exposed {WITCH_NAME}'s hidden grip on the girl while they were at different scales, overturning the story of a fall."
+        ],
+        "epitaph": "She silenced the welcome—and with it, the place she might have belonged.",
+        "epithet": "The Besieged Dreamer",
+        "execution": [
+          "The execution stand holds her upright against the palm of a giant mechanical hand. The hand's open thumb and forefinger close on her neck and keep squeezing. She struggles between them until her pinched body goes still."
+        ],
+        "magic": {
+          "name": "Scale Shift",
+          "text": "She can make people and objects physically larger or smaller."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

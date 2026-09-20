@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Ruminator",
+  "copingSub": "RU-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Ruminator",
+  "tag": "ALN-1_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Early in their friendship, a girl gave {WITCH_NAME} a gift in the courtyard: an uncarved stone she had turned into a painted relief of the two of them smiling. On later days, the girl painted tears over her own face. Each evening, {WITCH_NAME} used her Magic to undo the tears and bring back the portrait of the two of them smiling.",
+          "This afternoon, the girl blotted out her own image with black paint in the courtyard. That evening, she returned the stone to {WITCH_NAME}, ending their friendship. At that, {WITCH_NAME} struck the girl in the temple with the stone, killing her.",
+          "After the blow, she used her Magic to return the bloodied portrait to a rough, unpainted, uncarved stone on the path. When the prisoners found the girl's body, it seemed she had fallen there by accident. But one prisoner who had seen her black out the portrait that afternoon recognized flakes of black paint inside the wound. The prisoners saw what the change had concealed: the rough stone was the painted portrait, reverted after it had served as the weapon."
+        ],
+        "epitaph": "The girl's smile had always been hers alone.",
+        "epithet": "Yesterday's Friend",
+        "execution": [
+          "The execution stand locks her head inside a portrait mold. Liquid plaster floods her face, turning her gasps into a muffled struggle. When the mold opens, it reveals a cast of her face fixed in a smile. She is still."
+        ],
+        "magic": {
+          "name": "The Way Things Were",
+          "text": "She can return an inanimate object to any physical state it had in the past."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

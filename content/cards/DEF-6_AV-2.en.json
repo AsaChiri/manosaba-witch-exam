@@ -1,0 +1,30 @@
+{
+  "cell": "DEF|Avoider",
+  "copingSub": "AV-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Avoider",
+  "tag": "DEF-6_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, {WITCH_NAME} confessed to a girl that she had done something wrong. The girl clasped her hand in reassurance. Trusting her, the girl invited the prisoners to meet in the lounge that day and discuss the confession together. When {WITCH_NAME} asked her to cancel the meeting and keep the confession private, the girl refused.",
+          "At that refusal, {WITCH_NAME} used her Magic to turn the girl into a plush version of herself, folded her into a small pillowcase, and drove a sword through the case into her chest. She carried the girl to the shower room inside the pillowcase, compressed like a folded cushion, then restored her to human form with a fatal wound in her chest.",
+          "Later, one prisoner recalled seeing {WITCH_NAME} leave the lounge with the small pillowcase and assuming it was ordinary laundry. In the shower room, the prisoners found part of the pillowcase's hem caught in the chest wound. From the hem, they understood that the supposed laundry had enclosed the captive girl in plush form."
+        ],
+        "epitaph": "At last, her nameless guilt had a name: murder.",
+        "epithet": "The Penitent Without an Accuser",
+        "execution": [
+          "The execution stand seals her inside a transparent vacuum sack, pinning her like a plush toy in its package. The loose film contracts and clings to her face until every feature presses through it. She struggles against the seal, then falls still. The clear wrapping holds her there as a sealed display."
+        ],
+        "magic": {
+          "name": "All Things Plush",
+          "text": "Turn living beings and objects into plush versions of themselves, made from soft fabric and stuffing."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

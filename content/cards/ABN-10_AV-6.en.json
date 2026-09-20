@@ -1,0 +1,31 @@
+{
+  "cell": "ABN|Avoider",
+  "copingSub": "AV-6",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-10",
+  "style": "Avoider",
+  "tag": "ABN-10_AV-6",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For weeks, the victim had slipped notes to {WITCH_NAME} inside borrowed library books. What had once been a letter every day dwindled to one-word postponements.",
+          "That day in the lounge, she gave {WITCH_NAME} a farewell letter saying she could not continue their friendship. She tore it up and discarded the scraps. Then she returned the borrowed book to {WITCH_NAME} and said she might visit someday, leaving her to wait without an end. {WITCH_NAME} rejected that promise and any future like it: no more somedays, ever. Then she drove a sword into her friend's chest and killed her.",
+          "From one discarded scrap, she regrew the farewell into a whole sheet in the victim's original handwriting. She placed the victim's hand on the sword hilt and laid the restored farewell beside the body. The pose and letter made the prisoners believe the victim had killed herself, leaving the farewell as her final message.",
+          "A prisoner recovered a handwritten scrap from the sofa. When compared with the intact sheet, the fragment overlapped a crossed-out word that appeared on both pieces. Another prisoner remembered seeing the victim tear up that same farewell earlier that day and recognized {WITCH_NAME} as its addressee. The apparent suicide note was the breakup letter {WITCH_NAME} had recycled after the murder."
+        ],
+        "epitaph": "She could restore every torn word, but never the answer she was waiting for.",
+        "epithet": "The One Left Waiting for Goodbye",
+        "execution": [
+          "An envelope-shaped guillotine folds shut around her on the execution stand, pinning her flat with only her neck exposed. A letter opener sweeps across her neck, cutting off her cry. Her twitching fades as the guillotine seals, until the unaddressed envelope lies still and silent."
+        ],
+        "magic": {
+          "name": "Grow Back Whole",
+          "text": "A fragment of any nonliving thing can regrow into the complete original."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

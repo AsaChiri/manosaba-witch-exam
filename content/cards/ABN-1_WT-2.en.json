@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Watcher",
+  "copingSub": "WT-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Watcher",
+  "tag": "ABN-1_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, {WITCH_NAME} had spent evening after evening braiding a girl's hair with a ribbon, and the girl had accepted her care. Today, the girl returned with the braid undone and gave back the ribbon.",
+          "At that, {WITCH_NAME} drew the girl's reflection into conversation. It confided that the girl wanted their friendship to end. She kept questioning it until the reflection voiced the girl's unspoken exasperation as a threat to kill {WITCH_NAME}. Hearing that, she drove a sword into the girl's chest and killed her.",
+          "She claimed the girl had attacked her first with a mirror shard. But a prisoner had seen the girl's lips stay closed as the death threat came from her reflection. A prisoner had also seen the hand mirror hit the floor and crack for the first time only after blood spread across the girl's chest. Together, the two observations exposed {WITCH_NAME}'s self-defense claim as a fabrication."
+        ],
+        "epitaph": "By taking away the girl's choice, she left the question of belonging unanswered forever.",
+        "epithet": "The Premature Mourner",
+        "execution": [
+          "A mirrored press on the execution stand locks her upright against its backplate. The mirror platen advances, carrying her reflection toward her until it bears down against her and its glass fractures under the pressure. The press holds her there until she is motionless against her bloodied reflection."
+        ],
+        "magic": {
+          "name": "Mirror Confidences",
+          "text": "She can converse with people's reflections, which confide the thoughts their owners leave unspoken."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

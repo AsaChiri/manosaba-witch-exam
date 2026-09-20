@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Fantasist",
+  "copingSub": "FA-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Fantasist",
+  "tag": "ALN-10_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week, a girl had playfully crowned {WITCH_NAME} with a paper crown in the lounge. Today in the same room, {WITCH_NAME} treated the game as royal authority and commanded a prisoner to kneel in homage. The girl took the prisoner's hand, raised them to their feet, and removed the paper crown from {WITCH_NAME}.",
+          "In answer, {WITCH_NAME} offered the girl a goblet sculpted from shadow as a drink of reconciliation. While the girl drank, {WITCH_NAME} reshaped the goblet into a sealed enclosure around her head and suffocated her. Then she reshaped the enclosure back into an innocent goblet in the corpse's lap. The prisoners thought the girl had fallen suddenly ill while sitting with her drink.",
+          "But one prisoner found an ear stud embedded seamlessly in the goblet's wall. The stud matched the fresh tear in the girl's earlobe. At the trial court, the prisoners reconstructed what {WITCH_NAME}'s Magic had hidden: the goblet had been the enclosure around the girl's head."
+        ],
+        "epitaph": "She chose a crown over a place among equals, and lost both.",
+        "epithet": "The Queen in Exile",
+        "execution": [
+          "The execution stand clamps her against a vertical iron platen, holding her arms and legs spread in a stark silhouette. A steel roller presses into her at the head and descends to her feet, flattening her against the iron. When the roller clears the platen, it leaves a bloodied silhouette in final stillness."
+        ],
+        "magic": {
+          "name": "Shadowcraft",
+          "text": "You can sculpt shadows into solid objects."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

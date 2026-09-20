@@ -1,0 +1,30 @@
+{
+  "cell": "POW|Avoider",
+  "copingSub": "AV-2",
+  "family": "POW",
+  "locale": "en",
+  "originSub": "POW-2",
+  "style": "Avoider",
+  "tag": "POW-2_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, {WITCH_NAME} deepened the sofa’s shadow into a private refuge. On earlier days, her roommate had waited at its edge with bread until she was invited in.",
+          "Today, the roommate entered without permission and grabbed {WITCH_NAME} by the wrist to pull her out. When {WITCH_NAME} refused to come up, her roommate promised to drag her from every refuge she made. Before they reached the surface, {WITCH_NAME} stabbed her roommate with a sword, leaving fatal wounds. She left the body inside the shadow, hidden beneath the sofa, and claimed her roommate had never entered the refuge.",
+          "Later, a prisoner called the roommate’s phone and heard it ringing beneath the lounge floor. The prisoner climbed down into the shadow and found the stabbed body. The prisoners saw what that discovery meant: the roommate had entered the refuge after all, despite the denial."
+        ],
+        "epitaph": "At last, she found a refuge where no one would ever disturb her.",
+        "epithet": "She hides in shadows, longing only to be left alone.",
+        "execution": [
+          "The execution stand binds her flat on her back beneath a black press shaped like a human silhouette. It descends, compressing her flatter and flatter. When it settles, only her fingertips remain exposed, perfectly still."
+        ],
+        "magic": {
+          "name": "Shadow Rooms",
+          "text": "She can deepen cast shadows into spacious rooms beneath their flat surfaces."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

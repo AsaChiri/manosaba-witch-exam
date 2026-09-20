@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Performer",
+  "copingSub": "P-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-4",
+  "style": "Performer",
+  "tag": "ALN-4_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At an earlier meal in the dining hall, {WITCH_NAME} used her elastic Magic to knot her arms into a bow. Laughter filled the room, and the amused girl welcomed her to share the meal.",
+          "Today at the lake, {WITCH_NAME} confided to the girl, in all seriousness, how lonely she was. The girl retold the confession to the prisoners as a punchline, then said there would be no more invitations unless they needed comic relief.",
+          "During afternoon free time, the girl went swimming in the lake. {WITCH_NAME} lengthened one arm through the water, pinned her facedown beneath the surface, and drowned her. A prisoner saw {WITCH_NAME} sitting on the bank as the girl drowned, so the prisoners took it for a swimming accident.",
+          "When the body was recovered, a prisoner noticed fresh human tooth impressions on the inside of {WITCH_NAME}'s forearm. At the trial court, that prisoner recalled that the girl's mouth and {WITCH_NAME}'s arm had remained apart during the recovery. The prisoners put the two observations together: while {WITCH_NAME} sat on the bank, her elastic arm had been restraining the girl beneath the water, turning the supposed accident into deliberate drowning."
+        ],
+        "epitaph": "She had only needed a place where she could belong without performing for it.",
+        "epithet": "The Jester at the Table",
+        "execution": [
+          "The execution stand suspends her with her limbs spread between two opposing steel palms. The palms begin to clap, closing over her head and torso again and again. When they finally part, her body is crumpled and still."
+        ],
+        "magic": {
+          "name": "Living Rubber",
+          "text": "She can stretch and bend her own body like rubber, shaping it however she chooses."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

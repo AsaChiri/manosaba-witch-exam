@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Watcher",
+  "copingSub": "WT-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Watcher",
+  "tag": "ALN-1_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, a girl clasped {WITCH_NAME}'s hand and asked for reassurance. Trusting her, she handed over a sealed apology meant for her roommate.",
+          "Through her Magic, {WITCH_NAME} privately lived through asking the girl to recite the letter. In that possible conversation, she heard the girl confess her fear of losing her place beside her roommate. She tried words of comfort there, heard the grateful reply they would earn, then quoted that reply aloud before the girl could say it. The girl pulled her hand away. From then on, she said, her confidences would belong to her roommate alone.",
+          "With those confidences closed to her, {WITCH_NAME} made the roommate's supposed reply into a trap. During evening free time, she delivered a reconciliation invitation to the girl's cell, quoting the confidence the girl had never spoken. It drew her to the lounge, where {WITCH_NAME} stabbed her through the chest with a sword. The prisoners first believed the roommate had sent the invitation that led to the fatal meeting.",
+          "Later, while searching {WITCH_NAME}'s pillow, a prisoner recovered the original apology in her cell with its seal intact. At the trial court, the prisoner unsealed it and found the same confidence quoted in the invitation. The untouched seal turned the quote against {WITCH_NAME}: she had heard the words in a conversation that never happened, and the invitation had been hers."
+        ],
+        "epitaph": "The last word remained; its listener was gone for good.",
+        "epithet": "Forever Outside the Heart",
+        "execution": [
+          "The execution stand holds her upright before an iron companion. The metal figure opens its arms in welcome. Then it closes them, drawing her into the blade at its chest, and holds the impaling embrace until she is still."
+        ],
+        "magic": {
+          "name": "Conversations That Never Were",
+          "text": "Privately live through possible conversations that never happen, experiencing firsthand how people would respond to the words you choose."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

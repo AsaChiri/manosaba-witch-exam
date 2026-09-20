@@ -1,0 +1,32 @@
+{
+  "cell": "ABN|Trickster",
+  "copingSub": "TR-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-9",
+  "style": "Trickster",
+  "tag": "ABN-9_TR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Lately, a girl had spent afternoons in the library holding {WITCH_NAME}'s hand as they read a picture book together. Today, before they reached the ending, the girl asked her to make the doorway a shortcut to the lounge.",
+          "\"Not yet. Let's finish the story,\" {WITCH_NAME} said.",
+          "\"If you won't do what I ask, I won't spend time with you anymore,\" the girl replied.",
+          "In response, {WITCH_NAME} made the library doorway open onto the lake's shallow water. She shoved the girl through and held her under until the girl drowned. Later, she claimed the girl had left the library through the usual exit to go for a walk alone.",
+          "A prisoner found the drowned girl's body in the lake's shallows. During the investigation, a prisoner inspecting the library threshold found silty footprints with fragments of reed. They began at the doorway and led into the room, but the floor in the second-floor hall outside was clean. That gap told the prisoners what {WITCH_NAME}'s account concealed: a doorway connected straight to the lake."
+        ],
+        "epitaph": "A welcome without a price remained beyond her reach.",
+        "epithet": "A welcome bought with every yes",
+        "execution": [
+          "A door on the execution stand had a noose tied to its handle. As the door rose, the noose tightened around her neck and lifted her feet off the ground. She hung in the open doorway until her body went still."
+        ],
+        "magic": {
+          "name": "Door to Anywhere",
+          "text": "She can make a doorway open directly onto a place she chooses."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

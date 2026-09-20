@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Striker",
+  "copingSub": "ST-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Striker",
+  "tag": "ALN-1_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier, in the lounge, {WITCH_NAME} rested a hand on the girl's shoulder until her homesick tears faded into shared silence. Today, when the girl's tears returned, {WITCH_NAME} offered her a written list of remedies for homesickness. The girl handed the list back and asked {WITCH_NAME} to listen instead. Later, in the courtyard, the girl began to confide in her, but an interruption cut the conversation short. The girl then asked {WITCH_NAME} to leave her alone for a while.",
+          "From the upper railing, {WITCH_NAME} used her Magic to shorten the vertical distance to the courtyard below, drawing the girl within sword reach. She drove a sword into the girl's chest, fatally wounding her. Then she lengthened the distance back to normal, and the girl collapsed into the courtyard.",
+          "At the moment of the collapse, a prisoner in the courtyard saw {WITCH_NAME} high above at the upper railing. The prisoners assumed an attacker in the courtyard had stabbed the girl. One prisoner then remembered that, immediately before the scream, the girl had been standing on the courtyard ground. A prisoner also matched a still-wet bloody handprint on the upper railing to a cut in the girl's palm. Together, the witness's memory and the handprint revealed the trick: {WITCH_NAME}'s Magic had closed the gap long enough to bring the girl up to the railing, then reopened it so the stabbing seemed to have happened below."
+        ],
+        "epitaph": "The pause between them held one last chance to understand each other; the witch turned it into permanent silence.",
+        "epithet": "The Friend Beyond Reach",
+        "execution": [
+          "An iron chair on the execution stand cinches a harness around the witch's torso. Mechanical hands close over hers and spread her arms into an open embrace. Then they pull outward until her arms tear free. With an unbridgeable gap between her and her separated arms, the witch slumps into final stillness."
+        ],
+        "magic": {
+          "name": "Near and Far",
+          "text": "She can lengthen or shorten physical distances."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

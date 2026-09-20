@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Pleaser",
+  "copingSub": "PL-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Pleaser",
+  "tag": "ALN-5_PL-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, a girl rehearsed her beloved tragedy for {WITCH_NAME}, delighting in their shared enthusiasm. When the girl professed a preference for comedy, {WITCH_NAME} echoed her. Today, the girl presented her with a comic rewrite of the tragedy and said it would replace their old version that evening.",
+          "Before the replacement, {WITCH_NAME} asked her to record a farewell in an unfamiliar role. Drawing on their shared love of the play, she used her Magic to feed the girl the speech as inaudible cues. Blindfolded, the girl recited it into her phone. When the recording ended, {WITCH_NAME} stabbed her in the chest with a sword, killing her, then placed the hilt in the girl's hand.",
+          "In the lounge, the prisoners read the scene as suicide: the recording sounded like a personal farewell, and the sword remained in the girl's grip. At the trial court, a prisoner opened the tragedy script to an execution scene performed blindfolded. Before making the recording, the girl had messaged that prisoner: {WITCH_NAME} would coach her through the role telepathically. The prisoner matched the recording's words and blindfolded blocking to the script. Together with the message, this exposed the farewell as a performance directed by {WITCH_NAME}, not her own spontaneous goodbye."
+        ],
+        "epitaph": "She silenced disagreement—and never learned whether acceptance was real.",
+        "epithet": "The Fan Who Never Speaks Her Mind",
+        "execution": [
+          "The execution stand hoists the witch by restraints that spread her limbs between two giant, opposing palms. The palms clap against her torso. Again and again they strike, compressing her more deeply with every round of applause. When the applause ends, the palms part. Her suspended body hangs motionless."
+        ],
+        "magic": {
+          "name": "Kindred Minds",
+          "text": "Talk mind to mind with people who share an interest you choose."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

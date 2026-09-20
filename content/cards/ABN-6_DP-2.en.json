@@ -1,0 +1,32 @@
+{
+  "cell": "ABN|Depender",
+  "copingSub": "DP-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Depender",
+  "tag": "ABN-6_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week, a girl in the lounge mended {WITCH_NAME}'s torn cuff and slipped an arm around her shoulders. Over the next few days, they worked on needlework together, and {WITCH_NAME} let the girl choose the thread.",
+          "Today, the girl returned their unfinished needlework to {WITCH_NAME} and told her to leave. Then she took up her sewing basket and began teaching another prisoner in {WITCH_NAME}'s place.",
+          "That evening, the girl apologized over tea and sat with her again. But {WITCH_NAME} had laced the tea they shared with a sleeping drug, leaving them both unconscious. While they slept, the garrote guided {WITCH_NAME}'s hands and strangled the girl.",
+          "Later that evening, the prisoners found the girl dead in the lounge and {WITCH_NAME} unresponsive, still gripping the garrote. It appeared that someone had drugged her and planted the weapon in her hands to frame her.",
+          "At the trial court, a prisoner examined a phone recording. Even as {WITCH_NAME} lay asleep, the cord in her hands was tightening. The moving cord showed that she had not been framed: the garrote had been controlling her as she slept."
+        ],
+        "epitaph": "Only at the end did she understand: being led was never the same as belonging.",
+        "epithet": "The Obedient Shadow",
+        "execution": [
+          "A crank chair on the execution stand clamps cuffs around the witch's wrists. The chair guides her bound hands to its crank and makes them turn; each rotation tightens the collar around her neck. Even when her hands go limp, the chair keeps cranking until she slumps into silence."
+        ],
+        "magic": {
+          "name": "Let the Tools Lead",
+          "text": "Tools and instruments guide your body, letting you use them with expert skill."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

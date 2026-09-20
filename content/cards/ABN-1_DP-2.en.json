@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Depender",
+  "copingSub": "DP-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Depender",
+  "tag": "ABN-1_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The week before, a girl leaned against {WITCH_NAME}'s shoulder in the library and read aloud from a book she had chosen. On the morning of the murder, she brought two books to {WITCH_NAME}'s cell and asked her to pick one. {WITCH_NAME} handed both books back, leaving the choice to the girl. The girl urged {WITCH_NAME} to decide. Then she left the cell, leaving both books with {WITCH_NAME} and the choice still unmade.",
+          "Late that morning, a guard in the cell corridor locked the barred cell doors, confining the prisoners to their cells. {WITCH_NAME} stepped into the girl's footprint and emerged beside her in the locked cell. She strangled the girl with a thin cord, then hung her body from the upper bunk with a broad belt around her neck. She returned to her own locked cell by stepping into her roommate's footprint on a rag and emerging beside the roommate.",
+          "When the doors opened, the prisoners found the girl hanging and thought she had killed herself. After they lowered the body, one prisoner lifted the broad belt from her neck and found a narrow furrow running all the way around it. The mark exposed the hanging as a disguise for strangulation—and showed that locked doors were no barrier to {WITCH_NAME}'s Magic."
+        ],
+        "epitaph": "She chose the goodbye she had always feared—the one that could never be undone.",
+        "epithet": "Waiting for Goodbye",
+        "execution": [
+          "Two footprint-shaped iron clamps close around her ankles on the execution stand. They slide apart, dragging her legs wider and wider. A trail of blood lengthens across the stand until she lies motionless."
+        ],
+        "magic": {
+          "name": "Footprint Passage",
+          "text": "You can step into someone's footprint and emerge beside the person who made it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

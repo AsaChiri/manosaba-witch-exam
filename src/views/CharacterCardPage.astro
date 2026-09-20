@@ -14,6 +14,7 @@ import Seal from '../components/Seal.astro'
 import LocaleSwitcher from '../components/LocaleSwitcher.astro'
 import SafetyNote from '../components/SafetyNote.astro'
 import Footer from '../components/Footer.astro'
+import GameBackdrop from '../components/GameBackdrop.astro'
 import { t } from '../i18n'
 import { localePath, ASTRO_SEGMENT, type Locale } from '../i18n/config'
 import type { WitchCharacter } from '../lib/content-schema'
@@ -26,24 +27,33 @@ const { character, locale } = Astro.props
 const seo = {
   routeKey: `/c/${character.id}/`,
   title: `${character.name} — ${t(locale, 'meta.siteName')}`,
-  description: Array.from(
-    t(locale, 'meta.descCharacter', { name: character.name, magic: character.magicName }),
-  )
+  /* Meta names the character and never her magic (owner decision 2026-09-11):
+   * the character ↔ magic pairing is a story spoiler, and unfurls appear in
+   * chats unasked. The magic is on the page, behind the spoiler gate below. */
+  description: Array.from(t(locale, 'meta.descCharacter', { name: character.name }))
     .slice(0, 160)
     .join(''),
   ogImage: `/og/${ASTRO_SEGMENT[locale]}/c-${character.id}.png`,
   ogType: 'article' as const,
   jsonld: ['creativework'] as ('website' | 'quiz' | 'creativework')[],
-  workName: character.magicName,
+  workName: `${t(locale, 'result.specialCard.mark')} · ${character.name}`,
 }
 ---
 
 <BaseLayout locale={locale} seo={seo} bodyClass="has-bar">
+  <GameBackdrop scene="wall" />
   <main id="main" class="card-page">
     {/* Runs before the CTA below is parsed → no flash. Marks the page as
         opened from the visitor's own archive so the newcomer CTA is hidden. */}
     <script is:inline>
       if (location.hash === '#collector') document.documentElement.classList.add('is-collector')
+      /* The spoiler gate below stays shut until the visitor says they finished
+         the game — the same flag the examination's own spoiler question sets
+         (storage.ts FINISHED_KEY), so a finished player never sees it twice. */
+      try {
+        if (localStorage.getItem('manosaba-exam-finished-v1') === 'yes')
+          document.documentElement.classList.add('is-finished')
+      } catch {}
     </script>
     <header class="card-page__top container">
       <a class="card-page__home" href={localePath(locale, '/')}>
@@ -53,26 +63,47 @@ const seo = {
       <LocaleSwitcher locale={locale} />
     </header>
 
-    <div class="card-page__stage container container--narrow">
-      <CardFrame tone={character.color} class="card-frame--character">
-        <SpecialCard character={character} locale={locale} />
-      </CardFrame>
-    </div>
-
-    <section class="card-page__cta container container--narrow">
-      <h2 class="inscription">{t(locale, 'shareCta.title')}</h2>
-      <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'shareCta.button')} />
+    {/* Spoiler gate (owner decision 2026-09-11): a shared character link lands
+        on a plain, out-of-world notice — the record (character + her magic) is
+        story spoiler — with two exits: show it, or go take the examination.
+        Plain language like the safety text; the diegesis never dilutes it. */}
+    <section class="spoiler-gate container container--narrow" aria-labelledby="spoiler-gate-title">
+      <p id="spoiler-gate-title" class="spoiler-gate__eyebrow instrument">{t(locale, 'characterGate.eyebrow')}</p>
+      <p class="spoiler-gate__body">{t(locale, 'characterGate.body')}</p>
+      <div class="spoiler-gate__actions">
+        <button type="button" class="spoiler-gate__reveal" id="spoiler-gate-reveal">{t(locale, 'characterGate.reveal')}</button>
+        <a class="spoiler-gate__exam" href={localePath(locale, '/exam/')}>{t(locale, 'characterGate.exam')}</a>
+      </div>
     </section>
 
-    {/* Opened from one's own archive (#collector): the newcomer CTA above is
-        hidden and this quiet return link is shown instead (see inline script). */}
-    <nav class="card-page__back container container--narrow">
-      <a href={localePath(locale, '/collection/')}>{t(locale, 'collection.back')}</a>
-    </nav>
+    <div class="card-page__record">
+      <div class="card-page__stage container container--narrow">
+        <CardFrame tone={character.color} class="card-frame--character">
+          <SpecialCard character={character} locale={locale} />
+        </CardFrame>
+      </div>
 
-    <div class="card-page__foot container container--narrow">
-      <SafetyNote locale={locale} />
+      <section class="card-page__cta container container--narrow">
+        <h2 class="inscription">{t(locale, 'shareCta.title')}</h2>
+        <CtaButton href={localePath(locale, '/exam/')} label={t(locale, 'shareCta.button')} />
+      </section>
+
+      {/* Opened from one's own archive (#collector): the newcomer CTA above is
+          hidden and this quiet return link is shown instead (see inline script). */}
+      <nav class="card-page__back container container--narrow">
+        <a href={localePath(locale, '/collection/')}>{t(locale, 'collection.back')}</a>
+      </nav>
+
+      <div class="card-page__foot container container--narrow">
+        <SafetyNote locale={locale} />
+      </div>
     </div>
+    <script is:inline>
+      document.getElementById('spoiler-gate-reveal').addEventListener('click', function () {
+        try { localStorage.setItem('manosaba-exam-finished-v1', 'yes') } catch {}
+        document.documentElement.classList.add('is-finished')
+      })
+    </script>
     {/* Pinned action bar (styles in global.css). A special record has no
         story section, so the bar carries the CTA alone. */}
     <div class="page-bar" lang={locale}>
@@ -146,6 +177,66 @@ const seo = {
   }
   .card-page__back a:hover {
     color: var(--witch-red);
+  }
+  /* ── the spoiler gate ── shut by default; the record shows only once the
+     visitor has said they finished the game (html.is-finished) */
+  .card-page__record {
+    display: none;
+  }
+  :global(html.is-finished) .card-page__record {
+    display: block;
+  }
+  :global(html.is-finished) .spoiler-gate {
+    display: none;
+  }
+  .spoiler-gate {
+    margin-top: clamp(2rem, 10vh, 5rem);
+    margin-bottom: clamp(3rem, 12vh, 7rem);
+  }
+  .spoiler-gate__eyebrow {
+    color: var(--crimson);
+    font-size: 0.86rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+  .spoiler-gate__body {
+    margin-top: 0.8rem;
+    max-width: 36em;
+    color: var(--bone);
+    line-height: 1.8;
+    text-wrap: pretty;
+  }
+  .spoiler-gate__actions {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.9rem 1.6rem;
+  }
+  .spoiler-gate__reveal {
+    padding: 0.85rem 1.6rem;
+    background: var(--crimson);
+    color: #fff;
+    font-family: var(--font-inscription);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    border-radius: var(--radius-nil);
+    box-shadow: 0 12px 30px -14px rgba(0, 0, 0, 0.8);
+    transition: background 200ms;
+  }
+  .spoiler-gate__reveal:hover {
+    background: var(--witch-red);
+  }
+  .spoiler-gate__reveal:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 3px;
+  }
+  .spoiler-gate__exam {
+    color: var(--bone-dim);
+    text-decoration-color: var(--hairline);
+  }
+  .spoiler-gate__exam:hover {
+    color: var(--verdict-gold-bright);
   }
   :global(html.is-collector) .card-page__cta {
     display: none;

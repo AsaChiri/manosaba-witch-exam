@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Fantasist",
+  "copingSub": "FA-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Fantasist",
+  "tag": "ALN-1_FA-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On an earlier evening in the lounge, {WITCH_NAME} used her Magic to share an imagined memory with a girl: the two of them coming home together as sisters. Afterward, the girl played along affectionately and called her “sister.”",
+          "But at lunch today, the girl told the prisoners in the dining hall that their sisterhood was only fiction. She told {WITCH_NAME} there would be no family homecoming that night—or ever again.",
+          "During evening free time, {WITCH_NAME} stabbed the girl in the chest with a sword in the lounge, killing her. After the killing, she used her Magic in the recreation room to give all the prisoners the same memory: the girl had come there during their morning rehearsal to say she would kill herself that evening. When the prisoners found the girl’s body in the lounge, the sword wound and remembered farewell made it look like suicide.",
+          "In the trial court, one prisoner played the complete recording of that morning’s rehearsal from a phone. The prisoners compared it with the farewell they remembered, but the girl’s visit was nowhere in the recording. The missing visit exposed the remembered farewell as a cover story {WITCH_NAME} had planted in their minds."
+        ],
+        "epitaph": "In the end, she lives alone in her imagined home, where every welcome goes unanswered.",
+        "epithet": "A Native of Nowhere",
+        "execution": [
+          "The execution stand holds the witch flat on her back inside an open storybook. The inside cover shows her imagined family waiting with welcoming arms. Then the illustrated cover swings down, bringing those arms with it, and keeps pressing against her torso until the storybook shuts. The witch lies still inside."
+        ],
+        "magic": {
+          "name": "Lives We Never Lived",
+          "text": "She can give people shared memories of living through events that never happened."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

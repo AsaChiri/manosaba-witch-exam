@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Pleaser",
+  "copingSub": "PL-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Pleaser",
+  "tag": "ABN-6_PL-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "One evening in their cell, a girl confided her fear of the night to {WITCH_NAME} and squeezed her hand. The next day, at another prisoner's urging, {WITCH_NAME} repeated the secret to the prisoners in the dining hall. The girl overheard one of them retelling it. She summoned {WITCH_NAME} before the others there that night and demanded a public explanation.",
+          "During evening free time, before the confrontation, {WITCH_NAME} led the girl to the upper railing for a private apology. She stationed a second self in the courtyard below, then pushed the girl over the railing from the second-floor hall. When the girl struck the ground, the waiting body knelt beside her and called for help. From the courtyard, she claimed the girl had slipped over the railing alone.",
+          "While examining the body, a prisoner opened the girl's clenched fist and found a scrap torn from a cuff. The cloth matched {WITCH_NAME}'s sleeve. A prisoner also remembered that both of her cuffs had been intact when she called for help. The contradiction exposed the hidden contact: another body of {WITCH_NAME} had been with the girl at the upper railing before she fell."
+        ],
+        "epitaph": "She never said no, so she never learned who loved her enough to stay.",
+        "epithet": "Everybody's Yes-Girl",
+        "execution": [
+          "The execution stand clamps a pleading mannequin to each of her wrists and ankles. Each one pulls in a different direction until her limbs tear free, then departs with one. The body left at the center does not move."
+        ],
+        "magic": {
+          "name": "One into Many",
+          "text": "She can multiply herself into several bodies that act at the same time."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

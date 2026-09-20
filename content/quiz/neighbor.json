@@ -1,10 +1,44 @@
 {
   "ABN|Avenger": {
     "table": {
-      "ABN-2|AG-2": "ABN-2_AG-2"
+      "ABN-1|AG-1": "ABN-1_AG-1",
+      "ABN-1|AG-2": "ABN-1_AG-1",
+      "ABN-2|AG-1": "ABN-2_AG-2",
+      "ABN-2|AG-2": "ABN-2_AG-2",
+      "ABN-6|AG-1": "ABN-6_AG-1",
+      "ABN-6|AG-2": "ABN-6_AG-1"
     },
     "tiers": {
-      "ABN-2|AG-2": 0
+      "ABN-1|AG-1": 0,
+      "ABN-1|AG-2": 1,
+      "ABN-2|AG-1": 1,
+      "ABN-2|AG-2": 0,
+      "ABN-6|AG-1": 0,
+      "ABN-6|AG-2": 1
+    }
+  },
+  "ABN|Avoider": {
+    "table": {
+      "ABN-10|AV-2": "ABN-10_AV-3",
+      "ABN-10|AV-3": "ABN-10_AV-3",
+      "ABN-10|AV-6": "ABN-10_AV-6",
+      "ABN-1|AV-2": "ABN-1_AV-2",
+      "ABN-1|AV-3": "ABN-1_AV-3",
+      "ABN-1|AV-6": "ABN-1_AV-3",
+      "ABN-6|AV-2": "ABN-6_AV-2",
+      "ABN-6|AV-3": "ABN-6_AV-3",
+      "ABN-6|AV-6": "ABN-6_AV-3"
+    },
+    "tiers": {
+      "ABN-10|AV-2": 1,
+      "ABN-10|AV-3": 0,
+      "ABN-10|AV-6": 0,
+      "ABN-1|AV-2": 0,
+      "ABN-1|AV-3": 0,
+      "ABN-1|AV-6": 1,
+      "ABN-6|AV-2": 0,
+      "ABN-6|AV-3": 0,
+      "ABN-6|AV-6": 1
     }
   },
   "ABN|Caretaker": {
@@ -15,58 +49,504 @@
       "ABN-1|CT-3": 0
     }
   },
+  "ABN|Catastrophizer": {
+    "table": {
+      "ABN-1|CA-1": "ABN-1_CA-1"
+    },
+    "tiers": {
+      "ABN-1|CA-1": 0
+    }
+  },
   "ABN|Clinger": {
     "table": {
       "ABN-1|CL-1": "ABN-1_CL-1",
       "ABN-1|CL-2": "ABN-1_CL-1",
       "ABN-7|CL-1": "ABN-7_CL-2",
-      "ABN-7|CL-2": "ABN-7_CL-2"
+      "ABN-7|CL-2": "ABN-7_CL-2",
+      "ABN-9|CL-1": "ABN-9_CL-2",
+      "ABN-9|CL-2": "ABN-9_CL-2"
     },
     "tiers": {
       "ABN-1|CL-1": 0,
       "ABN-1|CL-2": 1,
       "ABN-7|CL-1": 1,
-      "ABN-7|CL-2": 0
+      "ABN-7|CL-2": 0,
+      "ABN-9|CL-1": 1,
+      "ABN-9|CL-2": 0
+    }
+  },
+  "ABN|Depender": {
+    "table": {
+      "ABN-1|DP-2": "ABN-1_DP-2",
+      "ABN-6|DP-2": "ABN-6_DP-2"
+    },
+    "tiers": {
+      "ABN-1|DP-2": 0,
+      "ABN-6|DP-2": 0
     }
   },
   "ABN|Detacher": {
     "table": {
-      "ABN-1|DT-2": "ABN-1_DT-2"
+      "ABN-1|DT-2": "ABN-1_DT-2",
+      "ABN-1|DT-3": "ABN-1_DT-3"
     },
     "tiers": {
-      "ABN-1|DT-2": 0
+      "ABN-1|DT-2": 0,
+      "ABN-1|DT-3": 0
+    }
+  },
+  "ABN|Doomer": {
+    "table": {
+      "ABN-10|DM-2": "ABN-10_DM-2"
+    },
+    "tiers": {
+      "ABN-10|DM-2": 0
     }
   },
   "ABN|Fantasist": {
     "table": {
-      "ABN-3|FA-1": "ABN-3_FA-1"
+      "ABN-1|FA-1": "ABN-1_FA-3",
+      "ABN-1|FA-3": "ABN-1_FA-3",
+      "ABN-1|FA-4": "ABN-1_FA-4",
+      "ABN-3|FA-1": "ABN-3_FA-1",
+      "ABN-3|FA-3": "ABN-3_FA-1",
+      "ABN-3|FA-4": "ABN-3_FA-1"
     },
     "tiers": {
-      "ABN-3|FA-1": 0
+      "ABN-1|FA-1": 1,
+      "ABN-1|FA-3": 0,
+      "ABN-1|FA-4": 0,
+      "ABN-3|FA-1": 0,
+      "ABN-3|FA-3": 1,
+      "ABN-3|FA-4": 1
+    }
+  },
+  "ABN|Perfectionist": {
+    "table": {
+      "ABN-9|PF-1": "ABN-9_PF-1"
+    },
+    "tiers": {
+      "ABN-9|PF-1": 0
+    }
+  },
+  "ABN|Performer": {
+    "table": {
+      "ABN-1|P-1": "ABN-1_P-1"
+    },
+    "tiers": {
+      "ABN-1|P-1": 0
     }
   },
   "ABN|Pleaser": {
     "table": {
-      "ABN-1|PL-3": "ABN-1_PL-3"
+      "ABN-1|PL-3": "ABN-1_PL-3",
+      "ABN-6|PL-3": "ABN-6_PL-3",
+      "ABN-9|PL-3": "ABN-9_PL-3"
     },
     "tiers": {
-      "ABN-1|PL-3": 0
+      "ABN-1|PL-3": 0,
+      "ABN-6|PL-3": 0,
+      "ABN-9|PL-3": 0
+    }
+  },
+  "ABN|Resigned": {
+    "table": {
+      "ABN-1|RS-1": "ABN-1_RS-3",
+      "ABN-1|RS-3": "ABN-1_RS-3",
+      "ABN-3|RS-1": "ABN-3_RS-1",
+      "ABN-3|RS-3": "ABN-3_RS-1"
+    },
+    "tiers": {
+      "ABN-1|RS-1": 1,
+      "ABN-1|RS-3": 0,
+      "ABN-3|RS-1": 0,
+      "ABN-3|RS-3": 1
+    }
+  },
+  "ABN|Ritualist": {
+    "table": {
+      "ABN-1|RI-2": "ABN-1_RI-2"
+    },
+    "tiers": {
+      "ABN-1|RI-2": 0
+    }
+  },
+  "ABN|Ruminator": {
+    "table": {
+      "ABN-10|RU-1": "ABN-10_RU-1",
+      "ABN-1|RU-1": "ABN-1_RU-1",
+      "ABN-6|RU-1": "ABN-6_RU-1"
+    },
+    "tiers": {
+      "ABN-10|RU-1": 0,
+      "ABN-1|RU-1": 0,
+      "ABN-6|RU-1": 0
+    }
+  },
+  "ABN|Self-Punisher": {
+    "table": {
+      "ABN-1|SP-1": "ABN-1_SP-1"
+    },
+    "tiers": {
+      "ABN-1|SP-1": 0
     }
   },
   "ABN|Self-Reliant": {
     "table": {
+      "ABN-1|SR-1": "ABN-1_SR-1",
       "ABN-4|SR-1": "ABN-4_SR-1"
     },
     "tiers": {
+      "ABN-1|SR-1": 0,
       "ABN-4|SR-1": 0
+    }
+  },
+  "ABN|Self-Soother": {
+    "table": {
+      "ABN-1|SS-3": "ABN-1_SS-3",
+      "ABN-6|SS-3": "ABN-6_SS-3"
+    },
+    "tiers": {
+      "ABN-1|SS-3": 0,
+      "ABN-6|SS-3": 0
+    }
+  },
+  "ABN|Striker": {
+    "table": {
+      "ABN-1|ST-2": "ABN-1_ST-2"
+    },
+    "tiers": {
+      "ABN-1|ST-2": 0
+    }
+  },
+  "ABN|Thrill-Seeker": {
+    "table": {
+      "ABN-1|TS-2": "ABN-1_TS-2"
+    },
+    "tiers": {
+      "ABN-1|TS-2": 0
+    }
+  },
+  "ABN|Trickster": {
+    "table": {
+      "ABN-9|TR-1": "ABN-9_TR-1"
+    },
+    "tiers": {
+      "ABN-9|TR-1": 0
+    }
+  },
+  "ABN|Wall-of-Anger": {
+    "table": {
+      "ABN-1|WA-1": "ABN-1_WA-1",
+      "ABN-6|WA-1": "ABN-6_WA-1"
+    },
+    "tiers": {
+      "ABN-1|WA-1": 0,
+      "ABN-6|WA-1": 0
+    }
+  },
+  "ABN|Watcher": {
+    "table": {
+      "ABN-1|WT-2": "ABN-1_WT-2",
+      "ABN-6|WT-2": "ABN-6_WT-2"
+    },
+    "tiers": {
+      "ABN-1|WT-2": 0,
+      "ABN-6|WT-2": 0
+    }
+  },
+  "ALN|Avenger": {
+    "table": {
+      "ALN-1|AG-1": "ALN-1_AG-1",
+      "ALN-5|AG-1": "ALN-5_AG-1"
+    },
+    "tiers": {
+      "ALN-1|AG-1": 0,
+      "ALN-5|AG-1": 0
+    }
+  },
+  "ALN|Avoider": {
+    "table": {
+      "ALN-10|AV-1": "ALN-10_AV-1",
+      "ALN-10|AV-2": "ALN-10_AV-1",
+      "ALN-10|AV-3": "ALN-10_AV-1",
+      "ALN-1|AV-1": "ALN-1_AV-1",
+      "ALN-1|AV-2": "ALN-1_AV-2",
+      "ALN-1|AV-3": "ALN-1_AV-3",
+      "ALN-5|AV-1": "ALN-5_AV-1",
+      "ALN-5|AV-2": "ALN-5_AV-1",
+      "ALN-5|AV-3": "ALN-5_AV-1"
+    },
+    "tiers": {
+      "ALN-10|AV-1": 0,
+      "ALN-10|AV-2": 1,
+      "ALN-10|AV-3": 1,
+      "ALN-1|AV-1": 0,
+      "ALN-1|AV-2": 0,
+      "ALN-1|AV-3": 0,
+      "ALN-5|AV-1": 0,
+      "ALN-5|AV-2": 1,
+      "ALN-5|AV-3": 1
+    }
+  },
+  "ALN|Caretaker": {
+    "table": {
+      "ALN-1|CT-1": "ALN-1_CT-1",
+      "ALN-5|CT-1": "ALN-5_CT-1"
+    },
+    "tiers": {
+      "ALN-1|CT-1": 0,
+      "ALN-5|CT-1": 0
+    }
+  },
+  "ALN|Clinger": {
+    "table": {
+      "ALN-7|CL-2": "ALN-7_CL-2"
+    },
+    "tiers": {
+      "ALN-7|CL-2": 0
     }
   },
   "ALN|Concealer": {
     "table": {
-      "ALN-10|CO-1": "ALN-10_CO-1"
+      "ALN-10|CO-1": "ALN-10_CO-1",
+      "ALN-10|CO-2": "ALN-10_CO-1",
+      "ALN-11|CO-1": "ALN-11_CO-1",
+      "ALN-11|CO-2": "ALN-11_CO-1",
+      "ALN-1|CO-1": "ALN-1_CO-1",
+      "ALN-1|CO-2": "ALN-1_CO-2",
+      "ALN-5|CO-1": "ALN-5_CO-1",
+      "ALN-5|CO-2": "ALN-5_CO-2"
     },
     "tiers": {
-      "ALN-10|CO-1": 0
+      "ALN-10|CO-1": 0,
+      "ALN-10|CO-2": 1,
+      "ALN-11|CO-1": 0,
+      "ALN-11|CO-2": 1,
+      "ALN-1|CO-1": 0,
+      "ALN-1|CO-2": 0,
+      "ALN-5|CO-1": 0,
+      "ALN-5|CO-2": 0
+    }
+  },
+  "ALN|Detacher": {
+    "table": {
+      "ALN-1|DT-2": "ALN-1_DT-2"
+    },
+    "tiers": {
+      "ALN-1|DT-2": 0
+    }
+  },
+  "ALN|Doomer": {
+    "table": {
+      "ALN-1|DM-3": "ALN-1_DM-3",
+      "ALN-5|DM-3": "ALN-5_DM-3"
+    },
+    "tiers": {
+      "ALN-1|DM-3": 0,
+      "ALN-5|DM-3": 0
+    }
+  },
+  "ALN|Fantasist": {
+    "table": {
+      "ALN-10|FA-2": "ALN-10_FA-2",
+      "ALN-10|FA-3": "ALN-10_FA-3",
+      "ALN-10|FA-4": "ALN-10_FA-4",
+      "ALN-1|FA-2": "ALN-1_FA-2",
+      "ALN-1|FA-3": "ALN-1_FA-2",
+      "ALN-1|FA-4": "ALN-1_FA-2"
+    },
+    "tiers": {
+      "ALN-10|FA-2": 0,
+      "ALN-10|FA-3": 0,
+      "ALN-10|FA-4": 0,
+      "ALN-1|FA-2": 0,
+      "ALN-1|FA-3": 1,
+      "ALN-1|FA-4": 1
+    }
+  },
+  "ALN|Perfectionist": {
+    "table": {
+      "ALN-2|PF-3": "ALN-2_PF-3"
+    },
+    "tiers": {
+      "ALN-2|PF-3": 0
+    }
+  },
+  "ALN|Performer": {
+    "table": {
+      "ALN-1|P-2": "ALN-1_P-2",
+      "ALN-4|P-2": "ALN-4_P-2",
+      "ALN-5|P-2": "ALN-5_P-2"
+    },
+    "tiers": {
+      "ALN-1|P-2": 0,
+      "ALN-4|P-2": 0,
+      "ALN-5|P-2": 0
+    }
+  },
+  "ALN|Pleaser": {
+    "table": {
+      "ALN-1|PL-1": "ALN-1_PL-1",
+      "ALN-5|PL-1": "ALN-5_PL-1"
+    },
+    "tiers": {
+      "ALN-1|PL-1": 0,
+      "ALN-5|PL-1": 0
+    }
+  },
+  "ALN|Resigned": {
+    "table": {
+      "ALN-1|RS-1": "ALN-1_RS-1",
+      "ALN-5|RS-1": "ALN-5_RS-1"
+    },
+    "tiers": {
+      "ALN-1|RS-1": 0,
+      "ALN-5|RS-1": 0
+    }
+  },
+  "ALN|Ritualist": {
+    "table": {
+      "ALN-9|RI-2": "ALN-9_RI-2"
+    },
+    "tiers": {
+      "ALN-9|RI-2": 0
+    }
+  },
+  "ALN|Ruminator": {
+    "table": {
+      "ALN-1|RU-1": "ALN-1_RU-1",
+      "ALN-1|RU-2": "ALN-1_RU-2"
+    },
+    "tiers": {
+      "ALN-1|RU-1": 0,
+      "ALN-1|RU-2": 0
+    }
+  },
+  "ALN|Self-Punisher": {
+    "table": {
+      "ALN-5|SP-2": "ALN-5_SP-2"
+    },
+    "tiers": {
+      "ALN-5|SP-2": 0
+    }
+  },
+  "ALN|Self-Reliant": {
+    "table": {
+      "ALN-10|SR-1": "ALN-10_SR-1",
+      "ALN-1|SR-1": "ALN-1_SR-1",
+      "ALN-5|SR-1": "ALN-5_SR-1"
+    },
+    "tiers": {
+      "ALN-10|SR-1": 0,
+      "ALN-1|SR-1": 0,
+      "ALN-5|SR-1": 0
+    }
+  },
+  "ALN|Self-Soother": {
+    "table": {
+      "ALN-1|SS-3": "ALN-1_SS-3",
+      "ALN-5|SS-3": "ALN-5_SS-3"
+    },
+    "tiers": {
+      "ALN-1|SS-3": 0,
+      "ALN-5|SS-3": 0
+    }
+  },
+  "ALN|Sovereign": {
+    "table": {
+      "ALN-1|SV-1": "ALN-1_SV-1",
+      "ALN-5|SV-1": "ALN-5_SV-1"
+    },
+    "tiers": {
+      "ALN-1|SV-1": 0,
+      "ALN-5|SV-1": 0
+    }
+  },
+  "ALN|Striker": {
+    "table": {
+      "ALN-1|ST-2": "ALN-1_ST-2",
+      "ALN-5|ST-2": "ALN-5_ST-2"
+    },
+    "tiers": {
+      "ALN-1|ST-2": 0,
+      "ALN-5|ST-2": 0
+    }
+  },
+  "ALN|Thrill-Seeker": {
+    "table": {
+      "ALN-1|TS-1": "ALN-1_TS-1"
+    },
+    "tiers": {
+      "ALN-1|TS-1": 0
+    }
+  },
+  "ALN|Trickster": {
+    "table": {
+      "ALN-11|TR-2": "ALN-11_TR-2"
+    },
+    "tiers": {
+      "ALN-11|TR-2": 0
+    }
+  },
+  "ALN|Wall-of-Anger": {
+    "table": {
+      "ALN-10|WA-3": "ALN-10_WA-3",
+      "ALN-1|WA-3": "ALN-1_WA-3",
+      "ALN-5|WA-3": "ALN-5_WA-3"
+    },
+    "tiers": {
+      "ALN-10|WA-3": 0,
+      "ALN-1|WA-3": 0,
+      "ALN-5|WA-3": 0
+    }
+  },
+  "ALN|Watcher": {
+    "table": {
+      "ALN-1|WT-2": "ALN-1_WT-2"
+    },
+    "tiers": {
+      "ALN-1|WT-2": 0
+    }
+  },
+  "DEF|Avenger": {
+    "table": {
+      "DEF-3|AG-1": "DEF-3_AG-1",
+      "DEF-6|AG-1": "DEF-6_AG-1"
+    },
+    "tiers": {
+      "DEF-3|AG-1": 0,
+      "DEF-6|AG-1": 0
+    }
+  },
+  "DEF|Avoider": {
+    "table": {
+      "DEF-3|AV-2": "DEF-3_AV-3",
+      "DEF-3|AV-3": "DEF-3_AV-3",
+      "DEF-6|AV-2": "DEF-6_AV-2",
+      "DEF-6|AV-3": "DEF-6_AV-2"
+    },
+    "tiers": {
+      "DEF-3|AV-2": 1,
+      "DEF-3|AV-3": 0,
+      "DEF-6|AV-2": 0,
+      "DEF-6|AV-3": 1
+    }
+  },
+  "DEF|Catastrophizer": {
+    "table": {
+      "DEF-3|CA-1": "DEF-3_CA-1"
+    },
+    "tiers": {
+      "DEF-3|CA-1": 0
+    }
+  },
+  "DEF|Clinger": {
+    "table": {
+      "DEF-3|CL-2": "DEF-3_CL-2"
+    },
+    "tiers": {
+      "DEF-3|CL-2": 0
     }
   },
   "DEF|Concealer": {
@@ -77,6 +557,9 @@
       "DEF-3|CO-1": "DEF-3_CO-1",
       "DEF-3|CO-2": "DEF-3_CO-1",
       "DEF-3|CO-5": "DEF-3_CO-1",
+      "DEF-6|CO-1": "DEF-6_CO-1",
+      "DEF-6|CO-2": "DEF-6_CO-1",
+      "DEF-6|CO-5": "DEF-6_CO-1",
       "DEF-7|CO-1": "DEF-7_CO-5",
       "DEF-7|CO-2": "DEF-7_CO-5",
       "DEF-7|CO-5": "DEF-7_CO-5"
@@ -88,6 +571,9 @@
       "DEF-3|CO-1": 0,
       "DEF-3|CO-2": 1,
       "DEF-3|CO-5": 1,
+      "DEF-6|CO-1": 0,
+      "DEF-6|CO-2": 1,
+      "DEF-6|CO-5": 1,
       "DEF-7|CO-1": 1,
       "DEF-7|CO-2": 1,
       "DEF-7|CO-5": 0
@@ -99,6 +585,14 @@
     },
     "tiers": {
       "DEF-4|DP-3": 0
+    }
+  },
+  "DEF|Performer": {
+    "table": {
+      "DEF-3|P-2": "DEF-3_P-2"
+    },
+    "tiers": {
+      "DEF-3|P-2": 0
     }
   },
   "DEF|Self-Punisher": {
@@ -187,6 +681,22 @@
       "ED-3|SP-1": 0
     }
   },
+  "FAI|Concealer": {
+    "table": {
+      "FAI-1|CO-1": "FAI-1_CO-1"
+    },
+    "tiers": {
+      "FAI-1|CO-1": 0
+    }
+  },
+  "MB|Avenger": {
+    "table": {
+      "MB-2|AG-1": "MB-2_AG-1"
+    },
+    "tiers": {
+      "MB-2|AG-1": 0
+    }
+  },
   "MB|Avoider": {
     "table": {
       "MB-2|AV-2": "MB-2_AV-2"
@@ -269,6 +779,14 @@
     },
     "tiers": {
       "MB-2|WA-1": 0
+    }
+  },
+  "POW|Avoider": {
+    "table": {
+      "POW-2|AV-2": "POW-2_AV-2"
+    },
+    "tiers": {
+      "POW-2|AV-2": 0
     }
   },
   "POW|Catastrophizer": {

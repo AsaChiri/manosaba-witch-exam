@@ -1,0 +1,40 @@
+---
+/*
+ * A room from the original game behind the page (owner decision 2026-09-11,
+ * v1's approach): a fixed, darkened, blurred image under a radial veil that
+ * pools into the site's ink at the edges, so the room reads as atmosphere and
+ * never as a screenshot. Two scenes only (src/assets/game/ATTRIBUTION.md):
+ *   court — the trial chamber; landing (drifts slowly)
+ *   wall  — the red-panelled wall under the gallery; record pages (still)
+ * Styles live in global.css (.backdrop*) so the Vue result view can render
+ * the same layer without importing an Astro component.
+ */
+import courtL from '../assets/game/court.webp?url'
+import courtM from '../assets/game/court-m.webp?url'
+import wallL from '../assets/game/wall.webp?url'
+import wallM from '../assets/game/wall-m.webp?url'
+
+interface Props {
+  scene: 'court' | 'wall'
+  /** Slow pan/zoom (the landing). Off = still (record pages). */
+  drift?: boolean
+  /** Above-the-fold on this page → fetch eagerly with high priority. */
+  priority?: boolean
+}
+const { scene, drift = false, priority = false } = Astro.props
+const [large, medium] = scene === 'court' ? [courtL, courtM] : [wallL, wallM]
+---
+
+<div class:list={['backdrop', `backdrop--${scene}`, { 'backdrop--drift': drift }]} aria-hidden="true">
+  <img
+    class="backdrop__img"
+    src={large}
+    srcset={`${medium} 960w, ${large} 1920w`}
+    sizes="100vw"
+    alt=""
+    decoding="async"
+    loading={priority ? 'eager' : 'lazy'}
+    fetchpriority={priority ? 'high' : 'low'}
+  />
+  <div class="backdrop__veil"></div>
+</div>

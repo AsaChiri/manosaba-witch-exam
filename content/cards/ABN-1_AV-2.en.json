@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Avoider",
+  "copingSub": "AV-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Avoider",
+  "tag": "ABN-1_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week, the victim left a picture book in {WITCH_NAME}'s cell for their next visit. {WITCH_NAME} saved a place for it in her overnight bag.",
+          "Today, the victim took the book—the last of her belongings—from the bag and said she would no longer visit {WITCH_NAME} alone; she wanted time with her other friends. {WITCH_NAME} strangled her with a scarf in the cell, then hid the body in the expanded interior of the overnight bag. She told the prisoners the victim had left by herself.",
+          "Later, another prisoner accidentally dropped the picture book into the bag. When she reached for it, her whole arm sank inside. She opened the bag wide and found the victim's body. The impossible depth and the body inside refuted {WITCH_NAME}'s account: the victim had never left the cell."
+        ],
+        "epitaph": "In keeping her forever, she made reunion impossible.",
+        "epithet": "In every farewell, she hears only emptiness.",
+        "execution": [
+          "A valise-shaped rack on the execution stand clamps her wrists and ankles. Its end panels slide apart, pulling her limbs taut as the valise grows to an impossible size. They keep receding until her outstretched body goes still."
+        ],
+        "magic": {
+          "name": "Bigger on the Inside",
+          "text": "She can expand the inside of an enclosed space without changing its exterior."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Concealer",
+  "copingSub": "CO-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Concealer",
+  "tag": "ALN-5_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On their earlier walks through the courtyard, {WITCH_NAME} would pocket her beetle box with a reassuring smile. The girl kept joining her and confided how homesick she felt.",
+          "This morning, {WITCH_NAME} finally showed the girl the box's iridescent specimens. The girl shut it in disgust and ended their walks for good. Rather than accept the separation, {WITCH_NAME} softened the iron bars and squeezed through both barred cell doors, crossing the cell corridor from her own cell into the girl's. She drove a sword into the girl's chest, then placed the hilt in the dead girl's hand. Retracing her route to her own cell, she let the bars spring back once they no longer bore her weight.",
+          "At the midday unlock, the prisoners found the girl impaled through the chest. A guard had locked her alone in that cell that morning, so they first took the scene for suicide. Then one prisoner pushed the barred cell door's iron bars apart until the gap was wide enough for a body. The prisoners saw that the yielding barrier had been {WITCH_NAME}'s concealed way into the supposedly sealed cell, exposing the suicide as staged."
+        ],
+        "epitaph": "Even pinned in plain sight, she remained a stranger no one understood.",
+        "epithet": "The Agreeable Stranger",
+        "execution": [
+          "The execution stand holds her arms and legs spread across a specimen board. A specimen pin drives through her chest and fixes her there. She struggles until all movement stops, the pin holding her motionless like one of her iridescent specimens."
+        ],
+        "magic": {
+          "name": "Looks Hard, Feels Soft",
+          "text": "She can make any hard, inanimate object as soft as a pillow without changing how it looks."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

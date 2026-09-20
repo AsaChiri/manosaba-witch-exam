@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Avoider",
+  "copingSub": "AV-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Avoider",
+  "tag": "ALN-1_AV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The week before, in the recreation room, a girl read {WITCH_NAME} dialogue from a handwritten script for a play on the wall. Where one exchange made her sound indifferent, {WITCH_NAME} corrected the girl's script to make her reply uncertain instead. Today, the girl restored the dismissive punchline, overwriting the correction. Then she told {WITCH_NAME} she would read their private chat in public that evening.",
+          "In response, {WITCH_NAME} phoned the girl before rehearsal and offered a prerecorded substitute for her part. During rehearsal, however, she used her Magic to become a living flat image and performed across the projection wall in the projector's light. A prisoner watching assumed the projector was showing the promised recording. After that prisoner left, she emerged from the wall in bodily form and strangled the girl to death with a scarf.",
+          "The prisoner had caught the girl crossing the projector's beam while filming the rehearsal on a phone. In the trial court, the footage showed the girl's shadow falling across the backdrop, yet {WITCH_NAME}'s colored figure remained visible inside it before the wall brightened again. The prisoners realized that the performer had been {WITCH_NAME}'s living body concealed on the wall, not an absent woman appearing in a recording."
+        ],
+        "epitaph": "In the silence she left behind, the misunderstanding could never be corrected.",
+        "epithet": "A Friend Lost in Translation",
+        "execution": [
+          "The execution stand locks her spread-eagled against an upright white panel. A steel roller meets the crown of her head and bears down without pause, flattening her against the panel all the way to her feet. At the bottom, it rolls clear of the panel, leaving a motionless, bloodied silhouette."
+        ],
+        "magic": {
+          "name": "Living Mural",
+          "text": "Turn your body into a living, two-dimensional image that can move across surfaces."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

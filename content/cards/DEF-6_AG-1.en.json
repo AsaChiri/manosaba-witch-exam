@@ -1,0 +1,30 @@
+{
+  "cell": "DEF|Avenger",
+  "copingSub": "AG-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Avenger",
+  "tag": "DEF-6_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier, a girl in the dining hall changed the label on {WITCH_NAME}'s pouch from “defective” to “friend.” That day, the same girl changed it back to “defective.” Then she removed {WITCH_NAME}'s place setting, shutting her out of the meal.",
+          "In answer, {WITCH_NAME} turned that grudge into a living viper and hid it inside the pouch to ambush the girl. In the courtyard, she offered the zippered pouch to the girl and told her to remove the label. The hidden viper bit the girl's palm and delivered its venom. The girl unpicked the label while the zipper stayed closed. When the slur came free, the wrong was put right and the viper vanished from the pouch.",
+          "Later, the prisoners found the girl dead in the courtyard, with a fatal snakebite on her palm. One unzipped the pouch and found nothing inside. With no snake to be found, they first blamed a stray. But one prisoner compared the punctures in the pouch with those in the girl's palm. The fang spacing matched. The matching marks exposed the trick: {WITCH_NAME}'s harmless-looking handoff had delivered an attacker that vanished before the pouch was opened."
+        ],
+        "epitaph": "At last, the guilt she once laid on herself was truly hers.",
+        "epithet": "Her Own Accuser",
+        "execution": [
+          "The execution stand restrains her beside a mechanical hound, its leash cinched around her neck. The hound hauls the leash upward, hoisting her into the air. It keeps the line taut as she kicks, until her suspended body hangs motionless."
+        ],
+        "magic": {
+          "name": "Grudge Companions",
+          "text": "She can turn her own grudges into loyal living animals."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

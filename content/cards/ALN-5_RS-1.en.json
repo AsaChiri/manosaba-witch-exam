@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Resigned",
+  "copingSub": "RS-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Resigned",
+  "tag": "ALN-5_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week in the library, the girl added a new invented island to a handmade atlas for {WITCH_NAME}. Today, she erased the invented islands, returned the atlas to her, and refused to keep making it together.",
+          "During free time, a prisoner saw the two swimming together in the lake. After that refusal, {WITCH_NAME} encircled the girl with both arms and leaned backward beneath the surface. She used her Magic to become stone, anchoring them underwater. Once the girl had drowned, {WITCH_NAME} returned to flesh; her restored hands opened and released the body. She emerged from the lake alone.",
+          "A prisoner later recovered the girl's body. The sighting of the two together and {WITCH_NAME}'s solitary return made the drowning look like a swimming accident. But an examination of the girl's upper arms found bruises from a grip that had encircled them. Those marks overturned the apparent accident: the girl had been held in an embrace and forced beneath the water by the swimmer who came back without her."
+        ],
+        "epitaph": "She answered one refusal by making every reply after it impossible.",
+        "epithet": "The Unheard Worldmaker",
+        "execution": [
+          "The execution stand holds her with her back against the palm of a giant articulated hand. Its jointed fingers fold over her torso and tighten into a crushing embrace. The grip holds until all movement stops. Then the hand opens, leaving her body motionless on its palm."
+        ],
+        "magic": {
+          "name": "Living Stone",
+          "text": "Turn yourself into a conscious, indestructible statue of stone."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

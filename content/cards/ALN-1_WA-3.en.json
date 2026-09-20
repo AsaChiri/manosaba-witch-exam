@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Wall-of-Anger",
+  "copingSub": "WA-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Wall-of-Anger",
+  "tag": "ALN-1_WA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On earlier visits to the lounge, the girl kept {WITCH_NAME} quiet company and mended a tear in her cuff. Whenever the girl offered comfort, {WITCH_NAME} accused her yet again of ridiculing her. Today, the girl read aloud an invitation {WITCH_NAME} had written but never sent, asking her to share supper. She then announced that she would give it to the other prisoners to read.",
+          "That evening, the girl sat warming herself by the lounge fireplace. Before another prisoner arrived, {WITCH_NAME} smothered her to death with a blanket to keep the invitation from being exposed. At the sound of approaching footsteps, she used her Magic to project imagined flames over the girl's clothing, making her scarf appear to burn. The prisoner who entered found {WITCH_NAME} covering the girl with the blanket and thought she had failed to smother flames that had spread from the hearth.",
+          "That prisoner later recalled seeing the scarf's fringe crumble into embers at first sight. Yet once the girl was uncovered, the same prisoner examined the fringe and found its threads intact. In the trial court, the prisoners understood the contradiction: the blaze had been an illusion, and the blanket had concealed {WITCH_NAME}'s smothering rather than a rescue."
+        ],
+        "epitaph": "She made her own invitation impossible to accept.",
+        "epithet": "The Hostile Host",
+        "execution": [
+          "The execution stand binds her upright inside a furnace cage. Real flames engulf her clothes and burn without relenting until they subside, leaving her charred and motionless in the cage."
+        ],
+        "magic": {
+          "name": "Imagination Made Visible",
+          "text": "She projects people's mental images as visible, intangible three-dimensional scenes."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Resigned",
+  "copingSub": "RS-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Resigned",
+  "tag": "ABN-1_RS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The girl would clasp {WITCH_NAME}'s hand and lead her on walks through the courtyard. Today, {WITCH_NAME} overheard her say that she was tired of every decision they had to make together. That evening, the girl asked to talk about their friendship. Before the conversation could begin, {WITCH_NAME} released her hand as if parting early.",
+          "Before anyone arrived to bathe, she turned into living water and settled into a puddle on the shower room floor. When the girl came in, {WITCH_NAME} reformed and stabbed her in the chest with a sword, fatally wounding her. Then she became water again and flowed out through the gap beneath the door.",
+          "The girl's roommate had seen one prisoner leave the shower room before the girl went in. No other person emerged before the body was discovered, so the prisoners took that last visible visitor for the killer. But that same prisoner traced the bloody footprints across the room. Halfway to the doorway, the prints became runoff and ended at the gap beneath the door. The changing trail overturned that account: the puddle had hidden {WITCH_NAME} before the attack, and the water beneath the door had been her unseen departure."
+        ],
+        "epitaph": "She chose the ending she feared, then made it irrevocable.",
+        "epithet": "The Mourner Before the Loss",
+        "execution": [
+          "The execution stand clamps a perforated ladle around her and suspends her over a bowl of water. The ladle plunges her into the bowl and keeps her submerged. At last it rises; water drains through its holes, leaving her body motionless inside."
+        ],
+        "magic": {
+          "name": "Living Water",
+          "text": "She can turn her body into living water that pours and settles into the shape of its surroundings."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

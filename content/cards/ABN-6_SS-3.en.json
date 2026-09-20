@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Self-Soother",
+  "copingSub": "SS-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Self-Soother",
+  "tag": "ABN-6_SS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For several recent evenings, a girl kept {WITCH_NAME} company in the lounge, telling stories over sweets they shared. Today, the girl confided a fear and asked her simply to listen. Instead, {WITCH_NAME} hummed one sweet after another into existence and chewed without pause. The girl returned the sweet bowl and ended their visits.",
+          "During afternoon free time, {WITCH_NAME} came up behind the girl's sofa and strangled her with a cord. She turned every sound of the struggle into sweets that pattered across the lounge, then left the girl dead in silence.",
+          "After she had gone, a prisoner found the girl amid the sweets and mistook it for a fatal choking. Trying to help, the prisoner loosened her collar and found a ligature groove encircling her neck. The sweet bowl lay in shards on the floor. The prisoner then remembered standing in the lounge doorway before the body was found, when the bowl fell: there had been only the patter of sweets, never the crash of it breaking. At the trial court, the prisoners reconstructed the truth. The bowl's missing crash belonged to the same shower of sweets; what looked like evidence of choking was the sound of {WITCH_NAME}'s silenced assault made solid."
+        ],
+        "epitaph": "Sweetness without care was never comfort.",
+        "epithet": "A Sweet Tooth No Comfort Could Satisfy",
+        "execution": [
+          "The execution stand locks her in place as a musical sweet dispenser seals a feeding funnel over her mouth. An unending melody begins, and the machine forces sweets through the funnel without pause. Her body strains against the restraints, but the sweets never stop. At last she goes still beneath the funnel. The melody plays on."
+        ],
+        "magic": {
+          "name": "Sweets from Sound",
+          "text": "Her Magic turns audible sounds into tangible sweets."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

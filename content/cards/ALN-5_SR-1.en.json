@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Self-Reliant",
+  "tag": "ALN-5_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the courtyard, {WITCH_NAME} refused to help a girl film herself with her phone. Then she gave the girl a lecture on moths. It was the first time anyone had listened.",
+          "Today, the girl mocked her by mimicking that lecture, then announced she would stream the imitation to the prisoners that afternoon. During afternoon free time, {WITCH_NAME} followed her into the forest while the girl rehearsed it. There, she used her Magic to change from human form into a wolf. Before the stream could start, she mauled the girl with the wolf's jaws, leaving fatal wounds in her throat.",
+          "At first, the prisoners blamed her death on a wild wolf. But one prisoner traced the attack trail and found human footprints changing into wolf pawprints. Those changing tracks exposed the “wild attack” as {WITCH_NAME}'s deliberate hunt in animal form."
+        ],
+        "epitaph": "At last she had an audience, but no one saw who she had been.",
+        "epithet": "An Enthusiast Without an Audience",
+        "execution": [
+          "The execution stand lays the witch flat on her back across a specimen board, holding her limbs spread. A specimen pin drives through her chest and into the board. She struggles against it until her body goes still, mounted for display."
+        ],
+        "magic": {
+          "name": "Animal Shapeshifting",
+          "text": "She can transform into an animal of her choice and use its natural abilities."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

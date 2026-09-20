@@ -1,0 +1,31 @@
+{
+  "cell": "DEF|Avenger",
+  "copingSub": "AG-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Avenger",
+  "tag": "DEF-3_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Days earlier, a girl had seen a bubble holding one of {WITCH_NAME}'s violent thoughts and embraced her. \"You didn't want that thought.\"",
+          "Today, the girl circulated a photograph of the bubble on her phone among the prisoners, labeling it a confession. During afternoon free time in the courtyard, {WITCH_NAME} asked her to retract it. The girl refused. {WITCH_NAME} killed the girl by battering her head against the fountain.",
+          "There in the courtyard, she extracted the memory of the killing into a new bubble. Before the body was found, she showed it to the prisoners and claimed it was the same intrusive image from the photograph, unchanged.",
+          "The prisoners found the body in the courtyard with a broken front tooth. One prisoner compared the bubble with the photograph: the tooth was intact in the photo, but broken in the bubble. Her supposedly unchanged thought was a replacement, already showing an injury that had yet to be discovered."
+        ],
+        "epitaph": "The thought could leave her; the condemnation never would.",
+        "epithet": "Her own face in the stained mirror of an unwanted thought",
+        "execution": [
+          "A transparent globe on the execution stand closes around her head. Water fills it and covers her face. Bubbles of breath rise through the water until the last one touches the glass, and she goes still."
+        ],
+        "magic": {
+          "name": "Thought Bubbles",
+          "text": "She can take thoughts out of her mind and turn them into transparent bubbles with miniature scenes floating inside."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

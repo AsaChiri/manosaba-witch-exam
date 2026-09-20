@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Watcher",
+  "copingSub": "WT-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Watcher",
+  "tag": "ABN-6_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "After the laundry was done, the girl warmed {WITCH_NAME}'s chilled hands between her own in the lounge. When the girl drew her hands away, {WITCH_NAME} watched them go, then glanced toward the door. Today, the girl said her own roommate would come to care for {WITCH_NAME} from then on; she herself would not visit again.",
+          "Still in the lounge, {WITCH_NAME} used her Magic to make her hands feel as cold and numb as they had before the girl warmed them, letting them blister without pain. Then she forced the girl facedown into the fireplace and held her throat in both hands until she stopped moving.",
+          "A prisoner found the girl and {WITCH_NAME} in the lounge, both burned. {WITCH_NAME} said the girl had collapsed into the fireplace by accident and that she had burned herself trying to rescue her. But when the prisoner wiped the soot from the girl's throat, a ring of fingertip bruises appeared. The prisoners understood: the burns on {WITCH_NAME}'s hands were the traces of a strangling grip, passed off as injuries from a rescue."
+        ],
+        "epitaph": "She preserved yesterday's tenderness by killing any chance of tomorrow's.",
+        "epithet": "The Watcher of Fading Warmth",
+        "execution": [
+          "The execution stand straps her into a chair and reclines her over a washbasin. A spout pours warm water over the bound hands the girl once warmed, then fills the basin until her face is submerged. Even after her face goes still beneath the surface, warm water keeps pouring over the rim."
+        ],
+        "magic": {
+          "name": "Sense Memory",
+          "text": "She can relive any bodily sensation from her own past as though it were happening now."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

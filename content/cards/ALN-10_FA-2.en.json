@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Fantasist",
+  "copingSub": "FA-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Fantasist",
+  "tag": "ALN-10_FA-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During free time, {WITCH_NAME} used her Magic to turn the reception room into a sheltered seashore where she and a girl could rest together. Afterward, the girl welcomed her home to the place they shared.",
+          "That day, the girl pinned an appointment sheet to the doorframe, reserving private sessions on their beach. When her turn came, she sent {WITCH_NAME} away.",
+          "Turned out of the home she had made, {WITCH_NAME} replaced the sheltered shore with an enclosing sea. Water filled the reception room and drowned the girl. Then she restored the sheltered seashore, where a prisoner later found the girl's waterlogged body stranded on the shoreline.",
+          "{WITCH_NAME} had said the girl was taking a private swim, and the scene suggested an accidental drowning. But a prisoner examining the appointment sheet found that its ink had bled even above head height. At the trial court, the prisoners understood the mark: {WITCH_NAME}'s landscape replacement had submerged the whole room, overturning her story of a private swim."
+        ],
+        "epitaph": "Too late, she understood: home was never the place she made, but the place where she was welcome.",
+        "epithet": "A Stranger Everywhere",
+        "execution": [
+          "Inside a glass room, the execution stand locks her upright, feet anchored to the floor. Real water climbs from her ankles to her face, engulfing the horizon of the seashore painted around the glass. After her last bubbles rise, she hangs motionless beneath the painted shore."
+        ],
+        "magic": {
+          "name": "Worlds Within Walls",
+          "text": "She can turn a room into a physically real, inhabitable landscape from her imagination."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

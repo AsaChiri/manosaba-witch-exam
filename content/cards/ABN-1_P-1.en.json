@@ -1,0 +1,32 @@
+{
+  "cell": "ABN|Performer",
+  "copingSub": "P-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Performer",
+  "tag": "ABN-1_P-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During free time on an earlier day, after their audience left, {WITCH_NAME} and her performance partner clasped hands and bowed together.",
+          "This afternoon, her partner taught another prisoner to run the projector as the lighting operator. For an encore, {WITCH_NAME} brought shadow birds to life for her partner. But when it ended, the partner clasped the other prisoner's hand and bowed with them.",
+          "After that bow, {WITCH_NAME} stabbed her partner with a sword in the recreation room, inflicting a fatal wound. Before the rehearsal, she concealed her partner beneath the cloth draped over the pool table. Then she brought a dancer puppet to life as a life-size shadow dancer. Backlit by the projector, the creature mimed her partner's solo rehearsal as a silhouette. Side by side, {WITCH_NAME} and the other prisoner watched the dancer. It seemed her partner was still alive and rehearsing.",
+          "Then {WITCH_NAME} invited the other prisoner to go with her to the library. Before leaving, the prisoner approached the dancer for the same clasped-hands bow. The hand they grasped was paper-thin. They pulled back the cloth from the pool table and found the partner's corpse underneath.",
+          "At the trial court, the prisoners understood what the paper-thin hand and the corpse meant: the apparent survivor had been {WITCH_NAME}'s living dancer puppet standing in for her partner."
+        ],
+        "epitaph": "She turned her last bow with her partner into a farewell no encore could undo.",
+        "epithet": "The Endless Encore",
+        "execution": [
+          "An execution stand hoists her by raised wrist cuffs between two enormous palms facing each other. Again and again, the palms clap around her torso, crushing her between them. After the final clap, they remain closed around her, holding her limp and still."
+        ],
+        "magic": {
+          "name": "Living Shadowplay",
+          "text": "She can bring shadow puppets to life as tangible creatures."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

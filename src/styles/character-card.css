@@ -145,6 +145,42 @@
   background: color-mix(in srgb, var(--bone) 5%, var(--velvet-raised));
   border: 1px solid color-mix(in srgb, var(--verdict-gold) 24%, transparent);
   transform: rotate(-1.1deg);
+  /* her file photo (when present) sits in a left column; text + signature
+     stack on the right (owner decision 2026-09-12 — option C) */
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 0.95rem;
+  align-items: start;
+}
+.character-card__warden-text,
+.character-card__warden-sig {
+  grid-column: 2;
+}
+/* The photo: a small print with a paper border, tilted the other way from the
+ * scrap so the two papers read as separate objects. The game portrait is a
+ * head-centred square; the print crops to 5:6 with the face high. A plain 2D
+ * transform on a regular element — html2canvas-safe (see the note above). */
+.character-card__warden-photo {
+  grid-row: 1 / span 2;
+  display: block;
+  width: 4.6rem;
+  padding: 0.28rem 0.28rem 0.7rem;
+  background: #efe6da;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.5);
+  transform: rotate(-3.2deg);
+  transform-origin: 50% 20%;
+}
+.character-card__warden-photo img {
+  display: block;
+  width: 100%;
+  /* the intrinsic width/height attributes (layout-shift hint) would otherwise
+     win over the print's aspect ratio */
+  height: auto;
+  aspect-ratio: 5 / 6;
+  object-fit: cover;
+  object-position: 50% 28%;
+  background: color-mix(in srgb, var(--char-color) 30%, #1a1014);
+  filter: saturate(0.88);
 }
 /* the dog-eared corner: a lighter fold flap over a shadowed cut */
 .character-card__warden-note::after {

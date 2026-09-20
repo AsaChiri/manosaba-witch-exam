@@ -1,0 +1,30 @@
+{
+  "cell": "DEF|Clinger",
+  "copingSub": "CL-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Clinger",
+  "tag": "DEF-3_CL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week in the lounge, {WITCH_NAME} confessed that she could not shake an unwanted thought of stabbing her friend. Her friend assured her that their friendship would continue. She began asking her friend for that same assurance again and again, stepping back into the remembered conversation each time to hear it.",
+          "That afternoon, she unfolded the memory in the lounge. Inside it, a remembered girl practiced with a sword. Her friend refused yet another demand for reassurance, said goodbye, and ended their friendship. With a spare sword from the memory, {WITCH_NAME} fatally stabbed her friend. She laid the body at the remembered girl's feet and used her phone to photograph the armed figure beside it. She dismissed the recreation; the remembered girl vanished, but her friend's body remained. She then showed the phone photo and accused the girl of attacking her friend and fleeing.",
+          "But another prisoner remembered seeing the girl break the tip of her sword in the lounge that morning. That prisoner compared the girl's broken sword with the one in the photograph: both had the same forked hilt, but the photographed blade still had its point. The prisoners realized that the photograph showed a remembered bystander, not an assailant present that afternoon, exposing {WITCH_NAME}'s staged accusation."
+        ],
+        "epitaph": "The friendship ended. Its kindness did not.",
+        "epithet": "Beggar for Absolution",
+        "execution": [
+          "The execution stand opened an enormous pop-up book beneath her and bound her faceup to its page. A life-size paper lounge unfolded around her, with a sofa where her friend's reassurance played out once more. Then the book's cover began to close, pressing harder and harder against her chest. When the book shut, one hand protruded from between its pages. It did not move."
+        ],
+        "magic": {
+          "name": "Memory Unfolded",
+          "text": "She can unfold her own memories into places that people can physically enter."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

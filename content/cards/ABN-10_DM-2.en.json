@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Doomer",
+  "copingSub": "DM-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-10",
+  "style": "Doomer",
+  "tag": "ABN-10_DM-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In recent weeks, the friend who once spent whole evenings braiding {WITCH_NAME}'s hair in the lounge had reduced her visits to brief calls. During the friend's last visit, {WITCH_NAME} drew the woman's reflection from a hand mirror as a tangible copy. She used the double to rehearse the farewell she feared was coming.",
+          "Today, the friend interrupted that rehearsal and discovered her replacement. She canceled every future braiding visit. {WITCH_NAME} strangled her with a scarf in the lounge.",
+          "After the murder, the double joined the prisoners for dinner in the dining hall. When a prisoner later found the victim's corpse in the lounge, another remembered dining with her after her visit with {WITCH_NAME}, making it seem that she had been killed later. Then one prisoner compared the dinner memory with the body: the victim's familiar eyebrow scar, on the corpse's right side, had appeared on the diner's left. The dinner guest had been the reflection {WITCH_NAME} substituted for her friend."
+        ],
+        "epitaph": "She said goodbye too soon, and lost the love that had not yet left.",
+        "epithet": "The Premature Mourner",
+        "execution": [
+          "The mirrored chair on the execution stand binds her torso and holds her arms outstretched, locking each hand in a clasp against the glass. The mirror slides backward, and the clasps pull until both arms are torn from her body—an embrace ripped apart. Her severed hands remain locked in the clasps as the mirror carries them farther away. She strains toward them until she goes still."
+        ],
+        "magic": {
+          "name": "Reflections Made Real",
+          "text": "She can draw the reflections of people and objects out of mirrors as tangible copies."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

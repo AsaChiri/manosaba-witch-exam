@@ -1,0 +1,31 @@
+{
+  "cell": "MB|Avenger",
+  "copingSub": "AG-1",
+  "family": "MB",
+  "locale": "en",
+  "originSub": "MB-2",
+  "style": "Avenger",
+  "tag": "MB-2_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Lately, {WITCH_NAME} had been calling her confidante in tears at night. A lullaby over the phone had soothed her. Today, her confidante shared a recording of one of those calls with the prisoners.",
+          "In the lounge during afternoon free time, {WITCH_NAME} played it back to her, again and again, and demanded an apology in front of everyone. Her confidante refused. \"It was just a bit of fun.\"",
+          "{WITCH_NAME} peeled the sofa's shadow off the floor and strangled her confidante to death with the cloth. Then she flattened it beneath the sofa, where it looked like an ordinary shadow.",
+          "When the body was found, she told the prisoners that the killer had taken the ligature away. But as one prisoner shifted the sofa during the search, a patch of shadow stayed put. The prisoner lifted it into folds of cloth. The prisoners now had the weapon she claimed was gone: cloth made by her Magic."
+        ],
+        "epitaph": "Only her silence was hers to keep.",
+        "epithet": "A lullaby meant as shelter, made into a spectacle",
+        "execution": [
+          "The execution stand held her upright beneath a curtain roller, her wrists bound and a loop of black curtain around her neck. The roller wound up the curtain and hoisted her by the throat. Her feet left the floor and kicked beneath the raised curtain until they hung motionless."
+        ],
+        "magic": {
+          "name": "Shadowcloth",
+          "text": "She can peel cast shadows off surfaces as opaque cloth."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

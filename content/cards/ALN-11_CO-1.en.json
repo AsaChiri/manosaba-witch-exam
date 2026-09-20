@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Concealer",
+  "copingSub": "CO-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-11",
+  "style": "Concealer",
+  "tag": "ALN-11_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week, a girl lent {WITCH_NAME} her cardigan in their cell, giving them something to mend together. Once she put it on, {WITCH_NAME} borrowed the girl's tailoring skill and repaired its torn sleeve.",
+          "But today, at the evening gathering in the lounge, the girl replaced {WITCH_NAME}'s reserved seat with a basket of mending and sent her back to the cell with the unfinished mending. During evening free time, {WITCH_NAME} stabbed the girl in the chest with a sword, wrapped her body in a blanket, and hid it beneath the lower bunk.",
+          "Though she had never learned the violin, {WITCH_NAME} wore the cardigan in the reception room and played with the girl's proficiency. She streamed the performance by phone to the prisoners, keeping her face off camera. They recognized the girl's playing and believed she was still practicing.",
+          "Then a prisoner followed a blood trail into the cell and found the girl dead. The prisoner checked the phone there; the violin stream was still running. At the trial court, the prisoners saw through the trick: {WITCH_NAME} had been the violinist off camera, borrowing the girl's skill through the cardigan."
+        ],
+        "epitaph": "A place beside someone should never depend on being useful.",
+        "epithet": "The Perpetual Stand-In",
+        "execution": [
+          "The execution stand lifts her on a coat-shaped frame, her sleeves clamped high so she hangs from them. A pair of tailoring shears closes around her neck at collar level. When the blades open again, her collar is soaked with blood and her hanging body no longer moves."
+        ],
+        "magic": {
+          "name": "Secondhand Mastery",
+          "text": "Wear another person's clothes, and you become proficient in every skill they have learned."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

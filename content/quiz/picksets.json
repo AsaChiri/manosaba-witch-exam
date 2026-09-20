@@ -2,15 +2,46 @@
   "cells": {
     "ABN|Avenger": {
       "coping": {
-        "auto": "AG-2"
+        "options": [
+          "AG-1",
+          "AG-2"
+        ]
       },
       "origin": {
-        "auto": "ABN-2"
+        "options": [
+          "ABN-1",
+          "ABN-2",
+          "ABN-6"
+        ]
+      }
+    },
+    "ABN|Avoider": {
+      "coping": {
+        "options": [
+          "AV-2",
+          "AV-3",
+          "AV-6"
+        ]
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-6",
+          "ABN-10"
+        ]
       }
     },
     "ABN|Caretaker": {
       "coping": {
         "auto": "CT-3"
+      },
+      "origin": {
+        "auto": "ABN-1"
+      }
+    },
+    "ABN|Catastrophizer": {
+      "coping": {
+        "auto": "CA-1"
       },
       "origin": {
         "auto": "ABN-1"
@@ -26,29 +57,121 @@
       "origin": {
         "options": [
           "ABN-1",
-          "ABN-7"
+          "ABN-7",
+          "ABN-9"
+        ]
+      }
+    },
+    "ABN|Depender": {
+      "coping": {
+        "auto": "DP-2"
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-6"
         ]
       }
     },
     "ABN|Detacher": {
       "coping": {
-        "auto": "DT-2"
+        "options": [
+          "DT-2",
+          "DT-3"
+        ]
       },
       "origin": {
         "auto": "ABN-1"
       }
     },
-    "ABN|Fantasist": {
+    "ABN|Doomer": {
       "coping": {
-        "auto": "FA-1"
+        "auto": "DM-2"
       },
       "origin": {
-        "auto": "ABN-3"
+        "auto": "ABN-10"
+      }
+    },
+    "ABN|Fantasist": {
+      "coping": {
+        "options": [
+          "FA-1",
+          "FA-3",
+          "FA-4"
+        ]
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-3"
+        ]
+      }
+    },
+    "ABN|Perfectionist": {
+      "coping": {
+        "auto": "PF-1"
+      },
+      "origin": {
+        "auto": "ABN-9"
+      }
+    },
+    "ABN|Performer": {
+      "coping": {
+        "auto": "P-1"
+      },
+      "origin": {
+        "auto": "ABN-1"
       }
     },
     "ABN|Pleaser": {
       "coping": {
         "auto": "PL-3"
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-6",
+          "ABN-9"
+        ]
+      }
+    },
+    "ABN|Resigned": {
+      "coping": {
+        "options": [
+          "RS-1",
+          "RS-3"
+        ]
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-3"
+        ]
+      }
+    },
+    "ABN|Ritualist": {
+      "coping": {
+        "auto": "RI-2"
+      },
+      "origin": {
+        "auto": "ABN-1"
+      }
+    },
+    "ABN|Ruminator": {
+      "coping": {
+        "auto": "RU-1"
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-6",
+          "ABN-10"
+        ]
+      }
+    },
+    "ABN|Self-Punisher": {
+      "coping": {
+        "auto": "SP-1"
       },
       "origin": {
         "auto": "ABN-1"
@@ -59,15 +182,354 @@
         "auto": "SR-1"
       },
       "origin": {
-        "auto": "ABN-4"
+        "options": [
+          "ABN-1",
+          "ABN-4"
+        ]
+      }
+    },
+    "ABN|Self-Soother": {
+      "coping": {
+        "auto": "SS-3"
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-6"
+        ]
+      }
+    },
+    "ABN|Striker": {
+      "coping": {
+        "auto": "ST-2"
+      },
+      "origin": {
+        "auto": "ABN-1"
+      }
+    },
+    "ABN|Thrill-Seeker": {
+      "coping": {
+        "auto": "TS-2"
+      },
+      "origin": {
+        "auto": "ABN-1"
+      }
+    },
+    "ABN|Trickster": {
+      "coping": {
+        "auto": "TR-1"
+      },
+      "origin": {
+        "auto": "ABN-9"
+      }
+    },
+    "ABN|Wall-of-Anger": {
+      "coping": {
+        "auto": "WA-1"
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-6"
+        ]
+      }
+    },
+    "ABN|Watcher": {
+      "coping": {
+        "auto": "WT-2"
+      },
+      "origin": {
+        "options": [
+          "ABN-1",
+          "ABN-6"
+        ]
+      }
+    },
+    "ALN|Avenger": {
+      "coping": {
+        "auto": "AG-1"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Avoider": {
+      "coping": {
+        "options": [
+          "AV-1",
+          "AV-2",
+          "AV-3"
+        ]
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5",
+          "ALN-10"
+        ]
+      }
+    },
+    "ALN|Caretaker": {
+      "coping": {
+        "auto": "CT-1"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Clinger": {
+      "coping": {
+        "auto": "CL-2"
+      },
+      "origin": {
+        "auto": "ALN-7"
       }
     },
     "ALN|Concealer": {
       "coping": {
-        "auto": "CO-1"
+        "options": [
+          "CO-1",
+          "CO-2"
+        ]
       },
       "origin": {
-        "auto": "ALN-10"
+        "options": [
+          "ALN-1",
+          "ALN-5",
+          "ALN-10",
+          "ALN-11"
+        ]
+      }
+    },
+    "ALN|Detacher": {
+      "coping": {
+        "auto": "DT-2"
+      },
+      "origin": {
+        "auto": "ALN-1"
+      }
+    },
+    "ALN|Doomer": {
+      "coping": {
+        "auto": "DM-3"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Fantasist": {
+      "coping": {
+        "options": [
+          "FA-2",
+          "FA-3",
+          "FA-4"
+        ]
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-10"
+        ]
+      }
+    },
+    "ALN|Perfectionist": {
+      "coping": {
+        "auto": "PF-3"
+      },
+      "origin": {
+        "auto": "ALN-2"
+      }
+    },
+    "ALN|Performer": {
+      "coping": {
+        "auto": "P-2"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-4",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Pleaser": {
+      "coping": {
+        "auto": "PL-1"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Resigned": {
+      "coping": {
+        "auto": "RS-1"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Ritualist": {
+      "coping": {
+        "auto": "RI-2"
+      },
+      "origin": {
+        "auto": "ALN-9"
+      }
+    },
+    "ALN|Ruminator": {
+      "coping": {
+        "options": [
+          "RU-1",
+          "RU-2"
+        ]
+      },
+      "origin": {
+        "auto": "ALN-1"
+      }
+    },
+    "ALN|Self-Punisher": {
+      "coping": {
+        "auto": "SP-2"
+      },
+      "origin": {
+        "auto": "ALN-5"
+      }
+    },
+    "ALN|Self-Reliant": {
+      "coping": {
+        "auto": "SR-1"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5",
+          "ALN-10"
+        ]
+      }
+    },
+    "ALN|Self-Soother": {
+      "coping": {
+        "auto": "SS-3"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Sovereign": {
+      "coping": {
+        "auto": "SV-1"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Striker": {
+      "coping": {
+        "auto": "ST-2"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5"
+        ]
+      }
+    },
+    "ALN|Thrill-Seeker": {
+      "coping": {
+        "auto": "TS-1"
+      },
+      "origin": {
+        "auto": "ALN-1"
+      }
+    },
+    "ALN|Trickster": {
+      "coping": {
+        "auto": "TR-2"
+      },
+      "origin": {
+        "auto": "ALN-11"
+      }
+    },
+    "ALN|Wall-of-Anger": {
+      "coping": {
+        "auto": "WA-3"
+      },
+      "origin": {
+        "options": [
+          "ALN-1",
+          "ALN-5",
+          "ALN-10"
+        ]
+      }
+    },
+    "ALN|Watcher": {
+      "coping": {
+        "auto": "WT-2"
+      },
+      "origin": {
+        "auto": "ALN-1"
+      }
+    },
+    "DEF|Avenger": {
+      "coping": {
+        "auto": "AG-1"
+      },
+      "origin": {
+        "options": [
+          "DEF-3",
+          "DEF-6"
+        ]
+      }
+    },
+    "DEF|Avoider": {
+      "coping": {
+        "options": [
+          "AV-2",
+          "AV-3"
+        ]
+      },
+      "origin": {
+        "options": [
+          "DEF-3",
+          "DEF-6"
+        ]
+      }
+    },
+    "DEF|Catastrophizer": {
+      "coping": {
+        "auto": "CA-1"
+      },
+      "origin": {
+        "auto": "DEF-3"
+      }
+    },
+    "DEF|Clinger": {
+      "coping": {
+        "auto": "CL-2"
+      },
+      "origin": {
+        "auto": "DEF-3"
       }
     },
     "DEF|Concealer": {
@@ -82,6 +544,7 @@
         "options": [
           "DEF-1",
           "DEF-3",
+          "DEF-6",
           "DEF-7"
         ]
       }
@@ -92,6 +555,14 @@
       },
       "origin": {
         "auto": "DEF-4"
+      }
+    },
+    "DEF|Performer": {
+      "coping": {
+        "auto": "P-2"
+      },
+      "origin": {
+        "auto": "DEF-3"
       }
     },
     "DEF|Self-Punisher": {
@@ -165,6 +636,22 @@
       },
       "origin": {
         "auto": "ED-3"
+      }
+    },
+    "FAI|Concealer": {
+      "coping": {
+        "auto": "CO-1"
+      },
+      "origin": {
+        "auto": "FAI-1"
+      }
+    },
+    "MB|Avenger": {
+      "coping": {
+        "auto": "AG-1"
+      },
+      "origin": {
+        "auto": "MB-2"
       }
     },
     "MB|Avoider": {
@@ -253,6 +740,14 @@
         "auto": "MB-2"
       }
     },
+    "POW|Avoider": {
+      "coping": {
+        "auto": "AV-2"
+      },
+      "origin": {
+        "auto": "POW-2"
+      }
+    },
     "POW|Catastrophizer": {
       "coping": {
         "auto": "CA-4"
@@ -287,68 +782,25 @@
     }
   },
   "redirect": {
-    "ABN|Avoider": "ABN|Detacher",
-    "ABN|Catastrophizer": "ABN|Clinger",
-    "ABN|Concealer": "ABN|Detacher",
-    "ABN|Depender": "ABN|Clinger",
-    "ABN|Doomer": "ABN|Pleaser",
-    "ABN|Perfectionist": "ABN|Clinger",
-    "ABN|Performer": "ABN|Clinger",
-    "ABN|Resigned": "ABN|Pleaser",
-    "ABN|Ritualist": "ABN|Clinger",
-    "ABN|Ruminator": "ABN|Pleaser",
-    "ABN|Self-Punisher": "ABN|Pleaser",
-    "ABN|Self-Soother": "ABN|Detacher",
-    "ABN|Sovereign": "ABN|Clinger",
-    "ABN|Striker": "ABN|Clinger",
-    "ABN|Thrill-Seeker": "ABN|Detacher",
-    "ABN|Trickster": "ABN|Clinger",
-    "ABN|Wall-of-Anger": "ABN|Clinger",
-    "ABN|Watcher": "ABN|Clinger",
-    "ALN|Avenger": "ALN|Concealer",
-    "ALN|Avoider": "ALN|Concealer",
-    "ALN|Caretaker": "ALN|Concealer",
-    "ALN|Catastrophizer": "ALN|Concealer",
-    "ALN|Clinger": "ALN|Concealer",
-    "ALN|Depender": "ALN|Concealer",
-    "ALN|Detacher": "ALN|Concealer",
-    "ALN|Doomer": "ALN|Concealer",
-    "ALN|Fantasist": "ALN|Concealer",
-    "ALN|Perfectionist": "ALN|Concealer",
-    "ALN|Performer": "ALN|Concealer",
-    "ALN|Pleaser": "ALN|Concealer",
-    "ALN|Resigned": "ALN|Concealer",
-    "ALN|Ritualist": "ALN|Concealer",
-    "ALN|Ruminator": "ALN|Concealer",
-    "ALN|Self-Punisher": "ALN|Concealer",
-    "ALN|Self-Reliant": "ALN|Concealer",
-    "ALN|Self-Soother": "ALN|Concealer",
-    "ALN|Sovereign": "ALN|Concealer",
-    "ALN|Striker": "ALN|Concealer",
-    "ALN|Thrill-Seeker": "ALN|Concealer",
-    "ALN|Trickster": "ALN|Concealer",
-    "ALN|Wall-of-Anger": "ALN|Concealer",
-    "ALN|Watcher": "ALN|Concealer",
-    "DEF|Avenger": "DEF|Wall-of-Anger",
-    "DEF|Avoider": "DEF|Concealer",
-    "DEF|Caretaker": "DEF|Wall-of-Anger",
-    "DEF|Catastrophizer": "DEF|Wall-of-Anger",
-    "DEF|Clinger": "DEF|Wall-of-Anger",
-    "DEF|Detacher": "DEF|Concealer",
+    "ABN|Concealer": "ABN|Avoider",
+    "ABN|Sovereign": "ABN|Performer",
+    "ALN|Catastrophizer": "ALN|Watcher",
+    "ALN|Depender": "ALN|Clinger",
+    "DEF|Caretaker": "DEF|Clinger",
+    "DEF|Detacher": "DEF|Avoider",
     "DEF|Doomer": "DEF|Self-Punisher",
-    "DEF|Fantasist": "DEF|Wall-of-Anger",
-    "DEF|Perfectionist": "DEF|Wall-of-Anger",
-    "DEF|Performer": "DEF|Wall-of-Anger",
-    "DEF|Pleaser": "DEF|Self-Punisher",
+    "DEF|Fantasist": "DEF|Performer",
+    "DEF|Perfectionist": "DEF|Catastrophizer",
+    "DEF|Pleaser": "DEF|Clinger",
     "DEF|Resigned": "DEF|Self-Punisher",
-    "DEF|Ritualist": "DEF|Wall-of-Anger",
+    "DEF|Ritualist": "DEF|Catastrophizer",
     "DEF|Ruminator": "DEF|Self-Punisher",
     "DEF|Self-Reliant": "DEF|Concealer",
-    "DEF|Self-Soother": "DEF|Concealer",
-    "DEF|Sovereign": "DEF|Wall-of-Anger",
+    "DEF|Self-Soother": "DEF|Avoider",
+    "DEF|Sovereign": "DEF|Performer",
     "DEF|Striker": "DEF|Wall-of-Anger",
-    "DEF|Thrill-Seeker": "DEF|Concealer",
-    "DEF|Trickster": "DEF|Wall-of-Anger",
+    "DEF|Thrill-Seeker": "DEF|Avoider",
+    "DEF|Trickster": "DEF|Avenger",
     "ED|Avenger": "ED|Performer",
     "ED|Caretaker": "ED|Clinger",
     "ED|Catastrophizer": "ED|Performer",
@@ -369,32 +821,30 @@
     "ED|Trickster": "ED|Performer",
     "ED|Wall-of-Anger": "ED|Clinger",
     "ED|Watcher": "ED|Performer",
-    "FAI|Avenger": "DEF|Wall-of-Anger",
-    "FAI|Avoider": "ALN|Concealer",
-    "FAI|Caretaker": "ED|Clinger",
-    "FAI|Catastrophizer": "VC|Watcher",
-    "FAI|Clinger": "ED|Clinger",
-    "FAI|Concealer": "ALN|Concealer",
-    "FAI|Depender": "ED|Clinger",
-    "FAI|Detacher": "VC|Self-Soother",
-    "FAI|Doomer": "DEF|Self-Punisher",
-    "FAI|Fantasist": "VC|Fantasist",
-    "FAI|Perfectionist": "VC|Watcher",
-    "FAI|Performer": "VC|Fantasist",
-    "FAI|Pleaser": "ED|Clinger",
-    "FAI|Resigned": "DEF|Self-Punisher",
-    "FAI|Ritualist": "VC|Watcher",
-    "FAI|Ruminator": "DEF|Self-Punisher",
-    "FAI|Self-Punisher": "DEF|Self-Punisher",
-    "FAI|Self-Reliant": "ALN|Concealer",
-    "FAI|Self-Soother": "VC|Self-Soother",
-    "FAI|Sovereign": "VC|Fantasist",
-    "FAI|Striker": "DEF|Wall-of-Anger",
-    "FAI|Thrill-Seeker": "VC|Self-Soother",
-    "FAI|Trickster": "DEF|Wall-of-Anger",
-    "FAI|Wall-of-Anger": "DEF|Wall-of-Anger",
-    "FAI|Watcher": "VC|Watcher",
-    "MB|Avenger": "MB|Trickster",
+    "FAI|Avenger": "FAI|Concealer",
+    "FAI|Avoider": "FAI|Concealer",
+    "FAI|Caretaker": "FAI|Concealer",
+    "FAI|Catastrophizer": "FAI|Concealer",
+    "FAI|Clinger": "FAI|Concealer",
+    "FAI|Depender": "FAI|Concealer",
+    "FAI|Detacher": "FAI|Concealer",
+    "FAI|Doomer": "FAI|Concealer",
+    "FAI|Fantasist": "FAI|Concealer",
+    "FAI|Perfectionist": "FAI|Concealer",
+    "FAI|Performer": "FAI|Concealer",
+    "FAI|Pleaser": "FAI|Concealer",
+    "FAI|Resigned": "FAI|Concealer",
+    "FAI|Ritualist": "FAI|Concealer",
+    "FAI|Ruminator": "FAI|Concealer",
+    "FAI|Self-Punisher": "FAI|Concealer",
+    "FAI|Self-Reliant": "FAI|Concealer",
+    "FAI|Self-Soother": "FAI|Concealer",
+    "FAI|Sovereign": "FAI|Concealer",
+    "FAI|Striker": "FAI|Concealer",
+    "FAI|Thrill-Seeker": "FAI|Concealer",
+    "FAI|Trickster": "FAI|Concealer",
+    "FAI|Wall-of-Anger": "FAI|Concealer",
+    "FAI|Watcher": "FAI|Concealer",
     "MB|Caretaker": "MB|Depender",
     "MB|Catastrophizer": "MB|Sovereign",
     "MB|Clinger": "MB|Depender",
@@ -410,26 +860,25 @@
     "MB|Thrill-Seeker": "MB|Self-Soother",
     "MB|Watcher": "MB|Sovereign",
     "POW|Avenger": "POW|Catastrophizer",
-    "POW|Avoider": "POW|Catastrophizer",
-    "POW|Caretaker": "POW|Catastrophizer",
-    "POW|Clinger": "POW|Catastrophizer",
-    "POW|Concealer": "POW|Catastrophizer",
-    "POW|Depender": "POW|Catastrophizer",
-    "POW|Detacher": "POW|Catastrophizer",
-    "POW|Doomer": "POW|Catastrophizer",
+    "POW|Caretaker": "POW|Avoider",
+    "POW|Clinger": "POW|Avoider",
+    "POW|Concealer": "POW|Avoider",
+    "POW|Depender": "POW|Avoider",
+    "POW|Detacher": "POW|Avoider",
+    "POW|Doomer": "POW|Avoider",
     "POW|Fantasist": "POW|Catastrophizer",
     "POW|Perfectionist": "POW|Catastrophizer",
     "POW|Performer": "POW|Catastrophizer",
-    "POW|Pleaser": "POW|Catastrophizer",
-    "POW|Resigned": "POW|Catastrophizer",
+    "POW|Pleaser": "POW|Avoider",
+    "POW|Resigned": "POW|Avoider",
     "POW|Ritualist": "POW|Catastrophizer",
-    "POW|Ruminator": "POW|Catastrophizer",
-    "POW|Self-Punisher": "POW|Catastrophizer",
-    "POW|Self-Reliant": "POW|Catastrophizer",
-    "POW|Self-Soother": "POW|Catastrophizer",
+    "POW|Ruminator": "POW|Avoider",
+    "POW|Self-Punisher": "POW|Avoider",
+    "POW|Self-Reliant": "POW|Avoider",
+    "POW|Self-Soother": "POW|Avoider",
     "POW|Sovereign": "POW|Catastrophizer",
     "POW|Striker": "POW|Catastrophizer",
-    "POW|Thrill-Seeker": "POW|Catastrophizer",
+    "POW|Thrill-Seeker": "POW|Avoider",
     "POW|Trickster": "POW|Catastrophizer",
     "POW|Wall-of-Anger": "POW|Catastrophizer",
     "POW|Watcher": "POW|Catastrophizer",

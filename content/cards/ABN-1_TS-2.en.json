@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Thrill-Seeker",
+  "copingSub": "TS-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Thrill-Seeker",
+  "tag": "ABN-1_TS-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For the past few evenings, a girl had split her bread into equal halves with {WITCH_NAME} in the dining hall. On the night of the murder, she invited another prisoner to join them. Once they were seated, the witch swept the third portion onto the floor. Before the shared meal could begin, the girl took her bread away and went to eat alone at the upper railing.",
+          "There, the witch found a foothold on the outside of the railing, then redirected her own fall out across the courtyard. Hanging horizontally beyond the iron bar, she drew the girl's scarf tight around her throat. Only after the girl slumped did she pull the scarf free.",
+          "At the railing, one prisoner saw the unchewed bread in the girl's mouth and concluded that she had choked. But at her nape, the prisoner uncovered a bruise stamped with the scarf's weave, while the bruise across her throat matched the profile of the iron bar. Another prisoner then recalled that, before the girl was found, the witch had climbed up the outside of the courtyard railing. Together, the bruises and the sighting overturned the choking story: from outside the railing, {WITCH_NAME}'s outward fall had pulled the scarf tight as the iron bar pressed against the other side of the girl's neck."
+        ],
+        "epitaph": "Bread shared without the freedom to leave is no companionship at all.",
+        "epithet": "The Premature Mourner",
+        "execution": [
+          "The execution stand holds her suspended upright between two paving slabs standing on edge. The slabs tip sideways and land against her torso, crushing her between them. They keep pressing. Under the sustained weight, her head bows and at last remains still."
+        ],
+        "magic": {
+          "name": "Personal Gravity",
+          "text": "She can make her own body fall in any direction she chooses."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cell": "DEF|Concealer",
+  "copingSub": "CO-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Concealer",
+  "tag": "DEF-6_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week in the lounge, a girl warmed {WITCH_NAME}'s trembling hands with quiet, unquestioning tenderness. At meals in the dining hall, {WITCH_NAME} wore a scarf woven with her own calm to stay composed around the others.",
+          "Today in the lounge, she lent the girl a shawl woven from her self-disgust, sharing an emotion she kept private. While wearing it, the girl mistook that borrowed feeling for proof that {WITCH_NAME} had done something wrong. She demanded a confession, then threatened to make everyone wear the shawl. During afternoon free time, {WITCH_NAME} invited her to the cell to hear the confession in private. There, she strangled the girl to death with the shawl, then suspended her body from the upper bunk with it as a noose.",
+          "The hanging in the cell looked like suicide to the prisoners. One recalled seeing the girl in the lounge earlier that day, wearing the shawl and sobbing desolately. At the trial court, a prisoner who felt perfectly neutral tried on the shawl used as the noose; overwhelming shame and self-disgust flooded in. Back in the cell, a prisoner had also exposed a horizontal furrow beneath the slanting mark left by suspension on the girl's neck. At the trial court, the prisoners reconstructed how {WITCH_NAME} staged the hanging: the sobbing had come from borrowed self-disgust, not the girl's own despair, and the second mark showed that strangulation came before suspension."
+        ],
+        "epitaph": "She had condemned herself while innocent; in the end, she made the sentence true.",
+        "epithet": "Guilty Without a Crime",
+        "execution": [
+          "The Shroud Loom on the execution stand locks her upright. An orbiting shuttle winds airtight ribbon over her exposed face until it is completely sealed. The shuttle keeps circling, drawing the ribbon into a seamless gown as she struggles. When the loom finishes, only a faceless silhouette remains, perfectly still."
+        ],
+        "magic": {
+          "name": "Wear My Heart",
+          "text": "She can weave her own emotions into clothing, making anyone who wears it feel them."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

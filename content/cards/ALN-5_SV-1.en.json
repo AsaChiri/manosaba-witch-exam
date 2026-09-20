@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Sovereign",
+  "copingSub": "SV-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Sovereign",
+  "tag": "ALN-5_SV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Over weeks in the courtyard, a girl learned to answer {WITCH_NAME}'s imitation of a birdcall until it became their duet.",
+          "Today in the dining hall, the girl parodied that same call, and the prisoners laughed. {WITCH_NAME} ordered her to stop at once. The girl defied her by leading the prisoners in a mocking chorus of the birdcall.",
+          "That night, a guard locked the prisoners behind the barred cell door. {WITCH_NAME} gathered the stone cell wall beside the lower bunk into folds and stepped through the opening. She slashed the sleeping girl's throat with a sword and left her bleeding to death. After withdrawing into the cell corridor, she drew the wall shut, restoring the stone surface.",
+          "At morning unlock, the cell appeared sealed, and the prisoners accused the girl's roommate, who seemed to be the only person with access. Then one prisoner found a bloodstained corner of the bedsheet pinched in the stone wall on the corridor side and traced the same continuous fabric back to the cell bedding. The trapped sheet revealed that {WITCH_NAME} had used the wall as a hidden passage."
+        ],
+        "epitaph": "Obedience replaced companionship, leaving her with an audience but no company.",
+        "epithet": "The Queen of an Empty Court",
+        "execution": [
+          "The execution stand clamped her neck across a sill beneath a raised, pleated steel curtain. The curtain dropped shut, its bladed hem shearing through her neck. When the steel curtain rose from the neck restraint, her body remained motionless on the stand."
+        ],
+        "magic": {
+          "name": "Parting Walls",
+          "text": "She can gather solid barriers into curtain folds, opening them and drawing them shut again."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

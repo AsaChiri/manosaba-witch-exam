@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Self-Punisher",
+  "copingSub": "SP-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Self-Punisher",
+  "tag": "ALN-5_SP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Last week in the lounge, a girl saw a siege game through to the end with {WITCH_NAME}. At the meals that followed in the dining hall, {WITCH_NAME} gave the girl her own dessert in exchange for a rematch.",
+          "Today in the courtyard, the girl admitted she had played only for the desserts. She returned the siege-game board to {WITCH_NAME}, ending their partnership. In answer, {WITCH_NAME} brought her imaginary fellow enthusiasts to life. The companions held the girl fast while {WITCH_NAME} strangled her with a scarf.",
+          "A prisoner approaching the courtyard heard the commotion and called out to {WITCH_NAME}. At the call, {WITCH_NAME} dismissed the conjured companions, but their footprints remained in the snow. When the prisoner arrived, {WITCH_NAME} claimed that a group had murdered the girl. The prisoner found the girl amid a crowd's worth of footprints, as if she had been attacked by many people.",
+          "The prisoners traced the marks through the surrounding snow. The crowded prints formed isolated clusters, with no crowd's route into or out of the courtyard; only two approach trails crossed the snow. In the trial court, they reconstructed the scene from that impossible pattern: the apparent attackers were {WITCH_NAME}'s conjured companions, not an independent group."
+        ],
+        "epitaph": "No part of herself was ever the price of companionship.",
+        "epithet": "The Penitent Playmate",
+        "execution": [
+          "The execution stand locks the witch into a seat in the lower chamber of a giant sand timer. Outside the glass, mechanical players begin the siege game with her. Sand pours from above, piling against her and rising until it swallows her whole. Even after the buried figure stops moving, the mechanical players continue their game."
+        ],
+        "magic": {
+          "name": "Kindred Made Real",
+          "text": "She brings imaginary fellow enthusiasts to life as physically present companions who share her interests."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

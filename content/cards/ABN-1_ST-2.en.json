@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Striker",
+  "copingSub": "ST-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Striker",
+  "tag": "ABN-1_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In earlier courtyard lessons, the victim steadied the crossbow for {WITCH_NAME} and guided her aim. Today, they took those guiding hands away, leaving her to aim unaided, then stepped back from the firing line until they stood directly behind her.",
+          "{WITCH_NAME} fired a bolt toward a tree, then moved sideways out of its path. While it was still flying outward, her Magic reversed it. The bolt raced back nock-first, pierced the victim's chest, and killed them.",
+          "A prisoner found the bolt's point protruding from the front of the victim's chest. Although that prisoner remembered seeing {WITCH_NAME} fire toward the tree, the protruding point made the prisoners think the fatal bolt had passed through the victim from behind. But a prisoner examined the victim's back and found the skin unpierced. The intact back exposed the trick: the fatal bolt was the outward shot, turned back to strike from the front."
+        ],
+        "epitaph": "Letting go meant trusting her to stand on her own. She never understood.",
+        "epithet": "Braced for Goodbye",
+        "execution": [
+          "The execution stand holds the witch flat on her back beneath a pendulum blade. The blade begins to swing. Each time it returns, it cuts deeper into her chest before sweeping away. Even after she lies motionless, it keeps coming back."
+        ],
+        "magic": {
+          "name": "Reverse Course",
+          "text": "She can reverse the direction of anything physical that's moving."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Avenger",
+  "copingSub": "AG-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Avenger",
+  "tag": "ABN-1_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On the first evening, a girl had pulled out a chair for {WITCH_NAME} in the dining hall so they could eat together. Today, the girl carried her plate to another table to join the other prisoners. {WITCH_NAME} followed her into the courtyard and demanded that she come back to the place saved for her. The girl refused. “I'm not eating with you anymore.”",
+          "{WITCH_NAME} forced the girl's face under the fountain water and held her there until she drowned. She gathered their exchange and the sounds of the struggle into a bottle, leaving the courtyard silent.",
+          "The prisoners found the girl with her face still submerged in the fountain. In the dining hall, {WITCH_NAME} claimed the bottle held a peaceful goodbye after dinner and that she had then left alone. One prisoner uncorked it to listen. Choking and splashing poured out. With the body in the fountain, the prisoners knew what those sounds meant: she had been there for the drowning, and her story of a peaceful parting concealed it."
+        ],
+        "epitaph": "She kept the goodbye, but no one was coming back.",
+        "epithet": "A place saved for someone already leaving.",
+        "execution": [
+          "A bottle press on the execution stand held her fast with her head inside the bottle's neck. A cork descended, crushing her head against an iron collar and trapping her scream inside. The press drove the cork home. Her hands stopped moving, and all was silent."
+        ],
+        "magic": {
+          "name": "Sound Catcher",
+          "text": "She can gather sounds from the air into containers, leaving silence until the containers are opened and the sounds escape."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

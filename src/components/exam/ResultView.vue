@@ -14,6 +14,10 @@ import { resolveWitchName } from '../../lib/name-reference'
 import Seal from './Seal.vue'
 import ShareRow from './ShareRow.vue'
 import SpecialCard from './SpecialCard.vue'
+/* The courtroom wall behind the record (game asset. Same layer + styles as GameBackdrop.astro
+ * (global.css .backdrop*); it fades in with the record after the verdict. */
+import wallL from '../../assets/game/wall.webp?url'
+import wallM from '../../assets/game/wall-m.webp?url'
 
 const props = defineProps<{
   locale: Locale
@@ -217,6 +221,17 @@ watch(() => props.specialCharacter, refreshQr)
 
 <template>
   <section class="result" :lang="locale">
+    <div class="backdrop backdrop--wall backdrop--fade" aria-hidden="true">
+      <img
+        class="backdrop__img"
+        :src="wallL"
+        :srcset="`${wallM} 960w, ${wallL} 1920w`"
+        sizes="100vw"
+        alt=""
+        decoding="async"
+      />
+      <div class="backdrop__veil"></div>
+    </div>
     <div class="result__stage">
       <div
         ref="frameEl"

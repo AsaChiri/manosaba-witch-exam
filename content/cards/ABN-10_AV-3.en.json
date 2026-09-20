@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Avoider",
+  "copingSub": "AV-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-10",
+  "style": "Avoider",
+  "tag": "ABN-10_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For weeks, the victim kept a seat for {WITCH_NAME} at dinner in the dining hall. Each night she stayed away, drafting the replies she could not bring herself to say.",
+          "Today, the victim returned the pages unread in the dining hall and withdrew the invitation. They were done waiting. In answer, {WITCH_NAME} immersed another prisoner in a written daydream in the lounge, where she seemed to sleep with her head on the prisoner's shoulder. Then she left and, during evening free time, fatally stabbed the victim with a sword in the courtyard.",
+          "The prisoner insisted she had been beside them throughout the murder; they had felt the weight of her sleeping head on their shoulder. During the investigation, the prisoner checked a selfie on their phone. The shoulder in the picture was empty. The selfie exposed {WITCH_NAME}'s alibi: the woman they had felt beside them was only a daydream."
+        ],
+        "epitaph": "Her replies filled the pages; the life they were meant for went unspent.",
+        "epithet": "Forever Rehearsing",
+        "execution": [
+          "The execution stand straps her on her back to a ruled writing table. A steel pen nib descends to her chest and carves an opening greeting into her, turning her rehearsed words into wounds. It keeps writing until the greeting is complete and her body lies still."
+        ],
+        "magic": {
+          "name": "Written Daydreams",
+          "text": "She can turn written descriptions into immersive daydreams experienced through every sense."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

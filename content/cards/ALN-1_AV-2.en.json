@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Avoider",
+  "copingSub": "AV-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Avoider",
+  "tag": "ALN-1_AV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The previous evening in the lounge, a girl had trusted {WITCH_NAME} with her bereavement. Before she could give voice to her grief, {WITCH_NAME} used her Magic to turn her own calm into music. The girl felt that calm as her own, and her confession faltered.",
+          "The next evening, the girl refused another musical consolation and demanded that {WITCH_NAME} acknowledge her grief. She phoned a prisoner and invited them to mediate in the lounge that night. Before the visitor could arrive, {WITCH_NAME} drove a sword into the back of the girl as she sat waiting, killing her. After withdrawing the blade, she laid the girl faceup on the floor, then pushed the sofa against the wall to hide the perforation in its back.",
+          "When the visitor arrived, {WITCH_NAME} turned her fear into music. The prisoner felt her terror and believed her claim: the girl had attacked with the sword, so she had disarmed her and thrust back in self-defense.",
+          "While examining the body, the prisoners aligned the sofa with the girl. The hole in its backrest matched the wound in her back—a path that, at the trial court, exposed an assault on a seated victim. The terror that had made the visitor believe in self-defense was never evidence of the girl's attack."
+        ],
+        "epitaph": "The answer she owed outlived her.",
+        "epithet": "A Fugitive from Every Answer",
+        "execution": [
+          "The execution stand binds her against the inner wall of a bronze bell. Its clapper swings into her torso again and again, crushing her against the bronze. She tries at last to answer the girl, but every reply vanishes beneath the ringing. The clapper keeps pounding until she hangs motionless inside the bell."
+        ],
+        "magic": {
+          "name": "Heartsong",
+          "text": "She can turn people's emotions into music, so listeners hear and feel the emotions it expresses."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Wall-of-Anger",
+  "copingSub": "WA-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Wall-of-Anger",
+  "tag": "ALN-5_WA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For weeks, {WITCH_NAME} composed a lullaby for a girl in the lounge, signing the original score. The girl rehearsed it there, singing it only for her. Before the other prisoners, however, {WITCH_NAME} scorned lullabies as childish.",
+          "Then one afternoon, the girl stood at the upper railing and used her phone to post a performance for all the prisoners, naming herself as the sole composer. In the courtyard, {WITCH_NAME} demanded credit. The girl tore up the signed score, scattered the scraps from the railing, and leaned out over it. {WITCH_NAME}'s shoulder-length hair lashed out, tightened into a noose beneath the girl's collar, and hauled her over the railing to her death. Once the girl had fallen, the hair withdrew to {WITCH_NAME}'s shoulders.",
+          "The prisoners found the girl's body in the courtyard amid the scraps and assumed she had lost her balance while scattering them. But when one prisoner unfastened her collar, a braided ligature furrow showed across her throat, with hair snagged in the clasp. The mark and trapped strand gave away the trick: the tether had been {WITCH_NAME}'s own hair, retracted out of sight after the pull."
+        ],
+        "epitaph": "In the end, she authored the one thing no one could dispute: silence.",
+        "epithet": "The Dreamer Armored in Anger",
+        "execution": [
+          "The execution stand locks her into a barber chair, a clamp pinning her chin. Steel shears open around her neck. Their blades snap shut and cross, severing her braids; her headless silhouette slumps into the chair."
+        ],
+        "magic": {
+          "name": "Hair Unbound",
+          "text": "She can lengthen, shorten, and move her own hair like prehensile limbs."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

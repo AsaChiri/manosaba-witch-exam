@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Ruminator",
+  "copingSub": "RU-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Ruminator",
+  "tag": "ABN-1_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "On earlier evenings in the lounge, {WITCH_NAME} used her Magic to make herself a child again. The girl cradled her on her lap and sang her a lullaby. Today, the girl recorded the lullaby on a phone and offered it as a substitute for keeping {WITCH_NAME} company at bedtime. {WITCH_NAME} stopped the playback and asked her to sing it again in person.",
+          "Even so, the girl accompanied her on a walk by the lake. Rather than let that company end, {WITCH_NAME} used her Magic to turn the girl into a toddler. She held the toddler's head beneath the water. While the girl lay unconscious beneath the water but was still alive, {WITCH_NAME} restored her to adolescence, then kept her submerged until she died.",
+          "The prisoners later found the girl's adolescent body face-down on the muddy bank and assumed she had fallen into the lake and drowned by accident. Then they uncovered palm tracks: continuous finger furrows ran from toddler-sized handprints into adolescent ones. The unbroken trail showed that {WITCH_NAME} had returned the girl to adolescence to make the drowning look like an accidental fall."
+        ],
+        "epitaph": "The voice returned at last; her companion never would.",
+        "epithet": "Mourner of Goodbyes Yet to Come",
+        "execution": [
+          "The execution stand locks her lengthwise against a music-box drum. The drum turns, drawing her body across a steel comb. As it mangles her, the drum plays the girl's lullaby. When the last note fades, her body lies motionless against the drum."
+        ],
+        "magic": {
+          "name": "Age Shifting",
+          "text": "She can change any living thing to whatever biological age she chooses."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

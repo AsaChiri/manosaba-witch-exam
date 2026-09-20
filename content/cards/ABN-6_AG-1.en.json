@@ -1,0 +1,31 @@
+{
+  "cell": "ABN|Avenger",
+  "copingSub": "AG-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Avenger",
+  "tag": "ABN-6_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "After weeks in prison, the girl returned to the lounge for tea with {WITCH_NAME}, and their old tenderness began to return. Despite the visits she had missed, {WITCH_NAME} served her tea in a cup with one side broken away. The tea stayed inside as if the missing wall were still there.",
+          "That day, the girl apologized and set down an intact cup as a fresh start. {WITCH_NAME} refused it. She kept the broken cup instead, telling the girl that a new one could never make up for all the visits she had missed. The girl said that if every visit only brought another reproach, she would stop coming.",
+          "At that, {WITCH_NAME} shot her with a crossbow whose bowstring had been severed. She put the weapon in the girl's hands and arranged her as though she had fired it herself. The prisoners first accepted that appearance: the girl had shot herself, and the bowstring had snapped when the crossbow discharged.",
+          "Then one prisoner remembered seeing {WITCH_NAME} with the same crossbow before the girl's final visit. Its bowstring had already been severed. It could not have broken on discharge; the shot was possible only because {WITCH_NAME} had secretly made the broken weapon work."
+        ],
+        "epitaph": "She wanted someone to come back because they cared, not because they owed her.",
+        "epithet": "The Creditor of Every Absence",
+        "execution": [
+          "The execution stand straps the witch across the hips into the lap of an iron mother. Its jointed arms fold around her again and again, each embrace tighter than the last. At last, they open. Her body slips forward, limp."
+        ],
+        "magic": {
+          "name": "Never Too Broken",
+          "text": "Makes broken objects work as though whole while leaving their damage untouched."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

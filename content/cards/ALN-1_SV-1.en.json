@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Sovereign",
+  "copingSub": "SV-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Sovereign",
+  "tag": "ALN-1_SV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, a girl helped {WITCH_NAME} join the other prisoners' conversations by turning her blunt orders into courteous requests. One day, {WITCH_NAME} interrupted the girl's personal story with another command: “Get me some water.” The girl repeated those words to the room as a reproach. Then she told her she would no longer speak on her behalf; if she wanted something from the others, she would have to speak to them herself.",
+          "That evening during free time in the shower room, the girl stood beneath a shower when {WITCH_NAME} turned her gravity upward. The girl plunged headfirst into the ceiling and died on impact. She turned gravity toward the floor again, letting the body fall onto the wet tiles. Then, standing upside down under the pull of her Magic, she used a towel to wipe the blood from the ceiling.",
+          "When the body was discovered, the prisoners took the wet floor for the cause of a fatal slip. But one prisoner parted the girl's hair and found plaster fragments in the wound at the crown of her head. The fragments matched a fresh impact gouge in the ceiling. The prisoners understood: the girl had not fallen down at all. {WITCH_NAME}'s gravity had made her fall upward."
+        ],
+        "epitaph": "Belonging cost only equality, and it was the one price she refused to pay.",
+        "epithet": "The Queen Who Stood Alone",
+        "execution": [
+          "The execution stand seats her on a throne with a noose around her neck. The throne lifts her, then withdraws its seat and footrest. The noose pulls taut, leaving her hanging without support. The throne remains vacant beneath her as the suspension goes on, until at last she is still."
+        ],
+        "magic": {
+          "name": "Any Way Down",
+          "text": "She can make gravity pull people and objects in any direction she chooses."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

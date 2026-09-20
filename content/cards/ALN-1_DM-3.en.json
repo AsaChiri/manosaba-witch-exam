@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Doomer",
+  "copingSub": "DM-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Doomer",
+  "tag": "ALN-1_DM-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier, in the lounge, a girl gave {WITCH_NAME} a lovingly drawn portrait. It showed {WITCH_NAME}, who added the caption “A Stranger” beneath the likeness and handed it back.",
+          "Today, in the second-floor hall, the girl offered to talk with {WITCH_NAME}, but refused to exchange bodies with her again. {WITCH_NAME} told her their friendship would inevitably end in estrangement. When the conversation ended, the girl handed the portrait back, rejecting its caption.",
+          "At that, {WITCH_NAME} vaulted headfirst over the upper railing. In midfall, she used her Magic to exchange consciousnesses with the girl. The girl, now conscious inside {WITCH_NAME}'s falling body, struck the courtyard path and died; {WITCH_NAME} survived in the girl's body.",
+          "A prisoner in the second-floor hall saw the leap, mistook the body below for {WITCH_NAME}, and reported her suicide. At the trial court, the survivor, still believed to be the girl, wrote out a witness statement for the prisoners. One prisoner compared it with the caption on the recovered portrait. The same hand had written both. The handwriting exposed the survivor in the girl's body as {WITCH_NAME}."
+        ],
+        "epitaph": "She made estrangement certain at last, and her loneliness beyond reply.",
+        "epithet": "Forever a Stranger",
+        "execution": [
+          "A mirrored pillory on the execution stand locks a steel collar around her neck. The collar tightens against her throat as the mirror throws every struggle back at her. It keeps tightening until the borrowed face in the glass goes still."
+        ],
+        "magic": {
+          "name": "Borrowed Bodies",
+          "text": "She can swap the consciousnesses of two people, leaving each awake inside the other's body."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

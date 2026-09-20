@@ -2,16 +2,43 @@
   "cells": {
     "ABN|Avenger": {
       "authoredTags": [
-        "ABN-2_AG-2"
+        "ABN-1_AG-1",
+        "ABN-2_AG-2",
+        "ABN-6_AG-1"
       ],
       "coveredCoping": [
+        "AG-1",
         "AG-2"
       ],
       "coveredOrigin": [
-        "ABN-2"
+        "ABN-1",
+        "ABN-2",
+        "ABN-6"
       ],
       "family": "ABN",
       "style": "Avenger"
+    },
+    "ABN|Avoider": {
+      "authoredTags": [
+        "ABN-10_AV-3",
+        "ABN-10_AV-6",
+        "ABN-1_AV-2",
+        "ABN-1_AV-3",
+        "ABN-6_AV-2",
+        "ABN-6_AV-3"
+      ],
+      "coveredCoping": [
+        "AV-2",
+        "AV-3",
+        "AV-6"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-6",
+        "ABN-10"
+      ],
+      "family": "ABN",
+      "style": "Avoider"
     },
     "ABN|Caretaker": {
       "authoredTags": [
@@ -26,10 +53,24 @@
       "family": "ABN",
       "style": "Caretaker"
     },
+    "ABN|Catastrophizer": {
+      "authoredTags": [
+        "ABN-1_CA-1"
+      ],
+      "coveredCoping": [
+        "CA-1"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Catastrophizer"
+    },
     "ABN|Clinger": {
       "authoredTags": [
         "ABN-1_CL-1",
-        "ABN-7_CL-2"
+        "ABN-7_CL-2",
+        "ABN-9_CL-2"
       ],
       "coveredCoping": [
         "CL-1",
@@ -37,17 +78,35 @@
       ],
       "coveredOrigin": [
         "ABN-1",
-        "ABN-7"
+        "ABN-7",
+        "ABN-9"
       ],
       "family": "ABN",
       "style": "Clinger"
     },
-    "ABN|Detacher": {
+    "ABN|Depender": {
       "authoredTags": [
-        "ABN-1_DT-2"
+        "ABN-1_DP-2",
+        "ABN-6_DP-2"
       ],
       "coveredCoping": [
-        "DT-2"
+        "DP-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-6"
+      ],
+      "family": "ABN",
+      "style": "Depender"
+    },
+    "ABN|Detacher": {
+      "authoredTags": [
+        "ABN-1_DT-2",
+        "ABN-1_DT-3"
+      ],
+      "coveredCoping": [
+        "DT-2",
+        "DT-3"
       ],
       "coveredOrigin": [
         "ABN-1"
@@ -55,62 +114,652 @@
       "family": "ABN",
       "style": "Detacher"
     },
+    "ABN|Doomer": {
+      "authoredTags": [
+        "ABN-10_DM-2"
+      ],
+      "coveredCoping": [
+        "DM-2"
+      ],
+      "coveredOrigin": [
+        "ABN-10"
+      ],
+      "family": "ABN",
+      "style": "Doomer"
+    },
     "ABN|Fantasist": {
       "authoredTags": [
+        "ABN-1_FA-3",
+        "ABN-1_FA-4",
         "ABN-3_FA-1"
       ],
       "coveredCoping": [
-        "FA-1"
+        "FA-1",
+        "FA-3",
+        "FA-4"
       ],
       "coveredOrigin": [
+        "ABN-1",
         "ABN-3"
       ],
       "family": "ABN",
       "style": "Fantasist"
     },
-    "ABN|Pleaser": {
+    "ABN|Perfectionist": {
       "authoredTags": [
-        "ABN-1_PL-3"
+        "ABN-9_PF-1"
       ],
       "coveredCoping": [
-        "PL-3"
+        "PF-1"
+      ],
+      "coveredOrigin": [
+        "ABN-9"
+      ],
+      "family": "ABN",
+      "style": "Perfectionist"
+    },
+    "ABN|Performer": {
+      "authoredTags": [
+        "ABN-1_P-1"
+      ],
+      "coveredCoping": [
+        "P-1"
       ],
       "coveredOrigin": [
         "ABN-1"
       ],
       "family": "ABN",
+      "style": "Performer"
+    },
+    "ABN|Pleaser": {
+      "authoredTags": [
+        "ABN-1_PL-3",
+        "ABN-6_PL-3",
+        "ABN-9_PL-3"
+      ],
+      "coveredCoping": [
+        "PL-3"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-6",
+        "ABN-9"
+      ],
+      "family": "ABN",
       "style": "Pleaser"
+    },
+    "ABN|Resigned": {
+      "authoredTags": [
+        "ABN-1_RS-3",
+        "ABN-3_RS-1"
+      ],
+      "coveredCoping": [
+        "RS-1",
+        "RS-3"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-3"
+      ],
+      "family": "ABN",
+      "style": "Resigned"
+    },
+    "ABN|Ritualist": {
+      "authoredTags": [
+        "ABN-1_RI-2"
+      ],
+      "coveredCoping": [
+        "RI-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Ritualist"
+    },
+    "ABN|Ruminator": {
+      "authoredTags": [
+        "ABN-10_RU-1",
+        "ABN-1_RU-1",
+        "ABN-6_RU-1"
+      ],
+      "coveredCoping": [
+        "RU-1"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-6",
+        "ABN-10"
+      ],
+      "family": "ABN",
+      "style": "Ruminator"
+    },
+    "ABN|Self-Punisher": {
+      "authoredTags": [
+        "ABN-1_SP-1"
+      ],
+      "coveredCoping": [
+        "SP-1"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Self-Punisher"
     },
     "ABN|Self-Reliant": {
       "authoredTags": [
+        "ABN-1_SR-1",
         "ABN-4_SR-1"
       ],
       "coveredCoping": [
         "SR-1"
       ],
       "coveredOrigin": [
+        "ABN-1",
         "ABN-4"
       ],
       "family": "ABN",
       "style": "Self-Reliant"
     },
-    "ALN|Concealer": {
+    "ABN|Self-Soother": {
       "authoredTags": [
-        "ALN-10_CO-1"
+        "ABN-1_SS-3",
+        "ABN-6_SS-3"
       ],
       "coveredCoping": [
-        "CO-1"
+        "SS-3"
       ],
       "coveredOrigin": [
+        "ABN-1",
+        "ABN-6"
+      ],
+      "family": "ABN",
+      "style": "Self-Soother"
+    },
+    "ABN|Striker": {
+      "authoredTags": [
+        "ABN-1_ST-2"
+      ],
+      "coveredCoping": [
+        "ST-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Striker"
+    },
+    "ABN|Thrill-Seeker": {
+      "authoredTags": [
+        "ABN-1_TS-2"
+      ],
+      "coveredCoping": [
+        "TS-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1"
+      ],
+      "family": "ABN",
+      "style": "Thrill-Seeker"
+    },
+    "ABN|Trickster": {
+      "authoredTags": [
+        "ABN-9_TR-1"
+      ],
+      "coveredCoping": [
+        "TR-1"
+      ],
+      "coveredOrigin": [
+        "ABN-9"
+      ],
+      "family": "ABN",
+      "style": "Trickster"
+    },
+    "ABN|Wall-of-Anger": {
+      "authoredTags": [
+        "ABN-1_WA-1",
+        "ABN-6_WA-1"
+      ],
+      "coveredCoping": [
+        "WA-1"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-6"
+      ],
+      "family": "ABN",
+      "style": "Wall-of-Anger"
+    },
+    "ABN|Watcher": {
+      "authoredTags": [
+        "ABN-1_WT-2",
+        "ABN-6_WT-2"
+      ],
+      "coveredCoping": [
+        "WT-2"
+      ],
+      "coveredOrigin": [
+        "ABN-1",
+        "ABN-6"
+      ],
+      "family": "ABN",
+      "style": "Watcher"
+    },
+    "ALN|Avenger": {
+      "authoredTags": [
+        "ALN-1_AG-1",
+        "ALN-5_AG-1"
+      ],
+      "coveredCoping": [
+        "AG-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Avenger"
+    },
+    "ALN|Avoider": {
+      "authoredTags": [
+        "ALN-10_AV-1",
+        "ALN-1_AV-1",
+        "ALN-1_AV-2",
+        "ALN-1_AV-3",
+        "ALN-5_AV-1"
+      ],
+      "coveredCoping": [
+        "AV-1",
+        "AV-2",
+        "AV-3"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5",
         "ALN-10"
       ],
       "family": "ALN",
+      "style": "Avoider"
+    },
+    "ALN|Caretaker": {
+      "authoredTags": [
+        "ALN-1_CT-1",
+        "ALN-5_CT-1"
+      ],
+      "coveredCoping": [
+        "CT-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Caretaker"
+    },
+    "ALN|Clinger": {
+      "authoredTags": [
+        "ALN-7_CL-2"
+      ],
+      "coveredCoping": [
+        "CL-2"
+      ],
+      "coveredOrigin": [
+        "ALN-7"
+      ],
+      "family": "ALN",
+      "style": "Clinger"
+    },
+    "ALN|Concealer": {
+      "authoredTags": [
+        "ALN-10_CO-1",
+        "ALN-11_CO-1",
+        "ALN-1_CO-1",
+        "ALN-1_CO-2",
+        "ALN-5_CO-1",
+        "ALN-5_CO-2"
+      ],
+      "coveredCoping": [
+        "CO-1",
+        "CO-2"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5",
+        "ALN-10",
+        "ALN-11"
+      ],
+      "family": "ALN",
       "style": "Concealer"
+    },
+    "ALN|Detacher": {
+      "authoredTags": [
+        "ALN-1_DT-2"
+      ],
+      "coveredCoping": [
+        "DT-2"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Detacher"
+    },
+    "ALN|Doomer": {
+      "authoredTags": [
+        "ALN-1_DM-3",
+        "ALN-5_DM-3"
+      ],
+      "coveredCoping": [
+        "DM-3"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Doomer"
+    },
+    "ALN|Fantasist": {
+      "authoredTags": [
+        "ALN-10_FA-2",
+        "ALN-10_FA-3",
+        "ALN-10_FA-4",
+        "ALN-1_FA-2"
+      ],
+      "coveredCoping": [
+        "FA-2",
+        "FA-3",
+        "FA-4"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-10"
+      ],
+      "family": "ALN",
+      "style": "Fantasist"
+    },
+    "ALN|Perfectionist": {
+      "authoredTags": [
+        "ALN-2_PF-3"
+      ],
+      "coveredCoping": [
+        "PF-3"
+      ],
+      "coveredOrigin": [
+        "ALN-2"
+      ],
+      "family": "ALN",
+      "style": "Perfectionist"
+    },
+    "ALN|Performer": {
+      "authoredTags": [
+        "ALN-1_P-2",
+        "ALN-4_P-2",
+        "ALN-5_P-2"
+      ],
+      "coveredCoping": [
+        "P-2"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-4",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Performer"
+    },
+    "ALN|Pleaser": {
+      "authoredTags": [
+        "ALN-1_PL-1",
+        "ALN-5_PL-1"
+      ],
+      "coveredCoping": [
+        "PL-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Pleaser"
+    },
+    "ALN|Resigned": {
+      "authoredTags": [
+        "ALN-1_RS-1",
+        "ALN-5_RS-1"
+      ],
+      "coveredCoping": [
+        "RS-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Resigned"
+    },
+    "ALN|Ritualist": {
+      "authoredTags": [
+        "ALN-9_RI-2"
+      ],
+      "coveredCoping": [
+        "RI-2"
+      ],
+      "coveredOrigin": [
+        "ALN-9"
+      ],
+      "family": "ALN",
+      "style": "Ritualist"
+    },
+    "ALN|Ruminator": {
+      "authoredTags": [
+        "ALN-1_RU-1",
+        "ALN-1_RU-2"
+      ],
+      "coveredCoping": [
+        "RU-1",
+        "RU-2"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Ruminator"
+    },
+    "ALN|Self-Punisher": {
+      "authoredTags": [
+        "ALN-5_SP-2"
+      ],
+      "coveredCoping": [
+        "SP-2"
+      ],
+      "coveredOrigin": [
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Self-Punisher"
+    },
+    "ALN|Self-Reliant": {
+      "authoredTags": [
+        "ALN-10_SR-1",
+        "ALN-1_SR-1",
+        "ALN-5_SR-1"
+      ],
+      "coveredCoping": [
+        "SR-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5",
+        "ALN-10"
+      ],
+      "family": "ALN",
+      "style": "Self-Reliant"
+    },
+    "ALN|Self-Soother": {
+      "authoredTags": [
+        "ALN-1_SS-3",
+        "ALN-5_SS-3"
+      ],
+      "coveredCoping": [
+        "SS-3"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Self-Soother"
+    },
+    "ALN|Sovereign": {
+      "authoredTags": [
+        "ALN-1_SV-1",
+        "ALN-5_SV-1"
+      ],
+      "coveredCoping": [
+        "SV-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Sovereign"
+    },
+    "ALN|Striker": {
+      "authoredTags": [
+        "ALN-1_ST-2",
+        "ALN-5_ST-2"
+      ],
+      "coveredCoping": [
+        "ST-2"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5"
+      ],
+      "family": "ALN",
+      "style": "Striker"
+    },
+    "ALN|Thrill-Seeker": {
+      "authoredTags": [
+        "ALN-1_TS-1"
+      ],
+      "coveredCoping": [
+        "TS-1"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Thrill-Seeker"
+    },
+    "ALN|Trickster": {
+      "authoredTags": [
+        "ALN-11_TR-2"
+      ],
+      "coveredCoping": [
+        "TR-2"
+      ],
+      "coveredOrigin": [
+        "ALN-11"
+      ],
+      "family": "ALN",
+      "style": "Trickster"
+    },
+    "ALN|Wall-of-Anger": {
+      "authoredTags": [
+        "ALN-10_WA-3",
+        "ALN-1_WA-3",
+        "ALN-5_WA-3"
+      ],
+      "coveredCoping": [
+        "WA-3"
+      ],
+      "coveredOrigin": [
+        "ALN-1",
+        "ALN-5",
+        "ALN-10"
+      ],
+      "family": "ALN",
+      "style": "Wall-of-Anger"
+    },
+    "ALN|Watcher": {
+      "authoredTags": [
+        "ALN-1_WT-2"
+      ],
+      "coveredCoping": [
+        "WT-2"
+      ],
+      "coveredOrigin": [
+        "ALN-1"
+      ],
+      "family": "ALN",
+      "style": "Watcher"
+    },
+    "DEF|Avenger": {
+      "authoredTags": [
+        "DEF-3_AG-1",
+        "DEF-6_AG-1"
+      ],
+      "coveredCoping": [
+        "AG-1"
+      ],
+      "coveredOrigin": [
+        "DEF-3",
+        "DEF-6"
+      ],
+      "family": "DEF",
+      "style": "Avenger"
+    },
+    "DEF|Avoider": {
+      "authoredTags": [
+        "DEF-3_AV-3",
+        "DEF-6_AV-2"
+      ],
+      "coveredCoping": [
+        "AV-2",
+        "AV-3"
+      ],
+      "coveredOrigin": [
+        "DEF-3",
+        "DEF-6"
+      ],
+      "family": "DEF",
+      "style": "Avoider"
+    },
+    "DEF|Catastrophizer": {
+      "authoredTags": [
+        "DEF-3_CA-1"
+      ],
+      "coveredCoping": [
+        "CA-1"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Catastrophizer"
+    },
+    "DEF|Clinger": {
+      "authoredTags": [
+        "DEF-3_CL-2"
+      ],
+      "coveredCoping": [
+        "CL-2"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Clinger"
     },
     "DEF|Concealer": {
       "authoredTags": [
         "DEF-1_CO-2",
         "DEF-3_CO-1",
+        "DEF-6_CO-1",
         "DEF-7_CO-5"
       ],
       "coveredCoping": [
@@ -121,6 +770,7 @@
       "coveredOrigin": [
         "DEF-1",
         "DEF-3",
+        "DEF-6",
         "DEF-7"
       ],
       "family": "DEF",
@@ -138,6 +788,19 @@
       ],
       "family": "DEF",
       "style": "Depender"
+    },
+    "DEF|Performer": {
+      "authoredTags": [
+        "DEF-3_P-2"
+      ],
+      "coveredCoping": [
+        "P-2"
+      ],
+      "coveredOrigin": [
+        "DEF-3"
+      ],
+      "family": "DEF",
+      "style": "Performer"
     },
     "DEF|Self-Punisher": {
       "authoredTags": [
@@ -250,6 +913,32 @@
       ],
       "family": "ED",
       "style": "Self-Punisher"
+    },
+    "FAI|Concealer": {
+      "authoredTags": [
+        "FAI-1_CO-1"
+      ],
+      "coveredCoping": [
+        "CO-1"
+      ],
+      "coveredOrigin": [
+        "FAI-1"
+      ],
+      "family": "FAI",
+      "style": "Concealer"
+    },
+    "MB|Avenger": {
+      "authoredTags": [
+        "MB-2_AG-1"
+      ],
+      "coveredCoping": [
+        "AG-1"
+      ],
+      "coveredOrigin": [
+        "MB-2"
+      ],
+      "family": "MB",
+      "style": "Avenger"
     },
     "MB|Avoider": {
       "authoredTags": [
@@ -385,6 +1074,19 @@
       "family": "MB",
       "style": "Wall-of-Anger"
     },
+    "POW|Avoider": {
+      "authoredTags": [
+        "POW-2_AV-2"
+      ],
+      "coveredCoping": [
+        "AV-2"
+      ],
+      "coveredOrigin": [
+        "POW-2"
+      ],
+      "family": "POW",
+      "style": "Avoider"
+    },
     "POW|Catastrophizer": {
       "authoredTags": [
         "POW-3_CA-4"
@@ -439,6 +1141,110 @@
     }
   },
   "tags": {
+    "ABN-10_AV-3": {
+      "cell": "ABN|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-10",
+      "tag": "ABN-10_AV-3",
+      "variants": 1
+    },
+    "ABN-10_AV-6": {
+      "cell": "ABN|Avoider",
+      "copingSub": "AV-6",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-10",
+      "tag": "ABN-10_AV-6",
+      "variants": 1
+    },
+    "ABN-10_DM-2": {
+      "cell": "ABN|Doomer",
+      "copingSub": "DM-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-10",
+      "tag": "ABN-10_DM-2",
+      "variants": 1
+    },
+    "ABN-10_RU-1": {
+      "cell": "ABN|Ruminator",
+      "copingSub": "RU-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-10",
+      "tag": "ABN-10_RU-1",
+      "variants": 1
+    },
+    "ABN-1_AG-1": {
+      "cell": "ABN|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_AG-1",
+      "variants": 1
+    },
+    "ABN-1_AV-2": {
+      "cell": "ABN|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_AV-2",
+      "variants": 1
+    },
+    "ABN-1_AV-3": {
+      "cell": "ABN|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_AV-3",
+      "variants": 1
+    },
+    "ABN-1_CA-1": {
+      "cell": "ABN|Catastrophizer",
+      "copingSub": "CA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_CA-1",
+      "variants": 1
+    },
     "ABN-1_CL-1": {
       "cell": "ABN|Clinger",
       "copingSub": "CL-1",
@@ -465,6 +1271,19 @@
       "tag": "ABN-1_CT-3",
       "variants": 1
     },
+    "ABN-1_DP-2": {
+      "cell": "ABN|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_DP-2",
+      "variants": 1
+    },
     "ABN-1_DT-2": {
       "cell": "ABN|Detacher",
       "copingSub": "DT-2",
@@ -476,6 +1295,58 @@
       ],
       "originSub": "ABN-1",
       "tag": "ABN-1_DT-2",
+      "variants": 1
+    },
+    "ABN-1_DT-3": {
+      "cell": "ABN|Detacher",
+      "copingSub": "DT-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_DT-3",
+      "variants": 1
+    },
+    "ABN-1_FA-3": {
+      "cell": "ABN|Fantasist",
+      "copingSub": "FA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_FA-3",
+      "variants": 1
+    },
+    "ABN-1_FA-4": {
+      "cell": "ABN|Fantasist",
+      "copingSub": "FA-4",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_FA-4",
+      "variants": 1
+    },
+    "ABN-1_P-1": {
+      "cell": "ABN|Performer",
+      "copingSub": "P-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_P-1",
       "variants": 1
     },
     "ABN-1_PL-3": {
@@ -491,6 +1362,331 @@
       "tag": "ABN-1_PL-3",
       "variants": 1
     },
+    "ABN-1_RI-2": {
+      "cell": "ABN|Ritualist",
+      "copingSub": "RI-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_RI-2",
+      "variants": 1
+    },
+    "ABN-1_RS-3": {
+      "cell": "ABN|Resigned",
+      "copingSub": "RS-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_RS-3",
+      "variants": 1
+    },
+    "ABN-1_RU-1": {
+      "cell": "ABN|Ruminator",
+      "copingSub": "RU-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_RU-1",
+      "variants": 1
+    },
+    "ABN-1_SP-1": {
+      "cell": "ABN|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_SP-1",
+      "variants": 1
+    },
+    "ABN-1_SR-1": {
+      "cell": "ABN|Self-Reliant",
+      "copingSub": "SR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_SR-1",
+      "variants": 1
+    },
+    "ABN-1_SS-3": {
+      "cell": "ABN|Self-Soother",
+      "copingSub": "SS-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_SS-3",
+      "variants": 1
+    },
+    "ABN-1_ST-2": {
+      "cell": "ABN|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_ST-2",
+      "variants": 1
+    },
+    "ABN-1_TS-2": {
+      "cell": "ABN|Thrill-Seeker",
+      "copingSub": "TS-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_TS-2",
+      "variants": 1
+    },
+    "ABN-1_WA-1": {
+      "cell": "ABN|Wall-of-Anger",
+      "copingSub": "WA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_WA-1",
+      "variants": 1
+    },
+    "ABN-1_WT-2": {
+      "cell": "ABN|Watcher",
+      "copingSub": "WT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-1",
+      "tag": "ABN-1_WT-2",
+      "variants": 1
+    },
+    "ABN-3_RS-1": {
+      "cell": "ABN|Resigned",
+      "copingSub": "RS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-3",
+      "tag": "ABN-3_RS-1",
+      "variants": 1
+    },
+    "ABN-6_AG-1": {
+      "cell": "ABN|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_AG-1",
+      "variants": 1
+    },
+    "ABN-6_AV-2": {
+      "cell": "ABN|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_AV-2",
+      "variants": 1
+    },
+    "ABN-6_AV-3": {
+      "cell": "ABN|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_AV-3",
+      "variants": 1
+    },
+    "ABN-6_DP-2": {
+      "cell": "ABN|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_DP-2",
+      "variants": 1
+    },
+    "ABN-6_PL-3": {
+      "cell": "ABN|Pleaser",
+      "copingSub": "PL-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_PL-3",
+      "variants": 1
+    },
+    "ABN-6_RU-1": {
+      "cell": "ABN|Ruminator",
+      "copingSub": "RU-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_RU-1",
+      "variants": 1
+    },
+    "ABN-6_SS-3": {
+      "cell": "ABN|Self-Soother",
+      "copingSub": "SS-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_SS-3",
+      "variants": 1
+    },
+    "ABN-6_WA-1": {
+      "cell": "ABN|Wall-of-Anger",
+      "copingSub": "WA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_WA-1",
+      "variants": 1
+    },
+    "ABN-6_WT-2": {
+      "cell": "ABN|Watcher",
+      "copingSub": "WT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-6",
+      "tag": "ABN-6_WT-2",
+      "variants": 1
+    },
+    "ABN-9_CL-2": {
+      "cell": "ABN|Clinger",
+      "copingSub": "CL-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-9",
+      "tag": "ABN-9_CL-2",
+      "variants": 1
+    },
+    "ABN-9_PF-1": {
+      "cell": "ABN|Perfectionist",
+      "copingSub": "PF-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-9",
+      "tag": "ABN-9_PF-1",
+      "variants": 1
+    },
+    "ABN-9_PL-3": {
+      "cell": "ABN|Pleaser",
+      "copingSub": "PL-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-9",
+      "tag": "ABN-9_PL-3",
+      "variants": 1
+    },
+    "ABN-9_TR-1": {
+      "cell": "ABN|Trickster",
+      "copingSub": "TR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ABN-9",
+      "tag": "ABN-9_TR-1",
+      "variants": 1
+    },
+    "ALN-10_AV-1": {
+      "cell": "ALN|Avoider",
+      "copingSub": "AV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_AV-1",
+      "variants": 1
+    },
     "ALN-10_CO-1": {
       "cell": "ALN|Concealer",
       "copingSub": "CO-1",
@@ -502,6 +1698,682 @@
       ],
       "originSub": "ALN-10",
       "tag": "ALN-10_CO-1",
+      "variants": 1
+    },
+    "ALN-10_FA-2": {
+      "cell": "ALN|Fantasist",
+      "copingSub": "FA-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_FA-2",
+      "variants": 1
+    },
+    "ALN-10_FA-3": {
+      "cell": "ALN|Fantasist",
+      "copingSub": "FA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_FA-3",
+      "variants": 1
+    },
+    "ALN-10_FA-4": {
+      "cell": "ALN|Fantasist",
+      "copingSub": "FA-4",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_FA-4",
+      "variants": 1
+    },
+    "ALN-10_SR-1": {
+      "cell": "ALN|Self-Reliant",
+      "copingSub": "SR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_SR-1",
+      "variants": 1
+    },
+    "ALN-10_WA-3": {
+      "cell": "ALN|Wall-of-Anger",
+      "copingSub": "WA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-10",
+      "tag": "ALN-10_WA-3",
+      "variants": 1
+    },
+    "ALN-11_CO-1": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-11",
+      "tag": "ALN-11_CO-1",
+      "variants": 1
+    },
+    "ALN-11_TR-2": {
+      "cell": "ALN|Trickster",
+      "copingSub": "TR-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-11",
+      "tag": "ALN-11_TR-2",
+      "variants": 1
+    },
+    "ALN-1_AG-1": {
+      "cell": "ALN|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_AG-1",
+      "variants": 1
+    },
+    "ALN-1_AV-1": {
+      "cell": "ALN|Avoider",
+      "copingSub": "AV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_AV-1",
+      "variants": 1
+    },
+    "ALN-1_AV-2": {
+      "cell": "ALN|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_AV-2",
+      "variants": 1
+    },
+    "ALN-1_AV-3": {
+      "cell": "ALN|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_AV-3",
+      "variants": 1
+    },
+    "ALN-1_CO-1": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_CO-1",
+      "variants": 1
+    },
+    "ALN-1_CO-2": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_CO-2",
+      "variants": 1
+    },
+    "ALN-1_CT-1": {
+      "cell": "ALN|Caretaker",
+      "copingSub": "CT-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_CT-1",
+      "variants": 1
+    },
+    "ALN-1_DM-3": {
+      "cell": "ALN|Doomer",
+      "copingSub": "DM-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_DM-3",
+      "variants": 1
+    },
+    "ALN-1_DT-2": {
+      "cell": "ALN|Detacher",
+      "copingSub": "DT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_DT-2",
+      "variants": 1
+    },
+    "ALN-1_FA-2": {
+      "cell": "ALN|Fantasist",
+      "copingSub": "FA-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_FA-2",
+      "variants": 1
+    },
+    "ALN-1_P-2": {
+      "cell": "ALN|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_P-2",
+      "variants": 1
+    },
+    "ALN-1_PL-1": {
+      "cell": "ALN|Pleaser",
+      "copingSub": "PL-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_PL-1",
+      "variants": 1
+    },
+    "ALN-1_RS-1": {
+      "cell": "ALN|Resigned",
+      "copingSub": "RS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_RS-1",
+      "variants": 1
+    },
+    "ALN-1_RU-1": {
+      "cell": "ALN|Ruminator",
+      "copingSub": "RU-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_RU-1",
+      "variants": 1
+    },
+    "ALN-1_RU-2": {
+      "cell": "ALN|Ruminator",
+      "copingSub": "RU-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_RU-2",
+      "variants": 1
+    },
+    "ALN-1_SR-1": {
+      "cell": "ALN|Self-Reliant",
+      "copingSub": "SR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_SR-1",
+      "variants": 1
+    },
+    "ALN-1_SS-3": {
+      "cell": "ALN|Self-Soother",
+      "copingSub": "SS-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_SS-3",
+      "variants": 1
+    },
+    "ALN-1_ST-2": {
+      "cell": "ALN|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_ST-2",
+      "variants": 1
+    },
+    "ALN-1_SV-1": {
+      "cell": "ALN|Sovereign",
+      "copingSub": "SV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_SV-1",
+      "variants": 1
+    },
+    "ALN-1_TS-1": {
+      "cell": "ALN|Thrill-Seeker",
+      "copingSub": "TS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_TS-1",
+      "variants": 1
+    },
+    "ALN-1_WA-3": {
+      "cell": "ALN|Wall-of-Anger",
+      "copingSub": "WA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_WA-3",
+      "variants": 1
+    },
+    "ALN-1_WT-2": {
+      "cell": "ALN|Watcher",
+      "copingSub": "WT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-1",
+      "tag": "ALN-1_WT-2",
+      "variants": 1
+    },
+    "ALN-2_PF-3": {
+      "cell": "ALN|Perfectionist",
+      "copingSub": "PF-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-2",
+      "tag": "ALN-2_PF-3",
+      "variants": 1
+    },
+    "ALN-4_P-2": {
+      "cell": "ALN|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-4",
+      "tag": "ALN-4_P-2",
+      "variants": 1
+    },
+    "ALN-5_AG-1": {
+      "cell": "ALN|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_AG-1",
+      "variants": 1
+    },
+    "ALN-5_AV-1": {
+      "cell": "ALN|Avoider",
+      "copingSub": "AV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_AV-1",
+      "variants": 1
+    },
+    "ALN-5_CO-1": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_CO-1",
+      "variants": 1
+    },
+    "ALN-5_CO-2": {
+      "cell": "ALN|Concealer",
+      "copingSub": "CO-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_CO-2",
+      "variants": 1
+    },
+    "ALN-5_CT-1": {
+      "cell": "ALN|Caretaker",
+      "copingSub": "CT-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_CT-1",
+      "variants": 1
+    },
+    "ALN-5_DM-3": {
+      "cell": "ALN|Doomer",
+      "copingSub": "DM-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_DM-3",
+      "variants": 1
+    },
+    "ALN-5_P-2": {
+      "cell": "ALN|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_P-2",
+      "variants": 1
+    },
+    "ALN-5_PL-1": {
+      "cell": "ALN|Pleaser",
+      "copingSub": "PL-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_PL-1",
+      "variants": 1
+    },
+    "ALN-5_RS-1": {
+      "cell": "ALN|Resigned",
+      "copingSub": "RS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_RS-1",
+      "variants": 1
+    },
+    "ALN-5_SP-2": {
+      "cell": "ALN|Self-Punisher",
+      "copingSub": "SP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_SP-2",
+      "variants": 1
+    },
+    "ALN-5_SR-1": {
+      "cell": "ALN|Self-Reliant",
+      "copingSub": "SR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_SR-1",
+      "variants": 1
+    },
+    "ALN-5_SS-3": {
+      "cell": "ALN|Self-Soother",
+      "copingSub": "SS-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_SS-3",
+      "variants": 1
+    },
+    "ALN-5_ST-2": {
+      "cell": "ALN|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_ST-2",
+      "variants": 1
+    },
+    "ALN-5_SV-1": {
+      "cell": "ALN|Sovereign",
+      "copingSub": "SV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_SV-1",
+      "variants": 1
+    },
+    "ALN-5_WA-3": {
+      "cell": "ALN|Wall-of-Anger",
+      "copingSub": "WA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-5",
+      "tag": "ALN-5_WA-3",
+      "variants": 1
+    },
+    "ALN-7_CL-2": {
+      "cell": "ALN|Clinger",
+      "copingSub": "CL-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-7",
+      "tag": "ALN-7_CL-2",
+      "variants": 1
+    },
+    "ALN-9_RI-2": {
+      "cell": "ALN|Ritualist",
+      "copingSub": "RI-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ALN-9",
+      "tag": "ALN-9_RI-2",
+      "variants": 1
+    },
+    "DEF-3_AG-1": {
+      "cell": "DEF|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_AG-1",
+      "variants": 1
+    },
+    "DEF-3_AV-3": {
+      "cell": "DEF|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_AV-3",
+      "variants": 1
+    },
+    "DEF-3_CA-1": {
+      "cell": "DEF|Catastrophizer",
+      "copingSub": "CA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_CA-1",
+      "variants": 1
+    },
+    "DEF-3_CL-2": {
+      "cell": "DEF|Clinger",
+      "copingSub": "CL-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_CL-2",
       "variants": 1
     },
     "DEF-3_CO-1": {
@@ -517,6 +2389,19 @@
       "tag": "DEF-3_CO-1",
       "variants": 1
     },
+    "DEF-3_P-2": {
+      "cell": "DEF|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_P-2",
+      "variants": 1
+    },
     "DEF-3_WA-1": {
       "cell": "DEF|Wall-of-Anger",
       "copingSub": "WA-1",
@@ -528,6 +2413,45 @@
       ],
       "originSub": "DEF-3",
       "tag": "DEF-3_WA-1",
+      "variants": 1
+    },
+    "DEF-6_AG-1": {
+      "cell": "DEF|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_AG-1",
+      "variants": 1
+    },
+    "DEF-6_AV-2": {
+      "cell": "DEF|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_AV-2",
+      "variants": 1
+    },
+    "DEF-6_CO-1": {
+      "cell": "DEF|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_CO-1",
       "variants": 1
     },
     "DEF-8_SP-1": {
@@ -619,6 +2543,32 @@
       ],
       "originSub": "ED-9",
       "tag": "ED-9_P-1",
+      "variants": 1
+    },
+    "FAI-1_CO-1": {
+      "cell": "FAI|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_CO-1",
+      "variants": 1
+    },
+    "MB-2_AG-1": {
+      "cell": "MB|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "MB-2",
+      "tag": "MB-2_AG-1",
       "variants": 1
     },
     "MB-2_AV-2": {
@@ -749,6 +2699,19 @@
       ],
       "originSub": "MB-5",
       "tag": "MB-5_SV-1",
+      "variants": 1
+    },
+    "POW-2_AV-2": {
+      "cell": "POW|Avoider",
+      "copingSub": "AV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "POW-2",
+      "tag": "POW-2_AV-2",
       "variants": 1
     },
     "POW-3_CA-4": {

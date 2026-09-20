@@ -1,0 +1,29 @@
+{
+  "cell": "ALN|Clinger",
+  "copingSub": "CL-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-7",
+  "style": "Clinger",
+  "tag": "ALN-7_CL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, the victim mended a sewing basket and assured {WITCH_NAME} that her invitation was still coming. {WITCH_NAME} asked again, “You will invite me, won't you?” Earlier that day, before the promised invitation arrived, she had seen a group photograph on a phone: the gathering was already over, and it had gone on without her. Pressed, the victim admitted the assurance was only meant to appease her. At that admission, {WITCH_NAME} seized a sword and fatally stabbed her.",
+          "She expanded the basket's interior into a cavity large enough for the body, placed the victim inside, and pulled the lining over her. She then insisted to the prisoners that such a shallow basket could never hold a body. One prisoner reached in for the bottom and sank elbow-deep. She pulled out the lining and exposed the victim beneath it. The impossible depth shattered {WITCH_NAME}'s claim and exposed the concealment as the work of her Magic."
+        ],
+        "epitaph": "She would wait forever for the invitation that would never come.",
+        "epithet": "Always waiting to be welcomed.",
+        "execution": [
+          "The execution stand binds her flat on her back across an enormous embroidery frame, arms and legs spread. A steel needle descends and stitches WELCOME across her chest. When it completes the final letter, her body lies motionless in the frame."
+        ],
+        "magic": {
+          "name": "Room to Spare",
+          "text": "She can make an enclosed space larger inside without changing its exterior."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

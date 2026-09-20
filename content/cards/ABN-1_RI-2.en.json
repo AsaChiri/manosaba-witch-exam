@@ -1,0 +1,31 @@
+{
+  "cell": "ABN|Ritualist",
+  "copingSub": "RI-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Ritualist",
+  "tag": "ABN-1_RI-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that day in the lounge, the girl patiently restarted a page she was reading with {WITCH_NAME}. When they finished, she asked her friend to talk privately about their friendship. Before they spoke, she pulled out her bookmark and returned their book.",
+          "That small sign of departure made {WITCH_NAME} listen. The girl rehearsed what sounded like a private confession of guilt, and {WITCH_NAME} caught every word. At the end of the rehearsal, she used her Magic to loop time in the lounge back to the start of their reading, carrying those words into the new pass.",
+          "As the girl repeated the welcoming line that had opened their reading, {WITCH_NAME} cut in: “Are you leaving?” Before the girl could answer, {WITCH_NAME} drove a sword into her chest and left the blade there. Then she used the girl's phone to forge a farewell chat from the confession she alone remembered.",
+          "When the prisoners found the body in the lounge, the sword and chat made it appear that guilt had driven the girl to suicide. But one prisoner recognized a passage in the farewell as words from their own draft manuscript. They had never shared that draft with the girl during the final pass through that time. From that borrowed passage, the prisoners reconstructed the chat: {WITCH_NAME} had forged it from the rehearsal erased by her loop."
+        ],
+        "epitaph": "By taking the last word, she lost the answer forever.",
+        "epithet": "Always Braced for Goodbye",
+        "execution": [
+          "The execution stand locks her faceup on its bed beneath a pendulum blade. The blade swings into her chest, cutting deeper with every pass until her body lies still. Only then does it return to the high point where it began."
+        ],
+        "magic": {
+          "name": "Time's Encore",
+          "text": "She can loop a span of time she chooses, returning everything around her to its beginning while remembering every pass."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "cell": "ABN|Detacher",
+  "copingSub": "DT-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Detacher",
+  "tag": "ABN-1_DT-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The previous day, a girl patiently showed {WITCH_NAME} how to braid hair, demonstrating on her own hair in the lounge. Afterward, the lesson replayed in miniature across a table. {WITCH_NAME} compared the replay with the girl before her, especially the girl's glances toward the door.",
+          "The next day, the girl returned a borrowed comb to {WITCH_NAME} in the dining hall. Instead of taking the empty chair opposite her, the girl carried her meal to another table and joined the other prisoners. That move prompted {WITCH_NAME} to ask her, in the lounge, to stream another braiding lesson on the phone.",
+          "Before the broadcast began, she strangled the girl to death with a scarf. She then streamed the moving tabletop replay of yesterday's lesson from the lounge, framing it tightly with the phone. She ate with the prisoners in the dining hall and stayed in their company from the start of the viewing until the body was discovered. The stream appeared live, so they believed the girl was still alive after {WITCH_NAME} left the lounge.",
+          "After the broadcast, they found her body hidden on a sofa in the lounge. The discovery made one prisoner remember an ant in the stream: as it crossed between the girl's feet, one stride had spanned the width of her ankle. That impossible scale exposed the substitution—the phone had shown {WITCH_NAME}'s memory of the girl, not the living girl."
+        ],
+        "epitaph": "To prevent the goodbye she feared, she made it irrevocable.",
+        "epithet": "Mourner of the Living",
+        "execution": [
+          "The execution stand holds her seated in a chair within a dining-table diorama. A figure leaves the chair opposite her and walks to the far edge, tightening a noose around her neck as it goes. The noose keeps pulling until, facing the empty chair opposite her, she goes still."
+        ],
+        "magic": {
+          "name": "Memories in Miniature",
+          "text": "She can make her own memories replay as moving miniature scenes across a tabletop."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

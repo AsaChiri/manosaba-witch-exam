@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Avoider",
+  "copingSub": "AV-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-10",
+  "style": "Avoider",
+  "tag": "ALN-10_AV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier, during free time in the courtyard, a girl drew {WITCH_NAME} into a picture of the house they would share someday. Today, during free time, the girl invited her to a meal. {WITCH_NAME} dodged the invitation by diving into the courtyard's stone floor as if it were a pool. When she resurfaced, the girl called their imagined home make-believe and tore up the drawing.",
+          "After the argument, the girl bent over the fountain to wash the tears from her face. Hidden in its shallow stone basin, {WITCH_NAME} swam toward her. Her hands emerged partway through the stone, closed around the girl's neck, and forced her head beneath the water. She held the girl there until she drowned, then pulled her hands back into the stone. Finding the girl's body alone at the fountain, the prisoners assumed she had drowned accidentally while washing her face.",
+          "At the trial court, a prisoner reviewed a phone recording of the struggle. In the recording, the girl braced herself and tried to push up, only for her head to jerk back down. After the body was discovered, a prisoner had also found fingernail wounds on opposite sides of her neck. Together, the recording and the neck wounds revealed that {WITCH_NAME} had gripped the girl from inside the fountain's stone basin, although the recording showed only the girl."
+        ],
+        "epitaph": "The house in that drawing was the future she had forfeited.",
+        "epithet": "Forever a Guest",
+        "execution": [
+          "The execution stand locks the witch headfirst in an open-front carriage, holding her in a swimmer's pose. The carriage advances and feeds her headfirst into a rotating grindstone. The stone grinds from her head to her shoulders, then keeps spinning as her bloodied body hangs motionless in the same pose."
+        ],
+        "magic": {
+          "name": "Solid Sea",
+          "text": "You can swim freely through solid matter as if it were water."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

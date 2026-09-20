@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Avoider",
+  "copingSub": "AV-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Avoider",
+  "tag": "ABN-1_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her mentor always reserved a cue for {WITCH_NAME} in the recreation room, so the two of them could play together. Lesson after lesson, she rehearsed the opening shot on a working miniature of the pool table. But today, her mentor removed the miniature and invited her to play a real game at once, offering her the reserved cue.",
+          "Instead, {WITCH_NAME} made a working miniature of the sword in the lounge. She slashed her mentor's throat with the tiny blade, inflicting a fatal wound, then placed the bloodstained original sword beside her mentor. The prisoners took it for the murder weapon.",
+          "Then one prisoner pulled an engraved blade tip from the throat wound. Comparing it with the full-size sword, the prisoner found the original tip intact; the fragment bore the same engraving at a reduced scale. The scaled engraving exposed {WITCH_NAME}'s trick to the prisoners: the fragment had come from a miniature murder weapon, while the original sword was only a decoy."
+        ],
+        "epitaph": "She mistook an invitation to play for a farewell.",
+        "epithet": "Forever Waiting to Begin",
+        "execution": [
+          "The execution stand clamps her flat to a giant pool table. On the table, a miniature cue strikes a cue ball, playing the opening shot she rehearsed lesson after lesson. Then a giant cue ball rolls from her feet to her head, crushing the full length of her body. Once it passes, she lies still on the table."
+        ],
+        "magic": {
+          "name": "Working Miniatures",
+          "text": "Create miniature copies of inanimate objects that retain every function of the originals."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

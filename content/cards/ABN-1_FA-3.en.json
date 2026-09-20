@@ -1,0 +1,30 @@
+{
+  "cell": "ABN|Fantasist",
+  "copingSub": "FA-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Fantasist",
+  "tag": "ABN-1_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME}'s Magic had brought a teapot to life, and on previous evenings the victim had joined the two of them for conversation in the lounge. That day, the prisoners invited the victim to a picnic, and she accepted. That evening, she packed the teacups they shared into the picnic bag. In answer, {WITCH_NAME} restored the two-place tea setting she shared with the victim.",
+          "Keeping both of the victim's wrists pinned, she brought a sword to life with her Magic and commanded it to stab the victim to death. Afterward, she resumed her household chatter with the teapot. Only when the conversation was over did she command the sword to lie across the victim's hand in her lap.",
+          "When the prisoners discovered the scene, the sword in the victim's hand suggested suicide. But one prisoner inspected the victim's hand and found the loose dust on the sword's grip untouched. The untouched dust exposed the trick: animated by {WITCH_NAME}'s Magic, the sword had done her bidding without the victim ever gripping it, then been laid across her hand."
+        ],
+        "epitaph": "She perfected a household no one could live in with her.",
+        "epithet": "The Make-Believe Hostess",
+        "execution": [
+          "The embracing chair on the execution stand clamps her against its rigid back. Steel arms close over her chest and tighten as she struggles. They keep tightening until she falls still; the chair holds her fast, welcoming her home in an embrace that will not end."
+        ],
+        "magic": {
+          "name": "Coming to Life",
+          "text": "She can bring inanimate objects to life, giving them movement, speech, and personalities of their own."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

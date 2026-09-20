@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Caretaker",
+  "copingSub": "CT-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Caretaker",
+  "tag": "ALN-5_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Earlier that week in the lounge, a girl asked {WITCH_NAME} for the next chapter of a story she was writing by hand. A gift had made asking easy: beforehand, {WITCH_NAME} had given her a pebble that Magic turned into a warm shawl.",
+          "Today in the lounge, the girl returned the manuscript. In its margin she had asked for a bronze statuette, yet she had not given the feedback {WITCH_NAME} had requested.",
+          "That afternoon during free time at the lake, the girl paddled into deep water in a cork swim ring, though she could not yet swim. {WITCH_NAME} turned the ring into the bronze statuette the girl wanted. Its buoyancy vanished, and the girl drowned. Afterward, {WITCH_NAME} said the girl must have slipped free of the ring by accident.",
+          "The ring itself, however, had been another gift: at the lake that afternoon, {WITCH_NAME} had given the girl a pebble that Magic changed into the cork ring. At trial court, a prisoner recalled that before the girl went swimming, the cork ring and the terminal loop of her wrist leash were interlinked. After the body was recovered, the prisoners found the wrist leash at the lake, its terminal loop still closed and empty. At trial court, they exposed the lie: the intact loop could not have released the ring, so {WITCH_NAME}'s Magic—not an accident—had removed the gifted ring from the leash."
+        ],
+        "epitaph": "She gave until nothing was left to give; belonging was the one gift that never came.",
+        "epithet": "The Unheard Giver",
+        "execution": [
+          "The execution stand pins the witch upright inside an open gift box. A gift ribbon wraps around her neck and draws tight into a bow. She struggles until the cinched bow holds her in final stillness."
+        ],
+        "magic": {
+          "name": "Just What You Wanted",
+          "text": "Any inanimate gift she gives becomes the object its recipient longs for."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

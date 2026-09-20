@@ -1,0 +1,31 @@
+{
+  "cell": "ABN|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Self-Punisher",
+  "tag": "ABN-1_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At an earlier meal in the dining hall, {WITCH_NAME} used her Magic to take a burn from the girl's hand onto her own. The girl spoon-fed her afterward.",
+          "Today, the girl would not let her take a scrape from her forearm. She moved her tray away from {WITCH_NAME}'s table and joined her roommate instead.",
+          "In the lounge, {WITCH_NAME} strangled the girl unconscious with a bath towel. With a sword, she slashed through one sleeve and made a pair of cuts in the forearm beneath it. She used her Magic to take those injuries into her own forearm, restoring the girl's skin, then restored the slashed sleeve and took its damage as wounds across her palms. She tightened the towel until the girl died. She claimed the girl had attacked her with the sword and that the strangling was self-defense.",
+          "The roommate lifted the intact sleeve and found the dressing underneath slashed, though the skin beneath it was unbroken. She had bandaged the girl's scrape in the dining hall after the girl moved tables, and the dressing had been uncut then. The prisoners matched its slits to the paired wounds on {WITCH_NAME}'s forearm. Those supposed defensive wounds were the girl's transferred injuries—the trace of a staged attack, not self-defense."
+        ],
+        "epitaph": "She lost every tomorrow to the goodbye she never said.",
+        "epithet": "The One Who Regrets Leaving",
+        "execution": [
+          "The execution stand locks the witch into a sewing frame beneath torn cloth stretched over her chest. Needles drive through cloth and flesh, sewing the tear closed with each pass. When the last stitch completes the bloody seam, she hangs from the frame, utterly still."
+        ],
+        "magic": {
+          "name": "Mender's Burden",
+          "text": "She can heal an injured person or repair a damaged object, but her body suffers the damage instead."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

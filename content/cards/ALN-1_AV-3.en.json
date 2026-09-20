@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Avoider",
+  "copingSub": "AV-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Avoider",
+  "tag": "ALN-1_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During earlier naps, the girl met {WITCH_NAME} inside her dreams and practiced laughing in unison with her. Morning after morning, {WITCH_NAME} wrote an introduction to the girl on her phone, then left it unsent.",
+          "That day in the lounge, the girl referred to {WITCH_NAME} in her dream notebook as an imaginary friend. She announced to the prisoners that she would tell the story of their practiced laughter at dinner. During evening free time, {WITCH_NAME} stabbed her in the back with a sword in the lounge, killing her.",
+          "After the murder, {WITCH_NAME} entered a prisoner's dream from her cell. In the dream, they read together and improvised the story. The prisoner later vouched that {WITCH_NAME} had been with them in the recreation room for the entire reading. Their accounts even matched on the ending they had invented: a bird with two mouths.",
+          "At the trial court, the prisoner played the others a recording from their phone. In the middle lay a stretch of their own snoring; just before it, the recording captured the girl saying goodbye to them in the recreation room. The gap made the prisoner realize that the reading had started over at the opening page inside the dream, even though they remembered it as one continuous stretch. With {WITCH_NAME}'s body unaccounted for during that sleeping interval, the prisoners realized that the shared reading had taken place remotely inside the dream, not beside the prisoner in the recreation room."
+        ],
+        "epitaph": "Called imaginary, she remained a person all the same.",
+        "epithet": "The Friend Never Introduced",
+        "execution": [
+          "The execution stand locks her upright in a head brace before a mechanical audience. When she finally tries to say hello, metallic applause cuts off her first greeting. The audience's bladed palms clap against her throat again and again. The applause goes on unanswered as she hangs bloodied and still in the brace."
+        ],
+        "magic": {
+          "name": "Dreamwalker",
+          "text": "She can enter the dreams of sleeping people as herself and interact with them there."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

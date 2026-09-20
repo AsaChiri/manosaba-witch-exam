@@ -1,0 +1,31 @@
+{
+  "cell": "ALN|Self-Soother",
+  "copingSub": "SS-3",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Self-Soother",
+  "tag": "ALN-5_SS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In earlier days, {WITCH_NAME} signed the girl's name to the Tidal City folio in the lounge. The prisoners became its first audience and praised the girl for it. During solitary intervals in her cell, she used her Magic to keep the folio's tides rolling and watched them without pause.",
+          "Buoyed by the praise, they kept working together. Today, in the lounge, she photographed the girl with a sword for a captain's portrait. But when she signed her own name in the folio, the girl crossed it out and excluded her from that evening's showing so she could claim sole authorship. She answered by fatally stabbing the girl with the same sword.",
+          "To cover the killing, she set the still portrait on her phone in motion: the depicted girl lunged with the sword. She recorded the moving portrait on a second phone and showed the prisoners the recording, claiming that the portrait session had become a sword attack and that she had killed in self-defense.",
+          "A prisoner compared the recording frame by frame. The sword moved from a raised guard into a forward lunge, but its shadow remained fixed in the raised-guard position. That frozen shadow exposed the attack recording as a still portrait {WITCH_NAME} had animated."
+        ],
+        "epitaph": "At last, she authored something no one could cross out: the killing.",
+        "epithet": "The Author Behind Another's Name",
+        "execution": [
+          "The execution stand clamps her into a viewing chair, with an illustrated loop of steel ribbon resting loose around her neck. A winding reel catches, and tidal cities race across the ribbon as it tightens without pause. The panorama races on; the loop constricts until her body goes still. Then the panorama halts with her."
+        ],
+        "magic": {
+          "name": "Moving Pictures",
+          "text": "She can set any still image in motion on the surface where it appears."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

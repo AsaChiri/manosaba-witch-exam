@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Performer",
+  "copingSub": "P-2",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-5",
+  "style": "Performer",
+  "tag": "ALN-5_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Early that evening in the lounge, {WITCH_NAME} projected a moon knight performing a string of pratfalls for a girl. The girl laughed and lingered to keep her company. Then she admitted she had only laughed to be polite and refused to stay for that night’s voyage to the moon.",
+          "{WITCH_NAME} plunged a sword into her chest, killing her. She called a prisoner for help and, when the prisoner arrived, projected a masked assailant fleeing with the sword. The prisoner took the figure for the fleeing murderer and threw a cup to stop it. The cup passed straight through its torso.",
+          "At the trial court, the prisoner’s account turned on that impossible passage: the masked fugitive had no body. The figure was a decoy {WITCH_NAME} had projected to fake the killer’s escape for the very witness she had summoned."
+        ],
+        "epitaph": "She leaves her imagined worlds behind—each a home with no one in it.",
+        "epithet": "The Beggar for Laughter",
+        "execution": [
+          "The execution stand binds her to a marionette frame with tethers around her neck and limbs. The frame hoists her by the noose around her neck and jerks her into a cruel, comic jig. She struggles as it works her body through the dance. Even after she stops responding, it keeps jerking her dangling limbs until her head hangs limp."
+        ],
+        "magic": {
+          "name": "Waking Worlds",
+          "text": "She can project scenes from her imagination into the space around her as shared, three-dimensional sights and sounds."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

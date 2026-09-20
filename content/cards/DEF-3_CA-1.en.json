@@ -1,0 +1,30 @@
+{
+  "cell": "DEF|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Catastrophizer",
+  "tag": "DEF-3_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the lounge, the victim held out the torn sleeve she was wearing and asked {WITCH_NAME} to mend it. That day, {WITCH_NAME} confessed that the needle brought an unwanted image of herself stabbing the victim to mind. The victim pulled her arm away, asked another prisoner to take over the mending, and passed them the needle.",
+          "After that withdrawal, in the courtyard, she used her Magic to preview inviting the victim there to apologize. The miniature future showed a falling branch crushing the victim. During free time, she summoned the victim to the tree in the courtyard for an apology, bringing her to the outer edge of its canopy. A branch fell and crushed the victim. To the prisoners, it looked like an unforeseeable accident during an innocent attempt to apologize.",
+          "But in the trial court, a prisoner revealed that before the victim arrived—and before the first crack—{WITCH_NAME} had directed them to shelter against the trunk. The warning exposed the apology as a trap she had already foreseen: one prisoner was sheltered, while the victim was left exposed."
+        ],
+        "epitaph": "Guilt came first. Her apology became the deed that could not be forgiven.",
+        "epithet": "Guilty Before the Deed",
+        "execution": [
+          "The execution stand is an embroidery frame that holds her arms and legs spread wide. A sewing needle drives through her torso, drawing black thread through her body. The thread then cinches her torso tighter and tighter until she hangs motionless in the frame."
+        ],
+        "magic": {
+          "name": "Futures in Miniature",
+          "text": "She can watch the possible outcomes of a choice unfold as lifelike, moving scenes in miniature."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -28,14 +28,40 @@ import os from 'node:os'
 import { Worker } from 'node:worker_threads'
 // @ts-expect-error - wawoff2 ships no types
 import wawoff2 from 'wawoff2'
+import sharp from 'sharp'
 import { roseWindowGroup, CHARACTER_MOTIFS } from '../src/lib/rose-window'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
 const SITE = (process.env.PUBLIC_SITE_URL || 'https://manosaba-witch-exam.asachiri.com').replace(/\/$/, '')
-const DESIGN_VERSION = 'og-v3'
+const DESIGN_VERSION = 'og-v4'
 const CACHE = join(ROOT, 'scripts/.fonts-cache')
 mkdirSync(CACHE, { recursive: true })
+
+/* ── Game rooms behind the plates. Each room is prepared ONCE with sharp —
+ * cover-cropped to the plate, blurred, pulled far down — and handed to the
+ * workers as base64; the SVGs carry only the __OG_BG__ token, so the job list
+ * stays small at the corpus's end state (~4,800 plates). */
+const GAME_DIR = join(ROOT, 'src/assets/game')
+type Room = 'court' | 'wall'
+const BG_TOKEN = '__OG_BG__'
+async function prepareRoom(room: Room): Promise<string> {
+  const buf = await sharp(join(GAME_DIR, `${room}.webp`))
+    .resize(W, H, { fit: 'cover', position: room === 'wall' ? 'top' : 'centre' })
+    .blur(2.2)
+    .modulate({ brightness: 0.42, saturation: 0.8 })
+    .jpeg({ quality: 78 })
+    .toBuffer()
+  return buf.toString('base64')
+}
+/** The character OG portrait: the WitchBook profile, alpha kept (PNG — the
+ *  one raster format every resvg build decodes). */
+async function preparePortrait(id: string): Promise<string | null> {
+  const p = join(GAME_DIR, 'profiles', `${id}.webp`)
+  if (!existsSync(p)) return null
+  const buf = await sharp(p).resize(512, 512, { fit: 'cover' }).png().toBuffer()
+  return buf.toString('base64')
+}
 
 // ── Palette (mirrors src/styles/tokens.css) ──
 // red = the witch colour (verdict/card), gold = seals/ornament, bone = prose.
@@ -389,9 +415,15 @@ function defs(extra = ''): string {
     ${extra}
   </defs>`
 }
-/** Velvet ground + oxblood foot glow + vignette (drawn under every glow). */
-function ground(): string {
+/** Velvet ground + (optionally) a game room + oxblood foot glow + vignette
+ *  (drawn under every glow). The room is the __OG_BG__ token — the worker
+ *  swaps in the prepared base64 JPEG. */
+function ground(room?: Room): string {
+  const img = room
+    ? `<image href="${BG_TOKEN}" x="0" y="0" width="${W}" height="${H}" preserveAspectRatio="xMidYMid slice" opacity="0.9"/>`
+    : ''
   return `<rect width="${W}" height="${H}" fill="url(#bg)"/>
+  ${img}
   <rect width="${W}" height="${H}" fill="url(#glowO)"/>
   <rect width="${W}" height="${H}" fill="url(#vig)"/>`
 }
@@ -541,7 +573,7 @@ function nameSpacing(cfg: LocaleCfg, chars: number, size: number): number {
 /** Size the name so 2–4 CJK characters span ~35–55% of the plate (Latin: one
  *  line when it fits at ≥84px, else two lines), then shrink until the block
  *  fits `budget` px of height. Shared by the renderers and the audit. */
-function fitName(cfg: LocaleCfg, text: string, budget: number, cap = 212): NameFit {
+function fitName(cfg: LocaleCfg, text: string, budget: number, cap = 212, maxW = NAME_MAX_W): NameFit {
   const n = Array.from(text).length
   let preferred: number
   let min: number
@@ -549,14 +581,14 @@ function fitName(cfg: LocaleCfg, text: string, budget: number, cap = 212): NameF
     preferred = Math.min(cap, Math.floor(640 / Math.max(1, n)))
     min = 72
   } else {
-    const single = Math.floor(NAME_MAX_W / (CINZEL_EM * Math.max(1, n)))
+    const single = Math.floor(maxW / (CINZEL_EM * Math.max(1, n)))
     preferred = single >= 84 ? Math.min(Math.min(cap, 150), single) : 104
     min = 60
   }
   const factor = cfg.isCjk ? 1 : CINZEL_EM
   let size = Math.max(preferred, min)
   for (;;) {
-    const r = layout(text, cfg.isCjk, NAME_MAX_W, size, min, 2, factor)
+    const r = layout(text, cfg.isCjk, maxW, size, min, 2, factor)
     size = r.size
     const height = nameHeight(cfg, size, r.lines.length)
     if (height <= budget || size <= min) {
@@ -615,7 +647,7 @@ function buildRootSvg(cfg: LocaleCfg): string {
     </linearGradient>`
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   ${defs(radialDef('haloGlow', C.redDeep, 0.5, 0.4) + radialDef('sealGlow', C.goldBright, 0.2, 0.4) + titleGrad)}
-  ${ground()}
+  ${ground('court')}
   <circle cx="600" cy="${RT.sealCy}" r="${RT.haloR + 40}" fill="url(#haloGlow)"/>
   ${halo}
   <circle cx="600" cy="${RT.sealCy}" r="150" fill="url(#sealGlow)"/>
@@ -676,7 +708,7 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   ${defs(radialDef('sealGlow', C.goldBright, 0.22, 0.4) + radialDef('nameGlow', C.red, 0.32, 0.45) + nameGradDef('nameGrad', C.red))}
-  ${ground()}
+  ${ground('wall')}
   <circle cx="600" cy="${CD.sealCy}" r="180" fill="url(#sealGlow)"/>
   <ellipse cx="600" cy="${nameMid}" rx="${glowRx}" ry="${glowRy}" fill="url(#nameGlow)"/>
   ${frameMarkup(C.gold)}
@@ -693,72 +725,73 @@ function buildCardSvg(cfg: LocaleCfg, card: any): string {
 }
 
 // ── Character OG ──
-/* Special character record OG (design spec §3.7) — the one theme-colored
- * surface. The MAGIC NAME is the headline in the character color (the visitor
- * detected the same magic), crowned by her rose window as the plate's crest.
- * The character's name is withheld: the unfurl reveals the magic, never who
- * it belongs to. */
-/* Character plate: window → 魔法 mark → magic name → the CHARACTER'S NAME in her
- * colour (owner decision 2026-09-02: the /c/ page's og:title and description
- * already name her, so the plate says it too) → brand. `charLine` is the
- * vertical room reserved under the magic name for that line. */
-const CH = { winCy: 164, winR: 120, markY: 322, nameTop: 348, nameLimit: 526, charLine: 58 }
+/* Special character record OG (design spec §3.7, revised 2026-09-11 — owner
+ * decision, v1's rule: the unfurl shows the CHARACTER and never her magic; the
+ * character ↔ magic pairing is a story spoiler, and an unfurl appears in chats
+ * unasked). Split plate: her WitchBook profile portrait in a ring of her
+ * colour on the right; the record mark, her NAME in her colour and her artbook
+ * epithet on the left. The magic name appears only on the gated page. */
+const CH = { textX: 96, textW: 600, markY: 168, nameTop: 196, nameLimit: 470, cx: 930, cy: 318, r: 190 }
 function characterLayout(
   cfg: LocaleCfg,
-  magic: string,
-): { fit: NameFit; nameTop: number; charY: number } {
-  const budget = CH.nameLimit - CH.charLine - CH.nameTop
-  const fit = fitName(cfg, magic, budget, 200)
+  name: string,
+  epithet: string,
+): { fit: NameFit; nameTop: number; epithet: { size: number; lines: string[] }; ruleY: number; epithetY: number } {
+  const esz = cfg.isCjk ? 30 : 27
+  const lines = epithet ? clampLines(cfg.isCjk ? `「${epithet}」` : epithet, cfg.isCjk, CH.textW, esz, 2) : []
+  const epithetH = lines.length ? esz * (1 + 1.45 * (lines.length - 1)) : 0
+  const budget = CH.nameLimit - CH.nameTop - (lines.length ? 26 + 44 + epithetH : 0)
+  const fit = fitName(cfg, name, budget, 128, CH.textW)
   const nameTop = CH.nameTop + Math.max(0, budget - fit.height) * SLACK_SHARE
-  // baseline of the character line: just under the magic name's glyph bottom
-  const charY = nameTop + fit.height + 44
-  return { fit, nameTop, charY }
+  const ruleY = nameTop + fit.height + 26
+  const epithetY = ruleY + 44 + 0.74 * esz
+  return { fit, nameTop, epithet: { size: esz, lines }, ruleY, epithetY }
 }
-function buildCharacterSvg(cfg: LocaleCfg, ch: any): string {
+function buildCharacterSvg(cfg: LocaleCfg, ch: any, portrait: string | null): string {
   const s = I18N[cfg.key]
   const color = String(ch.color)
-  const magic = String(ch.magicName ?? '').trim()
-  if (!magic) throw new Error(`OG FAIL: character ${ch.id} missing magicName`)
-  const markText = String(s.card?.magicMark ?? '魔法')
+  const name = String(ch.name ?? '').trim()
+  if (!name) throw new Error(`OG FAIL: character ${ch.id} missing name`)
+  const epithet = String(ch.epithet ?? '').trim()
+  const mark = String(s.result?.specialCard?.mark ?? s.card?.sentenceMark ?? '')
 
-  const { fit, nameTop, charY } = characterLayout(cfg, magic)
+  const L = characterLayout(cfg, name, epithet)
   const brand = brandBlock(cfg, s)
-  // her name, in her colour, quieter than the magic: 『』 in CJK, plain in Latin,
-  // a short hairline either side
-  const charName = String(ch.name ?? '').trim()
-  const charLabel = cfg.isCjk ? `『${charName}』` : charName
-  const charSize = cfg.isCjk ? 30 : 27
-  const charLs = cfg.isCjk ? 5 : 4
-  const charHalf = estWidth(charLabel, charSize, charLs, cfg.isCjk ? 1 : 0.62) / 2 + 22
-  const charLine = charName
-    ? `<line x1="${600 - charHalf - 70}" y1="${charY - 10}" x2="${600 - charHalf}" y2="${charY - 10}" stroke="${color}" stroke-width="0.9" opacity="0.5"/>
-    <line x1="${600 + charHalf}" y1="${charY - 10}" x2="${600 + charHalf + 70}" y2="${charY - 10}" stroke="${color}" stroke-width="0.9" opacity="0.5"/>
-    <text x="${600 + charLs / 2}" y="${charY}" text-anchor="middle" fill="${color}" fill-opacity="0.92" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${charSize}" letter-spacing="${charLs}">${escapeXml(charLabel)}</text>`
-    : ''
-  const ws = (CH.winR * 2) / 200
-  const window = `<g transform="translate(${600 - CH.winR} ${CH.winCy - CH.winR}) scale(${ws})">${roseWindowGroup({
-    color,
-    motif: CHARACTER_MOTIFS[ch.id] ?? 'leaf',
-    magicName: magic,
-  })}</g>`
-  const markHalf = estWidth(markText, 24, 12, cfg.isCjk ? 1 : 0.72) / 2 + 14
-  const nameMid = nameTop + fit.height / 2
-  const glowRx = Math.min(560, nameWidth(cfg, fit) / 2 + 150)
-  const glowRy = fit.height / 2 + 80
+  const m = nameMetrics(cfg)
+  const nameText = textBlockAt(CH.textX, L.fit.lines, L.nameTop + m.asc * L.fit.size, L.fit.size, m.lh)
+  const nameCommon = `text-anchor="start" font-family="${fam(cfg)}" font-weight="${cfg.weightBig}" font-size="${L.fit.size}" letter-spacing="${L.fit.ls.toFixed(1)}"`
+  const ep = textBlockAt(CH.textX, L.epithet.lines, L.epithetY, L.epithet.size, 1.45)
+
+  // the portrait: a dark disc of her tint under the alpha, the profile clipped
+  // to the circle, a ring in her colour with a gold hairline inside
+  const { cx, cy, r } = CH
+  const disc = `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${mix(color, '#000000', 0.78)}"/>`
+  const face = portrait
+    ? `<image href="data:image/png;base64,${portrait}" x="${cx - r}" y="${cy - r}" width="${2 * r}" height="${2 * r}" clip-path="url(#pclip)" preserveAspectRatio="xMidYMid slice"/>`
+    : `<g transform="translate(${cx - r * 0.78} ${cy - r * 0.78}) scale(${(r * 1.56) / 200})">${roseWindowGroup({
+        color,
+        motif: CHARACTER_MOTIFS[ch.id] ?? 'leaf',
+        magicName: name,
+      })}</g>`
+  const ring = `<circle cx="${cx}" cy="${cy}" r="${r + 5}" fill="none" stroke="${color}" stroke-width="3" opacity="0.92"/>
+    <circle cx="${cx}" cy="${cy}" r="${r + 12}" fill="none" stroke="${C.gold}" stroke-width="0.8" opacity="0.45"/>
+    <circle cx="${cx}" cy="${cy}" r="${r - 4}" fill="none" stroke="${C.gold}" stroke-width="0.6" opacity="0.35"/>`
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
-  ${defs(radialDef('winGlow', color, 0.34, 0.42) + radialDef('nameGlow', color, 0.22, 0.45) + nameGradDef('nameGrad', color))}
-  ${ground()}
-  <circle cx="600" cy="${CH.winCy}" r="250" fill="url(#winGlow)"/>
-  <ellipse cx="600" cy="${nameMid}" rx="${glowRx}" ry="${glowRy}" fill="url(#nameGlow)"/>
+  ${defs(radialDef('winGlow', color, 0.32, 0.42) + nameGradDef('nameGrad', color) + `<clipPath id="pclip"><circle cx="${cx}" cy="${cy}" r="${r}"/></clipPath>`)}
+  ${ground('wall')}
+  <circle cx="${cx}" cy="${cy}" r="${r + 120}" fill="url(#winGlow)"/>
   ${frameMarkup(C.gold)}
-  ${runeBands(55, 0, magic, color, 0.32)}
-  ${runeBands(brand.mid, brand.half, magic, color, 0.32)}
-  ${window}
-  <text x="600" y="${CH.markY}" text-anchor="middle" fill="${C.gold}" font-family="${fam(cfg)}" font-size="24" letter-spacing="12">${escapeXml(markText)}</text>
-  ${markFlourishes(CH.markY - 7, markHalf, C.gold)}
-  ${bigName(cfg, fit, nameTop, 'url(#nameGrad)', mix(color, '#000000', 0.62))}
-  ${charLine}
+  ${runeBands(55, 0, name, color, 0.32)}
+  ${runeBands(brand.mid, brand.half, name, color, 0.32)}
+  <text x="${CH.textX}" y="${CH.markY}" fill="${C.goldDeep}" font-family="${fam(cfg)}" font-size="20" letter-spacing="${cfg.isCjk ? 9 : 8}">${escapeXml(mark)}</text>
+  <text ${nameCommon} fill="${mix(color, '#000000', 0.62)}" fill-opacity="0.72" transform="translate(4 7)">${nameText.tspans}</text>
+  <text ${nameCommon} fill="url(#nameGrad)">${nameText.tspans}</text>
+  <rect x="${CH.textX}" y="${L.ruleY}" width="150" height="1.6" fill="${color}" opacity="0.7"/>
+  <text fill="${C.bone}" fill-opacity="0.94" font-family="${bodyFam(cfg)}" font-size="${L.epithet.size}">${ep.tspans}</text>
+  ${disc}
+  ${face}
+  ${ring}
   ${brand.markup}
 </svg>`
 }
@@ -797,8 +830,9 @@ function runAudit(): number {
       problems.push(...auditLines(`${cfg.key} ${t} desc`, L.desc.lines, cfg.isCjk, 1000, L.desc.size, cfg.isCjk ? 1 : 0.5))
     }
     for (const ch of loadCharacters(cfg.key)) {
-      const { fit } = characterLayout(cfg, String(ch.magicName))
-      problems.push(...auditLines(`${cfg.key} c-${ch.id} magic`, fit.lines, cfg.isCjk, NAME_MAX_W, fit.size, nameFactor))
+      const L = characterLayout(cfg, String(ch.name), String(ch.epithet ?? ''))
+      problems.push(...auditLines(`${cfg.key} c-${ch.id} name`, L.fit.lines, cfg.isCjk, CH.textW, L.fit.size, nameFactor))
+      problems.push(...auditLines(`${cfg.key} c-${ch.id} epithet`, L.epithet.lines, cfg.isCjk, CH.textW, L.epithet.size, cfg.isCjk ? 1 : 0.5))
     }
   }
   if (problems.length) {
@@ -813,21 +847,26 @@ function runAudit(): number {
 interface Job {
   svg: string
   outPath: string
+  /** Game room the worker splices in for __OG_BG__ (undefined = plain ground). */
+  room?: Room
 }
 
-function collectJobs(): Job[] {
+async function collectJobs(): Promise<Job[]> {
   const jobs: Job[] = []
+  const portraits: Record<string, string | null> = {}
   for (const cfg of LOCALES) {
-    jobs.push({ svg: buildRootSvg(cfg), outPath: join(ROOT, `public/og/${cfg.seg}/root.png`) })
+    jobs.push({ svg: buildRootSvg(cfg), outPath: join(ROOT, `public/og/${cfg.seg}/root.png`), room: 'court' })
     for (const tag of TAGS) {
       const card = loadCard(tag, cfg.key)
       if (!card) continue
-      jobs.push({ svg: buildCardSvg(cfg, card), outPath: join(ROOT, `public/og/${cfg.seg}/${tag}.png`) })
+      jobs.push({ svg: buildCardSvg(cfg, card), outPath: join(ROOT, `public/og/${cfg.seg}/${tag}.png`), room: 'wall' })
     }
     for (const ch of loadCharacters(cfg.key)) {
+      if (!(ch.id in portraits)) portraits[ch.id] = await preparePortrait(String(ch.id))
       jobs.push({
-        svg: buildCharacterSvg(cfg, ch),
+        svg: buildCharacterSvg(cfg, ch, portraits[ch.id] ?? null),
         outPath: join(ROOT, `public/og/${cfg.seg}/c-${ch.id}.png`),
+        room: 'wall',
       })
     }
   }
@@ -839,17 +878,17 @@ const HASH_FILE = join(CACHE, 'og-hashes.json')
 function loadHashes(): Record<string, string> {
   return existsSync(HASH_FILE) ? readJson<Record<string, string>>(HASH_FILE) : {}
 }
-function hashOf(svg: string): string {
-  return createHash('sha1').update(DESIGN_VERSION).update('\0').update(svg).digest('hex')
+function hashOf(svg: string, roomHash: string): string {
+  return createHash('sha1').update(DESIGN_VERSION).update('\0').update(roomHash).update('\0').update(svg).digest('hex')
 }
 
 // ── Worker pool render ──
-async function render(jobs: Job[], fontFiles: string[]): Promise<void> {
+async function render(jobs: Job[], fontFiles: string[], rooms: Record<Room, string>): Promise<void> {
   const n = Math.max(1, Math.min(os.cpus().length, jobs.length))
   const workerUrl = new URL('./og-worker.mjs', import.meta.url)
   const workers = Array.from(
     { length: n },
-    () => new Worker(workerUrl, { workerData: { fontFiles, defaultFamily: 'Noto Serif CJK SC' } }),
+    () => new Worker(workerUrl, { workerData: { fontFiles, defaultFamily: 'Noto Serif CJK SC', rooms, bgToken: BG_TOKEN } }),
   )
   let next = 0
   let done = 0
@@ -887,7 +926,13 @@ async function main() {
   const fontFiles = await loadFontFiles()
   console.log(`[gen:og] fonts ready (${fontFiles.length} ttf), content=${useContent ? 'content/' : 'fixtures'}, tags=${TAGS.length}`)
 
-  let allJobs = collectJobs()
+  const rooms: Record<Room, string> = { court: await prepareRoom('court'), wall: await prepareRoom('wall') }
+  const roomHash: Record<string, string> = {
+    court: createHash('sha1').update(rooms.court).digest('hex'),
+    wall: createHash('sha1').update(rooms.wall).digest('hex'),
+    none: '',
+  }
+  let allJobs = await collectJobs()
   // OG_ONLY=zh-cn/root,en/ABN-1_CL-1 … renders a subset (design iteration).
   const only = (process.env.OG_ONLY ?? '')
     .split(',')
@@ -900,7 +945,7 @@ async function main() {
   const pending: Job[] = []
   let skipped = 0
   for (const job of allJobs) {
-    const h = hashOf(job.svg)
+    const h = hashOf(job.svg, roomHash[job.room ?? 'none']!)
     if (hashes[job.outPath] === h && existsSync(job.outPath)) {
       skipped++
       continue
@@ -910,7 +955,7 @@ async function main() {
   }
   console.log(`[gen:og] ${allJobs.length} images — ${pending.length} to render, ${skipped} unchanged`)
 
-  await render(pending, fontFiles)
+  await render(pending, fontFiles, rooms)
   writeFileSync(HASH_FILE, JSON.stringify(hashes, null, 0), 'utf-8')
   writeRobots()
   console.log('[gen:og] done')

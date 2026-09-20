@@ -1,0 +1,32 @@
+{
+  "cell": "DEF|Avoider",
+  "copingSub": "AV-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Avoider",
+  "tag": "DEF-3_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For weeks in the dining hall, {WITCH_NAME} confided in her dining companion that she was sickened by unwanted thoughts of poisoning someone. Whenever they ate together and she hesitated over her jam sandwich, her companion would take the first bite and share the meal with her to reassure her.",
+          "But that day in the lounge, the companion turned those confidences against her and demanded that she sign a false confession to attempted poisoning. Unless she signed, the companion warned, all the prisoners would hear about her thoughts at the evening meal. As her companion swiped past a medical photograph on a phone, {WITCH_NAME} used her Magic to live through hours inside that instant, long enough to learn that the companion's nut allergy could be fatal.",
+          "The threat drove her to the dining hall during evening free time, where she spread nut paste inside a jam sandwich. She served it to her companion as an offer of reconciliation. Her companion took the familiar first bite, collapsed, and died from the allergic reaction. The prisoners assumed the nut allergen had come from accidental cross-contamination.",
+          "Then one prisoner separated the slices. Beneath the jam lay a continuous layer of nut paste. At the trial court, a prisoner drew the conclusion: an unbroken layer was a deliberate filling, not utensil residue, so {WITCH_NAME} had served the allergen hidden beneath the jam."
+        ],
+        "epitaph": "Her unwanted thoughts had required no penance; the murder made that penance irrevocable.",
+        "epithet": "The Penitent Without a Sin",
+        "execution": [
+          "The execution stand locks her flat beneath a bladed pendulum aligned with her chest. The blade sweeps across her again and again, each pass cutting the wound deeper.",
+          "Between strokes, as the blade returns but before it cuts again, she uses her Magic to stretch its approach into subjective hours and searches them for a way out. None of those hours postpones the next cut. The pendulum keeps swinging over her bloodied chest as she struggles, until she is finally still."
+        ],
+        "magic": {
+          "name": "Hours Between Seconds",
+          "text": "She can stretch a few passing seconds into hours of conscious time for herself."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

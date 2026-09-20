@@ -1,0 +1,29 @@
+{
+  "cell": "ABN|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Self-Reliant",
+  "tag": "ABN-1_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "In the courtyard, {WITCH_NAME} braided a girl's hair while they traded stories. When the girl offered to return the favor, {WITCH_NAME} refused; she could braid her own hair. Then the girl cut her own braid short with scissors and told {WITCH_NAME} there would be no braiding tomorrow. At that, {WITCH_NAME} grew gigantic and crushed the girl beneath her bare foot.",
+          "Later, a prisoner found the girl's crushed body beneath the upper railing. The prisoners assumed she had fallen to her death from there. But one prisoner uncovered a sole-shaped bruise as long as the girl's torso. The bruise overturned that story: {WITCH_NAME} had deliberately crushed the girl at ground level beneath a giant foot."
+        ],
+        "epitaph": "She could braid her own hair, but no one could replace the companion she lost.",
+        "epithet": "The Self-Sufficient Castaway",
+        "execution": [
+          "The execution stand held her upright in a noose made from measuring tape. The loop cinched around her bare neck, its measurement dropping as it tightened. It kept tightening until she slumped against the taut tape and went still."
+        ],
+        "magic": {
+          "name": "Shrink and Grow",
+          "text": "You can shrink or grow your body to any size you choose."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cell": "ALN|Caretaker",
+  "copingSub": "CT-1",
+  "family": "ALN",
+  "locale": "en",
+  "originSub": "ALN-1",
+  "style": "Caretaker",
+  "tag": "ALN-1_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "For weeks, without being asked, {WITCH_NAME} used her Magic to grow fruiting strawberry plants straight from a plate in the forest. The girl welcomed her to share lunch, and they sat side by side.",
+          "Today, the girl removed {WITCH_NAME}'s place setting and asked her to deliver fruit to future picnics without joining them. The girl spread the picnic cloth beneath a bough. In answer, {WITCH_NAME} grew a full-grown apple tree from the branch overhead. The tree and broken bough crashed down, crushing the girl to death.",
+          "The prisoners first took it for a natural treefall. Then one prisoner uncovered the tree's base: its roots clasped a short, broken piece of the bough. The break on that fragment matched the fracture overhead. In the trial court, the prisoners reconstructed the apparent accident: the tree had grown from the overhead bough, so {WITCH_NAME} had manufactured the collapse."
+        ],
+        "epitaph": "In the end, all she could provide was forced upon her, and it still could not give her a place beside anyone.",
+        "epithet": "The Uninvited Provider",
+        "execution": [
+          "The execution stand locks her head inside a glass apple. Apple juice pours in without stopping and submerges her face. The glass keeps her face on display until she becomes utterly still."
+        ],
+        "magic": {
+          "name": "Root Anywhere",
+          "text": "She can grow any plant she chooses to full maturity from any physical surface."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

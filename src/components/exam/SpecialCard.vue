@@ -16,6 +16,7 @@ import type { WitchCharacter } from '../../lib/content-types'
 import { t } from '../../i18n'
 import type { Locale } from '../../i18n/config'
 import { roseWindowSvg, CHARACTER_MOTIFS } from '../../lib/rose-window'
+import { characterPortraitUrl } from '../../lib/character-portrait'
 
 const props = defineProps<{
   locale: Locale
@@ -29,6 +30,10 @@ const T = (k: string, p?: Record<string, string | number>) => t(props.locale, k,
 
 // Per-character warden remark (authored for every character).
 const wardenLine = computed(() => props.character.warden)
+// Her file photo, clipped to the warden's note (owner decision 2026-09-12): the
+// face appears exactly where she is named; the record stays the visitor's.
+// Same-origin image → html2canvas captures it in the long share PNG.
+const portrait = computed(() => characterPortraitUrl(props.character.id))
 
 // Her rose window (lib/rose-window.ts) — deterministic SVG string, safe for
 // v-html (generated entirely from our own code + compiled content).
@@ -89,6 +94,9 @@ const windowSvg = computed(() =>
             <circle cx="7.8" cy="6.2" r="1" fill="#f7ead2" />
           </g>
         </svg>
+      </span>
+      <span v-if="portrait" class="character-card__warden-photo" aria-hidden="true">
+        <img :src="portrait" alt="" width="512" height="512" decoding="async" />
       </span>
       <p class="character-card__warden-text">{{ wardenLine }}</p>
       <span class="character-card__warden-sig"><span class="character-card__warden-dash" aria-hidden="true">——</span>{{ T('result.specialCard.wardenTag') }}</span>
