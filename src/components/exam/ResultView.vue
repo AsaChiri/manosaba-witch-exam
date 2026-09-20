@@ -15,7 +15,11 @@ import Seal from './Seal.vue'
 import ShareRow from './ShareRow.vue'
 import SpecialCard from './SpecialCard.vue'
 /* The courtroom wall behind the record (game asset. Same layer + styles as GameBackdrop.astro
- * (global.css .backdrop*); it fades in with the record after the verdict. */
+ * (global.css .backdrop*); it fades in with the record after the verdict.
+ * Teleported to <body> like the pinned bar below: .result carries the rise-fade
+ * entrance, and a transform-animating ancestor is a containing block for fixed
+ * descendants, so left in place the full-viewport layer would shrink to the
+ * record column. */
 import wallL from '../../assets/game/wall.webp?url'
 import wallM from '../../assets/game/wall-m.webp?url'
 
@@ -221,17 +225,19 @@ watch(() => props.specialCharacter, refreshQr)
 
 <template>
   <section class="result" :lang="locale">
-    <div class="backdrop backdrop--wall backdrop--fade" aria-hidden="true">
-      <img
-        class="backdrop__img"
-        :src="wallL"
-        :srcset="`${wallM} 960w, ${wallL} 1920w`"
-        sizes="100vw"
-        alt=""
-        decoding="async"
-      />
-      <div class="backdrop__veil"></div>
-    </div>
+    <Teleport to="body">
+      <div class="backdrop backdrop--wall backdrop--fade" aria-hidden="true">
+        <img
+          class="backdrop__img"
+          :src="wallL"
+          :srcset="`${wallM} 960w, ${wallL} 1920w`"
+          sizes="100vw"
+          alt=""
+          decoding="async"
+        />
+        <div class="backdrop__veil"></div>
+      </div>
+    </Teleport>
     <div class="result__stage">
       <div
         ref="frameEl"
