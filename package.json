@@ -9,16 +9,21 @@
     "tools/*"
   ],
   "scripts": {
+    "predev": "npm run build:engine",
     "dev": "npm run gen:fonts && astro dev",
+    "prestart": "npm run build:engine",
     "start": "npm run gen:fonts && astro dev",
     "gen:fonts": "tsx scripts/subset-fonts.ts",
     "gen:og": "tsx scripts/generate-og.ts",
     "import:assets": "tsx scripts/import-game-assets.ts",
+    "precheck": "npm run build:engine",
     "check": "astro check",
+    "pretypecheck:vue": "npm run build:engine",
     "typecheck:vue": "vue-tsc --noEmit",
     "build:engine": "npm run build --workspace @manosaba/witch-exam-engine",
     "prebuild": "npm run build:engine",
     "build": "npm run gen:fonts && npm run gen:og && astro check && astro build",
+    "prebuild:fast": "npm run build:engine && npm run gen:fonts",
     "build:fast": "astro build",
     "preview": "astro preview",
     "astro": "astro"
