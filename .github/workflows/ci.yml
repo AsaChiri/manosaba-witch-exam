@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+env:
+  ASTRO_TELEMETRY_DISABLED: '1'
+
+jobs:
+  site:
+    name: Site tests, types, and build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install locked workspace dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Test engine with workspace dependencies
+        run: npm test --workspace @manosaba/witch-exam-engine
+
+      - name: Typecheck engine
+        run: npm run typecheck --workspace @manosaba/witch-exam-engine
+
+      # Package exports reference generated dist files, including their types.
+      - name: Build engine for site and compiler imports
+        run: npm run build:engine
+
+      - name: Typecheck content compiler
+        run: npm run typecheck --workspace @manosaba/witch-exam-compiler
+
+      - name: Typecheck Vue components
+        run: npm run typecheck:vue
+
+      # Uses committed content/assets; no external authoring workspace or secrets.
+      # Includes font/OG generation, Astro type/template checks, and static build.
+      - name: Build production site
+        run: npm run build
+
+  engine-standalone:
+    name: Standalone engine tests and types
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: packages/engine/package-lock.json
+
+      # Exercise the separately committed lockfile without root workspace links.
+      - name: Install standalone engine dependencies
+        run: npm ci --prefix packages/engine --workspaces=false --no-audit --no-fund
+
+      - name: Test standalone engine
+        run: npm test --prefix packages/engine --workspaces=false
+
+      - name: Typecheck standalone engine
+        run: npm run typecheck --prefix packages/engine --workspaces=false
