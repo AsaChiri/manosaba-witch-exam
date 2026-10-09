@@ -19,19 +19,59 @@ The design authority is `output/witch_card_v2_site_design.md` in the workspace.
 
 ## Commands
 
+Use Node.js 22 (22.14.0 tested) and npm 10. Run commands from the repository
+root so npm links the engine and compiler workspaces:
+
 ```bash
-npm install
-npm run dev          # dev server
+git clone https://github.com/AsaChiri/manosaba-witch-exam.git
+cd manosaba-witch-exam
+npm ci               # install the locked dependencies and link workspaces
+npm run dev          # build engine + generate fonts + start dev server
+```
+
+Open the local URL printed by Astro (normally `http://localhost:4321`).
+`npm start` is an alias for the same development setup. The committed
+`content/` and game assets are sufficient for ordinary site development;
+the external authoring workspace is not required.
+
+The first font/OG generation may download full fonts from
+`raw.githubusercontent.com` into `scripts/.fonts-cache/`, so allow network
+access. The optional `D:/Monosaba Personality Test/scripts/fonts-full` cache
+is only a shortcut; missing fonts are downloaded automatically.
+
+```bash
+npm run build:engine # compile packages/engine/dist/ explicitly when needed
+npm run gen:fonts    # regenerate local font subsets and their CSS
 npm run gen:og       # regenerate OG images + robots.txt (worker pool, hash-skip)
-npm run check        # astro check (types + templates)
-npm run typecheck:vue# vue-tsc over the island components
-npm run build        # gen:og → astro check → astro build  (the release build)
-npm run build:fast   # astro build only (skips OG + check)
+npm run check        # build engine + astro check (types + templates)
+npm run typecheck:vue # build engine + vue-tsc over the island components
+npm run build        # engine + fonts + OG + astro check + astro build
+npm run build:fast   # engine + fonts + astro build (skips OG + check)
 npm run preview      # serve dist/
 ```
 
-`npm run build` must complete cleanly. The build writes ~37 static pages
-(4 locales × landing + exam + N card pages, plus 404 + sitemap).
+The engine package exports generated files under `packages/engine/dist/`,
+which are not committed. `dev`, `start`, `check`, `typecheck:vue`, `build` and
+`build:fast` build it automatically before use. After editing engine source
+while the dev server is running,
+rerun `npm run build:engine` (or restart `npm run dev`).
+
+`npm run build` must complete cleanly before previewing or deploying. It
+generates the static site for all four locales, including card/character
+pages, data endpoints, 404 and sitemap. `build:fast` is for local iteration;
+it does not regenerate OG images or run checks.
+
+### Engine tests
+
+```bash
+npm test --workspace @manosaba/witch-exam-engine
+npm run typecheck --workspace @manosaba/witch-exam-engine
+```
+
+The deterministic scorer, session and certification tests use committed
+fixtures in `packages/engine/test/fixtures/`; they do not require the external
+authoring workspace. Run these plus `npm run check`, `npm run typecheck:vue`
+and `npm run build` when changing engine integration.
 
 ## Architecture
 
@@ -60,10 +100,15 @@ gold is seals/ornament only, and the hot-pink CTA is the single loudest element.
 
 ### Quiz engine seam
 
-The whole flow drives against `src/lib/engine-api.ts`. Today
-`src/lib/engine.ts` re-exports the deterministic `MockEngine`. When the real
-`@manosaba/engine` (from `packages/engine`) lands, swap **one line** in
-`engine.ts`.
+The whole flow drives against `src/lib/engine-api.ts`. By default,
+`src/lib/engine.ts` uses the real deterministic `@manosaba/witch-exam-engine`
+from `packages/engine`, wired to compiled quiz content through
+`src/lib/exam-adapter.ts`.
+
+For the development mock, set `PUBLIC_USE_MOCK_ENGINE=1` (or `true`) in `.env`
+and restart the dev server. Unset it to return to the real engine. This is a
+build-time switch; leave it unset for production. The engine package still
+needs to be built in mock mode because the real adapter is statically imported.
 
 ### Content contract
 
@@ -80,6 +125,34 @@ and are never regenerated. On-disk cards are the raw shape
 tags) → deploy. Adding cards automatically rebuilds picksets, neighbor tables,
 redirect coverage, variant counts, and result pages; no code change is required.
 Question/choice wording is maintained directly in the four quiz-string files.
+
+### Optional content-authoring tools
+
+The workflow above is for maintainers with the separate
+`D:/Manosaba_Script_Project_Workspace` source workspace, which also holds
+the design/model documents referenced here and in `CLAUDE.md`. It is not
+included in this repository. Normal site work uses the committed `content/`
+without recompiling it.
+
+With that workspace available, build the engine first, then compile and
+verify authored content (replace the path if your workspace is elsewhere):
+
+```bash
+npm run build:engine
+npm run compile --workspace @manosaba/witch-exam-compiler -- --workspace "D:/Manosaba_Script_Project_Workspace"
+npm run verify --workspace @manosaba/witch-exam-compiler -- --workspace "D:/Manosaba_Script_Project_Workspace"
+```
+
+The compiler's `verify:session` and `verify:personas` commands also read
+certified reference data from that external workspace and accept the same
+`--workspace` argument. These are separate from the self-contained engine
+tests above. Review generated `content/` changes before building the site;
+the compiler preserves the four authoritative quiz-string files.
+
+`npm run import:assets` is a separate, optional maintainer operation. It
+reads an AssetRipper export from `MANOSABA_ASSETS_DIR` or
+`D:/AssetRipper_win_x64/manosaba/Assets`. The allowed imported assets are
+already committed; ordinary setup does not need to run this command.
 
 ## Environment
 
