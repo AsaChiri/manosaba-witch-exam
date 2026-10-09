@@ -10,18 +10,19 @@
     {
       "fields": {
         "crime": [
-          "In their cell, her partner draped woven sunlight over her shoulders and hummed their duet. Yet {WITCH_NAME} kept postponing rehearsals to alter the costume hems one more time. One morning, her partner announced that she would perform solo that night and returned the duet costume. {WITCH_NAME} smothered her to death with a pillow.",
-          "She hid the body beneath an ordinary blanket, tucking the sunlight fabric around it to keep it warm. That evening, the other prisoners saw her remain at a card game in the dining hall without leaving. When her partner missed the performance, a prisoner went to the cell and found her on the lower bunk. She had no pulse, but the nape of her neck was still warm. It looked as though she had been killed recently, while {WITCH_NAME} was in the dining hall.",
-          "Then the prisoner pulled back the blanket and uncovered the same sunlight fabric her partner had once draped around her. The prisoners saw the trick: its stored warmth had made a morning murder look recent, while the evening card game supplied her alibi."
+          "In the lounge, {WITCH_NAME} started letter after letter to her father, and with her Magic unwrote every one back to blank paper.",
+          "Every morning it snowed, one of the prisoners stood at the courtyard fountain with a handful of crusts for the birds and called for her to come out. She never did. Then, at dawn after one snowfall, {WITCH_NAME} swept a path out to the girl for the first time. Her father used to sweep a path to her door, but only on the mornings he came home.",
+          "At the fountain, the girl tipped the crusts into her hands. \"You feed them from tomorrow.\" Then she turned to go. {WITCH_NAME} slammed the girl's head against the fountain and held her face in the snow until she was still. Back in the doorway, {WITCH_NAME} undid her sweeping, and the snow lay over the path again, untouched, as it had been before she began.",
+          "Later that morning, the prisoners found the girl by the fountain with only her own footprints in the snow, and ruled that she had slipped and struck her head on it by herself. Then one prisoner found half a footprint near the body: a heel pressed clearly into the snow, its toes lost under a smooth surface. In the trial court, the prisoners realized that someone had swept a path out to the fountain and then put the snow back, and that only one of them undid her own work like that: the girl who unwrote her letters."
         ],
-        "epitaph": "She kept the warmth, but not the one who had shared it.",
-        "epithet": "The Eve That Never Ends",
+        "epitaph": "She left the snow unbroken behind her, and became the one who never came.",
+        "epithet": "The Girl in the Doorway, Facing Unbroken Snow",
         "execution": [
-          "A golden quilt drops over her, and the quilting frame on the execution stand locks her flat beneath it. The quilting needle drives through the quilt and her torso, over and over, stitching them together. The needle keeps sewing as one foot twitches beneath the frame. At last, even that small movement stops, and she lies still under the golden quilt."
+          "The execution stand straps her on her back at the far end of a long iron trough heaped with snow. An iron broom starts at the other end and sweeps a path toward her, stroke by stroke, and stops one step short. Then the swept snow slides back. It fills the path, runs over her face and packs itself smooth. The surface stirs, then stops, as smooth as if no one had ever swept it."
         ],
         "magic": {
-          "name": "Woven Sunlight",
-          "text": "Weaves sunlight into soft fabric that holds its light and warmth."
+          "name": "As If Never Begun",
+          "text": "She can undo anything she has made with her own hands, back to before she began."
         }
       },
       "variant": 1

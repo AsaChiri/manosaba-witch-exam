@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Early that evening in the lounge, {WITCH_NAME} projected a moon knight performing a string of pratfalls for a girl. The girl laughed and lingered to keep her company. Then she admitted she had only laughed to be polite and refused to stay for that night’s voyage to the moon.",
-          "{WITCH_NAME} plunged a sword into her chest, killing her. She called a prisoner for help and, when the prisoner arrived, projected a masked assailant fleeing with the sword. The prisoner took the figure for the fleeing murderer and threw a cup to stop it. The cup passed straight through its torso.",
-          "At the trial court, the prisoner’s account turned on that impossible passage: the masked fugitive had no body. The figure was a decoy {WITCH_NAME} had projected to fake the killer’s escape for the very witness she had summoned."
+          "Every evening during free time, a prisoner sat on the upper railing reading palms, legs dangling over the courtyard beside the treetop. The first hand she took every night was {WITCH_NAME}'s. In her cell at night, {WITCH_NAME} drew hands in pencil and hid every page under her mattress.",
+          "One evening, she climbed up and held out a drawing of the palm reader's own hands reading a palm. The palm reader laughed out loud.",
+          "At ten, {WITCH_NAME} had held up a drawing of her grandmother's hands at the family table. Her brother called it a spider, and everyone laughed. So she wiggled her fingers like a spider, and they laughed harder. No one asked to see the drawing again.",
+          "Now she wiggled her fingers over the drawing like a spider. The palm reader laughed harder, handed the page back without a second look, and said, \"Do the spider for me every night from now on.\"",
+          "After dark, {WITCH_NAME} gathered the prisoners in the courtyard, stood with her back to the tree below the railing, and did the spider with both hands held high. As her fingers crawled, her leg stretched up through the branches like rubber, hooked the palm reader's ankle and pulled her off the railing.",
+          "The prisoners saw the palm reader topple from the railing alone and land head first on the stone path. She never moved again. In the trial court, they concluded she had slipped by herself; {WITCH_NAME} had stood right before them with both hands in the air.",
+          "But a prisoner looking up into the tree by daylight found a fresh tunnel of torn leaves running from the railing down to the trunk where {WITCH_NAME} had stood. The court understood: everyone had watched her hands, and no one had seen her leg shoot up into the tree and snap back."
         ],
-        "epitaph": "She leaves her imagined worlds behind—each a home with no one in it.",
-        "epithet": "The Beggar for Laughter",
+        "epitaph": "Every night someone read her palm; no one ever read what her hand drew.",
+        "epithet": "Spider Fingers on Her Own Drawing",
         "execution": [
-          "The execution stand binds her to a marionette frame with tethers around her neck and limbs. The frame hoists her by the noose around her neck and jerks her into a cruel, comic jig. She struggles as it works her body through the dance. Even after she stops responding, it keeps jerking her dangling limbs until her head hangs limp."
+          "The execution stand raised a giant iron hand over an iron page covered in pencilled hands. The hand gripped her round the waist like an eraser, pressed her face down on the page and rubbed her back and forth, bearing down harder with every stroke. Beneath her, the pencilled hands smeared away. When the iron hand lifted, the page was blank, and she lay still on it."
         ],
         "magic": {
-          "name": "Waking Worlds",
-          "text": "She can project scenes from her imagination into the space around her as shared, three-dimensional sights and sounds."
+          "name": "Taffy Bones",
+          "text": "She can stretch, squash and bounce her own body like rubber."
         }
       },
       "variant": 1

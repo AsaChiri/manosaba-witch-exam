@@ -1,0 +1,35 @@
+{
+  "cell": "ABN|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Catastrophizer",
+  "tag": "ABN-6_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening until lock-up, {WITCH_NAME}'s roommate skipped stones on the lake shore. When the girls in the lounge went to bring her in, {WITCH_NAME} told them where she was: she only had to think of her to feel a pull in her chest toward the exact spot. They always found her right there.",
+          "At supper in the dining hall one evening, her roommate pressed her hand. \"Don't send anyone tonight. I'll come back on my own.\"",
+          "{WITCH_NAME} had heard those words before, from her mother at the front door as she went out one night. She sat up by the door with the chain off, picturing every way her mother might not come back. Her mother never did.",
+          "At dusk her roommate crouched at the water's edge for a flat stone. Rather than wait up by the door again, {WITCH_NAME} held her face in the shallows until she was still.",
+          "She was back in the lounge before the rain began at eight, sitting among the girls, and she stayed in their sight until the body was found. At half past nine they asked her, as they did every night. \"She's on the shore. She's coming back.\"",
+          "At a quarter to ten, one girl went down to bring her in and found her face down at the water's edge, finger marks on her nape. As the body was turned over, she photographed it on her phone for the court.",
+          "In the trial court, the prisoners ruled that the roommate was drowned after half past nine, while {WITCH_NAME} sat among them. They turned on the girl who had found her.",
+          "Then that girl looked again at her photo. Where the body lay, the stones were pale and dry among rain-dark ones. The court understood: when {WITCH_NAME} said \"coming back,\" the pull in her chest had been holding a girl who had lain still since before the rain."
+        ],
+        "epitaph": "All those years by the open door, and in the end she was the one promising that someone was coming back.",
+        "epithet": "The Girl Who Left the Chain Off",
+        "execution": [
+          "The execution stand raises the front door of the house she grew up in. She sits strapped to the step just inside, the door chain across her throat. The door swings open from outside. The chain draws tight across her throat. The door stands open a chain's width, and she hangs still in the chain. Beyond the gap is empty dark. No one comes through."
+        ],
+        "magic": {
+          "name": "Homing Heart",
+          "text": "She thinks of anyone, and a pull in her chest points to exactly where they are right now."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

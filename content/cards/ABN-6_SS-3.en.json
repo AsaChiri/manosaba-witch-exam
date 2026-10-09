@@ -10,18 +10,26 @@
     {
       "fields": {
         "crime": [
-          "For several recent evenings, a girl kept {WITCH_NAME} company in the lounge, telling stories over sweets they shared. Today, the girl confided a fear and asked her simply to listen. Instead, {WITCH_NAME} hummed one sweet after another into existence and chewed without pause. The girl returned the sweet bowl and ended their visits.",
-          "During afternoon free time, {WITCH_NAME} came up behind the girl's sofa and strangled her with a cord. She turned every sound of the struggle into sweets that pattered across the lounge, then left the girl dead in silence.",
-          "After she had gone, a prisoner found the girl amid the sweets and mistook it for a fatal choking. Trying to help, the prisoner loosened her collar and found a ligature groove encircling her neck. The sweet bowl lay in shards on the floor. The prisoner then remembered standing in the lounge doorway before the body was found, when the bowl fell: there had been only the patter of sweets, never the crash of it breaking. At the trial court, the prisoners reconstructed the truth. The bowl's missing crash belonged to the same shower of sweets; what looked like evidence of choking was the sound of {WITCH_NAME}'s silenced assault made solid."
+          "Some nights, {WITCH_NAME}'s mother sat on her bed and hummed her to sleep. On the other nights, the quiet was how she learned no one was coming. So she kept the radio on all night, and the quiet never got to tell her which night it was.",
+          "In the prison, one girl practiced a single pool shot alone in the recreation room in the evenings, with the door left ajar. She came some nights and not others, and when she came, {WITCH_NAME} was the only one she let sit on the windowsill and listen.",
+          "Just before 8:40 one evening, the girl chalked her cue for her last shot. {WITCH_NAME} asked about tomorrow. \"Maybe,\" the girl said. \"Don't wait up for me.\"",
+          "As the balls rolled, {WITCH_NAME} used her Magic to loop the shot. They rolled, knocked and dropped, then rolled, knocked and dropped again, the same few seconds over and over. Then {WITCH_NAME} took the girl's cue, pressed it across her throat from behind until she went still, and laid her down behind the table.",
+          "At 8:40, {WITCH_NAME} joined the other girls at the upper railing and never left their sight until lockup. Through the recreation room's open door they could hear the practice shot clacking on, again and again, until it fell quiet at 9:40. As far as they knew, {WITCH_NAME} had been with them all along.",
+          "At lockup at ten, they found the girl behind the pool table, the last ball resting in its pocket.",
+          "In the trial court, a prisoner replayed the video she had taken on her phone of the singalong at the railing. Behind the singing, the same roll, knock and drop came every six seconds, and never once did a hand fish the ball out.",
+          "A loop {WITCH_NAME} made could run on after she walked away, until she let it go. Then the prisoners saw it: one shot, looped before she ever came out, and let go from the railing."
         ],
-        "epitaph": "Sweetness without care was never comfort.",
-        "epithet": "A Sweet Tooth No Comfort Could Satisfy",
+        "epitaph": "\"Maybe\" was more than the quiet had ever promised her, and she would not wait a single night to hear it answered.",
+        "epithet": "The Girl Who Keeps the Radio On",
         "execution": [
-          "The execution stand locks her in place as a musical sweet dispenser seals a feeding funnel over her mouth. An unending melody begins, and the machine forces sweets through the funnel without pause. Her body strains against the restraints, but the sweets never stop. At last she goes still beneath the funnel. The melody plays on."
+          "The execution stand raises an iron bed. She lies chained to it on her back, and an iron woman sits on its edge, head bowed over her.",
+          "The iron woman begins to hum. The same few bars, over and over, and with every repeat the figure bends lower over her.",
+          "Its iron weight settles onto her chest, a little heavier with each bar.",
+          "Mid-bar, the humming stops. In the quiet, she no longer stirs."
         ],
         "magic": {
-          "name": "Sweets from Sound",
-          "text": "Her Magic turns audible sounds into tangible sweets."
+          "name": "Encore",
+          "text": "She can make any person, animal or thing she sees repeat its last few seconds, over and over."
         }
       },
       "variant": 1

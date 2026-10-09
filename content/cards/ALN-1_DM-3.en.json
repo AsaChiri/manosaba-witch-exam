@@ -10,19 +10,27 @@
     {
       "fields": {
         "crime": [
-          "Earlier, in the lounge, a girl gave {WITCH_NAME} a lovingly drawn portrait. It showed {WITCH_NAME}, who added the caption “A Stranger” beneath the likeness and handed it back.",
-          "Today, in the second-floor hall, the girl offered to talk with {WITCH_NAME}, but refused to exchange bodies with her again. {WITCH_NAME} told her their friendship would inevitably end in estrangement. When the conversation ended, the girl handed the portrait back, rejecting its caption.",
-          "At that, {WITCH_NAME} vaulted headfirst over the upper railing. In midfall, she used her Magic to exchange consciousnesses with the girl. The girl, now conscious inside {WITCH_NAME}'s falling body, struck the courtyard path and died; {WITCH_NAME} survived in the girl's body.",
-          "A prisoner in the second-floor hall saw the leap, mistook the body below for {WITCH_NAME}, and reported her suicide. At the trial court, the survivor, still believed to be the girl, wrote out a witness statement for the prisoners. One prisoner compared it with the caption on the recovered portrait. The same hand had written both. The handwriting exposed the survivor in the girl's body as {WITCH_NAME}."
+          "Every evening at hot-water hour, a prisoner sings alone in the soundproof shower room. Her only listener is {WITCH_NAME} on the bench, passing notes the singer always answers.",
+          "The singer brings the girls in to sing along and pulls {WITCH_NAME} into the song. She misses her cue by a beat. The girls laugh, and she laughs along instead.",
+          "Once, at a school concert, she sang a line alone, a beat after the choir stopped. The hall laughed. She has not sung since.",
+          "In her cell she writes, \"Can it be just us again?\" Before she sends it, the singer's hand answers beneath: \"No. From now on everyone sings after dinner. You too. You'll catch the beat. I'll wait for you.\" She folds it shut at the first word and never sends it.",
+          "The next evening, the singer steps out of the spray singing, eyes shut. From behind, {WITCH_NAME} twists the towel around her throat until the song stops.",
+          "In the dining hall, the prisoners want to ask if the singer is coming, but her phone is on her bunk, as always when she showers. {WITCH_NAME} has sat with them the whole meal, so they ask her to write instead. She writes in her notebook and turns it to them. Under \"Are you coming to dinner?\" is the singer's hand: \"Save me bread. I'm staying in till you all come to sing.\" They save her bread, sure she is still singing.",
+          "After dinner they carry the bread to the shower room to sing and find her on the tiles by the running shower, the towel twisted around her throat.",
+          "In the trial court, a prisoner turns past the singer's last answer: \"Are you coming to dinner?\" again, in {WITCH_NAME}'s hand, with nothing beneath. They see now: the singer answered every note, so a blank meant no answer would ever come. The page they saw was answered in the shower room, before {WITCH_NAME} killed her."
         ],
-        "epitaph": "She made estrangement certain at last, and her loneliness beyond reply.",
-        "epithet": "Forever a Stranger",
+        "epitaph": "She read the answer before she ever asked, and still stopped at its first word.",
+        "epithet": "One Beat Behind Everyone",
         "execution": [
-          "A mirrored pillory on the execution stand locks a steel collar around her neck. The collar tightens against her throat as the mirror throws every struggle back at her. It keeps tightening until the borrowed face in the glass goes still."
+          "The execution stand raises an iron choir on tiered risers. She is chained upright at their foot, her back against an iron post.",
+          "The choir sings in unison, and on every beat it steps down one riser.",
+          "She sings for the first time since the concert, every note a beat after theirs.",
+          "The front row meets her chest. With each beat, the rows behind press it in harder.",
+          "The choir holds its last chord. She stands pinned and still. Her late note never comes."
         ],
         "magic": {
-          "name": "Borrowed Bodies",
-          "text": "She can swap the consciousnesses of two people, leaving each awake inside the other's body."
+          "name": "The Reply Beneath",
+          "text": "Before she sends a note, its reply surfaces beneath her words in the recipient's own handwriting."
         }
       },
       "variant": 1

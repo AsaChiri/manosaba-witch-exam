@@ -10,19 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week in the lounge, the girl wrote a dedication welcoming {WITCH_NAME} in {WITCH_NAME}'s dream notebook. In reply, {WITCH_NAME} retitled the chapter about the prison as the prologue to her homecoming.",
-          "During afternoon free time, the girl recited the notebook to the prisoners as a comedy, then promised them an encore that evening. After the audience left, {WITCH_NAME} asked the girl to give the notebook back in private. In the lounge, she drove a sword into the girl's chest, killing her.",
-          "Afterward, in the courtyard, {WITCH_NAME} used her Magic to grow seeds into a full-sized castle faithful to the sketch. At dinner in the dining hall, she posed as the girl in a phone message and claimed the castle sketch had just been drawn. The prisoners had seen her continuously from the castle's growth until, after the message, one of them found the girl's stabbed body on the lounge sofa.",
-          "At the trial court, the message made them date the sketch to after the castle's growth but before the murder, so the girl appeared to have lived past the castle's creation. Then a prisoner produced a phone photo from that afternoon's performance, taken before the castle grew. It showed the very same sketch. The drawing was not a fresh copy of the castle at all, but {WITCH_NAME}'s blueprint for the castle she had grown."
+          "Every evening, a girl waded barefoot through the lake shallows for one flat stone for the little stone hut she was building on the shore. \"A house of my own, one stone a day,\" she said. Most evenings {WITCH_NAME} came down and sat in the grass, telling her where she would go next.",
+          "One evening the girl laid a doorstep stone before the hut, with {WITCH_NAME}'s name scratched into it. \"Now you live here. There is no further on.\"",
+          "When {WITCH_NAME} was small, her father loaded the cart while she sat on the doorstep of each rented house. \"The real house is further on,\" he would say. She had said it of every place she stood ever since.",
+          "She rose from the grass and took one step, and landed ankle-deep in the water behind the girl, who was bending for tomorrow's stone. She drove the girl's head down onto the stones and held her face under until she was still. Then she stepped back out of the water in one stride.",
+          "At dusk a prisoner found the girl face down at the water's edge. Her shoes sat on the sand, and only her own bare footprints crossed it to the water. In the trial court, the prisoners held that she had slipped on the stones, struck her head and drowned alone.",
+          "But that dawn, before the trial, a prisoner had looked into the clear shallows on the lake side of where she lay. Shoe prints were pressed into the bottom in one spot, with no trail leading to them or away. The prisoners saw what it meant: someone in shoes had stood beside her without ever crossing the sand, and only {WITCH_NAME}'s single step could land that way."
         ],
-        "epitaph": "No building she raised could give her the welcome that made it home.",
-        "epithet": "The Heir from Elsewhere, Waiting to Come Home",
+        "epitaph": "Every horizon was a single step away, every one but a doorstep with her name on it.",
+        "epithet": "The Girl Whose Real Home Is Always Further On",
         "execution": [
-          "The execution stand holds the witch by the neck across the threshold of a low doorway. Its weighted door descends, severs her neck, and closes the doorway completely, leaving her motionless body outside."
+          "The execution stand lays her on her back across a doorstep stone scratched with her name, strapped flat beside a heap of flat lake stones. One by one, it lays the stones on her, starting at her feet and working upward. The walls of a little house rise around her, and its roof stones settle across her chest. Pinned beneath the first stones, her feet keep trying to take one step. At last the stone house stands finished on the stand, her name on its doorstep, and nothing stirs inside."
         ],
         "magic": {
-          "name": "Buildings in Bloom",
-          "text": "She can grow seeds into full-sized, usable buildings of her choosing."
+          "name": "Seven-League Step",
+          "text": "One ordinary step carries her as far along her way as she wishes."
         }
       },
       "variant": 1

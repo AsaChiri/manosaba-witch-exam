@@ -10,18 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week, the victim left a picture book in {WITCH_NAME}'s cell for their next visit. {WITCH_NAME} saved a place for it in her overnight bag.",
-          "Today, the victim took the book—the last of her belongings—from the bag and said she would no longer visit {WITCH_NAME} alone; she wanted time with her other friends. {WITCH_NAME} strangled her with a scarf in the cell, then hid the body in the expanded interior of the overnight bag. She told the prisoners the victim had left by herself.",
-          "Later, another prisoner accidentally dropped the picture book into the bag. When she reached for it, her whole arm sank inside. She opened the bag wide and found the victim's body. The impossible depth and the body inside refuted {WITCH_NAME}'s account: the victim had never left the cell."
+          "Every evening, a girl played pool alone in the recreation room and talked the whole time to {WITCH_NAME}, who sat faded out of sight on the wall bench. {WITCH_NAME} never stayed for a goodbye. Before one could come, she slipped out unseen, and the door swung open by itself. Every time, the girl called goodbye after it.",
+          "That night, the girl reached the bench first. She found {WITCH_NAME}'s hand and said goodbye slowly.",
+          "For a week, {WITCH_NAME}'s mother had held her hand every morning and said goodbye just that slowly. On the eighth morning, her mother was gone.",
+          "{WITCH_NAME} opened the door and did not leave. She let it swing shut.",
+          "\"See you tomorrow!\" the girl called after it.",
+          "As the girl bent over the table to shoot, {WITCH_NAME} slammed her head into the pool table until she lay still.",
+          "Out in the second-floor hall, prisoners had heard that \"See you tomorrow.\" From then until the lockup call, they watched the door. No one came through it.",
+          "In the trial court, the prisoners ruled that she had slipped alone and struck her head on the pool table. But the prisoner who found her had sunk down onto the wall bench, and it was still warm. Then they understood: {WITCH_NAME} had sat there, faded, until they came in."
         ],
-        "epitaph": "In keeping her forever, she made reunion impossible.",
-        "epithet": "In every farewell, she hears only emptiness.",
+        "epitaph": "The one goodbye she stayed for only meant see you tomorrow.",
+        "epithet": "Gone Before Every Goodbye",
         "execution": [
-          "A valise-shaped rack on the execution stand clamps her wrists and ankles. Its end panels slide apart, pulling her limbs taut as the valise grows to an impossible size. They keep receding until her outstretched body goes still."
+          "The execution stand was an iron doorway in the trial court. She was chained upright inside it, one wrist to each jamb. The iron door swung shut on its own, into her head and chest. It fell back and swung shut again, and again, and again. At last it came to rest ajar against her slumped body, and could not close."
         ],
         "magic": {
-          "name": "Bigger on the Inside",
-          "text": "She can expand the inside of an enclosed space without changing its exterior."
+          "name": "Into Thin Air",
+          "text": "She can fade from sight, clothes and all, while staying right where she is."
         }
       },
       "variant": 1

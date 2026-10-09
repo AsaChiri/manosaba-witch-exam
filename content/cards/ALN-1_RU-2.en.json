@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "On previous afternoons in the library, a girl had translated her favorite childhood novel for {WITCH_NAME}, and they read it together. Today, {WITCH_NAME} reopened yesterday's conversation with a revised reply. The girl closed the novel, ending their shared readings, then invited another prisoner to read it with her that evening instead.",
-          "During afternoon free time in the library, {WITCH_NAME} used her Magic to make the girl and the invited prisoner masters of each other's learned skills. Their shared mastery would last until she deliberately withdrew it. The girl then went to the lake and swam alone for the first time with the borrowed skill. While she was in the water, {WITCH_NAME} deliberately withdrew the other prisoner from the shared mastery. The girl lost the ability to swim and drowned. The prisoners assumed a cramp had caused it.",
-          "A roommate remembered what had happened in the library before the drowning alarm: the invited prisoner, reading that same novel with borrowed fluency, stopped midparagraph and suddenly could not understand it. In the trial court, the prisoners saw that the two losses were reciprocal: what had seemed like a cramp was the girl's borrowed swimming skill vanishing when {WITCH_NAME} deliberately withdrew the shared mastery."
+          "Every evening in the lounge, one girl kept {WITCH_NAME} beside her and finished every sentence {WITCH_NAME} left half-said. She never missed an ending. Whenever a guess was wrong, {WITCH_NAME} turned the room back with her Magic and began again until the girl got it right.",
+          "One evening the girl finished her sentence and got up to sit with the others. \"You redo these until I'm right,\" she said. \"It's like talking to myself.\"",
+          "Years ago, a school friend walking home with {WITCH_NAME} stopped halfway. \"You always say what I expect,\" she said. \"It's like walking home alone.\" Then she walked on with other girls. That night {WITCH_NAME} lay awake saying her side again until it came out right.",
+          "Now she turned the lounge back and began the sentence again. Each time, the girl said it again and moved away.",
+          "At half past nine the girl left for the shower, as she did every night, a towel around her neck. {WITCH_NAME} followed her and, under the running shower, twisted the towel around the girl's throat until she stopped. Sleeves streaming, {WITCH_NAME} dripped back through the lounge door and turned the room back to the moment before she had risen. She sat dry in her seat, and only she remembered.",
+          "The prisoners saw her in that seat from the moment the girl left until one of them found the body before lockup, under the running shower, the towel at her throat. In the trial court they concluded the girl had been killed while {WITCH_NAME} sat among them.",
+          "Then a prisoner held up her phone. She had photographed fresh drops from the shower room; they stopped at the lounge threshold, and the floor inside was dry. The prisoners understood: someone soaked had walked into the lounge, and the room had been turned back around her."
         ],
-        "epitaph": "A revised reply can reopen yesterday, but never the girl's final silence.",
-        "epithet": "The Friend Who Came Too Late",
+        "epitaph": "All anyone ever asked was that she say it once.",
+        "epithet": "The Perfect Second Take",
         "execution": [
-          "On the execution stand, a swimming frame clamps around the witch, suspending her above a water tank. It lowers her face-down into the water and forces her arms through swimming strokes. It holds her submerged until her arms go limp, then keeps drawing them through perfect stroke after perfect stroke."
+          "The execution stand raises an iron hourglass taller than two girls. She sits chained on the floor of its lower bulb. Sand pours down onto her and climbs her chest, her chin, her mouth. She keeps starting the same sentence over. No one finishes it. The hourglass stands unturned, and the last grains settle smooth over her head."
         ],
         "magic": {
-          "name": "Mutual Mastery",
-          "text": "She can make people masters of one another's learned skills."
+          "name": "From the Top",
+          "text": "She can turn everyone and everything around her back to a moment she chooses, and only she remembers."
         }
       },
       "variant": 1

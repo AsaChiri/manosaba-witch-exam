@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, a girl trusted {WITCH_NAME} to cut her hair. Before lowering the scissors, {WITCH_NAME} confessed in distress that she could not shake the image of cutting the girl's throat. Frightened, the girl recoiled from her and the scissors.",
-          "The roommate then saw {WITCH_NAME} holding the bloodied scissors. A prisoner accused {WITCH_NAME} of stabbing the girl in the throat and claimed to have tried to rescue the girl afterward. During the assault, the roommate had been seated by the doorway, where the sofa blocked the girl from view. In the trial court, the roommate said they had watched the doorway continuously and seen no one leave. On that evidence, the prisoners convicted {WITCH_NAME} of the girl's murder.",
-          "In truth, {WITCH_NAME} had dropped the scissors, become living wind, and escaped through the doorway. After the wind left the lounge, the prisoner stabbed the girl in the neck with the scissors, leaving a fatal wound. At the girl's cry, {WITCH_NAME} returned, reformed in human shape, and took the scissors from the prisoner, stopping the attack. The prisoner had exploited the escape no one recognized, turning {WITCH_NAME}'s rescue into evidence against her."
+          "Every night after lockup, the girl in the next cell lay with her cheek against the wall they shared and knocked letters through the stone until her nightmares let her sleep. At home she had knocked to her sister like that, through the bedroom wall. She was the only one {WITCH_NAME} ever answered.",
+          "One night, {WITCH_NAME} knocked back a word she had told no one since she was nine: pillow. At nine, she had pictured pressing a pillow over her baby sister's sleeping face, and she had told her mother. Her mother carried the cot into her own room and turned the key every night after. She learned that if she could picture it, she was someone doors were locked against.",
+          "The next night, the knocking came back: Say it aloud at breakfast tomorrow, or I'll say it for you. No one here will lock a door on you.",
+          "Past midnight, {WITCH_NAME} laid her hand on her side of the wall. The stone went soft as a pillow under the sleeping girl's cheek. She pressed it over the girl's face, then made it stone again. In the dark, her roommate heard her thrashing on the lower bunk below, thought it was her nightmares again, and turned over.",
+          "At the six o'clock unlock, the prisoners found her dead, face to the wall, lips blue. Her barred cell door had been locked all night with only her roommate inside. In the trial court, they took it that the roommate had pressed a pillow over her face. {WITCH_NAME} had lain locked behind her own bars next door.",
+          "Then, in the cell, a prisoner tried to pick a few of the dead girl's hairs off the wall beside her pillow. They ran straight into solid stone. The prisoners realized the stone had been soft around her head, softened and pressed from the cell next door."
         ],
-        "epitaph": "She was innocent, even if she never believed herself harmless.",
-        "epithet": "The Danger in Her Own Eyes",
+        "epitaph": "The thought never made her dangerous. Her dread of it did.",
+        "epithet": "Gentle Hands Kept Behind Stone",
         "execution": [
-          "The execution stand locks her upright beneath a glass mask connected to the bellows. They pump without pause, drawing every breath from her through the mask. The suction continues until her body slumps against the stand and goes still behind the glass."
+          "The execution stand raises the door of her childhood nursery, as tall as the trial court and locked from the inside. She is chained upright to its face, her head on the plate of a great iron knocker. The knocker swings down onto her head again and again, rapping out, letter by letter, the goodnights the two of them knocked through the wall. She hangs still against the door. The knocker raps on, and the key inside never turns."
         ],
         "magic": {
-          "name": "Living Wind",
-          "text": "She can transform her body into a conscious, living wind."
+          "name": "Soft Touch",
+          "text": "She can make anything solid she touches as soft as a pillow, then hard again."
         }
       },
       "variant": 1

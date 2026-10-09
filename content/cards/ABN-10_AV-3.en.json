@@ -10,18 +10,20 @@
     {
       "fields": {
         "crime": [
-          "For weeks, the victim kept a seat for {WITCH_NAME} at dinner in the dining hall. Each night she stayed away, drafting the replies she could not bring herself to say.",
-          "Today, the victim returned the pages unread in the dining hall and withdrew the invitation. They were done waiting. In answer, {WITCH_NAME} immersed another prisoner in a written daydream in the lounge, where she seemed to sleep with her head on the prisoner's shoulder. Then she left and, during evening free time, fatally stabbed the victim with a sword in the courtyard.",
-          "The prisoner insisted she had been beside them throughout the murder; they had felt the weight of her sleeping head on their shoulder. During the investigation, the prisoner checked a selfie on their phone. The shoulder in the picture was empty. The selfie exposed {WITCH_NAME}'s alibi: the woman they had felt beside them was only a daydream."
+          "Every dawn in the library, one of the prisoners taught herself to read aloud from picture books, and she let only {WITCH_NAME} listen. Before she began, she boiled the kettle on the lounge fire, carried the pot upstairs and poured {WITCH_NAME}'s cup plain. Then one dawn the girl handed over a cup with sugar stirred in. {WITCH_NAME} had taken it plain every dawn before.",
+          "Before the prison, {WITCH_NAME} kept putting off her Sunday visits to her grandmother. Next Sunday, she would say, because each time the old woman knew her a little less. On the last visit, her grandmother stirred sugar into her tea, no longer knowing whose cup it was. She never went back. As long as I stay away, she told herself, she still knows me.",
+          "The next dawn, as the girl read aloud, {WITCH_NAME} shot her with a crossbow mid-sentence. She lifted the teapot and set it back down, and under her Magic it stayed exactly as it was, still steaming. Then she went down to the dining hall and sat among the prisoners for the whole breakfast hour.",
+          "After breakfast, another prisoner found the girl slumped over her picture book beside the teapot, still steaming. The prisoners concluded she had been shot minutes after bringing up fresh tea, while {WITCH_NAME} sat at breakfast with them. As they laid the girl down, {WITCH_NAME} picked up the teapot to make room.",
+          "In the trial court, a prisoner remembered sitting by the lounge fireplace after breakfast. The ash had already gone cold. Then the prisoners understood: the tea had been boiled at dawn, and {WITCH_NAME}'s hand had kept it steaming."
         ],
-        "epitaph": "Her replies filled the pages; the life they were meant for went unspent.",
-        "epithet": "Forever Rehearsing",
+        "epitaph": "She could keep any cup from going cold, yet she let the hand that poured hers plain go cold.",
+        "epithet": "The Girl Who Stayed Away to Stay Remembered",
         "execution": [
-          "The execution stand straps her on her back to a ruled writing table. A steel pen nib descends to her chest and carves an opening greeting into her, turning her rehearsed words into wounds. It keeps writing until the greeting is complete and her body lies still."
+          "In the trial court, the execution stand lowered her, bound, into an iron kettle set over a fire. The water came up to her chin, and the lid shut above her. The fire brought the water to a boil around her. The kettle began to whistle over a knocking from inside, and then the knocking stopped. The stand lifted the kettle off the fire and set it aside, and its steam thinned as it cooled."
         ],
         "magic": {
-          "name": "Written Daydreams",
-          "text": "She can turn written descriptions into immersive daydreams experienced through every sense."
+          "name": "Still Life",
+          "text": "Whatever she sets aside stops in time until she picks it up again."
         }
       },
       "variant": 1

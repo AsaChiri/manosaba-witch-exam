@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Earlier, in the courtyard, the girl had patiently untangled {WITCH_NAME}'s hair. Today, she postponed their walk until tomorrow. When she reached again for a loose strand, {WITCH_NAME} called her tenderness pity. The girl turned away.",
-          "Before she could leave, {WITCH_NAME} seized her wrist and slammed her face-down into the fountain. The words of her rejection materialized as solid letters against the girl's nape, holding her head underwater until she drowned. Then she made the letters disappear, leaving the corpse unburdened.",
-          "Seeing the bruise on her forehead, the prisoners assumed she had drowned by accident. But when one prisoner moved aside the hair covering her nape, she uncovered bruises shaped like reversed letters. At the trial court, those marks exposed the missing weight as {WITCH_NAME}'s solid words, vanished after she drowned the girl."
+          "Every evening a girl watched the dusk from the upper railing, and before going in she called good night down to {WITCH_NAME}. {WITCH_NAME} sat in her corner of the courtyard behind walls she had hardened out of empty air, and her only answer was to turn her back.",
+          "One evening the girl called down one last time. \"Good night. You never answer, so I'll stop.\"",
+          "{WITCH_NAME}'s mother used to say good night through her door every night. One night she said nothing, and by morning she was gone.",
+          "At the next dusk, while the others were at supper, {WITCH_NAME} sealed the girl inside invisible walls at the upper railing and watched through them until she stopped moving. Walls made by her Magic stood until she let them go, so she left them standing and went down. She sat in her walled corner of the courtyard in plain sight of everyone until she walked in with them.",
+          "All evening the prisoners saw the girl standing at the railing, silent, just as she had promised. As they went in before lockup, {WITCH_NAME} called good night up to her and let the walls go. The prisoners saw the girl step back from the railing, alive, while {WITCH_NAME} was down among them. Minutes later they found her dead beneath the railing.",
+          "In the trial court, one prisoner noticed flat, straight-edged marks on the girl's cheek and palms, as if she had been pressed against glass where no glass stood. Then they understood: the girl had stood dead inside the walls all evening, and she fell at the good night."
         ],
-        "epitaph": "A place in tomorrow had been saved for her. She chose to lose it first.",
-        "epithet": "The One Who Leaves Before She Is Left",
+        "epitaph": "She answered only one good night, and it was the one that let the girl fall.",
+        "epithet": "The Wall That Never Says Good Night",
         "execution": [
-          "The execution stand holds her face-up on a typewriter bed. Metal typebars hammer down one after another, piercing her torso and inscribing her rejection across it. The last stamps a full stop. She goes still."
+          "In the trial court, the execution stand raises a tall iron door in its frame. She kneels in chains with her neck in the doorway. An iron mother says, \"Good night,\" and pushes the door shut. Its edge closes on her throat, pinning it to the frame, and presses until she stops moving. She hangs still in the shut door, and no voice comes from behind it again."
         ],
         "magic": {
-          "name": "Words Made Solid",
-          "text": "Her spoken words become solid objects in the shape of their letters."
+          "name": "Walls of Nothing",
+          "text": "She can harden empty air into invisible walls solid enough to stop anyone."
         }
       },
       "variant": 1

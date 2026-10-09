@@ -10,19 +10,22 @@
     {
       "fields": {
         "crime": [
-          "At an earlier meal in the dining hall, {WITCH_NAME} used her elastic Magic to knot her arms into a bow. Laughter filled the room, and the amused girl welcomed her to share the meal.",
-          "Today at the lake, {WITCH_NAME} confided to the girl, in all seriousness, how lonely she was. The girl retold the confession to the prisoners as a punchline, then said there would be no more invitations unless they needed comic relief.",
-          "During afternoon free time, the girl went swimming in the lake. {WITCH_NAME} lengthened one arm through the water, pinned her facedown beneath the surface, and drowned her. A prisoner saw {WITCH_NAME} sitting on the bank as the girl drowned, so the prisoners took it for a swimming accident.",
-          "When the body was recovered, a prisoner noticed fresh human tooth impressions on the inside of {WITCH_NAME}'s forearm. At the trial court, that prisoner recalled that the girl's mouth and {WITCH_NAME}'s arm had remained apart during the recovery. The prisoners put the two observations together: while {WITCH_NAME} sat on the bank, her elastic arm had been restraining the girl beneath the water, turning the supposed accident into deliberate drowning."
+          "Every evening one prisoner lit the lounge fireplace and hosted the circle from the hearth, wrapped in her blanket. Each night she called {WITCH_NAME} up: \"Who are you tonight?\"",
+          "One night the host started a round where each girl told one true thing. {WITCH_NAME} sat with hers ready. The host passed her over: \"You do one of us instead. That's your thing.\" So her face and voice became the warden's. The circle laughed and moved on to the next girl's true thing.",
+          "The next dusk, as the host knelt under the courtyard tree gathering fallen twigs, {WITCH_NAME} pulled her blanket over her head from behind and held it until she was still.",
+          "Then she took the host's face and voice, wrapped herself to the chin in the blanket, carried in the twigs, lit the fire and hosted the circle as the host did every night.",
+          "Wearing the host's face, she told her true thing: as a child, she had waited for her turn at the family table, where everyone shared one good thing from their day. Her father said, \"Do Grandma,\" the table laughed, and her turn was over. The girls went quiet; one took her hand.",
+          "She held the phone out of the blanket at arm's length for the host's closing group photo, and the circle squeezed in around her. She said goodnight as the host and stepped out toward the courtyard. Moments later she came back in from the hall as herself and heard she'd missed the photo again.",
+          "In the trial court, the prisoners concluded the host was smothered under the tree after leaving the circle, with {WITCH_NAME} back among them moments later. A prisoner enlarged the closing photo: the arm holding the phone out of the blanket wore {WITCH_NAME}'s own sleeve. The host by the fire had been {WITCH_NAME} wearing her face; the host had been dead since dusk."
         ],
-        "epitaph": "She had only needed a place where she could belong without performing for it.",
-        "epithet": "The Jester at the Table",
+        "epitaph": "The one night they listened to her true thing, they heard it as the host's.",
+        "epithet": "Always Someone Else's Turn",
         "execution": [
-          "The execution stand suspends her with her limbs spread between two opposing steel palms. The palms begin to clap, closing over her head and torso again and again. When they finally part, her body is crumpled and still."
+          "The execution stand raises a row of iron girls posed for a group photo before an iron camera. She is chained upright in the one gap at the center. The iron girls slide inward, shoulder first, squeezing in for the picture. Their iron shoulders press into her ribs from both sides and keep closing. Her chains rattle, then hang still. The iron camera fires its flash, and the group picture is taken. The iron girls stand shoulder to shoulder, smiling, with no gap left where she stood."
         ],
         "magic": {
-          "name": "Living Rubber",
-          "text": "She can stretch and bend her own body like rubber, shaping it however she chooses."
+          "name": "Anyone But Me",
+          "text": "She takes on the face, build and voice of anyone she pictures."
         }
       },
       "variant": 1

@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Resigned",
+  "copingSub": "RS-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Resigned",
+  "tag": "DEF-6_RS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} set the table as a child, her mother would follow behind her and, without a word, move each fork a finger's width.",
+          "In the prison, one girl braided hair in the lounge every morning. Anyone who sat down in front of her ribbon tin got a braid, and {WITCH_NAME} sat down too. One morning the girl stopped halfway, tugged the ribbon loose and began undoing the braid. \"Something's off,\" she said.",
+          "After that, {WITCH_NAME} spent the braiding hour alone by the courtyard fountain, her hair half undone.",
+          "Then the prisoners found the girl dead in the courtyard, a new ribbon clenched in her fist.",
+          "In the trial court, {WITCH_NAME} took the ribbon in her palm and let her Magic find its owner. It did not pull toward anyone there. It pulled her hand back against her own chest. The prisoners reached their verdict: the ribbon was hers, the girl had snatched it from her, and she had pushed the girl from the upper railing. No one had been with her that morning.",
+          "Turning the ribbon over, she saw that it had never been tied. There was not a crease in it. It had been made for her.",
+          "At dawn, the girl had leaned out over the upper railing to free that ribbon from the branches of a tree, and fallen into the courtyard.",
+          "{WITCH_NAME} closed her hand around the ribbon. \"It's mine,\" she said."
+        ],
+        "epitaph": "It was never her that was off. Only the ribbon.",
+        "epithet": "A Finger's Width Wrong",
+        "execution": [
+          "On the execution stand rose an upright jigsaw board with a single gap cut in the shape of her body. She was strapped into it. The last two pieces slid in from either side, leaving her a space one finger's width narrower than she was. They locked flush over her ribs, and the seams closed. The puzzle hung complete, and nothing in it moved."
+        ],
+        "magic": {
+          "name": "Rightful Place",
+          "text": "Whatever she holds gently tugs her hand toward where it belongs."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

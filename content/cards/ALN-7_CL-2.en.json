@@ -10,17 +10,29 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, the victim mended a sewing basket and assured {WITCH_NAME} that her invitation was still coming. {WITCH_NAME} asked again, “You will invite me, won't you?” Earlier that day, before the promised invitation arrived, she had seen a group photograph on a phone: the gathering was already over, and it had gone on without her. Pressed, the victim admitted the assurance was only meant to appease her. At that admission, {WITCH_NAME} seized a sword and fatally stabbed her.",
-          "She expanded the basket's interior into a cavity large enough for the body, placed the victim inside, and pulled the lining over her. She then insisted to the prisoners that such a shallow basket could never hold a body. One prisoner reached in for the bottom and sank elbow-deep. She pulled out the lining and exposed the victim beneath it. The impossible depth shattered {WITCH_NAME}'s claim and exposed the concealment as the work of her Magic."
+          "At school, {WITCH_NAME}'s classmates shuffled on their knees until their lunch circle closed over her place. No one said a word.",
+          "In the prison, her roommate was a diver. Every dawn she sat on the bottom of the lake holding a stone, while {WITCH_NAME} floated face down on the surface above her.",
+          "Then her roommate began teaching the other prisoners. Soon she was seating them in a ring on the lake bottom, hands joined, and {WITCH_NAME} could never stay under long enough to join it.",
+          "On the bank, in front of the girls, {WITCH_NAME} asked her, \"Do you still want me with you?\" Under her Magic, her roommate could not lie, dodge or stay silent. \"Under the water is the one place you can't ask me anything,\" she answered.",
+          "The next dawn, {WITCH_NAME} whispered her roommate's name into the water. Far below, her roommate looked up.",
+          "The dawn after that, as the dive neared its end, {WITCH_NAME} asked into the water, \"Do you still want me?\" Her roommate had to answer, and the answer spent her last breath.",
+          "When the count passed three minutes, one of the prisoners dove in and brought her up, drowned, the stone still in her lap.",
+          "The prisoners had watched the whole dive from the bank. Her roommate had said herself that no question could reach her under the water, so they ruled {WITCH_NAME} out: the girl must have blacked out down there.",
+          "Then, at the courtyard fountain, one prisoner put her head under while another asked a question into the water. She heard every word.",
+          "In the trial court, the prisoners understood. That answer on the bank had only been what her roommate believed. The question from above had reached her, and her own answer had drowned her."
         ],
-        "epitaph": "She would wait forever for the invitation that would never come.",
-        "epithet": "Always waiting to be welcomed.",
+        "epitaph": "She was only holding her breath; she was never shutting you out.",
+        "epithet": "The Girl Who Floats Outside Every Ring",
         "execution": [
-          "The execution stand binds her flat on her back across an enormous embroidery frame, arms and legs spread. A steel needle descends and stitches WELCOME across her chest. When it completes the final letter, her body lies motionless in the frame."
+          "The execution stand raises a ring of iron girls with a single gap, and she stands chained in it.",
+          "No one gives a signal. The iron girls begin to shuffle sideways toward the gap.",
+          "Iron shoulders press into her chest from both sides.",
+          "Iron hands reach for each other across her, and the ring closes over her place.",
+          "Then they stand still, hands joined, her bowed head inside the whole ring."
         ],
         "magic": {
-          "name": "Room to Spare",
-          "text": "She can make an enclosed space larger inside without changing its exterior."
+          "name": "Nothing But the Truth",
+          "text": "Anyone she asks a question must answer truthfully: no lies, no dodging, no silence."
         }
       },
       "variant": 1

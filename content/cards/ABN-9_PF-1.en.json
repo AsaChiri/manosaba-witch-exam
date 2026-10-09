@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "In her first week at the prison, the girl saved a place setting for {WITCH_NAME} in the dining hall so they could eat together. Today, in their cell, {WITCH_NAME} kept redrawing the fringe of the girl's scarf until every strand was even. As soon as she finished, the girl piled a bundle of mending before her and said they would not share supper unless she completed it all.",
-          "{WITCH_NAME} strangled the girl to death with the scarf. Then she flattened the scarf into a drawing, redrew it as a smooth, closed loop, and restored it. The scarf returned as a smooth noose enclosing the girl's neck and suspending her from the upper bunk. One prisoner believed the girl had hanged herself.",
-          "But when the prisoner examined the apparent slipknot, she found no knot to undo: the crossing was one seamless join. The fixed loop was also too narrow to have passed over the girl's head. Together, those impossibilities revealed that {WITCH_NAME} had used her Magic to stage the apparent hanging."
+          "Every evening, a prisoner with a sketchbook sat by the courtyard fountain and drew {WITCH_NAME} until the light went. Of all her sitters, {WITCH_NAME} was the only one who never moved.",
+          "One evening before supper, the girl closed her sketchbook and smiled. \"I've drawn you enough. Tomorrow I'll draw someone else.\"",
+          "Long ago, over a single ink blot on a school form, {WITCH_NAME}'s mother had sat her on a station bench with her packed case and boarded the train alone, then stepped off just as the doors closed. \"Next time I won't,\" her mother told her. From then on, {WITCH_NAME} sat perfectly still and never made another mistake.",
+          "{WITCH_NAME} pushed the girl's face into the basin and laid her palm on her back. Under that hand the girl stayed fixed beneath the water until she drowned. Then {WITCH_NAME} sat the girl on the rim and fixed her there, the girl bent over her open sketchbook with the charcoal raised in her hand.",
+          "{WITCH_NAME} came into the dining hall alone for supper, then played pool in the recreation room among the others all evening. From the upper railing, the prisoners could see the girl on the rim, bent over her book as she was every evening, from after supper until dusk. At dusk, standing among them at the railing, {WITCH_NAME} let her go. The girl tipped into the basin before their eyes.",
+          "In the trial court, everyone took it that she had fallen in at dusk while {WITCH_NAME} stood right beside them. But the prisoner who pulled her out of the fountain had found her set hard in a sitting shape, her hand still raised and gripping the charcoal. The prisoners realized she had been dead since before supper, held upright on the rim by {WITCH_NAME}'s hand."
         ],
-        "epitaph": "Her seat beside a friend should never have been something she had to earn.",
-        "epithet": "The Friend on Permanent Probation",
+        "epitaph": "She learned to sit perfectly still, and it never made anyone stay.",
+        "epithet": "The Girl Who Sat Still to Be Kept",
         "execution": [
-          "The execution stand clamps the witch to a gridded drawing board, with her head beyond its margin. A paper trimmer runs along that margin and severs her neck. Her cropped body remains motionless within the grid."
+          "The execution stand raises an iron track that ends in a buffer stop. Between the rails, against the buffer, stands an iron station bench, and she is chained to it, seated. She sits perfectly still with her packed case on her knees, just as she sat on the station bench long ago. An iron train rolls in along the track and does not stop. Its iron front meets her and presses her and the bench into the buffer. The train stands against the buffer. Between its iron front and the buffer, she sits still."
         ],
         "magic": {
-          "name": "Drawn Anew",
-          "text": "She can flatten inanimate objects into editable drawings, then lift them back out transformed to match her edits."
+          "name": "Stay",
+          "text": "Anyone or anything she lays a hand on is fixed where it is, and only her hand can move it."
         }
       },
       "variant": 1

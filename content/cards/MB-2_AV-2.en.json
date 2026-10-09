@@ -10,19 +10,24 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} avoided the lake. She told one girl why: her sister had drowned holding her hand. At dinner, that girl whispered to a neighbor, and the story passed down the table with each listener turning to look.",
-          "{WITCH_NAME} changed seats and routes to avoid her. The girl kept cornering her, often shoving first and speaking afterward. That day she demanded that {WITCH_NAME} confirm the story before everyone or hear it told again.",
-          "At dusk, {WITCH_NAME} waited with her back to the upstairs railing above the courtyard, on the girl's usual route. The girl came and shoved with both hands. The push missed. Her hips struck the railing, and she toppled over it onto the stone below.",
-          "A girl in the courtyard had seen the outstretched arms and the lone fall. {WITCH_NAME} claimed she was already in the library before the scream, but the prisoner shelving books had seen her rush in afterward. The library's only door opened onto that railing. She had come from the place where the shove missed."
+          "{WITCH_NAME} once lent her best friend her diary overnight. The next day the friend read a page aloud to the class: it was too lovely, she said, to keep to herself. After that, {WITCH_NAME} learned that whatever left her hands got read aloud.",
+          "In the prison, one girl photographed small lovely things all day and passed her phone around the supper table in the dining hall; nothing lovely, she said, should go unseen. She was the only one who ever asked what {WITCH_NAME} kept. In the library, {WITCH_NAME} used her Magic to draw her diary out of her palm and let the girl read one page. It was the first thing of hers anyone had held since that class.",
+          "Then, at supper, the girl passed around a photo of that page: \"The loveliest thing I saw today.\" Every girl at the table read it and passed it on while {WITCH_NAME} sat there.",
+          "At dusk the next day, {WITCH_NAME} climbed to the upper railing to speak to her. The girl sat on the railing, filming the fountain, her phone recording. Before anyone looked up, {WITCH_NAME} had sunk that phone into her palm.",
+          "At a cry and a thud, the prisoners ran out of the dining hall into the courtyard. The girl lay dead on the path below the railing; {WITCH_NAME} stood alone at the railing, empty-handed. They searched the grass, the fountain, the railing. The phone the girl never put down was nowhere.",
+          "In the trial court they told {WITCH_NAME} to draw it out. Only she could. She closed her hand. They ruled that she had pushed the girl off the railing and sunk the phone so no one could see it.",
+          "Inside her palm, the phone still held that dusk's recording: her own voice saying, \"You were the only one I would have let read it\"; the girl turning toward it on the railing and going over; {WITCH_NAME}'s lunging hand closing on the phone, not the girl."
         ],
-        "epitaph": "Everything thrown at her missed; what found her was never thrown.",
-        "epithet": "The Girl a Half-Step Away",
+        "epitaph": "The one thing of hers worth showing was proof that she had reached for the girl, and she kept it beyond anyone's reach to the end.",
+        "epithet": "The Girl with the Closed Hand",
         "execution": [
-          "An iron floor lay within a smooth, waist-high wall. She stood unbound on it as it began to heat. She could move, but every part of the floor grew equally hot. The temperature kept rising until she fell onto the plate and lay still."
+          "In the trial court, the execution stand raised the courtyard fountain, now as tall as the court itself. She stood chained upright to its column in the empty basin.",
+          "The basin began to fill. The still water climbed her body and rose over her face, and she went under like anything she had ever sunk into her palm.",
+          "The fountain brimmed, still, above her. Beneath the surface, her closed hand never opened."
         ],
         "magic": {
-          "name": "the Certain Miss",
-          "text": "Anything aimed at her misses."
+          "name": "Still-Water Palm",
+          "text": "She sinks whatever she holds into her palm, beyond anyone's reach until she draws it out."
         }
       },
       "variant": 1

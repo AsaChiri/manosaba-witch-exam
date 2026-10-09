@@ -1,0 +1,34 @@
+{
+  "cell": "DEF|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Self-Reliant",
+  "tag": "DEF-3_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At thirteen, {WITCH_NAME} pictured it in her diary: her own hands holding her little sister's face down in the washtub. Her mother read the page aloud at supper. After that, her sister was never left alone with her.",
+          "Every evening now, she washed and hung every sheet herself and turned down every offer of help. One girl folded flowers from scrap paper for anyone who was kind to her. Every evening she tucked one under the top sheet of {WITCH_NAME}'s basket, a thank-you for the clean sheets.",
+          "One evening in the shower room, the diary page {WITCH_NAME} had carried since she was thirteen slipped from her pocket. The girl picked it up and read it. \"You shouldn't carry this alone,\" she said, and kept it in her own pocket for the night.",
+          "Before nine, {WITCH_NAME} took her basket out to the courtyard. She had always hung the washing by hand. This time she told the clothes pegs to hang everything in the basket by themselves, and walked off behind the sheets.",
+          "At nine, a prisoner watched the sheets rise onto the line one by one. She called out an offer to help; as always, no answer came.",
+          "At that same hour, in the shower room, {WITCH_NAME} held the girl's face down in the washtub until she stopped moving.",
+          "The next morning, a prisoner found a paper flower pegged to the line between two sheets. In the trial court, she held it up: the washing had hung itself, flower and all, while {WITCH_NAME} was gone. Then she unfolded the flower and read it aloud. It was the diary page."
+        ],
+        "epitaph": "Twice her page was read aloud; the second time, every word of it was true.",
+        "epithet": "The laundress who let no one carry her page",
+        "execution": [
+          "An iron book lay open on the execution stand, and she was strapped flat across its left page. The stand raised the book. With no one touching it, the right-hand iron leaf swung up and slowly closed over her, pressing her shut inside. The iron clasp fastened itself. The book lay shut, and nothing inside it stirred."
+        ],
+        "magic": {
+          "name": "Many Hands",
+          "text": "Any object she gives a chore will move on its own to finish it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

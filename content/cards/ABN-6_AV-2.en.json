@@ -10,18 +10,25 @@
     {
       "fields": {
         "crime": [
-          "A girl saved a chair for {WITCH_NAME} in the dining hall, a quiet invitation to return. But whenever a farewell conversation approached, {WITCH_NAME} escaped it by breaking into a flock and flying away. Today, the girl tucked the chair in.",
-          "During afternoon free time in the courtyard, she asked {WITCH_NAME} for one last farewell conversation. Before they could say goodbye, {WITCH_NAME} fatally stabbed her in the chest with a sword. Then she burst into a flock whose birds gripped the sword together and carried it away.",
-          "The prisoners later found the girl's stabbed body beneath a tree in the courtyard. They took the flock rising from the scene for startled wild birds. In the second-floor hall, however, a prisoner reviewed a photo on a phone and saw those birds carrying the bloodied sword. Another prisoner remembered seeing the flock return to the dining hall earlier and reassemble into {WITCH_NAME}. The birds they had dismissed as startled wildlife were her escape, taking the weapon with them."
+          "Her father came home only some nights. On the last of them, he held her at the door for a long time, and then he never came back. Ever since, whenever anyone reached out to hold {WITCH_NAME}, she stepped backward through the nearest wall.",
+          "In the prison, a girl who used to tell stories to her little sisters at home had a cell to herself. Every night after lockup, she told the corridor another chapter from her upper bunk, and {WITCH_NAME} walked in through the bars to sit below and listen.",
+          "One night the girl finished the story. \"The end. Now come here.\" She leaned down from the upper bunk with her arms open.",
+          "{WITCH_NAME} stepped backward through the barred cell door, out of reach. The girl reached after her, crying \"Don't go,\" and fell headfirst from the bunk.",
+          "{WITCH_NAME} stepped back in through the bars and knelt beside her. The girl's bleeding hand closed on her cuff. \"Stay,\" the girl whispered. {WITCH_NAME} pulled the cuff free and stepped out through the bars again. By morning the girl was dead.",
+          "In the trial court, the prisoners found the dead girl's blood on {WITCH_NAME}'s cuff. She said she had left when the story ended. But the whole corridor had heard \"Don't go,\" then the fall, and she was the only one who ever walked into that locked cell. They ruled that she had shoved the girl off the bunk.",
+          "She had never touched the girl before the fall. The blood was on her cuff because she had gone back."
         ],
-        "epitaph": "By leaving first, she made certain no chair would ever wait for her return.",
-        "epithet": "The First to Leave",
+        "epitaph": "She always left; what condemned her was the one time she came back.",
+        "epithet": "Gone Before the Goodbye",
         "execution": [
-          "A birdcage on the execution stand snaps shut around her, binding her to its perch. A flock of metal birds dives through the bars and into her chest, again and again. When her body falls still, the flock settles on it for its final roost."
+          "In the trial court, the execution stand raises a tall iron bunk bed, and she stands chained upright beneath it. On its upper tier lies an iron girl.",
+          "The iron girl leans down with her arms open, the way arms once opened to her from an upper bunk.",
+          "The iron arms close around her chest and draw tighter, and tighter, and tighter.",
+          "She hangs still in their embrace. The arms never let go."
         ],
         "magic": {
-          "name": "One Body, Many Wings",
-          "text": "You can transform your entire body into a flock of birds."
+          "name": "Mistwalk",
+          "text": "She can pass like mist through walls, doors, floors and anything solid."
         }
       },
       "variant": 1

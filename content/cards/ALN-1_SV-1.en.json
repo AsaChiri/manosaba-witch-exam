@@ -10,18 +10,26 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, a girl helped {WITCH_NAME} join the other prisoners' conversations by turning her blunt orders into courteous requests. One day, {WITCH_NAME} interrupted the girl's personal story with another command: “Get me some water.” The girl repeated those words to the room as a reproach. Then she told her she would no longer speak on her behalf; if she wanted something from the others, she would have to speak to them herself.",
-          "That evening during free time in the shower room, the girl stood beneath a shower when {WITCH_NAME} turned her gravity upward. The girl plunged headfirst into the ceiling and died on impact. She turned gravity toward the floor again, letting the body fall onto the wet tiles. Then, standing upside down under the pull of her Magic, she used a towel to wipe the blood from the ceiling.",
-          "When the body was discovered, the prisoners took the wet floor for the cause of a fatal slip. But one prisoner parted the girl's hair and found plaster fragments in the wound at the crown of her head. The fragments matched a fresh impact gouge in the ceiling. The prisoners understood: the girl had not fallen down at all. {WITCH_NAME}'s gravity had made her fall upward."
+          "When {WITCH_NAME} was small, she once spoke up in her father's classroom. He was the headmaster. The class fell silent for her, then turned back to one another.",
+          "In the prison, another prisoner recorded a picture book in the library every evening for the girls who couldn't sleep. {WITCH_NAME} read the fox, and the reader answered as the rabbit.",
+          "During free time one evening, the reader took the fox's lines back and began recording both parts herself. \"When you read,\" she said, \"the hall hears only you.\"",
+          "At \"And the fox said,\" {WITCH_NAME} stopped the recording. She closed both hands around the reader's throat and held on until the girl went still. Then she played the clip from the start, set the phone by the reader's hand, left the door open, and stepped out to the upper railing before the others came up.",
+          "As they did every night after their showers, the prisoners gathered at the railing and listened to the recorded reading through the open door. When it reached the cut, {WITCH_NAME} began to speak. Her Magic hushed the second-floor hall, every head turned toward her, and the reading fell silent with it. When she finished, they turned back to one another and went downstairs talking before lockup, with her among them.",
+          "At trial, the prisoners accused the reader's roommate, who had gone up and found her. The reader, they said, had still been alive when that speech began, silenced by its first word like everyone else, and had been killed after it ended.",
+          "Then a prisoner played the last clip on the reader's phone. It ended on \"And the fox said.\" No hush followed, and no voice.",
+          "The prisoners understood: a girl held silent by the Magic could not have stopped her own recording. The reader was already dead when {WITCH_NAME} began speaking where the clip cut off."
         ],
-        "epitaph": "Belonging cost only equality, and it was the one price she refused to pay.",
-        "epithet": "The Queen Who Stood Alone",
+        "epitaph": "The only voice that ever answered her was the one she stopped.",
+        "epithet": "The Headmaster's Daughter No One Answered",
         "execution": [
-          "The execution stand seats her on a throne with a noose around her neck. The throne lifts her, then withdraws its seat and footrest. The noose pulls taut, leaving her hanging without support. The throne remains vacant beneath her as the suspension goes on, until at last she is still."
+          "The execution stand raised a giant iron hourglass. She hung chained upright in its lower bulb.",
+          "Iron sand began to pour onto her head. She spoke to make it stop. The trial court fell silent and listened to her, and the sand poured on.",
+          "It rose past her chest, then to her mouth, her lips still moving.",
+          "The last grain fell onto a full bulb. The spectators turned back to one another and talked."
         ],
         "magic": {
-          "name": "Any Way Down",
-          "text": "She can make gravity pull people and objects in any direction she chooses."
+          "name": "All Ears",
+          "text": "When she speaks, everyone within earshot falls silent and listens only to her until she stops."
         }
       },
       "variant": 1

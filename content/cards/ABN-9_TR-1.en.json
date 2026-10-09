@@ -10,20 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Lately, a girl had spent afternoons in the library holding {WITCH_NAME}'s hand as they read a picture book together. Today, before they reached the ending, the girl asked her to make the doorway a shortcut to the lounge.",
-          "\"Not yet. Let's finish the story,\" {WITCH_NAME} said.",
-          "\"If you won't do what I ask, I won't spend time with you anymore,\" the girl replied.",
-          "In response, {WITCH_NAME} made the library doorway open onto the lake's shallow water. She shoved the girl through and held her under until the girl drowned. Later, she claimed the girl had left the library through the usual exit to go for a walk alone.",
-          "A prisoner found the drowned girl's body in the lake's shallows. During the investigation, a prisoner inspecting the library threshold found silty footprints with fragments of reed. They began at the doorway and led into the room, but the floor in the second-floor hall outside was clean. That gap told the prisoners what {WITCH_NAME}'s account concealed: a doorway connected straight to the lake."
+          "Her stepfather kept a one-way bus ticket in his shirt pocket. Whenever she cried, he tapped it. \"One more tear and you're on the morning bus.\" She stayed only as long as no one reached for that ticket.",
+          "In the library, a girl wrote every sudden line in her notebook the moment it came to her, and she let only {WITCH_NAME} sit beside her while she wrote. At nine every night, she called the lounge from the library and sang the day's new song down the phone to the prisoners.",
+          "One evening, she found two lines in her own handwriting: \"Save her a seat.\" \"Ask her to stay.\" She tapped the notebook. \"These aren't mine. One more thought of yours in here, and you don't sit here again.\"",
+          "Before nine, {WITCH_NAME} turned back at the library door. As the girl bent over that night's lyric sheet, {WITCH_NAME} slipped a thought into her head, in the girl's own inner voice: Stop tonight's song on \"stay\" and hang up. Leave them waiting.",
+          "At nine, the prisoners in the lounge heard the song stop on \"stay\" and the line go dead. They laughed that she was keeping the ending to herself. {WITCH_NAME} was sitting among them. At a quarter past nine, she left the lounge alone. In the library, beneath the unwilting cherry tree, she strangled the girl with both hands. The girl was still holding the lyric sheet.",
+          "In the trial court, the prisoners decided the girl had been attacked the moment the song stopped, while {WITCH_NAME} sat right there among them. Then a prisoner found a small pencilled stop mark on the lyric sheet, at the word \"stay.\" The prisoners understood: the girl had stopped the song herself, on a sudden idea she took for her own, and she had still been alive until {WITCH_NAME} went up to the library."
         ],
-        "epitaph": "A welcome without a price remained beyond her reach.",
-        "epithet": "A welcome bought with every yes",
+        "epitaph": "The only thought of hers anyone ever kept was the one that sent her away.",
+        "epithet": "A Stowaway in Other People's Heads",
         "execution": [
-          "A door on the execution stand had a noose tied to its handle. As the door rose, the noose tightened around her neck and lifted her feet off the ground. She hung in the open doorway until her body went still."
+          "The execution stand raises an iron shirt front with a deep breast pocket, and beside it an iron hand. The witch is chained flat to an iron one-way ticket. The hand slides the ticket into the pocket and pushes, then taps it. It pushes again, and taps again. Each tap closes the pocket tighter on her chest. At last the hand pats the pocket flat. Only her hair shows above the rim, and she no longer stirs."
         ],
         "magic": {
-          "name": "Door to Anywhere",
-          "text": "She can make a doorway open directly onto a place she chooses."
+          "name": "Your Own Idea",
+          "text": "She can slip a thought into anyone she can see, and they hear it in their own inner voice as their own idea."
         }
       },
       "variant": 1

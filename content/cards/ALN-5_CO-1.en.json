@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "On the previous afternoon in the lounge, a girl added extra sleeves to one of {WITCH_NAME}'s costume sketches. Today in the lounge, {WITCH_NAME} answered with a sketchbook drawing of the girl in a six-sleeved gown. The girl called the drawing comedy material and announced that she would show the sketchbook around that evening to mock {WITCH_NAME}.",
-          "During afternoon free time, {WITCH_NAME} drove a sword into the girl's chest in the lounge, killing her. She then set the hilt in the girl's hand and used her Magic to make the charcoal costume drawing in the sketchbook appear to the prisoners as a handwritten farewell. Seeing the sword in her grip and the apparent farewell in the sketchbook, a prisoner in the lounge inferred that the girl had killed herself. The prisoner closed the sketchbook to carry it away as evidence.",
-          "At the trial court, when the prisoner opened it again, the facing page bore a mirror-image charcoal transfer of the six-sleeved gown. A handwritten farewell could not have left that image. The discrepancy exposed the note as {WITCH_NAME}'s visual forgery—a magical guise over the charcoal drawing."
+          "Every evening a girl lay in the flower field and let {WITCH_NAME} braid her long hair, then took the last hot shower of the night and washed the braid out. Hers was the only head {WITCH_NAME} let herself braid, and only out there, where no one saw.",
+          "Years before, {WITCH_NAME}'s mother had pulled her crown braid apart at the front door. \"Don't make people look at you.\" She had worn her hair plain ever since.",
+          "One evening, before her shower, the girl pulled the braid loose herself. The girls in the shower kept asking who did her hair, she said. \"You don't want them looking at you.\"",
+          "{WITCH_NAME} twisted the loosened hair around the girl's throat and pulled, as if drawing a braid tight, until the girl went still.",
+          "When the time for the last hot shower came, {WITCH_NAME} pictured the girl as she looked every night, braid and all, and became her. In the shower room, in front of the others, she washed the braid out. Straight after, she sat among the others in the lounge until lockup.",
+          "In the trial court, the prisoners agreed that the girl had been killed in the flower field sometime after that last shower.",
+          "But the prisoner who found her at dawn had unwound the hair from her throat, and it was dry, still crimped from the braid. The prisoners understood then: the girl they had watched washing out a braid was {WITCH_NAME}, wearing her face."
         ],
-        "epitaph": "At last she fit in, once there was nothing of herself left to show.",
-        "epithet": "The Artist Who Kept Her Imagination Hidden",
+        "epitaph": "The only braid a room ever saw her make, she wore on a dead girl's head.",
+        "epithet": "The Braider No One Watched",
         "execution": [
-          "The execution stand pins the witch flat on her back against a drawing board. A grinding eraser scours her torso in relentless pass after pass. It keeps moving over her until the drawing board is smeared with blood and her body lies motionless."
+          "The execution stand chains her to a seat inside a ring of great iron eyes, a lamp behind each glass pupil. Iron hands braid her hair into a crown, and no hand pulls it loose. The eyes open and turn their beams on her until every eye is on her. The beams meet on her crown braid. It smokes, then catches. The eyes keep watching until the burning figure stops moving, and their lamps go dark one by one."
         ],
         "magic": {
-          "name": "A Masquerade for Every Eye",
-          "text": "You can make each observer see the same people and objects in a different guise of your choosing."
+          "name": "Stranger in the Mirror",
+          "text": "She can become anyone she pictures, real to both sight and touch."
         }
       },
       "variant": 1

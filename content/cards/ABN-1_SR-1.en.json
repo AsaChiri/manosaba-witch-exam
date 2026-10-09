@@ -10,17 +10,23 @@
     {
       "fields": {
         "crime": [
-          "In the courtyard, {WITCH_NAME} braided a girl's hair while they traded stories. When the girl offered to return the favor, {WITCH_NAME} refused; she could braid her own hair. Then the girl cut her own braid short with scissors and told {WITCH_NAME} there would be no braiding tomorrow. At that, {WITCH_NAME} grew gigantic and crushed the girl beneath her bare foot.",
-          "Later, a prisoner found the girl's crushed body beneath the upper railing. The prisoners assumed she had fallen to her death from there. But one prisoner uncovered a sole-shaped bruise as long as the girl's torso. The bruise overturned that story: {WITCH_NAME} had deliberately crushed the girl at ground level beneath a giant foot."
+          "{WITCH_NAME}'s mother once sat up sewing every button on her daughter's coat tight. \"So you won't need me to fix them.\" By morning she was gone. Ever since, {WITCH_NAME} had known: people make sure you won't need them right before they go.",
+          "Every evening, one girl mended the prisoners' torn uniforms on the lounge sofa. She waved goodnight with her needle, never looking up from the seam.",
+          "Whenever {WITCH_NAME} grew extra arms, they tore through the back of her dress, and the girl sewed it up. It was the only help {WITCH_NAME} ever let anyone give her.",
+          "Early one evening, the girl cut two slits in the back of {WITCH_NAME}'s spare dress and began hemming them. \"So it never tears again. You won't need me for it.\"",
+          "While the others were at the evening showers, {WITCH_NAME} came up behind the sofa and closed her hands around the girl's throat until she was still, then left her bowed over the dress in the sofa corner.",
+          "Ten minutes before lockup, the prisoners returned from the showers for their mending. Above the sofa back, they saw the girl's needle draw its thread and wave goodnight. {WITCH_NAME} stood beside the sofa, holding their mended uniforms in both hands. She handed them out and walked down the cell corridor among them, never out of their sight until lockup.",
+          "Five minutes before lockup, some went back up for the girl and found her strangled, bowed over the hemmed dress in her lap. In the trial court, the prisoners ruled she was strangled after they left her sewing, while {WITCH_NAME} walked down among them.",
+          "One prisoner turned over the new hem. Its last stitches slanted against every stitch the girl had ever put in their uniforms. They understood: the needle that waved goodnight had been drawn by a hand from {WITCH_NAME}'s back, reaching in beside a girl already dead."
         ],
-        "epitaph": "She could braid her own hair, but no one could replace the companion she lost.",
-        "epithet": "The Self-Sufficient Castaway",
+        "epitaph": "A hem is sewn to hold for years. She never asked who meant to be there to see it.",
+        "epithet": "The girl who held on with more hands than anyone could let go of",
         "execution": [
-          "The execution stand held her upright in a noose made from measuring tape. The loop cinched around her bare neck, its measurement dropping as it tightened. It kept tightening until she slumped against the taut tape and went still."
+          "The execution stand raises a tall iron frame over a bed of iron spikes, a single bar across its top, and hangs her from the bar by her hands. She grows every arm she has and grips the bar with all of them. Iron hands pry her hands off the bar, one at a time. The last iron hand closes over her last hand, as if to hold it. Then it opens. She drops onto the spikes and lies still, every hand open."
         ],
         "magic": {
-          "name": "Shrink and Grow",
-          "text": "You can shrink or grow your body to any size you choose."
+          "name": "Many Hands",
+          "text": "She grows extra arms from her shoulders and back, each as deft, strong and sensitive as her own."
         }
       },
       "variant": 1

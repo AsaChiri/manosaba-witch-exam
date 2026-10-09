@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week in the lounge, {WITCH_NAME} confessed that she could not shake an unwanted thought of stabbing her friend. Her friend assured her that their friendship would continue. She began asking her friend for that same assurance again and again, stepping back into the remembered conversation each time to hear it.",
-          "That afternoon, she unfolded the memory in the lounge. Inside it, a remembered girl practiced with a sword. Her friend refused yet another demand for reassurance, said goodbye, and ended their friendship. With a spare sword from the memory, {WITCH_NAME} fatally stabbed her friend. She laid the body at the remembered girl's feet and used her phone to photograph the armed figure beside it. She dismissed the recreation; the remembered girl vanished, but her friend's body remained. She then showed the phone photo and accused the girl of attacking her friend and fleeing.",
-          "But another prisoner remembered seeing the girl break the tip of her sword in the lounge that morning. That prisoner compared the girl's broken sword with the one in the photograph: both had the same forked hilt, but the photographed blade still had its point. The prisoners realized that the photograph showed a remembered bystander, not an assailant present that afternoon, exposing {WITCH_NAME}'s staged accusation."
+          "Every evening, a prisoner mended the others' torn clothes alone in the library, drawing each thread across her half of a beeswax cake {WITCH_NAME} had broken with her Magic. Many times a day, {WITCH_NAME} pressed the other half into girls' palms; they squeezed and felt the mender squeeze back.",
+          "The evening before the murder, {WITCH_NAME} confided she had pictured driving the scissors into her friend's back as she bent over her sewing. Her friend laughed, squeezed her half and slid the scissors into her apron pocket. \"Out of your sight, then.\"",
+          "When {WITCH_NAME} was nine, she confessed to picturing the sewing scissors closing on her little sister's ear. Her mother hugged her with one arm and moved them into her own apron pocket, where they stayed ever after.",
+          "At ten to seven, {WITCH_NAME} squeezed her half. Her friend squeezed back, her other hand on her apron pocket. {WITCH_NAME} pulled the scissors from that pocket and drove them into her friend's back.",
+          "At half past seven, {WITCH_NAME}, in the lounge with the others since seven, cupped her half in both hands; a girl squeezed it and felt the mender squeeze back.",
+          "At eight, {WITCH_NAME}'s squeeze went unanswered; she led them upstairs. At ten past they found the mender dead over her sewing, scissors in her back, her half beside her hand.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out: the mender was alive at half past seven, and {WITCH_NAME} had held a girl's hand until the body was found.",
+          "A prisoner turned the mender's half over. Its underside bore the ribs of {WITCH_NAME}'s corduroy skirt.",
+          "They saw it: the mender had died before seven, and the answering squeeze was {WITCH_NAME}'s own weight on that half, which she had set back by the dead girl's hand when they found her."
         ],
-        "epitaph": "The friendship ended. Its kindness did not.",
-        "epithet": "Beggar for Absolution",
+        "epitaph": "In the end, the only one left to answer her was herself.",
+        "epithet": "The Girl They Keep the Scissors From",
         "execution": [
-          "The execution stand opened an enormous pop-up book beneath her and bound her faceup to its page. A life-size paper lounge unfolded around her, with a sofa where her friend's reassurance played out once more. Then the book's cover began to close, pressing harder and harder against her chest. When the book shut, one hand protruded from between its pages. It did not move."
+          "The execution stand raises a giant spool and straps her upright against its barrel. The spool turns, winding waxed thread around her from ankles to shoulders and binding her fist shut around her own half of the beeswax. The stand touches a beeswax candle to the thread's end, and flame climbs the coils around her. As the heat reaches her fist, she squeezes her half. It runs out between her fingers, and nothing squeezes back. The flames burn down to the spool's blackened core. Her hand hangs open and empty."
         ],
         "magic": {
-          "name": "Memory Unfolded",
-          "text": "She can unfold her own memories into places that people can physically enter."
+          "name": "Halves That Squeeze Back",
+          "text": "She breaks an object in two, and every squeeze or touch of warmth on one half is felt in the other."
         }
       },
       "variant": 1

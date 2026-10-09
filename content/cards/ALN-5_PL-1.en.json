@@ -10,18 +10,26 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, a girl rehearsed her beloved tragedy for {WITCH_NAME}, delighting in their shared enthusiasm. When the girl professed a preference for comedy, {WITCH_NAME} echoed her. Today, the girl presented her with a comic rewrite of the tragedy and said it would replace their old version that evening.",
-          "Before the replacement, {WITCH_NAME} asked her to record a farewell in an unfamiliar role. Drawing on their shared love of the play, she used her Magic to feed the girl the speech as inaudible cues. Blindfolded, the girl recited it into her phone. When the recording ended, {WITCH_NAME} stabbed her in the chest with a sword, killing her, then placed the hilt in the girl's hand.",
-          "In the lounge, the prisoners read the scene as suicide: the recording sounded like a personal farewell, and the sword remained in the girl's grip. At the trial court, a prisoner opened the tragedy script to an execution scene performed blindfolded. Before making the recording, the girl had messaged that prisoner: {WITCH_NAME} would coach her through the role telepathically. The prisoner matched the recording's words and blindfolded blocking to the script. Together with the message, this exposed the farewell as a performance directed by {WITCH_NAME}, not her own spontaneous goodbye."
+          "For weeks, {WITCH_NAME} let her pinhole star cards go in the lounge, and each one dropped at her feet. No one here would treasure them.",
+          "Then one girl took to lying on the lake shore every clear evening, naming the stars. One night a card sailed out of the lounge and found her. Every night since, at nine, she caught one and pinned it above her bunk.",
+          "One afternoon in the courtyard, {WITCH_NAME} put a card into the girl's hand for the first time. It was pricked with her own faint constellation. The girl held it up to the light and laughed. \"There's hardly anything there. Do me Orion again.\" She handed it back.",
+          "Once, at a classroom window, {WITCH_NAME} had held up a pinhole card of a faint constellation, and her classmates had laughed: \"There's nothing there.\" Since then she had pricked only the stars other people name.",
+          "At eight that night, the girl left the lounge for the lake shore. {WITCH_NAME} stayed by the fireplace with the others. At nine, in front of them all, she let go of a black card. It dropped onto the rug at her feet, and the prisoner beside her set it on the mantel. Soon after, she went out. At the water's edge she knelt behind the girl and held her face under the starlit shallows until the girl stopped moving.",
+          "At dawn the prisoners found her face down in the shallows, with finger bruises on the back of her neck and, in her pocket, the card she had caught the night before she died.",
+          "\"She was dead before nine,\" the court decided. \"Her card found no one, and {WITCH_NAME} was sitting right here with us.\"",
+          "Then one prisoner held the fallen card up to the light. Not one pinhole let it through. A card with nothing on it falls no matter who is alive. {WITCH_NAME} had let it go so the girl at the lake would seem dead by nine, and then gone out to her."
         ],
-        "epitaph": "She silenced disagreement—and never learned whether acceptance was real.",
-        "epithet": "The Fan Who Never Speaks Her Mind",
+        "epitaph": "The only card anyone ever believed was the one with nothing on it.",
+        "epithet": "Stars That Fall at Her Own Feet",
         "execution": [
-          "The execution stand hoists the witch by restraints that spread her limbs between two giant, opposing palms. The palms clap against her torso. Again and again they strike, compressing her more deeply with every round of applause. When the applause ends, the palms part. Her suspended body hangs motionless."
+          "The execution stand raises a towering black card in the trial court, with her strapped upright across its face. A giant pin hangs poised before her chest.",
+          "The pin drives through her and through the card, then again, and again, point by point, tracing the faint constellation she loved.",
+          "Then the stand lets go of the card. It flies to no one. It tips forward and falls.",
+          "It lies flat at the foot of the stand, over her. Nothing beneath it moves, and no one lifts it."
         ],
         "magic": {
-          "name": "Kindred Minds",
-          "text": "Talk mind to mind with people who share an interest you choose."
+          "name": "Homing Gift",
+          "text": "Anything she gives away flies from her hand to whoever will treasure it most."
         }
       },
       "variant": 1

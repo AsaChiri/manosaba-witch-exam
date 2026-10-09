@@ -10,19 +10,26 @@
     {
       "fields": {
         "crime": [
-          "In the library, a girl and {WITCH_NAME} wrote an ending for a heroine together. During their shared readings in the lounge, the girl imitated the picture-book heroine's voice as the witch spoke with the character.",
-          "Today, the girl told her their ending was childish nonsense and tore it up. The witch held out the torn ending and demanded that she restore it. Instead, the girl threw it away and refused to read with her again. The witch stabbed her to death with a sword.",
-          "Afterward, from the dining hall, the witch used a phone to converse remotely with the pictured heroine, turning their exchange into a live recital. She passed the heroine's voice off as the girl's, so even after she left, the recital made it seem the girl was still alive.",
-          "Before it finished, a prisoner returning the picture book to the lounge found the girl's body. A question came through the phone, and the heroine pictured in the book answered aloud beside the corpse. The same voice the girl had imitated was still performing after her death: the supposed survivor was a speaking picture."
+          "Every evening, one girl told a story by the lounge fireplace. {WITCH_NAME} listened from the back and never offered one.",
+          "One night the storyteller found her alone in the courtyard, looking up. \"What do you see?\" {WITCH_NAME} took her hand, and her Magic gave the girl a night from her childhood: lying on a roof, counting forty meteors. The girl lay back on the fountain rim. \"Go on in. I'll watch for them a bit longer.\"",
+          "The next evening, the storyteller told the meteor night by the fire as her own. She tossed dry leaves in; sparks rained onto her right cuff, and she patted them out, laughing. \"That night was mine,\" {WITCH_NAME} said. The girl laughed. \"I lived it too. It's mine now.\" The room laughed along.",
+          "As a child, {WITCH_NAME} had heard her sister tell the family about the meteor night at supper as her own. When she said it was hers, they laughed. \"You never say anything.\"",
+          "That evening she followed the storyteller out. As the girl lay on the fountain rim watching for falling stars, {WITCH_NAME} closed her hands on her throat until she stopped moving.",
+          "About ten minutes later she came back and sat among the prisoners by the fire, in their sight until lockup.",
+          "In the trial court, she touched each prisoner's hand and gave them her memory of the fountain: the storyteller alive, squeezing her hand. \"Go on in. I'll watch for them a bit longer.\" So the prisoners ruled that she had left the girl alive and someone else killed her while {WITCH_NAME} sat with them.",
+          "Then a prisoner touched the dead girl's right cuff and found a burn hole. In the memory, {WITCH_NAME}'s fingers rested on that spot, and the cloth was intact. The memory was from the night before the sparks; when {WITCH_NAME} came back to the fire, the girl was already dead."
         ],
-        "epitaph": "She took their story back by force, only to own it alone.",
-        "epithet": "The Storyteller No One Hears",
+        "epitaph": "All she wanted was for one girl to see her stars, and she could not bear it when one did.",
+        "epithet": "The Stargazer Whose Nights Others Told",
         "execution": [
-          "The execution stand pins the witch against an upright book with her arms spread. Sewing needles drive through her and stitch her into the spine, soaking the binding in blood. She pleads with the heroine on the illustrated cover to save her. The needles keep sewing until she falls still. Even then, the heroine continues to answer her with words of comfort."
+          "The execution stand raises an iron rooftop beneath a vault hung with forty spiked iron stars. She lies chained to it on her back, face up.",
+          "An iron girl sits at the edge of the roof and tells the meteor night as her own. \"I lay on a roof and counted forty fall.\"",
+          "Then the iron girl counts. At each number, a star drops from the vault onto the girl chained below: the first onto her chest, the rest across her body, one by one.",
+          "At forty, the iron girl bows to a clatter of iron applause. Beneath the fallen stars, the chained girl lies still."
         ],
         "magic": {
-          "name": "Conversations Beyond the Frame",
-          "text": "She can talk with fictional characters in pictures, who hear her and answer aloud."
+          "name": "Through My Eyes",
+          "text": "With a touch, she lets someone relive one of her memories as her: every sight, sound and feeling."
         }
       },
       "variant": 1

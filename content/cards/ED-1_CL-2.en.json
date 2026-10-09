@@ -10,18 +10,28 @@
     {
       "fields": {
         "crime": [
-          "On the first night, a girl took {WITCH_NAME}'s outstretched hand and returned her squeeze. In recent days, {WITCH_NAME} had kept asking the girl to squeeze again, to prove they were still friends.",
-          "Today, the girl refused to keep proving it. Seated facing outward on the upper railing, she let go and drew her hand away. From the courtyard, {WITCH_NAME} used her Magic to catch the girl's wrist in both hands and yank her headfirst off the railing. The girl's head struck the path, killing her.",
-          "Afterward, {WITCH_NAME} claimed the girl had already been falling when she reached out to catch her. But a prisoner recalled watching from the second-floor hall: the girl had demanded to be let go while still sitting steadily on the railing. As the prisoner pointed out, {WITCH_NAME} had already been holding her before there was any fall to stop."
+          "Every evening, when the hot water came on, her friend sang alone in the shower room, where no one could hear her. {WITCH_NAME} waited outside the closed door, holding the thread her Magic had drawn from her own heart to her friend's.",
+          "One evening she asked through the door, \"Are we still friends?\"",
+          "\"Of course,\" her friend answered, without turning from the water.",
+          "Her father had answered the same way when she sang at the door of his study, never looking up from his desk: \"Of course I'm listening.\"",
+          "The thread in her hand was thinner than she had ever seen it.",
+          "Before dinner, she opened the door, wrapped a towel around her friend's throat, and pulled until the song stopped.",
+          "At dinner in the dining hall, she showed the other prisoners a thread and told them it was her friend's. It ran from her chest down through the floor.",
+          "At the trial, the prisoners ruled her out. Her friend had still been alive somewhere below them at dinner, and she had spent the whole evening with them in the lounge.",
+          "But her roommate had lain in bed in their cell all through dinner with a fever. She told the court she had watched a thread come down through the ceiling and sink into her own chest.",
+          "The prisoners understood. The thread {WITCH_NAME} had shown them at dinner was the one tied to her roommate, and her friend had been dead before the meal began."
         ],
-        "epitaph": "The hand that never let go never answered.",
-        "epithet": "An open palm begging for an answer",
+        "epitaph": "All those evenings outside the door, and she never heard a single note of her friend's song.",
+        "epithet": "The Girl Outside the Soundproof Door",
         "execution": [
-          "A glass tank on the execution stand holds her strapped to a seat. An iron hand clasps hers as the water rises over her face. Her submerged body goes still; the iron hand keeps hold."
+          "The execution stand straps her against a closed door in the trial court. A cord runs out of the keyhole and loops around her throat.",
+          "Slowly the keyhole draws the cord in, and the loop tightens.",
+          "She knocks on the door. No one answers.",
+          "The cord keeps sliding into the keyhole. Her knocking stops. The door never opens."
         ],
         "magic": {
-          "name": "Within Reach",
-          "text": "She can physically touch distant people and objects as though they were within reach."
+          "name": "Heartstrings",
+          "text": "She turns the ties between hearts into threads you can see and touch, each as thick as the attachment."
         }
       },
       "variant": 1

@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "At dinner, the girls talked about what they would do after leaving the prison. {WITCH_NAME} always said, “Nothing.” One girl made a game of guessing for her. One evening the guess was the exact wish of the prisoner beside her, and everyone agreed: “That's so you.”",
-          "{WITCH_NAME} invited the girl to the flower field at dusk to see what she really loved. At its far edge, she took the girl's hand, put her to sleep, and laid her in the deep grass. She returned before lockup and said the girl had stayed outside to watch the stars.",
-          "The guards searched through the night. At dawn they found the girl dead from the cold, her hands open and the grass beneath her undisturbed. There were no drugs in her body. She had never stirred as the night grew colder. The last person seen holding her hand was {WITCH_NAME}, whose touch could keep a sleeper from waking."
+          "In the medical room, one girl patched every scrape the others brought her. {WITCH_NAME} came with a new one every evening.",
+          "One evening before supper, she came in with a bleeding cut. The girl was bent over another prisoner's sprained ankle. \"In a minute,\" she said, without looking up. \"Press on it.\"",
+          "So {WITCH_NAME} sat by the pool table in the recreation room, pressing a cloth to the cut, in plain sight of the others for three hours. The blood dried into the cloth. No one came.",
+          "At the end of the evening she went back. The girl glanced at the dried cloth and went back to rolling bandages. \"See? It stopped on its own.\"",
+          "When {WITCH_NAME} was eight and cut her knee, her mother said \"In a minute\" without turning from the sink. She sat on the kitchen step until the blood dried. Afterward: \"See? It stopped on its own.\"",
+          "{WITCH_NAME} drove the girl's head down against the floor until she lay still. Then she laid her palm over the girl's hand and, in an instant, gave her all the hours she had spent waiting.",
+          "Later that evening, a prisoner found the girl face down, cold and stiff, the blood dried dark in her hair. In the trial court, the prisoners concluded she had died hours before, while {WITCH_NAME} was still sitting by the pool table where they could all see her. Besides, her Magic worked on objects and plants, never on a girl.",
+          "Then the prisoner who found her remembered turning her face up. The pool of blood beneath it was still wet and red.",
+          "The prisoners understood. Dead, the girl had been only a thing under {WITCH_NAME}'s palm, like any other. The floor beneath her had never been under that palm at all."
         ],
-        "epitaph": "No one heard a wish that was hers.",
-        "epithet": "A Wish Answered by Everyone Else",
+        "epitaph": "All evening she waited for that hand to find her wound; the one time their hands met, hers lay on top, and the other was going cold.",
+        "epithet": "The Girl Who Waits for the Blood to Dry",
         "execution": [
-          "A moving floor led toward an open door and a small, lit room. As she walked toward it, the floor ran backward at her walking pace. The door stayed out of reach. When her legs gave out, the floor carried her over its rear edge into the darkness below. There was one impact, then silence."
+          "The execution stand raises a great hourglass. She kneels in its empty lower bulb, chained. The neck opens, and sand pours onto her head. It rises over her shoulders, up to her chin. She presses her cut hand flat against the glass, the cloth still dried to the wound. The last grain drops, and the sand lies still. Only her flat palm shows against the glass."
         ],
         "magic": {
-          "name": "Lullaby",
-          "text": "With a touch, she can put someone into an unbreakable sleep."
+          "name": "All in Good Time",
+          "text": "Any object or plant under her hand becomes, in a breath, what time would make of it."
         }
       },
       "variant": 1

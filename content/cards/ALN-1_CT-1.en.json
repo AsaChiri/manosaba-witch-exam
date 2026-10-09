@@ -10,18 +10,25 @@
     {
       "fields": {
         "crime": [
-          "For weeks, without being asked, {WITCH_NAME} used her Magic to grow fruiting strawberry plants straight from a plate in the forest. The girl welcomed her to share lunch, and they sat side by side.",
-          "Today, the girl removed {WITCH_NAME}'s place setting and asked her to deliver fruit to future picnics without joining them. The girl spread the picnic cloth beneath a bough. In answer, {WITCH_NAME} grew a full-grown apple tree from the branch overhead. The tree and broken bough crashed down, crushing the girl to death.",
-          "The prisoners first took it for a natural treefall. Then one prisoner uncovered the tree's base: its roots clasped a short, broken piece of the bough. The break on that fragment matched the fracture overhead. In the trial court, the prisoners reconstructed the apparent accident: the tree had grown from the overhead bough, so {WITCH_NAME} had manufactured the collapse."
+          "Every night at half past nine, {WITCH_NAME} walks the cell corridor with her roommate, handing each girl the hot water bottle pictured at her shoulder. She has never once been wrong.",
+          "The girl in the single cell is first in bed, curled under her blanket by nine. Every night she sits up for her bottle and asks, \"What was good today?\" No one else asks {WITCH_NAME} anything.",
+          "After dinner in the lounge, the girl tells her she has never once asked anything back. \"Come before the round and ask me one thing.\"",
+          "At ten past nine, {WITCH_NAME} looks at the girl's shoulder and, instead of asking, tells her: \"Your bottle at your feet.\" The girl turns to the wall and pulls the blanket over her head. \"That's not asking.\"",
+          "When {WITCH_NAME} was nine, she set a friend's juice on the desk every morning, until the friend moved her desk away and left the juice untouched. \"You never ask me anything. It's like you're not even talking to me.\" Ever since, she has had everything ready before anyone asks.",
+          "She presses the blanket down over the girl's head until the girl is still. At half past nine she tells her roommate there's no picture beside the heaped blanket. \"She's not back yet. It's only her bedding.\" She lays the bottle on top of the heap for when the girl comes in.",
+          "At six the girl is found dead under her blanket. In the trial court, the prisoners rule she came back after the round and was smothered before lockup, while {WITCH_NAME} was with her roommate.",
+          "A prisoner points to the bottle, still on the blanket where it was laid. A girl crawling under would have tipped it off, and she never slept without it at her feet. The prisoners realize she was already under the blanket at half past nine. The missing picture never meant an empty bed, only a girl who wanted nothing now."
         ],
-        "epitaph": "In the end, all she could provide was forced upon her, and it still could not give her a place beside anyone.",
-        "epithet": "The Uninvited Provider",
+        "epitaph": "She thought a question was for finding something out. It was for letting someone answer.",
+        "epithet": "Ready Before Anyone Asks",
         "execution": [
-          "The execution stand locks her head inside a glass apple. Apple juice pours in without stopping and submerges her face. The glass keeps her face on display until she becomes utterly still."
+          "The execution stand lifts a giant barred cell door and holds it flat above her, a filled hot water bottle hanging by its loop from every bar. She lies strapped on her back beneath it.",
+          "Slowly the door tilts. One after another, the bottles slide off the bars onto her chest, heavy and hot. Each one lands before she can get a word out. No one asks her anything.",
+          "The heap on her chest stops rising and falling. Every bar hangs empty."
         ],
         "magic": {
-          "name": "Root Anywhere",
-          "text": "She can grow any plant she chooses to full maturity from any physical surface."
+          "name": "Unspoken Wishes",
+          "text": "She sees what each person near her wants right now, as a small picture beside them."
         }
       },
       "variant": 1

@@ -10,19 +10,26 @@
     {
       "fields": {
         "crime": [
-          "During earlier naps, the girl met {WITCH_NAME} inside her dreams and practiced laughing in unison with her. Morning after morning, {WITCH_NAME} wrote an introduction to the girl on her phone, then left it unsent.",
-          "That day in the lounge, the girl referred to {WITCH_NAME} in her dream notebook as an imaginary friend. She announced to the prisoners that she would tell the story of their practiced laughter at dinner. During evening free time, {WITCH_NAME} stabbed her in the back with a sword in the lounge, killing her.",
-          "After the murder, {WITCH_NAME} entered a prisoner's dream from her cell. In the dream, they read together and improvised the story. The prisoner later vouched that {WITCH_NAME} had been with them in the recreation room for the entire reading. Their accounts even matched on the ending they had invented: a bird with two mouths.",
-          "At the trial court, the prisoner played the others a recording from their phone. In the middle lay a stretch of their own snoring; just before it, the recording captured the girl saying goodbye to them in the recreation room. The gap made the prisoner realize that the reading had started over at the opening page inside the dream, even though they remembered it as one continuous stretch. With {WITCH_NAME}'s body unaccounted for during that sleeping interval, the prisoners realized that the shared reading had taken place remotely inside the dream, not beside the prisoner in the recreation room."
+          "Every night at nine, a girl called one prisoner up to talk by the lounge fireplace, then ticked that name on her worn list. Every name had a tick but {WITCH_NAME}'s; she stayed in her cell, conjuring the girl's double each night and practising the talk until she came in on every beat.",
+          "After dinner one night, the girl brought the list to {WITCH_NAME}'s cell. Tonight's last name was hers; she would call it down the corridor until {WITCH_NAME} came up.",
+          "As a child, she jumped in a beat late when the girls chanted her name. The skipping rope caught her ankle, and they began the rhyme again without her. Ever since, she told herself the rope couldn't catch her if she never jumped in.",
+          "At half past eight, the girl laughed and began calling her name down the empty corridor. In the girl's own cell, {WITCH_NAME} pressed the pillow over her mouth until she lay still, then turned her to the wall under the blanket.",
+          "At nine, she climbed to the fire with the girl's double, which fetched her up as promised. They talked before the whole lounge; she came in on every beat, and the room laughed along. The double ticked the last name; a prisoner photographed the finished list. At half past nine it said good night and went down alone; she stayed by the fire until lockup.",
+          "At ten to ten, the girl's roommate found her in the lower bunk under the blanket, face to the wall, not breathing.",
+          "In the trial court, the prisoners concluded she was smothered in the twenty minutes after leaving the fire, and {WITCH_NAME} never left the lounge. Then the roommate laid the list from the girl's pocket beside the photo. {WITCH_NAME}'s name had no tick. The girl who ticked it was her double, and its list vanished with it; the real girl was dead in her bunk before nine."
         ],
-        "epitaph": "Called imaginary, she remained a person all the same.",
-        "epithet": "The Friend Never Introduced",
+        "epitaph": "She came in on the beat only once, with a girl who was already gone.",
+        "epithet": "Waiting Outside the Turning Rope",
         "execution": [
-          "The execution stand locks her upright in a head brace before a mechanical audience. When she finally tries to say hello, metallic applause cuts off her first greeting. The audience's bladed palms clap against her throat again and again. The applause goes on unanswered as she hangs bloodied and still in the brace."
+          "The execution stand raised two iron turners on either side of her, swinging a heavy chain between them like a skipping rope, while a bell counted the beat.",
+          "The chain turned faster with every count, and she jumped each pass.",
+          "Then she jumped a beat late. The chain took her ankles and threw her down.",
+          "It came down across her on every pass.",
+          "When she lay still, the chain turned on over her, and the bell started the count again from one."
         ],
         "magic": {
-          "name": "Dreamwalker",
-          "text": "She can enter the dreams of sleeping people as herself and interact with them there."
+          "name": "Speaking Likeness",
+          "text": "She conjures a living double of anyone she pictures, and it answers just as they would."
         }
       },
       "variant": 1

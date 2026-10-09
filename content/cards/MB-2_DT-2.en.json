@@ -10,19 +10,24 @@
     {
       "fields": {
         "crime": [
-          "When her arm was broken, {WITCH_NAME} told everyone she had fallen off her bicycle. She told just one girl who had really done it, and how.",
-          "One morning a note hung open on her cell bars: “Ask her who really broke her arm.” Everyone going up to breakfast could read it. She took it down and said it was nothing.",
-          "The girl who knew always went up last. Another morning, {WITCH_NAME} waited in the empty cell corridor and strangled her with both hands. Then she passed her hands over the girl's throat, her own knuckles, and the scuffed floor until no marks remained.",
-          "A prisoner returning for a spoon found the body. The girl's face was dark and her eyes speckled red. Beneath the unmarked skin, a broken throat bone shifted at a touch. The violence remained inside, although its fresh surface traces were gone. {WITCH_NAME}, who could erase those traces, had come up long after the others left the corridor."
+          "Every supper, one girl tapped her cup and told the dining hall the day's news: birthdays, who needed kindness. Each evening {WITCH_NAME} sat with her on the lounge sofa by the fire, and told only her, \"My mother walked out on my birthday.\"",
+          "At supper the girl tapped her cup: \"Tomorrow is {WITCH_NAME}'s birthday supper. Her mother walked out on her birthday, so let's give her a better one.\" The girls passed her their desserts.",
+          "The morning after her mother left, {WITCH_NAME} had told only her best friend. By lunch the class sang to her, passed her their puddings and watched her eat. Whatever she told one person got passed round a table.",
+          "Now she smiled, said it was ages ago, folded her napkin into a square and pocketed it. She kept everything folded small in her coat pocket. The others saw her fold only paper and cloth; nothing stiffer would fold, she said.",
+          "The warden let the girl skip the afternoon lockup to drag the tables alone into one long birthday table. At 2:40 the prisoners left her alone at lunch, the tables still in rows. At 2:45 {WITCH_NAME} came back and pressed both hands over the girl's mouth and nose until she stopped moving. In a minute {WITCH_NAME} folded each table into a square and unfolded them end to end as one long table, before lockup at three.",
+          "From three to five she sat locked in her cell, then went upstairs with her roommate. The prisoners found the girl dead at the head of the long table and ruled she had dragged it together during the lockup and been killed near the end, while {WITCH_NAME} sat locked away.",
+          "But one prisoner noticed no scrape on the stone floor between where the tables had stood and the long table. In the trial court they saw it: the tables were folded before lockup, not dragged; {WITCH_NAME}'s Magic folded more than cloth."
         ],
-        "epitaph": "Her hands could erase a mark, but never something she had told another person.",
-        "epithet": "The Girl for Whom Nothing Happened",
+        "epitaph": "The one thing she ever unfolded for anyone was the one thing she could never fold away again.",
+        "epithet": "The Pocket That Never Opens",
         "execution": [
-          "A stone basin held the back of her head as she lay bound beneath a dripping pipe. Each drop landed on her forehead and collected in the basin. The water rose around her face. The drops continued after it covered her mouth and nose, until she drowned."
+          "The execution stand raised her own coat, as tall as the trial court, and hung it by its collar loop. She was buttoned into its high breast pocket with a single folded square.",
+          "The square opened against her chest into the lounge sofa, the one she had told her story on. It swelled in the pocket, burst the flap and pushed her out. She dropped the full height of the court.",
+          "She lay still beneath the hanging coat, the sofa wedged open in the torn pocket above her."
         ],
         "magic": {
-          "name": "the Unhappening",
-          "text": "She can erase fresh traces by passing her hand over them."
+          "name": "Pocket Square",
+          "text": "She can fold any nonliving thing she touches into a paper-thin pocket square, then unfold it intact."
         }
       },
       "variant": 1

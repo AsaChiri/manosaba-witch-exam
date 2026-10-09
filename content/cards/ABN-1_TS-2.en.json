@@ -10,18 +10,25 @@
     {
       "fields": {
         "crime": [
-          "For the past few evenings, a girl had split her bread into equal halves with {WITCH_NAME} in the dining hall. On the night of the murder, she invited another prisoner to join them. Once they were seated, the witch swept the third portion onto the floor. Before the shared meal could begin, the girl took her bread away and went to eat alone at the upper railing.",
-          "There, the witch found a foothold on the outside of the railing, then redirected her own fall out across the courtyard. Hanging horizontally beyond the iron bar, she drew the girl's scarf tight around her throat. Only after the girl slumped did she pull the scarf free.",
-          "At the railing, one prisoner saw the unchewed bread in the girl's mouth and concluded that she had choked. But at her nape, the prisoner uncovered a bruise stamped with the scarf's weave, while the bruise across her throat matched the profile of the iron bar. Another prisoner then recalled that, before the girl was found, the witch had climbed up the outside of the courtyard railing. Together, the bruises and the sighting overturned the choking story: from outside the railing, {WITCH_NAME}'s outward fall had pulled the scarf tight as the iron bar pressed against the other side of the girl's neck."
+          "Every evening, one of the prisoners walked the long path around the lake to draw the mansion's lights from the far shore. And every evening, {WITCH_NAME} used her Magic to run straight across the water, her feet never sinking, to sit beside her.",
+          "One evening at seven, by the lake, the girl handed her the sketchbook full of those lights. \"You keep it. I've drawn it enough.\"",
+          "{WITCH_NAME}'s mother had given away her things one by one, her coat to a neighbour, her books to her daughter, and then one morning she was gone. People hand out what they own before they go.",
+          "There by the lake, she strangled the girl with her scarf until she was still. Then she picked her up and ran across the lake with her, and sat her down in her spot on the far shore, facing the mansion's lights, where she always drew.",
+          "At ten past seven, {WITCH_NAME} came back into the lounge and stayed among the prisoners all evening. They had watched the girl leave the lounge at five to seven for the long lake path, twenty minutes on foot to her spot. So in the trial court, the prisoners ruled that she had walked there and been strangled where she sat, by which time {WITCH_NAME} was already back among them.",
+          "Then one prisoner turned over the dead girl's shoes. The soles were clean, without a single one of the pine needles the lake path leaves on everyone who walks it. The prisoners understood: she had never walked the path. {WITCH_NAME} had carried her across the water before ten past seven."
         ],
-        "epitaph": "Bread shared without the freedom to leave is no companionship at all.",
-        "epithet": "The Premature Mourner",
+        "epitaph": "It was only a sketchbook. She outran a goodbye that was never coming.",
+        "epithet": "The Girl Who Runs Ahead of Every Goodbye",
         "execution": [
-          "The execution stand holds her suspended upright between two paving slabs standing on edge. The slabs tip sideways and land against her torso, crushing her between them. They keep pressing. Under the sustained weight, her head bows and at last remains still."
+          "The execution stand raises a deep, round iron pool with sheer walls. She stands on an iron plinth in the middle of the water. On the rim above her stands an iron mother.",
+          "The iron mother lowers an iron coat onto her shoulders. \"You keep it.\"",
+          "The plinth sinks from under her, and she runs out onto the water. It holds her up only while she keeps moving.",
+          "The iron mother walks away around the rim without looking back. She runs after her across the water and never gains.",
+          "At last she stumbles to a stop under the coat. The water gives way, and the coat drags her under. The water over her goes still, while the iron mother walks on around the rim."
         ],
         "magic": {
-          "name": "Personal Gravity",
-          "text": "She can make her own body fall in any direction she chooses."
+          "name": "Water Strider",
+          "text": "She can run across water, thin ice or a taut rope as if it were solid ground."
         }
       },
       "variant": 1

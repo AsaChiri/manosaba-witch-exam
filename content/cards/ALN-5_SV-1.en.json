@@ -10,19 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Over weeks in the courtyard, a girl learned to answer {WITCH_NAME}'s imitation of a birdcall until it became their duet.",
-          "Today in the dining hall, the girl parodied that same call, and the prisoners laughed. {WITCH_NAME} ordered her to stop at once. The girl defied her by leading the prisoners in a mocking chorus of the birdcall.",
-          "That night, a guard locked the prisoners behind the barred cell door. {WITCH_NAME} gathered the stone cell wall beside the lower bunk into folds and stepped through the opening. She slashed the sleeping girl's throat with a sword and left her bleeding to death. After withdrawing into the cell corridor, she drew the wall shut, restoring the stone surface.",
-          "At morning unlock, the cell appeared sealed, and the prisoners accused the girl's roommate, who seemed to be the only person with access. Then one prisoner found a bloodstained corner of the bedsheet pinched in the stone wall on the corridor side and traced the same continuous fabric back to the cell bedding. The trapped sheet revealed that {WITCH_NAME} had used the wall as a hidden passage."
+          "Every night by the courtyard fountain, one girl leads a waltz, dancing with every girl in turn so no one is left standing by the wall. {WITCH_NAME} watches from the upper railing.",
+          "One night she walks up to the leader, hand held out. The leader steps aside with a curtsey. \"The floor is yours, princess.\" She claps for her, alone on the cleared floor, then dances on with the next girl.",
+          "At every ball of her girlhood, the guests had drawn back to the walls and clapped her onto an empty floor. She danced alone until the music ended, and never danced again.",
+          "After the dance, {WITCH_NAME} stands still by the fountain and holds out her hand, so the leader must come to her. The girl rises from the path and comes. At ten past nine, {WITCH_NAME} waltzes her to the rim, dips her back and holds her face under the water until she goes still, then lays her soaked on the path, where she lies after every dance.",
+          "At half past nine, she walks her nightly round of the courtyard, past the fountain. Girls at the upper railing watch a tree's branches lift out of her way on their own. Then she sits among them in the lounge until lockup. From the railing, they also saw the leader move off the path to let her pass, as she does every night.",
+          "In the trial court, the prisoners rule that the leader drowned after making way, while {WITCH_NAME} sat with them in the lounge. They turn on the girl who went down to call her in.",
+          "Then one prisoner looks again at the photo of the scene on her phone. On the path, where the leader lay before she made way, there is a wet outline in the shape of a girl lying down. They realize the leader had already drowned; her body had drawn aside before {WITCH_NAME} like any other thing in her path."
         ],
-        "epitaph": "Obedience replaced companionship, leaving her with an audience but no company.",
-        "epithet": "The Queen of an Empty Court",
+        "epitaph": "She had only to stand still for someone to come to her; the one who came, she held under.",
+        "epithet": "Princess of the Cleared Floor",
         "execution": [
-          "The execution stand clamped her neck across a sill beneath a raised, pleated steel curtain. The curtain dropped shut, its bladed hem shearing through her neck. When the steel curtain rose from the neck restraint, her body remained motionless on the stand."
+          "The execution stand raises a turning iron dance floor and a single iron partner. Its iron hand locks around hers, and its arm closes round her ribs. The partner walks into her and does not step aside; she steps backward to its lead. At every turn, its arm tightens round her ribs. It waltzes on around the floor with her hanging still in its hold, while iron guests at the edge clap."
         ],
         "magic": {
-          "name": "Parting Walls",
-          "text": "She can gather solid barriers into curtain folds, opening them and drawing them shut again."
+          "name": "Make Way",
+          "text": "Wherever she walks, people and things in her path move aside on their own to let her pass."
         }
       },
       "variant": 1

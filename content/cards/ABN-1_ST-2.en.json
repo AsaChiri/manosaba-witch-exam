@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "In earlier courtyard lessons, the victim steadied the crossbow for {WITCH_NAME} and guided her aim. Today, they took those guiding hands away, leaving her to aim unaided, then stepped back from the firing line until they stood directly behind her.",
-          "{WITCH_NAME} fired a bolt toward a tree, then moved sideways out of its path. While it was still flying outward, her Magic reversed it. The bolt raced back nock-first, pierced the victim's chest, and killed them.",
-          "A prisoner found the bolt's point protruding from the front of the victim's chest. Although that prisoner remembered seeing {WITCH_NAME} fire toward the tree, the protruding point made the prisoners think the fatal bolt had passed through the victim from behind. But a prisoner examined the victim's back and found the skin unpierced. The intact back exposed the trick: the fatal bolt was the outward shot, turned back to strike from the front."
+          "Every evening at dusk, {WITCH_NAME}'s roommate walked down to the lake shore and posted the sunset to the prison chat from her phone, so the girls inside could see it too. Since the first cold night, she had worn {WITCH_NAME}'s cardigan on every walk.",
+          "One evening, before her walk, she folded the cardigan in the lounge and handed it back. \"It's warm enough now. Thank you for keeping me warm all winter.\"",
+          "Long ago, {WITCH_NAME}'s mother had returned the neighbor's ladder and sugar tin, and {WITCH_NAME} had helped carry them back. By the next morning, her mother was gone.",
+          "At the prison entrance, {WITCH_NAME} pulled the cardigan on and watched her roommate walk down to the lake. Before the sun set, she fixed her eyes on the shore beside the girl and was standing there. She closed both hands around her roommate's throat and did not let go until she was still.",
+          "Before sunset she was sitting among the girls in the lounge, the cardigan on, and she kept it on all evening, until the body was found. As the sun went down, she slipped out to the entrance hall for half a minute. At the same moment, the prisoners in the lounge saw her roommate's sunset photo arrive in the chat, just as it did every evening.",
+          "In the trial court, the prisoners ruled that the girl had been strangled on the shore after sending the sunset, while {WITCH_NAME} had never been gone for more than half a minute.",
+          "Then one prisoner spotted a dark knit cuff in the corner of the last sunset: the cardigan that had been given back. Every earlier sunset was clean. They realized {WITCH_NAME} had strangled her roommate first, then spent her half minute standing at the lake, taking the sunset herself."
         ],
-        "epitaph": "Letting go meant trusting her to stand on her own. She never understood.",
-        "epithet": "Braced for Goodbye",
+        "epitaph": "Some people hand a thing back fully meaning to borrow it again.",
+        "epithet": "Always There Before the Goodbye",
         "execution": [
-          "The execution stand holds the witch flat on her back beneath a pendulum blade. The blade begins to swing. Each time it returns, it cuts deeper into her chest before sweeping away. Even after she lies motionless, it keeps coming back."
+          "The execution stand raises an iron slab with her chained on her back, beneath a huge iron hand full of borrowed things. One after another, the hand gives them back, setting each on her chest: an iron ladder, then an iron sugar tin. Last, it lays a folded iron cardigan on top. Warm enough now. Then the hand rises away into the dark. Her eyes follow it until she no longer stirs."
         ],
         "magic": {
-          "name": "Reverse Course",
-          "text": "She can reverse the direction of anything physical that's moving."
+          "name": "One Glance Away",
+          "text": "She can step instantly to any spot she looks at."
         }
       },
       "variant": 1

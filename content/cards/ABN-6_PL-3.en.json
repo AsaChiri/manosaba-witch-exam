@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "One evening in their cell, a girl confided her fear of the night to {WITCH_NAME} and squeezed her hand. The next day, at another prisoner's urging, {WITCH_NAME} repeated the secret to the prisoners in the dining hall. The girl overheard one of them retelling it. She summoned {WITCH_NAME} before the others there that night and demanded a public explanation.",
-          "During evening free time, before the confrontation, {WITCH_NAME} led the girl to the upper railing for a private apology. She stationed a second self in the courtyard below, then pushed the girl over the railing from the second-floor hall. When the girl struck the ground, the waiting body knelt beside her and called for help. From the courtyard, she claimed the girl had slipped over the railing alone.",
-          "While examining the body, a prisoner opened the girl's clenched fist and found a scrap torn from a cuff. The cloth matched {WITCH_NAME}'s sleeve. A prisoner also remembered that both of her cuffs had been intact when she called for help. The contradiction exposed the hidden contact: another body of {WITCH_NAME} had been with the girl at the upper railing before she fell."
+          "Every night at nine, one prisoner walked the halls. Whenever she found a girl alone, she sat beside her and drew an ink sun on the back of her hand. By morning it was gone.",
+          "{WITCH_NAME} said yes to every prisoner's request and sent another of herself to do it. Only the girl with the suns had ever seen two of her. On the few nights {WITCH_NAME} happened to be alone when that girl passed, the girl drew a sun on her hand too, and {WITCH_NAME} kept that hand dry until it faded.",
+          "One evening at supper in the dining hall, the girl laughed and told her, \"There's enough of you for everyone. I'll keep my suns for girls who have nobody.\"",
+          "When {WITCH_NAME} was small, her foster mother sat each night on the bed of whichever child was crying. {WITCH_NAME} did every chore she was asked and never cried, and through the wall she heard her foster mother singing.",
+          "At nine one night, {WITCH_NAME} sent one of herself to sit alone at the upper railing while she stayed among the girls at the supper table. The girl found her there, sat beside her and drew a sun on her hand, knowing the rest of her was at the table. As the girl stood to go on to the next girl, {WITCH_NAME} took her by the legs and tipped her headfirst over the railing onto the path below.",
+          "At trial, the prisoners ruled that the girl had fallen alone from the railing on her rounds. From the time the girl set out until she was found, {WITCH_NAME} never left the supper table.",
+          "Then a prisoner noticed the back of {WITCH_NAME}'s hand: an ink sun, still unwashed, though she had sat among them at nine. She had let the copy at the railing go, and it had folded back into her, bringing its sun with it. The prisoners understood. The girl had not fallen alone; one of {WITCH_NAME} had sat beside her at the railing."
         ],
-        "epitaph": "She never said no, so she never learned who loved her enough to stay.",
-        "epithet": "Everybody's Yes-Girl",
+        "epitaph": "There was only ever one girl who drew suns, and now there is none of her for any girl left alone.",
+        "epithet": "The Girl Enough for Everyone, Whom No One Sat Beside",
         "execution": [
-          "The execution stand clamps a pleading mannequin to each of her wrists and ankles. Each one pulls in a different direction until her limbs tear free, then departs with one. The body left at the center does not move."
+          "In the trial court, the execution stand chains her to a post inside a ring of iron girls cast in her likeness, each facing outward toward a different spectator. Then the iron girls turn inward. They close in from every side until their iron shoulders press her against the post, and they hold. At last they step back and turn outward again, each to a different spectator. She hangs still at the post, with no one facing her."
         ],
         "magic": {
-          "name": "One into Many",
-          "text": "She can multiply herself into several bodies that act at the same time."
+          "name": "Many of Me",
+          "text": "She can split into several complete copies of herself, each fully her, in different places at once."
         }
       },
       "variant": 1

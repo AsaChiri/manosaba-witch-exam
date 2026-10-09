@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week, a girl had joined {WITCH_NAME} in a private performance in the reception room, taking the play’s second role. Today, encouraged by it, she used her phone in the lounge to invite the prisoners to a reading.",
-          "“You’ll only laugh at it,” {WITCH_NAME} told the prisoners. The girl handed one prisoner the private script anyway, giving them a copy to follow. In response, {WITCH_NAME} used her Magic to leave a living duplicate of herself in the lounge. While the duplicate kept the prisoner talking by improvising a hopeful ending to the play, {WITCH_NAME} fatally stabbed the girl in the chest with a sword in the reception room, before the reading began.",
-          "When the girl’s body was discovered in the reception room, that prisoner gave {WITCH_NAME} an alibi: the two had been talking continuously in the lounge. But during that conversation, the prisoner had bandaged the woman’s blistered right palm after a tea scald. Examining {WITCH_NAME}’s right palm now, the prisoner found uninjured skin. That mismatch unraveled the alibi: the prisoner had been talking to {WITCH_NAME}’s living duplicate."
+          "Every afternoon in free time, one girl sat by the lake counting the woodpecker's trips to its nest in the dead pine, and asked {WITCH_NAME} the name of every bird. {WITCH_NAME} sat on a root by the shore, ten paces from the pine, and named them for her. The other prisoners warned the girl that the dead pine would come down on her one day; it leaned right over the spot where she stood to count.",
+          "When the chicks hatched, the girl brought the others to see them. {WITCH_NAME} was telling them about the birds when one of them yawned, and the girl cut in: \"Short version? They're cute.\" Everyone laughed, and so did the girl who had said it.",
+          "Once, at dinner at home, {WITCH_NAME} had been naming the birds at the feeder when her brother asked for the short version. The table laughed. \"They're birds,\" she said, and she never named a bird aloud at home again.",
+          "\"They're birds,\" she said by the lake, and nothing more. She sat back down on her root.",
+          "The girl stood under the pine's lean, pointing up at the nest. {WITCH_NAME} laid her palm flat on the root beneath her. The pine's roots gave all at once, and the tree toppled along its lean and crushed the girl beneath its trunk. The prisoners saw the dead pine fall on its own, just as they had warned, while {WITCH_NAME} sat among them ten paces off.",
+          "After the body was carried in, a prisoner sat down on the root that had held {WITCH_NAME} all afternoon. It crumbled to dust under her, and the crumbling ran on beneath the moss all the way to the pine's stump.",
+          "In the trial court, the prisoners understood. The rot in the pine's roots had run to its end under {WITCH_NAME}'s palm. She had had her hand on the tree the whole time."
         ],
-        "epitaph": "Certain they would laugh, she ended the story before she could learn whether they might welcome her.",
-        "epithet": "The Storyteller Who Swallowed Her Words",
+        "epitaph": "Tomorrow, the girl might have asked for the long version: every single name.",
+        "epithet": "She Who Skips to the Ending",
         "execution": [
-          "The execution stand clamps her inside a puppet stage with a troupe of marionettes in her likeness. The marionettes lower a bladed curtain through her neck, then bow before her severed head in a final curtain call."
+          "The execution stand raises a giant iron book, its covers spread wide open. She is chained on her back across the left-hand pages.",
+          "The iron pages turn over onto her chest one by one, each engraved with a bird and its name. Not one is skipped.",
+          "With the last page, the book falls shut and lies closed and still."
         ],
         "magic": {
-          "name": "Second Selves",
-          "text": "Create living copies of yourself, each with an independent mind and will."
+          "name": "Full Bloom",
+          "text": "Whatever she touches mid-change reaches its finish at once: buds bloom, fruit ripens, cuts heal."
         }
       },
       "variant": 1

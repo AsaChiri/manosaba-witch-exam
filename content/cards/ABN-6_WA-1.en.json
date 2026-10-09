@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Early in their friendship, the girl comforted {WITCH_NAME} by braiding her hair in her cell. After the girl canceled a visit, she returned to apologize, but {WITCH_NAME} rejected her apology.",
-          "Today, instead, {WITCH_NAME} used her Magic to give that memory living form: the remembered girl sat in the cell and braided her hair again. In the lounge, the girl demanded that {WITCH_NAME} stop impersonating her. The girl began typing a warning to the prisoners on her phone. Before she could send it, {WITCH_NAME} drove a sword into her chest, killing her. She covered the girl with a blanket on the lounge sofa, making her look asleep. Then she shared a meal in the dining hall with the girl from her memories.",
-          "One prisoner reported seeing the girl eat with {WITCH_NAME} after their quarrel and believed she had survived. But the girl's roommate lifted the blanket in the lounge and found her bloodied body. That same prisoner had received the roommate's call reporting the discovery while the meal was still underway. The prisoners understood then: the girl at dinner had been a living companion made from {WITCH_NAME}'s memory, counterfeiting her survival."
+          "Every snowy dusk, one girl made a snow rabbit for each prisoner on the rim of the courtyard fountain, always setting {WITCH_NAME}'s beside her own. The first time she took {WITCH_NAME}'s hand, {WITCH_NAME} used her Magic to turn her palm stove-hot, burning the girl's fingers. The next dusk she came back in mittens and held the hand anyway, and every dusk after.",
+          "One evening a girl stood shivering by the fountain. The rabbit-maker let go of {WITCH_NAME}'s hand, pulled off her mittens and put them on the shivering girl. \"You're always warm,\" she told {WITCH_NAME}. \"You don't need mittens.\"",
+          "{WITCH_NAME}'s mother had come home only some nights, and when she did, she wrapped her daughter in her coat. One winter night she unbuttoned it, drew it away from her daughter and wrapped the new baby in it instead. \"You're a big girl. Keep yourself warm.\"",
+          "Once the shivering girl had gone in, {WITCH_NAME} pressed the rabbit-maker's face into the snow on the fountain rim and held it there until she stopped moving. Then she gathered the dead girl into her lap, turned her own skin stove-hot, and held her until her cheeks and hands were warm again. She laid her back in the snow, went in, and sat down to supper with the other girls in the dining hall.",
+          "Before supper ended, the prisoners found the girl by the fountain, her cheek still warm, as if she had been alive only minutes ago. In the trial court they ruled she had been attacked after {WITCH_NAME} sat down to eat; the girl at the table could not have done it.",
+          "Then one prisoner lifted the dead girl's coat and found two handprints scorched into its back, brown singe marks in the wool. Only then did they understand: stove-hot hands had held the warmth in, and she had died before supper began."
         ],
-        "epitaph": "She claimed tenderness as hers and forfeited the chance to have it returned.",
-        "epithet": "Bristling Solitude",
+        "epitaph": "At last she kept a warmth, but only by holding someone who could no longer leave.",
+        "epithet": "The Girl Who Keeps Herself Warm",
         "execution": [
-          "The execution stand's iron hands closed around hers and held them outstretched. Without releasing their grip, they pulled her arms outward. They kept pulling until both arms tore free, then held the severed arms as her body went still."
+          "The execution stand chains her upright, then raises before her an iron woman holding an iron greatcoat open. The iron woman wraps the coat around her and fastens it button by button, from the hem upward, each button drawing it tighter. Inside it, she flares stove-hot; the seams glow a dull red and hold. The iron woman fastens the last button, and the high collar closes over her mouth and nose. Then the iron woman lifts an iron bundle to her chest and turns away. \"You're a big girl. Keep yourself warm.\" The greatcoat stops moving, and the glow fades from its seams."
         ],
         "magic": {
-          "name": "Living Memory",
-          "text": "She can turn her memories of people into living, tangible companions."
+          "name": "Fever and Frost",
+          "text": "She can turn her skin stove-hot or ice-cold at will, and never feel it herself."
         }
       },
       "variant": 1

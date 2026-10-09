@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "A girl used to share two bowls of supper with {WITCH_NAME} in the reception room, just the two of them. At each meal, {WITCH_NAME} recited old slights to the girl until she had worked herself back into anger.",
-          "Today, the girl moved their bowls to side-by-side places at the communal table in the dining hall. She would no longer deliver supper in private; from now on, {WITCH_NAME} would always have a place beside her at the table. In answer, {WITCH_NAME} drove a sword through the girl's chest in the lounge. As footsteps approached, she slipped through a paper fold and into the full-sized reception room it held.",
-          "A prisoner found the girl in the lounge gripping the sword's hilt. To the prisoners, the scene looked like self-impalement. Then one prisoner followed bloody footprints across the threshold of the paper fold. Beyond it was the reception room, where {WITCH_NAME} stood with blood on her shoes. At the trial court, the prisoners used that trail to overturn their first reading: the lounge had seemed empty only because {WITCH_NAME}, the hidden assailant, had retreated into the folded room."
+          "Every time it snowed, one girl went out to stand under the courtyard tree and listen to the snow fall. She would ask {WITCH_NAME} to shout the snow off the branches, and when that voice struck them like a gale, it all came down on her at once while she laughed underneath.",
+          "One snowy night the girl never came to fetch her, and {WITCH_NAME} raged at the prisoners in the lounge until the snow stopped. Afterward, from under the laden tree, the girl told her, \"Stay by the door. I want it quiet tonight.\"",
+          "Once, when she had asked to unpack, her foster mother set her packed bag by the front door. \"Leave it by the door, love. You won't be staying.\"",
+          "From the doorway, she shouted at the girl with all her voice. The gale slammed the girl back against the trunk. She kept shouting until the tree was bare, and its snow poured down and buried the girl where she fell.",
+          "Before lockup, the girl's roommate found her dead against the trunk under deep snow, with no fresh tracks leading to her. In the trial court, the prisoners concluded she must have died early in the snowfall, while {WITCH_NAME} was still raging in front of them. But one prisoner had looked up from the body and seen bare branches above it, while every other tree was still white. The prisoners realized that after the snow stopped, her shout had slammed the girl into the trunk and brought the tree's snow down on top of her."
         ],
-        "epitaph": "Belonging had a place for her; she chose exile anyway.",
-        "epithet": "The Eternal Outsider",
+        "epitaph": "The only girl who ever asked her to shout was the one she shouted away.",
+        "epithet": "The Girl Kept by the Door",
         "execution": [
-          "The execution stand clamps her flat against the cutting bed of a paper guillotine, holding her in place like a sheet. Its trimming blade swings down and shears through her neck as if cutting paper. Once the cut is complete, the guillotine settles against its bed, and her body lies motionless."
+          "The execution stand rises in the trial court as a tower of doorframes from every house, with a front door at its top. She is buckled inside her packed bag on the doorstep up there, only her face showing.",
+          "The front door swings open outward onto empty air, and the doorstep tips forward. She shouts at the open door, and her gale only blows it wider. The bag slides out through the doorway, falls, and strikes the stone floor of the court.",
+          "Above her, the front door swings shut. The bag lies still at the foot of the tower."
         ],
         "magic": {
-          "name": "Foldaway Rooms",
-          "text": "With her Magic, she can fold a room into portable paper; people can still step through a fold into the full-sized room inside."
+          "name": "Gale Voice",
+          "text": "Her shout hits like a gale, blowing back whatever it reaches."
         }
       },
       "variant": 1

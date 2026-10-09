@@ -10,19 +10,28 @@
     {
       "fields": {
         "crime": [
-          "On earlier evenings, the girl would sit beside {WITCH_NAME} on the lounge sofa and hold her hand until her nightmares passed. Again and again, {WITCH_NAME} asked if they would stay together, and the girl always promised they would.",
-          "Today, the girl demanded that she stop letting one prisoner into their shared dreams. If she refused, the girl said, she would never spend time with her again. During evening free time, {WITCH_NAME} brought the girl into her own dream so they could talk alone. There, she said the prisoner wanted to apologize in private and had asked the girl to meet her in the shower room. They woke together in the cell, each back in her own body.",
-          "Convinced that the invitation was genuine, the girl went to the shower room for the private apology. {WITCH_NAME} came up behind her and strangled her to death with a towel. Afterward, she insisted that the prisoner herself had invited the girl directly.",
-          "The prisoner showed her phone to the prisoners. In the chat, the girl had asked why {WITCH_NAME} had relayed the invitation; the prisoner denied sending it. They put the two together: {WITCH_NAME} had hidden her role as the go-between."
+          "Every evening at free time, her roommate called the prisoners out to the courtyard for hide-and-seek, and no one ever found her.",
+          "Every night in their cell, {WITCH_NAME} asked her out loud, \"Will you still want me tomorrow?\" All day long she had heard the roommate's fond thoughts whispered at her ear, and still she asked.",
+          "One evening in the dining hall, the roommate laughed and announced, \"For one week I'm hiding from you. I won't think of you once.\"",
+          "Long ago, a foster mother had put her things in a pillowcase and said, \"Let's try one more week.\" At the end of that week, she was sent back.",
+          "Later that evening, in the lounge, she heard her roommate's voice whisper at her ear. It was the first time all evening the roommate had thought of her: \"She'll never look for me in the guest house.\"",
+          "She went to the guest house. She did not call out \"Found you.\" She struck her roommate from behind with a stone until the girl stopped moving.",
+          "Then, until lights-out, she went from room to room asking everyone, \"Have you seen her?\"",
+          "In the trial court, the prisoners ruled her out. She had spent the whole evening asking where her roommate was; she never knew where to look, so the guest house had been beyond her reach.",
+          "Then one prisoner remembered what the roommate had said at dinner: she would hide in the one place {WITCH_NAME} would never think to look. To choose that place, the roommate had to think of her.",
+          "The prisoners understood. Every thought of that hiding place had reached her ear. Of everyone in the mansion, only she had known where to go."
         ],
-        "epitaph": "Being allowed to stay was never the same as being loved.",
-        "epithet": "A Guest Whose Welcome Could End",
+        "epitaph": "Even while hiding from her, her roommate never once stopped thinking of her.",
+        "epithet": "The Girl Kept One More Week at a Time",
         "execution": [
-          "The execution stand straps the witch to a bed beneath a suspended pillow. The pillow descends over her face and keeps pressing. Her pleas for someone to promise they will stay emerge only as muffled sounds. The pressure does not ease until those sounds fade and she lies still on the bed, answered only by silence."
+          "The execution stand in the trial court holds an iron wardrobe. It shuts her inside, standing, with a grille level with her eyes.",
+          "Sand pours over her head and begins to rise. Her fingers hook through the grille.",
+          "The sand climbs until it spills out between the bars. Her fingers go still.",
+          "The stand lowers the wardrobe through the floor, and the floor closes over it, in a place where no one will look."
         ],
         "magic": {
-          "name": "Dream Rendezvous",
-          "text": "She can bring sleeping people into her own dream, where they all share one dream world with her."
+          "name": "Thinking of You",
+          "text": "She hears every thought anyone has about her, whispered at her ear in their own voice."
         }
       },
       "variant": 1

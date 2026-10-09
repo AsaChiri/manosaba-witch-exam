@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, {WITCH_NAME} mimed a solid, invisible umbrella overhead; a girl linked arms with her beneath it, and they laughed together. The previous evening, trusting that warmth, {WITCH_NAME} had spoken seriously to the girl about her loneliness.",
-          "Today, in the dining hall, the girl turned that confession into a comedy routine for the prisoners and promised an encore at the evening meal. During afternoon free time, she napped on the lounge sofa with a blanket over her chest. After hearing that promise, {WITCH_NAME} went to the lounge. She mimed a dagger into solid, invisible form and drove it through the blanket into the girl's chest, leaving the blade embedded. The blanket hid the wound and blood; only the invisible hilt protruded above it.",
-          "A prisoner later found the girl on the sofa and thought she was still asleep. When the prisoner reached to wake her, their hand struck something solid above her chest. They pulled it free: an invisible dagger, traced in blood that seemed to hang in the air. At the trial court, the blood-outlined dagger revealed that the girl's apparent nap had concealed {WITCH_NAME}'s stabbing."
+          "In middle school, {WITCH_NAME}'s classmates burst out laughing at nothing, then stopped to watch her laugh on alone. \"I never know what's funny,\" she says. \"I only know when everyone's about to laugh.\"",
+          "On Friday film nights in the recreation room, the projectionist runs the show from the pool table, watching faces, not the screen. {WITCH_NAME} laughs first from the front row, and the room roars with her. Before one Friday comedy, the projectionist asks her not to laugh first tonight: \"I watch you. You read our faces and laugh just before we do. Let them find the funny part themselves.\"",
+          "So she sits silent, hands in her lap, while the room chuckles at the first joke without her. At the funniest scene she laughs anyway, and her Magic doubles the whole dark room over, the projectionist too. No one who hears her can stop until she does.",
+          "Still laughing, she walks back through the doubled-over room and presses a pool cue across the projectionist's throat from behind. They laugh together until the projectionist goes limp. She props her upright against the projector, head bowed, and is back in her seat before she stops laughing.",
+          "As the laughter dies, the girl beside the pool table sees the projectionist sitting up, head bowed. In the trial court, the prisoners accuse that girl: the projectionist sat up after the laugh and no shadow crossed the screen, so only she could have reached her in the quiet.",
+          "A prisoner turns over the projectionist's hands, looking for the accused girl's skin. The nails are clean; the throat bears not a single scratch. The prisoners understand: the projectionist never clawed at the cue because she was laughing. She died inside the laugh, when only the girl whose laugh held the room could move."
         ],
-        "epitaph": "Long after the laughter died, silence was the only answer to her loneliness.",
-        "epithet": "The Unheard Comedian",
+        "epitaph": "The one time she and the girl who watched faces laughed at the same thing, nothing was funny.",
+        "epithet": "First to Laugh, Never in on the Joke",
         "execution": [
-          "The execution stand holds her against the back wall of a glass box. The glass front closes in. She raises both palms in a wall mime, but the pane forces her arms back until it reaches her chest, holding her hands flat against it. She struggles; then her palms stop moving, and she goes still."
+          "The execution stand raises an iron jester's head, its mouth wide open in a laugh. She stands chained upright on its tongue, facing rows of iron spectators with painted grins.",
+          "She searches the painted faces for the laugh that would tell her when to laugh. None comes.",
+          "The upper jaw comes down onto her head and shoulders and keeps closing, folding her down onto the tongue.",
+          "The jester's head stands with its laughing mouth shut, and the iron spectators go on grinning in silence."
         ],
         "magic": {
-          "name": "Make-Believe Made Solid",
-          "text": "Any inanimate object you mime becomes physically real, solid, and invisible."
+          "name": "Contagious Laughter",
+          "text": "Everyone who hears her laugh catches it and laughs along as if it were their own."
         }
       },
       "variant": 1

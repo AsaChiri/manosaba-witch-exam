@@ -1,0 +1,36 @@
+{
+  "cell": "DEF|Concealer",
+  "copingSub": "CO-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Concealer",
+  "tag": "DEF-6_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME}'s mother took her from doctor to doctor; none found anything. \"Then it's something nobody can see,\" her mother said. After that she kept her look unchanged, so no one started looking.",
+          "One girl went out to the lake in every rain and stood face up; back home, first rain meant the crops would survive. She always invited {WITCH_NAME}, who always went; her Magic let the rain run off her without wetting a hair.",
+          "At dinner, as the rain began, the girl held out her hand across the table. \"Tonight, let the rain touch you. I want to see you wet or crying once, like the rest of us.\" Every face in the dining hall turned to {WITCH_NAME}, waiting.",
+          "The girl went to the lake alone; {WITCH_NAME} went to her cell. Minutes later her roommate found her crying on her bunk bed, the first tears anyone had seen on her. Sent away, the roommate told the girls in the lounge.",
+          "{WITCH_NAME} walked through the rain to the shore. The girl saw the tears and held out her hands, glad; {WITCH_NAME} closed hers round the girl's throat until she was still.",
+          "An hour after dinner, {WITCH_NAME} came into the lounge still crying, hair and dress dry, and sobbed by the fire, face in her hands. When the girl missed lockup, the prisoners found her dead on the shore, throttled in the open downpour, and came back soaked.",
+          "In the trial court, the prisoners reasoned: the killer had stood minutes in that downpour. {WITCH_NAME}'s Magic had been off since she was found crying, and she had come in dry, so she had never been out.",
+          "But in hours of sobbing, not one tear had fallen or dried. A prisoner reached to wipe the one at her chin; under the thumb it stayed bright and unmoved.",
+          "Once her roommate left, she had fixed her look, tears and all, then walked through the rain and back without a drop on her."
+        ],
+        "epitaph": "Her tears were real. She only kept them where no one could ever wipe them away.",
+        "epithet": "The Unweathered Girl",
+        "execution": [
+          "The execution stand raises the dining chair she sat in, tipped back beneath a low grey rain cloud, with her strapped into it and her face turned up. Rain begins to fall, then hardens into hail, stones as big as fists. They pound her upturned face and chest and bounce off without leaving a mark; her hair and dress do not change. At last the cloud empties and thins away. She lies still in the tipped chair on a bed of melting hail, the tear still bright at her chin. The spectators lean forward and look her over, and can find nothing wrong with her."
+        ],
+        "magic": {
+          "name": "Picture Perfect",
+          "text": "She can fix her look as it is, so no rain, wind, dirt, tears or tiredness can change it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, a girl told {WITCH_NAME} that the others had accepted {WITCH_NAME}'s invitation to sculpt together. At that, {WITCH_NAME} insisted on drafting her reply alone and turned down the girl's offer to help. Her refusal prompted the girl to admit that the invitation had begun as a blunt demand; she had softened it into a friendly request. She said she would not relay any more messages for {WITCH_NAME}, then retired alone to the reception room.",
-          "In answer, {WITCH_NAME} stopped time in the lounge. With the world frozen, she crossed to the reception room and drove a sword into the girl's chest, killing her. She returned to her seat and let time resume.",
-          "During the sculpting session, a prisoner had kept a phone recording {WITCH_NAME} in the lounge. When the body was found, the uninterrupted view of her seated there seemed to give her a perfect alibi. At the trial court, however, one prisoner recalled her earlier assurance that she alone could move while time was stopped. The prisoner compared two adjacent moments in the recording: a fold of her skirt pointed inward, then outward, without any movement between. The alibi reversed itself. The phone had stopped with the rest of the world; {WITCH_NAME} had left the lounge and returned between its recorded moments."
+          "When {WITCH_NAME} was small, her partner in the three-legged race untied the band at the start line and ran off alone. {WITCH_NAME} walked the course by herself, holding the loose band.",
+          "In the prison, one girl walked the lake path every evening, arm in arm with any girl she found walking alone. It was the one offer {WITCH_NAME} never turned down, though their steps never matched. One evening in free time, they stumbled again. The girl let go of her arm, laughing. \"Walk with yourself. You'll never trip over you.\" Then she took the arm of another girl walking alone.",
+          "{WITCH_NAME} split into two identical selves and walked on, arm in arm with herself, in perfect step.",
+          "The next evening, before dusk, two of her took the girl by either arm, walked her into the lake in step, and held her under until she was still.",
+          "At dusk, the prisoners stood on the shore with {WITCH_NAME} beside them and watched the girl, in her hooded coat, walk alone into the lake and go under. They pulled her body from the reeds without its coat, and the coat from the shallows.",
+          "In the trial court, a prisoner turned the empty coat over. It was still buttoned to the chin. When {WITCH_NAME} folds a self back in, anything that self picked up after the split stays where it was. The prisoners understood: a self of hers had worn the coat into the water and folded away inside it."
         ],
-        "epitaph": "Solitude had the last word. No one answered.",
-        "epithet": "An Island Unto Herself",
+        "epitaph": "The only girl who ever kept step with her was held to it by two of her, all the way into the lake.",
+        "epithet": "The Girl Left Holding the Untied Band",
         "execution": [
-          "The execution stand locks her flat beneath a pendulum clock. Its bladed pendulum swings across her chest, each pass cutting deeper. Her body goes still, but the blade keeps swinging and the clock keeps ticking without pause."
+          "The execution stand chained her upright to a post and raised a ring of iron girls around it, arms linked, every one of them her exact double. The ring marched inward in perfect step. Her feet stumbled, trying to fall into their step. The linked iron arms closed around her chest and pressed her to the post. Then the ring stood closed, marching in place, in step, with no gap left where she had been."
         ],
         "magic": {
-          "name": "Stop the World",
-          "text": "She can stop time for the world around her while remaining free to move."
+          "name": "Lockstep",
+          "text": "She can split into identical selves that move in perfect step, then fold them back into one."
         }
       },
       "variant": 1

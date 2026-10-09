@@ -10,18 +10,25 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} had told only one girl how she grew up in a cult and escaped. At midday, that girl forwarded the story to the prison group chat. The replies showed how far it had spread.",
-          "That evening, {WITCH_NAME} asked to meet the girl alone in the lounge. The reply came: the girl was waiting. Before entering, she fixed her skin's appearance, calm and unmarked. She took the crossbow from the wall, held its stock against her shoulder, and shot the girl in the chest at close range. She wiped the weapon, hung it back up, and left looking untouched.",
-          "The prisoner who found the body also found a triangular wood chip that fitted a fresh break in the crossbow's shoulder stock. Its broken corner would have struck the shooter with the recoil. {WITCH_NAME}'s shoulder looked smooth, but when the prisoners touched it, they felt a fresh triangular welt matching the break. Her magic had hidden the swelling, and the dead girl's last message had placed their meeting there."
+          "When {WITCH_NAME} was thirteen and her mother left, her best friend read her letter aloud to the whole class so they'd be kind. After that, she answered everything with \"I'm fine.\"",
+          "Every Sunday by the lounge fire, one prisoner read out the unsigned slips from her worry tin. \"A worry said aloud weighs less.\" {WITCH_NAME} always sat beside her and never added one.",
+          "\"Someone here has carried this alone too long,\" the girl said one Sunday, and read out {WITCH_NAME}'s first letter since that classroom. {WITCH_NAME} had touched it: only the girl could read it; everyone else saw a laundry list. The whole lounge turned to {WITCH_NAME}. She smiled at them. \"I'm fine.\"",
+          "The next evening she asked the girl to the shower room at seven. \"No one can hear in there. I'll tell you the rest. Only you.\"",
+          "Before seven, the girl pinned her usual slip to her barred cell door so no one would wonder: \"Shower room. Back by eight.\" At seven, {WITCH_NAME} pressed a hand over the mouth that had read her letter aloud and held her down on the wet shower-room tiles until she was still.",
+          "At twenty past seven, walking to the lounge with {WITCH_NAME}, the girl's roommate read the slip: \"Back by eight.\" At half past eight, prisoners fetching cardigans read \"Back by ten.\" At half past nine they found the girl on the shower-room tiles. In the trial court, they decided she had come back after twenty past seven to change it and died while {WITCH_NAME} sat in the lounge.",
+          "The roommate read it again: still \"Back by eight.\" Beside her, someone read \"Back by ten.\"",
+          "Returning through the cell corridor, {WITCH_NAME} had touched the slip so only the roommate saw its real words. The prisoners understood: the slip had never changed. The girl had died before twenty past seven, when no one knew where {WITCH_NAME} was."
         ],
-        "epitaph": "Beneath the same smile, nothing had stayed the same.",
-        "epithet": "The Unbroken Smile",
+        "epitaph": "Her letter had one reader. Now it has none, and to every eye it says nothing at all.",
+        "epithet": "The Girl Who Is Always Fine",
         "execution": [
-          "A clear, flexible hood descended over her head and shoulders and tightened against her face. Its surface moved with every breath and struggle. It sealed over her nose and mouth and stayed there as the movements weakened and stopped."
+          "A barred cell door as tall as the court rises on the execution stand, and she is chained upright with her back to its bars. Facing her is a brass slip pin as long as a spear. A paper slip hangs across her chest for every spectator to read: \"I'm fine.\"",
+          "The pin drives through the slip over her heart and pins her to the bars like a notice.",
+          "She hangs still on the bars. To every eye, the slip still reads \"I'm fine.\""
         ],
         "magic": {
-          "name": "Fixed Appearance",
-          "text": "She can freeze the visible appearance of her skin."
+          "name": "For Your Eyes Only",
+          "text": "Any page she touches shows its real words only to readers she chooses; everyone else sees harmless, ordinary words."
         }
       },
       "variant": 1

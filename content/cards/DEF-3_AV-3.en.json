@@ -10,20 +10,25 @@
     {
       "fields": {
         "crime": [
-          "For weeks in the dining hall, {WITCH_NAME} confided in her dining companion that she was sickened by unwanted thoughts of poisoning someone. Whenever they ate together and she hesitated over her jam sandwich, her companion would take the first bite and share the meal with her to reassure her.",
-          "But that day in the lounge, the companion turned those confidences against her and demanded that she sign a false confession to attempted poisoning. Unless she signed, the companion warned, all the prisoners would hear about her thoughts at the evening meal. As her companion swiped past a medical photograph on a phone, {WITCH_NAME} used her Magic to live through hours inside that instant, long enough to learn that the companion's nut allergy could be fatal.",
-          "The threat drove her to the dining hall during evening free time, where she spread nut paste inside a jam sandwich. She served it to her companion as an offer of reconciliation. Her companion took the familiar first bite, collapsed, and died from the allergic reaction. The prisoners assumed the nut allergen had come from accidental cross-contamination.",
-          "Then one prisoner separated the slices. Beneath the jam lay a continuous layer of nut paste. At the trial court, a prisoner drew the conclusion: an unbroken layer was a deliberate filling, not utensil residue, so {WITCH_NAME} had served the allergen hidden beneath the jam."
+          "Every evening, {WITCH_NAME}'s roommate set a second cup on the rim of the courtyard fountain.",
+          "Every evening, {WITCH_NAME} stopped dead in the courtyard doorway. On the brink of stepping out, she watched it all play out first: herself sitting down beside her roommate, and nothing happening, nothing at all. And every evening she still turned back.",
+          "When she was eight, she had told her mother she'd pictured holding her baby brother under the bathwater. Her mother lifted him out of the bath and never let her bathe him again. A girl who could picture it, her mother believed, was the kind of girl who would.",
+          "One evening her roommate said she would wait on the rim until {WITCH_NAME} drank her cup. \"I won't come in until you do.\"",
+          "That evening {WITCH_NAME} froze in the doorway again, on the brink of going out, and watched herself find her: her roommate face down in the basin, the cup sunk beneath her, her own hands on her roommate's back. Too late.",
+          "She turned back from the doorway and told no one. All night she lay in their cell beside her roommate's empty bunk bed.",
+          "At unlock, the prisoners lifted her roommate out of the basin. The second cup lay sunk beneath her.",
+          "In the trial court, {WITCH_NAME} named the cup beneath her before anyone else had. All she would say was, \"I saw my hands on her back in the water.\"",
+          "The prisoners ruled that she had gone out and held her under. A girl who had only seen it, they said, would have run to her.",
+          "But her roommate had slipped on the wet rim before {WITCH_NAME} ever reached the doorway. She struck her head and fell face down into the basin. The hands {WITCH_NAME} had watched on her back were hauling her up: a rescue already too late, and one she never began."
         ],
-        "epitaph": "Her unwanted thoughts had required no penance; the murder made that penance irrevocable.",
-        "epithet": "The Penitent Without a Sin",
+        "epitaph": "She never stepped out of the doorway: not to kill her, and not to save her.",
+        "epithet": "The Girl Who Only Watched from the Doorway",
         "execution": [
-          "The execution stand locks her flat beneath a bladed pendulum aligned with her chest. The blade sweeps across her again and again, each pass cutting the wound deeper.",
-          "Between strokes, as the blade returns but before it cuts again, she uses her Magic to stretch its approach into subjective hours and searches them for a way out. None of those hours postpones the next cut. The pendulum keeps swinging over her bloodied chest as she struggles, until she is finally still."
+          "The execution stand raised an iron doorway, and she was chained upright inside its frame, her back to an iron backplate. The iron door swung shut on her where she stood on the threshold, pressing her flat against the backplate. It stayed shut with her inside the frame until nothing stirred behind it."
         ],
         "magic": {
-          "name": "Hours Between Seconds",
-          "text": "She can stretch a few passing seconds into hours of conscious time for herself."
+          "name": "Dress Rehearsal",
+          "text": "On the brink of any act, she watches it play out exactly as it really would, before she has begun."
         }
       },
       "variant": 1

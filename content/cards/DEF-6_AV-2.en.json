@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, {WITCH_NAME} confessed to a girl that she had done something wrong. The girl clasped her hand in reassurance. Trusting her, the girl invited the prisoners to meet in the lounge that day and discuss the confession together. When {WITCH_NAME} asked her to cancel the meeting and keep the confession private, the girl refused.",
-          "At that refusal, {WITCH_NAME} used her Magic to turn the girl into a plush version of herself, folded her into a small pillowcase, and drove a sword through the case into her chest. She carried the girl to the shower room inside the pillowcase, compressed like a folded cushion, then restored her to human form with a fatal wound in her chest.",
-          "Later, one prisoner recalled seeing {WITCH_NAME} leave the lounge with the small pillowcase and assuming it was ordinary laundry. In the shower room, the prisoners found part of the pillowcase's hem caught in the chest wound. From the hem, they understood that the supposed laundry had enclosed the captive girl in plush form."
+          "When {WITCH_NAME} was small, her mother looked at each of her drawings, said nothing, and fed it to the stove. Something was wrong with everything she made, and no one would say what.",
+          "In the mansion, she sat beside only one girl at meals. Every Monday before the burn, that girl lifted the incinerator lid to save what others had thrown away. \"Nothing burns without one last look.\"",
+          "One Monday at lunch in the dining hall, the girl spread a row of drawings along the table, drawings {WITCH_NAME} had sent down the garbage chute. \"What's wrong with these?\" she asked, and the whole table leaned in to look. She turned to {WITCH_NAME}. \"I'll save every one you ever throw away—\" Before the girl could finish or anyone could answer, {WITCH_NAME} vanished, leaving an empty chair.",
+          "Before that day's burn, she dropped her new pencil portrait of the girl down the chute in the shower room, then went down to wait by the furnace.",
+          "Just before three, the girl straightened from the furnace holding the portrait, and {WITCH_NAME} brought the lid down on her neck. She pulled the portrait from the girl's fingers and vanished with it into her own bed.",
+          "At three, free time ended. Prisoners crowding back along the cell corridor reached the incinerator room's only door seconds after the clang. The girl lay alone under the lid. No one had come out.",
+          "In the trial court, they ruled it an accident: the propped lid had fallen on her as she leaned in alone. Then a prisoner opened the girl's clenched fist and found a torn corner of a pencil portrait. Anyone who had been at lunch knew who had drawn it. The rest was nowhere in the room. The prisoners understood: it had been torn from her dying hand and carried out without passing anyone, straight into {WITCH_NAME}'s bed."
         ],
-        "epitaph": "At last, her nameless guilt had a name: murder.",
-        "epithet": "The Penitent Without an Accuser",
+        "epitaph": "She never stayed to hear that nothing was wrong with them.",
+        "epithet": "The girl who feeds the fire drawings no one has looked at",
         "execution": [
-          "The execution stand seals her inside a transparent vacuum sack, pinning her like a plush toy in its package. The loose film contracts and clings to her face until every feature presses through it. She struggles against the seal, then falls still. The clear wrapping holds her there as a sealed display."
+          "The execution stand raises a bed, its blanket one vast sheet of her own drawing paper. She lies strapped beneath it, tucked in to the chin, and above her hangs the sharpened point of a giant pencil.",
+          "The pencil comes down and hatches back and forth, pressing through the paper into her, harder with every stroke. It never settles on one spot. It shades every inch, as if hunting for a wrong it cannot find.",
+          "At last it lifts and hovers. The paper lies shaded grey over her still shape, torn where the point went in."
         ],
         "magic": {
-          "name": "All Things Plush",
-          "text": "Turn living beings and objects into plush versions of themselves, made from soft fabric and stuffing."
+          "name": "Tucked Away",
+          "text": "She vanishes from wherever she is and reappears tucked into her own bed."
         }
       },
       "variant": 1

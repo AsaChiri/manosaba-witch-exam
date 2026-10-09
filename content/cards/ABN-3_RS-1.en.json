@@ -10,18 +10,26 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week, after {WITCH_NAME} missed a meal, the girl fed her bread in the lounge. Today, {WITCH_NAME} waited there, hungry again, for the girl to escort her to eat. The girl closed the picture book after their last story together, refused to escort her to any more meals, and told {WITCH_NAME} to learn to care for herself.",
-          "At that, {WITCH_NAME} pressed a sofa cushion over the girl's face and smothered her. To conceal the murder, she set her conjured hands turning the pages of the picture book, which screened the girl's face. Nearby, {WITCH_NAME} braided another prisoner's hair with both of her own hands. Watching the pages turn, the prisoner took the obscured figure for the girl, alive and reading. She photographed her finished braid with her phone, catching the reading scene in the background.",
-          "In the trial court, the prisoner looked at the photo again and saw that the page-turning hands ended at the wrists. The girl in the background had not been reading at all; {WITCH_NAME}'s floating hands had fabricated that sign of life while their controller sat beside the photographer."
+          "Every evening the girl walked laps round the fountain in the courtyard, the way she had once walked her grandmother's dog at home. Before she set off, she left her scarf with {WITCH_NAME} in the doorway until nine.",
+          "At twenty to nine one evening, the girl took her scarf back. \"Go in. You don't have to wait for me anymore.\" Then she walked off without turning round.",
+          "When {WITCH_NAME} was small, her mother had sat her on a bench at a bus stop, said \"Wait here,\" and walked off down the road. Her mother never turned round. {WITCH_NAME} waited there until dark.",
+          "That evening, for the first time, {WITCH_NAME} followed the girl down the path. On the far side, she pulled the scarf tight from behind until the girl was still, and left her lying there.",
+          "By nine the girl still hadn't come in. At five past, her roommate set off round the fountain to look for her, streaming the walk on her phone. From the doorway, {WITCH_NAME} folded the path back on itself just short of where the girl lay. The roommate walked what felt like the whole way round and came back to the doorway. She had seen no sign of the girl.",
+          "At twenty to ten, the prisoners found the girl lying under the tree across the courtyard, the scarf at her throat. In the trial court, they concluded she had been killed after the roommate's lap, while {WITCH_NAME} sat inside with them.",
+          "Then one prisoner replayed the stream. On the way out, the fountain was on the roommate's right; on the way back, it was on her left. The prisoner realized the roommate had never gone round at all: the fold had turned her back, with the girl already lying just beyond it."
         ],
-        "epitaph": "She could command hands, but never make someone choose to come back.",
-        "epithet": "The Child Left Waiting",
+        "epitaph": "She only ever followed once: to make sure the girl would never walk away again.",
+        "epithet": "The Doorway That Only Waits",
         "execution": [
-          "An embracing chair on the execution stand locks around her, its harness closing over her shoulders. Mechanical hands rise to cradle her cheeks with a tender touch. Their grip holds as they turn her head backward, then keep her face fixed there while her body goes limp and still."
+          "The execution stand raised a deep stone fountain basin. At its bottom stood a bus-stop bench, and she was tied to its back by a long scarf wound round her chest.",
+          "The spout began to run. Water climbed the basin, round her knees, then her waist, then her chest.",
+          "She sat looking down the empty path that ran round the rim and did not call out, just as she had once waited on a bench until dark.",
+          "The water rose over her mouth, over her eyes, and closed over her head.",
+          "The spout kept running, spilling over the rim. Above her bowed head, the surface was still."
         ],
         "magic": {
-          "name": "Hands from Thin Air",
-          "text": "She can conjure solid, floating hands from empty air and direct them at will."
+          "name": "All Roads Return",
+          "text": "She can fold a path back on itself, so anyone walking away along it arrives back where they started."
         }
       },
       "variant": 1

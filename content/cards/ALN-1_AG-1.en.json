@@ -10,19 +10,21 @@
     {
       "fields": {
         "crime": [
-          "After rescuing a sparrow, a girl entrusted it to {WITCH_NAME} in the courtyard, and together they cared for it. When it pecked the girl's hand, she flung it away and broke its wing.",
-          "Because she could understand the injured sparrow's suffering, {WITCH_NAME} confronted the girl on every visit and demanded that she care for it. Today, at the upper railing, the girl brushed aside those demands and called the bird's distress a nuisance. She threatened to break its neck and silence it for good. At that threat, the witch flipped the girl over the railing by her ankles and sent her falling to her death.",
-          "A prisoner later found the girl's body on the courtyard paving. Through her Magic, the witch questioned the sparrow and reported that it had seen the body falling. She then claimed it had watched the girl climb onto the railing of her own accord, making the bird a witness to suicide.",
-          "A prisoner checked the view from the sparrow's nest in the tree, where its broken wing had confined it. The upper railing was hidden. The prisoners saw the contradiction: the sparrow could have seen the body falling past, but never the girl climbing onto the railing. The witch had invented that part of its testimony."
+          "Every morning and every dusk, one of the prisoners ran laps along the courtyard paths, and on every lap she circled back to run beside {WITCH_NAME}, who was always last.",
+          "One morning {WITCH_NAME} fell on the path and broke her ankle. From the ground she held out her hand so the runner could take it and feel the break as her own. The girl drew back, laughed, \"I'll take your word for it,\" and ran on. {WITCH_NAME} was bandaged and carried down to her lower bunk.",
+          "Once, when she was small, she had held out a broken arm to her mother. Her mother pushed it aside, said, \"It can't hurt that much,\" and made her walk home.",
+          "That evening, while the others were at supper, {WITCH_NAME} got up and walked on the broken ankle out to the dusk laps. As the runner came past, {WITCH_NAME} caught her wrist. The runner felt the broken ankle as her own and dropped on the path. {WITCH_NAME} closed both hands on her throat, and the pain pouring through those hands kept her down until she was still.",
+          "In the trial court, {WITCH_NAME} held out her hand to the others. Each girl who took it felt that ankle and dropped to her knees, sobbing. No one on an ankle like that could have left her bunk, the prisoners ruled; some other hand had strangled the runner at dusk.",
+          "But one girl, still kneeling with {WITCH_NAME}'s hand in hers, saw the gauze under her heel, worn through and gray with courtyard grit. Then they understood: she had walked on the very pain that dropped them, out to the dusk path and back."
         ],
-        "epitaph": "The sparrow remained her honest companion, never her willing accomplice.",
-        "epithet": "The Unheard Voice of Animals",
+        "epitaph": "The only one who felt her pain to the very end was the girl who would not take her hand.",
+        "epithet": "The Hand No One Takes",
         "execution": [
-          "The execution stand holds the witch with her arms outstretched in splints as an iron bird bends over her. The bird hammers its steel beak into her chest, pecking it bloody. She strains against the splints, but the beak keeps falling after her final struggle and does not stop when she goes still."
+          "The execution stand raises a great iron treadwheel. She is shut inside, standing on her broken ankle. The wheel begins to turn, faster and faster, and she has to run on the ankle. When the ankle gives, the wheel carries her up and drops her onto its iron rungs, again and again. Around it, iron runners run their laps, past the hand she thrusts out between the spokes. None of them takes it. At last the wheel slows to a stop. She lies still across the bottom rungs, her hand still held out."
         ],
         "magic": {
-          "name": "Animal Tongues",
-          "text": "She can talk with animals, and they can talk with her."
+          "name": "Hand to Heart",
+          "text": "Anyone she touches feels exactly what she feels, body and heart, as if it were their own."
         }
       },
       "variant": 1

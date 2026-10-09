@@ -10,19 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week, a girl lent {WITCH_NAME} her cardigan in their cell, giving them something to mend together. Once she put it on, {WITCH_NAME} borrowed the girl's tailoring skill and repaired its torn sleeve.",
-          "But today, at the evening gathering in the lounge, the girl replaced {WITCH_NAME}'s reserved seat with a basket of mending and sent her back to the cell with the unfinished mending. During evening free time, {WITCH_NAME} stabbed the girl in the chest with a sword, wrapped her body in a blanket, and hid it beneath the lower bunk.",
-          "Though she had never learned the violin, {WITCH_NAME} wore the cardigan in the reception room and played with the girl's proficiency. She streamed the performance by phone to the prisoners, keeping her face off camera. They recognized the girl's playing and believed she was still practicing.",
-          "Then a prisoner followed a blood trail into the cell and found the girl dead. The prisoner checked the phone there; the violin stream was still running. At the trial court, the prisoners saw through the trick: {WITCH_NAME} had been the violinist off camera, borrowing the girl's skill through the cardigan."
+          "With charcoal from the fireplace, one prisoner kept the name of every living girl on her cell wall, so that no girl who vanished would be forgotten. Each evening {WITCH_NAME} came to read the names, looking for her own.",
+          "One evening during free time, after the other visitors had laughed, the girl showed her what was drawn where her name should be: a charcoal lizard. \"You're in every crowd,\" she said, \"so you get a lizard.\"",
+          "In her school yearbook, {WITCH_NAME} had stood at the edge of five club photos, and every caption had ended with \"and friend.\"",
+          "One night, just before the cells locked at ten, the others in the cell corridor watched her fade into the wall of the cell she had to herself, as she did every night. Still matching every wall she passed, she walked unseen into the other girl's cell and stood in the corner by the bars.",
+          "After lockup, the girl wrote something on the wall by her pillow. In that dim light, {WITCH_NAME} could not read it from the corner. Then the girl whispered every name on the wall, ending with \"our chameleon.\"",
+          "{WITCH_NAME} pressed her hand over the mouth that had named everyone and held it there until the girl was still. Then she sat against the wall beside her until morning, her back to the names.",
+          "When the cells were unlocked, she slipped unseen into the cell corridor while the girl's roommate screamed, then stepped out of her own cell into the crowd.",
+          "In the trial court, the prisoners accused the roommate, the only girl who had been locked in with the dead girl. Then one prisoner pointed at the backward charcoal letters smudged across {WITCH_NAME}'s back. They spelled her own name, rubbed off the wall from beside the lizard. The prisoners understood: she had leaned against that wall inside the locked cell."
         ],
-        "epitaph": "A place beside someone should never depend on being useful.",
-        "epithet": "The Perpetual Stand-In",
+        "epitaph": "Her name was written at last, and she carried it on her back, the one place she could never read it.",
+        "epithet": "And Friend",
         "execution": [
-          "The execution stand lifts her on a coat-shaped frame, her sleeves clamped high so she hangs from them. A pair of tailoring shears closes around her neck at collar level. When the blades open again, her collar is soaked with blood and her hanging body no longer moves."
+          "The execution stand opened a giant iron book, and she was strapped flat on its blank left page. By reflex, she faded into the blank page. The facing iron leaf swung up on the spine. Raised on it in iron letters was her name, the only name on the page. The leaf slammed shut over her. The iron book lay shut and still, her name pressed onto the blank she had become."
         ],
         "magic": {
-          "name": "Secondhand Mastery",
-          "text": "Wear another person's clothes, and you become proficient in every skill they have learned."
+          "name": "Wallflower",
+          "text": "Her body, clothes and whatever she carries take on the colors and patterns behind her."
         }
       },
       "variant": 1

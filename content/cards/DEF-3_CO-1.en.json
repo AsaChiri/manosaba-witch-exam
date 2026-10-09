@@ -10,20 +10,24 @@
     {
       "fields": {
         "crime": [
-          "One night, while the others comforted a crying girl, {WITCH_NAME} felt a flicker of pleasure. Before she could hide it, the girl beside her saw her face.",
-          "Afterward that girl took over her clearing shifts, gave her the better seat, and agreed to everything. To {WITCH_NAME}, such careful kindness meant the girl had seen something monstrous in her.",
-          "The day the girl asked to stop sharing their chore, she stayed behind to finish both their work in the dining hall. {WITCH_NAME} came in and struck her with an iron pan as she turned away. The girl fell, pulling a steaming pot off the table. Two prisoners ran in at the crash.",
-          "{WITCH_NAME} stood beside the body, her face calm and her breathing even. She said she had just arrived and found the girl dead.",
-          "But water from the overturned pot had dried across the front of her sleeves and hem. The two who came running had no such marks. She had been beside the pot when it fell."
+          "When {WITCH_NAME} was twelve, her mother read a line from her diary aloud to her: she had pictured her sister under the bathwater. From then on, every morning, her mother held her face and searched it before letting her anywhere near her sister.",
+          "So she learned to use her Magic before anyone could look at her. She touched her temple and drew the thought out as a glass bead, and her face had nothing left to show.",
+          "In the prison, one girl sat by the courtyard fountain every evening and read the prisoners' faces, holding each one in both hands. She kept asking {WITCH_NAME} to sit in front of her. It was the only face she could never read.",
+          "Then, one evening at the fountain, she read it before the bead could come out. \"You pictured holding me under,\" she said. \"I'll read you every evening from now on, so you never hide it again.\"",
+          "The next evening, before the reading, {WITCH_NAME} set a crossbow on the upper railing and aimed it at the girl's seat by the fountain. She cocked it and rested the string on a bead of thought drawn from her temple.",
+          "At the reading, she sat down in front of the girl and took the thought back. The bead was gone from behind the string. The crossbow fired down from the railing and put a bolt into the girl's back. The prisoners saw the shot come from an empty railing while {WITCH_NAME}'s face was still held in the girl's hands.",
+          "In the trial court, a prisoner found a dent the size of a bead in the notch that holds the crossbow's drawn string. A bead of thought had held the string there, she said, and it was gone the moment {WITCH_NAME} took the thought back."
         ],
-        "epitaph": "Everyone had ugly thoughts; only she believed they were all she was.",
-        "epithet": "The Unremarkable Monster",
+        "epitaph": "The thought was only ever glass, until she took it back.",
+        "epithet": "A face emptied before every glance",
         "execution": [
-          "An iron weight hung above the frame holding her upright under a bright light. The catch held while she cried out and released when she was silent. Facing the other prisoners, she kept her expression calm and made no sound. The weight dropped onto her."
+          "The execution stand strapped her upright between two iron hands. They closed around her face from either side and cupped it toward the spectators, holding it up to be read.",
+          "Then the iron palms pressed inward on her temples. The squeeze came slowly and did not let up.",
+          "At last she hung still in the iron hands, her face still turned toward the spectators."
         ],
         "magic": {
-          "name": "Unruffled",
-          "text": "She can keep her body from revealing what she feels or knows."
+          "name": "Glass Thoughts",
+          "text": "She can draw her thoughts out of her head as glass beads and take them back whenever she wants."
         }
       },
       "variant": 1

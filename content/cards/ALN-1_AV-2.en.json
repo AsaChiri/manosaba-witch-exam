@@ -10,19 +10,23 @@
     {
       "fields": {
         "crime": [
-          "The previous evening in the lounge, a girl had trusted {WITCH_NAME} with her bereavement. Before she could give voice to her grief, {WITCH_NAME} used her Magic to turn her own calm into music. The girl felt that calm as her own, and her confession faltered.",
-          "The next evening, the girl refused another musical consolation and demanded that {WITCH_NAME} acknowledge her grief. She phoned a prisoner and invited them to mediate in the lounge that night. Before the visitor could arrive, {WITCH_NAME} drove a sword into the back of the girl as she sat waiting, killing her. After withdrawing the blade, she laid the girl faceup on the floor, then pushed the sofa against the wall to hide the perforation in its back.",
-          "When the visitor arrived, {WITCH_NAME} turned her fear into music. The prisoner felt her terror and believed her claim: the girl had attacked with the sword, so she had disarmed her and thrust back in self-defense.",
-          "While examining the body, the prisoners aligned the sofa with the girl. The hole in its backrest matched the wound in her back—a path that, at the trial court, exposed an assault on a seated victim. The terror that had made the visitor believe in self-defense was never evidence of the girl's attack."
+          "Every evening, while the dining hall still stood empty, {WITCH_NAME} opened her picture book on the table and stepped inside. By the time anyone sat down, she was a small figure sitting still under its painted tree while the table talked.",
+          "One girl always left supper early to light the lounge fireplace, then read a picture book aloud by the fire while {WITCH_NAME} listened as a tiny figure in her own book, propped on the arm of the sofa. The story had a little girl in it, and whenever the little girl's line came, the reader stopped and waited for {WITCH_NAME} to say it. The whole fireside turned to the tiny figure until someone giggled.",
+          "At school, {WITCH_NAME} had once read her line aloud just as the next girl began hers. The class laughed, and the teacher skipped her turn ever after.",
+          "One night the reader told her to read that line herself tomorrow, from the sofa, not from inside the book.",
+          "The next evening, the prisoners ate supper around her small figure under the painted tree. During that supper, she stood in the lounge doorway and shot the reader in the back with a crossbow as she knelt to light the fire. Afterward the others found the reader dead at the hearth, the bolt in her back, the fire still burning. {WITCH_NAME} walked in last with her book shut under her arm, as if she had just climbed out of it.",
+          "In the trial court, the prisoners ruled her out. \"She sat in her book at our table all through supper.\" When the court turned to her and waited for her to speak, she stepped into her book, open on the stand. On the facing page, one prisoner noticed a faint grey mirror image of a small seated girl. The court understood: the girl under the tree at supper had only been drawn in pencil. {WITCH_NAME} had never been inside."
         ],
-        "epitaph": "The answer she owed outlived her.",
-        "epithet": "A Fugitive from Every Answer",
+        "epitaph": "No one will ever stop and wait for her line again.",
+        "epithet": "The guest who only ever showed up inside a picture",
         "execution": [
-          "The execution stand binds her against the inner wall of a bronze bell. Its clapper swings into her torso again and again, crushing her against the bronze. She tries at last to answer the girl, but every reply vanishes beneath the ringing. The clapper keeps pounding until she hangs motionless inside the bell."
+          "The execution stand raised a tall iron frame with a glass front. She was chained upright inside it. On the glass, a fireside of listeners had been painted, every one of them turned toward her.",
+          "Paint poured from the frame's top rail and rose up the glass over her, past her knees, her waist, her chest. It closed over her mouth and nose while every painted face waited.",
+          "Then the frame hung full and still: a finished picture of listeners turned toward a small girl gone dark with paint."
         ],
         "magic": {
-          "name": "Heartsong",
-          "text": "She can turn people's emotions into music, so listeners hear and feel the emotions it expresses."
+          "name": "Into the Picture",
+          "text": "She can step bodily into paintings, drawings and photographs and walk the scene as a tiny figure."
         }
       },
       "variant": 1

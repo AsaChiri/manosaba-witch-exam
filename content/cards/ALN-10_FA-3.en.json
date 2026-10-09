@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week, a girl had playfully crowned {WITCH_NAME} with a paper crown in the lounge. Today in the same room, {WITCH_NAME} treated the game as royal authority and commanded a prisoner to kneel in homage. The girl took the prisoner's hand, raised them to their feet, and removed the paper crown from {WITCH_NAME}.",
-          "In answer, {WITCH_NAME} offered the girl a goblet sculpted from shadow as a drink of reconciliation. While the girl drank, {WITCH_NAME} reshaped the goblet into a sealed enclosure around her head and suffocated her. Then she reshaped the enclosure back into an innocent goblet in the corpse's lap. The prisoners thought the girl had fallen suddenly ill while sitting with her drink.",
-          "But one prisoner found an ear stud embedded seamlessly in the goblet's wall. The stud matched the fresh tear in the girl's earlobe. At the trial court, the prisoners reconstructed what {WITCH_NAME}'s Magic had hidden: the goblet had been the enclosure around the girl's head."
+          "Every night, one girl took the last hot shower and sang at full voice where no one could hear her, and she let {WITCH_NAME} share it with her. In the lounge, {WITCH_NAME} lay limp on the sofa while her Magic carried her into the girl's senses: the hot water, the song from inside her chest.",
+          "At nine o'clock one night, the girl stopped at the lounge door. \"Not tonight,\" she said quietly. \"Let me have it to myself, just once.\"",
+          "\"Not tonight,\" {WITCH_NAME}'s foster mother used to say. \"You go in after us.\" And {WITCH_NAME} would wait on the cold step while they sang in the steam; by her turn, the bath was cold. Warm rooms were always on the other side of a wall.",
+          "At five past nine, {WITCH_NAME} followed the girl into the shower room and pressed the girl's towel over her mouth until the song stopped and she was still, then left the water running. At nine fifteen, she lay down limp on the lounge sofa as always, eyes shut, in sight of every girl.",
+          "At nine forty, in the lounge, the girl's roommate silently typed her a message: \"Twenty minutes to lockup. Prune fingers?\" {WITCH_NAME} stirred on the sofa. \"She read it. She laughed at 'prune fingers.'\" The roommate confirmed the exact words; no one else had seen them.",
+          "At nine fifty-five, the roommate found the girl dead on the tiles under the running shower.",
+          "In the trial court, the prisoners ruled that the girl died after reading it at nine forty, while {WITCH_NAME} lay on the sofa in their sight throughout, and turned on the roommate who had gone to her. The roommate opened her phone for the court: the line still sat unsent in her message box. The prisoners understood: only her own eyes had ever read it, so {WITCH_NAME} had been inside her while the girl was already silent."
         ],
-        "epitaph": "She chose a crown over a place among equals, and lost both.",
-        "epithet": "The Queen in Exile",
+        "epitaph": "At last she has the warm room to herself, and no one left inside it to live.",
+        "epithet": "The Girl on the Cold Step",
         "execution": [
-          "The execution stand clamps her against a vertical iron platen, holding her arms and legs spread in a stark silhouette. A steel roller presses into her at the head and descends to her feet, flattening her against the iron. When the roller clears the platen, it leaves a bloodied silhouette in final stillness."
+          "The execution stand raises an iron house front with a lit window and a shut door. Her back is chained flat to its outer wall.",
+          "As firelight fills the window, the wall heats against her back until it glows red. The iron door stays shut beside her; the warmth reaches her only through the wall.",
+          "She hangs still in her chains against the red iron."
         ],
         "magic": {
-          "name": "Shadowcraft",
-          "text": "You can sculpt shadows into solid objects."
+          "name": "Borrowed Senses",
+          "text": "She can slip into the senses of any person or animal she thinks of and live their moment from inside."
         }
       },
       "variant": 1

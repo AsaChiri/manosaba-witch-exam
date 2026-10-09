@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Her mentor always reserved a cue for {WITCH_NAME} in the recreation room, so the two of them could play together. Lesson after lesson, she rehearsed the opening shot on a working miniature of the pool table. But today, her mentor removed the miniature and invited her to play a real game at once, offering her the reserved cue.",
-          "Instead, {WITCH_NAME} made a working miniature of the sword in the lounge. She slashed her mentor's throat with the tiny blade, inflicting a fatal wound, then placed the bloodstained original sword beside her mentor. The prisoners took it for the murder weapon.",
-          "Then one prisoner pulled an engraved blade tip from the throat wound. Comparing it with the full-size sword, the prisoner found the original tip intact; the fragment bore the same engraving at a reduced scale. The scaled engraving exposed {WITCH_NAME}'s trick to the prisoners: the fragment had come from a miniature murder weapon, while the original sword was only a decoy."
+          "The last time {WITCH_NAME} steadied the ladder while her mother hung out the washing, her mother said, \"I can manage on my own now.\" Within the week, her mother was gone.",
+          "In the prison, one girl walked the top of the upper railing at dusk while the others bathed, a glass of water balanced on her head, the way she had once walked her family's wire. Every evening {WITCH_NAME} stood in the courtyard beneath her, ready to stop her with Magic a hair above the stones if she ever slipped.",
+          "At supper, the girl stood up in front of the whole table in the dining hall and thanked her. A month without slipping. \"You needn't stand beneath me anymore.\"",
+          "That dusk, {WITCH_NAME} did not wait beneath. She came out through the hall behind the railing and pushed the girl off. She stopped the glass of water a finger above the stones and let the girl fall past it.",
+          "Back from the showers, the prisoners found her lying on the path. In the trial court they ruled that she had slipped walking alone, with no one beneath to hold her.",
+          "Then one prisoner turned the glass over in her hands. It had fallen as far as the girl had, and there was not a chip in it. Only {WITCH_NAME}'s Magic could have caught it, and the prisoners understood that she had been up at the railing when the girl fell."
         ],
-        "epitaph": "She mistook an invitation to play for a farewell.",
-        "epithet": "Forever Waiting to Begin",
+        "epitaph": "A glass never tells you it can manage without you.",
+        "epithet": "A Net Waiting to Be Needed",
         "execution": [
-          "The execution stand clamps her flat to a giant pool table. On the table, a miniature cue strikes a cue ball, playing the opening shot she rehearsed lesson after lesson. Then a giant cue ball rolls from her feet to her head, crushing the full length of her body. Once it passes, she lies still on the table."
+          "The execution stand strapped her face up beneath a high iron rail. Along the rail came an iron walker, a giant glass brimming with water balanced on its head. Directly above her, it let the glass slip. The glass came straight down and landed base first on her chest, water slopping over her face. She heaved under it until she stopped, and the water ran off the edge of the stand. The iron walker went on alone to the end of the rail, never looking down."
         ],
         "magic": {
-          "name": "Working Miniatures",
-          "text": "Create miniature copies of inanimate objects that retain every function of the originals."
+          "name": "Hair's Breadth",
+          "text": "She can stop anything about to fall, break, spill or bloom, a hair before it happens."
         }
       },
       "variant": 1

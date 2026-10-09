@@ -10,18 +10,23 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, {WITCH_NAME} deepened the sofa’s shadow into a private refuge. On earlier days, her roommate had waited at its edge with bread until she was invited in.",
-          "Today, the roommate entered without permission and grabbed {WITCH_NAME} by the wrist to pull her out. When {WITCH_NAME} refused to come up, her roommate promised to drag her from every refuge she made. Before they reached the surface, {WITCH_NAME} stabbed her roommate with a sword, leaving fatal wounds. She left the body inside the shadow, hidden beneath the sofa, and claimed her roommate had never entered the refuge.",
-          "Later, a prisoner called the roommate’s phone and heard it ringing beneath the lounge floor. The prisoner climbed down into the shadow and found the stabbed body. The prisoners saw what that discovery meant: the roommate had entered the refuge after all, despite the denial."
+          "Every spring, {WITCH_NAME}'s mother sat her on the stool at home and cut off her braid. \"Short suits you.\"",
+          "In the prison, her roommate cut everyone's hair. Every night before lockup, she braided the hair {WITCH_NAME} had grown since she came.",
+          "One night, halfway through the braid, the roommate took her haircutting scissors and snipped it off at the nape. She held it up. \"Short suits you.\"",
+          "{WITCH_NAME} took the braid from her hand and walked two doors down. Minutes before lockup, with both girls who lived there watching, she stepped into it and vanished inside, the way her Magic let her enter anything she touched.",
+          "Back in their own cell, the roommate laid the scissors on the shelf. As the bars locked, she called after her: \"I'll even it out in the morning.\"",
+          "In the night, {WITCH_NAME} came out of the braid, held it out through the barred cell door and stepped back into it, and it dropped to the corridor floor on the other side. At her own door she did it again, and stepped out inside her own cell. She took the scissors from the shelf and stabbed her sleeping roommate through the blanket, into the heart.",
+          "When the bars unlocked in the morning, she stepped out of the braid two doors down, in front of both girls who lived there.",
+          "In the trial court, the prisoners agreed that she had spent the night locked away inside the braid behind another cell's bars, while her roommate was stabbed alone behind her own. Then a prisoner took the braid from her hands. Its cut end was stiff with dried blood. They understood then: the braid had passed through a barred cell door with her inside it, into the locked cell where her roommate died, and back out again."
         ],
-        "epitaph": "At last, she found a refuge where no one would ever disturb her.",
-        "epithet": "She hides in shadows, longing only to be left alone.",
+        "epitaph": "In the end, the only place still hers was the part of her that had already been cut away.",
+        "epithet": "The girl cut short to suit someone else",
         "execution": [
-          "The execution stand binds her flat on her back beneath a black press shaped like a human silhouette. It descends, compressing her flatter and flatter. When it settles, only her fingertips remain exposed, perfectly still."
+          "The execution stand raised the stool from her home beneath a braid of hair as thick as rope, hung from the ceiling. As she sat, its tail lay looped twice around her throat. Slowly the braid drew upward, lifting her off the stool by the throat. She hung still in plain view, her feet above the empty stool."
         ],
         "magic": {
-          "name": "Shadow Rooms",
-          "text": "She can deepen cast shadows into spacious rooms beneath their flat surfaces."
+          "name": "Hideaway",
+          "text": "She can step into anything she touches and hide inside, still seeing and hearing the world."
         }
       },
       "variant": 1

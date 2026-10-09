@@ -1,0 +1,31 @@
+{
+  "cell": "DEF|Resigned",
+  "copingSub": "RS-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Resigned",
+  "tag": "DEF-3_RS-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At eight, {WITCH_NAME} pictured pushing her grandmother down the cellar stairs, then ran and hid. From then on, she tossed a coin for every choice.",
+          "In the mansion, she spent every evening at the upper railing beside a girl who leaned out to catch throws from the courtyard below. One evening a throw came high. The girl asked her to hold her waistband and leaned farther out. Holding on, she saw the old picture again: her own hands opening at the girl's back. She let go to toss her coin. Will I push her?",
+          "From the courtyard, the prisoners saw her arm at the girl's back the instant the girl fell to her death. In the trial court, she told them, \"I let go.\" The prisoners convicted her of pushing the girl.",
+          "But her Magic had jerked the falling coin back upward in midair. It clipped the rail and flew out over the courtyard. The girl had snatched after it and gone over the railing. The arm the prisoners saw was {WITCH_NAME}'s, grabbing at the girl's back too late. Below, the coin lay on the side that meant no."
+        ],
+        "epitaph": "She asked the coin whether she would push her, and never whether letting go would let her fall.",
+        "epithet": "Hands Given Over to a Coin",
+        "execution": [
+          "In the trial court, the execution stand raised a giant iron coin on its edge. Beside it she lay chained flat, arms spread. An iron hand flicked the coin into a spin, the way she had tossed hers for every choice. It wobbled lower and faster, rattling, until it came down flat onto her. Beyond its rim, her open hand went still."
+        ],
+        "magic": {
+          "name": "True Toss",
+          "text": "Any coin, die or lot she casts with a question lands on the answer that will prove right."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

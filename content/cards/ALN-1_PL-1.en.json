@@ -10,19 +10,27 @@
     {
       "fields": {
         "crime": [
-          "During earlier free time, a girl shared her favorite novel with {WITCH_NAME} in the library. Through her Magic, {WITCH_NAME} took on the girl's literary tastes, and they enjoyed the book together.",
-          "Today in the recreation room, the girl tore up {WITCH_NAME}'s duplicate vote for their next book. That evening, she returned their shared novel to {WITCH_NAME} in the library and refused to read together again. Once the book was returned, {WITCH_NAME} strangled her with a scarf and took her phone.",
-          "Later, during an evening discussion in the recreation room, a prisoner gave {WITCH_NAME} fresh, uncredited openings to read. With the girl's borrowed preferences, she ranked these unfamiliar excerpts, then used the stolen phone to send those rankings to the prisoners as if they came from the girl. Though {WITCH_NAME} sat in plain sight at the discussion table, the messages kept arriving.",
-          "One prisoner compared the chat rankings with private ones the girl had given earlier; they matched. The prisoners took the remote reader for the girl and believed she was still alive. Then a prisoner asked the chat about the girl's favorite excerpt. {WITCH_NAME}'s reply showed no knowledge of its ending. The prisoner remembered that earlier that afternoon, after completing her manuscript, the girl had read that very excerpt in the recreation room and publicly claimed it as her own work. Magic could transfer her preferences, but not her memories. In trial court, the prisoners saw what the gap meant: the remote reader was {WITCH_NAME}, impersonating the girl with borrowed taste; the messages had never proved that the girl was alive."
+          "As a child, {WITCH_NAME} poured for the whole family table. By the time she sat down, the laughter had moved on.",
+          "Every evening during free time, one girl scorched cocoa in her dented pan over the lounge fireplace and poured a cup for everyone. \"Burnt!\" the whole lounge groaned together, then laughed, the girl loudest of all. {WITCH_NAME} groaned with them. It was the one cup that tasted to her the way it tasted to everyone else.",
+          "One evening the girl handed her the pan and ladle. \"You pour from now on. Then everyone gets their favorite.\"",
+          "So {WITCH_NAME} poured for the lounge. Through her Magic, each girl tasted her own favorite from the same pan and sipped in silence. No one groaned.",
+          "The girl sipped her cup and whispered to her alone, \"Still burnt. I always loved it burnt.\"",
+          "The next evening, as the girls passed the door on their way to the showers, {WITCH_NAME} warmed cocoa in the dented pan and handed the girl the first cup. A prisoner walking to the shower room heard through the closed lounge door: \"Thanks. Mm, burnt!\" and then that laugh. Moments later, {WITCH_NAME} swung the dented iron pan into the girl's temple, again and again, until she lay still on the hearth.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out. Burnt was how the girl's own cocoa tasted; from {WITCH_NAME}'s pour, every cup tasted like the drinker's favorite. Whoever had handed her that burnt cup, it was not {WITCH_NAME}.",
+          "Then a prisoner looked at the dented pan. Its bottom was unscorched, and the cocoa spilled from it was pale.",
+          "That cocoa had never burned. {WITCH_NAME} had poured it, and it tasted burnt to the girl alone because burnt was her favorite."
         ],
-        "epitaph": "Borrowed tastes can mimic belonging, but they cannot make affection answer.",
-        "epithet": "An Echo Left Unanswered",
+        "epitaph": "They both groaned at the burnt cocoa just to belong, and it was the only taste they ever shared.",
+        "epithet": "Pourer of Everyone Else's Favorite",
         "execution": [
-          "The execution stand locks the witch into a nodding chair, fixing her shoulders in place. A steel head clamp closes over her head and drives it down, each forced nod deeper than the last. Even after her final struggle leaves her head limp, the clamp keeps nodding it in mechanical assent."
+          "The execution stand raises a giant iron ladle over a vat of dark cocoa, before a row of iron girls holding out their cups. She is strapped along the ladle's shaft, her head at the bowl.",
+          "The ladle dips her head and shoulders into the vat, lifts, and tips a bowlful into the next iron cup. Each dip lasts longer than the last.",
+          "The iron girls raise their filled cups as one and let out a single creaking groan. Not one of them looks her way.",
+          "The ladle lifts her a last time. She hangs limp, cocoa dripping from her hair into the last empty cup."
         ],
         "magic": {
-          "name": "Borrowed Taste",
-          "text": "She can make another person's likes and dislikes genuinely her own."
+          "name": "One Pot, Every Favorite",
+          "text": "Anything she serves tastes to each person exactly the way they love it best."
         }
       },
       "variant": 1

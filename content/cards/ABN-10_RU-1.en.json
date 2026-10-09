@@ -10,20 +10,27 @@
     {
       "fields": {
         "crime": [
-          "During free time, the girl used to spend whole afternoons in the lounge teaching {WITCH_NAME} to make miniature furniture. Their first lesson was full of shared laughter. Lately, those afternoons had dwindled to brief visits. After each one, {WITCH_NAME} used her Magic through a miniature window to revisit that first lesson and hear their laughter again.",
-          "Today, the girl packed away their unfinished furniture and said there would be no more lessons. At that, {WITCH_NAME} stabbed her to death with a sword, then hid her body on the floor behind the sofa.",
-          "When a prisoner later came to the lounge, {WITCH_NAME} invited them to inspect the window joinery of the model house. Through one miniature window, she used her Magic to show the lounge during that first lesson. Looking through the miniature window toward the model’s open back, the prisoner saw the girl seated there, making miniature furniture. After the inspection, {WITCH_NAME} and the prisoner walked through the courtyard without once parting company.",
-          "When the walk ended, the prisoners found the girl’s body behind the lounge sofa. The sighting and discovery seemed to place the murder during the walk, giving {WITCH_NAME} an unbroken alibi.",
-          "But during the inspection, the prisoner had shifted sideways until the cupboard no longer blocked their line of sight. Through the window, they glimpsed a miniature cup still intact. They had accidentally broken that same cup the previous day. Its intact state dated the scene to before the break: {WITCH_NAME} had shown an old view through the window, so the murder could already have happened before the walk, and her alibi vanished."
+          "{WITCH_NAME}'s first friend inside was a girl who had grown up in her father's pool hall. Every evening, the two of them played pool in the recreation room until lockup.",
+          "Every night, her Magic carried her into her friend's dream, where they met again at that pool hall. Each morning in the dining hall, they told the table the same night, down to every shot.",
+          "Then one evening, chalking her cue at the pool table, the girl asked her to come only on Sundays. \"I wake up tired. Let me just sleep.\"",
+          "Back home, {WITCH_NAME}'s best friend had called her every night, then only on Sundays. That spring, she kept the phone by her pillow every Sunday. The calls came on fewer Sundays, then on none.",
+          "One weeknight before lockup, she followed the girl down and found her asleep, alone in her single cell. {WITCH_NAME} did not step into her dream. She pressed the pillow over her face until her friend went still, drew the blanket up to her chin, turned her to face the wall, and was back in her own cell by lockup.",
+          "The next morning at breakfast, she told the table last night's dream, as she did every morning: the pool hall, until the bell woke them both.",
+          "At twenty past six, a prisoner went to fetch the girl for breakfast and found her under the blanket, dead, her face to the wall.",
+          "In the trial court, the prisoners took it that she had woken at the bell and been smothered afterward, while {WITCH_NAME} sat among them at breakfast.",
+          "But in that cell, a prisoner had tried to loosen the dead girl's fingers from the hem of the blanket. They were cold, and too stiff to open.",
+          "The prisoners realized the girl had been dead since before lockup. No sleeping girl had shared that dream; {WITCH_NAME} had made it up."
         ],
-        "epitaph": "The past would always open its arms to her, but it could never embrace her in return.",
-        "epithet": "Yesterday’s Guest",
+        "epitaph": "The last dream she told of the two of them was the only one she dreamed alone.",
+        "epithet": "The Girl Who Waits for Sunday's Call",
         "execution": [
-          "The execution stand held her upright in a window frame, wrists bound and a noose around her neck. A blind cord pulled the neck loop upward, hoisting her until her feet kicked clear of the floor. Then the window blind descended and shut her body from view. Beneath it, her exposed feet kicked until they went still."
+          "The execution stand raises an iron wall telephone, taller than a girl. Its iron cord is looped around her throat, and its receiver hangs high on the hook.",
+          "While the receiver hangs on the hook, the cord draws taut and hauls her off her feet by the throat. When the phone rings, the receiver drops to her ear and the cord slackens. Each ring comes farther apart than the last.",
+          "Then it stops ringing for good. She hangs from the cord beneath the silent receiver until she no longer stirs."
         ],
         "magic": {
-          "name": "Windows into the Past",
-          "text": "She can make windows reveal the sights and sounds beyond them at any past moment she chooses."
+          "name": "Guest in Your Dreams",
+          "text": "She steps into the dream of any sleeper she thinks of, and both wake remembering it."
         }
       },
       "variant": 1

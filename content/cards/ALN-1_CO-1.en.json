@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "For days, the girl had clasped {WITCH_NAME}'s hands in the courtyard, offering gentle reassurance. That day at the upper railing, she confided her fear of execution. {WITCH_NAME} answered through her Magic in the girl's own voice, echoing the reassurance the girl had once given her. The girl asked for a genuine answer instead of an imitation. When the girl said she would never confide in {WITCH_NAME} again, {WITCH_NAME} tipped the girl headfirst over the upper railing during afternoon free time.",
-          "As the girl fell, {WITCH_NAME} used her Magic to sound both parts at once: a suicidal farewell in the girl's voice and, over it, a plea in {WITCH_NAME}'s own voice to save the girl. The girl struck her head on the courtyard path and died. A prisoner in the courtyard heard the exchange and believed the girl had jumped while {WITCH_NAME} tried and failed to save her.",
-          "In the trial court, a prisoner reviewed a phone video of the fall. The farewell continued through the instant the girl's head struck the path. The prisoners saw what that timing meant: {WITCH_NAME}'s Magic had counterfeited the farewell and paired it with a staged rescue plea, hiding the push beneath an apparent suicide."
+          "Her roommate's favorite prank was playing dead. She would sprawl somewhere in the mansion with her phone propped up to film whichever prisoner found her, and wait for the scream.",
+          "One evening in the lounge, {WITCH_NAME} found her lying still on the floor and felt the giggle the girl was holding in rise in her own chest. She laughed out loud over the \"corpse,\" and the phone caught all of it.",
+          "In the dining hall, the roommate played the clip for the whole table. \"She felt me giggling,\" she said. Every face at the table turned to stare at {WITCH_NAME}.",
+          "It had happened once before. At her grandmother's funeral, a cousin had stifled a giggle, and {WITCH_NAME} laughed it aloud while every mourner stared. Ever since, she had matched her face to the nearest girl's, so that no one would look twice.",
+          "The next morning before breakfast, her roommate bent over the fountain in the courtyard to rinse her face. {WITCH_NAME} held her head under the water until she went still, then left her floating face down, just the way she posed for her drowned-girl prank.",
+          "After breakfast, she crossed the courtyard with the other prisoners. At the sight of the girl in the fountain, she laughed, as if that giggle were welling up in her again. \"Don't give her the reaction,\" she said, and they walked on past.",
+          "In the trial court, the prisoners decided the drowned-girl prank had gone wrong: the roommate had held her breath too long after they passed.",
+          "Then a prisoner pointed out the roommate's phone. It had not been propped up anywhere. It was in her pocket, soaked through.",
+          "The prisoners realized there had been no giggle for {WITCH_NAME} to feel. A dead girl gives nothing to feel."
         ],
-        "epitaph": "The girl's request for a genuine answer will echo forever, unanswered.",
-        "epithet": "The Borrowed Confidante",
+        "epitaph": "Only once did she laugh on her own, and it was over the girl she had drowned.",
+        "epithet": "The Girl Who Wears the Room's Face",
         "execution": [
-          "The execution stand locks her upright inside a cello-shaped frame, leaving her throat exposed. A steel bow begins sawing back and forth across it. Even after her throat falls silent and her body goes still, the bow keeps moving."
+          "The execution stand strapped her face-up inside a glass-lidded coffin, a water spout set at her head. The lid shut. Water ran from the spout and rose around her, then over her upturned face. The spectators leaned over the glass to stare down at her, the way the mourners once had. Beneath the lid she stopped moving, her face still turned up to them."
         ],
         "magic": {
-          "name": "Voice Unbound",
-          "text": "She can turn her voice into any sound she can imagine."
+          "name": "Borrowed Heart",
+          "text": "She feels what the people around her are feeling as if it were her own."
         }
       },
       "variant": 1

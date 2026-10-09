@@ -10,19 +10,20 @@
     {
       "fields": {
         "crime": [
-          "At dinner, the kindest girl held {WITCH_NAME} up as proof that anyone could fit in. “There's nothing strange about her at all.” Since childhood, {WITCH_NAME} had been certain she belonged to none of them.",
-          "The girl stopped at a corridor bench each evening as prisoners passed between the dining hall and lounge. There, during the busy hour, {WITCH_NAME} strangled the girl with a cord. Her magic made the sounds of the struggle seem like ordinary corridor noise.",
-          "She sat beside the body. Passing girls saw only two prisoners resting, overlooking the slumped figure and fallen belongings. When {WITCH_NAME} finally left, the next passerby saw the mark around the girl's throat and raised the alarm.",
-          "Comparing their accounts, the prisoners found that the scene had seemed harmless for exactly as long as {WITCH_NAME} stayed beside the body. Her departure had ended the magic concealing it."
+          "As a child, {WITCH_NAME} ate her meals on the stairs, one hand through the banister. Her stepfather trimmed that hand off the family photo so it would fit the frame.",
+          "In the prison, one girl sketched the courtyard from the fountain every evening, then inked the page in the library before lockup. Each time, she drew {WITCH_NAME}'s arms, hanging through the upper railing, as two sleeves. {WITCH_NAME} sat behind the railing and looked through the artist's eyes, watching her own sleeves being drawn in.",
+          "One evening the artist rubbed the sleeves out of the page. They hung over the courtyard, she said, not in it.",
+          "{WITCH_NAME} hung her empty cardigan through the bars, a pool ball in each cuff. Every night she looked through the eyes of a girl at the fountain and nudged the sleeves until they hung the way her arms did. Then, in the library, she locked her bare arms around the artist's throat until the girl lay still over the page she had inked.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out: her sleeves had been hanging through the railing while the artist died in the library. Then one prisoner pointed to the cardigan's cuffs, stretched round to the size of a pool ball. The prisoners understood. Those sleeves had hung there weighted and empty while she was in the library."
         ],
-        "epitaph": "At last, she was the one thing no one could overlook.",
-        "epithet": "A Stranger Held Up as Ordinary",
+        "epitaph": "Every evening someone drew her in, and she only ever watched for the cut.",
+        "epithet": "The Girl at the Edge of the Picture",
         "execution": [
-          "A bare white room enclosed her, with nothing else inside. One wall began sliding inward, forcing her back as the space narrowed. It kept moving until it crushed her against the opposite wall."
+          "The execution stand was a giant family picture cast in iron, with a trimming blade hinged above one edge. It chained her across that edge, her arms laid inside the picture. She looked through the spectators' eyes and saw only her sleeves inside the frame. The blade came down along the edge and through her shoulders. She slumped, still, beyond the edge, her sleeves left lying inside the iron picture."
         ],
         "magic": {
-          "name": "The Unremarking",
-          "text": "She can make everything around her seem ordinary to other people."
+          "name": "Borrowed Eyes",
+          "text": "She sees through the eyes of anyone she looks at, and can watch herself from where they stand."
         }
       },
       "variant": 1

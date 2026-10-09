@@ -10,19 +10,22 @@
     {
       "fields": {
         "crime": [
-          "In the days before, the girl would hold {WITCH_NAME}'s hand in the lounge, offering comfort without a word. {WITCH_NAME} answered through her Magic, keeping snow falling around them throughout their shared silence.",
-          "Today, the girl asked her to listen—to keep her company without weather between them. Instead, {WITCH_NAME} conjured a thunderstorm in the lounge, drowning out the girl's voice. With her words lost beneath it, the girl withdrew her hand for the last time.",
-          "That afternoon, during free time, a natural hailstorm battered the courtyard. Under its cover, {WITCH_NAME} answered the farewell with a hailstorm of her own inside the lounge. It bombarded the girl until she died. When the natural storm ended, she dragged the body into the courtyard, then draped a blanket over the hail-pitted sofa. In the courtyard, she told the prisoners that the girl had died outside in the storm.",
-          "But when a prisoner pulled the blanket away in the lounge, a splinter lodged in the girl's palm matched a break in the exposed sofa. That match overturned {WITCH_NAME}'s story: her fatal hail had struck inside the lounge, not outside in the courtyard."
+          "Every night at nine, {WITCH_NAME} used her Magic to burst fireworks over the courtyard, and every night one girl leaned on the upper railing with a sketchbook, drawing the prisoners' upturned faces. She was the one who saw what the fireworks did to them.",
+          "One evening at half past eight, the girl held out her sketchbook to {WITCH_NAME} at the railing, open to a finale she had drawn: swallows, then a rain of gold. \"I watched their faces,\" she said. \"This is what they love. Do it at the end.\"",
+          "Back in primary school, a teacher had given {WITCH_NAME} a card with a dot on it, marking the moment to shout the class cheer. She had always shouted a beat after everyone else, into the quiet.",
+          "As soon as the sketchbook was in her hands, {WITCH_NAME} pressed the girl's throat down onto the iron rail until she stopped moving. Then she laid the girl behind the rail with the sketchbook open to the finale and a pencil in her hand.",
+          "At a quarter past nine, {WITCH_NAME} stood among the girls at the fountain and closed the show with swallows and a rain of gold. Around her, the girls gasped as one.",
+          "Afterward, as the girls did after every show, a prisoner ran up to the railing to see that night's sketch and found the girl dead behind the rail.",
+          "In the trial court, the prisoners ruled that the girl had been killed after sketching the finale, while {WITCH_NAME} stood among them at the fountain. Then a prisoner turned back through the sketchbook. Every page showed the girls' faces lit from above. The finale page had no faces at all. The prisoners understood: the page had not been sketched from the fireworks; the fireworks had been copied from the page, drawn before the show and seen by no one but {WITCH_NAME}."
         ],
-        "epitaph": "The voice she silenced was the companionship she could never reclaim.",
-        "epithet": "An Exile from Silence",
+        "epitaph": "For once she came in right on the beat, and the cue was a dead girl's.",
+        "epithet": "One Beat Behind the Crowd",
         "execution": [
-          "The glass rain cabinet on the execution stand holds her fast in a bolted chair. Artificial rain hammers down, filling the cabinet until the water rises over her face. The downpour continues. She hangs in the chair's restraints, motionless beneath the water."
+          "On the execution stand, a great iron firework shell rises on a pole above a ring of iron girls. She is chained upright at the center, her face turned up. The shell blooms open and rains its iron petals straight down onto her. All around, the iron girls open their mouths in one gasp at the bloom. Not one face turns to her. She hangs still in her chains beneath the empty shell, and the iron faces stay turned up to the sky."
         ],
         "magic": {
-          "name": "Weather at Will",
-          "text": "She can conjure any weather she chooses in the air around her."
+          "name": "Daydream Fireworks",
+          "text": "She bursts fireworks of pure light in the air around her, in any shape and color she imagines."
         }
       },
       "variant": 1

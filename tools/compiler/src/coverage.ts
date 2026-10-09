@@ -2,10 +2,10 @@
  * Total cell-coverage map (design spec §5 — "EVERY cell must resolve
  * deterministically to the nearest SHIPPED tag").
  *
- * This module recomputes, from the current ship list on every compile, a TOTAL
- * map: every one of the 8x25 grid cells that is not itself shipped-covered is
- * routed to a shipped cell, so the coverage invariant always holds and
- * self-heals as the ship list grows.
+ * This module recomputes, from the current card folder on every compile, a
+ * TOTAL map: every one of the 8x25 grid cells that is not itself
+ * shipped-covered is routed to a shipped cell, so the coverage invariant always
+ * holds and self-heals as the corpus grows.
  *
  * Ranking tiers (nearest shipped cell), best first:
  *   1  same origin family + same coping stance
@@ -71,7 +71,7 @@ export function buildCoverageMap(args: {
 
   if (shipped.length === 0) {
     throw new Error(
-      "total coverage impossible: ship_list yields zero shipped cells",
+      "total coverage impossible: output/cards/ yields zero shipped cells",
     );
   }
 

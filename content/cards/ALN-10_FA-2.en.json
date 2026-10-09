@@ -10,19 +10,27 @@
     {
       "fields": {
         "crime": [
-          "During free time, {WITCH_NAME} used her Magic to turn the reception room into a sheltered seashore where she and a girl could rest together. Afterward, the girl welcomed her home to the place they shared.",
-          "That day, the girl pinned an appointment sheet to the doorframe, reserving private sessions on their beach. When her turn came, she sent {WITCH_NAME} away.",
-          "Turned out of the home she had made, {WITCH_NAME} replaced the sheltered shore with an enclosing sea. Water filled the reception room and drowned the girl. Then she restored the sheltered seashore, where a prisoner later found the girl's waterlogged body stranded on the shoreline.",
-          "{WITCH_NAME} had said the girl was taking a private swim, and the scene suggested an accidental drowning. But a prisoner examining the appointment sheet found that its ink had bled even above head height. At the trial court, the prisoners understood the mark: {WITCH_NAME}'s landscape replacement had submerged the whole room, overturning her story of a private swim."
+          "Every night, one prisoner sits at the lounge fireplace writing a letter to her mother, and at half past nine she burns it so the smoke can carry it home. {WITCH_NAME} is the one girl who stays with her every evening. She turns the lounge into a moonlit shore of her own imagining, with the hush of waves and the smell of salt, and the letter-writer waits for her hour on the hearth rug.",
+          "Just after nine one night, the girl invites her home for when they get out of prison. \"My mother will lay out the spare futon for you.\"",
+          "{WITCH_NAME} was nine when her aunt folded her futon into the cupboard and set the baby's cot in its place. It had only ever been the spare. She has slept nowhere but spare places since.",
+          "At ten past nine, as the girl kneels at the fire, {WITCH_NAME} takes the crossbow from the wall and shoots her in the back.",
+          "At half past nine, walking with the other prisoners to the cells, she lays the smell of burning paper behind the shut lounge door.",
+          "At ten to ten, the girl's roommate finds her dead by the fire with a bolt in her back.",
+          "In the trial court, the prisoners rule that she was shot after burning her letter, while {WITCH_NAME} was walking with them.",
+          "Then the roommate finds that day's letter in the dead girl's pocket, unburnt, written before she ever came to the fire: \"Air the spare futon. I'm bringing her home.\"",
+          "The prisoners understand. Nothing burned at half past nine. The smell came from a place {WITCH_NAME} imagined."
         ],
-        "epitaph": "Too late, she understood: home was never the place she made, but the place where she was welcome.",
-        "epithet": "A Stranger Everywhere",
+        "epitaph": "She was expected all along: someone had already kept her a place, and she stopped the letter that said so.",
+        "epithet": "Guest of Every Spare Futon",
         "execution": [
-          "Inside a glass room, the execution stand locks her upright, feet anchored to the floor. Real water climbs from her ankles to her face, engulfing the horizon of the seashore painted around the glass. After her last bubbles rise, she hangs motionless beneath the painted shore."
+          "The execution stand lays her on her back on a long, iron-weighted futon and straps her down beside an open iron cupboard.",
+          "The futon rolls up from her feet, winding her inside like bedding being put away.",
+          "As the roll climbs past her chest, she lays her moonlit shore over the trial court.",
+          "The stand shuts the rolled futon in the iron cupboard, and the moonlit shore goes out."
         ],
         "magic": {
-          "name": "Worlds Within Walls",
-          "text": "She can turn a room into a physically real, inhabitable landscape from her imagination."
+          "name": "Anywhere But Here",
+          "text": "She can wrap the place around her in the sights, sounds and smells of anywhere she imagines."
         }
       },
       "variant": 1

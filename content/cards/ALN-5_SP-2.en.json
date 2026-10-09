@@ -10,19 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Last week in the lounge, a girl saw a siege game through to the end with {WITCH_NAME}. At the meals that followed in the dining hall, {WITCH_NAME} gave the girl her own dessert in exchange for a rematch.",
-          "Today in the courtyard, the girl admitted she had played only for the desserts. She returned the siege-game board to {WITCH_NAME}, ending their partnership. In answer, {WITCH_NAME} brought her imaginary fellow enthusiasts to life. The companions held the girl fast while {WITCH_NAME} strangled her with a scarf.",
-          "A prisoner approaching the courtyard heard the commotion and called out to {WITCH_NAME}. At the call, {WITCH_NAME} dismissed the conjured companions, but their footprints remained in the snow. When the prisoner arrived, {WITCH_NAME} claimed that a group had murdered the girl. The prisoner found the girl amid a crowd's worth of footprints, as if she had been attacked by many people.",
-          "The prisoners traced the marks through the surrounding snow. The crowded prints formed isolated clusters, with no crowd's route into or out of the courtyard; only two approach trails crossed the snow. In the trial court, they reconstructed the scene from that impossible pattern: the apparent attackers were {WITCH_NAME}'s conjured companions, not an independent group."
+          "At ten, {WITCH_NAME} read her notebook aloud, telling where every old thing in the house had come from. Without looking up from his plate, her father asked, \"Who are you telling this to?\" She shut the notebook and never opened it again. After that, when her Magic made a broken thing answer, she asked it only which part was failing, never what it had been through.",
+          "In the prison, another girl streamed from her phone in the lounge every evening of free time so the nights would not be so quiet, and she gave the last half hour to {WITCH_NAME}, whose Magic set an old thing telling its story. One night, her hair still wet, the streamer said, \"I've never heard one. That's my shower time. Nobody's asking, so tomorrow's the last.\"",
+          "The next evening, in the last half hour of free time, the streamer propped her phone in front of the old broom among the cleaning tools in the entrance hall and left for her shower. {WITCH_NAME} stayed silent out of frame, as always. Only she knew that a thing her Magic set talking would keep on after she walked away. She left the broom talking and walked out to the shower room. Under the running water, she twisted the streamer's towel around her throat from behind and pulled until she went still.",
+          "At lockup, the prisoners found the streamer dead in the shower room. She had never come back to sign off the show. In the trial court, everyone knew a thing talked only with {WITCH_NAME} beside it, and on the recorded show the broom never stopped talking, so they ruled her out.",
+          "Then one prisoner played the last show through the part nobody had listened to. \"She's got up and gone,\" the broom said. \"I'll keep on till she's back.\" The court understood: {WITCH_NAME} had left the broom talking to no one and gone to the shower room."
         ],
-        "epitaph": "No part of herself was ever the price of companionship.",
-        "epithet": "The Penitent Playmate",
+        "epitaph": "The only story anyone heard to the end was the one about her leaving.",
+        "epithet": "The Teller No One Hears Out",
         "execution": [
-          "The execution stand locks the witch into a seat in the lower chamber of a giant sand timer. Outside the glass, mechanical players begin the siege game with her. Sand pours from above, piling against her and rising until it swallows her whole. Even after the buried figure stops moving, the mechanical players continue their game."
+          "The execution stand raises a giant iron notebook lying open. She is chained flat on its left page among engraved entries. She reads aloud the entry beside her face: where the old clock came from. Mid-sentence, the right half swings over on its spine and shuts on her. The notebook lies shut. No voice comes from between its pages."
         ],
         "magic": {
-          "name": "Kindred Made Real",
-          "text": "She brings imaginary fellow enthusiasts to life as physically present companions who share her interests."
+          "name": "Things Talk Back",
+          "text": "Any object she speaks to answers in its own voice and tells her what it has been through."
         }
       },
       "variant": 1

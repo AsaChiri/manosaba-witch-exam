@@ -45,7 +45,7 @@ const contentMetaModules = import.meta.glob<{ default: unknown }>(
   { eager: true },
 )
 // The 13 special character records (design spec §3.7). Absent unless the
-// compiler ran with ship_list.characters === true — the feature auto-disables
+// compiler found workspace output/characters/ sources — the feature auto-disables
 // (empty index) when the files are missing; there is no fixture equivalent.
 const contentCharacterModules = import.meta.glob<{ default: unknown }>(
   '/content/characters/*.json',

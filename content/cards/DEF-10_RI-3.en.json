@@ -1,0 +1,39 @@
+{
+  "cell": "DEF|Ritualist",
+  "copingSub": "RI-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-10",
+  "style": "Ritualist",
+  "tag": "DEF-10_RI-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night in her cell, {WITCH_NAME} draws each unwanted touch out of her skin, seals it into a pebble, and adds the pebble to her row.",
+          "In the last hour of hot water, a girl who grew up in a bathhouse scrubs {WITCH_NAME}'s back in the shower room, humming the old bathhouse songs.",
+          "One evening the girl scrubs harder at the scar on {WITCH_NAME}'s shoulder. \"Hold still. This spot won't come off.\"",
+          "Years ago, the village boys threw {WITCH_NAME} into a pigsty, and her mother scrubbed her down with a horse brush. \"Hold still. It won't come off.\" Her shoulder bled, and scarred.",
+          "That night she seals the girl's scrubbing into a pebble. It is the first stone in the row that came from the bathhouse girl.",
+          "When the last hour of hot water comes again, she offers to sit up with a feverish prisoner in the medical room and lays a cool, wet palm on her forehead. She seals the feel of that palm into the wet cloth on the prisoner's brow, and slips out.",
+          "In the shower room, the bathhouse girl is rinsing her hair. {WITCH_NAME} comes up behind her, loops a towel around her throat, and pulls until she stops moving.",
+          "All through that hour, the feverish prisoner feels the palm resting on her forehead. It never leaves.",
+          "In the trial court, she testifies that {WITCH_NAME}'s palm stayed cool all evening.",
+          "Another prisoner catches on the word \"cool.\" A real palm would have warmed against a fevered forehead. What stayed cool was a sealed touch, and the hand it came from had been in the shower room."
+        ],
+        "epitaph": "Of all the stones in her row, only one held a touch meant to make her clean.",
+        "epithet": "Every Unwanted Touch, Kept in Stone",
+        "execution": [
+          "She is strapped face up on the execution stand, beneath a hopper full of pebbles.",
+          "The hopper opens. Smooth grey pebbles pour down steadily, onto her chest, then onto her face.",
+          "They keep coming until the mound settles still, and only her open palm shows above the stones."
+        ],
+        "magic": {
+          "name": "Touchstone",
+          "text": "She draws a sensation out of anyone she touches and seals it in an object; whoever touches that object feels it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -10,18 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Earlier, during free time in the courtyard, a girl drew {WITCH_NAME} into a picture of the house they would share someday. Today, during free time, the girl invited her to a meal. {WITCH_NAME} dodged the invitation by diving into the courtyard's stone floor as if it were a pool. When she resurfaced, the girl called their imagined home make-believe and tore up the drawing.",
-          "After the argument, the girl bent over the fountain to wash the tears from her face. Hidden in its shallow stone basin, {WITCH_NAME} swam toward her. Her hands emerged partway through the stone, closed around the girl's neck, and forced her head beneath the water. She held the girl there until she drowned, then pulled her hands back into the stone. Finding the girl's body alone at the fountain, the prisoners assumed she had drowned accidentally while washing her face.",
-          "At the trial court, a prisoner reviewed a phone recording of the struggle. In the recording, the girl braced herself and tried to push up, only for her head to jerk back down. After the body was discovered, a prisoner had also found fingernail wounds on opposite sides of her neck. Together, the recording and the neck wounds revealed that {WITCH_NAME} had gripped the girl from inside the fountain's stone basin, although the recording showed only the girl."
+          "At her fourth foster home, the foster mother held {WITCH_NAME}'s shoulders from behind at the hall mirror and said, \"You fit right in here.\" Within the month, she was sent back.",
+          "The prison's only mirror stood tall in the shower room. There, every evening, a prisoner who had learned hairdressing in her aunt's salon cut the girls' hair. Whenever she reached for {WITCH_NAME}'s hair, {WITCH_NAME} vanished into the glass.",
+          "At seven, the hairdresser took her by the shoulders from behind at the mirror. \"You fit right in here. Tomorrow I'm cutting your hair.\" {WITCH_NAME} slipped from her hands into the glass as the waiting girls watched.",
+          "At twenty past, as the last girl left, the hairdresser ran every hot shower to rinse the cut hair from the tiles, and the mirror fogged white. At half past, she wiped a wide band clear with a towel so {WITCH_NAME} could come out.",
+          "{WITCH_NAME} stepped out through it behind the hairdresser's turned back, took the cutting cape laid out for her own haircut, and twisted it round the hairdresser's neck until she was still. Then she wiped the misting band and stepped back into the glass; the steam whitened it behind her.",
+          "At ten to eight, a prisoner found the hairdresser dead on the tiles, the showers running, the mirror white. At twenty past eight, as the glass cleared, {WITCH_NAME} stepped out before everyone.",
+          "In the trial court, the prisoners ruled that she had been sealed behind the fog: fogged glass is no door, so someone must have come in by the door.",
+          "Then a prisoner noticed a wiped band on the dried mirror, with drip trails cut through the film the steam had left. The prisoners realized the fog had been wiped clear while the showers ran. {WITCH_NAME} had stepped out and strangled the hairdresser."
         ],
-        "epitaph": "The house in that drawing was the future she had forfeited.",
-        "epithet": "Forever a Guest",
+        "epitaph": "She never understood that the hand wiping the glass clear was asking her to stay.",
+        "epithet": "The Girl Whose Only Home Was the Glass",
         "execution": [
-          "The execution stand locks the witch headfirst in an open-front carriage, holding her in a swimmer's pose. The carriage advances and feeds her headfirst into a rotating grindstone. The stone grinds from her head to her shoulders, then keeps spinning as her bloodied body hangs motionless in the same pose."
+          "In the trial court, the execution stand raises a tall, ornate iron frame made for a hall mirror, with no glass in it. Iron hands grip her shoulders from behind and set her into it. You fit right in here. The sides of the frame close in on her ribs, tighter and tighter, until she fits exactly. She hangs still inside it, fitted like a reflection in an empty frame."
         ],
         "magic": {
-          "name": "Solid Sea",
-          "text": "You can swim freely through solid matter as if it were water."
+          "name": "The Quiet Side of the Glass",
+          "text": "She can step through a mirror into a silent, reversed copy of the room, empty of everyone else."
         }
       },
       "variant": 1

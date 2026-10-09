@@ -10,19 +10,24 @@
     {
       "fields": {
         "crime": [
-          "For weeks, the victim had slipped notes to {WITCH_NAME} inside borrowed library books. What had once been a letter every day dwindled to one-word postponements.",
-          "That day in the lounge, she gave {WITCH_NAME} a farewell letter saying she could not continue their friendship. She tore it up and discarded the scraps. Then she returned the borrowed book to {WITCH_NAME} and said she might visit someday, leaving her to wait without an end. {WITCH_NAME} rejected that promise and any future like it: no more somedays, ever. Then she drove a sword into her friend's chest and killed her.",
-          "From one discarded scrap, she regrew the farewell into a whole sheet in the victim's original handwriting. She placed the victim's hand on the sword hilt and laid the restored farewell beside the body. The pose and letter made the prisoners believe the victim had killed herself, leaving the farewell as her final message.",
-          "A prisoner recovered a handwritten scrap from the sofa. When compared with the intact sheet, the fragment overlapped a crossed-out word that appeared on both pieces. Another prisoner remembered seeing the victim tear up that same farewell earlier that day and recognized {WITCH_NAME} as its addressee. The apparent suicide note was the breakup letter {WITCH_NAME} had recycled after the murder."
+          "{WITCH_NAME}'s mother used to come home every weekend. As her visits grew rarer, her parcels grew bigger. The last one held a hand-knitted sweater, and after it she never came again.",
+          "That night {WITCH_NAME} renounced sweaters. The bigger the gift, the nearer the goodbye. From then on no sweater could come near her, and every evening she shivered.",
+          "In the prison, one girl knits every evening beside the fireplace in the lounge, the way her grandmother taught her. {WITCH_NAME} holds the skein for her. Because {WITCH_NAME} shivers without a sweater, the girl knits her a scarf. When it is finished, she knots it around {WITCH_NAME}'s neck and says that tomorrow she'll start one for each of the others.",
+          "That evening, in front of everyone, {WITCH_NAME} renounces scarves. The scarf slides off her neck and curls away across the floor.",
+          "The next evening, while the girl sits knitting the first of the others' scarves, {WITCH_NAME} comes up behind her. She reaches for the scarf at the back of the girl's neck and keeps bringing her hands closer until the girl stops moving.",
+          "The prisoners find her strangled on the lounge sofa, her own scarf knotted at her throat.",
+          "In the trial court, they rule {WITCH_NAME} out: no scarf can come near her, so someone else must have pulled it tight. Then a prisoner notices that the back of the scarf has sunk deep into the girl's nape, while its ends hang smooth, never gripped by anyone. The prisoners understand. Nobody pulled it. The scarf tightened as it fled from {WITCH_NAME}'s hands closing in behind it."
         ],
-        "epitaph": "She could restore every torn word, but never the answer she was waiting for.",
-        "epithet": "The One Left Waiting for Goodbye",
+        "epitaph": "Of everything that ever came to her, only the cold never left.",
+        "epithet": "The Girl Who Refused Parting Gifts",
         "execution": [
-          "An envelope-shaped guillotine folds shut around her on the execution stand, pinning her flat with only her neck exposed. A letter opener sweeps across her neck, cutting off her cry. Her twitching fades as the guillotine seals, until the unaddressed envelope lies still and silent."
+          "The execution stand raises an iron slab into the trial court. Above it hangs an iron hand holding a stack of parcels. She lies chained on her back across the slab, arms stretched out to receive them.",
+          "The hand sets a parcel on her chest. Then another, bigger than the last. Then another, bigger still.",
+          "After the last parcel, the biggest of all, she lies still beneath it. The iron hand rises and never comes back."
         ],
         "magic": {
-          "name": "Grow Back Whole",
-          "text": "A fragment of any nonliving thing can regrow into the complete original."
+          "name": "Forsworn",
+          "text": "Whatever kind of thing she renounces can never come near her again."
         }
       },
       "variant": 1

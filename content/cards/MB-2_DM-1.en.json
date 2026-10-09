@@ -10,19 +10,26 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} told one girl the hope she still had: her mother was outside looking for her. Afterward, whenever a monitor announcement appeared, the girl shouted, “It's your mother!” and the prisoners laughed. {WITCH_NAME} stopped speaking of hope. Everything would fail; everything would end badly.",
-          "The girl filmed herself sliding down the stair banister most evenings. {WITCH_NAME} had warned more than once that it would kill her.",
-          "That evening brought the same joke. Minutes later, {WITCH_NAME} waited at the foot of the stairs. As the girl slid toward the end, she said no to the hand reaching for the rail. The girl failed to catch it and fell headfirst onto the stone floor. Her phone kept recording beside the body.",
-          "{WITCH_NAME} claimed to have arrived with the others after the fall. But the final frames showed her already waiting below, facing the girl, her lips moving and both hands at her sides."
+          "Whenever a girl had a special day, one prisoner made her a card by the lounge fireplace and passed it round to be signed. {WITCH_NAME} cut the paper beside her and had trusted her alone with a secret: her father had walked out eight years ago that week.",
+          "On the anniversary evening, the card-maker gathered the girls at the fire, told them, and had each sign a card. She handed it to {WITCH_NAME} in front of everyone: \"We're all here for you.\"",
+          "Eight years earlier, the morning after {WITCH_NAME} whispered that her father had left, a teacher had the whole class sign a card. {WITCH_NAME} stood at the front holding it while the teacher read it aloud: \"We're all here for you.\"",
+          "{WITCH_NAME} smiled and told the card-maker it was fine. \"Once you tell one person, everyone already knows.\" When the others left, she looked at the card; her Magic showed it curling black in the flames. She dropped it in unread.",
+          "At quarter past five the next evening, the card-maker sat on the hearth under the sword above the mantel, tying a ribbon round a new card. {WITCH_NAME} strangled her with it, moved the sword onto a worn hook, and looked until her Magic showed her the hook giving at ten past six. At half past five she sat down in the dining hall, saying the card-maker was finishing a card, and never left the others' sight.",
+          "At ten past six a clang of steel brought the prisoners running. They found the card-maker strangled on the hearth, the sword fallen across her open hand, a cut in her palm. In the trial court they decided she had seized it fighting her strangler at the clang, while {WITCH_NAME} sat with them at dinner.",
+          "Then one prisoner turned that palm up. The cut had never bled. She had been dead before the sword fell on its own, at a minute only {WITCH_NAME}'s eyes could have seen coming."
         ],
-        "epitaph": "Her only hope became their joke; afterward, all she offered was no.",
-        "epithet": "A Hope Taught to Say No",
+        "epitaph": "She could always see how the card would end, but never what was written inside it.",
+        "epithet": "The Secret That Was Already Everyone's",
         "execution": [
-          "A bell cord hung beside the chair she was bound to. Behind her, out of sight, a spike advanced toward the back of her head. Each pull of the bell returned it to the start. She rang again and again. When the bell finally fell silent, the spike moved forward and pierced her head."
+          "In the trial court, the execution stand raises a giant card, propped open. She stands against its blank inner page, beneath a rack of giant pens.",
+          "The pens begin to sign, name after name, across the page around her. The first two full stops pin her sleeves to the page.",
+          "She looks up at the nib of the last pen and sees it still whole, long after she is gone.",
+          "It writes \"We're all here for you\" up to her chest and presses down the full stop. Where the line ends, the nib sinks in.",
+          "The pens lift away. She sags against the page and goes still, ringed by every name."
         ],
         "magic": {
-          "name": "Nullword",
-          "text": "She can stop an action she sees from being completed by saying no."
+          "name": "Breaking Point",
+          "text": "She can look at any object or plant and see how and when it will finally break or wilt."
         }
       },
       "variant": 1

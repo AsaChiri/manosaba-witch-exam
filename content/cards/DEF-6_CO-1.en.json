@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week in the lounge, a girl warmed {WITCH_NAME}'s trembling hands with quiet, unquestioning tenderness. At meals in the dining hall, {WITCH_NAME} wore a scarf woven with her own calm to stay composed around the others.",
-          "Today in the lounge, she lent the girl a shawl woven from her self-disgust, sharing an emotion she kept private. While wearing it, the girl mistook that borrowed feeling for proof that {WITCH_NAME} had done something wrong. She demanded a confession, then threatened to make everyone wear the shawl. During afternoon free time, {WITCH_NAME} invited her to the cell to hear the confession in private. There, she strangled the girl to death with the shawl, then suspended her body from the upper bunk with it as a noose.",
-          "The hanging in the cell looked like suicide to the prisoners. One recalled seeing the girl in the lounge earlier that day, wearing the shawl and sobbing desolately. At the trial court, a prisoner who felt perfectly neutral tried on the shawl used as the noose; overwhelming shame and self-disgust flooded in. Back in the cell, a prisoner had also exposed a horizontal furrow beneath the slanting mark left by suspension on the girl's neck. At the trial court, the prisoners reconstructed how {WITCH_NAME} staged the hanging: the sobbing had come from borrowed self-disgust, not the girl's own despair, and the second mark showed that strangulation came before suspension."
+          "Every evening by the lounge fire, one girl alters the others' dresses with pins and shears. She leaves every old stain in. \"A stain is where a dress has lived,\" she says.",
+          "{WITCH_NAME} hands her the pins each night. The tailor is the only girl she lets stand that close, and the only one she never lets fit her. Before anyone can look at her, she runs a palm down her clothes and skin, and every crease and stain is gone, so no one looks long enough to find anything.",
+          "At nine, the prisoners leave their rumpled dresses on the sofa for pressing and go. {WITCH_NAME} stays for her first fitting. At five past, the tailor pins her dress, unpins it, pins it again, then takes the pins out. \"Something's off. It isn't the dress. Come back another night.\"",
+          "{WITCH_NAME}'s mother used to change her clothes again and again before every outing, saying something wasn't right, and then leave her at home.",
+          "At eight past nine, {WITCH_NAME} drives the shears into the tailor's chest. At ten past, she wipes the blood from herself with her palm, passes it over every rumpled dress until each lies smooth as if pressed, and hangs them up. She sets the flatiron heating in the fireplace coals. At a quarter past, she joins the game at the pool table in the recreation room, spotless.",
+          "At ten to ten, the prisoners find the tailor dead, every dress pressed and the iron hot. She must have kept pressing for half an hour after {WITCH_NAME} left, they decide.",
+          "In the trial court, one prisoner looks at her pressed dress and finds it like new: the old stain the tailor left in it is gone. An iron lifts no stain. The prisoners realize it was {WITCH_NAME}'s palm that smoothed those dresses, after the tailor was already dead."
         ],
-        "epitaph": "She had condemned herself while innocent; in the end, she made the sentence true.",
-        "epithet": "Guilty Without a Crime",
+        "epitaph": "Of all the girls in that mansion, she killed the only one who never counted a mark against anyone.",
+        "epithet": "Spotless, and Never Quite Right",
         "execution": [
-          "The Shroud Loom on the execution stand locks her upright. An orbiting shuttle winds airtight ribbon over her exposed face until it is completely sealed. The shuttle keeps circling, drawing the ribbon into a seamless gown as she struggles. When the loom finishes, only a faceless silhouette remains, perfectly still."
+          "A giant copy of her spotless dress hangs from the execution stand, giant needles threaded along its open side seams. She hangs inside it by the shoulders. The needles begin stitching the seams shut, and with every pull the bodice draws tighter around her ribs. Each time a seam is finished, the needles unpick it and sew it again, tighter, as if something is still not right. At last she hangs still, the dress fitted without a single crease."
         ],
         "magic": {
-          "name": "Wear My Heart",
-          "text": "She can weave her own emotions into clothing, making anyone who wears it feel them."
+          "name": "Good as New",
+          "text": "One pass of her palm wipes away any scar, stain, scratch or crease."
         }
       },
       "variant": 1

@@ -10,19 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Before lockup, {WITCH_NAME} and her cellmate chose a large book and took turns reading it. The nightly routine steadied her. Sometimes she lay on the lower bunk with the closed book on her chest, making it heavy enough to lull her to sleep.",
-          "One quiet night, the binding cracked as they turned a page. She flinched, lay down, and made the book far heavier than usual. Her breathing grew shallow. Her cellmate told her to stop; she returned the book to normal. The girl said no one else knew yet, but at morning unlock she would tell the warden.",
-          "By morning the girl was dead in the lower bunk, the book lying flat across her crushed chest, weighing no more than usual. {WITCH_NAME} called the other prisoners and said it had slipped from her upper bunk.",
-          "An ordinary book falling that short distance onto a bed could not account for the crushing beneath its whole cover. Its extra weight lasted only while {WITCH_NAME} touched it. The cell had remained locked with only the two of them inside. She had laid the book on her sleeping cellmate, kept her hand on it until its weight killed the girl, then let go."
+          "Every evening a girl walked the perimeter wall, scraping its mortar with a sharpened spoon, and {WITCH_NAME} was the only one she let walk beside her. For each evening the wall held, she chalked a tick on the stone by her bunk.",
+          "At 7:40 one evening she showed {WITCH_NAME} a loose stone. \"One of these evenings I'll go over without you,\" she said. \"I won't say which, so you'll never have to lie for me.\"",
+          "{WITCH_NAME}'s mother had waved to her at the school gate one ordinary Wednesday: \"See you at six.\" At noon a truck crossed the center line, and she never came home. The last day had looked like every other day.",
+          "At 7:55, in the girl's cell, she was chalking the evening's tick when {WITCH_NAME} laid a palm on the back of her neck. \"Then it's tonight,\" {WITCH_NAME} said, \"and I'll know which night.\" Her Magic put the girl straight into a deep sleep. {WITCH_NAME} drove the girl's own spoon under her ribs and tucked the blanket over her where she lay facing the wall. From 8:10 she sat among the girls in the lounge until lockup.",
+          "At 9:30 the girl's roommate came in, found her asleep facing the wall after the night's tick, breathing evenly, and said goodnight. At six in the morning the roommate woke to find her cold, with a small wound under her ribs and blood soaked into the mattress.",
+          "In the trial court, the prisoners went by the roommate's account: a girl sleeping that peacefully at 9:30 could not have been stabbed yet. They ruled she was stabbed after lockup.",
+          "Then a prisoner noticed the last chalk tick. It ran in one long line down the stone to the pillow. Nobody drifts off in the middle of a stroke. The prisoners understood: {WITCH_NAME}'s palm had taken the girl mid-tick, before {WITCH_NAME} ever left the cell, and the girl had slept straight through the spoon."
         ],
-        "epitaph": "She had always mistaken being held down for being held.",
-        "epithet": "The Weight of a Quiet Night",
+        "epitaph": "She had to know which evening it would be, and understood too late that not knowing was the gift.",
+        "epithet": "Asleep Before Tomorrow Comes",
         "execution": [
-          "An open frame suspended her by the wrists and ankles, with nothing beneath her. It pulled the restraints outward, spreading her limbs until her joints gave way. Her body went still, and the frame kept pulling."
+          "The execution stand raised a ring of perimeter-wall stones around her and mortared her arms flat at her sides into the first course. Course by course, the stones rose up her body, each one pressed tight with mortar, closing over her chest, then her shoulders. She strained her palm toward her own brow, but the stones held her arm. She stayed awake as the last course closed over her face. The sealed column stood silent, like any ordinary stretch of wall."
         ],
         "magic": {
-          "name": "Weight Amplification",
-          "text": "She can make an object heavier by touching it."
+          "name": "Lullaby Palm",
+          "text": "Anyone her palm rests on, herself included, falls at once into deep, peaceful sleep."
         }
       },
       "variant": 1

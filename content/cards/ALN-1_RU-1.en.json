@@ -10,18 +10,28 @@
     {
       "fields": {
         "crime": [
-          "Early in their friendship, a girl gave {WITCH_NAME} a gift in the courtyard: an uncarved stone she had turned into a painted relief of the two of them smiling. On later days, the girl painted tears over her own face. Each evening, {WITCH_NAME} used her Magic to undo the tears and bring back the portrait of the two of them smiling.",
-          "This afternoon, the girl blotted out her own image with black paint in the courtyard. That evening, she returned the stone to {WITCH_NAME}, ending their friendship. At that, {WITCH_NAME} struck the girl in the temple with the stone, killing her.",
-          "After the blow, she used her Magic to return the bloodied portrait to a rough, unpainted, uncarved stone on the path. When the prisoners found the girl's body, it seemed she had fallen there by accident. But one prisoner who had seen her black out the portrait that afternoon recognized flakes of black paint inside the wound. The prisoners saw what the change had concealed: the rough stone was the painted portrait, reverted after it had served as the weapon."
+          "Every dusk, a prisoner sang at the lake's edge and let only {WITCH_NAME} listen. Each time {WITCH_NAME} started back, the singer let her take one photo on her phone, then sang the last verse alone, for her sister at home.",
+          "The singer never sang indoors, so each evening in the lounge the prisoners asked {WITCH_NAME} to wake that dusk's photo, and the picture sang for them. The singer herself came in before lockup.",
+          "One dusk, the singer covered the phone's lens with her hand. \"No more photos. You only ever look at me afterward.\"",
+          "Years before, {WITCH_NAME} had photographed her own mother smiling goodbye at the door. Her mother never came back. Years later, {WITCH_NAME} woke the photo and heard her mother say, \"You won't even notice I'm gone.\"",
+          "As the singer turned back to the water for the last verse, {WITCH_NAME} struck the back of her head with a stone from the shore. The singer fell face down into the shallows.",
+          "Minutes later, in the lounge, {WITCH_NAME} woke a photo from an earlier dusk and passed it off as that evening's. In it, the singer sang, then, after the click, waved {WITCH_NAME} off and turned back to the water.",
+          "Near lockup, when the singer still hadn't come in, a prisoner found her face down in the shallows, the back of her head broken.",
+          "In the trial court, the prisoners concluded the singer was struck down after {WITCH_NAME} walked back, while {WITCH_NAME} sat among them from her return until the body was found.",
+          "When the photo was woken again for the court, one prisoner noticed a full moon rising over the lake behind the singer. There had been no moon that night.",
+          "The picture was from another dusk, the prisoners realized. No one had seen the singer alive after {WITCH_NAME} walked back."
         ],
-        "epitaph": "The girl's smile had always been hers alone.",
-        "epithet": "Yesterday's Friend",
+        "epitaph": "She kept the singer in every photograph but one: the dusk she was asked to stay, which no picture will ever let her understand afterward.",
+        "epithet": "One Who Understood People Only Afterward, in Photographs She Woke",
         "execution": [
-          "The execution stand locks her head inside a portrait mold. Liquid plaster floods her face, turning her gasps into a muffled struggle. When the mold opens, it reveals a cast of her face fixed in a smile. She is still."
+          "The execution stand raises an iron camera taller than two girls, her neck chained inside the ring of its shutter blades.",
+          "An iron hand lays its palm over the lens in front of her face. The last thing she sees is a hand over the lens.",
+          "Slowly, the shutter blades close around her throat. The ring tightens without a click.",
+          "She hangs still in the shut shutter. No photograph of this moment is ever taken."
         ],
         "magic": {
-          "name": "The Way Things Were",
-          "text": "She can return an inanimate object to any physical state it had in the past."
+          "name": "Waking Photographs",
+          "text": "She wakes a still photograph, and its people move, speak and sing through the moments before and after it was taken."
         }
       },
       "variant": 1

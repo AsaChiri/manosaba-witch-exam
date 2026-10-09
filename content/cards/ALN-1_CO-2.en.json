@@ -10,19 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Whenever {WITCH_NAME} missed her turn during card games in the lounge, the girl reminded her to play. Each time, {WITCH_NAME} kept the same smile and said she preferred to watch. Today, the girl took her at her word and gave her playing cards to another prisoner. Before the evening game, she handed {WITCH_NAME} a serving tray and sent her to serve dessert instead.",
-          "Before the game began, {WITCH_NAME} struck the girl in the head with a stoneware teapot, killing her. She then used her Magic to turn the chipped teapot into a soft cake replica.",
-          "When a prisoner arrived for the game, they found the girl beside the fireplace, her head bloodied. When they lifted the teapot by its handle, it crumbled in their grasp—the teapot was cake. The prisoners took the scene for an accident: she must have fallen and struck her head on the fireplace.",
-          "But a prisoner pulled a ceramic splinter from the wound and found that it fit the gap in the teapot's rim. In the trial court, that match exposed {WITCH_NAME}'s trick: although the teapot was now cake, it had been solid stoneware when it struck the girl."
+          "At her father's funeral, {WITCH_NAME} smiled at the mourners. \"What's wrong with your face?\" an aunt asked, and the whole row turned. She never let anyone see her own face again.",
+          "In the prison, one girl photographed a different prisoner every day and posted the portrait to the chat each evening. Only {WITCH_NAME}'s face was missing from her album. Then, in the courtyard during afternoon free time, the girl caught that real face on her phone. She scraped her cheek on the fountain rim and laughed. \"Got you.\"",
+          "That evening she posted it to the chat, and the whole lounge looked up from their phones at {WITCH_NAME}. \"Tomorrow I'll catch you smiling,\" the girl promised.",
+          "In the library, as the girl photographed the unwilting cherry tree, {WITCH_NAME} twisted her phone lanyard from behind until the girl went still.",
+          "Minutes before lockup, the girl's roommate stood in the courtyard below the upper railing and called for her. The roommate looked up, saw the girl at the railing smiling and waving, and waited by the fountain, relieved. Moments later, {WITCH_NAME} walked into the lounge and stayed there in full view of the others until lockup.",
+          "At the trial, the prisoners placed the death after that sighting. {WITCH_NAME} had already been in the lounge, so suspicion fell on the girls upstairs.",
+          "Then a prisoner pointed to the plaster still on the dead girl's grazed cheek. The roommate had seen a bare, smiling cheek.",
+          "Before going to the lounge, {WITCH_NAME} had stepped up to the railing, into the roommate's frightened gaze, nodded, and stepped back. The prisoners understood: her Magic had shown the roommate the face she most needed."
         ],
-        "epitaph": "They believed she was content to watch—until watching alone was all she had.",
-        "epithet": "The Ever-Smiling Hostess",
+        "epitaph": "Everyone else wanted a face that comforted them. Only one girl ever wanted hers.",
+        "epithet": "The Girl Whose Face Was Always Someone Else's Comfort",
         "execution": [
-          "The execution stand holds the witch upright on a tiered cake pedestal. A cake-slicing wire presses into her waist and draws steadily backward through her. It keeps moving until it clears her torso, leaving her divided body motionless on the tiers."
+          "The execution stand rose in the trial court: an open grave with a row of veiled iron mourners standing around it. She was strapped upright inside the grave. All at once, the whole row turned their heads toward her face. Then the mourners began tipping shovelfuls of grave earth onto her, and the earth climbed toward her upturned face until it closed over it. The row went on looking at a smooth mound."
         ],
         "magic": {
-          "name": "Cake in Disguise",
-          "text": "She can turn any inanimate object into edible cake without changing how it looks."
+          "name": "The Face You Need",
+          "text": "Her Magic shows everyone who looks at her the face that comforts them most."
         }
       },
       "variant": 1

@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME}'s Magic had brought a teapot to life, and on previous evenings the victim had joined the two of them for conversation in the lounge. That day, the prisoners invited the victim to a picnic, and she accepted. That evening, she packed the teacups they shared into the picnic bag. In answer, {WITCH_NAME} restored the two-place tea setting she shared with the victim.",
-          "Keeping both of the victim's wrists pinned, she brought a sword to life with her Magic and commanded it to stab the victim to death. Afterward, she resumed her household chatter with the teapot. Only when the conversation was over did she command the sword to lie across the victim's hand in her lap.",
-          "When the prisoners discovered the scene, the sword in the victim's hand suggested suicide. But one prisoner inspected the victim's hand and found the loose dust on the sword's grip untouched. The untouched dust exposed the trick: animated by {WITCH_NAME}'s Magic, the sword had done her bidding without the victim ever gripping it, then been laid across her hand."
+          "One prisoner spent her hours in the lounge knitting winter scarves for the others. {WITCH_NAME} drew a chalk door on the wall of the knitter's cell, and it swung open onto a sunlit kitchen that the two of them shared.",
+          "One day the knitter gave her a sweater one size too big. \"So it still fits you next winter.\"",
+          "In an autumn of {WITCH_NAME}'s childhood, her mother had knitted her sweaters in sizes she had not yet grown into, and was gone before the first frost.",
+          "After lockup, {WITCH_NAME} drew a door on her own cell wall, crossed the kitchen, and came out into the knitter's cell. She strangled the knitter with one of her own scarves and hanged her by it from the barred cell door. Then she went back through the kitchen and wiped the chalk door off her own wall.",
+          "At the morning unlock, the prisoners found the knitter hanging from her barred cell door. She had been locked in alone all night, and the chalk door on her wall opened onto a kitchen with no other door. They ruled that she had hanged herself.",
+          "Then one prisoner found a tea ring on the kitchen tablecloth. Her own cup had left it there, at the tea {WITCH_NAME} once hosted behind a door in the lounge.",
+          "In the trial court, the prisoners saw it: every door {WITCH_NAME} drew opened onto the same sunlit kitchen, and that kitchen had put her inside the locked cell."
         ],
-        "epitaph": "She perfected a household no one could live in with her.",
-        "epithet": "The Make-Believe Hostess",
+        "epitaph": "One size too big was never a goodbye; it was a promise to be there when it fit.",
+        "epithet": "Every Gift a Goodbye",
         "execution": [
-          "The embracing chair on the execution stand clamps her against its rigid back. Steel arms close over her chest and tighten as she struggles. They keep tightening until she falls still; the chair holds her fast, welcoming her home in an embrace that will not end."
+          "The execution stand chains her upright, facing an iron wall. A chalk door is drawn on it, with sunlight spilling out from underneath.",
+          "The wall rolls forward. It reaches her chest and keeps rolling, and the door never opens.",
+          "Pressed flat against the closed door, she stops moving."
         ],
         "magic": {
-          "name": "Coming to Life",
-          "text": "She can bring inanimate objects to life, giving them movement, speech, and personalities of their own."
+          "name": "The Daydream Door",
+          "text": "She draws a chalk door on any wall, and it opens onto a sunlit room she imagines."
         }
       },
       "variant": 1

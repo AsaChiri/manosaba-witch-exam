@@ -10,19 +10,22 @@
     {
       "fields": {
         "crime": [
-          "On an earlier evening in the lounge, {WITCH_NAME} used her Magic to share an imagined memory with a girl: the two of them coming home together as sisters. Afterward, the girl played along affectionately and called her “sister.”",
-          "But at lunch today, the girl told the prisoners in the dining hall that their sisterhood was only fiction. She told {WITCH_NAME} there would be no family homecoming that night—or ever again.",
-          "During evening free time, {WITCH_NAME} stabbed the girl in the chest with a sword in the lounge, killing her. After the killing, she used her Magic in the recreation room to give all the prisoners the same memory: the girl had come there during their morning rehearsal to say she would kill herself that evening. When the prisoners found the girl’s body in the lounge, the sword wound and remembered farewell made it look like suicide.",
-          "In the trial court, one prisoner played the complete recording of that morning’s rehearsal from a phone. The prisoners compared it with the farewell they remembered, but the girl’s visit was nowhere in the recording. The missing visit exposed the remembered farewell as a cover story {WITCH_NAME} had planted in their minds."
+          "Every evening at half past nine, a girl sat on the rim of the courtyard fountain and whistled her tune to a starling she had taught to answer. It only ever answered her; it never sang first. {WITCH_NAME} sat beside her and told her what the starling sang back, because to {WITCH_NAME} its whistles came as plain words. No other girl had ever wanted her words.",
+          "One evening at ten past nine, the girl pressed her fingers to {WITCH_NAME}'s lips, laughing. \"Don't tell me. If I know the words, it stops being our song.\"",
+          "Back at school, {WITCH_NAME} had once jumped into the other girls' skipping rope singing every word of the rhyme, and they stopped turning it. \"You're only saying the words.\" Words were the only way in she ever had.",
+          "{WITCH_NAME} pushed the girl face down into the fountain and held her under until she was still. Before going in, she looked up into the branches of the tree and told the starling, \"She can't whistle tonight. When it's time, sing her part, then yours.\"",
+          "At half past nine, the prisoners in the lounge heard the girl's tune and its answer through the window. {WITCH_NAME} had been sitting among them since a quarter past. At lockup they found the girl face down in the fountain, and in the trial court the prisoners ruled that she had been held under after her tune. {WITCH_NAME} had been inside with them by then.",
+          "The next evening at half past nine, a prisoner in the courtyard heard the starling whistle the girl's tune and answer itself. No one sat on the fountain rim.",
+          "In the trial court, the prisoners understood that last night's call had been the bird too. Someone had told it, in words, that the girl wasn't coming, and only {WITCH_NAME} could talk to it."
         ],
-        "epitaph": "In the end, she lives alone in her imagined home, where every welcome goes unanswered.",
-        "epithet": "A Native of Nowhere",
+        "epitaph": "Their song was whole from the first night; it never needed her words.",
+        "epithet": "Knew Every Word, Never in the Song",
         "execution": [
-          "The execution stand holds the witch flat on her back inside an open storybook. The inside cover shows her imagined family waiting with welcoming arms. Then the illustrated cover swings down, bringing those arms with it, and keeps pressing against her torso until the storybook shuts. The witch lies still inside."
+          "The execution stand raises two iron arms and swings a heavy iron chain between them like a skipping rope. She is tethered at the waist to a ring in the middle. The chain passes over her head and under her feet as she jumps; this time it does not stop for her. Once it turns faster than she can jump, it catches her feet mid-jump and throws her down. It keeps sweeping across where she lies until she is still. Then the arms stop, and the chain hangs slack over her."
         ],
         "magic": {
-          "name": "Lives We Never Lived",
-          "text": "She can give people shared memories of living through events that never happened."
+          "name": "Common Tongue",
+          "text": "She can talk with animals: their cries reach her as plain words, and hers reach them."
         }
       },
       "variant": 1

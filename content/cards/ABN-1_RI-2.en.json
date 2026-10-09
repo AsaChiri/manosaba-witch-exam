@@ -10,19 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Earlier that day in the lounge, the girl patiently restarted a page she was reading with {WITCH_NAME}. When they finished, she asked her friend to talk privately about their friendship. Before they spoke, she pulled out her bookmark and returned their book.",
-          "That small sign of departure made {WITCH_NAME} listen. The girl rehearsed what sounded like a private confession of guilt, and {WITCH_NAME} caught every word. At the end of the rehearsal, she used her Magic to loop time in the lounge back to the start of their reading, carrying those words into the new pass.",
-          "As the girl repeated the welcoming line that had opened their reading, {WITCH_NAME} cut in: “Are you leaving?” Before the girl could answer, {WITCH_NAME} drove a sword into her chest and left the blade there. Then she used the girl's phone to forge a farewell chat from the confession she alone remembered.",
-          "When the prisoners found the body in the lounge, the sword and chat made it appear that guilt had driven the girl to suicide. But one prisoner recognized a passage in the farewell as words from their own draft manuscript. They had never shared that draft with the girl during the final pass through that time. From that borrowed passage, the prisoners reconstructed the chat: {WITCH_NAME} had forged it from the rehearsal erased by her loop."
+          "Every night at nine, a girl stood at the upper railing and sent all the prisoners a photo of the fountain in the courtyard below. It was her goodnight. {WITCH_NAME} always answered first, and only then went to sleep.",
+          "One night, just before nine, the girl held up her phone to {WITCH_NAME} in the recreation room. \"From tomorrow, you send the goodnight. You know the words.\" Then she stepped out to the railing with it.",
+          "Long ago, {WITCH_NAME}'s mother had made her say goodnight alone. \"So you can say it without me.\" By morning, her mother was gone.",
+          "At nine, just as the girl's goodnight photo went out, {WITCH_NAME} caught her by the knees and tipped her over the railing. The girl fell headfirst onto the stone path. Then {WITCH_NAME} used her Magic and rewound everything around her to the moment before she had left her chair. She was sitting in it again, and only she remembered. The Magic did not reach the courtyard a floor below. The girl stayed where she had fallen.",
+          "In the recreation room, the prisoners had seen the girl step out. From nine until the body was found at 9:40, they saw {WITCH_NAME} sit in her chair and never leave it. That night, none of their phones received a goodnight photo. In the trial court, they concluded that the girl had gone over before she could send it, while {WITCH_NAME} sat with them.",
+          "Then one prisoner showed the court her phone. It had been downstairs in the lounge, and the goodnight photo had arrived on it at nine. The prisoners realized that every phone upstairs had been rewound after the photo came. {WITCH_NAME} had been at the railing."
         ],
-        "epitaph": "By taking the last word, she lost the answer forever.",
-        "epithet": "Always Braced for Goodbye",
+        "epitaph": "Her last goodnight reached every phone but the one that always answered first.",
+        "epithet": "Awake Until Goodnight Comes",
         "execution": [
-          "The execution stand locks her faceup on its bed beneath a pendulum blade. The blade swings into her chest, cutting deeper with every pass until her body lies still. Only then does it return to the high point where it began."
+          "The execution stand raises an iron clock over the trial court. She is collared to its face at the nine, and its hand is a blade.",
+          "The hand sweeps toward nine and springs back. It sweeps again and springs back again, turned back over and over.",
+          "Then it passes through nine and does not turn back.",
+          "The hand comes to rest at nine. The clock strikes once. She hangs still in the collar."
         ],
         "magic": {
-          "name": "Time's Encore",
-          "text": "She can loop a span of time she chooses, returning everything around her to its beginning while remembering every pass."
+          "name": "Just a Moment Ago",
+          "text": "She rewinds everything around her by a few moments, and only she remembers."
         }
       },
       "variant": 1

@@ -10,18 +10,27 @@
     {
       "fields": {
         "crime": [
-          "On the first evening, a girl had pulled out a chair for {WITCH_NAME} in the dining hall so they could eat together. Today, the girl carried her plate to another table to join the other prisoners. {WITCH_NAME} followed her into the courtyard and demanded that she come back to the place saved for her. The girl refused. “I'm not eating with you anymore.”",
-          "{WITCH_NAME} forced the girl's face under the fountain water and held her there until she drowned. She gathered their exchange and the sounds of the struggle into a bottle, leaving the courtyard silent.",
-          "The prisoners found the girl with her face still submerged in the fountain. In the dining hall, {WITCH_NAME} claimed the bottle held a peaceful goodbye after dinner and that she had then left alone. One prisoner uncorked it to listen. Choking and splashing poured out. With the body in the fountain, the prisoners knew what those sounds meant: she had been there for the drowning, and her story of a peaceful parting concealed it."
+          "Every evening in the lounge, one of the prisoners read palms, a game her grandmother had taught her.",
+          "{WITCH_NAME} used her Magic to keep her mother's grip on her wrists as red as the morning her mother left. She let no one hold those wrists except the palm reader.",
+          "One evening, halfway through a reading, the palm reader let go of her wrists. \"Wait here,\" she said, and took the next girl's hand.",
+          "On a station platform, her mother had once gripped both her wrists and said the same thing: \"Wait here.\" Her mother never came back.",
+          "{WITCH_NAME} waited on the lounge sofa until lockup. The palm reader did not come back either.",
+          "The next evening, in the library, she took the palm reader's hands and set them on her wrists. \"Hold them like she did.\" Then she closed her own hands around the palm reader's throat and squeezed until the girl went still, those hands still clamped on her wrists.",
+          "In the trial court, the prisoners checked every wrist for the dead girl's grip. They passed over hers. Everyone knew those red marks were old.",
+          "Then one prisoner counted the thumbprints. One grip leaves a single thumbprint on each wrist. Each of hers had two.",
+          "Then the prisoners understood. The second grip belonged to the palm reader, who had held on to {WITCH_NAME}'s wrists all the while she was being strangled."
         ],
-        "epitaph": "She kept the goodbye, but no one was coming back.",
-        "epithet": "A place saved for someone already leaving.",
+        "epitaph": "In the end, the palm reader's hands did come back to her wrists, the only hands that ever did.",
+        "epithet": "Still Waiting in Her Mother's Grip",
         "execution": [
-          "A bottle press on the execution stand held her fast with her head inside the bottle's neck. A cork descended, crushing her head against an iron collar and trapping her scream inside. The press drove the cork home. Her hands stopped moving, and all was silent."
+          "In the trial court, two iron hands rose from the execution stand, closed around her wrists, and lifted her off the floor. A noose hung slack around her neck.",
+          "The iron hands tightened their grip. Then they let go.",
+          "She dropped, and the noose snapped taut around her neck.",
+          "Beneath the open iron hands, she turned slowly, and then she was still."
         ],
         "magic": {
-          "name": "Sound Catcher",
-          "text": "She can gather sounds from the air into containers, leaving silence until the containers are opened and the sounds escape."
+          "name": "Still Warm",
+          "text": "She can keep any trace a person leaves behind as fresh as the moment it was left."
         }
       },
       "variant": 1

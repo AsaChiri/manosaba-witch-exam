@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Resigned",
+  "copingSub": "RS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Resigned",
+  "tag": "ED-4_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} was six, her mother pulled her by the hand into the waves. She came out coughing and crying, and her mother said, \"See? You loved it.\"",
+          "In the prison, another girl took her by the hand every evening after supper and dragged her sliding across the frozen lake. Then the thaw came. The middle of the lake turned grey, and only the ice along the far bank still held. That evening the other girl pulled her round the last of it, laughing, while {WITCH_NAME}'s hand shook in her grip. \"See? You loved it.\"",
+          "The next evening, after dark, {WITCH_NAME} sat in the lounge and, for the first time, called for her. She said nothing; she only wished for her, across the grey middle of the lake. Out in the dark, the other girl felt the tug on her hand and ran toward it, laughing. In the middle of the lake, the ice gave way.",
+          "All evening, until lockup, the prisoners saw {WITCH_NAME} sitting still on the sofa by the fire. She never got up and never said a word. At the trial, the prisoners concluded that the other girl had lost her way back in the dark and strayed onto rotten ice.",
+          "Then one prisoner went down to the lake and sighted along the dead girl's footprints. They ran in a straight line across the grey middle, aimed at the lounge. In the trial court, that prisoner understood: the girl hadn't been lost on her way back. She had run straight for the sofa, drawn by {WITCH_NAME}'s call."
+        ],
+        "epitaph": "When it was finally her hand doing the pulling, she didn't ask either.",
+        "epithet": "The Girl Led by the Hand",
+        "execution": [
+          "The execution stand raises a smiling iron mother. She is chained upright, facing it, and its iron hand is holding hers.",
+          "The iron mother presses a smiling porcelain mask over her face. \"See? You love it.\"",
+          "She tugs at the iron fingers, again and again, calling in silence. No one answers.",
+          "Her fingers go slack in the iron hand. The painted smile does not change."
+        ],
+        "magic": {
+          "name": "The Beckoning Hand",
+          "text": "When she silently calls someone, an invisible tug on their hand leads them to her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

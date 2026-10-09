@@ -10,19 +10,25 @@
     {
       "fields": {
         "crime": [
-          "On earlier evenings in the dining hall, the victim and {WITCH_NAME} took a shared bow after performing a comic snake duet with a scarf.",
-          "During the next rehearsal, she confessed that an image of strangling someone kept intruding on her thoughts, and that it frightened her. The victim said such an image meant she wanted to murder someone. The victim then gave the scarf back and withdrew from their duet.",
-          "As the victim left, {WITCH_NAME} brought the untied scarf to life. It wrapped itself around the victim's throat, tied a double knot at her nape, and tightened fatally. In her struggle, the victim overturned a chair as she collapsed, and the scarf's trailing end fell across it.",
-          "Afterward, {WITCH_NAME} told the prisoners that the scarf had snagged the chair during their puppet performance, causing the fatal fall. But a prisoner examining the body lifted the victim's hair and found the double knot at her nape. She remembered seeing the victim return the scarf untied during rehearsal. The knot refuted the story of a chair snag: {WITCH_NAME} had deliberately puppeteered the scarf into tying itself."
+          "Every evening in the courtyard, a prisoner stood on the fountain rim with her teacup and roasted one of the girls. {WITCH_NAME} stood up there beside her, and on every punchline she took a pratfall off the rim, hit the stones and bounced back to her feet like a rubber ball.",
+          "One evening, between falls, the roaster froze her face into {WITCH_NAME}'s blank stare. \"And this,\" she said, \"is her choosing which of us to hold under.\"",
+          "At seven, {WITCH_NAME} had pictured holding her baby brother under the bathwater. She lifted him out, threw herself down on the wet tiles, and the whole house laughed. \"While they're laughing,\" she said, \"I'm not the girl who would do it.\"",
+          "That evening she stood on the rim and did not fall. The prisoners laughed anyway.",
+          "After the others went in, the roaster stayed behind alone, rinsing her teacup at the fountain as she did every night. {WITCH_NAME} walked back, pushed the roaster's head under the water and held it there until she was still. The teacup dropped from her hand and bounced, whole, on the stone path.",
+          "Before lockup, the prisoners found the roaster face down in the fountain, her teacup shattered on the path beside the rim. In the trial court they ruled {WITCH_NAME} out: no cup that fell within a few steps of her could break.",
+          "Then one prisoner gathered the shards. They had been pressed flat in a star around a heel print in fine powder. The prisoners understood. The cup had never broken in the fall. It had bounced whole beside {WITCH_NAME}, and she had stamped on it."
         ],
-        "epitaph": "Laughter never answered her plea for absolution.",
-        "epithet": "Begging laughter for borrowed innocence.",
+        "epitaph": "Nothing that fell near her ever broke, only what she held down.",
+        "epithet": "A clown afraid of her own hands",
         "execution": [
-          "The execution stand hoists a marionette cross. Cords from it bind the witch's neck, wrists, and ankles. A noose hauls her up by the neck while the other cords jerk her limbs into a puppet's dance. Her face twists in struggle, then goes still. She dangles from the cords as they keep twitching her through a mechanical encore."
+          "The execution stand raised a tower of dining-hall plates and cups to the ceiling. She knelt beneath it, chained to the stone floor.",
+          "The tower tipped, and the china poured down around her. Every plate and cup struck the floor whole and bounced straight back up into her.",
+          "On every rebound they struck her head and shoulders again. Her head jerked with each blow, until it hung.",
+          "Bounce by bounce, the china fell lower and settled around her, unbroken. She lay still, the only broken thing on the floor."
         ],
         "magic": {
-          "name": "Puppet Parade",
-          "text": "She can bring inanimate objects to life as obedient puppets that move and gesture like living characters."
+          "name": "Bounce Back",
+          "text": "People and things that fall near her bounce off the ground like rubber balls, unharmed."
         }
       },
       "variant": 1

@@ -10,20 +10,26 @@
     {
       "fields": {
         "crime": [
-          "During free time on an earlier day, after their audience left, {WITCH_NAME} and her performance partner clasped hands and bowed together.",
-          "This afternoon, her partner taught another prisoner to run the projector as the lighting operator. For an encore, {WITCH_NAME} brought shadow birds to life for her partner. But when it ended, the partner clasped the other prisoner's hand and bowed with them.",
-          "After that bow, {WITCH_NAME} stabbed her partner with a sword in the recreation room, inflicting a fatal wound. Before the rehearsal, she concealed her partner beneath the cloth draped over the pool table. Then she brought a dancer puppet to life as a life-size shadow dancer. Backlit by the projector, the creature mimed her partner's solo rehearsal as a silhouette. Side by side, {WITCH_NAME} and the other prisoner watched the dancer. It seemed her partner was still alive and rehearsing.",
-          "Then {WITCH_NAME} invited the other prisoner to go with her to the library. Before leaving, the prisoner approached the dancer for the same clasped-hands bow. The hand they grasped was paper-thin. They pulled back the cloth from the pool table and found the partner's corpse underneath.",
-          "At the trial court, the prisoners understood what the paper-thin hand and the corpse meant: the apparent survivor had been {WITCH_NAME}'s living dancer puppet standing in for her partner."
+          "Every dusk, a girl sang for the courtyard from the upper railing. She had run out of songs from home within a week. After that, {WITCH_NAME} gave her new ones: her own songs, whispered line by line from across the mansion, straight into the girl's ear. No one else knew.",
+          "At the railing one evening before dusk, the girl told her with a smile, \"Tomorrow I'll sing one of my own. You can rest.\"",
+          "{WITCH_NAME}'s mother had once hummed the harmony under every song her daughter sang. Then she said, \"You can carry it alone now,\" and was gone within the week.",
+          "That dusk, {WITCH_NAME} whispered one last song into the girl's ear: \"Don't wait up. I'm going down to the water.\" The girl sang it to the courtyard line by line, filmed from below as she was every dusk.",
+          "After dusk, {WITCH_NAME} whispered to her again, calling her down to the lake shore for a proper goodbye. There she held the girl's face under the water until she went still.",
+          "In the trial court, the prisoners took the song as the girl's own goodbye: she had walked into the lake.",
+          "Then a prisoner replayed the last song on her phone. Before every line, the singer turned her ear toward her empty shoulder.",
+          "The prisoners understood. The goodbye had been {WITCH_NAME}'s, and so had the water."
         ],
-        "epitaph": "She turned her last bow with her partner into a farewell no encore could undo.",
-        "epithet": "The Endless Encore",
+        "epitaph": "Of all those songs, she was asked only to listen to one, and never heard it: the girl's own.",
+        "epithet": "The Voice in the Wings",
         "execution": [
-          "An execution stand hoists her by raised wrist cuffs between two enormous palms facing each other. Again and again, the palms clap around her torso, crushing her between them. After the final clap, they remain closed around her, holding her limp and still."
+          "The execution stand raises an iron stage in the trial court. She is chained kneeling in the prompter's slot at its edge, her head and shoulders just under the line of the iron curtain.",
+          "An iron singer sings the song straight through, never waiting for her lines. She mouths each one a beat behind.",
+          "The iron curtain comes down onto her shoulders. It does not stop. It keeps coming down, pressing her into the slot.",
+          "It comes to rest, shut against the stage floor. Nothing stirs beneath it."
         ],
         "magic": {
-          "name": "Living Shadowplay",
-          "text": "She can bring shadow puppets to life as tangible creatures."
+          "name": "Right Beside You",
+          "text": "She can speak or sing into anyone's ear from any distance, and only they hear her."
         }
       },
       "variant": 1

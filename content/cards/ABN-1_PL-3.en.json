@@ -10,19 +10,27 @@
     {
       "fields": {
         "crime": [
-          "Months ago, her friend asked {WITCH_NAME} to clear the dining hall every evening. Since she agreed, dishes and pots had put themselves away along the same route each night. Soon all the girls brought her chores, and she never refused.",
-          "Lately her friend had stopped asking. That evening, right in front of {WITCH_NAME}, the friend handed another girl her torn hem to mend without once turning to her.",
-          "The friend always ate alone after the others left. That night, while {WITCH_NAME} sat with the girls in the lounge, she directed the soup pot above her friend's seat and overturned its boiling contents onto her.",
-          "At breakfast they found the body beneath the pot. Burns ran down the head and back, while the palms were unmarked: the friend had never reached up to pull it down. The spill was two tables away from the clearing's usual route. The pots moved as {WITCH_NAME} intended, and this one had gone straight to her friend's seat."
+          "Every night, a girl asked {WITCH_NAME} for a lemon drop from her home town, and every night she folded its striped wrapper into a paper crane in her cell. A thousand cranes, she said, would buy one wish.",
+          "The night she hung the nine hundred and ninety-ninth crane on her barred cell door, she called out to {WITCH_NAME}: \"Tomorrow, the last one. Then my wish.\"",
+          "Long ago, {WITCH_NAME}'s mother had dropped a coin into a tin every night. \"For the day it's full,\" she told her. One morning the tin was full, and her mother was gone with it. {WITCH_NAME} knew how it ended: when it was full, they went.",
+          "In her cell, she pressed crushed foxglove into a sweet she had saved from supper and wrapped it back in its plain paper.",
+          "At lock-up the cell corridor was already dark. While the others filed into their cells, the girl asked for her lemon drop, and in front of them all {WITCH_NAME} reached into her pocket and handed her the sweet. No one could see what paper it was wrapped in, not even the girl. In her cell, in the same dark, she folded the wrapper into her thousandth crane, ate the sweet, and hung the crane on her door as she did every night.",
+          "At the morning unlock, the prisoners found her dead, poisoned in the night.",
+          "In the trial court, they ruled {WITCH_NAME} out. Her pocket had made that sweet on the spot, at the girl's own asking, so whatever killed the girl must have come from somewhere else.",
+          "But in the girl's cell, a prisoner had noticed the thousandth crane. Among all the striped ones, it alone was folded from the plain paper of a supper sweet.",
+          "The prisoners saw it then. Her pocket never gave anything but what was asked for, and the girl had asked for a lemon drop. That sweet had been in {WITCH_NAME}'s pocket all along, ready."
         ],
-        "epitaph": "Every favor kept, and no one kept her.",
-        "epithet": "A Place Kept With Every Yes",
+        "epitaph": "What the thousandth crane was meant to wish for, she never learned.",
+        "epithet": "Watcher of the Filling Tin",
         "execution": [
-          "An iron frame closed around her limbs and back. When she moved an arm, the frame forced it to its limit and locked it there. When her knees bent, it folded them fully and held them. At last she sagged forward; the frame folded her against her own chest until she could no longer breathe."
+          "The execution stand raises a towering iron tin. She is chained upright at the bottom of it.",
+          "An iron hand drops in iron cranes one at a time, counting aloud. They heap up over her chest, then her shoulders, then her face, their folded iron edges pressing in.",
+          "\"One thousand,\" the hand counts. The tin is full to the rim.",
+          "The hand lifts the full tin away. Nothing inside it stirs."
         ],
         "magic": {
-          "name": "Standing Yes",
-          "text": "A favor she agrees to aloud carries itself out."
+          "name": "The Answering Pocket",
+          "text": "She pulls whatever anyone asks her for out of her pocket, exactly as they asked."
         }
       },
       "variant": 1

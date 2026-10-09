@@ -10,19 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Lately, {WITCH_NAME} had been calling her confidante in tears at night. A lullaby over the phone had soothed her. Today, her confidante shared a recording of one of those calls with the prisoners.",
-          "In the lounge during afternoon free time, {WITCH_NAME} played it back to her, again and again, and demanded an apology in front of everyone. Her confidante refused. \"It was just a bit of fun.\"",
-          "{WITCH_NAME} peeled the sofa's shadow off the floor and strangled her confidante to death with the cloth. Then she flattened it beneath the sofa, where it looked like an ordinary shadow.",
-          "When the body was found, she told the prisoners that the killer had taken the ligature away. But as one prisoner shifted the sofa during the search, a patch of shadow stayed put. The prisoner lifted it into folds of cloth. The prisoners now had the weapon she claimed was gone: cloth made by her Magic."
+          "Every evening, {WITCH_NAME} read in the library beside a girl who copied what other girls told her onto paper slips, word for word, and tied them to the unwilting cherry tree, where nothing ever fell.",
+          "{WITCH_NAME} told only her that she still said goodnight aloud to her dead mother every night, using her Magic so the girl would keep the words. The girl tied them to the tree so they would never fall. By morning, every girl had read them.",
+          "When {WITCH_NAME} was twelve, her sister told the supper table she whispered goodnight to their mother's photograph. Everyone laughed, and their father laid it face down in a drawer.",
+          "At half past eight, {WITCH_NAME} found the girl alone under the tree and made every word stay: \"I gave you my words to keep, and you hung them here. Take them down.\"",
+          "The girl copied it word for word in her own hand. \"Nothing on this tree comes down.\" As she reached up to tie the slip beside the first, {WITCH_NAME} stabbed her in the neck with the girl's own scissors, the ones she cut slips with, until she lay still beneath the tree.",
+          "At half past nine in the lounge, {WITCH_NAME} streamed the same words to the girl's phone: \"She hung mine up in front of everyone, so I'll say this in front of everyone. I gave you my words to keep, and you hung them there. Take them down.\" Every listener could repeat it word for word.",
+          "At six, the girl was found dead under the tree, the slip tied above her in her own hand. In the trial court, the prisoners ruled she was killed after writing down what she heard on the stream, and {WITCH_NAME} had been with them from the stream until lockup.",
+          "A prisoner read the slip aloud and stopped at \"here.\" Everyone who heard the stream remembered \"there.\" So {WITCH_NAME} had said it to the girl's face under the tree, before the stream."
         ],
-        "epitaph": "Only her silence was hers to keep.",
-        "epithet": "A lullaby meant as shelter, made into a spectacle",
+        "epitaph": "Everyone she spoke to kept her words forever; she was the only one who could not keep her own.",
+        "epithet": "The Whisper No One Forgets",
         "execution": [
-          "The execution stand held her upright beneath a curtain roller, her wrists bound and a loop of black curtain around her neck. The roller wound up the curtain and hoisted her by the throat. Her feet left the floor and kicked beneath the raised curtain until they hung motionless."
+          "The execution stand raised a towering chest of drawers. She lay bound face up in its open bottom drawer. One by one, the drawers above slid open and poured paper slips down onto her, each with her goodnight written on it, until they covered her face. As the slips closed over her mouth, she whispered goodnight. When the paper over her stopped stirring, the bottom drawer slid shut."
         ],
         "magic": {
-          "name": "Shadowcloth",
-          "text": "She can peel cast shadows off surfaces as opaque cloth."
+          "name": "Indelible Voice",
+          "text": "She can etch what she says into a listener's memory, word for word and forever fresh."
         }
       },
       "variant": 1

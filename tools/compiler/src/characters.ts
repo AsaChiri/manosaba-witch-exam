@@ -4,9 +4,9 @@
  * (id / tag / color scalars + one-level `name:` / `magic_name:` locale maps)
  * and four authored locale sections carrying the two 覚醒前/覚醒後 fields.
  *
- * Gating is all-or-nothing via ship_list.json's top-level `"characters"` flag —
- * a partially shipped cast would be a broken feature, so there is no per-id
- * allowlist. Validation is strict on shape (the cast is closed canon: exactly
+ * Gating is all-or-nothing: the feature is on whenever the directory holds
+ * sources — a partially shipped cast would be a broken feature, so there is no
+ * per-id allowlist. Validation is strict on shape (the cast is closed canon: exactly
  * 13, unique ids/tags, plain-hex colors — html2canvas needs plain hex) but only
  * WARNS when a tag is not yet shipped: dormant characters are expected while
  * the corpus grows toward the canonical wound tags.

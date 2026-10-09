@@ -10,18 +10,28 @@
     {
       "fields": {
         "crime": [
-          "The girl welcomed {WITCH_NAME} into the lounge singing circle and gave her the opening solo. At every rehearsal, {WITCH_NAME} restarted the prisoners' warm-up: a hum, scales, then the song. But today the girl gave the solo to another prisoner and told {WITCH_NAME} that at the next rehearsal, she could only sit in the audience.",
-          "After rehearsal, she slashed the girl's throat with a sword, severing her windpipe. Once the girl was dead, she used her Magic on the remains, drawing panicked replies in the girl's own voice. After leaving the lounge, she shared a phone with a prisoner in the dining hall. The frantic exchange made it seem that the girl had survived {WITCH_NAME}'s departure.",
-          "After the call, the prisoner traced bloodied heelprints through the lounge to the pool of blood at the girl's throat. Then she remembered the fresh, bloodied heelprint {WITCH_NAME} had left in the dining hall when the call arrived. That print joined the call to the trail: the girl had already been fatally wounded, and the voice that seemed to prove her alive had come from her remains."
+          "When the carts came to {WITCH_NAME}'s village, families called their children aboard house by house. No one called her name. She was left alone on the emptied road.",
+          "In the prison, one girl goes to the perimeter wall every evening, presses her palm to the stones, as near home as she can get, and records a letter to her mother on her phone. Only her little sister knows where she goes.",
+          "That little sister is {WITCH_NAME}, whose Magic makes the girl know her as family. The girl calls her \"my little sister\" and wraps her own shawl around her every time they meet.",
+          "One night after supper, the girl whispers to her in the dining hall: \"Come to the wall tonight. Mom should hear my little sister.\"",
+          "That night, {WITCH_NAME} comes to the wall. The girl looks up from her recording: \"Oh—sorry. I thought you were my sister.\" She stops recording.",
+          "Later, in the forest, the girl's face lights up when she sees {WITCH_NAME}. \"There you are! I waited for you at the wall.\" She wraps her shawl around her little sister. {WITCH_NAME} twists it around the girl's neck until she is still, then plays back the last seconds of the recording, hears the apology that will clear her, and slips the phone back into the girl's pocket.",
+          "In the trial court, the prisoners hear that apology and conclude that whoever reached the girl that night was not her little sister, so it was not {WITCH_NAME}.",
+          "Then one prisoner replays the seconds before it. The girl's voice says, \"Mom, my hand's on the stones. It's as near you as I can get.\"",
+          "The girl was recording at the perimeter wall, where Magic fails and no recognition holds.",
+          "Then the prisoners see it. Everywhere else, {WITCH_NAME} was the girl's little sister. At the wall she was no one, and the stranger who heard that apology was her."
         ],
-        "epitaph": "The dead would answer her, but the living would not welcome her back.",
-        "epithet": "A Chorister Without a Choir",
+        "epitaph": "The one time anyone saw her as herself, they said sorry.",
+        "epithet": "Everyone's Girl, No One's Daughter",
         "execution": [
-          "The execution stand locks her into a music-box chair with a loop around her throat. A pin-studded drum winds the loop tighter, stifling her voice. The chair repeats the old warm-up—a hum, scales, then the song—and at the last note, she goes still."
+          "The execution stand raises an iron platform laid with rails, a heavy iron cart waiting at one end. She is strapped face up across the rails, ahead of the cart.",
+          "An iron bell tolls, calling iron families aboard the cart house by house. It never calls her name.",
+          "The cart rolls forward, and its full weight passes across her chest.",
+          "It rolls on, every iron face turned ahead. She lies still on the empty platform."
         ],
         "magic": {
-          "name": "The Dead Answer",
-          "text": "She can converse with human remains, which speak in the deceased person's own voice and retain their memories and personality."
+          "name": "One of Us",
+          "text": "Anyone she meets recognizes her as one of their own, someone they have always known."
         }
       },
       "variant": 1

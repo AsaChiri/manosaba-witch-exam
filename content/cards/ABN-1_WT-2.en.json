@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, {WITCH_NAME} had spent evening after evening braiding a girl's hair with a ribbon, and the girl had accepted her care. Today, the girl returned with the braid undone and gave back the ribbon.",
-          "At that, {WITCH_NAME} drew the girl's reflection into conversation. It confided that the girl wanted their friendship to end. She kept questioning it until the reflection voiced the girl's unspoken exasperation as a threat to kill {WITCH_NAME}. Hearing that, she drove a sword into the girl's chest and killed her.",
-          "She claimed the girl had attacked her first with a mirror shard. But a prisoner had seen the girl's lips stay closed as the death threat came from her reflection. A prisoner had also seen the hand mirror hit the floor and crack for the first time only after blood spread across the girl's chest. Together, the two observations exposed {WITCH_NAME}'s self-defense claim as a fabrication."
+          "A week before leaving {WITCH_NAME} at her aunt's door, her mother taught her to plait her own hair: \"Now you won't need me.\" She learned that people who teach you to manage without them are leaving.",
+          "One girl told {WITCH_NAME} her whole day in her head, from any room, and {WITCH_NAME} answered each silent word aloud. No other girl talked to {WITCH_NAME} like that. Each evening the girl used up the last of the hot water singing at the top of her voice, alone in the soundproof shower room.",
+          "At dinner in the dining hall, she said aloud, \"Practise talking to the others out loud. You need more voices than mine.\" Under the words, {WITCH_NAME} heard her silent voice: \"Then I can have my head to myself.\"",
+          "At nine, {WITCH_NAME} followed her into the shower room and shut the door behind them. As the girl sat on the bench drying her hair, {WITCH_NAME} twisted the towel round her throat from behind until she was still.",
+          "At twenty to ten, {WITCH_NAME} stopped a prisoner's hand on the shut door. The girls always asked her who was behind a shut door, and she had never been wrong. \"She's still in there, singing in her head. She wants it to herself till ten.\" Then she went back to the lounge with them and stayed.",
+          "At five to ten, a prisoner opened the door to fetch the girl before lockup and found her slumped on the bench, the towel twisted at her throat.",
+          "In the trial court, the prisoners placed the strangling after twenty to ten, while {WITCH_NAME} sat with them in the lounge. Then a prisoner pointed to that door: not one note of the girl's singing had ever come through it, and a silent voice carries no further than a spoken one. The prisoners saw it: {WITCH_NAME} had heard nobody in there; she had said it because she had left the girl dead before twenty to ten."
         ],
-        "epitaph": "By taking away the girl's choice, she left the question of belonging unanswered forever.",
-        "epithet": "The Premature Mourner",
+        "epitaph": "The girl wanted only her head to herself, and she already had one room even you could never hear into.",
+        "epithet": "A listener who hears goodbye before it is spoken",
         "execution": [
-          "A mirrored press on the execution stand locks her upright against its backplate. The mirror platen advances, carrying her reflection toward her until it bears down against her and its glass fractures under the pressure. The press holds her there until she is motionless against her bloodied reflection."
+          "The execution stand raises a tall comb hung with three ropes of black hair, and she is strapped upright beneath it, at the center of the hanging strands. The strands begin to plait round her from the shoulders down, each crossing drawn tight across her ribs. At her ankles the plait ties itself off. No hand touches it. Now you won't need me. The finished plait hangs from the comb, and nothing inside it stirs."
         ],
         "magic": {
-          "name": "Mirror Confidences",
-          "text": "She can converse with people's reflections, which confide the thoughts their owners leave unspoken."
+          "name": "Every Unspoken Word",
+          "text": "She hears the unspoken thoughts of the people around her as clearly as spoken voices."
         }
       },
       "variant": 1

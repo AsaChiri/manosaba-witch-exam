@@ -12,12 +12,13 @@
  * `content/quiz/strings.*.json` files are authoritative and are never generated,
  * translated, or rewritten here.
  *
- * Cards (gated by `content/ship_list.json`) supply all four authored locale
- * versions. The compiler performs no translation or script conversion.
+ * Every card filed in `<workspace>/output/cards/` compiles (the folder is the
+ * ship list) and supplies all four authored locale versions. The compiler
+ * performs no translation or script conversion.
  *
  * Emitted files use stable key ordering so content diffs are reviewable.
  */
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import { join, dirname } from "node:path";
 import {
   cellKey,
@@ -42,7 +43,7 @@ import {
   type Meta,
 } from "@manosaba/witch-exam-engine";
 import { makeSources, DEFAULT_WORKSPACE, type Sources } from "./sources.js";
-import { parseCard, CARD_LOCALES, type ParsedCard } from "./cards.js";
+import { parseCard, listCardIds, CARD_LOCALES, type ParsedCard } from "./cards.js";
 import {
   parseCharacter,
   listCharacterIds,
@@ -110,17 +111,16 @@ function main(): void {
   const workspace = argValue(args, "--workspace") ?? DEFAULT_WORKSPACE;
   const src = makeSources(workspace);
   const C = src.contentDir;
-  const includePending = args.includes("--include-pending");
 
   log("compile-content — Manosaba witch-exam content package");
   log(`  workspace: ${workspace}`);
   log(`  output:    ${src.contentDir}`);
   log("");
 
-  // 0. ship list (seed if absent)
-  const shipList = loadJson<{ shipped: string[]; pendingReview?: string[]; characters?: boolean }>(src.shipList);
-  const shippedIds = [...shipList.shipped, ...(includePending ? shipList.pendingReview ?? [] : [])];
-  const shipCharacters = shipList.characters === true;
+  // 0. sources: every card in output/cards/; characters whenever authored.
+  const cardIds = listCardIds(src.cardsDir);
+  const shipCharacters =
+    existsSync(src.charactersDir) && listCharacterIds(src.charactersDir).length > 0;
   const lockedMeta = loadJson<Meta & { assetsVersion?: string }>(
     join(C, "meta.json"),
   );
@@ -148,15 +148,15 @@ function main(): void {
   const redirectRules = parseRedirectMap(src.manifest);
   const warnings: string[] = [...redirectRules.warnings];
 
-  // 2. cards (shipped only)
+  // 2. cards
   const cards: ParsedCard[] = [];
-  for (const id of shippedIds) {
+  for (const id of cardIds) {
     try {
       const c = parseCard(id, src.cardsDir);
       cards.push(c);
       warnings.push(...c.warnings);
     } catch (e) {
-      throw new Error(`failed to parse shipped card ${id}: ${(e as Error).message}`);
+      throw new Error(`failed to parse card ${id}: ${(e as Error).message}`);
     }
   }
 
@@ -253,7 +253,7 @@ function main(): void {
   const manifestIndexOf = new Map<string, number>();
   orderedTagList.forEach((tag, index) => manifestIndexOf.set(tag, index));
 
-  // Direct coverage grows with the ship list. Character-only cells resolve
+  // Direct coverage grows with the card folder. Character-only cells resolve
   // themselves but are never used as ordinary-card redirect targets.
   const shippedCells: ShippedCellInfo[] = [];
   const characterOnlyCells: string[] = [];
@@ -441,7 +441,7 @@ function main(): void {
   }
 
   // 6b. characters — the 13 special character records (design spec §3.7).
-  // Gated all-or-nothing by ship_list.json's `"characters"` flag. Parsed and
+  // All-or-nothing: on whenever output/characters/ holds sources. Parsed and
   // shape-validated above; here we only emit one
   // file per authored locale (content/characters/<locale>.json).
   let characterLocaleFiles = 0;
@@ -470,7 +470,7 @@ function main(): void {
       characterLocaleFiles++;
     }
   } else {
-    // feature off: remove the compiled artifact so the site auto-disables.
+    // no character sources: remove the compiled artifact so the site auto-disables.
     rmSync(join(C, "characters"), { recursive: true, force: true });
   }
 
@@ -679,7 +679,7 @@ function report(
     `  characters:     ${
       meta.counts.characters
         ? `${meta.counts.characters} (${meta.counts.characterLocaleFiles} locale files)`
-        : "off (ship_list.characters !== true)"
+        : "off (no output/characters/*.md)"
     }`,
   );
   log("");

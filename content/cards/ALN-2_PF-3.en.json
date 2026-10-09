@@ -10,19 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Over the past few weeks, a girl had shared picture books with {WITCH_NAME} in the library. Today, she messaged from there to say that her old circle was reuniting and the newcomer would not be included. In the courtyard, she asked {WITCH_NAME} to return the picture book for good.",
-          "The girl had also told her not to wait in the library anymore. When {WITCH_NAME} asked whether they could keep reading together, the girl made it plain: their partnership had only been temporary, and now it was over.",
-          "During free time, {WITCH_NAME} gripped the girl's neck and held her face underwater in the courtyard fountain until she drowned. Afterward, to conceal the rejection behind the murder, she erased from history her own plea to keep reading. The girl's answer vanished with it, and one prisoner now remembered only the earlier farewell, stripped of its explanation.",
-          "The prisoners found the girl in the courtyard fountain, her face still submerged. One prisoner remembered her farewell and thought she had drowned herself. But when they examined her, finger-shaped bruises on opposite sides of her neck showed that someone had held her down. A prisoner read her phone; the chat showed that {WITCH_NAME} had acknowledged that she was excluded and that she would return the book. Together, the bruises and the chat overturned the suicide story: {WITCH_NAME} had stripped the remembered farewell of its context to conceal her assault."
+          "Every night at nine, one girl sat in the recreation room and cut a prisoner's silhouette on stream, her hands black against the projector's beam. She kept a list of whose turn came next, with {WITCH_NAME}'s name added last, and afterward she carried each finished profile down to its girl in the lounge.",
+          "{WITCH_NAME} walked into the lounge only after each stream had ended. She never took years she had not spent.",
+          "One night at supper in the dining hall, with only {WITCH_NAME}'s name left, the girl started her list again from the top. \"Watch once,\" she told {WITCH_NAME}, \"and cut your own.\"",
+          "A teacher had once promised {WITCH_NAME} a place on the class portrait wall next spring. She transferred again before spring came.",
+          "That night at nine, alone in her cell, she watched the stream on her phone for the first time. The girl's hands settled into hers.",
+          "The next night at a quarter to nine, she came up behind the girl in the recreation room and twisted the cord of her scissors around her neck until she was still. From nine to ten past, she streamed the night's cut from the dead girl's phone, her own hands cutting the paper silhouette in the girl's unbroken line. At 9:11, the prisoners saw {WITCH_NAME} walk into the lounge, a minute after the stream ended, late as she always was.",
+          "In the trial court, they concluded the girl had been strangled with her scissor cord after the stream ended, by a girl who was missing from the lounge at that hour. Then a prisoner replayed her recording of the stream. When the hands let go of the scissors, the scissors dropped to the floor. Every night before, they had swung from the girl's cord. The prisoners realized the cord had already been around her dead neck, and that {WITCH_NAME}'s hands had learned hers in a single look."
         ],
-        "epitaph": "No amount of innocence could buy her a place among them.",
-        "epithet": "The Blameless Outsider",
+        "epitaph": "A single look could give her their hands, but never their evenings.",
+        "epithet": "The Latecomer with Borrowed Years",
         "execution": [
-          "The execution stand locks the witch into the last open space of a steel bookshelf. From both sides, steel volumes press inward, narrowing the gap around her until no space remains. Only her fingers protrude; at last, they go still."
+          "The execution stand raises an iron classroom. An iron girl sits at every desk, and not one desk is empty. She is chained standing in the open doorway, in the frame of an iron sliding door. The door rolls shut on her. It presses her against the frame and keeps closing. She hangs still in the doorway, neither inside nor out."
         ],
         "magic": {
-          "name": "Never Happened",
-          "text": "Erase your past actions and all their consequences from history, leaving reality as if they never happened."
+          "name": "A Lifetime at a Glance",
+          "text": "She can watch anyone perform a skill once and do it with all their years of practice."
         }
       },
       "variant": 1

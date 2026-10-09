@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "After the laundry was done, the girl warmed {WITCH_NAME}'s chilled hands between her own in the lounge. When the girl drew her hands away, {WITCH_NAME} watched them go, then glanced toward the door. Today, the girl said her own roommate would come to care for {WITCH_NAME} from then on; she herself would not visit again.",
-          "Still in the lounge, {WITCH_NAME} used her Magic to make her hands feel as cold and numb as they had before the girl warmed them, letting them blister without pain. Then she forced the girl facedown into the fireplace and held her throat in both hands until she stopped moving.",
-          "A prisoner found the girl and {WITCH_NAME} in the lounge, both burned. {WITCH_NAME} said the girl had collapsed into the fireplace by accident and that she had burned herself trying to rescue her. But when the prisoner wiped the soot from the girl's throat, a ring of fingertip bruises appeared. The prisoners understood: the burns on {WITCH_NAME}'s hands were the traces of a strangling grip, passed off as injuries from a rescue."
+          "A prisoner who could not sleep behind the cell bars spent her evenings asleep under the courtyard tree, wrapped in a blanket. {WITCH_NAME} sat beside her, brushing fallen leaves from her face. Her Magic let her hear the sleeping girl's heart quicken before she stirred, and each time she caught the girl's sleeve. At dusk she would come into the lounge and say, \"She's asleep. Her heart's slow as ever.\" Every night at lockup, the others found the girl just so.",
+          "One dusk, the girl pulled her sleeve free of {WITCH_NAME}'s fingers. \"You grab me every time I wake up. From tomorrow, I'm sleeping out here alone.\"",
+          "As a child, {WITCH_NAME} had fallen asleep with her ear on her mother's heart, but only on the nights her mother came home. Each time, she woke to an empty pillow. The warm ones leave while you sleep.",
+          "That dusk, as the girl drifted off, {WITCH_NAME} pressed a hand over her mouth and nose and held it there, listening, until the girl's heart stopped.",
+          "At eight that night, {WITCH_NAME}, who had sat in the lounge in full view of the others since dusk, cried out: \"Another heart is pounding out there beside hers, and now hers has stopped!\" The prisoners ran out and found the girl smothered under the tree. In the trial court, they ruled that she had been killed at eight by whoever owned that pounding heart, never by {WITCH_NAME}, who had sat among them.",
+          "But one prisoner had noticed the fallen leaves lying unbroken across the girl's lips and throat, a whole evening's fall. Then the prisoners understood. No hand had touched her at eight. She had died at dusk, when {WITCH_NAME} left her, and the heart she said she heard stop was a lie."
         ],
-        "epitaph": "She preserved yesterday's tenderness by killing any chance of tomorrow's.",
-        "epithet": "The Watcher of Fading Warmth",
+        "epitaph": "At last she kept the one who could never get up and leave, and had no heartbeat left to listen for.",
+        "epithet": "Listener at the Empty Pillow",
         "execution": [
-          "The execution stand straps her into a chair and reclines her over a washbasin. A spout pours warm water over the bound hands the girl once warmed, then fills the basin until her face is submerged. Even after her face goes still beneath the surface, warm water keeps pouring over the rim."
+          "The execution stand raises an iron bed with an iron mother lying on it. The witch is chained on her side against it, her ear to its iron chest. Inside the chest, an iron heart begins to beat, each thud carrying through the whole court. At every beat, an iron arm draws her tighter against the chest. She stops stirring while the heart beats on. Then the iron mother rises from the bed and walks away across the court, her iron heart gone quiet. The witch lies still, her ear on the empty iron pillow."
         ],
         "magic": {
-          "name": "Sense Memory",
-          "text": "She can relive any bodily sensation from her own past as though it were happening now."
+          "name": "Ear to Every Heart",
+          "text": "She hears every heart around her, beat by beat, as clearly as a clock held to her ear."
         }
       },
       "variant": 1

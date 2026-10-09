@@ -10,20 +10,26 @@
     {
       "fields": {
         "crime": [
-          "In the courtyard, {WITCH_NAME} took on the personality of a loyal confidant from a story; her tenderness was genuine. The girl trusted her enough to confess how homesick she was.",
-          "That day, she traded the confidant for a mocking jester and reenacted the girl's homesick sobbing for the prisoners. Her amusement was just as real. When {WITCH_NAME} offered her a hand, the girl refused it and ended their friendship. She said that evening she would tell everyone how {WITCH_NAME} had mocked her confidences. So {WITCH_NAME} invited her to the lake for a private reconciliation.",
-          "There, she strangled the girl with a cord. She raised the girl's collar and left her face submerged in the lake. Then she took on the personality of a merciful saint. Her resentment gave way to universal compassion, and she grieved for the girl in earnest. Her Magic did not erase her own memories; she still remembered the murder.",
-          "She phoned a prisoner, sobbing that the girl had drowned. When help arrived, compassion outweighed concealment: she opened the girl's collar to attempt resuscitation, exposing her neck. The prisoner saw a cord-shaped bruise encircling it.",
-          "In the trial court, that ring of bruising overturned the drowning story. The prisoners realized that {WITCH_NAME} had submerged the body to conceal that she had strangled the girl."
+          "Every dusk, one prisoner read her sister's last letter at the upper railing. She had sewn it into the lining of her coat so it could never be lost, and she let only {WITCH_NAME} stand beside her. {WITCH_NAME} always came up dressed in plain grey for her.",
+          "One cold dusk, the girl wrapped her coat around {WITCH_NAME}. {WITCH_NAME}'s fingers found the letter stitched into the lining. The girl pulled the coat back off her shoulders. \"That's mine.\" Then she turned back to the railing to read alone.",
+          "At thirteen, in her father's new house, {WITCH_NAME}'s stepsister had pulled a coat she'd long outgrown off {WITCH_NAME}'s shoulders in the hallway. {WITCH_NAME} had worn it to her first dinner there. \"That's mine.\"",
+          "\"I wear whatever fits where I am,\" {WITCH_NAME} used to say. \"None of it is mine.\"",
+          "At the railing, she seized the girl by the coat and heaved her over. The collar ripped, and {WITCH_NAME} was left holding the coat. She put it on, pictured it whole, and turned once; it hung whole on her. She took it off and folded it over the railing where the girl had stood.",
+          "At lockup, the girl didn't come down. Her roommate found her on the courtyard path below the railing, her sister's letter, torn out of the lining, clenched in her fist. Above, the prisoners found her coat folded over the railing.",
+          "In the trial court, the prisoners ruled that she had folded her coat and jumped, holding the letter she had torn out to take with her.",
+          "Then her roommate unfolded the coat to sew the letter back in. The lining was whole. There was no hole where the letter had been torn out.",
+          "The prisoners understood. A coat with a piece torn from it comes back whole only if {WITCH_NAME} has pictured it that way. The girl hadn't taken off her coat at the railing. She had been pulled out of it."
         ],
-        "epitaph": "She died with genuine love for the girl—tenderness the girl could no longer receive.",
-        "epithet": "A Stranger Everywhere",
+        "epitaph": "She could make any coat whole, and never learned what anyone kept inside one.",
+        "epithet": "The Girl in Borrowed Coats",
         "execution": [
-          "The execution stand clamps her into a mask-fitting chair and pins her head in place. A smiling mask lowers and seals airtight over her nose and mouth. She thrashes against it, but the seal holds. Her struggle dwindles to nothing, and the borrowed smile stays fixed over her final stillness."
+          "The execution stand raises the coat stand from her father's hallway until it towers as tall as the trial court. Heavy coats hang from its hooks, one for every crowd she ever dressed for. She is strapped to the bench at its foot, beneath a single bare hook that bears her name.",
+          "One by one, the hooks tip, and the coats drop onto her. The heap of wool climbs past her shoulders, then over her head.",
+          "At last the coat stand looms stripped above the still heap. Only the bare hook with her name is left."
         ],
         "magic": {
-          "name": "Borrowed Soul",
-          "text": "She can adopt the personality of any fictional character, genuinely thinking, feeling, and behaving as they would."
+          "name": "Quick Change",
+          "text": "With a single turn, whatever she's wearing becomes any real outfit she can picture."
         }
       },
       "variant": 1

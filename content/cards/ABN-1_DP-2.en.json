@@ -10,18 +10,28 @@
     {
       "fields": {
         "crime": [
-          "The week before, a girl leaned against {WITCH_NAME}'s shoulder in the library and read aloud from a book she had chosen. On the morning of the murder, she brought two books to {WITCH_NAME}'s cell and asked her to pick one. {WITCH_NAME} handed both books back, leaving the choice to the girl. The girl urged {WITCH_NAME} to decide. Then she left the cell, leaving both books with {WITCH_NAME} and the choice still unmade.",
-          "Late that morning, a guard in the cell corridor locked the barred cell doors, confining the prisoners to their cells. {WITCH_NAME} stepped into the girl's footprint and emerged beside her in the locked cell. She strangled the girl with a thin cord, then hung her body from the upper bunk with a broad belt around her neck. She returned to her own locked cell by stepping into her roommate's footprint on a rag and emerging beside the roommate.",
-          "When the doors opened, the prisoners found the girl hanging and thought she had killed herself. After they lowered the body, one prisoner lifted the broad belt from her neck and found a narrow furrow running all the way around it. The mark exposed the hanging as a disguise for strangulation—and showed that locked doors were no barrier to {WITCH_NAME}'s Magic."
+          "Every evening, a girl climbed the tree in the courtyard alone, up to the fork, to watch the stars. {WITCH_NAME} waited at the foot of it. She fell off the first branch every time she tried to follow, unless someone told her how.",
+          "One night the girl dropped her blanket down to her. \"It's yours now.\"",
+          "{WITCH_NAME}'s mother had said those words once, handing her own coat to her daughter. The next morning, she left her at the door of a children's home.",
+          "{WITCH_NAME} called up into the branches. \"Tell me to come up.\"",
+          "\"Come up.\"",
+          "The instant the words reached her, her hands moved as if they had known that tree all their lives, and she rose to the fork without a single slip. There, beside the girl, she pushed her off. The girl fell onto the stone rim of the fountain below.",
+          "No one was left to tell her how to come down. She slipped and fell, and her palms were torn raw. Then she ran inside, crying, \"She fell!\"",
+          "In the trial court, the prisoners ruled that the girl had fallen from the fork alone, and that {WITCH_NAME} had torn her palms trying to climb up to her.",
+          "The next morning, a prisoner looking out from the upper railing saw a strip of {WITCH_NAME}'s sleeve snagged at the fork, high above the first branch.",
+          "Back in the trial court, the prisoners understood: the girl had called her up, and she had been right beside her when she fell."
         ],
-        "epitaph": "She chose the goodbye she had always feared—the one that could never be undone.",
-        "epithet": "Waiting for Goodbye",
+        "epitaph": "The blanket was never a goodbye; it was for all the nights she meant to stay.",
+        "epithet": "She Who Hears Goodbye in Every Gift",
         "execution": [
-          "Two footprint-shaped iron clamps close around her ankles on the execution stand. They slide apart, dragging her legs wider and wider. A trail of blood lengthens across the stand until she lies motionless."
+          "The execution stand raises a ring of iron women, each holding an iron coat. At its center, the witch kneels, chained to the floor.",
+          "One iron woman lays her coat across the kneeling girl's shoulders. \"It's yours now.\" Then she walks away. Another comes, and another, each laying down her coat and leaving.",
+          "The coats pile higher, and their weight presses the girl lower, until she lies flat against the floor beneath them. \"Tell me how to hold them!\" she calls. None of the iron women turns.",
+          "The last iron woman lays her coat on the still heap and walks away. Nothing stirs beneath."
         ],
         "magic": {
-          "name": "Footprint Passage",
-          "text": "You can step into someone's footprint and emerge beside the person who made it."
+          "name": "Say the Word",
+          "text": "The moment someone tells her to do something, she does it perfectly."
         }
       },
       "variant": 1

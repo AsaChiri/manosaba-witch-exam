@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week in the library, the girl added a new invented island to a handmade atlas for {WITCH_NAME}. Today, she erased the invented islands, returned the atlas to her, and refused to keep making it together.",
-          "During free time, a prisoner saw the two swimming together in the lake. After that refusal, {WITCH_NAME} encircled the girl with both arms and leaned backward beneath the surface. She used her Magic to become stone, anchoring them underwater. Once the girl had drowned, {WITCH_NAME} returned to flesh; her restored hands opened and released the body. She emerged from the lake alone.",
-          "A prisoner later recovered the girl's body. The sighting of the two together and {WITCH_NAME}'s solitary return made the drowning look like a swimming accident. But an examination of the girl's upper arms found bruises from a grip that had encircled them. Those marks overturned the apparent accident: the girl had been held in an embrace and forced beneath the water by the swimmer who came back without her."
+          "Every night as a child, {WITCH_NAME} slid a folded drawing under her parents' door. Every morning she found it in the hall bin, unopened. She stopped drawing. If no one asks, you keep it to yourself.",
+          "In the prison, a girl sat behind the bars of the upper railing every evening and drew the courtyard. At nine she let each finished page slip through the bars. {WITCH_NAME} waited below with her hand held up. She never once used her Magic to call a page down, and she kept every one.",
+          "At supper in the dining hall, the artist told her across the table, \"Tonight's page is the last. After that, come up and ask.\" The other girls said they would come out to watch.",
+          "At twenty to nine, {WITCH_NAME} climbed to the railing for the first time and held out her hand behind the artist. The artist kept drawing and did not turn around. {WITCH_NAME} pulled the drawing-board strap tight around the artist's neck until she went still, left her slumped behind the bars, and went back down to wait.",
+          "At five to nine, the prisoners came out to watch the last page and found her already waiting beneath the railing. At nine, she held out her hand and called the page down. It slipped through the bars and into her palm.",
+          "At a quarter past nine, a prisoner found the artist slumped behind the bars, the strap around her neck. In the trial court, the prisoners concluded that she had let her last page go at nine and been killed afterward, while {WITCH_NAME} stood among them.",
+          "Then one prisoner asked to see that last page. Its pencil line broke off in a long slash across the paper. No living hand, she realized, had let that unfinished page go. It had flown to {WITCH_NAME}'s."
         ],
-        "epitaph": "She answered one refusal by making every reply after it impossible.",
-        "epithet": "The Unheard Worldmaker",
+        "epitaph": "The one time she was asked to come up, she went, and still she never asked.",
+        "epithet": "A Hand Held Up for Whatever Falls",
         "execution": [
-          "The execution stand holds her with her back against the palm of a giant articulated hand. Its jointed fingers fold over her torso and tighten into a crushing embrace. The grip holds until all movement stops. Then the hand opens, leaving her body motionless on its palm."
+          "A great iron door hung flat from the execution stand in the trial court. She lay chained face down on the floor beneath it. Her outstretched hand pushed a folded drawing out past the door's edge, the way she once slid them under her parents' door. The door came down and settled its full weight onto her back, and it kept sinking. Her hand lay still beyond the edge, the drawing in her fingers. No one took it."
         ],
         "magic": {
-          "name": "Living Stone",
-          "text": "Turn yourself into a conscious, indestructible statue of stone."
+          "name": "Come to Hand",
+          "text": "She holds out her hand, and any object she wants flies into her palm while she stays put."
         }
       },
       "variant": 1

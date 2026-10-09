@@ -36,7 +36,10 @@
         "auto": "CT-3"
       },
       "origin": {
-        "auto": "ABN-1"
+        "options": [
+          "ABN-1",
+          "ABN-6"
+        ]
       }
     },
     "ABN|Catastrophizer": {
@@ -44,7 +47,10 @@
         "auto": "CA-1"
       },
       "origin": {
-        "auto": "ABN-1"
+        "options": [
+          "ABN-1",
+          "ABN-6"
+        ]
       }
     },
     "ABN|Clinger": {
@@ -60,6 +66,14 @@
           "ABN-7",
           "ABN-9"
         ]
+      }
+    },
+    "ABN|Concealer": {
+      "coping": {
+        "auto": "CO-1"
+      },
+      "origin": {
+        "auto": "ABN-1"
       }
     },
     "ABN|Depender": {
@@ -89,7 +103,10 @@
         "auto": "DM-2"
       },
       "origin": {
-        "auto": "ABN-10"
+        "options": [
+          "ABN-6",
+          "ABN-10"
+        ]
       }
     },
     "ABN|Fantasist": {
@@ -545,7 +562,8 @@
           "DEF-1",
           "DEF-3",
           "DEF-6",
-          "DEF-7"
+          "DEF-7",
+          "DEF-8"
         ]
       }
     },
@@ -557,6 +575,14 @@
         "auto": "DEF-4"
       }
     },
+    "DEF|Perfectionist": {
+      "coping": {
+        "auto": "PF-1"
+      },
+      "origin": {
+        "auto": "DEF-3"
+      }
+    },
     "DEF|Performer": {
       "coping": {
         "auto": "P-2"
@@ -565,12 +591,63 @@
         "auto": "DEF-3"
       }
     },
+    "DEF|Resigned": {
+      "coping": {
+        "auto": "RS-3"
+      },
+      "origin": {
+        "options": [
+          "DEF-3",
+          "DEF-6"
+        ]
+      }
+    },
+    "DEF|Ritualist": {
+      "coping": {
+        "auto": "RI-3"
+      },
+      "origin": {
+        "auto": "DEF-10"
+      }
+    },
     "DEF|Self-Punisher": {
       "coping": {
         "auto": "SP-1"
       },
       "origin": {
         "auto": "DEF-8"
+      }
+    },
+    "DEF|Self-Reliant": {
+      "coping": {
+        "auto": "SR-1"
+      },
+      "origin": {
+        "auto": "DEF-3"
+      }
+    },
+    "DEF|Sovereign": {
+      "coping": {
+        "auto": "SV-1"
+      },
+      "origin": {
+        "auto": "DEF-3"
+      }
+    },
+    "DEF|Striker": {
+      "coping": {
+        "auto": "ST-2"
+      },
+      "origin": {
+        "auto": "DEF-3"
+      }
+    },
+    "DEF|Thrill-Seeker": {
+      "coping": {
+        "auto": "TS-2"
+      },
+      "origin": {
+        "auto": "DEF-3"
       }
     },
     "DEF|Wall-of-Anger": {
@@ -628,6 +705,25 @@
           "ED-5",
           "ED-9"
         ]
+      }
+    },
+    "ED|Pleaser": {
+      "coping": {
+        "options": [
+          "PL-2",
+          "PL-3"
+        ]
+      },
+      "origin": {
+        "auto": "ED-1"
+      }
+    },
+    "ED|Resigned": {
+      "coping": {
+        "auto": "RS-1"
+      },
+      "origin": {
+        "auto": "ED-4"
       }
     },
     "ED|Self-Punisher": {
@@ -782,42 +878,32 @@
     }
   },
   "redirect": {
-    "ABN|Concealer": "ABN|Avoider",
     "ABN|Sovereign": "ABN|Performer",
     "ALN|Catastrophizer": "ALN|Watcher",
     "ALN|Depender": "ALN|Clinger",
     "DEF|Caretaker": "DEF|Clinger",
-    "DEF|Detacher": "DEF|Avoider",
+    "DEF|Detacher": "DEF|Thrill-Seeker",
     "DEF|Doomer": "DEF|Self-Punisher",
     "DEF|Fantasist": "DEF|Performer",
-    "DEF|Perfectionist": "DEF|Catastrophizer",
     "DEF|Pleaser": "DEF|Clinger",
-    "DEF|Resigned": "DEF|Self-Punisher",
-    "DEF|Ritualist": "DEF|Catastrophizer",
     "DEF|Ruminator": "DEF|Self-Punisher",
-    "DEF|Self-Reliant": "DEF|Concealer",
-    "DEF|Self-Soother": "DEF|Avoider",
-    "DEF|Sovereign": "DEF|Performer",
-    "DEF|Striker": "DEF|Wall-of-Anger",
-    "DEF|Thrill-Seeker": "DEF|Avoider",
+    "DEF|Self-Soother": "DEF|Thrill-Seeker",
     "DEF|Trickster": "DEF|Avenger",
     "ED|Avenger": "ED|Performer",
     "ED|Caretaker": "ED|Clinger",
     "ED|Catastrophizer": "ED|Performer",
-    "ED|Concealer": "ED|Doomer",
+    "ED|Concealer": "ED|Resigned",
     "ED|Depender": "ED|Clinger",
-    "ED|Detacher": "ED|Doomer",
+    "ED|Detacher": "ED|Resigned",
     "ED|Fantasist": "ED|Performer",
     "ED|Perfectionist": "ED|Performer",
-    "ED|Pleaser": "ED|Clinger",
-    "ED|Resigned": "ED|Doomer",
     "ED|Ritualist": "ED|Performer",
     "ED|Ruminator": "ED|Doomer",
-    "ED|Self-Reliant": "ED|Doomer",
-    "ED|Self-Soother": "ED|Doomer",
+    "ED|Self-Reliant": "ED|Resigned",
+    "ED|Self-Soother": "ED|Resigned",
     "ED|Sovereign": "ED|Performer",
     "ED|Striker": "ED|Clinger",
-    "ED|Thrill-Seeker": "ED|Doomer",
+    "ED|Thrill-Seeker": "ED|Resigned",
     "ED|Trickster": "ED|Performer",
     "ED|Wall-of-Anger": "ED|Clinger",
     "ED|Watcher": "ED|Performer",

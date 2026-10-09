@@ -10,19 +10,23 @@
     {
       "fields": {
         "crime": [
-          "At an earlier meal in the dining hall, {WITCH_NAME} used her Magic to take a burn from the girl's hand onto her own. The girl spoon-fed her afterward.",
-          "Today, the girl would not let her take a scrape from her forearm. She moved her tray away from {WITCH_NAME}'s table and joined her roommate instead.",
-          "In the lounge, {WITCH_NAME} strangled the girl unconscious with a bath towel. With a sword, she slashed through one sleeve and made a pair of cuts in the forearm beneath it. She used her Magic to take those injuries into her own forearm, restoring the girl's skin, then restored the slashed sleeve and took its damage as wounds across her palms. She tightened the towel until the girl died. She claimed the girl had attacked her with the sword and that the strangling was self-defense.",
-          "The roommate lifted the intact sleeve and found the dressing underneath slashed, though the skin beneath it was unbroken. She had bandaged the girl's scrape in the dining hall after the girl moved tables, and the dressing had been uncut then. The prisoners matched its slits to the paired wounds on {WITCH_NAME}'s forearm. Those supposed defensive wounds were the girl's transferred injuries—the trace of a staged attack, not self-defense."
+          "Every evening, a girl climbed the tree in the courtyard to see over the wall, and {WITCH_NAME} waited at its foot. Whenever the girl came down scraped, {WITCH_NAME} touched the scrapes and took them onto her own skin.",
+          "One day at dusk, the girl fell and landed on both hands, breaking both wrists. {WITCH_NAME} took the breaks into her own wrists. The prisoners watched hers swell and bend as the girl's straightened.",
+          "Then the girl wrapped {WITCH_NAME}'s palms in strips of rag. \"That was the last one,\" she said. \"From now on, I keep my own hurts.\"",
+          "{WITCH_NAME}'s older sister had once closed her fist over her own grazed palm, said, \"This one I keep,\" and left home before winter.",
+          "That evening, the prisoners splinted {WITCH_NAME}'s wrists and left her asleep in the medical room.",
+          "That night, the girl sat alone at the foot of the tree, wrapping her own palms. {WITCH_NAME} came up behind her, looped a strip of rag around her throat, wound the ends around her splinted forearms and leaned back until the girl was still.",
+          "Before lockup, the prisoners found the girl strangled beneath the tree, the strip ringed around her throat.",
+          "In the trial court, they ruled {WITCH_NAME} out: wrists broken since dusk could not pull a strip tight. Then her collar slipped, and a prisoner saw four raw nail lines across her throat. The prisoners understood: they were the girl's own claw marks, drawn off her throat as she died."
         ],
-        "epitaph": "She lost every tomorrow to the goodbye she never said.",
-        "epithet": "The One Who Regrets Leaving",
+        "epitaph": "The only hurt left for her to keep was the one she gave.",
+        "epithet": "Keeper of Hurts Not Her Own",
         "execution": [
-          "The execution stand locks the witch into a sewing frame beneath torn cloth stretched over her chest. Needles drive through cloth and flesh, sewing the tear closed with each pass. When the last stitch completes the bloody seam, she hangs from the frame, utterly still."
+          "The execution stand raises a giant iron hand, palm up. She kneels shackled in its palm, holding out her own hands. The fingers fold down over her one by one, the thumb last, pressing her into the palm. The hand stays shut as a fist. Nothing inside moves."
         ],
         "magic": {
-          "name": "Mender's Burden",
-          "text": "She can heal an injured person or repair a damaged object, but her body suffers the damage instead."
+          "name": "Kiss It Better",
+          "text": "She can take the wounds, pain or sickness of anyone she touches into her own body."
         }
       },
       "variant": 1

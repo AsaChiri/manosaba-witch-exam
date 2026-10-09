@@ -10,18 +10,25 @@
     {
       "fields": {
         "crime": [
-          "After {WITCH_NAME} woke from a dream in their cell, her companion held her hand and soothed her with a lullaby. That day, her companion invited her to sing with everyone, then told her it would be their final bedside vigil.",
-          "Spurred by that goodbye, {WITCH_NAME} entered another imagined scene through her Magic; a prisoner saw her slip into the dream. She woke by choice, and her companion sang a new verse about meeting again in the morning. After the song, {WITCH_NAME} wound a scarf around her throat and strangled her until she stopped breathing. Then she returned to the dream, immersing herself in an imagined bedside farewell filled with the new verse.",
-          "Later, a prisoner found {WITCH_NAME} still dreaming beside her unresponsive companion. In the trial court, she told the prisoners that she had remained in the dream throughout the murder. She recited the lullaby she had heard there, including the verse about morning. But another prisoner had composed that verse for the victim in the recreation room while {WITCH_NAME} was already in her first dream. Her Magic blocks all outside sounds during immersion. The prisoners realized she could only have heard the verse after waking and before returning to the dream, exposing the break in her dream alibi."
+          "Every evening, {WITCH_NAME}'s friend sat in the chair by the lounge window mending the other girls' torn clothes, and {WITCH_NAME} sat beside her. At eight each night, when {WITCH_NAME} looked into the window to check tomorrow, her friend waved at the glass, and the girl in tomorrow's reflection waved back.",
+          "One evening at eight, {WITCH_NAME} showed the other prisoners the lounge as it would be at that hour tomorrow. In the window, her friend sat bowed over her mending beside an empty chair. {WITCH_NAME} watched for the wave. The hand in the glass never rose.",
+          "Her friend laughed. \"Stop checking tomorrow. I'm right here.\"",
+          "On his last evening, {WITCH_NAME}'s father had told her, \"Stop watching the door. I'm right here.\" By morning, his chair was empty.",
+          "The next evening, a little before eight, {WITCH_NAME} stood behind her friend's chair and strangled her until she slumped over her mending. Then she went upstairs to the recreation room and was sitting among the other girls when eight o'clock came.",
+          "At nine, a prisoner found {WITCH_NAME}'s friend dead in her chair.",
+          "At the trial, the prisoners ruled that she must have died after eight. Hadn't the window, a day ahead, shown her at her mending at eight o'clock? And at eight, {WITCH_NAME} had been sitting upstairs with them. Then one prisoner remembered the wave. At eight, in the glass, her hand had never risen. She had not been bowed over her mending; she had been slumped over it, dead before {WITCH_NAME} ever went upstairs."
         ],
-        "epitaph": "She gave up the one future she never had to dream: a place beside them.",
-        "epithet": "A Rehearsal for Being Left Behind",
+        "epitaph": "Her friend stayed right here, just as she promised.",
+        "epithet": "The Girl Who Checks Tomorrow for Empty Chairs",
         "execution": [
-          "The execution stand has become a canopied bed, strapping her flat on her back. Above it, a pendulum blade begins to swing. Each pass drops lower, missing her throat by less than the last, while the bed plays the same bedtime refrain that once soothed her. At last the blade catches her throat, staining the pillow with blood. It keeps swinging after her body goes still."
+          "In the trial court, the execution stand straps her flat on her back. Above her hangs an iron-backed mirror, face down.",
+          "The mirror begins to lower, and she watches her own face come down to meet her.",
+          "It settles on her chest and bears down.",
+          "At last the mirror lies flat on her, her hands still at its edges."
         ],
         "magic": {
-          "name": "Dream Diving",
-          "text": "Dive into any scene you imagine and experience it as a lifelike dream with every sense."
+          "name": "Tomorrow's Glass",
+          "text": "She can look into a mirror or window and see the same place as it will be tomorrow."
         }
       },
       "variant": 1

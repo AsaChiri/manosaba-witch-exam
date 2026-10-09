@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Pleaser",
+  "copingSub": "PL-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Pleaser",
+  "tag": "ED-1_PL-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The girl in the next cell couldn't sleep there at night. Every afternoon at free time she came to {WITCH_NAME} in the courtyard and asked for her pillow from home, the one with her name stitched on it, and {WITCH_NAME} became that pillow. The girl slept face down, hugging her. It was the only time anyone ever held {WITCH_NAME}.",
+          "Her mother had only ever said her name to send her to fetch something. Once her little sister could do the fetching, her mother stopped saying it at all. {WITCH_NAME} learned that if no one needed her, no one saw her.",
+          "Then one lunch in the dining hall, the girl folded her arm on the table and promised to stop asking. \"You're my friend,\" she said, \"not my pillow.\" That afternoon she lay down by the fountain without asking for anything, her head on her own folded arm, and left {WITCH_NAME} standing there with no one to hold her.",
+          "\"Ask me,\" {WITCH_NAME} begged. \"Just once more.\"",
+          "So the girl asked for her pillow from home one last time, and fell asleep face down on it. Then {WITCH_NAME} closed around her nose and mouth and held on until the girl was still.",
+          "At half past two, prisoners at the upper railing looked down and saw her asleep by the fountain, alone, with no one near her. When free time ended, a prisoner turned her over. Pressed into her cheek in stitch marks was her own name, backward. Only then did the prisoner understand: the pillow from home had been {WITCH_NAME}, asked for one last time."
+        ],
+        "epitaph": "The only one who ever wanted her for nothing was the one she would not let go.",
+        "epithet": "Held Only as a Thing",
+        "execution": [
+          "In the trial court, the execution stand raises a stitched cloth figure with its arms held open. She is strapped upright against its chest. The arms close around her and tighten across her ribs, tighter, and tighter still. She lays her cheek on its stitched shoulder. At last, something is holding her. The arms stay closed, and everything is still."
+        ],
+        "magic": {
+          "name": "Yours for the Asking",
+          "text": "She becomes a living version of any object someone asks her for."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

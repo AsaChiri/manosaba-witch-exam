@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "On earlier visits to the lounge, the girl kept {WITCH_NAME} quiet company and mended a tear in her cuff. Whenever the girl offered comfort, {WITCH_NAME} accused her yet again of ridiculing her. Today, the girl read aloud an invitation {WITCH_NAME} had written but never sent, asking her to share supper. She then announced that she would give it to the other prisoners to read.",
-          "That evening, the girl sat warming herself by the lounge fireplace. Before another prisoner arrived, {WITCH_NAME} smothered her to death with a blanket to keep the invitation from being exposed. At the sound of approaching footsteps, she used her Magic to project imagined flames over the girl's clothing, making her scarf appear to burn. The prisoner who entered found {WITCH_NAME} covering the girl with the blanket and thought she had failed to smother flames that had spread from the hearth.",
-          "That prisoner later recalled seeing the scarf's fringe crumble into embers at first sight. Yet once the girl was uncovered, the same prisoner examined the fringe and found its threads intact. In the trial court, the prisoners understood the contradiction: the blaze had been an illusion, and the blanket had concealed {WITCH_NAME}'s smothering rather than a rescue."
+          "Every dusk, a girl who had once taught the little ones at her mother's dance school taught the waltz on the courtyard paths, counting the steps aloud. Every evening, she asked {WITCH_NAME} to join.",
+          "One dusk, {WITCH_NAME} missed the count. The girl let go of her hand, took another partner, and laughed. \"You keep the count for us.\"",
+          "At school, the girls in her class had handed her the end of the skipping rope every break. \"You turn. You've got strong arms.\" She turned it for years and never once jumped in.",
+          "In front of the dancers, she slapped her palm to the ground. A head-high ring of thorned roses burst up around her.",
+          "After the girls went in, the waltz teacher stayed behind, as she did every night, to soak her feet in the fountain. {WITCH_NAME} held her under the water, counting aloud, one, two, three, until she was still.",
+          "Just before lockup, as the girls found the waltz teacher in the fountain, {WITCH_NAME} tore her way out through the front of the ring, bleeding. The prisoners walked all the way around it and found it whole except for that gap. She had been sealed inside all evening, they decided.",
+          "Then one of them reached deep into the back of the ring. On a snapped cane, beneath whole canes in fresh bloom, hung a tuft of grey from {WITCH_NAME}'s sleeve. In the trial court, the prisoners understood: she had torn her way out through the back, then grown the briar back over the break."
         ],
-        "epitaph": "She made her own invitation impossible to accept.",
-        "epithet": "The Hostile Host",
+        "epitaph": "The only count she ever kept in time was for a girl who would never dance again.",
+        "epithet": "The Rope-Turner Who Never Jumped In",
         "execution": [
-          "The execution stand binds her upright inside a furnace cage. Real flames engulf her clothes and burn without relenting until they subside, leaving her charred and motionless in the cage."
+          "The execution stand raises a head-high ring of living rose briar around her. It begins to close in waltz time, three steps to every bar, and she steps with it, always a beat late. She tears at the canes with her bare arms, the way she tore her way out of her own ring in the courtyard. The ring closes faster, and its thorns drive into her. At last it has closed into a single pillar of briar in full bloom. Nothing inside it moves."
         ],
         "magic": {
-          "name": "Imagination Made Visible",
-          "text": "She projects people's mental images as visible, intangible three-dimensional scenes."
+          "name": "Briar Rose",
+          "text": "Her touch makes a dense hedge of thorned roses burst into bloom from any floor or wall."
         }
       },
       "variant": 1

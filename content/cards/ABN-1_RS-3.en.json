@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "The girl would clasp {WITCH_NAME}'s hand and lead her on walks through the courtyard. Today, {WITCH_NAME} overheard her say that she was tired of every decision they had to make together. That evening, the girl asked to talk about their friendship. Before the conversation could begin, {WITCH_NAME} released her hand as if parting early.",
-          "Before anyone arrived to bathe, she turned into living water and settled into a puddle on the shower room floor. When the girl came in, {WITCH_NAME} reformed and stabbed her in the chest with a sword, fatally wounding her. Then she became water again and flowed out through the gap beneath the door.",
-          "The girl's roommate had seen one prisoner leave the shower room before the girl went in. No other person emerged before the body was discovered, so the prisoners took that last visible visitor for the killer. But that same prisoner traced the bloody footprints across the room. Halfway to the doorway, the prints became runoff and ended at the gap beneath the door. The changing trail overturned that account: the puddle had hidden {WITCH_NAME} before the attack, and the water beneath the door had been her unseen departure."
+          "Every evening at half past eight, the same girl found the jug on the library table already full: {WITCH_NAME} had melted into it. The girl carried it to the upper railing and poured it into the courtyard fountain, loving to watch {WITCH_NAME} fall, shining. Once the courtyard emptied, {WITCH_NAME} rose from the fountain.",
+          "Long ago, {WITCH_NAME}'s father had held her floating in a river. \"I've got you,\" he said. She looked up and saw him on the bank, lacing his shoes. That week he was gone.",
+          "One night in the courtyard, the girl put the empty jug into {WITCH_NAME}'s hands. \"Tomorrow, pour yourself wherever you like.\" The hands that held her had let go.",
+          "The next evening at half past eight, the girl poured the full jug from the railing into the fountain while the prisoners below watched, as always. Then she sat reading in the library by the unwilting cherry tree, and {WITCH_NAME} strangled her from behind with both hands.",
+          "The prisoners sat round the basin from the pour until the shout; no girl rose from the water. At half past nine, a prisoner found the body in the library, the jug on the table beside it, and shouted. {WITCH_NAME} appeared in the second-floor hall behind the running crowd, saying she had risen at the shout.",
+          "In the trial court, the prisoners concluded that {WITCH_NAME} had lain in the fountain as water while someone else went upstairs. Then a prisoner tilted the jug: water still sat in the bottom. When {WITCH_NAME} reformed, she gathered back every drop; once she rose, the jug was always dry. The prisoner understood. Plain water had been poured, and {WITCH_NAME} had never left the second floor."
         ],
-        "epitaph": "She chose the ending she feared, then made it irrevocable.",
-        "epithet": "The Mourner Before the Loss",
+        "epitaph": "Asked only where she would run, she chose the one way that stopped the hands.",
+        "epithet": "Water that waits to be poured",
         "execution": [
-          "The execution stand clamps a perforated ladle around her and suspends her over a bowl of water. The ladle plunges her into the bowl and keeps her submerged. At last it rises; water drains through its holes, leaving her body motionless inside."
+          "The execution stand raised a tall glass tank of river water. She floated face up inside it on two iron palms, her ankles shackled. One palm slid out from under her, then the other. The water closed over her face, and the shackles drew her down to the floor of the tank. She lay still at the bottom, the two iron palms open and empty above her."
         ],
         "magic": {
-          "name": "Living Water",
-          "text": "She can turn her body into living water that pours and settles into the shape of its surroundings."
+          "name": "Meltwater",
+          "text": "She can melt into running water and gather herself back again."
         }
       },
       "variant": 1

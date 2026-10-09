@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "In the courtyard, {WITCH_NAME} refused to help a girl film herself with her phone. Then she gave the girl a lecture on moths. It was the first time anyone had listened.",
-          "Today, the girl mocked her by mimicking that lecture, then announced she would stream the imitation to the prisoners that afternoon. During afternoon free time, {WITCH_NAME} followed her into the forest while the girl rehearsed it. There, she used her Magic to change from human form into a wolf. Before the stream could start, she mauled the girl with the wolf's jaws, leaving fatal wounds in her throat.",
-          "At first, the prisoners blamed her death on a wild wolf. But one prisoner traced the attack trail and found human footprints changing into wolf pawprints. Those changing tracks exposed the “wild attack” as {WITCH_NAME}'s deliberate hunt in animal form."
+          "\"Nobody but you plays it,\" her father said, and he left her piano behind in the emptied house. \"What only you love, you carry alone.\"",
+          "In the prison, one girl sang in the shower room every evening with her back against the door. She let only {WITCH_NAME} in; to everyone else, a door that wouldn't budge meant she was singing. While she sang, {WITCH_NAME} tapped out the piano part on the wet tiles, music she had never told anyone about.",
+          "One evening, as the song ended, the singer said, \"Stop tapping and just sing along. I never hear it over the water.\"",
+          "{WITCH_NAME} took the towel she handed her after every song, wound it around the singer's throat and twisted until she was still. Then she pulled the door shut behind her and, with a touch, made it too heavy to move, so it held as though the girl were still singing against it. She went to the lounge and sat among the others until lockup.",
+          "Ten minutes before lockup, a prisoner tried the shower-room door, found it wouldn't budge, and wedged a note in its seam: \"Lockup in ten minutes.\" She went down to the cells sure the singer was still singing.",
+          "At the dawn unlock, with that prisoner beside her, {WITCH_NAME} laid her palm on the door and pushed it open. The singer lay dead on the tiles, the towel at her throat.",
+          "In the trial court, the prisoners ruled that she had been killed after ten to lockup, by someone she let in while {WITCH_NAME} sat with them in the lounge. Then the prisoner unfolded the note that had fallen from the door at dawn. It was her own. The prisoners realized that no one had opened that door all night. It had held itself shut by {WITCH_NAME}'s Magic."
         ],
-        "epitaph": "At last she had an audience, but no one saw who she had been.",
-        "epithet": "An Enthusiast Without an Audience",
+        "epitaph": "She could carry anything alone, except a song: the one load that needs someone at the other end.",
+        "epithet": "The girl who left her piano behind",
         "execution": [
-          "The execution stand lays the witch flat on her back across a specimen board, holding her limbs spread. A specimen pin drives through her chest and into the board. She struggles against it until her body goes still, mounted for display."
+          "The execution stand raises an open iron grand piano, bolted to its floor, and she lies chained on her back across its strings. Water pours in and fills the case, rising over the strings and then over her face. Every time she kicks, the strings ring beneath the water, drowned out by the pouring. Then the pouring stops, and the piano falls silent. The water lies still over her and the strings."
         ],
         "magic": {
-          "name": "Animal Shapeshifting",
-          "text": "She can transform into an animal of her choice and use its natural abilities."
+          "name": "Feather and Anchor",
+          "text": "She can make anything she touches light as a feather or too heavy to move."
         }
       },
       "variant": 1

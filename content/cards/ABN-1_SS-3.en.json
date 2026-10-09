@@ -10,20 +10,25 @@
     {
       "fields": {
         "crime": [
-          "Before prison, a friend kept leaving their games early, promising a next time. Then she stopped coming.",
-          "The first time the girl and {WITCH_NAME} swam in the lake, the girl splashed her, and they laughed together. Today, {WITCH_NAME} divided into two bodies and kept up a noisy volley of splashes around the girl.",
-          "The girl signaled to a prisoner for a towel, then began swimming toward shore before their next race, leaving the game unfinished. Before she reached shore, {WITCH_NAME} called, “Goodbye.”",
-          "Beneath the water, one of {WITCH_NAME}’s bodies seized the girl’s ankles and held her down until she drowned. At the same time, the other body stayed at the surface, gripped the girl’s wrists, and hauled upward as if trying to save her. Then the two bodies met beneath the surface, embraced, and reunited, leaving one apparent rescuer.",
-          "After the girl’s body was recovered, a prisoner believed the rescue had simply failed. Examining the girl’s ankles, the prisoner found finger-shaped bruises encircling them. The prisoner remembered that throughout the struggle, both of {WITCH_NAME}’s visible hands had kept their grip on the girl’s wrists. The prisoners matched the bruises to that memory and exposed the trick: her divided selves had held the girl in opposing grips."
+          "Every evening her roommate sat under the courtyard tree until lockup call, watching the fireworks {WITCH_NAME}'s Magic sent up from her fingertips at nine o'clock.",
+          "One night before nine, the roommate took {WITCH_NAME}'s hand and folded her fingers into her palm. \"Not tonight. Sit in the quiet with me. You don't have to keep lighting them for me.\"",
+          "Long ago, after the last firework of a festival, her mother had lifted her down from her shoulders, said \"Wait here,\" and never come back. Ever since, when it went quiet, someone was leaving.",
+          "In the quiet after her roommate closed that hand, {WITCH_NAME} pressed both hands over the girl's mouth and nose until she was still. She sat her against the trunk, face up, and opened her eyes to the sky.",
+          "At nine she sent her show bursting over the courtyard. With every flash, the prisoners saw the roommate under the tree, face turned up, watching. After the last burst, {WITCH_NAME} climbed to the upper railing and stayed among them until lockup call.",
+          "When the roommate missed it, a prisoner went down with her phone light and found her dead under the tree, eyes open.",
+          "In the trial court, the prisoners agreed she had been killed after the show, while {WITCH_NAME} stood with them at the railing. But one prisoner had seen, in that phone light, firework ash lying on the dead girl's open eyes, never blinked away. She had been dead before the first burst, when only {WITCH_NAME} was with her."
         ],
-        "epitaph": "No number of selves could replace the girl who laughed with her.",
-        "epithet": "A Mourner Too Soon",
+        "epitaph": "In the end, she was the one who walked away when the fireworks ended, and left a girl sitting face up to the sky, waiting.",
+        "epithet": "The Girl Who Never Lets the Fireworks End",
         "execution": [
-          "The execution stand locks the witch upright, her torso against the backplate of a drum-shaped frame. Mechanical mallets begin drumming on her chest. They beat faster and faster, never breaking rhythm even after her body goes slack."
+          "The execution stand raised an iron firework mortar beneath an iron vault. She sat on the shoulders of a towering iron mother.",
+          "The iron mother set her down into the mortar, said \"Wait here,\" and walked away. Chains closed on her inside.",
+          "The mortar fired her headfirst up into the iron vault. She dropped back into the mortar and lay still.",
+          "The smoke thinned, the court went quiet, and the iron mother did not come back."
         ],
         "magic": {
-          "name": "One Mind, Many Bodies",
-          "text": "She can divide herself into multiple bodies that act independently while sharing a single consciousness."
+          "name": "Fingertip Festival",
+          "text": "She shoots real fireworks from her fingertips into the air, in any color and shape."
         }
       },
       "variant": 1

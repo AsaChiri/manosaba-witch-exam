@@ -10,19 +10,25 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} always had bruises or scars, though no one ever saw her get hurt. A girl spent evenings reading beside her under the library's unwilting cherry tree. Once, seeing a fresh wound on her wrist, the girl simply pulled her sleeve down over it.",
-          "One evening, alone with her in the library, the girl rose with her books, slipped, and struck the back of her head on a bookshelf's corner. No one had touched her. {WITCH_NAME} caught her too late and held her as she died.",
-          "Before the others arrived, {WITCH_NAME} rolled up her sleeves and made deep grip-shaped bruises and a long scratch appear on her arms. She was still holding the body when the girls found her. “It was me,” she said.",
-          "They took the head wound for a blow and the marks on her arms for signs of a dying struggle. She confirmed they had been alone and never withdrew her confession. She blamed herself for failing to save the girl and accepted the rest as hers as well."
+          "Every night, until {WITCH_NAME} fell asleep, her mother held her right hand with the sixth finger folded away inside her fist.",
+          "Her Magic let her take that finger off. It lay curled on cotton in a tin, and everyone else saw a hand of five. A hand only got held with the sixth put away.",
+          "In the prison, her roommate read palms on the lower bunk every evening. \"Hands can't lie,\" she said. She was the only girl {WITCH_NAME} let hold her hand.",
+          "One evening in their cell, {WITCH_NAME} put the sixth finger back on and held out her whole hand. Her roommate smiled, folded the extra finger down into her palm with her thumb, and said, \"Let's keep this one out of the lines.\"",
+          "{WITCH_NAME} closed both hands around her roommate's throat, six fingers on the right, and held on until the girl lay still on the lower bunk.",
+          "Then she typed tomorrow's fortune on the dead girl's phone, took the sixth finger off again and left it resting on Send, to wake the screen and press at a quarter to ten.",
+          "At a quarter to ten, the prisoners in the lounge received the roommate's fortune for tomorrow, as they did every night. {WITCH_NAME} was dealing cards to them with both hands, five fingers on each.",
+          "So in the trial court, the prisoners ruled her out. The girl had been alive at a quarter to ten, and every one of {WITCH_NAME}'s fingers had been on her hands in the lounge.",
+          "Then a prisoner counted the fingertip bruises on the dead girl's neck. On one side there were five in a row, where a hand leaves four.",
+          "A hand with a hidden sixth finger had strangled her, and the sixth had stayed behind to send the fortune."
         ],
-        "epitaph": "She signed for a crime she had never committed.",
-        "epithet": "A Verdict Written on Her Skin",
+        "epitaph": "The only honest reading her hand ever gave was the one it left on the reader's throat.",
+        "epithet": "The Hand That Hides Its Sixth",
         "execution": [
-          "An iron frame held her upright with her scarred arms spread bare. A spike pointed at her chest. As a guard read the sentence, the frame turned a screw, driving the spike farther forward with each phrase. On the final word, it drove through her chest."
+          "The execution stand raises a giant round tin, just like hers, heaped above the rim with cotton wool. She lies curled in the cotton and tucks her right hand into a fist under her chin. The lid comes straight down, pressing the heaped cotton over her face, and settles onto the rim. At each heave beneath it, the lid lifts a hair. Then it sits flush and still."
         ],
         "magic": {
-          "name": "the Written Wound",
-          "text": "She can create any real wound she chooses on her own body."
+          "name": "Pieces of Me",
+          "text": "She can painlessly take off any part of her body, and it lives and moves as hers wherever she leaves it."
         }
       },
       "variant": 1

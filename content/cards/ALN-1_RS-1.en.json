@@ -10,18 +10,23 @@
     {
       "fields": {
         "crime": [
-          "At supper in the dining hall, a girl would hold out her hand, and Magic brought {WITCH_NAME} to her side so they could eat together. One day the girl invited {WITCH_NAME} to her cell during evening free time. She waited in her own cell for the girl to come fetch her. In the other cell, when no one came, the girl put away a second cup. Afterward, the girl phoned and asked if they could take turns visiting each other without needing to be fetched.",
-          "That night, a guard locked them in separate cells, each behind a barred cell door. From her cell, {WITCH_NAME} phoned the girl and pretended to choke. Alone on her upper bunk, the girl sat at its outer edge and held out her hand to help. Magic brought {WITCH_NAME} onto the mattress beside her, their hands clasped. Later, {WITCH_NAME} phoned another prisoner and said the girl had asked to be alone after the visit. The prisoner offered her refuge with an outstretched hand; {WITCH_NAME} accepted, and Magic carried her into that cell.",
-          "At morning unlocking, the prisoners found the girl's body on the stone floor beneath her upper bunk. Since her visitor had left, she seemed to have fallen by accident. Then one prisoner examined her upper back and found the pattern of a shoe tread in the bruising. The mark revealed the truth: after appearing beside the girl, {WITCH_NAME} had answered her request to visit without being fetched by kicking her off the upper bunk headfirst."
+          "Every evening at dusk, a girl sat at the upper railing and wrote in her notebook how her day had felt, while {WITCH_NAME} sat on the floor beside her. One evening the girl read her pages back and laughed. \"Half this sadness is yours.\" From now on, she said, she wanted to write alone. \"I'll come find you after.\"",
+          "On a birthday when she was small, {WITCH_NAME} had hidden in the wardrobe, biting her lip until dark. They had called off the game and eaten the cake without her.",
+          "So she waited just inside the dark doorway of the library to be found, biting her lip raw.",
+          "At the railing, the girl felt that waiting as her own and wrote: \"I'm so tired of waiting in the dark. I want it over.\" Below it she added: \"I've bitten my lip raw without noticing.\"",
+          "The courtyard went dark. The girl stayed at the railing, humming, and never once looked toward the doorway.",
+          "{WITCH_NAME} took her by the ankles and tipped her over the railing, head first onto the path below. She left the notebook lying open at that page and slipped back into the dark library.",
+          "The prisoners read the page as the girl's farewell. She had gone over by herself.",
+          "Then one prisoner read that last line and looked at the dead girl's mouth. Her lips were unbroken. The prisoner looked up at {WITCH_NAME}, whose lower lip was bitten raw. In the trial court, that prisoner understood: the page was {WITCH_NAME}'s waiting, felt from a few steps away."
         ],
-        "epitaph": "She never knew the girl she left behind had been waiting with a second cup.",
-        "epithet": "The Guest Left Waiting",
+        "epitaph": "She was found at last, by her own heart in another girl's hand.",
+        "epithet": "Still Hiding After the Game Is Over",
         "execution": [
-          "The execution stand straps her into a chair inside a tank, facing an empty chair. Before the water reaches her face, she keeps her gaze on that chair and waits. Water rises over her face and holds her under. The last bubbles reach the surface; she goes still."
+          "The execution stand raises an iron wardrobe around her. Chains hold her upright, and the doors shut. Then the back wall moves in and presses her flat against the closed doors. The spectators feel the wall crushing them too; they clutch their own chests and gasp in step with her. The gasping stops. The wardrobe doors swing open on her, slumped still in her chains, and the spectators breathe again all at once."
         ],
         "magic": {
-          "name": "Hold Out Your Hand",
-          "text": "When someone offers her a hand, she can vanish and reappear beside them, already holding it."
+          "name": "Fellow Feeling",
+          "text": "Whatever she feels, the people near her feel too, as if it were their own."
         }
       },
       "variant": 1

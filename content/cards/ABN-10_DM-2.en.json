@@ -10,18 +10,25 @@
     {
       "fields": {
         "crime": [
-          "In recent weeks, the friend who once spent whole evenings braiding {WITCH_NAME}'s hair in the lounge had reduced her visits to brief calls. During the friend's last visit, {WITCH_NAME} drew the woman's reflection from a hand mirror as a tangible copy. She used the double to rehearse the farewell she feared was coming.",
-          "Today, the friend interrupted that rehearsal and discovered her replacement. She canceled every future braiding visit. {WITCH_NAME} strangled her with a scarf in the lounge.",
-          "After the murder, the double joined the prisoners for dinner in the dining hall. When a prisoner later found the victim's corpse in the lounge, another remembered dining with her after her visit with {WITCH_NAME}, making it seem that she had been killed later. Then one prisoner compared the dinner memory with the body: the victim's familiar eyebrow scar, on the corpse's right side, had appeared on the diner's left. The dinner guest had been the reflection {WITCH_NAME} substituted for her friend."
+          "Every morning, {WITCH_NAME}'s mother braided her hair, until the day she put the hairbrush in her daughter's hand. \"You can do it yourself now.\" After that, she came to her room less each week, and then not at all.",
+          "In the prison, one girl sat on the upper railing above the courtyard every evening with her back to the drop. She threaded a daisy crown for {WITCH_NAME} as well as her own and kept her company until the flowers folded shut at dusk.",
+          "One day, as the cells opened, the girl put the daisies in {WITCH_NAME}'s hands and showed her how to thread them. \"You can make your own now.\"",
+          "While the others lined up for the first hot water, {WITCH_NAME} took the girl by the wrists and pushed her backward until she was tipping over the drop. Still holding on, she faded her out of the world. The girl was gone before she could fall.",
+          "Through dinner, and afterward by the courtyard fountain, {WITCH_NAME} sat among the others and never left their sight. Long after dark, without getting up from the fountain, she brought the girl back at the rail, tipping backward over the drop just as she had left her. The girl fell screaming from the empty railing, landed head first on the path and lay still.",
+          "The prisoners took it that she had slipped from her perch, just as they had always warned her she would. No one had been at the rail, and {WITCH_NAME} had been right there beside them. But one prisoner had taken photos beside the body with her phone, and in them the daisy crown was wide open, hours after dusk.",
+          "In the trial court, the prisoners understood. {WITCH_NAME} had faded the girl mid-fall before dusk and let her finish falling after dark."
         ],
-        "epitaph": "She said goodbye too soon, and lost the love that had not yet left.",
-        "epithet": "The Premature Mourner",
+        "epitaph": "This time she was the one who let go first, and she was left behind all the same.",
+        "epithet": "The Girl Handed Her Own Brush",
         "execution": [
-          "The mirrored chair on the execution stand binds her torso and holds her arms outstretched, locking each hand in a clasp against the glass. The mirror slides backward, and the clasps pull until both arms are torn from her body—an embrace ripped apart. Her severed hands remain locked in the clasps as the mirror carries them farther away. She strains toward them until she goes still."
+          "An iron chair rises out of the execution stand, its prisoner chained upright in the seat. Behind the chair stands an iron woman.",
+          "The iron woman braids the prisoner's hair into one long rope and lays it around her throat. Then it sets an iron brush in her chained hands and lets go.",
+          "Holding the end of the braid, the iron woman walks slowly backward, drawing the rope tight around her throat.",
+          "It stops at the far edge of the stand with its arm outstretched. The braid is taut, the brush lies in her lap, and she no longer stirs."
         ],
         "magic": {
-          "name": "Reflections Made Real",
-          "text": "She can draw the reflections of people and objects out of mirrors as tangible copies."
+          "name": "Into Thin Air",
+          "text": "She can fade anyone or anything she touches out of the world, then bring them back unchanged."
         }
       },
       "variant": 1

@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "A week earlier in the library, the girl had helped {WITCH_NAME} label her insect collection. Today in the lounge, the same girl confiscated her specimen box to force her to socialize, then burned the box and the collection in the fireplace.",
-          "During evening free time, before the cells were locked, {WITCH_NAME} entered the reflected world inside the standing mirror in the girl's cell. That night, a guard locked the girl alone behind the barred cell door. {WITCH_NAME} emerged from the mirror, drove a sword into the girl's chest, and killed her. With bloody hands, she retreated into the reflection.",
-          "By morning, the prisoners saw the sword and the locked cell and believed the girl had killed herself alone. Then one prisoner noticed that the lower bunk was clean, but its reflection bore a bloody handprint. At the trial court, that stain exposed the refuge behind the apparent suicide: {WITCH_NAME} had waited inside the standing mirror until the girl was locked in alone."
+          "When {WITCH_NAME} was a child, she opened her matchbox of pill bugs for her classmates. They passed it from hand to hand, laughing, and it came back to her empty. Whatever you open, they pass around until it's gone.",
+          "In the prison, one girl posted a close-up of something tiny to the prison chat every dusk, the kind she used to send home to her little brother. {WITCH_NAME} studied every one on her phone and never replied.",
+          "Then one dusk the close-up was of {WITCH_NAME} herself, shrunk to beetle size and asleep in a blossom of the library's unwilting cherry tree. \"Look who lives in the cherry tree,\" the girl wrote. The photo went round the chat to laughter, and the prisoners crowded the tree, tapping its branches to make her come out.",
+          "The next dusk, as the girl walked into the library, {WITCH_NAME} shrank into a blossom in front of the girls reading there. The girl photographed only the blossoms. \"I won't post you again,\" she said, and walked out into the hall, the only one the readers saw leave. At the upper railing, she posted a close-up of a ladybird on the iron rail. It was her last post.",
+          "Behind her, {WITCH_NAME} grew back to full size, took her by the legs and heaved her over. Prisoners in the courtyard saw her fall headfirst onto the path. The railing above was already empty.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out: at beetle size, she could never have crossed from the tree to the railing in three minutes. They turned on the girls of the second floor instead. Then one prisoner zoomed in on the ladybird post on her phone. On the dead girl's cuff sat a figure no bigger than the ladybird, wearing {WITCH_NAME}'s clothes. The prisoners saw it then: she had never crossed at all, only ridden out of the library on the girl's cuff."
         ],
-        "epitaph": "Only the silent creatures had accepted her without asking her to change.",
-        "epithet": "The Naturalist No One Heard",
+        "epitaph": "Every dusk, someone showed her the small world, and never learned she was watching.",
+        "epithet": "The Girl Who Kept Her Matchbox Shut",
         "execution": [
-          "The execution stand locks her flat on her back inside an open specimen drawer. A specimen pin descends, transfixes her chest, and pierces the backboard beneath her, fixing her in place as the specimen. She struggles against it as the drawer retracts beneath a glass cover. When the drawer stops, she lies motionless on display."
+          "The execution stand raised an iron matchbox the size of a coffin, inside a ring of iron schoolgirls. They shut her in its tray and passed the box from hand to hand, laughing. Every grip crushed its walls further in. When the box came back to the center, it was crushed flat and silent."
         ],
         "magic": {
-          "name": "Beyond the Glass",
-          "text": "You can step bodily into any reflection and inhabit the world it shows."
+          "name": "Small as a Beetle",
+          "text": "She can shrink to the size of a beetle and grow back whenever she likes."
         }
       },
       "variant": 1

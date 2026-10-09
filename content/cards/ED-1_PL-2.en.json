@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Pleaser",
+  "copingSub": "PL-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Pleaser",
+  "tag": "ED-1_PL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, a girl who was afraid of heights leaned out over the upper railing to launch a paper plane with a wish written on it. Before each launch, {WITCH_NAME} took her hand and drew the fear of the drop out of her and into herself. Afterward, she could not go near the edge at all.",
+          "One evening, burning with fever, she asked the girl to skip it just for tonight. The girl took her hot hand and pressed it to her own cheek. \"You're so warm. Just this once.\"",
+          "At seven, burning with fever, she had held both her parents' hands until the shouting stopped. Her mother only said, \"Your hands are warm. Good girl,\" and sent her back to bed alone.",
+          "She drew the fear out anyway. With it in her own body, she gripped the rail, caught the girl by the knees and heaved her over.",
+          "The prisoners found the girl dead on the courtyard path below the railing. After the fall, they found {WITCH_NAME} pressed against the far wall of the second-floor hall. Everyone knew she carried the girl's fear of the drop, so they ruled her out.",
+          "In the trial court, as the argument turned heated, she reached out to take the court's anger. One prisoner saw rust ground into her palms. Then the prisoners understood: the fear had never kept her from the edge. She had carried it there herself and held on to the railing through it."
+        ],
+        "epitaph": "She held the girl's fear every evening; the last one she held for her was of that fall.",
+        "epithet": "Warm hands that everyone held and no one felt",
+        "execution": [
+          "The execution stand lays her in an iron cot, one hand left outside the covers. An iron quilt lowers over her and tucks itself under her chin, then keeps pressing down on her chest. Her open hand stops reaching. No one takes it."
+        ],
+        "magic": {
+          "name": "Taken to Heart",
+          "text": "With a touch, she draws whatever someone is feeling out of them and feels it in their place."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

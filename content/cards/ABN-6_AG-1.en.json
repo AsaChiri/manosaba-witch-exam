@@ -10,19 +10,21 @@
     {
       "fields": {
         "crime": [
-          "After weeks in prison, the girl returned to the lounge for tea with {WITCH_NAME}, and their old tenderness began to return. Despite the visits she had missed, {WITCH_NAME} served her tea in a cup with one side broken away. The tea stayed inside as if the missing wall were still there.",
-          "That day, the girl apologized and set down an intact cup as a fresh start. {WITCH_NAME} refused it. She kept the broken cup instead, telling the girl that a new one could never make up for all the visits she had missed. The girl said that if every visit only brought another reproach, she would stop coming.",
-          "At that, {WITCH_NAME} shot her with a crossbow whose bowstring had been severed. She put the weapon in the girl's hands and arranged her as though she had fired it herself. The prisoners first accepted that appearance: the girl had shot herself, and the bowstring had snapped when the crossbow discharged.",
-          "Then one prisoner remembered seeing {WITCH_NAME} with the same crossbow before the girl's final visit. Its bowstring had already been severed. It could not have broken on discharge; the shot was possible only because {WITCH_NAME} had secretly made the broken weapon work."
+          "Her mother would come home, warm {WITCH_NAME}'s hands at the stove, and be gone again for days; by morning the bed was always cold. To her, warmth that could be taken back had never been yours at all. So she never took back any warmth she gave.",
+          "In the prison, one girl swam the icy lake every dusk and came out blue. {WITCH_NAME} was always waiting on the shore with a towel, and with a touch she pressed the fireside warmth still in her own hands into the girl, who felt it as her own.",
+          "One evening in the lounge, the girl held out her hands. \"Take it back,\" she said. \"I want to feel the lake again. I'll warm up in the hot showers after.\"",
+          "The next dusk, {WITCH_NAME} told the lounge she was going to her cell, then slipped out after the girl to the shore. As the girl stepped dripping out of the water, {WITCH_NAME} wrapped the towel around her throat and pulled until she was still. Back at the lounge fireplace, she took the hands of a prisoner shivering in from the snowy courtyard and pressed the warmth of her own hands into them.",
+          "After dark, the prisoners found the girl on the frozen shore, the towel twisted tight around her throat. In the trial court they ruled {WITCH_NAME} out: she had said she was in her cell, and the warmth she gave held no trace of cold, so she could never have stood on that shore.",
+          "But the prisoner she had warmed at the fire could still feel, beneath the warmth {WITCH_NAME} had never taken back, a thawing ache in her fingers. Hours after her own hands had warmed, it had not changed at all. The prisoners realized the ache was not hers. It was {WITCH_NAME}'s: her hands had been thawing from the icy shore."
         ],
-        "epitaph": "She wanted someone to come back because they cared, not because they owed her.",
-        "epithet": "The Creditor of Every Absence",
+        "epitaph": "The girl from the lake died warm, still holding the warmth she had asked to give back.",
+        "epithet": "The Warmth She Never Took Back",
         "execution": [
-          "The execution stand straps the witch across the hips into the lap of an iron mother. Its jointed arms fold around her again and again, each embrace tighter than the last. At last, they open. Her body slips forward, limp."
+          "The execution stand raised an iron hearth-woman with open arms, its chest glowing like a banked fire. Chains drew her into its lap and pressed her against that glowing chest. Then the iron arms closed around her and held her there, an embrace that would not let go. They never opened. In time, she no longer stirred in them."
         ],
         "magic": {
-          "name": "Never Too Broken",
-          "text": "Makes broken objects work as though whole while leaving their damage untouched."
+          "name": "Feel What I Feel",
+          "text": "Her touch presses what her body feels into anyone, felt as their own until she takes it back."
         }
       },
       "variant": 1

@@ -10,18 +10,22 @@
     {
       "fields": {
         "crime": [
-          "The week before, in the recreation room, a girl read {WITCH_NAME} dialogue from a handwritten script for a play on the wall. Where one exchange made her sound indifferent, {WITCH_NAME} corrected the girl's script to make her reply uncertain instead. Today, the girl restored the dismissive punchline, overwriting the correction. Then she told {WITCH_NAME} she would read their private chat in public that evening.",
-          "In response, {WITCH_NAME} phoned the girl before rehearsal and offered a prerecorded substitute for her part. During rehearsal, however, she used her Magic to become a living flat image and performed across the projection wall in the projector's light. A prisoner watching assumed the projector was showing the promised recording. After that prisoner left, she emerged from the wall in bodily form and strangled the girl to death with a scarf.",
-          "The prisoner had caught the girl crossing the projector's beam while filming the rehearsal on a phone. In the trial court, the footage showed the girl's shadow falling across the backdrop, yet {WITCH_NAME}'s colored figure remained visible inside it before the wall brightened again. The prisoners realized that the performer had been {WITCH_NAME}'s living body concealed on the wall, not an absent woman appearing in a recording."
+          "When {WITCH_NAME} was little, the girl assigned to hold her hand let go at the school gate and wiped her palm on her skirt. \"Your hand is all damp.\" From then on, every hand that took hers wiped itself after.",
+          "In the mansion, one girl sat on the upper railing every evening, calling down to the girls in the courtyard. \"From up here, no one gets left out.\" Every evening she reached for {WITCH_NAME}'s hand, and every evening {WITCH_NAME} used her Magic and turned to mist.",
+          "One evening the girl's fingers swept through the mist. She laughed and wiped her wet palm on her skirt. \"You're all dew.\" Then she swung round on the rail to catch her again and tipped outward, her hand closing in the mist as she cried {WITCH_NAME}'s name.",
+          "The prisoners in the courtyard looked up at the cry. They saw mist knitting into {WITCH_NAME}'s arm, thrust out over the rail, as the girl dropped. She landed on the path below and did not move.",
+          "In the trial court, the prisoners decided {WITCH_NAME} had turned to flesh to push her. The girl had cried out her killer's name.",
+          "\"I never touched her,\" {WITCH_NAME} said.",
+          "Kneeling beside the girl on the path, she had seen the open palm, still wet with her own dew. Flesh in that grip would have held the girl. But as those fingers closed, {WITCH_NAME} had pulled her mist away from them, and gathered back into flesh only once they had slid through."
         ],
-        "epitaph": "In the silence she left behind, the misunderstanding could never be corrected.",
-        "epithet": "A Friend Lost in Translation",
+        "epitaph": "The only hand that never wiped her away was the one she let fall.",
+        "epithet": "Dew Wiped from Every Hand",
         "execution": [
-          "The execution stand locks her spread-eagled against an upright white panel. A steel roller meets the crown of her head and bears down without pause, flattening her against the panel all the way to her feet. At the bottom, it rolls clear of the panel, leaving a motionless, bloodied silhouette."
+          "The execution stand raises a giant iron hand, palm up, with her standing chained in it. A white cloth hangs from its wrist. One by one, the fingers close around her. The hand tightens into a fist and does not let go. When at last it opens over her, she does not move. The hand wipes its palm on the white cloth."
         ],
         "magic": {
-          "name": "Living Mural",
-          "text": "Turn your body into a living, two-dimensional image that can move across surfaces."
+          "name": "Mist No Hand Can Hold",
+          "text": "She can melt into drifting mist and gather back into flesh at will."
         }
       },
       "variant": 1

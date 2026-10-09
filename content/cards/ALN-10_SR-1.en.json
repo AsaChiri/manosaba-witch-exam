@@ -10,19 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week, a girl in the cell had mended the shoulder strap on the bag {WITCH_NAME} meant to leave with. {WITCH_NAME} picked out the girl's stitches and sewed the strap again herself.",
-          "During free time that afternoon, the girl interrupted {WITCH_NAME} as she tested an escape key in the barred cell door. The girl threatened to tell the warden about the escape preparations.",
-          "Before they met in the second-floor hall, {WITCH_NAME} had used Magic to knead the upper railing's support joints, shaping what had been continuous iron into separate caps pressed flush together. At the railing, she shoved the girl. The upright section came loose, and the girl fell to her death in the courtyard. Seeing her body there, the prisoners assumed she had leaned against an upper railing that failed by accident.",
-          "One prisoner compared the mating faces at the supposed break. They were not jagged: both were smooth caps, each folded inward in the same way. At the trial court, the prisoners saw what those matching folds meant: the supports had already been separated with {WITCH_NAME}'s Magic, not broken in the fall."
+          "Every evening after supper, a girl knelt in the dining hall and scrubbed the floor alone. {WITCH_NAME} stayed at the table each night, watching. \"A floor you scrub is yours,\" the girl told her.",
+          "One night {WITCH_NAME} knelt beside her with the first scrub brush she had ever held. The girl took it out of her hand. \"This floor is mine. Go and sit down.\"",
+          "When {WITCH_NAME} was nine, her stepmother had taken a broom out of her hand: \"Guests don't sweep.\" She had asked no one in any house for anything since. Her house had to be somewhere else.",
+          "At half past eight, a prisoner looked in to call the girl to cards and reported back to the lounge: half the floor still to scrub. At twenty to nine, {WITCH_NAME} left the lounge and went back with that brush. She was gone twenty minutes.",
+          "She brought the full bucket down on the bowed head until the girl lay still. Then she took up the brush, and her Magic gave her hands a lifetime's skill. Moving like an old charwoman's, they finished the unscrubbed half in minutes. She laid the girl by her bucket at the finished end and hung the brush back wet.",
+          "At half past nine, a prisoner found the girl dead by her bucket at the end of a finished floor, her own brush beside her. In the trial court, the prisoners ruled that she had been killed after finishing, sometime after quarter past nine, when {WITCH_NAME} was already back in the lounge, sitting among them.",
+          "Then the prisoner who had fetched a cloth to cover her face spoke up: among the cleaning tools in the entrance hall hung a second scrub brush, wet with grey scrub water. The prisoners understood. The floor had been scrubbed after the girl was dead, by {WITCH_NAME}'s hands."
         ],
-        "epitaph": "The help she refused was the belonging she never recognized.",
-        "epithet": "Forever Halfway Gone",
+        "epitaph": "The only floor she ever scrubbed, she made look like someone else's.",
+        "epithet": "The Guest Who Was Never Handed a Broom",
         "execution": [
-          "The execution stand suspends her between a pair of giant sculptor's hands, her arms stretched wide. One hand closes over her shoulders and the other over her hips. They rotate in opposite directions, twisting her as if she were clay. When they stop, her twisted body hangs motionless in their grip."
+          "In the trial court, the execution stand raises an iron guest bed beneath a heavy iron canopy. She lies strapped flat under an iron coverlet, turned down as if for a visitor.",
+          "The canopy starts down its four posts toward her chest. As it comes down, she smooths the coverlet straight with both hands, making the bed herself.",
+          "The canopy settles low over the bed. Her fingers lie still on the smoothed edge of the coverlet."
         ],
         "magic": {
-          "name": "Sculptor's Touch",
-          "text": "She can shape any solid, inanimate material with her hands as easily as soft clay."
+          "name": "Old Hands",
+          "text": "Her hands use any tool she picks up with a master's lifelong skill."
         }
       },
       "variant": 1

@@ -1,0 +1,36 @@
+{
+  "cell": "DEF|Sovereign",
+  "copingSub": "SV-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Sovereign",
+  "tag": "DEF-3_SV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} kept everyone out of reach of her hands. She stepped aside in every doorway, and the prisoners soon made way for her without being asked.",
+          "Her roommate was the talker. Every night after lockup, she leaned on the barred cell door and told stories to the prisoners down the corridor. One night in the dark, {WITCH_NAME} told her something she had never told anyone else. At twelve, braiding her best friend's hair, she had pictured pulling the braid tight around the girl's throat. When she said so, her friend pulled the braid loose and never came back.",
+          "In the dining hall, the roommate leaned across the table. \"Tonight's story is the girl with the braid. Don't look like that. It was only a thought.\" {WITCH_NAME} begged her not to. The roommate laughed. \"Everyone will understand.\" Everyone who had ever stepped aside for her would know whose hands those were.",
+          "At dusk a storm broke. The roommate sheltered under the courtyard tree, running through tonight's story under her breath. In the downpour, {WITCH_NAME} took hold of her braid and pulled it tight around her throat until she was still.",
+          "Then she walked back through the storm. The rain bent away before it could touch her, and she sat down by the lounge fireplace dry to the last hair.",
+          "When the body was found, the prisoners in the trial court ruled her out. She was perfectly dry, and none of them had ever seen her Magic.",
+          "Then one prisoner remembered the lounge before the body was found: mud packed into the soles of {WITCH_NAME}'s shoes, and not a fleck above them. The court placed her under the tree. The rain had turned aside from her; the mud had not."
+        ],
+        "epitaph": "To keep one thought from being told, she made it more than a thought.",
+        "epithet": "The untouched girl afraid of her own hands",
+        "execution": [
+          "The execution stand ringed her with iron girls. Every one of them was bowed low and stepping aside.",
+          "Then they straightened out of their bow and turned inward to face her. They closed ranks. Iron pressed against her chest from every side, and not one of them turned aside.",
+          "She kept lifting her face above the iron shoulders to breathe. Then she stopped lifting it, and the packed ring stood still."
+        ],
+        "magic": {
+          "name": "Parting Rain",
+          "text": "Rain, dust, splashes and small insects swerve aside before they can touch her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Perfectionist",
+  "copingSub": "PF-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Perfectionist",
+  "tag": "DEF-3_PF-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening during free time, her roommate swallowed a sword in the lounge for the other girls, and {WITCH_NAME} counted the seconds aloud.",
+          "One morning in their cell, the roommate told her gently, \"Everyone says ugly things in their sleep,\" and then repeated what she had said in hers: \"Let him fall.\"",
+          "At nine, carrying her baby brother at the top of the stairs, she had said aloud, \"What if I let him fall?\" Her mother took him from her arms and never let her hold him again. Ever since, she had used her Magic to take back every sentence that came out wrong and say it again, until nothing wrong remained.",
+          "But her roommate slept in the upper bunk above her every night, and there was no other cell to go to.",
+          "That evening in the lounge, she waited until the blade had gone all the way down. Then she shouted her roommate's name, sharply. The roommate flinched on the blade, fell, and never got up.",
+          "She took the shout back. No one had ever heard it.",
+          "As the roommate flinched, the prisoners had seen {WITCH_NAME} standing silent across the room by the fireplace, her hands at her sides. In the trial court, they concluded that the roommate's own throat had jerked.",
+          "Then one prisoner noticed something: at that moment, every face in the lounge had been turned toward {WITCH_NAME}, and no one could say why. They had all turned toward a voice none of them had heard, the shout she had taken back."
+        ],
+        "epitaph": "She spent her life unsaying words she never meant, and the only one she meant, no one ever heard.",
+        "epithet": "The Girl Afraid of Her Own Voice",
+        "execution": [
+          "The execution stand raises a giant iron mouth, its lips parted. She is strapped flat on its iron tongue, between the open lips. Slowly, the upper iron lip lowers onto her until it lies flat upon her. The spectators face the giant iron mouth, shut and silent."
+        ],
+        "magic": {
+          "name": "Unsaid",
+          "text": "She can take back words she has spoken, as if no one had ever heard them."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

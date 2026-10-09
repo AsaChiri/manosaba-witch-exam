@@ -1,11 +1,11 @@
 /**
  * Card parser. Card identity (family/style + sub-variants + variant index) is
  * read from each file's `schema: card-source/v1` YAML frontmatter — every card
- * now self-labels, so there is no registry to drift out of sync. A shipped card
+ * now self-labels, so there is no registry to drift out of sync. A card
  * missing those fields is a hard error (no `?` placeholder fallback).
  * The five prose fields are parsed tolerantly from each file's locale sections.
  */
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { normalizeOriginSub, normalizeCopingSub } from "./taxonomy.js";
 
@@ -151,6 +151,17 @@ function parseSection(lines: string[]): CardFields {
   }
   flush();
   return fields;
+}
+
+/**
+ * Every card source id in the directory (basename sans .md). The folder IS the
+ * ship list: whatever is filed there compiles. The folder's README is skipped.
+ */
+export function listCardIds(cardsDir: string): string[] {
+  return readdirSync(cardsDir)
+    .filter((f: string) => f.endsWith(".md") && f.toLowerCase() !== "readme.md")
+    .map((f: string) => f.slice(0, -3))
+    .sort();
 }
 
 export function parseCard(sourceId: string, cardsDir: string): ParsedCard {

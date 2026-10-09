@@ -1,0 +1,32 @@
+{
+  "cell": "DEF|Thrill-Seeker",
+  "copingSub": "TS-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Thrill-Seeker",
+  "tag": "DEF-3_TS-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every morning during free time, a girl skipped flat stones across the lake, counting the bounces aloud, and {WITCH_NAME} kept her company on the shore.",
+          "As a child, carrying her baby sister, she had once told her mother what she was thinking: What if I opened my arms? Her mother lifted the baby out of them and never let her hold her sister again. From then on, whenever a harmful thought came to her, she used her Magic to draw it out of her head as a small stone and kept it in her pocket, proof of what she was.",
+          "One morning by the lake, she drew a new one into her palm, a thought about the girl: Push her under. The girl, who never passed up a flat stone, picked it out of her hand and held it. \"Everyone thinks that,\" she said. Then she sent it skipping across the water, counting, and at nine it sank. {WITCH_NAME} waded in after it and searched the lake bed, but she never found it.",
+          "Later, the prisoners found the girl drowned in the lake, a flat stone clenched in her fist. It looked as if she had drowned gathering stones to skip. One of them pried the fingers open and held the stone, and at once she was thinking: I held her under until she was still.",
+          "{WITCH_NAME} had done it, in the lake during free time. Afterward she drew the thought out as a stone and closed it into the girl's fist, for whoever opened her hand."
+        ],
+        "epitaph": "Everyone thinks that. Of all she carried, only the deed was ever hers.",
+        "epithet": "A Pocketful of Proof",
+        "execution": [
+          "In the trial court, the execution stand straps her down beneath a stone hopper, arms spread wide, palms open. The hopper opens, and small grey stones pour onto her, burying her chest steadily. They fill her open hands; not one of them was drawn from her. Beneath the mound of stones, she falls still."
+        ],
+        "magic": {
+          "name": "Thoughtstones",
+          "text": "She draws her thoughts out as small stones; whoever holds one thinks it just as she does."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

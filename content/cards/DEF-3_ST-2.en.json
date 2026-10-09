@@ -1,0 +1,36 @@
+{
+  "cell": "DEF|Striker",
+  "copingSub": "ST-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Striker",
+  "tag": "DEF-3_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "During free time in the lounge, one prisoner liked to read faces for laughs, announcing what everyone was thinking. She always picked {WITCH_NAME} first.",
+          "When {WITCH_NAME} was ten, she once pictured pressing her little sister's small hands onto a hot stove. She fled, and never stood beside a stove again.",
+          "Now she was warming her hands at the fireplace when the face reader laughed. \"I know that look. You were picturing shoving your hands right into the fire.\" Then she called out to the whole room: \"Everyone, look at her face!\"",
+          "Every eye turned to her. {WITCH_NAME} bit her lip to keep her face still, and a bright bead of blood welled up.",
+          "Then came the crash. The face reader was hurled backward, headfirst into the fireplace, and lay lifeless in the hearth. At that instant, the prisoners across the lounge had all been watching {WITCH_NAME}'s face. It never moved.",
+          "But one prisoner had seen something change in a single blink: the bright bead on her lip had become a dark, dry crust. The others understood. That blink had lasted minutes for her.",
+          "In a room gone still, {WITCH_NAME} had stood before the girl's frozen, laughing face. Then she shoved her into the fireplace."
+        ],
+        "epitaph": "She had run from that thought since she was ten; it took only a few minutes no one could see to make it a crime.",
+        "epithet": "A Face Held Still over a Thought She Took for a Monster",
+        "execution": [
+          "In the trial court, the iron frame of the execution stand clamps her upright, her face held up. Above her, iron raindrops hang motionless on wires.",
+          "Then they begin to fall, a steady rain of iron onto her upturned face, and she cannot step aside.",
+          "At last she hangs still in the iron frame, among the scattered iron drops."
+        ],
+        "magic": {
+          "name": "Rain That Waits",
+          "text": "She can move so fast that the world around her all but stands still."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "cell": "ABN|Doomer",
+  "copingSub": "DM-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Doomer",
+  "tag": "ABN-6_DM-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME}'s mother was rarely home. On the nights she was, she sat humming on her daughter's bed until the baby cried; then she switched off the bedside lamp, said, \"Back in a bit,\" and went. {WITCH_NAME} lay in the dark, hearing her hum the baby to sleep through the wall.",
+          "In the prison, one girl went to anyone she heard crying and hummed them her grandmother's lullaby. She sat with {WITCH_NAME} in the courtyard after dark, when no one else was out, and she always came back. On nights she couldn't come, she hummed it down the phone.",
+          "{WITCH_NAME} pinched each of their evenings out of the air into a glass marble, keeping them because they were already leaving. The one she carried held the girl humming the lullaby.",
+          "One night by the fountain, as {WITCH_NAME} began to tell her about the lamp, the girl's phone rang. Another girl was crying on the line. She squeezed {WITCH_NAME}'s hand, stood, and said, \"Back in a bit.\"",
+          "{WITCH_NAME} caught her by the wrist, pulled her back, and drove her head against the fountain's stone rim. The girl slid face down into the basin and did not come up.",
+          "{WITCH_NAME} called the crying prisoner back and set the lullaby marble against the mouthpiece. Down the line went the girl's humming, with the fountain splashing behind it. In her cell, the prisoner listened to it until nearly lockup, then hung up calm. All that time, {WITCH_NAME} sat in the lounge where everyone could see her.",
+          "At dawn, the prisoners found the girl face down in the basin. One of them lifted the phone off the rim, and wedged behind it was the lullaby marble, still humming under the fountain's splash. In the trial court, the prisoners understood: the humming on the line was {WITCH_NAME}'s marble, and the girl had been under the water before the call began."
+        ],
+        "epitaph": "The girl would have come back, as she always did. Hers was the one \"back in a bit\" that would have been kept.",
+        "epithet": "Keeper of Every Moment Before It Goes",
+        "execution": [
+          "The execution stand raises a giant bed beneath her mother's bedside lamp, grown huge, with a giant glass marble hanging between them. She is tucked in so tightly she cannot rise.",
+          "The lamp switches on. The marble gathers its light into one bright point on her chest. However she twists, the point stays on her. The lamp is never switched off.",
+          "The bed burns down around her, and she lies still beneath the lamp, which stays lit."
+        ],
+        "magic": {
+          "name": "Moments in Glass",
+          "text": "She pinches the moment in front of her into a glass marble, where it keeps playing, sounds and all."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

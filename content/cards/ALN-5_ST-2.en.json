@@ -10,18 +10,24 @@
     {
       "fields": {
         "crime": [
-          "In the library, {WITCH_NAME} would shut her charcoal atlas whenever other prisoners approached, hiding its pages of imaginary countries. One girl, however, named a river in it for her, making the atlas a shared invention. The girl invited her to show it to the others during free time. On the invitation, she named {WITCH_NAME} as the atlas's author.",
-          "At that, {WITCH_NAME} used her Magic to shrink the girl to finger size, then pinched the tiny girl's neck between her fingers until she died. She carried the miniature body to the courtyard in her pocket. There, she restored it to full size; the charcoal clinging to the girl's neck enlarged in the same proportion. She laid the body beneath the upper railing, and the prisoners mistook the death for an accidental fall.",
-          "One prisoner examined the opposing charcoal fingerprints on the girl's neck and noticed that their ridge spacing was far too wide. In the trial court, the prisoners recognized what that impossible spacing meant: the prints exposed {WITCH_NAME}'s hidden grip on the girl while they were at different scales, overturning the story of a fall."
+          "The morning after {WITCH_NAME} told her father she had been watching the sparrow chicks inside the wall by her bed, he broke the wall open and swept them out.",
+          "In the prison, her roommate saved crumbs from breakfast and scattered them from the upper railing for the courtyard birds every dusk. One night in their cell, {WITCH_NAME} whispered to her about the starling chicks she watched inside the trunk of a tree. It was the first time she had told anyone since that morning.",
+          "The next day her roommate told the whole dining hall. \"Come tomorrow, and she'll tell us what every chick is doing.\"",
+          "At dusk, before the rain, her roommate leaned out over the railing with her crumbs. \"Everyone's coming in the morning,\" she said. {WITCH_NAME} heaved her over the railing.",
+          "That evening, during free time, the prisoners in the lounge heard the rain begin. {WITCH_NAME} was already sitting among them. She had found every girl's lost things inside closed bags and drawers without opening them, and she had never once been wrong. Now she looked through the wall and told them her roommate was standing under the tree, out of the rain, looking up at the hollow.",
+          "In the trial court, the prisoners ruled that someone had thrown her roommate from the railing after {WITCH_NAME} saw her alive. It could not have been the girl who was sitting right there with them. Then one prisoner showed the photo she had taken on her phone when they lifted the body: a dry, girl-shaped patch of stone on the soaked path. The court understood. The roommate had been lying there before the first drop fell, and {WITCH_NAME} had described a living girl to hide her own shove."
         ],
-        "epitaph": "She silenced the welcome—and with it, the place she might have belonged.",
-        "epithet": "The Besieged Dreamer",
+        "epitaph": "The girl who told her secret was the first who ever wanted to watch beside her.",
+        "epithet": "Keeper of the Unspoken Nest",
         "execution": [
-          "The execution stand holds her upright against the palm of a giant mechanical hand. The hand's open thumb and forefinger close on her neck and keep squeezing. She struggles between them until her pinched body goes still."
+          "The execution stand raises a thick brick wall with a hollow inside. She is chained upright in the hollow and bricked in.",
+          "On the far side of the bricks, an iron father lifts a sledgehammer. Through the wall, she watches every swing come.",
+          "Blow by blow, he breaks the wall open, until the hammer falls through the last bricks onto her.",
+          "Then he sweeps her out with the broken bricks, and she lies still on the court floor among the rubble."
         ],
         "magic": {
-          "name": "Scale Shift",
-          "text": "She can make people and objects physically larger or smaller."
+          "name": "Glass Walls",
+          "text": "She can see through walls, doors and other solid things as if they were clear glass."
         }
       },
       "variant": 1

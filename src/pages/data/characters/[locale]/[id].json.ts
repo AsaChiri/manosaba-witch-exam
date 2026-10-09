@@ -3,7 +3,7 @@
  * contract, 2026-07-16). The exam island fetches the record's prose from here
  * only on an actual exact-hit trigger — the prose never rides in page HTML.
  * listCharacters already applies the zh-CN fallback per locale and returns []
- * when the feature is off (ship_list characters=false), which zeroes the paths.
+ * when the feature is off (no compiled characters), which zeroes the paths.
  */
 import type { APIRoute, GetStaticPaths } from 'astro'
 import { listCharacters } from '../../../../lib/content'

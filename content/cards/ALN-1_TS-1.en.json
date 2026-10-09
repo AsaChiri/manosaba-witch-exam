@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "At the upper railing, {WITCH_NAME} lost her balance, and a girl caught her wrist and pulled her to safety. When {WITCH_NAME} invited her to balance on the railing too and share the thrill, the girl refused: she had intervened out of fear. She said she would ask the warden to supervise {WITCH_NAME} the next morning.",
-          "During evening free time, {WITCH_NAME} hid a sword beneath the girl's lower bunk. That night, a guard locked the girl alone behind her barred cell door. {WITCH_NAME} became living lightning, passed through the door, and took shape again inside. She drew the hidden sword and thrust it fatally into the girl's chest, then closed the girl's hand around the hilt. She left through the bars as lightning. The prisoners took the scene for suicide.",
-          "In the trial court, one prisoner recalled a phone conversation with the girl after the door was locked. When the body had been found, a prisoner had opened the hand wrapped around the hilt and discovered cuts made by gripping the blade. The girl had seized it to defend herself during an assault, not to drive it into her own chest. The call placed that assault after lockup; with the struggle exposed, the barred door revealed how {WITCH_NAME} had intruded—as lightning."
+          "Every dusk, a girl climbed the tree in the courtyard to watch the sun set over the wall. From her branch, she called out the steps for {WITCH_NAME}, who walked the upper railing blindfolded at that hour. The girls in the hall tied the blindfold and checked it.",
+          "One evening the girl told a joke from the branch, and the whole hall laughed at once. {WITCH_NAME} laughed a moment later, alone. \"You're always one beat behind,\" the girl said fondly.",
+          "It had been the same at dinner at home: her family laughed, then she laughed by herself, and her mother said, \"You never know when.\" Only up on the railing, where she could fall, did she ever move on time.",
+          "She tipped her chin up and looked under the blindfold at the girl in the tree. Then she let her Magic take hold of the girl and hopped sideways off the rail, feet together. On the branch, the girl kicked off with both feet in the same instant and fell headfirst onto the stones of the path. She was dead.",
+          "In the trial court, the prisoners ruled that the girl had slipped while laughing, just as {WITCH_NAME} dropped. They had tied {WITCH_NAME}'s blindfold themselves.",
+          "Then one prisoner climbed to the branch. Two heel scrapes sat side by side in the bark, both dragged toward the tip, the marks feet leave when they push off. The prisoners understood: the girl hadn't slipped. She had jumped when {WITCH_NAME} hopped, and that meant {WITCH_NAME} had seen her."
         ],
-        "epitaph": "What she called captivity had been kindness—and rescue was beyond reach when it mattered.",
-        "epithet": "The Unreachable Daredevil",
+        "epitaph": "Once in her life she moved in step with someone, and she had to force her.",
+        "epithet": "The Girl One Beat Behind",
         "execution": [
-          "The execution stand lowers two iron hands over her wrists and hoists her into the air. The hands pull her wrists in opposite directions, moving farther and farther apart. When one arm finally tears free, its iron hand keeps the severed arm hanging motionless."
+          "The execution stand raises two tall iron railings in the trial court, facing each other, and she stands blindfolded between them. The railings swing in exactly together. She turns toward one, then the other, a beat late each time. They close on her from both sides, and the bars press against her chest. Then the railings stand shut, flush against each other. Between the bars, the end of her blindfold hangs still."
         ],
         "magic": {
-          "name": "Lightning Incarnate",
-          "text": "She can become living lightning, streaking through the air and along conductive material."
+          "name": "Lockstep",
+          "text": "Anyone she looks at moves in perfect step with her, as if they shared one body."
         }
       },
       "variant": 1

@@ -1,0 +1,34 @@
+{
+  "cell": "ABN|Concealer",
+  "copingSub": "CO-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Concealer",
+  "tag": "ABN-1_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening in the lounge, a girl opened her mending tin and mended the other prisoners' clothes, and {WITCH_NAME} sat beside her, handing up each colour of thread.",
+          "One evening her friend held out a torn cuff and put the needle in {WITCH_NAME}'s hand. \"Sew this one yourself. You should learn to do it without me.\" {WITCH_NAME}'s face stayed calm. The spool of thread in her lap shook in her place.",
+          "Long ago, her mother had taught her to sew a button back onto her own coat. \"So you can do it without me.\" By morning, her mother was gone.",
+          "At half past seven, her friend carried the mending down to the cells and laid it out on the bunks. {WITCH_NAME} followed her down, took the tape measure that hung round her friend's neck whenever she sewed, and pulled it tight until her friend was still. Before eight, she drew the blanket over the body and poured her own trembling and tears into it. When she let go, it went on shuddering.",
+          "From eight until lockup at ten, she sat composed among the others in the lounge. As the prisoners filed along the cell corridor to their cells, they saw through the bars a blanket shuddering like a girl crying beneath it. The girl's roommate let her cry and went to sleep.",
+          "In the trial court, the prisoners concluded that she had died after lockup, locked in with no one but her roommate.",
+          "Then the prisoner who had washed the dead girl's face spoke up: her lashes held no salt from tears, though the blanket over them was stiff with it. The prisoners understood. The blanket had wept and shaken with {WITCH_NAME}'s tears, over a girl already dead before lockup."
+        ],
+        "epitaph": "The only time they ever saw her cry, they thought it was her friend.",
+        "epithet": "The calm face that hears goodbye first",
+        "execution": [
+          "In the trial court, the execution stand bound her upright to a giant sewing needle beneath a hanging spool of thread. The needle began to turn slowly, drawing the thread round her from the ankles up. Her face stayed calm; it was the needle that shivered with her trembling. The thread wound over her mouth and nose, turn after turn across that calm face. At last the needle stopped shivering, and the spool wound on over a still shape."
+        ],
+        "magic": {
+          "name": "Tears by Proxy",
+          "text": "Her tears, blushes, trembling and sweat pass into whatever she touches, while her face stays calm."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

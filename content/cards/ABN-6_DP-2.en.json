@@ -10,20 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Earlier that week, a girl in the lounge mended {WITCH_NAME}'s torn cuff and slipped an arm around her shoulders. Over the next few days, they worked on needlework together, and {WITCH_NAME} let the girl choose the thread.",
-          "Today, the girl returned their unfinished needlework to {WITCH_NAME} and told her to leave. Then she took up her sewing basket and began teaching another prisoner in {WITCH_NAME}'s place.",
-          "That evening, the girl apologized over tea and sat with her again. But {WITCH_NAME} had laced the tea they shared with a sleeping drug, leaving them both unconscious. While they slept, the garrote guided {WITCH_NAME}'s hands and strangled the girl.",
-          "Later that evening, the prisoners found the girl dead in the lounge and {WITCH_NAME} unresponsive, still gripping the garrote. It appeared that someone had drugged her and planted the weapon in her hands to frame her.",
-          "At the trial court, a prisoner examined a phone recording. Even as {WITCH_NAME} lay asleep, the cord in her hands was tightening. The moving cord showed that she had not been framed: the garrote had been controlling her as she slept."
+          "Every dusk, a prisoner who had once been a pitcher stood in the courtyard and threw fifty stones at the column in the middle of the fountain, where the spout rose, to keep her old pitching arm in shape. {WITCH_NAME} could not throw straight on her own, so she stood across the fountain and watched her. With her Magic she became the girl's reflection, winding up as she wound up and letting go as she let go.",
+          "One dusk the girl rubbed her worn-out shoulder and said tonight's fifty would be her last. \"Throw on your own tomorrow. The column will still be there.\"",
+          "{WITCH_NAME}'s father had played catch with her only on the evenings he came home. The last time, he handed her the ball and said, \"Throw it at the wall. The wall is always there.\" Then he went, and he never came back.",
+          "Before the last pitch, she set her feet just beside her own worn foothold, off the line to the column. The girl threw. Her reflection threw with her, and its stone flew past the column into the girl's temple.",
+          "From the upper railing, the prisoners heard one knock, the same as every evening, and saw the girl's head snap back before she fell. She lay still by the basin, a single stone beside her head.",
+          "In the trial court, the prisoners took it that her own stone had ricocheted off the column. The mirror's stone, after all, always met the column.",
+          "Then a prisoner found a fresh foothold on the path beside {WITCH_NAME}'s worn one, and nothing to match it on the girl's side. The prisoners understood: she had stepped aside so that the mirrored pitch would clear the column."
         ],
-        "epitaph": "Only at the end did she understand: being led was never the same as belonging.",
-        "epithet": "The Obedient Shadow",
+        "epitaph": "The only throw she ever made on her own was choosing where to stand.",
+        "epithet": "The reflection that never throws first",
         "execution": [
-          "A crank chair on the execution stand clamps cuffs around the witch's wrists. The chair guides her bound hands to its crank and makes them turn; each rotation tightens the collar around her neck. Even when her hands go limp, the chair keeps cranking until she slumps into silence."
+          "The execution stand raises a stone wall, and facing it, an iron pitching arm. She is chained upright against the wall. The arm winds up and pitches iron balls into her, one after another. Here at the wall, the throws have finally come to her. At last she hangs slack in the chains, and the final ball rolls to a stop at her feet."
         ],
         "magic": {
-          "name": "Let the Tools Lead",
-          "text": "Tools and instruments guide your body, letting you use them with expert skill."
+          "name": "Living Mirror",
+          "text": "She moves in perfect unison with anyone she watches, mirroring them with all their skill."
         }
       },
       "variant": 1

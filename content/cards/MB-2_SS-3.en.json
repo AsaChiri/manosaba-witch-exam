@@ -10,19 +10,22 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} kept music or a stream playing in her ears. She told one girl why: when it was quiet, she cried without knowing why and could not stop.",
-          "That girl arranged for everyone to fall silent when {WITCH_NAME} entered the dining hall. They watched her break down.",
-          "The girl returned from the courtyard through the west corridor last each evening. That night, {WITCH_NAME} tied a cord between the doorframes at the dark end, at throat height. As the girl entered, she sent a crowd of voices advancing from behind her. The girl ran into the darkness, hit the cord with her throat, and fell dead. The voices stopped at once.",
-          "Prisoners came with lamps toward the noise so many had heard. There was no crowd: only the body at the far end and {WITCH_NAME} already at the entrance. The sourceless voices had driven the girl straight into the cord. What she had counted on passing for a night's uproar now connected her magic to the trap."
+          "Music followed {WITCH_NAME} everywhere, pouring out of the empty air. There was one girl she hushed it for. Every night, that girl stood at the upper railing and recorded one minute of the courtyard fountain on her phone.",
+          "On Sundays, at the listening hour in the lounge, she played the week's recordings, hearing them for the first time along with everyone else. One Sunday she played a fountain minute, and under the splash was {WITCH_NAME}, humming a song. The band crashed in and drowned the lounge.",
+          "At ten, {WITCH_NAME} had made a song for her father and sung it only into her sister's phone. At his memorial, her sister played it for the whole room. She had not let a room go quiet since.",
+          "That night, in the second-floor hall, the girl asked for her minute as always, and {WITCH_NAME} came up as always. This time she refused. From the far end, by the library door, she turned the band up. The girl climbed onto the lower rail and leaned out over the courtyard to catch the fountain under the music. She slipped over as her phone clattered onto the hall floor. As she fell, the band broke into a crash, then silence.",
+          "{WITCH_NAME} went to the railing, sobbing into the quiet. The phone lay there, still recording her. She stamped it to pieces.",
+          "Down in the courtyard, the prisoners had heard the band pour over the railing as if it were right beside the girl, then a crash like a struggle, and the girl fell dead onto the path. They ran up and found {WITCH_NAME} alone at the railing, the phone smashed under her heel. In the trial court, they ruled that she had pushed the girl and smashed the recording.",
+          "No hand had touched the girl. She fell reaching on her own, and the one record that showed it was the phone {WITCH_NAME} broke."
         ],
-        "epitaph": "She could fill every silence except the one she left behind.",
-        "epithet": "The Quiet She Could Not Keep",
+        "epitaph": "The only sound that could have saved her was her own, in the quiet.",
+        "epithet": "The Girl Who Never Let a Room Go Quiet",
         "execution": [
-          "A curved iron shell closed around her, bound at its center. Its low hum was amplified and sent back toward her. Each cry and breath joined it; the sounds she made with magic returned louder still. The noise kept growing until she hung motionless inside the shell."
+          "In the trial court, the execution stand raises two great bronze cymbals on iron arms. She is chained upright between them. The cymbals clash on her from both sides, again and again, ringing out the crash her band made at the railing. Then they part and hang still. She hangs slack in the chains as the ringing fades to silence."
         ],
         "magic": {
-          "name": "the Static",
-          "text": "She can fill a place with sounds that have no source and move them at will."
+          "name": "Live from Nowhere",
+          "text": "She can fill any room she's in with the music in her head, as if an unseen band were playing."
         }
       },
       "variant": 1

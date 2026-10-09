@@ -1,0 +1,35 @@
+{
+  "cell": "ABN|Caretaker",
+  "copingSub": "CT-3",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Caretaker",
+  "tag": "ABN-6_CT-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "All winter, {WITCH_NAME} keeps a flame burning on the bare stone of the lounge fireplace with no wood beneath it, and every girl gathers to it each evening.",
+          "One prisoner gathers fallen branches under the courtyard trees each morning and dries them along the hearth. Each evening she builds a crackling twig fire beside {WITCH_NAME}'s flame, feeding it twig by twig, and each night she is the last girl to leave her side.",
+          "One evening, as the others leave for supper, the girl lays her biggest fire yet from a stack she dried to last until spring. \"You can let yours go out now,\" she says. \"You don't have to keep us warm anymore.\"",
+          "Long ago, {WITCH_NAME}'s mother lit the stove only on the nights she came home. After that, {WITCH_NAME} kept it burning every night so the house would be warm whenever her mother came. A fire kept burning is one they come back to.",
+          "{WITCH_NAME} picks up the thickest branch from the girl's stack and strikes her on the head as she kneels, blowing on the twigs. Then she lays fresh twigs on the dead girl's fire and tends it the way she tends her own, and it burns on, bright, above her.",
+          "She sits through supper in the dining hall, then showers among the other girls, never once out of their sight until the body is found.",
+          "After the evening showers, the prisoners find the girl dead on the hearth, her twig fire crackling bright on fresh twigs. She must have fed it only minutes before she was killed, they decide, and {WITCH_NAME} has been with them since supper.",
+          "But when one prisoner rakes the fire back from the dead girl's hair, the twigs beneath the flames are not even blackened. In the trial court, the prisoners understand: not one twig has burned since {WITCH_NAME} tended that fire. The girl died before supper."
+        ],
+        "epitaph": "She brought her own fire and still sat beside yours; she never came for the warmth.",
+        "epithet": "Keeper of the Fire They Come Back To",
+        "execution": [
+          "The execution stand raises the stove from her childhood, grown as big as a room. She lies chained across its cold grate behind the grille door. Flames rise through the grate around her, eating the fuel they are given, and the stove warms the spectators across the whole trial court, but only for as long as she lasts. Then it sinks to embers and goes cold, and the smoke from the stovepipe thins to nothing over a firebox of ash."
+        ],
+        "magic": {
+          "name": "Undying Hearth",
+          "text": "Any fire she lights or tends keeps burning without consuming its fuel."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "On earlier evenings in the lounge, {WITCH_NAME} used her Magic to make herself a child again. The girl cradled her on her lap and sang her a lullaby. Today, the girl recorded the lullaby on a phone and offered it as a substitute for keeping {WITCH_NAME} company at bedtime. {WITCH_NAME} stopped the playback and asked her to sing it again in person.",
-          "Even so, the girl accompanied her on a walk by the lake. Rather than let that company end, {WITCH_NAME} used her Magic to turn the girl into a toddler. She held the toddler's head beneath the water. While the girl lay unconscious beneath the water but was still alive, {WITCH_NAME} restored her to adolescence, then kept her submerged until she died.",
-          "The prisoners later found the girl's adolescent body face-down on the muddy bank and assumed she had fallen into the lake and drowned by accident. Then they uncovered palm tracks: continuous finger furrows ran from toddler-sized handprints into adolescent ones. The unbroken trail showed that {WITCH_NAME} had returned the girl to adolescence to make the drowning look like an accidental fall."
+          "Every morning her roommate ran laps of the courtyard with her hair tied back in {WITCH_NAME}'s ribbon, borrowed for the purpose. Every evening in their cell, {WITCH_NAME} used her Magic to replay their afternoons around her, with the roommate asleep again on the bunk above.",
+          "One lunchtime in the dining hall, the roommate untied the ribbon and handed it back. She had made her own for running.",
+          "Years before, {WITCH_NAME}'s older sister had given back everything she had ever borrowed, all in one evening. By morning she was gone. {WITCH_NAME} had known ever since: people give things back before they go.",
+          "During the afternoon hours in the cell, she pulled her sleeping roommate headfirst off the upper bunk onto the stone floor.",
+          "After the cells were unlocked, the prisoners asked her to replay the cell. She did, and told them it was this afternoon. Around them, she slept on in the lower bunk. Above her, the roommate rolled off in her sleep and lay still exactly where her body was lying now.",
+          "Then one prisoner saw the ribbon in the falling girl's hair. It was in {WITCH_NAME}'s own hair now. The prisoners realized they were watching an earlier afternoon, a day when the roommate had fallen and climbed back up into her bunk. This afternoon, only {WITCH_NAME}'s hands had been locked in with her."
         ],
-        "epitaph": "The voice returned at last; her companion never would.",
-        "epithet": "Mourner of Goodbyes Yet to Come",
+        "epitaph": "The ribbon came back to her, and she was the one who left.",
+        "epithet": "The One Who Hears Goodbye First",
         "execution": [
-          "The execution stand locks her lengthwise against a music-box drum. The drum turns, drawing her body across a steel comb. As it mangles her, the drum plays the girl's lullaby. When the last note fades, her body lies motionless against the drum."
+          "In the trial court, the execution stand raises an iron slab with her chained on her back across it. Beside it stands a file of iron girls. One by one they walk past, and each gives something back: an iron keepsake set on her chest, then another, until they lie piled there. The last iron girl lays an iron ribbon on top and walks away. She lies still beneath the pile. No one is left beside the slab."
         ],
         "magic": {
-          "name": "Age Shifting",
-          "text": "She can change any living thing to whatever biological age she chooses."
+          "name": "What the Walls Saw",
+          "text": "She can replay any past moment of the place she's standing in, all around her."
         }
       },
       "variant": 1

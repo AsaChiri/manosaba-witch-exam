@@ -10,19 +10,25 @@
     {
       "fields": {
         "crime": [
-          "That afternoon on the stairs, her friend told {WITCH_NAME} she wanted to spend less time together. “It's nothing,” she replied.",
-          "That evening they took their usual seats at the back of the recreation room for a film, apart from the other girls. Under the projector's noise, {WITCH_NAME} stabbed her friend beneath the ribs with a sharpened strip of metal, shrank the wound to a pinprick, and hid the blade in her sleeve.",
-          "When the lights came on, the girls walked past what looked like a sleeper. One returned to wake the friend and found her cold. With no obvious wound, they thought her heart had failed.",
-          "But beneath the jacket, a palm-sized bloodstain had dried around a tiny puncture. The wound had shrunk; the blood already spilled remained. The girls knew {WITCH_NAME}'s magic from the scrapes and burns she made small. She had been sitting beside her friend."
+          "{WITCH_NAME} lay in the medical room with her ankle in a splint. She had broken it a week before and still couldn't put her foot down.",
+          "Every evening, one girl brought a picture book down from the library, read it aloud to whoever was laid up, and carried it back upstairs. She was the only one {WITCH_NAME} had ever let stay.",
+          "One evening the girl checked the splint and said, \"The swelling's down. Soon you won't need me.\"",
+          "Once, an aunt had sat by {WITCH_NAME}'s bed through a week of fever. The morning it broke, she said, \"You're well now. You don't need me.\" By evening she was gone.",
+          "{WITCH_NAME} knew how it went: people stay only while you're hurt.",
+          "That evening, when the girl carried the book back up, {WITCH_NAME} turned the moment into a memory years old and stood on the broken ankle. The pain was already long ago and far away. She climbed the stairs after the girl, came up behind her at the picture-book shelf, and took her throat in both hands until she stopped moving.",
+          "After the body was found, the prisoners came down to the medical room with the news and found {WITCH_NAME} lying just as they had left her. In the trial court, they ruled her out: a girl who couldn't stand could never have climbed to the library.",
+          "Then one prisoner looked beneath the splint. The ankle was swollen black and crooked again, and {WITCH_NAME} had never made a sound. They understood then. She had felt nothing, and she had walked on it all the way to the library."
         ],
-        "epitaph": "She called each loss nothing, until nothing was all she had.",
-        "epithet": "The Girl Who Called It Nothing",
+        "epitaph": "The one time she went to someone instead of waiting, it was to make her a memory before she could leave.",
+        "epithet": "The Girl Afraid to Get Well",
         "execution": [
-          "A ring of needles surrounded her upright, bound body. Every minute the frame advanced, driving one needle a finger's depth into her before withdrawing it. She shrank each wound, but the damage it had already done remained. The needles continued, one by one, until she stopped moving."
+          "The execution stand raised an iron sickbed. Beside it sat an iron figure holding a picture book. She was strapped down on the bed, splinted ankle and all.",
+          "The figure read aloud to the last page, closed the book and rose from its chair. It drew the iron coverlet up over her face and leaned its whole weight on it until she stopped moving.",
+          "Then it let go and walked away from the bed. She lay still under the coverlet, beside the empty chair."
         ],
         "magic": {
-          "name": "Pinchsmall",
-          "text": "She can shrink any injury until it is barely visible."
+          "name": "Already Long Ago",
+          "text": "She can turn the moment she's living through into a memory from years ago."
         }
       },
       "variant": 1

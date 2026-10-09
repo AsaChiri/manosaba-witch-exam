@@ -10,18 +10,23 @@
     {
       "fields": {
         "crime": [
-          "For weeks, {WITCH_NAME} composed a lullaby for a girl in the lounge, signing the original score. The girl rehearsed it there, singing it only for her. Before the other prisoners, however, {WITCH_NAME} scorned lullabies as childish.",
-          "Then one afternoon, the girl stood at the upper railing and used her phone to post a performance for all the prisoners, naming herself as the sole composer. In the courtyard, {WITCH_NAME} demanded credit. The girl tore up the signed score, scattered the scraps from the railing, and leaned out over it. {WITCH_NAME}'s shoulder-length hair lashed out, tightened into a noose beneath the girl's collar, and hauled her over the railing to her death. Once the girl had fallen, the hair withdrew to {WITCH_NAME}'s shoulders.",
-          "The prisoners found the girl's body in the courtyard amid the scraps and assumed she had lost her balance while scattering them. But when one prisoner unfastened her collar, a braided ligature furrow showed across her throat, with hair snagged in the clasp. The mark and trapped strand gave away the trick: the tether had been {WITCH_NAME}'s own hair, retracted out of sight after the pull."
+          "Every dusk in the courtyard, {WITCH_NAME} raised her bare forearms, turned them to steel, and let a prisoner swing full cuts at them. The swordswoman was due to fight in a national tournament, and the ring of blade on steel carried across the courtyard to the lounge. When practice ended, she sat on alone against the tree until dark.",
+          "{WITCH_NAME} had grown up at her grandfather's anvil, judging steel by its ring. When he died, her mother sold the forge and all his blades. \"Nobody here wants to hear a girl talk about steel.\" She never spoke of steel again.",
+          "One dusk, she ran her thumb along the notches all those cuts had left near the tip of the sword, and for the first time she spoke of steel. \"My grandfather could have saved this edge.\"",
+          "The swordswoman laughed and raised the sword again. \"It's only for swinging. You just be my wall.\"",
+          "{WITCH_NAME} stepped inside the cut and pressed the girl's face against her steel shoulder. The sword fell. Fists beat uselessly on steel, and she held on until the girl stopped.",
+          "She left the body sitting against the tree where the swordswoman always rested. Then she took up the sword and struck her own forearm in the practice rhythm, and the familiar ringing went on until the hour practice always ended. Moments after the last ring, she walked into the lounge and sat among the prisoners until the body was found at dark.",
+          "In the trial court, the prisoners ruled that the swordswoman had been smothered where she sat, after {WITCH_NAME} came in: the ringing had run until moments before she walked through the door.",
+          "Then a prisoner found fresh, bright nicks on the blade a hand's width from the guard, where no full cut ever lands. The court understood. {WITCH_NAME} had struck her own steel arm to ring out a practice for a dead girl."
         ],
-        "epitaph": "In the end, she authored the one thing no one could dispute: silence.",
-        "epithet": "The Dreamer Armored in Anger",
+        "epitaph": "Every dusk, someone came to make her ring, and all she ever heard was \"wall.\"",
+        "epithet": "The Wall That Rang",
         "execution": [
-          "The execution stand locks her into a barber chair, a clamp pinning her chin. Steel shears open around her neck. Their blades snap shut and cross, severing her braids; her headless silhouette slumps into the chair."
+          "The execution stand raises her grandfather's forge, grown to giant size. Great tongs close around her waist and hold her above the hearth. They lay her into the coal bed as the bellows breathe it white. She hardens and beats at the tongs, and every blow rings out clear over the silent court. At last the ringing stops. The tongs hold her still in the dimming coals, and the bellows sigh to rest."
         ],
         "magic": {
-          "name": "Hair Unbound",
-          "text": "She can lengthen, shorten, and move her own hair like prehensile limbs."
+          "name": "Living Steel",
+          "text": "She can turn her body to living steel that no blade, blow or fall can hurt."
         }
       },
       "variant": 1

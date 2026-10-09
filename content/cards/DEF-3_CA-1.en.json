@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, the victim held out the torn sleeve she was wearing and asked {WITCH_NAME} to mend it. That day, {WITCH_NAME} confessed that the needle brought an unwanted image of herself stabbing the victim to mind. The victim pulled her arm away, asked another prisoner to take over the mending, and passed them the needle.",
-          "After that withdrawal, in the courtyard, she used her Magic to preview inviting the victim there to apologize. The miniature future showed a falling branch crushing the victim. During free time, she summoned the victim to the tree in the courtyard for an apology, bringing her to the outer edge of its canopy. A branch fell and crushed the victim. To the prisoners, it looked like an unforeseeable accident during an innocent attempt to apologize.",
-          "But in the trial court, a prisoner revealed that before the victim arrived—and before the first crack—{WITCH_NAME} had directed them to shelter against the trunk. The warning exposed the apology as a trap she had already foreseen: one prisoner was sheltered, while the victim was left exposed."
+          "Carrying her newborn brother down the stairs, {WITCH_NAME} pictured herself opening her arms. She sat down on the step and held him until her mother came. Her mother took him and never let her hold him again.",
+          "In the prison, a girl who couldn't sleep in her dark, locked cell napped every afternoon under the unwilting cherry tree in the library, her head in {WITCH_NAME}'s lap. Whenever the girl stirred, {WITCH_NAME} used her Magic to stop time and stood over her, staring at her own hands, sure that someone who had once pictured letting go would one day do it.",
+          "One afternoon at half past one, the girl drew {WITCH_NAME}'s palm down over her eyes. \"Every afternoon,\" she said, \"until they let us out.\"",
+          "{WITCH_NAME} didn't wait to find out what her hands would do. She slid her palm down over the girl's nose and mouth and pressed her face into her own skirt until she was still. At ten to two, she laid the girl on the bench as if asleep and joined the other girls at the pool table in the recreation room.",
+          "At twenty to three, as she lined up a shot beside them, the prisoners heard a body fall in the library. They found the girl dead on the floor below the bench, fingertip bruises along her jaw. The court ruled that she had been held down and had fallen at twenty to three, while {WITCH_NAME} stood at the pool table with them.",
+          "Then one prisoner turned the dead girl's face. The weave of {WITCH_NAME}'s skirt was still sharp on her cheek an hour after {WITCH_NAME} had stood up, a crease living skin would have lost. The girl had been dead in that lap since half past one. At twenty to three, {WITCH_NAME} had used her Magic to stop time at the pool table and left the body hanging upright in midair beside the bench, to drop the instant time ran again."
         ],
-        "epitaph": "Guilt came first. Her apology became the deed that could not be forgiven.",
-        "epithet": "Guilty Before the Deed",
+        "epitaph": "At nine, she held on. Her hands never did what she pictured until she stopped waiting to find out.",
+        "epithet": "The Girl Who Never Trusted Her Own Hands",
         "execution": [
-          "The execution stand is an embroidery frame that holds her arms and legs spread wide. A sewing needle drives through her torso, drawing black thread through her body. The thread then cinches her torso tighter and tighter until she hangs motionless in the frame."
+          "The execution stand raises a steep wooden staircase high above the trial court floor, its treads worn like the stairs of her childhood home. The stand swaddles her from ankles to chin in a vast white baby blanket, not a finger free, and lays her across the top step. The staircase tips her off, and she tumbles down, step after step. She watches each step come at her with her eyes open. Her arms are bound tight inside the blanket; this time she cannot sit down on a step and hold on. At the foot of the stairs, the white bundle comes to rest and lies still."
         ],
         "magic": {
-          "name": "Futures in Miniature",
-          "text": "She can watch the possible outcomes of a choice unfold as lifelike, moving scenes in miniature."
+          "name": "The Held Moment",
+          "text": "She stops time for everything but herself and walks alone through the held moment."
         }
       },
       "variant": 1

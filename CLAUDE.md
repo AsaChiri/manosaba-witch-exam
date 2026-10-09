@@ -13,7 +13,6 @@ packages/engine/       @manosaba/engine — deterministic 16-phase quiz scorer (
                        verified 200/200 vs the certified Python reference in the workspace)
 tools/compiler/        compile-content CLI: workspace markdown → content/ JSON
 content/               THE compiled content package (committed; reviewable diffs)
-  ship_list.json       ← the ship-readiness allowlist (see workflow below)
   meta.json            contentVersion drives localStorage invalidation
   quiz/                compiled structure/routing + authoritative locale strings
   cards/<TAG>.<loc>.json  card content, TAG = origin-sv_coping-sv (e.g. ED-1_PE-1)
@@ -45,13 +44,13 @@ npm -C tools/compiler run verify    # round-trip against certified scorer output
 ## Content update workflow (the whole maintenance loop)
 
 1. Author/repair cards and characters in the **workspace**. Maintain quiz wording directly in `content/quiz/strings.<locale>.json`.
-2. Owner reviews a card in zh-CN → move its tag from `pendingReview` to `shipped` in `content/ship_list.json`.
+2. The workspace card folder `output/cards/` IS the ship list: every `*.md` there (except its `README.md`) compiles. A card ships by being filed there; un-ship it by moving it out.
 3. `npm -C tools/compiler run compile` → review the `content/` git diff.
 4. `npm run build` (regenerates OG only for changed tags) → deploy `dist/`.
 
 The quiz's question/choice set and resolution rules are structurally locked, but `compile-content` still rebuilds its structural artifacts and all card-dependent routing. `output/build/phase2_composition/authoring_manifest.md` is the ultimate design source for THIN-cell routes. Only question/choice prose (`content/quiz/strings.*.json`) is excluded from compilation.
 
-Character records (design doc §3.7) ride the same loop: author `output/characters/<id>.md` in the workspace → the all-or-nothing `"characters": true` flag in `ship_list.json` gates compilation into `content/characters/<loc>.json`. Character edits do NOT bump `contentVersion` (they are excluded from its hash), so they never invalidate in-progress exams. A shipped character self-provides coverage: its tag makes its cell direct and its exact tag servable, even when that cell has no normal card. Two characters may share a cell; a character-only cell is never a redirect target. Shipping a normal card at a character's tag is optional.
+Character records (design doc §3.7) ride the same loop: author `output/characters/<id>.md` in the workspace → compiled all-or-nothing into `content/characters/<loc>.json` whenever that folder holds sources (empty/absent folder = feature off). Character edits do NOT bump `contentVersion` (they are excluded from its hash), so they never invalidate in-progress exams. A shipped character self-provides coverage: its tag makes its cell direct and its exact tag servable, even when that cell has no normal card. Two characters may share a cell; a character-only cell is never a redirect target. Shipping a normal card at a character's tag is optional.
 
 ## Env
 
@@ -60,7 +59,7 @@ Character records (design doc §3.7) ride the same loop: author `output/characte
 ## Soft-launch checklist (quiet public launch, ~1–2 weeks, no promo)
 
 - [ ] Phase-3 accuracy gate passed & validated bank compiled (quiz is DRAFT until then)
-- [ ] ship_list has the reviewed corpus; compile report coverage acceptable
+- [ ] workspace `output/cards/` holds only the reviewed corpus; compile report coverage acceptable
 - [ ] `PUBLIC_FEEDBACK_EMAIL` set to a provisioned alias; test the mailto on desktop+mobile
 - [ ] Domain chosen; `PUBLIC_SITE_URL` + share URLs verified; OG unfurls tested (X/Threads/Discord/QQ)
 - [ ] bilibili redirect shell (`tools/bilibili-shell/`) uploaded with the final domain baked in; `PUBLIC_SHARE_URL_ZH_CN` set; zh-CN copy-share link opens from a WeChat/QQ chat without a distrust interstitial and lands on the card (deploy-once: content releases never touch bilibili)

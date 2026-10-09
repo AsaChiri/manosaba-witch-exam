@@ -10,18 +10,23 @@
     {
       "fields": {
         "crime": [
-          "On their earlier walks through the courtyard, {WITCH_NAME} would pocket her beetle box with a reassuring smile. The girl kept joining her and confided how homesick she felt.",
-          "This morning, {WITCH_NAME} finally showed the girl the box's iridescent specimens. The girl shut it in disgust and ended their walks for good. Rather than accept the separation, {WITCH_NAME} softened the iron bars and squeezed through both barred cell doors, crossing the cell corridor from her own cell into the girl's. She drove a sword into the girl's chest, then placed the hilt in the dead girl's hand. Retracing her route to her own cell, she let the bars spring back once they no longer bore her weight.",
-          "At the midday unlock, the prisoners found the girl impaled through the chest. A guard had locked her alone in that cell that morning, so they first took the scene for suicide. Then one prisoner pushed the barred cell door's iron bars apart until the gap was wide enough for a body. The prisoners saw that the yielding barrier had been {WITCH_NAME}'s concealed way into the supposedly sealed cell, exposing the suicide as staged."
+          "When {WITCH_NAME} was a child, her classmates tipped her pencil case onto the classroom floor, and pebbles rolled out. \"Why would a girl carry rocks?\" The whole class laughed.",
+          "In the prison she walked the lake shore alone, choosing stones by their weight in her palm. Each one she kept, she touched and pictured as a bar of soap, and everyone saw soap.",
+          "Another prisoner, a girl with a sketchbook, went down to that shore an hour before sunset every evening to draw it, and at supper she always handed {WITCH_NAME} the page first. One evening in the dining hall, she passed round a new sunset. On the shore in the picture stood {WITCH_NAME}, holding a stone up to the light. \"The most beautiful thing I saw today,\" the artist said.",
+          "The other prisoners laughed and asked {WITCH_NAME} to show them her rocks. The artist promised to draw one of those stones for the table every night.",
+          "Before sunset, on the shore, {WITCH_NAME} chose a stone by its weight in her palm and struck the artist on the temple. Then she touched the sketchbook and pictured a finished sunset on its blank page, in the artist's own line. From before sunset until the search, she sat among the girls in the lounge.",
+          "The prisoners found the artist on the shore, her sketchbook open on a finished sunset, a pencil still in her fingers. In the trial court they reasoned she had been struck just after finishing it, while {WITCH_NAME} sat with them.",
+          "Then one prisoner pointed to the side of the dead girl's drawing hand. It was clean. Every evening it had come to supper grey.",
+          "She had died before sunset, they realized, over a blank page {WITCH_NAME} had dressed as a drawing."
         ],
-        "epitaph": "Even pinned in plain sight, she remained a stranger no one understood.",
-        "epithet": "The Agreeable Stranger",
+        "epitaph": "Once she stood in the light undisguised, and someone called her beautiful.",
+        "epithet": "Keeper of Stones Dressed as Soap",
         "execution": [
-          "The execution stand holds her arms and legs spread across a specimen board. A specimen pin drives through her chest and fixes her there. She struggles until all movement stops, the pin holding her motionless like one of her iridescent specimens."
+          "The execution stand raises an iron spindle beneath a great roll of plain grey paper, and she is bound upright to it. The spindle turns. The paper winds around her, layer over layer, climbing up across her face. When the spindle stops turning, all that is left is a smooth grey parcel that no longer stirs. An iron hand sets it on a shelf of identical grey parcels, and no one can tell which one is her."
         ],
         "magic": {
-          "name": "Looks Hard, Feels Soft",
-          "text": "She can make any hard, inanimate object as soft as a pillow without changing how it looks."
+          "name": "Masquerade",
+          "text": "Anything she touches can look, to everyone, like any other object she pictures."
         }
       },
       "variant": 1

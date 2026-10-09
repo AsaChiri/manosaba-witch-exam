@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Earlier, in the lounge, {WITCH_NAME} rested a hand on the girl's shoulder until her homesick tears faded into shared silence. Today, when the girl's tears returned, {WITCH_NAME} offered her a written list of remedies for homesickness. The girl handed the list back and asked {WITCH_NAME} to listen instead. Later, in the courtyard, the girl began to confide in her, but an interruption cut the conversation short. The girl then asked {WITCH_NAME} to leave her alone for a while.",
-          "From the upper railing, {WITCH_NAME} used her Magic to shorten the vertical distance to the courtyard below, drawing the girl within sword reach. She drove a sword into the girl's chest, fatally wounding her. Then she lengthened the distance back to normal, and the girl collapsed into the courtyard.",
-          "At the moment of the collapse, a prisoner in the courtyard saw {WITCH_NAME} high above at the upper railing. The prisoners assumed an attacker in the courtyard had stabbed the girl. One prisoner then remembered that, immediately before the scream, the girl had been standing on the courtyard ground. A prisoner also matched a still-wet bloody handprint on the upper railing to a cut in the girl's palm. Together, the witness's memory and the handprint revealed the trick: {WITCH_NAME}'s Magic had closed the gap long enough to bring the girl up to the railing, then reopened it so the stabbing seemed to have happened below."
+          "When {WITCH_NAME} was small, she threw the ball too hard once too often. After that, her classmates passed it around the circle, over her open hands, until the bell rang. \"When they stop throwing to you,\" she said, \"it's already decided.\" From that day on, she kept a stone hidden in her pocket.",
+          "In the mansion, one of the prisoners sat by the fountain in the courtyard every dusk and posted a bedtime question to the group chat, the kind she used to ask her sisters before they fell asleep. {WITCH_NAME} answered from the upper railing, always last, a beat late, after the chat had moved on.",
+          "One night after dusk, the girl at the fountain sent her a private message: \"You don't have to answer the bedtime questions. It's fine just to read.\"",
+          "{WITCH_NAME} looked down into the dark courtyard. The only light was the girl's face, lit by her screen as she waited for a reply. {WITCH_NAME} fixed her eyes on that lit temple and threw the stone. Like anything she threw, it flew to the spot her eyes held, and the light dropped from the girl's face.",
+          "The prisoners found the girl slumped on the rim of the fountain, a stone beside her, her phone dark in her lap. Afterward they stood at the upper railing after dusk and could not make out the fountain below. In the trial court, they ruled that a hand right beside her had struck the blow: from any farther off, no one could have seen her in that dark, not even {WITCH_NAME}.",
+          "Then one prisoner woke the dead girl's phone. It opened on her message to {WITCH_NAME}, the reply box still empty. The prisoners understood. The girl had sat there waiting with her screen lit, the one light the railing could see, and {WITCH_NAME} could hit anything she could see."
         ],
-        "epitaph": "The pause between them held one last chance to understand each other; the witch turned it into permanent silence.",
-        "epithet": "The Friend Beyond Reach",
+        "epitaph": "The only light she ever threw at was someone waiting for her answer.",
+        "epithet": "The Girl the Ball Went Around",
         "execution": [
-          "An iron chair on the execution stand cinches a harness around the witch's torso. Mechanical hands close over hers and spread her arms into an open embrace. Then they pull outward until her arms tear free. With an unbridgeable gap between her and her separated arms, the witch slumps into final stillness."
+          "The execution stand raises a ring of iron schoolgirls around a post. She is chained to the post, her hands bound open in front of her. The iron girls throw an iron ball around the ring, over her open hands, round and round, never to her. Then they turn inward and throw every iron ball to her, too hard, through her open hands and into her chest, one after another. She hangs still on the post, her hands still open above the iron balls heaped at her feet."
         ],
         "magic": {
-          "name": "Near and Far",
-          "text": "She can lengthen or shorten physical distances."
+          "name": "Dead Eye",
+          "text": "Anything she throws lands exactly where her eyes are fixed, curving around whatever is in the way."
         }
       },
       "variant": 1
