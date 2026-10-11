@@ -10,23 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Every evening, a girl played pool alone in the recreation room and talked the whole time to {WITCH_NAME}, who sat faded out of sight on the wall bench. {WITCH_NAME} never stayed for a goodbye. Before one could come, she slipped out unseen, and the door swung open by itself. Every time, the girl called goodbye after it.",
-          "That night, the girl reached the bench first. She found {WITCH_NAME}'s hand and said goodbye slowly.",
-          "For a week, {WITCH_NAME}'s mother had held her hand every morning and said goodbye just that slowly. On the eighth morning, her mother was gone.",
-          "{WITCH_NAME} opened the door and did not leave. She let it swing shut.",
-          "\"See you tomorrow!\" the girl called after it.",
-          "As the girl bent over the table to shoot, {WITCH_NAME} slammed her head into the pool table until she lay still.",
-          "Out in the second-floor hall, prisoners had heard that \"See you tomorrow.\" From then until the lockup call, they watched the door. No one came through it.",
-          "In the trial court, the prisoners ruled that she had slipped alone and struck her head on the pool table. But the prisoner who found her had sunk down onto the wall bench, and it was still warm. Then they understood: {WITCH_NAME} had sat there, faded, until they came in."
+          "Every evening, a girl played pool alone in the recreation room, talking the whole time to {WITCH_NAME}, who sat faded out of sight on the bench against the wall. {WITCH_NAME} never stayed for a goodbye. Before anyone could say one, she slipped out unseen, and the door swung open by itself. Every time, the girl called goodbye after the door.",
+          "Tonight, the girl reached the bench first. She took {WITCH_NAME}'s hand and said goodbye, slowly. {WITCH_NAME}'s mother had once held that hand and said goodbye just as slowly, every morning for a week. On the eighth morning, her mother was gone.",
+          "{WITCH_NAME} opened the door and let it swing shut, but stayed in the room. \"See you tomorrow!\" the girl called after it. As she bent over the table to take her shot, {WITCH_NAME} slammed her head into the pool table until the girl lay still.",
+          "Out in the second-floor hall, the prisoners heard \"See you tomorrow\" and watched the recreation room door until the lockup call. No one came out. In the trial court, they ruled that the girl had slipped while playing alone and struck her head on the pool table.",
+          "Then the prisoner who had found her remembered sinking onto the bench against the wall. It had still been warm. The prisoners understood at last: {WITCH_NAME} had sat there, faded out of sight, until they walked in."
         ],
-        "epitaph": "The one goodbye she stayed for only meant see you tomorrow.",
-        "epithet": "Gone Before Every Goodbye",
+        "epitaph": "The one time she stayed after a goodbye, it had only meant tomorrow.",
+        "epithet": "Gone before every goodbye",
         "execution": [
-          "The execution stand was an iron doorway in the trial court. She was chained upright inside it, one wrist to each jamb. The iron door swung shut on its own, into her head and chest. It fell back and swung shut again, and again, and again. At last it came to rest ajar against her slumped body, and could not close."
+          "In the trial court, an iron doorway stood on the execution stand. She was chained upright inside it, one wrist fastened to each side of the frame. The iron door swung shut on its own, into her head and chest. It swung open and shut again, and again, and again. When it finally came to rest, it hung ajar against her slumped body. It could not close."
         ],
         "magic": {
-          "name": "Into Thin Air",
-          "text": "She can fade from sight, clothes and all, while staying right where she is."
+          "name": "Fade Out",
+          "text": "She can fade out of sight, clothes and all, while staying right where she is."
         }
       },
       "variant": 1

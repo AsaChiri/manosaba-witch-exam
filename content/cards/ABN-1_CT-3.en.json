@@ -10,22 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Every night at lockup, {WITCH_NAME} walked the cell corridor with a single cup of warm milk. In her hands it became two cups, then more, until that one cup was enough to pass through every barred cell door.",
-          "For weeks, one girl kept her company at the upper railing each dusk. Yet the girl turned down every copy {WITCH_NAME} offered her, even of the sleeping drug she took each night. \"One is enough.\"",
+          "Each night at lockup, {WITCH_NAME} carried one cup of warm milk down the cell corridor, and from that single cup she passed a copy through every barred cell door.",
+          "For weeks, one girl kept her company at the upper railing each dusk, yet turned down every copy she was offered, even of the sleeping drug she took each night. \"One is enough,\" the girl said.",
           "One dusk, after the others had gone in, the girl put her nightly pill in {WITCH_NAME}'s palm. \"I slept without it. I won't need it anymore.\"",
-          "Long ago, when that palm was small, {WITCH_NAME}'s mother had put her own nightly pill back into it. \"I don't need it anymore.\" By morning, her mother was gone.",
-          "There at the railing, the one pill became a handful in {WITCH_NAME}'s palm, all alike. At lockup she dropped the handful into the last cup and passed it through the girl's barred door, as she did every night.",
-          "At unlock, the prisoners found the girl lying still in her bunk bed. Two pills sat whole at the bottom of her cup.",
-          "In the trial court, the prisoners ruled that she had swallowed pills she'd been saving. {WITCH_NAME}, they said, had never once held the girl's pill. Then one prisoner noticed that the two pills from the cup had the same chipped corner. The prisoners understood: pills alike down to the chip were copies of a single pill, so {WITCH_NAME} had held the girl's pill after all."
+          "Once, when {WITCH_NAME} was small, her mother had put her own nightly pill back into that palm. \"I don't need it anymore.\" By morning she was gone.",
+          "There at the railing, the one pill in her hand became a handful, every one alike. At lockup she dropped the handful into the last cup and passed it through the girl's barred door, as she did every night.",
+          "At unlock, the prisoners found the girl still in her bunk bed, with two pills left whole at the bottom of her cup. In the trial court they ruled that she had swallowed pills she had saved up herself. She had refused every copy; {WITCH_NAME} had never once held her pill.",
+          "Then one prisoner noticed that the two pills from her cup had the same chipped corner. The prisoners understood: pills alike down to the chip were {WITCH_NAME}'s copies. She had held the girl's pill after all."
         ],
-        "epitaph": "She never could give just one.",
+        "epitaph": "She never could give anyone just one.",
         "epithet": "The Hand That Must Be Needed",
         "execution": [
-          "The execution stand raised a giant iron cup. She sat chained at its bottom. An iron hand tipped an iron pitcher over the rim, and the milk poured on and never ran dry. It rose over her chest, her chin, her mouth. She strained upward against the chain. Then the milk lay still to the brim, and nothing rose through it."
+          "The execution stand raises a giant iron cup. She sits chained at its bottom. An iron hand tips an iron pitcher over the rim, and milk pours in, on and on, never running dry. It climbs over her chest, then her chin; she strains up against the chain as the milk closes over her mouth. Then the milk lies still to the brim, and nothing rises through it."
         ],
         "magic": {
-          "name": "One Into Many",
-          "text": "She can turn any nonliving thing she holds into several real, identical copies."
+          "name": "Enough to Go Around",
+          "text": "She turns any lifeless thing in her hands into several identical, real copies."
         }
       },
       "variant": 1

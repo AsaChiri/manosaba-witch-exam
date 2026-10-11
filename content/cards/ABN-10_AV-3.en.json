@@ -10,20 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Every dawn in the library, one of the prisoners taught herself to read aloud from picture books, and she let only {WITCH_NAME} listen. Before she began, she boiled the kettle on the lounge fire, carried the pot upstairs and poured {WITCH_NAME}'s cup plain. Then one dawn the girl handed over a cup with sugar stirred in. {WITCH_NAME} had taken it plain every dawn before.",
-          "Before the prison, {WITCH_NAME} kept putting off her Sunday visits to her grandmother. Next Sunday, she would say, because each time the old woman knew her a little less. On the last visit, her grandmother stirred sugar into her tea, no longer knowing whose cup it was. She never went back. As long as I stay away, she told herself, she still knows me.",
-          "The next dawn, as the girl read aloud, {WITCH_NAME} shot her with a crossbow mid-sentence. She lifted the teapot and set it back down, and under her Magic it stayed exactly as it was, still steaming. Then she went down to the dining hall and sat among the prisoners for the whole breakfast hour.",
-          "After breakfast, another prisoner found the girl slumped over her picture book beside the teapot, still steaming. The prisoners concluded she had been shot minutes after bringing up fresh tea, while {WITCH_NAME} sat at breakfast with them. As they laid the girl down, {WITCH_NAME} picked up the teapot to make room.",
-          "In the trial court, a prisoner remembered sitting by the lounge fireplace after breakfast. The ash had already gone cold. Then the prisoners understood: the tea had been boiled at dawn, and {WITCH_NAME}'s hand had kept it steaming."
+          "Every dawn in the library, a prisoner taught herself to read aloud from picture books, and she let only {WITCH_NAME} listen. She boiled the kettle on the lounge fire, carried the pot up, and poured {WITCH_NAME}'s cup plain. One dawn the girl handed her a cup with sugar stirred in. {WITCH_NAME} had taken it plain every morning.",
+          "Before the prison, she had kept putting off her Sunday visits; her grandmother knew her a little less each time. Next Sunday, she would say. On the last visit, her grandmother sugared her tea, no longer knowing whose cup it was. She never went back, telling herself that as long as she stayed away, her grandmother still knew her.",
+          "The next dawn, as the girl read aloud, {WITCH_NAME} shot her with a crossbow mid-sentence. She lifted the teapot and set it back down, freezing it in time with the tea still steaming. Then she went down to the dining hall and sat among the prisoners for the whole breakfast hour.",
+          "After breakfast, a prisoner found the girl slumped over her picture book beside a teapot that was still steaming. The prisoners concluded she had been shot minutes after bringing up fresh tea, while {WITCH_NAME} sat with them at breakfast. As they laid the girl down, {WITCH_NAME} picked up the teapot to make room.",
+          "In the trial court, a prisoner remembered sitting by the lounge fireplace after breakfast. The ash was already cold. Then the prisoners understood: the tea had been boiled at dawn, and {WITCH_NAME}'s hand had kept it steaming."
         ],
         "epitaph": "She could keep any cup from going cold, yet she let the hand that poured hers plain go cold.",
-        "epithet": "The Girl Who Stayed Away to Stay Remembered",
+        "epithet": "The Girl Who Stayed Away to Be Remembered",
         "execution": [
-          "In the trial court, the execution stand lowered her, bound, into an iron kettle set over a fire. The water came up to her chin, and the lid shut above her. The fire brought the water to a boil around her. The kettle began to whistle over a knocking from inside, and then the knocking stopped. The stand lifted the kettle off the fire and set it aside, and its steam thinned as it cooled."
+          "The execution stand lowers her, bound, into an iron kettle. The water rises to her chin, the lid shuts over her, and the kettle hangs above a fire. The fire brings the water to a boil around her. The kettle begins to whistle over a knocking from inside, and then the knocking stops. The stand lifts the kettle off the fire and sets it aside, and the steam thins as it cools."
         ],
         "magic": {
-          "name": "Still Life",
-          "text": "Whatever she sets aside stops in time until she picks it up again."
+          "name": "Just as I Left It",
+          "text": "Anything she sets aside is frozen in time until she picks it up again."
         }
       },
       "variant": 1

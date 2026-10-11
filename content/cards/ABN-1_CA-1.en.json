@@ -10,25 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every evening, {WITCH_NAME}'s friend sat in the chair by the lounge window mending the other girls' torn clothes, and {WITCH_NAME} sat beside her. At eight each night, when {WITCH_NAME} looked into the window to check tomorrow, her friend waved at the glass, and the girl in tomorrow's reflection waved back.",
-          "One evening at eight, {WITCH_NAME} showed the other prisoners the lounge as it would be at that hour tomorrow. In the window, her friend sat bowed over her mending beside an empty chair. {WITCH_NAME} watched for the wave. The hand in the glass never rose.",
-          "Her friend laughed. \"Stop checking tomorrow. I'm right here.\"",
-          "On his last evening, {WITCH_NAME}'s father had told her, \"Stop watching the door. I'm right here.\" By morning, his chair was empty.",
-          "The next evening, a little before eight, {WITCH_NAME} stood behind her friend's chair and strangled her until she slumped over her mending. Then she went upstairs to the recreation room and was sitting among the other girls when eight o'clock came.",
-          "At nine, a prisoner found {WITCH_NAME}'s friend dead in her chair.",
-          "At the trial, the prisoners ruled that she must have died after eight. Hadn't the window, a day ahead, shown her at her mending at eight o'clock? And at eight, {WITCH_NAME} had been sitting upstairs with them. Then one prisoner remembered the wave. At eight, in the glass, her hand had never risen. She had not been bowed over her mending; she had been slumped over it, dead before {WITCH_NAME} ever went upstairs."
+          "Every evening, a girl sat in the chair by the lounge window mending {WITCH_NAME}'s torn clothes, and {WITCH_NAME} sat beside her. At eight each night, {WITCH_NAME} looked into the dark window to see tomorrow's lounge, and the girl waved at the glass. In tomorrow's reflection, she always waved back.",
+          "One evening at eight, {WITCH_NAME} let the prisoners in the lounge look into the window with her. Tomorrow's lounge showed her friend bowed over her mending beside an empty chair. {WITCH_NAME} waited for the wave. In the glass, tomorrow's hand never rose.",
+          "The girl laughed. \"Stop checking tomorrow. I'm right here.\"",
+          "On his last evening, {WITCH_NAME}'s father had told her, \"Stop watching the door. I'm right here.\" By morning his chair was empty.",
+          "The next evening, before eight, {WITCH_NAME} stood behind the girl's chair, closed her hands around the girl's throat, and held on until the girl slumped over her mending. Then she went up to the recreation room and sat down among the other girls.",
+          "At nine, a prisoner found the girl dead in her chair. In the trial court, the prisoners ruled that she had died after eight: they had seen her in the window, bowed over her mending at eight, and at eight {WITCH_NAME} had been sitting upstairs with them. Then one prisoner remembered the wave. The night before, when they had all looked into tomorrow's window together, the girl in the glass had never raised her hand at eight. She was already dead before {WITCH_NAME} went upstairs."
         ],
-        "epitaph": "Her friend stayed right here, just as she promised.",
+        "epitaph": "The girl by the window stayed right here, just as she promised.",
         "epithet": "The Girl Who Checks Tomorrow for Empty Chairs",
         "execution": [
-          "In the trial court, the execution stand straps her flat on her back. Above her hangs an iron-backed mirror, face down.",
-          "The mirror begins to lower, and she watches her own face come down to meet her.",
-          "It settles on her chest and bears down.",
-          "At last the mirror lies flat on her, her hands still at its edges."
+          "In the trial court, the execution stand straps her on her back beneath an iron-backed mirror hung face down above her. She watches her own face come down to meet her. The mirror settles on her chest and bears down. In the end it lies flat on her, her hands still at its edges."
         ],
         "magic": {
-          "name": "Tomorrow's Glass",
-          "text": "She can look into a mirror or window and see the same place as it will be tomorrow."
+          "name": "Tomorrow in the Glass",
+          "text": "Any mirror or window she looks into shows its room as it will be tomorrow."
         }
       },
       "variant": 1

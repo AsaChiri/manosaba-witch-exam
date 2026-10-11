@@ -10,23 +10,20 @@
     {
       "fields": {
         "crime": [
-          "When {WITCH_NAME} was six, her mother pulled her by the hand into the waves. She came out coughing and crying, and her mother said, \"See? You loved it.\"",
-          "In the prison, another girl took her by the hand every evening after supper and dragged her sliding across the frozen lake. Then the thaw came. The middle of the lake turned grey, and only the ice along the far bank still held. That evening the other girl pulled her round the last of it, laughing, while {WITCH_NAME}'s hand shook in her grip. \"See? You loved it.\"",
-          "The next evening, after dark, {WITCH_NAME} sat in the lounge and, for the first time, called for her. She said nothing; she only wished for her, across the grey middle of the lake. Out in the dark, the other girl felt the tug on her hand and ran toward it, laughing. In the middle of the lake, the ice gave way.",
-          "All evening, until lockup, the prisoners saw {WITCH_NAME} sitting still on the sofa by the fire. She never got up and never said a word. At the trial, the prisoners concluded that the other girl had lost her way back in the dark and strayed onto rotten ice.",
-          "Then one prisoner went down to the lake and sighted along the dead girl's footprints. They ran in a straight line across the grey middle, aimed at the lounge. In the trial court, that prisoner understood: the girl hadn't been lost on her way back. She had run straight for the sofa, drawn by {WITCH_NAME}'s call."
+          "When {WITCH_NAME} was six, her mother pulled her by the hand into the waves. She came out coughing and crying, and her mother smiled. \"See? You loved it.\"",
+          "In the mansion, another prisoner took her hand every evening after supper and dragged her out to slide on the frozen lake. Then the thaw turned the middle of the lake grey, and only the ice by the far bank still held. The girl pulled her round that last stretch, laughing, then looked down at the hand shaking in hers. \"See? You loved it.\"",
+          "The next evening, after dark, {WITCH_NAME} sat on the lounge sofa and, for the first time, silently called her, straight across the grey middle. Out on the lake, the girl felt an unseen hand tug at hers and ran toward it, laughing. The ice gave way beneath her.",
+          "The other prisoners had watched {WITCH_NAME} sit still on the sofa by the fire all evening until lockup. She never got up and never said a word. In the trial court, they agreed the girl had strayed onto rotten ice in the dark.",
+          "But one prisoner had stood at the lake and sighted along the dead girl's footprints. They ran in a straight line over the grey middle, pointing at the lounge. She hadn't lost her way coming home. She had run to the sofa, because the girl sitting on it had called her."
         ],
-        "epitaph": "When it was finally her hand doing the pulling, she didn't ask either.",
+        "epitaph": "And when at last she was the one leading, she never asked either.",
         "epithet": "The Girl Led by the Hand",
         "execution": [
-          "The execution stand raises a smiling iron mother. She is chained upright, facing it, and its iron hand is holding hers.",
-          "The iron mother presses a smiling porcelain mask over her face. \"See? You love it.\"",
-          "She tugs at the iron fingers, again and again, calling in silence. No one answers.",
-          "Her fingers go slack in the iron hand. The painted smile does not change."
+          "The execution stand raises a steep slope of ice from the trial-court floor to the gallery. At the top, her hand is set wrist-deep in a block of ice. The block begins to slide, dragging her down the slope by the hand, head first, into the wall of ice at the bottom. She never cries out; her eyes stay on the spectators the whole way down. At the foot of the slope she lies still, her hand still held in the ice."
         ],
         "magic": {
-          "name": "The Beckoning Hand",
-          "text": "When she silently calls someone, an invisible tug on their hand leads them to her."
+          "name": "A Tug on the Hand",
+          "text": "She silently calls someone, and an invisible hand tugs theirs, leading them to her."
         }
       },
       "variant": 1
