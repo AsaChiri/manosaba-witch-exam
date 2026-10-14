@@ -10,18 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every evening in the lounge, one girl braided every prisoner's hair in turn, the way she had braided her little sister's every night at home. Every time, she held the brush out to {WITCH_NAME} too. \"Don't come near me,\" {WITCH_NAME} snapped, and turned away.",
-          "Whenever it rained, {WITCH_NAME} stood alone among the trees at the far end of the courtyard. Her Magic halted the rain in midair above her, and she came back in dry.",
-          "At dusk, before the rain, the girl came out with her brush and sat down as close as {WITCH_NAME}'s Magic would let anyone come. \"Everyone's braided mine but you.\" As the first drops fell, {WITCH_NAME} let her in, the first person she had ever let that near. The girl laid her long braid in {WITCH_NAME}'s hands and shut her eyes. \"I'm not scared of you.\"",
-          "At twelve, brushing her mother's hair at the dressing table, {WITCH_NAME} had pictured winding it around her mother's throat. She told her mother. By morning, her mother had cut {WITCH_NAME}'s hair off and locked the door between them.",
-          "In the rain, {WITCH_NAME} wound the braid around the girl's throat and pulled until the girl was still.",
-          "As the rain stopped, the prisoners saw {WITCH_NAME} walk into the lounge dry. She sat among them until the body was found. Forty minutes after the rain, they found the girl dead in the courtyard grass, her hair and clothes dry. In the trial court, they concluded she had gone out after the rain, while {WITCH_NAME} sat with them.",
-          "Then the prisoner who had lifted the body spoke up: the grass beneath her had been dry, though the whole courtyard was soaked. The girl had lain there through the entire downpour, under rain that {WITCH_NAME}'s Magic held off."
+          "Every evening in the lounge, one girl braided the hair of every girl there, the way she had braided her little sisters' hair every night at home. Each time, she held the brush out to {WITCH_NAME}. Each time, {WITCH_NAME} snapped, \"Don't come near me,\" and turned away.",
+          "Whenever it rained, {WITCH_NAME} stood alone among the trees at the far end of the courtyard. Her Magic stopped the rain above her, and she came back inside dry.",
+          "One evening at dusk, before the rain, the girl came out with her brush and sat down at the edge of the space {WITCH_NAME} kept around herself. \"Everyone's braided mine but you,\" she said.",
+          "As the rain began, {WITCH_NAME} let her inside that edge. No one had ever been let so near. The girl laid her long braid in {WITCH_NAME}'s hands and shut her eyes. \"I'm not scared of you.\"",
+          "At twelve, brushing her mother's long hair at the dressing table, {WITCH_NAME} had pictured winding it round her mother's throat. She told her mother. By morning, her mother had cut off her own hair and locked herself in her room.",
+          "In the rain, {WITCH_NAME} wound the braid round the girl's throat and pulled until the girl was still.",
+          "As the rain stopped, the prisoners saw {WITCH_NAME} walk into the lounge, dry. She sat among them until the body was found. Forty minutes after the rain, they found the girl dead in the courtyard grass, her hair and clothes dry.",
+          "In the trial court, the prisoners concluded that the girl had gone out after the rain, while {WITCH_NAME} sat with them. But the prisoner who lifted the body had found the grass beneath it dry, though the whole courtyard was soaked. Then they understood. The girl had been lying there the whole time it rained, and {WITCH_NAME}'s Magic had kept every drop off her."
         ],
-        "epitaph": "She held off the rain, her own hands and everyone else, but never once the picture.",
-        "epithet": "The Girl Who Kept Everyone Out of Her Own Reach",
+        "epitaph": "She held back the rain, every hand, everyone. Never once the picture.",
+        "epithet": "The Girl Who Kept Everyone Out of Reach of Her Own Hands",
         "execution": [
-          "The execution stand raises her mother's dressing table, as tall as the trial court. She sits chained before its mirror. A pair of open shears hangs at her neck, one blade on either side. The shears close and crop her hair at the jaw, just as her mother cut it. They keep closing, until the blades meet at her throat. She hangs still between the closed blades, her shorn head bowed in the glass."
+          "The execution stand raised a dressing table as tall as the trial court. She sat chained before its mirror. A pair of shears hung open at her neck, one blade on either side.",
+          "The shears closed and cropped her hair at the jaw. They kept closing until the blades met at her throat.",
+          "She hung still between the closed blades, her shorn head bowed in the glass."
         ],
         "magic": {
           "name": "Arm's Length",

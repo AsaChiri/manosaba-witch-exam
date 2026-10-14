@@ -1,0 +1,32 @@
+{
+  "cell": "DEF|Detacher",
+  "copingSub": "DT-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Detacher",
+  "tag": "DEF-3_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} was seven, she was picturing a push when her grandmother turned at the top of the stairs and saw it on her face. From then on, her grandmother always sent her down the stairs first. \"If it shows on my face,\" {WITCH_NAME} says, \"it's what I am.\" Now, whenever the pictures come, she uses her Magic to lift her sight out of her eyes and watch her own face from across the room.",
+          "Every evening, another girl sits on the iron upper railing with her legs over the courtyard and her cup set behind her, calling down to the girls at the fountain, because up there the walls feel far away. {WITCH_NAME} is the only one she lets stand at her back. One evening the girl turns, sees {WITCH_NAME}'s face, swings her legs back in and pats the rail beside her. \"Not behind me. Sit where I can see you.\"",
+          "The next evening, {WITCH_NAME} comes up behind the girl and kneels at the bars. She sends her sight down to the fountain and watches herself until she fits inside the girl's outline against the lamps. Then she pushes the girl off the rail into the courtyard.",
+          "At the fountain, the prisoners watch the girl pitch forward alone against the lamps and fall dead onto the stones. In the trial court, they rule that she fell by herself; everyone at the fountain saw that no one touched her.",
+          "Then a prisoner points out her cup. Before anyone reached the rail, it already lay tipped over behind where she had sat, its tea run back toward the hall. The prisoners realize that someone knelt at her back, inside her outline, and that only a girl who watches herself from the fountain could have known she was hidden."
+        ],
+        "epitaph": "\"Sit where I can see you\" was never the stairs. It was a place at her side.",
+        "epithet": "The spectator of her own face",
+        "execution": [
+          "In the trial court, the execution stand raises an after-supper teacup grown as tall as the room. She kneels on its floor in chains, head bowed. A giant teapot tilts over the rim and pours. The tea rises dark and still, bringing her own face up toward her eyes, close enough to look at from inside them. It closes over her bowed head. The cup stands full to the brim and still, only the lamps on its surface."
+        ],
+        "magic": {
+          "name": "Audience of One",
+          "text": "She can lift her sight out of her eyes to any spot around her and watch herself as she moves."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

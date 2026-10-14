@@ -10,23 +10,22 @@
     {
       "fields": {
         "crime": [
-          "All winter, {WITCH_NAME} keeps a flame burning on the bare stone of the lounge fireplace with no wood beneath it, and every girl gathers to it each evening.",
-          "One prisoner gathers fallen branches under the courtyard trees each morning and dries them along the hearth. Each evening she builds a crackling twig fire beside {WITCH_NAME}'s flame, feeding it twig by twig, and each night she is the last girl to leave her side.",
-          "One evening, as the others leave for supper, the girl lays her biggest fire yet from a stack she dried to last until spring. \"You can let yours go out now,\" she says. \"You don't have to keep us warm anymore.\"",
-          "Long ago, {WITCH_NAME}'s mother lit the stove only on the nights she came home. After that, {WITCH_NAME} kept it burning every night so the house would be warm whenever her mother came. A fire kept burning is one they come back to.",
-          "{WITCH_NAME} picks up the thickest branch from the girl's stack and strikes her on the head as she kneels, blowing on the twigs. Then she lays fresh twigs on the dead girl's fire and tends it the way she tends her own, and it burns on, bright, above her.",
-          "She sits through supper in the dining hall, then showers among the other girls, never once out of their sight until the body is found.",
-          "After the evening showers, the prisoners find the girl dead on the hearth, her twig fire crackling bright on fresh twigs. She must have fed it only minutes before she was killed, they decide, and {WITCH_NAME} has been with them since supper.",
-          "But when one prisoner rakes the fire back from the dead girl's hair, the twigs beneath the flames are not even blackened. In the trial court, the prisoners understand: not one twig has burned since {WITCH_NAME} tended that fire. The girl died before supper."
+          "All winter, {WITCH_NAME} kept the fire in the lounge fireplace burning on the same logs, and every cold evening she warmed a blanket at it. One girl read beside that fire each night under the warm blanket, by a tallow candle of her own that she let burn down to its brass ring.",
+          "On the first warm evening, in the dining hall, the girl picked up her candle to take it to the library. {WITCH_NAME} offered her one of her own, one that would never burn down. \"It's warm enough tonight,\" the girl said. \"I like mine to burn down.\"",
+          "{WITCH_NAME}'s mother had only ever come home in the cold months, and on the first warm morning she walked out past the stove her daughter had kept burning all night. People, {WITCH_NAME} learned, stay as long as the fire.",
+          "Just before eight, she carried the warmed blanket up to the library, where the girl sat reading at her desk by her candle. She pressed the blanket over the girl's face from behind until the girl was still. Then she pinched the wick straight. The candle had burned a quarter hour down from the top; she left it lit, and from then on it burned without getting any shorter.",
+          "From eight until half past nine, she sat with the girls at the lounge fire.",
+          "At half past nine, a prisoner going up for a book found the girl dead at her desk, the candle still burning a quarter hour down from the top. The prisoners reckoned she had lit it at a quarter past nine and died after that, while {WITCH_NAME} sat with them the whole time.",
+          "But after an hour of working by its light, one prisoner looked at the candle again. It was still a quarter hour down from the top. In the trial court, the prisoners understood: the girl's candle was burning like {WITCH_NAME}'s fire. It had stopped getting shorter when she pinched the wick, before eight."
         ],
-        "epitaph": "She brought her own fire and still sat beside yours; she never came for the warmth.",
-        "epithet": "Keeper of the Fire They Come Back To",
+        "epitaph": "The girl would have come back to the fire with the first frost.",
+        "epithet": "Keeper of the Fire for Whoever Might Come Back",
         "execution": [
-          "The execution stand raises the stove from her childhood, grown as big as a room. She lies chained across its cold grate behind the grille door. Flames rise through the grate around her, eating the fuel they are given, and the stove warms the spectators across the whole trial court, but only for as long as she lasts. Then it sinks to embers and goes cold, and the smoke from the stovepipe thins to nothing over a firebox of ash."
+          "The execution stand raises a tallow candle as tall as the trial court, set in a brass ring. She is set into the wax at its foot, her back to the shaft. Far above her, the candle burns down, and hot tallow runs down the shaft onto her head and shoulders. The flame comes down to her. The tallow coating her catches, and the fire spreads over her. The candle burns down to its brass ring and goes out on its own, leaving a thread of smoke above her still head."
         ],
         "magic": {
-          "name": "Undying Hearth",
-          "text": "Any fire she lights or tends keeps burning without consuming its fuel."
+          "name": "Undying Flame",
+          "text": "Any fire she lights or tends burns on without ever using up its fuel."
         }
       },
       "variant": 1

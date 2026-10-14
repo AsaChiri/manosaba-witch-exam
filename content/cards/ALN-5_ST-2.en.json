@@ -10,24 +10,23 @@
     {
       "fields": {
         "crime": [
-          "The morning after {WITCH_NAME} told her father she had been watching the sparrow chicks inside the wall by her bed, he broke the wall open and swept them out.",
-          "In the prison, her roommate saved crumbs from breakfast and scattered them from the upper railing for the courtyard birds every dusk. One night in their cell, {WITCH_NAME} whispered to her about the starling chicks she watched inside the trunk of a tree. It was the first time she had told anyone since that morning.",
-          "The next day her roommate told the whole dining hall. \"Come tomorrow, and she'll tell us what every chick is doing.\"",
-          "At dusk, before the rain, her roommate leaned out over the railing with her crumbs. \"Everyone's coming in the morning,\" she said. {WITCH_NAME} heaved her over the railing.",
-          "That evening, during free time, the prisoners in the lounge heard the rain begin. {WITCH_NAME} was already sitting among them. She had found every girl's lost things inside closed bags and drawers without opening them, and she had never once been wrong. Now she looked through the wall and told them her roommate was standing under the tree, out of the rain, looking up at the hollow.",
-          "In the trial court, the prisoners ruled that someone had thrown her roommate from the railing after {WITCH_NAME} saw her alive. It could not have been the girl who was sitting right there with them. Then one prisoner showed the photo she had taken on her phone when they lifted the body: a dry, girl-shaped patch of stone on the soaked path. The court understood. The roommate had been lying there before the first drop fell, and {WITCH_NAME} had described a living girl to hide her own shove."
+          "Every evening, a girl climbed into the crook of the courtyard tree and called \"Good evening!\" down to {WITCH_NAME}, who sat at its foot. {WITCH_NAME} could see through the trunk as if it were clear glass. In the hollow, a pair of starlings fed their chicks; she watched them every evening and told no one.",
+          "At dinner in the dining hall, the girl told the whole table that tomorrow she would bring the chicks down for everyone to hold. \"{WITCH_NAME} will want to see them up close,\" she added.",
+          "{WITCH_NAME} remembered the swifts in her school wall. She had told her lunch table about them, and they were pulled out on a broom handle and passed from hand to hand until they stopped moving.",
+          "At twenty past seven, the girl climbed into the tree. {WITCH_NAME} climbed after her, caught her by the ankle and pulled her off the branch. The girl fell headfirst onto the stones of the path.",
+          "Whenever a prisoner went missing, the others came to {WITCH_NAME}. She would look through the walls and name the spot, and whoever was missing was always right where she said.",
+          "At twenty to eight, in the lounge, {WITCH_NAME} looked at the courtyard wall and told them the girl was sitting up by the hollow, against the trunk, out of the rain.",
+          "At nine, the prisoners went out with their phone lights and found the girl dead at the foot of the tree. She seemed to have slipped from the wet branch while {WITCH_NAME} sat with them.",
+          "One of them lifted her. The stones beneath her were dry, while all around they were dark with rain. She had been lying there since before the rain began, and the prisoners realized that {WITCH_NAME} had already seen her dead when she said the girl was sitting in the tree."
         ],
-        "epitaph": "The girl who told her secret was the first who ever wanted to watch beside her.",
-        "epithet": "Keeper of the Unspoken Nest",
+        "epitaph": "She never learned that the one hand that ever reached for what she loved was reaching to share it.",
+        "epithet": "Keeper of the Nest No One Is Shown",
         "execution": [
-          "The execution stand raises a thick brick wall with a hollow inside. She is chained upright in the hollow and bricked in.",
-          "On the far side of the bricks, an iron father lifts a sledgehammer. Through the wall, she watches every swing come.",
-          "Blow by blow, he breaks the wall open, until the hammer falls through the last bricks onto her.",
-          "Then he sweeps her out with the broken bricks, and she lies still on the court floor among the rubble."
+          "In the trial court, the execution stand raises a great tree trunk, split lengthwise and hanging open on its hinge. She lies bound in a straw nest in the hollow of one half. Slowly the halves swing shut, the solid half pressing her down into the hollow. Through the closing wood she watches the spectators outside, every face clear as glass, as the seam narrows. Then the trunk stands shut, straw caught in the seam, and nothing stirs inside."
         ],
         "magic": {
-          "name": "Glass Walls",
-          "text": "She can see through walls, doors and other solid things as if they were clear glass."
+          "name": "Clear as Glass",
+          "text": "She can look straight through walls, doors and anything solid, as if they were clear glass."
         }
       },
       "variant": 1

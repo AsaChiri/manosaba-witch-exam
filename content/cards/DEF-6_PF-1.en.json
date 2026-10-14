@@ -1,0 +1,36 @@
+{
+  "cell": "DEF|Perfectionist",
+  "copingSub": "PF-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Perfectionist",
+  "tag": "DEF-6_PF-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "After every recital, her father told her one note had been wrong. He never said which. She would play the piece until dawn, and in the end she decided the wrong note was her.",
+          "Every evening, straight after supper, the girl who sat across from {WITCH_NAME} at the table went up to the library, wrote one numbered line about one of the girls, and posted it into her iron money box. She never missed a day. The box had rusted shut; she would break it open and read every line aloud the day they were freed.",
+          "One evening in the dining hall she laughed. \"Tonight's line is yours. There's something about you I can't put my finger on.\" Then she went up to the library with her pen.",
+          "From supper until half past seven, {WITCH_NAME} sat among the girls in the lounge, opening a girl's stopped wristwatch into petals and folding it shut, again and again. At half past seven she went up to the library, opened the money box the same way, and read that night's slip: \"Something in her is off, and I can't find where.\"",
+          "She struck the writer in the temple with the iron box, again and again, until the girl lay still. Then she opened the box once more and lifted out that night's slip. She folded the box shut again, whole as before, so no one would ever read that line aloud.",
+          "In the trial court, she opened the box so it wouldn't have to be broken: eighty-seven numbered slips, the last from yesterday. From that, the prisoners concluded the girl had died before posting that night's line, soon after supper, while {WITCH_NAME} sat in the lounge.",
+          "Then a prisoner found a fingertip smear of blood on yesterday's slip, inside a box rusted shut. Now the prisoners understood: the box had been opened after the girl bled, to lift out a line already posted, and only {WITCH_NAME}'s Magic could open it."
+        ],
+        "epitaph": "At last there was a wrong in her that anyone could point to.",
+        "epithet": "Listening for the Wrong Note No One Will Name",
+        "execution": [
+          "The execution stand raised the lid of a giant grand piano. She lay bound beneath its strings, one string drawn across her throat.",
+          "A tuning hammer turned that string's pin a notch at a time, and after every turn its single note was struck. Notch by notch, the string drew taut and down into her throat.",
+          "At last the string rang true. She lay still beneath the strings."
+        ],
+        "magic": {
+          "name": "Seamless Bloom",
+          "text": "Anything she touches unfolds like petals to bare every layer inside, then folds shut without a seam."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

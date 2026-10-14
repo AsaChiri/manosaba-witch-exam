@@ -33,6 +33,29 @@
         }
       },
       "variant": 1
+    },
+    {
+      "fields": {
+        "crime": [
+          "Every evening, one girl floated on her back out on the lake until dusk, and she asked {WITCH_NAME} to come along and keep her shoes on the shore. Back home she had floated on the river whenever her head got too loud. While she floated, she never answered anyone.",
+          "One night in the dining hall, she told the whole table, \"From tomorrow, she's going to hold my head while I float. She won't let go.\" {WITCH_NAME} smiled and said, \"Of course.\"",
+          "The next evening, as free time began, {WITCH_NAME} knelt at the water's edge. The girl lay back in the shallows, laid her head in {WITCH_NAME}'s hands and closed her eyes. \"Don't let go.\"",
+          "When {WITCH_NAME} was ten, bathing her baby brother, she had pictured pushing his head under. She lifted him out into a white towel, and she had kept her hands out of water ever since.",
+          "Now she pressed the girl down by the shoulders and held her under until she was still. With her Magic she turned the soaked dress into buoyant foam that still looked like wet cloth, then pushed the girl out face up onto the open water.",
+          "Between half past five and half past six, the prisoners came down to the shore and saw her floating out on the lake as she did every evening, with {WITCH_NAME} on the shore keeping her shoes. {WITCH_NAME} walked up to dinner with them. At dusk they found the girl drowned in the shallows, with hand marks on her shoulders.",
+          "In the trial court, everyone agreed that someone had held her under after half past six, while {WITCH_NAME} sat at dinner with them. Then a prisoner touched the hem of the dress, which still looked soaked. Her palm came away dry, and the cloth sprang back like foam. The dress had been made into a float while it was wet. The girl had been dead before they ever reached the shore, and only {WITCH_NAME} had been beside her."
+        ],
+        "epitaph": "That picture never had to come true. It did because she kept it hidden.",
+        "epithet": "The gentle big sister, afraid of her own hands",
+        "execution": [
+          "The execution stand raises a child's bathtub, grown to her size. She lies strapped on her back inside it, dry. A white bath towel drops and settles over her, soft and fluffy. Then it turns to marble. It still looks soft, but its weight presses down on her chest. Her fingers push at the hem and go still. The towel lies over the tub, white and soft-looking."
+        ],
+        "magic": {
+          "name": "Skin Deep",
+          "text": "She can change what any object is made of, while it keeps looking exactly the same."
+        }
+      },
+      "variant": 2
     }
   ]
 }

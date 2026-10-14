@@ -1,0 +1,38 @@
+{
+  "cell": "ED|Avoider",
+  "copingSub": "AV-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Avoider",
+  "tag": "ED-4_AV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} ran in crying that her rabbit was dead, her mother held her and counted to ten. \"All better now. What's for supper?\" When they count, she learned, they are waiting for you to stop.",
+          "One girl hugged every prisoner for ten seconds, by her grandmother's rule. {WITCH_NAME} climbed out of reach of every hug on silk spun from her fingertips. So each night by the courtyard fountain, the girl hugged the cocoon {WITCH_NAME} slept in, counted to ten, then told it all about her day.",
+          "One evening at twenty past seven, {WITCH_NAME} came down for once. \"When my rabbit died—\" The girl hugged her, counting to ten over her words. \"Ten. All better.\"",
+          "At half past seven {WITCH_NAME} climbed straight back to her branch by the fountain and spun herself into her cocoon as girls on the paths watched it close. At a quarter past eight, prisoners at the upper railing saw the girl hug the cocoon and tie her hair ribbon round it. \"So you know I came.\"",
+          "At twenty past eight, as the girl sat on the fountain rim, {WITCH_NAME} tore out of the cocoon behind her and held her face under the water, counting to ten, then past ten, until she was still.",
+          "At a quarter to nine, prisoners found the girl face down in the fountain, the cocoon whole on the branch above. At their screams, {WITCH_NAME} tore out of its front.",
+          "In the trial court, the prisoners concluded someone drowned the girl while {WITCH_NAME} slept sealed inside. If she had left the cocoon earlier, another torn one would have turned up. None had.",
+          "But one prisoner had looked into the torn cocoon from the fountain rim. Crumpled inside lay a second torn cocoon, the ribbon still round it. {WITCH_NAME} had spun herself a new one after that goodnight. When the girl drowned, {WITCH_NAME} had not been inside at all."
+        ],
+        "epitaph": "Nobody ever waited past ten to hear the rest.",
+        "epithet": "Cocooned Against Comfort That Never Listened",
+        "execution": [
+          "The execution stand raises a tall bare tree in the trial court. From its branch hangs a single silk cocoon with her inside, a red ribbon tied round its middle.",
+          "The tree begins to rise toward the ceiling. A thread pinned to the floor unwinds the cocoon from her feet up, and she turns as it unreels. The red ribbon slips loose and drops to the floor.",
+          "As the last turns leave her shoulders, the line the cocoon hung from takes her whole weight at the throat.",
+          "She turns slowly on one thread beneath the branch, and is still."
+        ],
+        "magic": {
+          "name": "Silkspinner",
+          "text": "She spins glossy silk thread from her fingertips, strong enough to bear her weight."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

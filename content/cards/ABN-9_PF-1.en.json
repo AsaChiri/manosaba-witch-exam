@@ -10,21 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Every evening, a prisoner with a sketchbook sat by the courtyard fountain and drew {WITCH_NAME} until the light went. Of all her sitters, {WITCH_NAME} was the only one who never moved.",
-          "One evening before supper, the girl closed her sketchbook and smiled. \"I've drawn you enough. Tomorrow I'll draw someone else.\"",
-          "Long ago, over a single ink blot on a school form, {WITCH_NAME}'s mother had sat her on a station bench with her packed case and boarded the train alone, then stepped off just as the doors closed. \"Next time I won't,\" her mother told her. From then on, {WITCH_NAME} sat perfectly still and never made another mistake.",
-          "{WITCH_NAME} pushed the girl's face into the basin and laid her palm on her back. Under that hand the girl stayed fixed beneath the water until she drowned. Then {WITCH_NAME} sat the girl on the rim and fixed her there, the girl bent over her open sketchbook with the charcoal raised in her hand.",
-          "{WITCH_NAME} came into the dining hall alone for supper, then played pool in the recreation room among the others all evening. From the upper railing, the prisoners could see the girl on the rim, bent over her book as she was every evening, from after supper until dusk. At dusk, standing among them at the railing, {WITCH_NAME} let her go. The girl tipped into the basin before their eyes.",
-          "In the trial court, everyone took it that she had fallen in at dusk while {WITCH_NAME} stood right beside them. But the prisoner who pulled her out of the fountain had found her set hard in a sitting shape, her hand still raised and gripping the charcoal. The prisoners realized she had been dead since before supper, held upright on the rim by {WITCH_NAME}'s hand."
+          "Every evening until the light went, a girl sat by the courtyard fountain and sketched {WITCH_NAME}. Of all her sitters, she said, {WITCH_NAME} was the only one who never moved.",
+          "One day before supper, the girl closed her sketchbook and smiled. \"I've drawn you enough. Tomorrow I'll draw someone else.\"",
+          "When {WITCH_NAME} was small, one ink blot on a school form had been enough. Her mother sat her on a station bench with her packed case and boarded the train alone, then stepped off just as the doors closed. \"Next time I won't.\" From then on, {WITCH_NAME} sat still and never slipped up again.",
+          "Now she pushed the girl's face into the basin and laid her palm on the girl's back. Fixed by that hand, the girl stayed under the water until she drowned. Then {WITCH_NAME} sat the dead girl on the rim, bent her over the open sketchbook, lifted the girl's hand with the charcoal in it, and fixed her in place.",
+          "She came into the dining hall alone for supper, and afterward played pool in the recreation room among the others. From after supper until dusk, prisoners looking down from the upper railing saw the girl on the rim, bent over her book, as on every evening. At dusk, standing at the railing among them, {WITCH_NAME} released her from the Magic, and the girl tipped into the basin before their eyes.",
+          "In the trial court, the prisoners took it that the girl had fallen in at dusk while {WITCH_NAME} stood among them. But the prisoner who pulled her from the water had found her stiff and still bent in a sitting position, her hand raised and clutching the charcoal. Then they understood: the girl had been dead since before supper, held upright on the rim by {WITCH_NAME}'s hand."
         ],
-        "epitaph": "She learned to sit perfectly still, and it never made anyone stay.",
-        "epithet": "The Girl Who Sat Still to Be Kept",
+        "epitaph": "She never once moved, and it never once kept anyone.",
+        "epithet": "Sitting Still to Be Kept",
         "execution": [
-          "The execution stand raises an iron track that ends in a buffer stop. Between the rails, against the buffer, stands an iron station bench, and she is chained to it, seated. She sits perfectly still with her packed case on her knees, just as she sat on the station bench long ago. An iron train rolls in along the track and does not stop. Its iron front meets her and presses her and the bench into the buffer. The train stands against the buffer. Between its iron front and the buffer, she sits still."
+          "The execution stand raised an iron track that ended in a buffer stop. Between the rails, backed against the buffer, sat an iron station bench, and the witch was chained to it.",
+          "She sat perfectly still with her packed case on her knees.",
+          "An iron train rolled in along the track and did not stop. Its iron front pressed her and the bench into the buffer.",
+          "Then the train stood against the buffer, and she sat still between its iron front and the stop."
         ],
         "magic": {
-          "name": "Stay",
-          "text": "Anyone or anything she lays a hand on is fixed where it is, and only her hand can move it."
+          "name": "Stay Put",
+          "text": "Whatever she lays her hand on, person or thing, stays fixed where it is, and nothing but her hand can move it."
         }
       },
       "variant": 1

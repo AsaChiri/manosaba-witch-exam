@@ -10,21 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every snowy dusk, one girl made a snow rabbit for each prisoner on the rim of the courtyard fountain, always setting {WITCH_NAME}'s beside her own. The first time she took {WITCH_NAME}'s hand, {WITCH_NAME} used her Magic to turn her palm stove-hot, burning the girl's fingers. The next dusk she came back in mittens and held the hand anyway, and every dusk after.",
-          "One evening a girl stood shivering by the fountain. The rabbit-maker let go of {WITCH_NAME}'s hand, pulled off her mittens and put them on the shivering girl. \"You're always warm,\" she told {WITCH_NAME}. \"You don't need mittens.\"",
-          "{WITCH_NAME}'s mother had come home only some nights, and when she did, she wrapped her daughter in her coat. One winter night she unbuttoned it, drew it away from her daughter and wrapped the new baby in it instead. \"You're a big girl. Keep yourself warm.\"",
-          "Once the shivering girl had gone in, {WITCH_NAME} pressed the rabbit-maker's face into the snow on the fountain rim and held it there until she stopped moving. Then she gathered the dead girl into her lap, turned her own skin stove-hot, and held her until her cheeks and hands were warm again. She laid her back in the snow, went in, and sat down to supper with the other girls in the dining hall.",
-          "Before supper ended, the prisoners found the girl by the fountain, her cheek still warm, as if she had been alive only minutes ago. In the trial court they ruled she had been attacked after {WITCH_NAME} sat down to eat; the girl at the table could not have done it.",
-          "Then one prisoner lifted the dead girl's coat and found two handprints scorched into its back, brown singe marks in the wool. Only then did they understand: stove-hot hands had held the warmth in, and she had died before supper began."
+          "Every snowy dusk, one of the prisoners shaped a snow rabbit for each girl along the fountain in the courtyard, and she always set {WITCH_NAME}'s beside her own. The first time the girl took her hand, {WITCH_NAME} used her Magic to turn her skin stove-hot and burned her fingers. The girl came back in mittens, and from then on she held {WITCH_NAME}'s hand every dusk.",
+          "Then one dusk she let go to pull her mittens onto a prisoner who stood shivering. \"You're always warm,\" she told {WITCH_NAME}. \"You don't need them.\"",
+          "{WITCH_NAME}'s mother had come home only some nights, and on those nights she wrapped her daughter inside her coat. One winter night she unbuttoned the coat from around her and wrapped the new baby in it instead. \"You're a big girl. Keep yourself warm.\"",
+          "Once the shivering prisoner had gone inside, {WITCH_NAME} pressed the girl's face into the snow on the fountain rim until she stopped moving. Then she gathered her into her lap and held her, skin stove-hot, until the girl's cheeks and hands were warm again. She laid her back in the snow, went to the dining hall, and sat down to supper among the other prisoners.",
+          "Before supper ended, the prisoners found the girl by the fountain, her cheek still warm, as if she had been alive only minutes before. In the trial court they ruled that she had been attacked after {WITCH_NAME} sat down to supper. Whoever did it, it was never the one at the table.",
+          "Then a prisoner lifted the dead girl's coat and found two handprints scorched into the back, brown singe in the wool. The court saw it then: stove-hot hands had held the warmth in, and she had died before supper began."
         ],
-        "epitaph": "At last she kept a warmth, but only by holding someone who could no longer leave.",
+        "epitaph": "She kept a warmth at last, by holding someone who could no longer leave.",
         "epithet": "The Girl Who Keeps Herself Warm",
         "execution": [
-          "The execution stand chains her upright, then raises before her an iron woman holding an iron greatcoat open. The iron woman wraps the coat around her and fastens it button by button, from the hem upward, each button drawing it tighter. Inside it, she flares stove-hot; the seams glow a dull red and hold. The iron woman fastens the last button, and the high collar closes over her mouth and nose. Then the iron woman lifts an iron bundle to her chest and turns away. \"You're a big girl. Keep yourself warm.\" The greatcoat stops moving, and the glow fades from its seams."
+          "Two snow rabbits rose from the execution stand, frozen hard and as tall as the trial court, sitting flank to flank. She stood shut in the narrow hollow between their icy sides. The rabbits began to slide toward each other, and the hollow narrowed. She turned her skin stove-hot and pushed both palms against the ice. Steam poured up where her hands pressed. The flanks closed on her shoulders and chest, and kept closing. At last the two rabbits stood pressed flank to flank, and the steam thinned, and stopped rising."
         ],
         "magic": {
-          "name": "Fever and Frost",
-          "text": "She can turn her skin stove-hot or ice-cold at will, and never feel it herself."
+          "name": "Kettle and Frost",
+          "text": "She can make her skin stove-hot or ice-cold at will, and never feels it herself."
         }
       },
       "variant": 1

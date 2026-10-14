@@ -11,22 +11,20 @@
       "fields": {
         "crime": [
           "Every school morning, {WITCH_NAME}'s mother pinned her left sleeve into her pocket so that no one would have to see the curled hand inside.",
-          "In the prison, one girl put on shadow animals for the prisoners every evening, raising her big hands into the recreation room's projector beam; nobody made better shadows. Afterward she practised the next animal alone by the lounge fire until lockup. Every night she saved {WITCH_NAME} a place at the front, and every night {WITCH_NAME} sat at the back with her left hand in her sleeve.",
+          "In the prison, one girl made shadow animals in the projector beam every evening while the prisoners watched from the recreation room. Her big hands made the best shadows, and afterward she stayed by the lounge fire practising the next animal until lockup. Every night she saved a seat at the front for {WITCH_NAME}, who sat at the back with her left hand in her sleeve.",
           "One evening the girl drew that curled hand out of its sleeve and lifted it into the beam as the swan's other wing. Its shadow filled the screen in front of everyone. \"Tomorrow you'll be my other wing again,\" she said.",
-          "Before lockup, {WITCH_NAME} found her by the lounge fire and took her left hand, as if to learn the wing. Her Magic traded it for her own curled one. She had two whole hands at last. She closed them both round the girl's throat beside the fireplace and held on until the girl was still. Then she gave the dead girl back her own left hand, took back the curled one, and went down to her cell before the doors were locked.",
-          "At six, the prisoners found the girl dead by the cold fireplace, the marks of two whole hands closed round her throat.",
-          "In the trial court, {WITCH_NAME} held out her bare curled hand to the prisoners. It could not close. Two whole hands had strangled the girl, and every living girl still had her own; the prisoners ruled her out.",
-          "Then one prisoner pointed to the finger marks. The left hand's reached all the way round to the nape of the girl's neck. The right hand's stopped short. The prisoners understood: the left hand on her throat had been the dead girl's own big hand, worn by {WITCH_NAME} and given back afterward."
+          "Before lockup, {WITCH_NAME} went to her by the lounge fire and took her left hand, as if to learn the wing. With that touch she traded it for her own curled one. Two whole hands, at last. She closed them both round the girl's throat beside the fireplace and held on until she was still. Then she gave the dead girl back her own left hand, took back the curled one, and went down to her cell before the doors were locked.",
+          "At six, the prisoners found the girl dead by the cold fireplace, the marks of two whole hands closed round her throat. In the trial court, {WITCH_NAME} held out her bare curled hand. It could not close. Two whole hands had strangled the girl, hers could not, and every living girl's hands were her own. The prisoners ruled her out.",
+          "Then one prisoner pointed to the finger marks. The left hand's reached round to the nape of the girl's neck; the right's stopped short. The left hand had been the dead girl's own big hand, worn by {WITCH_NAME} that night and given back after."
         ],
-        "epitaph": "The one night she had two whole hands, she spent them on the girl who had wanted the curled one.",
+        "epitaph": "The one night she had two whole hands, she spent them on the girl who wanted the curled one.",
         "epithet": "The Girl with One Hand Pinned Away",
         "execution": [
-          "The execution stand raised a white screen into a projector beam. Her left arm was bound bare along it, and her mother's pin, grown as long as a spear, was aimed at her heart.",
-          "The great pin drove through her chest and into the screen. The projector lit her bare curled hand against the white, pinned open for all the spectators to see. She hung still on the pin, the beam still resting on her hand."
+          "The execution stand raises a white screen in a projector beam. Her left arm is bound bare along the screen, and a pin as long as a spear is levelled at her heart. The pin drives through her chest and into the screen. Before the spectators, the projector lights her bare curled hand spread across it, pinned open to every eye. She hangs still on the pin, the beam still on her hand."
         ],
         "magic": {
-          "name": "Trading Places",
-          "text": "She can swap one feature between any two people she touches, and each wears it as if born with it."
+          "name": "Even Trade",
+          "text": "With a touch, she swaps one feature between two people, and each wears it as if born with it."
         }
       },
       "variant": 1

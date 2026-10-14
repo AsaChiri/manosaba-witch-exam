@@ -1,0 +1,40 @@
+{
+  "cell": "DEF|Caretaker",
+  "copingSub": "CT-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Caretaker",
+  "tag": "DEF-6_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At every meal in the dining hall, {WITCH_NAME} pours each girl her tea before anyone asks, and every scrape and ache mends at the first sip. She never drinks a drop herself. Her fingertips are blistered, and she holds the kettle through a cloth.",
+          "Every evening in the lounge, the girl who lives alone in the solo cell paints everyone's nails. Only she keeps asking to paint {WITCH_NAME}'s.",
+          "At lunch, the girl takes one sip, slides the cup back across the table and smiles. \"Thank you. Drink this one yourself, then I can paint yours.\"",
+          "When {WITCH_NAME} was seven, she made soup for her feverish mother. Her mother took one spoonful, smiled and said thank you. Later, {WITCH_NAME} found it poured into the sink. No one said what was wrong with it, so it had to be her they could taste.",
+          "Before supper, in the solo cell, she presses her folded kettle cloth over the girl's nose and mouth until the girl lies still on her bunk. Wet, freshly painted nails rake both of {WITCH_NAME}'s forearms.",
+          "Back in her own cell, she drinks the cup the girl slid back, now cold. The scratches close.",
+          "At supper she pours every girl her cup, as always. Nobody brings up the girl from the solo cell.",
+          "After supper, the prisoners find the girl smothered on her bunk, with skin and blood under her chipped, painted nails.",
+          "In the trial court, they rule that the killer carries her scratches, and every girl who drank at supper has mended. Only {WITCH_NAME} never drinks, and her bared forearms are clean. She is cleared.",
+          "Then one prisoner looks at the hands {WITCH_NAME} holds out, bare without their cloth. Her fingertips are pink and smooth, without a blister.",
+          "They realize: her tea mends every hurt at once, so she drank her own before supper, the one day she had scratches to hide."
+        ],
+        "epitaph": "Her fingers healed smooth enough to paint, and no one was left to paint them.",
+        "epithet": "The hostess who never tastes her own cup",
+        "execution": [
+          "The execution stand raises a kitchen sink on top of a drainpipe as tall as the trial court. She kneels in the deep bowl of a giant ladle, held out over the basin.",
+          "The ladle tips her into the basin. She slides in a circle around the drain, then drops down the pipe.",
+          "One dull knock sounds from the foot of the pipe. Then the tap runs, and clear water rinses the empty basin."
+        ],
+        "magic": {
+          "name": "Mending Broth",
+          "text": "Anything she cooks or brews heals every sickness, wound and ache in whoever eats or drinks it."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

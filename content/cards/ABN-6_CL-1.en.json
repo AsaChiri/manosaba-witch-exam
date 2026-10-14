@@ -1,0 +1,35 @@
+{
+  "cell": "ABN|Clinger",
+  "copingSub": "CL-1",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-6",
+  "style": "Clinger",
+  "tag": "ABN-6_CL-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at the library window, a girl folded one paper bird and threaded it onto her string: one bird for each day she had spent here. {WITCH_NAME} sat beside her and used her Magic to stretch those evenings into hours.",
+          "One afternoon during free time, the girl held up her string of birds and asked her to let tonight be an ordinary evening and go sit downstairs. \"My birds have started lying about how long I've been here.\"",
+          "{WITCH_NAME} had once held the hall clock's pendulum still all night, the one night her mother came home after weeks away. Her mother left at dawn anyway.",
+          "At five the girl went up alone. {WITCH_NAME} sat among the prisoners in the lounge all evening, and at nine she left for bed, then climbed to the library instead to ask for one more long evening. The girl was at the open window in the rain, folding the day's bird.",
+          "{WITCH_NAME} pulled the bird string from the window latch and wound it around the girl's throat until she went still. Then she shut the window and stretched the library. For hours she sat with the girl's head in her lap while the rain outside hung motionless. At last she left the half-folded bird in the dead girl's fingers and went down to her cell.",
+          "At half past nine, the girl's roommate found her on the library floor, cold and stiff. In the trial court, the prisoners ruled {WITCH_NAME} out: the girl must have died hours earlier, soon after going up, while {WITCH_NAME} sat among them.",
+          "Then a prisoner unfolded the half-made bird from the girl's fingers. The paper was puckered with dried raindrops, though the window was shut, and the rain had begun only at half past eight. So the girl had still been alive at the open window after the rain started, and in the minutes after {WITCH_NAME} left the lounge, that room had lived through hours."
+        ],
+        "epitaph": "She could hold the hour still, but never the one who was in it.",
+        "epithet": "The Girl Who Held the Pendulum Still",
+        "execution": [
+          "The execution stand raised a giant hall clock and strapped her upright inside its case, at the bottom of the pendulum's arc. Above her, the great pendulum was held still at the top of its swing. When the hands reached dawn, the stand let it go.",
+          "It swept down and struck her with the full weight of its bob. Then it swung back and struck her again with every tick, until it came to rest against her and she hung still in the straps."
+        ],
+        "magic": {
+          "name": "The Long Evening",
+          "text": "She can stretch the room she's in so hours pass inside while only moments pass outside."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

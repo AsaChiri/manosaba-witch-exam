@@ -10,22 +10,25 @@
     {
       "fields": {
         "crime": [
-          "A week before leaving {WITCH_NAME} at her aunt's door, her mother taught her to plait her own hair: \"Now you won't need me.\" She learned that people who teach you to manage without them are leaving.",
-          "One girl told {WITCH_NAME} her whole day in her head, from any room, and {WITCH_NAME} answered each silent word aloud. No other girl talked to {WITCH_NAME} like that. Each evening the girl used up the last of the hot water singing at the top of her voice, alone in the soundproof shower room.",
-          "At dinner in the dining hall, she said aloud, \"Practise talking to the others out loud. You need more voices than mine.\" Under the words, {WITCH_NAME} heard her silent voice: \"Then I can have my head to myself.\"",
-          "At nine, {WITCH_NAME} followed her into the shower room and shut the door behind them. As the girl sat on the bench drying her hair, {WITCH_NAME} twisted the towel round her throat from behind until she was still.",
-          "At twenty to ten, {WITCH_NAME} stopped a prisoner's hand on the shut door. The girls always asked her who was behind a shut door, and she had never been wrong. \"She's still in there, singing in her head. She wants it to herself till ten.\" Then she went back to the lounge with them and stayed.",
-          "At five to ten, a prisoner opened the door to fetch the girl before lockup and found her slumped on the bench, the towel twisted at her throat.",
-          "In the trial court, the prisoners placed the strangling after twenty to ten, while {WITCH_NAME} sat with them in the lounge. Then a prisoner pointed to that door: not one note of the girl's singing had ever come through it, and a silent voice carries no further than a spoken one. The prisoners saw it: {WITCH_NAME} had heard nobody in there; she had said it because she had left the girl dead before twenty to ten."
+          "One prisoner, who had racked balls for her father's customers as a child, played alone each evening in the recreation room, calling every shot in her head while {WITCH_NAME} sat on the end rail and listened. Beneath the calls lay only the next shot.",
+          "In the dining hall she asked the prisoners aloud, \"Keep her downstairs till half past eight. I want one game nobody hears. I'll message you,\" and smiled across at {WITCH_NAME}. Under the words, a second voice: \"And after the game, I'll tell her.\"",
+          "{WITCH_NAME}'s mother had read her a bedtime picture book; under the story, her silent voice said, \"Don't let her hear this. I'll go before she wakes.\" By morning she was gone. Since then, a second voice meant someone was already leaving.",
+          "Before seven, {WITCH_NAME} found the player bent over her first shot, pressed a cue across her throat from behind until she was still, and pocketed her phone.",
+          "The others kept her at cards by the lounge fireplace while she answered their chat as the player: \"Thank you. Keep her there.\" At twenty past eight: \"Come up at half past eight and bring her.\" Upstairs, they found the player slumped over the pool table; {WITCH_NAME} laid the phone back beside her hand.",
+          "The prisoners ruled that someone upstairs strangled her after her last message; {WITCH_NAME} never left their sight.",
+          "But at five past eight, the girl beside her, a blanket on her lap, had thought of taking it up. {WITCH_NAME} heard it like a spoken voice and, eyes on the screen, typed: \"Don't bring the blanket. I'm warm.\"",
+          "In the trial court, that girl scrolled back through the chat. No one had mentioned a blanket; she had only thought it. Whoever answered had sat beside her, hearing her think—and the player was dead before seven."
         ],
-        "epitaph": "The girl wanted only her head to herself, and she already had one room even you could never hear into.",
-        "epithet": "A listener who hears goodbye before it is spoken",
+        "epitaph": "She hears every silent voice but one: the voice that would have told her, after the game.",
+        "epithet": "The Girl Who Listens Under the Words",
         "execution": [
-          "The execution stand raises a tall comb hung with three ropes of black hair, and she is strapped upright beneath it, at the center of the hanging strands. The strands begin to plait round her from the shoulders down, each crossing drawn tight across her ribs. At her ankles the plait ties itself off. No hand touches it. Now you won't need me. The finished plait hangs from the comb, and nothing inside it stirs."
+          "The execution stand raises a child's bed beside a giant open picture book, with a bedside candle lit between them. She lies tucked in, strapped down under the bedclothes.",
+          "The book turns its pages one by one, and no voice reads them. Each takes fire as it passes the flame, and the book drops it, burning, onto her bedclothes. Page after page, the bed catches around her.",
+          "At last the book stands with only its covers open, over a blackened bed gone still. The candle is still lit."
         ],
         "magic": {
-          "name": "Every Unspoken Word",
-          "text": "She hears the unspoken thoughts of the people around her as clearly as spoken voices."
+          "name": "Voices Behind Closed Lips",
+          "text": "She hears the silent thoughts of the people around her as clearly as spoken words."
         }
       },
       "variant": 1

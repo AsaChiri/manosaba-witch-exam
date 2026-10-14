@@ -10,24 +10,20 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME}'s mother used to come home every weekend. As her visits grew rarer, her parcels grew bigger. The last one held a hand-knitted sweater, and after it she never came again.",
-          "That night {WITCH_NAME} renounced sweaters. The bigger the gift, the nearer the goodbye. From then on no sweater could come near her, and every evening she shivered.",
-          "In the prison, one girl knits every evening beside the fireplace in the lounge, the way her grandmother taught her. {WITCH_NAME} holds the skein for her. Because {WITCH_NAME} shivers without a sweater, the girl knits her a scarf. When it is finished, she knots it around {WITCH_NAME}'s neck and says that tomorrow she'll start one for each of the others.",
+          "{WITCH_NAME}'s mother used to come home every weekend. As her visits grew rarer, her parcels grew bigger. The last one held a hand-knitted sweater, and after it she never came again. The bigger the gift, the nearer the goodbye. That night {WITCH_NAME} used her Magic to renounce sweaters. Not one has touched her since, and every evening she shivers.",
+          "In the lounge, one prisoner knits beside the fireplace every evening, the way her grandmother taught her, while {WITCH_NAME} holds the skein for her. She has been knitting a scarf because {WITCH_NAME} shivers without a sweater. When it is finished, she knots it around {WITCH_NAME}'s neck and says that tomorrow she'll start one for each of the others.",
           "That evening, in front of everyone, {WITCH_NAME} renounces scarves. The scarf slides off her neck and curls away across the floor.",
-          "The next evening, while the girl sits knitting the first of the others' scarves, {WITCH_NAME} comes up behind her. She reaches for the scarf at the back of the girl's neck and keeps bringing her hands closer until the girl stops moving.",
-          "The prisoners find her strangled on the lounge sofa, her own scarf knotted at her throat.",
-          "In the trial court, they rule {WITCH_NAME} out: no scarf can come near her, so someone else must have pulled it tight. Then a prisoner notices that the back of the scarf has sunk deep into the girl's nape, while its ends hang smooth, never gripped by anyone. The prisoners understand. Nobody pulled it. The scarf tightened as it fled from {WITCH_NAME}'s hands closing in behind it."
+          "The next evening the girl sits knitting the first of the others' scarves, a scarf of her own around her neck. {WITCH_NAME} steps up behind her and cups both hands around the back of that scarf, close to the wool but never touching it. She holds them there until the girl stops moving.",
+          "The prisoners find her strangled on the lounge sofa, her own scarf knotted at her throat. In the trial court they rule {WITCH_NAME} out: they all saw that no scarf can come near her, so someone else must have pulled it tight. Then one prisoner notices that the scarf's ends hang smooth, never gripped, while its back is sunk deep into the nape of the girl's neck. Nobody pulled it. The scarf pulled itself tight, straining forward to get away from {WITCH_NAME}'s hands at the back of the girl's neck."
         ],
-        "epitaph": "Of everything that ever came to her, only the cold never left.",
-        "epithet": "The Girl Who Refused Parting Gifts",
+        "epitaph": "Only the cold never said goodbye.",
+        "epithet": "She Who Refuses Parting Gifts",
         "execution": [
-          "The execution stand raises an iron slab into the trial court. Above it hangs an iron hand holding a stack of parcels. She lies chained on her back across the slab, arms stretched out to receive them.",
-          "The hand sets a parcel on her chest. Then another, bigger than the last. Then another, bigger still.",
-          "After the last parcel, the biggest of all, she lies still beneath it. The iron hand rises and never comes back."
+          "The execution stand raises an iron slab beneath an iron hand holding a stack of parcels. She is chained to the slab on her back, arms spread out as if to receive them. The hand lowers and sets an iron parcel on her chest. Then another, and another, each bigger than the last. Under the biggest parcel she lies still. The iron hand rises and never comes back."
         ],
         "magic": {
-          "name": "Forsworn",
-          "text": "Whatever kind of thing she renounces can never come near her again."
+          "name": "Never Again",
+          "text": "She can renounce any one kind of thing, and nothing of that kind will ever come near her again."
         }
       },
       "variant": 1

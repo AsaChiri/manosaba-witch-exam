@@ -10,25 +10,26 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} lay in the medical room with her ankle in a splint. She had broken it a week before and still couldn't put her foot down.",
-          "Every evening, one girl brought a picture book down from the library, read it aloud to whoever was laid up, and carried it back upstairs. She was the only one {WITCH_NAME} had ever let stay.",
+          "{WITCH_NAME} lay in the medical room with her ankle in a splint. It had broken a week ago, and she still could not put her foot down.",
+          "Every evening one girl brought a picture book down from the library, read it aloud to whoever was laid up, and carried it back upstairs. Of everyone, she was the only one {WITCH_NAME} had ever let stay.",
           "One evening the girl checked the splint and said, \"The swelling's down. Soon you won't need me.\"",
-          "Once, an aunt had sat by {WITCH_NAME}'s bed through a week of fever. The morning it broke, she said, \"You're well now. You don't need me.\" By evening she was gone.",
-          "{WITCH_NAME} knew how it went: people stay only while you're hurt.",
-          "That evening, when the girl carried the book back up, {WITCH_NAME} turned the moment into a memory years old and stood on the broken ankle. The pain was already long ago and far away. She climbed the stairs after the girl, came up behind her at the picture-book shelf, and took her throat in both hands until she stopped moving.",
-          "After the body was found, the prisoners came down to the medical room with the news and found {WITCH_NAME} lying just as they had left her. In the trial court, they ruled her out: a girl who couldn't stand could never have climbed to the library.",
-          "Then one prisoner looked beneath the splint. The ankle was swollen black and crooked again, and {WITCH_NAME} had never made a sound. They understood then. She had felt nothing, and she had walked on it all the way to the library."
+          "Once, her aunt had sat by her bed through a week of fever. The morning it broke, her aunt said, \"You're well now. You don't need me.\" By evening she was gone.",
+          "{WITCH_NAME} knew how it went. They stay only while you're hurt.",
+          "That evening she stood on the broken ankle and climbed after the girl to the library. The pain reached her like something from years ago, faint and far away.",
+          "She came up behind the girl at the picture-book shelf, took her throat in both hands, and held on until she stopped moving.",
+          "After the body was found, the prisoners came down to the medical room with the news. They found {WITCH_NAME} lying just as they had left her.",
+          "In the trial court they ruled her out: a girl who couldn't even stand could never have climbed to the library.",
+          "Then one prisoner looked beneath the splint. The ankle was swollen black and crooked again, and {WITCH_NAME} had never made a sound.",
+          "They understood then. She had felt nothing, and she had walked on it all the way to the library."
         ],
-        "epitaph": "The one time she went to someone instead of waiting, it was to make her a memory before she could leave.",
+        "epitaph": "The only time she went to someone instead of waiting, it was to make her a memory before she could leave.",
         "epithet": "The Girl Afraid to Get Well",
         "execution": [
-          "The execution stand raised an iron sickbed. Beside it sat an iron figure holding a picture book. She was strapped down on the bed, splinted ankle and all.",
-          "The figure read aloud to the last page, closed the book and rose from its chair. It drew the iron coverlet up over her face and leaned its whole weight on it until she stopped moving.",
-          "Then it let go and walked away from the bed. She lay still under the coverlet, beside the empty chair."
+          "The execution stand raises an iron sickbed. Beside it, in a chair, sits an iron figure holding a picture book. She is strapped down on the bed, splinted ankle and all. The figure reads through to the last page, closes the book, and rises from its chair. It draws the iron coverlet up over her face and leans its whole weight on it until she stops moving. Then it lets go and walks away from the bed. She lies still under the coverlet, beside the empty chair."
         ],
         "magic": {
           "name": "Already Long Ago",
-          "text": "She can turn the moment she's living through into a memory from years ago."
+          "text": "She can turn the moment she is living through into a memory already years old."
         }
       },
       "variant": 1

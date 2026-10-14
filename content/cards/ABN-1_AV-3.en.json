@@ -10,21 +10,24 @@
     {
       "fields": {
         "crime": [
-          "The last time {WITCH_NAME} steadied the ladder while her mother hung out the washing, her mother said, \"I can manage on my own now.\" Within the week, her mother was gone.",
-          "In the prison, one girl walked the top of the upper railing at dusk while the others bathed, a glass of water balanced on her head, the way she had once walked her family's wire. Every evening {WITCH_NAME} stood in the courtyard beneath her, ready to stop her with Magic a hair above the stones if she ever slipped.",
-          "At supper, the girl stood up in front of the whole table in the dining hall and thanked her. A month without slipping. \"You needn't stand beneath me anymore.\"",
-          "That dusk, {WITCH_NAME} did not wait beneath. She came out through the hall behind the railing and pushed the girl off. She stopped the glass of water a finger above the stones and let the girl fall past it.",
-          "Back from the showers, the prisoners found her lying on the path. In the trial court they ruled that she had slipped walking alone, with no one beneath to hold her.",
-          "Then one prisoner turned the glass over in her hands. It had fallen as far as the girl had, and there was not a chip in it. Only {WITCH_NAME}'s Magic could have caught it, and the prisoners understood that she had been up at the railing when the girl fell."
+          "{WITCH_NAME} used to hold the ladder steady while her mother hung out the washing. One day her mother said she could manage alone now. Within the week she was gone.",
+          "In the prison, one girl walked the top of the upper railing every dusk while the others bathed, a glass of water in her hand, the way she had once walked her family's wire. Every evening {WITCH_NAME} stood in the courtyard beneath her, ready to stop her with Magic a hair above the stones if she ever fell.",
+          "At dinner one evening, the girl stood before the whole table in the dining hall and thanked her for a month without slipping. \"You needn't stand beneath me anymore.\"",
+          "That dusk, {WITCH_NAME} did not go down to the courtyard. She stepped out of the hall and pushed the girl off the railing. The glass flew from the girl's hand. {WITCH_NAME} held the glass a finger above the stones and let the girl fall past it.",
+          "Back from the showers, the prisoners found her on the stones of the path. Nothing had held her. In the trial court they ruled that she had slipped walking alone, with no one beneath her that night.",
+          "Then a prisoner turned the glass of water over in her hands. It had fallen as far as the girl had, without a single chip. The prisoners knew whose Magic had caught it: {WITCH_NAME} had been there when the girl fell, and had chosen to save the glass."
         ],
         "epitaph": "A glass never tells you it can manage without you.",
-        "epithet": "A Net Waiting to Be Needed",
+        "epithet": "The Net That Waits to Be Needed",
         "execution": [
-          "The execution stand strapped her face up beneath a high iron rail. Along the rail came an iron walker, a giant glass brimming with water balanced on its head. Directly above her, it let the glass slip. The glass came straight down and landed base first on her chest, water slopping over her face. She heaved under it until she stopped, and the water ran off the edge of the stand. The iron walker went on alone to the end of the rail, never looking down."
+          "The execution stand straps her face up beneath a high iron rail. Along the rail walks an iron figure, a giant glass balanced on its head, brimming with water.",
+          "Directly above her, the glass slips from its head and drops straight down.",
+          "It lands base first on her chest. Water slops over her face. She heaves beneath the glass, heaves again, and then stops. Water runs off the edge of the stand.",
+          "The iron walker goes on alone to the end of the rail, never looking down."
         ],
         "magic": {
-          "name": "Hair's Breadth",
-          "text": "She can stop anything about to fall, break, spill or bloom, a hair before it happens."
+          "name": "Held on the Brink",
+          "text": "She can stop anything about to fall, break, spill or bloom, a hair before it does."
         }
       },
       "variant": 1

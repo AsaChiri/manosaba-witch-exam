@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Fantasist",
+  "copingSub": "FA-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Fantasist",
+  "tag": "DEF-3_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At ten, {WITCH_NAME} told her mother she had pictured tipping the bedtime candle into her mother's hair. Her mother took the brass chamberstick from her hand and sent her to bed in the dark. Ever since, she told herself something in her wanted to burn whoever she held a light for.",
+          "A girl kept a vigil at the courtyard fountain from nine to half past for her brother, who never came home; her family had lit a candle in the window for him every night. For that half hour the others watched silently from the upper railing. At half past she pinched the flame out and saved the stub in a tin for her mother.",
+          "Each night {WITCH_NAME} pretended a crayon was a candle, and it became the girl's lit candle. She knelt beside her, holding the flame. One night she pictured tipping it into the girl's hair. Her hand shook, and the girl took the candle: \"Your hand is shaking. I'll hold it myself.\" After that, {WITCH_NAME} made it, handed it over and watched from above.",
+          "One night before nine, in the dark, she held the girl's face under the fountain water until she stopped moving, then set the lit candle on the rim beside her bowed body.",
+          "At half past nine, the prisoners at the upper railing watched the vigil light go out. {WITCH_NAME} had been beside them since nine. At twenty to ten, a prisoner found the girl face down in the water. In the trial court, the prisoners ruled she had been drowned after ending her vigil, while {WITCH_NAME} stood with them.",
+          "A prisoner opened the girl's stub tin: a pinched stub for every night but the last, whose candle had burned down to a flat pool. Before nine, {WITCH_NAME} had pretended that night's crayon was a candle set to burn out at half past nine. Now the prisoners saw: the light had gone out by itself, and the girl was dead before {WITCH_NAME} went up."
+        ],
+        "epitaph": "She was never the fire they feared; only the dark she was sent to, and learned to give.",
+        "epithet": "The lamplighter never trusted with a flame",
+        "execution": [
+          "The execution stand raises a giant brass chamberstick, its candle lit, a noose of candle wick running from its ring handle around her neck. The chamberstick rises into the dark of the court, and the wick lifts her off the floor by the neck. She hangs still beneath the brass dish while wax from the burning candle drips into her hair."
+        ],
+        "magic": {
+          "name": "Let's Pretend",
+          "text": "Anything she plays make-believe with becomes the real, working thing she pretends it is."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

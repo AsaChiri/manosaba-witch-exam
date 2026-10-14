@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Trickster",
+  "copingSub": "TR-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Trickster",
+  "tag": "DEF-3_TR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening after supper, one girl was first into the lounge. She built the fire in the fireplace with her bare hands and read on the hearth rug until lockup, on her side, back to the room, answering no one. She let only {WITCH_NAME} pass her logs, from the sofa, with unseen hands.",
+          "At eight, {WITCH_NAME} pictured pressing her little brother's hand into the coals and told her grandmother, who afterward sent her out of the kitchen whenever the stove door opened. Ever since, picturing it was enough to make her the girl who would.",
+          "One evening, as she floated a log toward the other girl's hand, the old picture returned. It slipped from her unseen grip, and sparks scattered over that hand. The girl shook them off. \"Sit back over there. I'll fetch my own.\" From then on she fetched every log herself.",
+          "The next evening, with the lounge still empty, {WITCH_NAME} knelt behind her on the hearth rug and strangled her with her own bare hands, leaving her on her side, the book open before her face. From the sofa, as the others came in, she turned the page every few minutes with an unseen hand. They watched that page turn against the firelight from eight until nine, when they all left, {WITCH_NAME} among them.",
+          "At ten to ten, a prisoner fetching the girl for lockup found her strangled on the hearth rug. In the trial court, the prisoners ruled she was killed after nine, while {WITCH_NAME} showered with them; her unseen hands reached only what she could see.",
+          "A prisoner leafed back through the book. Every page corner bore the dead girl's black thumbprint until twenty pages before the open one, though both her thumbs were still black. The last twenty pages, the prisoners realized, had turned under no visible hand while {WITCH_NAME} sat watching. The girl had been dead before they came in."
+        ],
+        "epitaph": "She kept her hands clean to prove she was not that girl; in the end, they proved she was.",
+        "epithet": "The Girl Kept Back from the Fire",
+        "execution": [
+          "The execution stand raises a black kitchen stove grown as tall as the room, its fire door shut. Before the door rests a coal shovel as long as a bed, and she lies strapped flat along its blade.",
+          "The fire door swings open on a roaring firebox. The shovel lifts her and slides her through the open door, into the coals.",
+          "The door swings shut. Behind its vents the glow settles, and the stove goes quiet."
+        ],
+        "magic": {
+          "name": "Unseen Hands",
+          "text": "She can touch, grip and move anyone or anything in sight with hands no one can see."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

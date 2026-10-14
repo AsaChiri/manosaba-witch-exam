@@ -1,0 +1,34 @@
+{
+  "cell": "DEF|Sovereign",
+  "copingSub": "SV-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Sovereign",
+  "tag": "DEF-6_SV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening in the medical room, one prisoner patched up the other girls' scrapes. {WITCH_NAME} was always first in line, holding out arms her Magic kept free of any mark, and every time the girl looked them over. At dusk she hung the washed bandages over the upper railing to dry, and {WITCH_NAME} sat beside her.",
+          "One evening a prisoner came in with a bleeding knee, and the girl who did the patching moved {WITCH_NAME} out of the line. \"There's never anything on you. Let the hurt girls go first.\"",
+          "When {WITCH_NAME} was small, a doctor had pressed everywhere on her and found nothing. \"There's nothing there,\" her mother said. \"It's just you.\"",
+          "Back in the medical room, the girl who did the patching went down the line and looked over every girl with a scrape. She never came to {WITCH_NAME}, who stood aside by the door, her arms still held out.",
+          "At dusk, before the other girls came out, {WITCH_NAME} sat beside her at the railing as always. As the girl hung a bandage strip over the rail, {WITCH_NAME} caught her by the ankles and tipped her over, head first into the dark below.",
+          "Minutes later, the prisoners in the courtyard saw a figure among the drying bandages step off the railing. Beneath it, by the fountain, they found the girl dead. The prisoner who lifted her found her legs unbroken and the crown of her head crushed.",
+          "In the trial court, the prisoners understood: she had come down head first before anyone was looking, and whoever stepped off after her, feet first, had walked away without a scratch."
+        ],
+        "epitaph": "The first thing anyone ever found wrong with her was what she did to the girl who looked.",
+        "epithet": "The Patient with Nothing to Find",
+        "execution": [
+          "The execution stand raises a wash basin as wide as the trial court, beneath a rack hung with bandage strips. The strips wind around her from her feet to the crown of her head, binding every inch as if she were wounded. The rack dips her into the rinse water and lifts her out again, holding her under a little longer each time. At last it lifts her out one final time, and she hangs still, dripping, among the drying strips."
+        ],
+        "magic": {
+          "name": "Not a Scratch",
+          "text": "No blade, flame, blow or fall can leave a mark on her skin."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

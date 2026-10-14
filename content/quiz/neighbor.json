@@ -65,6 +65,8 @@
     "table": {
       "ABN-1|CL-1": "ABN-1_CL-1",
       "ABN-1|CL-2": "ABN-1_CL-2",
+      "ABN-6|CL-1": "ABN-6_CL-1",
+      "ABN-6|CL-2": "ABN-6_CL-1",
       "ABN-7|CL-1": "ABN-7_CL-2",
       "ABN-7|CL-2": "ABN-7_CL-2",
       "ABN-9|CL-1": "ABN-9_CL-2",
@@ -73,6 +75,8 @@
     "tiers": {
       "ABN-1|CL-1": 0,
       "ABN-1|CL-2": 0,
+      "ABN-6|CL-1": 0,
+      "ABN-6|CL-2": 1,
       "ABN-7|CL-1": 1,
       "ABN-7|CL-2": 0,
       "ABN-9|CL-1": 1,
@@ -110,10 +114,12 @@
   "ABN|Doomer": {
     "table": {
       "ABN-10|DM-2": "ABN-10_DM-2",
+      "ABN-1|DM-2": "ABN-1_DM-2",
       "ABN-6|DM-2": "ABN-6_DM-2"
     },
     "tiers": {
       "ABN-10|DM-2": 0,
+      "ABN-1|DM-2": 0,
       "ABN-6|DM-2": 0
     }
   },
@@ -547,6 +553,14 @@
       "DEF-6|AV-3": 1
     }
   },
+  "DEF|Caretaker": {
+    "table": {
+      "DEF-6|CT-1": "DEF-6_CT-1"
+    },
+    "tiers": {
+      "DEF-6|CT-1": 0
+    }
+  },
   "DEF|Catastrophizer": {
     "table": {
       "DEF-3|CA-1": "DEF-3_CA-1"
@@ -570,7 +584,7 @@
       "DEF-1|CO-5": "DEF-1_CO-2",
       "DEF-3|CO-1": "DEF-3_CO-1",
       "DEF-3|CO-2": "DEF-3_CO-2",
-      "DEF-3|CO-5": "DEF-3_CO-2",
+      "DEF-3|CO-5": "DEF-3_CO-5",
       "DEF-6|CO-1": "DEF-6_CO-1",
       "DEF-6|CO-2": "DEF-6_CO-2",
       "DEF-6|CO-5": "DEF-6_CO-2",
@@ -578,8 +592,8 @@
       "DEF-7|CO-2": "DEF-7_CO-5",
       "DEF-7|CO-5": "DEF-7_CO-5",
       "DEF-8|CO-1": "DEF-8_CO-1",
-      "DEF-8|CO-2": "DEF-8_CO-1",
-      "DEF-8|CO-5": "DEF-8_CO-1"
+      "DEF-8|CO-2": "DEF-8_CO-2",
+      "DEF-8|CO-5": "DEF-8_CO-2"
     },
     "tiers": {
       "DEF-1|CO-1": 1,
@@ -587,7 +601,7 @@
       "DEF-1|CO-5": 1,
       "DEF-3|CO-1": 0,
       "DEF-3|CO-2": 0,
-      "DEF-3|CO-5": 1,
+      "DEF-3|CO-5": 0,
       "DEF-6|CO-1": 0,
       "DEF-6|CO-2": 0,
       "DEF-6|CO-5": 1,
@@ -595,7 +609,7 @@
       "DEF-7|CO-2": 1,
       "DEF-7|CO-5": 0,
       "DEF-8|CO-1": 0,
-      "DEF-8|CO-2": 1,
+      "DEF-8|CO-2": 0,
       "DEF-8|CO-5": 1
     }
   },
@@ -607,20 +621,62 @@
       "DEF-4|DP-3": 0
     }
   },
-  "DEF|Perfectionist": {
+  "DEF|Detacher": {
     "table": {
-      "DEF-3|PF-1": "DEF-3_PF-1"
+      "DEF-3|DT-2": "DEF-3_DT-2",
+      "DEF-3|DT-3": "DEF-3_DT-3"
     },
     "tiers": {
-      "DEF-3|PF-1": 0
+      "DEF-3|DT-2": 0,
+      "DEF-3|DT-3": 0
+    }
+  },
+  "DEF|Doomer": {
+    "table": {
+      "DEF-3|DM-1": "DEF-3_DM-1"
+    },
+    "tiers": {
+      "DEF-3|DM-1": 0
+    }
+  },
+  "DEF|Fantasist": {
+    "table": {
+      "DEF-3|FA-3": "DEF-3_FA-3",
+      "DEF-3|FA-4": "DEF-3_FA-4"
+    },
+    "tiers": {
+      "DEF-3|FA-3": 0,
+      "DEF-3|FA-4": 0
+    }
+  },
+  "DEF|Perfectionist": {
+    "table": {
+      "DEF-3|PF-1": "DEF-3_PF-1",
+      "DEF-6|PF-1": "DEF-6_PF-1",
+      "DEF-8|PF-1": "DEF-8_PF-1"
+    },
+    "tiers": {
+      "DEF-3|PF-1": 0,
+      "DEF-6|PF-1": 0,
+      "DEF-8|PF-1": 0
     }
   },
   "DEF|Performer": {
     "table": {
-      "DEF-3|P-2": "DEF-3_P-2"
+      "DEF-3|P-2": "DEF-3_P-2",
+      "DEF-8|P-2": "DEF-8_P-2"
     },
     "tiers": {
-      "DEF-3|P-2": 0
+      "DEF-3|P-2": 0,
+      "DEF-8|P-2": 0
+    }
+  },
+  "DEF|Pleaser": {
+    "table": {
+      "DEF-3|PL-3": "DEF-3_PL-3"
+    },
+    "tiers": {
+      "DEF-3|PL-3": 0
     }
   },
   "DEF|Resigned": {
@@ -641,11 +697,25 @@
       "DEF-10|RI-3": 0
     }
   },
+  "DEF|Ruminator": {
+    "table": {
+      "DEF-3|RU-1": "DEF-3_RU-1",
+      "DEF-3|RU-2": "DEF-3_RU-2"
+    },
+    "tiers": {
+      "DEF-3|RU-1": 0,
+      "DEF-3|RU-2": 0
+    }
+  },
   "DEF|Self-Punisher": {
     "table": {
+      "DEF-1|SP-1": "DEF-1_SP-1",
+      "DEF-3|SP-1": "DEF-3_SP-1",
       "DEF-8|SP-1": "DEF-8_SP-1"
     },
     "tiers": {
+      "DEF-1|SP-1": 0,
+      "DEF-3|SP-1": 0,
       "DEF-8|SP-1": 0
     }
   },
@@ -659,10 +729,12 @@
   },
   "DEF|Sovereign": {
     "table": {
-      "DEF-3|SV-1": "DEF-3_SV-1"
+      "DEF-3|SV-1": "DEF-3_SV-1",
+      "DEF-6|SV-1": "DEF-6_SV-1"
     },
     "tiers": {
-      "DEF-3|SV-1": 0
+      "DEF-3|SV-1": 0,
+      "DEF-6|SV-1": 0
     }
   },
   "DEF|Striker": {
@@ -681,20 +753,44 @@
       "DEF-3|TS-2": 0
     }
   },
-  "DEF|Wall-of-Anger": {
+  "DEF|Trickster": {
     "table": {
-      "DEF-3|WA-1": "DEF-3_WA-1"
+      "DEF-3|TR-1": "DEF-3_TR-1"
     },
     "tiers": {
-      "DEF-3|WA-1": 0
+      "DEF-3|TR-1": 0
+    }
+  },
+  "DEF|Wall-of-Anger": {
+    "table": {
+      "DEF-3|WA-1": "DEF-3_WA-1",
+      "DEF-6|WA-1": "DEF-6_WA-1"
+    },
+    "tiers": {
+      "DEF-3|WA-1": 0,
+      "DEF-6|WA-1": 0
     }
   },
   "DEF|Watcher": {
     "table": {
+      "DEF-3|WT-2": "DEF-3_WT-2",
+      "DEF-3|WT-3": "DEF-3_WT-2",
+      "DEF-5|WT-2": "DEF-5_WT-3",
       "DEF-5|WT-3": "DEF-5_WT-3"
     },
     "tiers": {
+      "DEF-3|WT-2": 0,
+      "DEF-3|WT-3": 1,
+      "DEF-5|WT-2": 1,
       "DEF-5|WT-3": 0
+    }
+  },
+  "ED|Avenger": {
+    "table": {
+      "ED-1|AG-1": "ED-1_AG-1"
+    },
+    "tiers": {
+      "ED-1|AG-1": 0
     }
   },
   "ED|Avoider": {
@@ -711,6 +807,14 @@
     },
     "tiers": {
       "ED-1|CL-2": 0
+    }
+  },
+  "ED|Concealer": {
+    "table": {
+      "ED-1|CO-2": "ED-1_CO-2"
+    },
+    "tiers": {
+      "ED-1|CO-2": 0
     }
   },
   "ED|Doomer": {

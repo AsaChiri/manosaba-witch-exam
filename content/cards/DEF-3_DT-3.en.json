@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Detacher",
+  "copingSub": "DT-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Detacher",
+  "tag": "DEF-3_DT-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At ten, {WITCH_NAME} told her mother she had pictured a knitting needle in her baby sister's soft head. From then on, whenever she came in, her mother lifted the baby off her lap and put her needles away.",
+          "Whenever the pictures came, she laid her palm on her chest, turned her heart quiet with her Magic, and studied each picture like a stone in her hand.",
+          "Each evening in their cell, her roommate knitted scarves for every girl, then tucked her grandmother's needles under her pillow. One night at lights-out, she measured an unfinished scarf around {WITCH_NAME}'s neck. {WITCH_NAME} reached for the needles. \"Not these,\" her roommate said, sliding them under her pillow as always. {WITCH_NAME} saw her mother putting them away.",
+          "Before the cells unlocked, she drew a needle from under the pillow, laid her palm on her sleeping roommate's back, turned her pain to nothing, and pushed the needle between her ribs.",
+          "At seven, every girl saw the roommate laugh through breakfast in the dining hall, then go out alone to knit by the fountain. From breakfast until the body was found, {WITCH_NAME} played pool in the recreation room, never out of the others' sight. At half past eight, a prisoner found the roommate dead on the rim of the courtyard fountain, knitting in her lap, a needle wound in her back.",
+          "In the trial court, the prisoners ruled she was stabbed at the fountain after breakfast, while {WITCH_NAME} stood at the pool table. Then a prisoner noticed blood inside the dress but no hole over the wound. A feeling {WITCH_NAME} turns down stays down after her hand lifts. The prisoners realized the needle had gone in at dawn in the locked cell, before the roommate dressed; she had laughed through breakfast on pain already turned to nothing."
+        ],
+        "epitaph": "No one but her ever saw the picture.",
+        "epithet": "The quiet-hearted watcher of her own dark pictures",
+        "execution": [
+          "The execution stand hoists a giant ball of wool up to the ceiling. Hanging from it, in the same wool, is a scarf, now grown as long as the court. The scarf is wound around her, pinning her palm to her chest, its last turn around her throat. Beneath the ceiling, the ball begins to turn, winding the scarf back onto itself, and lifts her off the floor by the throat. Under her pinned palm, she turns her racing heart quiet. She hangs still in the scarf, her palm still flat on her chest."
+        ],
+        "magic": {
+          "name": "Volume of the Senses",
+          "text": "With a touch, she turns any bodily sensation up or down, from numb silence to piercing vividness."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

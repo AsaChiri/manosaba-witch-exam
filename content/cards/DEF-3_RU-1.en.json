@@ -1,0 +1,37 @@
+{
+  "cell": "DEF|Ruminator",
+  "copingSub": "RU-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Ruminator",
+  "tag": "DEF-3_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At her grandmother's burial in the rain, {WITCH_NAME} pictured pushing her mother into the grave after the coffin, and laughed out loud. Under their black umbrellas, the mourners turned to look at her.",
+          "Every night on the upper bunk of her cell, she used her Magic to play her dead grandmother's voice: \"You're my gentle girl.\" Her roommate below heard it and began calling her Gentle. Each morning the roommate lingered under her blanket, telling her what she had said in her sleep, then sent her up to breakfast: \"Go on, Gentle. I'll catch up.\"",
+          "One night at lights-out, the roommate laughed. \"Last night you said in your sleep you'd hold the pillow over my face till I stopped kicking. My little night monster.\" Then she turned her face to the wall.",
+          "In the small hours, {WITCH_NAME} climbed down and pressed the pillow over her face until she stopped kicking.",
+          "At morning unlock, she called back into the cell, and her Magic played an earlier morning's answer from the lower bunk: \"Go on, Gentle. I'll catch up.\" The prisoners in the cell corridor heard that sleepy reply, saw the blanketed shape facing the wall, and went up to breakfast with her among them.",
+          "After breakfast, a prisoner went down to drag the roommate out of bed and found her dead under the blanket. In the trial court, the prisoners took it that someone had slipped into the open cell after unlock and killed her while {WITCH_NAME} sat at breakfast among them.",
+          "But the girl who found her had taken her hand, and it was cold and stiff as wood an hour after that answer. The prisoners understood: the roommate had died in the night, locked in with {WITCH_NAME}, and the answer at unlock was an earlier morning, played again."
+        ],
+        "epitaph": "In the end, every voice still calling her gentle was one she had to play herself.",
+        "epithet": "The Gentle Girl Who Laughed at the Grave",
+        "execution": [
+          "The execution stand raises her grandmother's headstone inside a ring of closed black mourning umbrellas, all standing with their backs to her. She is bound upright against the stone with black mourning bands.",
+          "One by one the umbrellas turn, until every iron tip points at her.",
+          "She plays her grandmother's voice into the ring: \"You're my...\"",
+          "The iron tips drive into her chest together. The umbrellas spring open, a closed ring that hides her from every eye, and the voice breaks off mid-word: \"gen—\""
+        ],
+        "magic": {
+          "name": "Encore",
+          "text": "She can make any sound she has ever heard play again, exactly as it was, for everyone present."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

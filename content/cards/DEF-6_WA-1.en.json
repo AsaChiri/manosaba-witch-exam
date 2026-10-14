@@ -1,0 +1,34 @@
+{
+  "cell": "DEF|Wall-of-Anger",
+  "copingSub": "WA-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Wall-of-Anger",
+  "tag": "DEF-6_WA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every dusk a girl sat by the courtyard fountain and read palms for anyone who stopped, a skill from her grandmother's market stall. She studied each hand through a reading lens, then folded its fingers shut. \"Keep it.\"",
+          "She held out her hand for {WITCH_NAME}'s too, and each time blue sparks snapped from {WITCH_NAME}'s fingers into hers. The girl would shake out her fingers and laugh. \"Tomorrow, then.\"",
+          "One dusk, for once, {WITCH_NAME} let her take it. The girl studied the palm through the lens a long time and frowned as the others leaned in. \"Something's off in your hand. I can't find what. Come back tomorrow.\"",
+          "Once, {WITCH_NAME}'s mother held her face to the window light and studied it a long time. \"Something's wrong with you. I can't find what.\" Then she let go. Ever since, any hand that reached to hold {WITCH_NAME} got a jolt.",
+          "The next dusk, after the others went in to supper, she came back to the fountain and held out her own hand. As the girl bent over it with her lens, {WITCH_NAME} pressed her palm flat to the girl's and let the current go. She held on past the last heartbeat, until her palm was scorched into the girl's. Then she folded the dead girl's fingers shut over it, said \"Keep it,\" and went in to supper.",
+          "The prisoners found the girl slumped against the fountain rim, her lens beside her, not a mark on her. No one could say what had stopped her.",
+          "In the trial court, a prisoner opened the girl's hand the way the girl had opened theirs. Scorched into her palm was a second palm, fingers and all. {WITCH_NAME} held her own hand open beside it, the first time she'd let anyone look. Then the prisoners understood: her current had gone in through that clasp, and she had held on to leave her hand in the girl's."
+        ],
+        "epitaph": "She left what was wrong with her in the one hand that had wanted to hold hers.",
+        "epithet": "The Girl with a Fault No One Could Find",
+        "execution": [
+          "The execution stand raises a reading lens as wide as the court, with a blazing lamp burning above it. She lies strapped flat under the lens, her hand held open, palm up. The lens gathers the light into one white point in the middle of her palm. Then it tilts, and the point moves slowly up her arm, over her face and across her chest. Wherever it lingers, smoke rises. At last the point comes back to rest in her open palm. It stays there, smoking, and her hand no longer twitches."
+        ],
+        "magic": {
+          "name": "Live Wire",
+          "text": "She carries live lightning in her skin and lets it loose into anything she touches or points at."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Concealer",
+  "copingSub": "CO-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Concealer",
+  "tag": "ED-1_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} once held up her burned palm to her mother, who was rocking the feverish baby. \"Not now. You're my easy one.\" She held the burn under the yard pump alone and smiled from then on. If she always looked fine, no one had to turn away.",
+          "A girl kept the lounge fireplace. Having nursed six little brothers by the stove at home, she tended every small hurt. Each evening {WITCH_NAME} handed her the logs; at nine, once the showers emptied, the girl carried the ash down alone.",
+          "One evening {WITCH_NAME} burned her wrist on the grate and held it out, smiling. The girl glanced at it—\"You're fine. You always are.\"—then knelt to wipe a crying girl's grazed knee.",
+          "At ten to nine, {WITCH_NAME} left a smiling likeness of herself in the corner seat by the door, its burned wrist tucked by the cushion, and went down to wait for the ash. At nine, the girl knelt and knotted her wet handkerchief around that wrist. \"Sorry about before.\" The likeness only smiled as the girls looked on. At five past, she banked the fire, said goodnight to everyone, and took the iron ash pail down.",
+          "In the shower room, as she bent to open the garbage chute, {WITCH_NAME} struck the back of her head with the pail until she lay still. At twenty past nine she sat back into her likeness, and it was gone. The girls still faced the fire.",
+          "At dawn the girl was found dead by the chute. In the trial court, the prisoners agreed: {WITCH_NAME} had sat smiling in her corner from before the girl tended her until lockup, and every girl who went out had passed her knees. But a prisoner found the handkerchief in her seat cushion, still knotted in a loop too small to slip over a hand. Her burned wrist was bare. The knot had held her likeness, which vanished out of it; she was gone before the girl went down."
+        ],
+        "epitaph": "When someone finally knelt to tend her, she had left nothing there but her smile.",
+        "epithet": "The One Who Was Always Fine",
+        "execution": [
+          "The execution stand raises an iron yard pump over a deep iron trough. She sits on the trough floor, her wrists knotted down beside her with white handkerchiefs. The pump handle begins to work up and down by itself. Cold water gushes out, first over her burned wrist. It climbs past her chin, then over her smiling face. The handle comes to rest. Above her, the water in the trough goes still."
+        ],
+        "magic": {
+          "name": "Still Smiling",
+          "text": "She can leave a lifelike, smiling likeness of herself in her place and walk away."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

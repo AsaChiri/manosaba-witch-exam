@@ -10,19 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Before supper, {WITCH_NAME} drew in a notebook on her knees, beside a girl with her own paper and pencil. A prisoner nearby saw one loose line complete a flower. The girl praised it. {WITCH_NAME} called it an accident and began closing the book. As the prisoner left for the dining hall, the girl said they would follow.",
-          "Then the girl turned back to a page that looked blank. Her fingertip caught the grooves of earlier attempts. {WITCH_NAME} said she had hidden them because they were private and asked for the notebook. The girl kept it. That effort deserved praise too; she would show everyone at supper.",
-          "{WITCH_NAME} arrived alone, carrying the notebook. She said the girl had returned it and stayed behind. When the girl never came, the prisoner went back and found her dead on the sofa, her chest pierced by a sword. All the swords hung clean on the wall.",
-          "A damp, pale cloth wiped over the blades lifted blood from one of them. The prisoner also felt a row of dried droplets on the outside of {WITCH_NAME}'s clean-looking cuff. A second wipe revealed blood there too: spray from withdrawing the sword, rather than a smear from touching the body. She had stabbed the girl, hidden the blood without removing it, and returned the sword before taking her notebook to supper."
+          "At eleven, {WITCH_NAME} turned a wrong note into a piano run so lovely the hall applauded. The whole town came back to hear it; she sat, hands in her lap, under every eye.",
+          "Every evening until the doors locked, a girl sat at the upper railing watching the courtyard. The stone cells had no sky, she said. Hers was the only look {WITCH_NAME} let rest on her.",
+          "Without looking up, she would touch the spot where that look landed, and girls glancing up always found the girl watching. The courtyard knew the game.",
+          "One evening she slipped on the fountain's wet rim and caught herself in a perfect spin. Only the girl above saw, and clapped.",
+          "Next evening the girl called down, \"Show them the spin!\" The courtyard turned; every gaze landed on her skin at once. She stood by the fountain with her hands at her sides, the way she had once sat under the whole town's eyes. The girl laughed. \"Tomorrow, then. We'll all wait.\"",
+          "At twenty past nine, feeling no gaze, {WITCH_NAME} knelt behind her at the rail and pressed one hand over her eyes, the other over her mouth and nose, until the girl went still. She left her slumped over her folded arms, came down unwatched and stood in the dark under the tree.",
+          "At ten to ten, someone started upstairs to wake the dozing girl. Under the tree, {WITCH_NAME} touched her cheek without looking up: she's watching me. The girls glanced up at the shape at the rail and went in with her.",
+          "At six the girl was found slumped at the rail. At trial, the prisoners ruled she was alive and watching at ten to ten and killed after they went in, while {WITCH_NAME} was locked in with them.",
+          "A prisoner sat in the girl's place and looked down. The tree's leaves hid where {WITCH_NAME} had stood; no look from the rail could reach her. She had touched her cheek for a girl already dead."
         ],
-        "epitaph": "One hesitant pencil line remained on the open page.",
-        "epithet": "The Inspection Called Praise",
+        "epitaph": "At last she stood where no eye could reach her, and still she lifted her hand for the one look she had ended.",
+        "epithet": "Dread of the Encore",
         "execution": [
-          "A transparent glass drum closed around her and began turning. She tumbled against its wall, each side of her body brought into view before she could hold a pose. Water poured in. The drum filled and kept rolling her underwater until her struggles stopped."
+          "In the trial court, the execution stand raises a giant upright piano with its front open. Her wrists are wound into the bass strings, and the row of hammers hangs raised before her chest. The run begins. The giant hammers swing into her one after another, and each note comes out dull where she hangs. The piano plays her lucky run through to its last note without a slip, all the spectators' eyes on her. The hammers settle back. She hangs still among the strings."
         ],
         "magic": {
-          "name": "Vanishing Traces",
-          "text": "She can hide or reveal visible marks on an object she touches."
+          "name": "The Touch of Eyes",
+          "text": "She feels every gaze on her as a light touch, right where it lands."
         }
       },
       "variant": 1

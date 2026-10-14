@@ -10,23 +10,21 @@
     {
       "fields": {
         "crime": [
-          "At her fourth foster home, the foster mother held {WITCH_NAME}'s shoulders from behind at the hall mirror and said, \"You fit right in here.\" Within the month, she was sent back.",
-          "The prison's only mirror stood tall in the shower room. There, every evening, a prisoner who had learned hairdressing in her aunt's salon cut the girls' hair. Whenever she reached for {WITCH_NAME}'s hair, {WITCH_NAME} vanished into the glass.",
-          "At seven, the hairdresser took her by the shoulders from behind at the mirror. \"You fit right in here. Tomorrow I'm cutting your hair.\" {WITCH_NAME} slipped from her hands into the glass as the waiting girls watched.",
-          "At twenty past, as the last girl left, the hairdresser ran every hot shower to rinse the cut hair from the tiles, and the mirror fogged white. At half past, she wiped a wide band clear with a towel so {WITCH_NAME} could come out.",
-          "{WITCH_NAME} stepped out through it behind the hairdresser's turned back, took the cutting cape laid out for her own haircut, and twisted it round the hairdresser's neck until she was still. Then she wiped the misting band and stepped back into the glass; the steam whitened it behind her.",
-          "At ten to eight, a prisoner found the hairdresser dead on the tiles, the showers running, the mirror white. At twenty past eight, as the glass cleared, {WITCH_NAME} stepped out before everyone.",
-          "In the trial court, the prisoners ruled that she had been sealed behind the fog: fogged glass is no door, so someone must have come in by the door.",
-          "Then a prisoner noticed a wiped band on the dried mirror, with drip trails cut through the film the steam had left. The prisoners realized the fog had been wiped clear while the showers ran. {WITCH_NAME} had stepped out and strangled the hairdresser."
+          "{WITCH_NAME}'s fourth foster mother stood behind her at the hall mirror, hands on her shoulders. \"You fit right in here.\" She was sent back within the month.",
+          "In the prison, a girl who had learned the trade in her aunt's salon cut the prisoners' hair every evening at the tall mirror in the shower room, the only mirror in the prison. Whenever the hairdresser reached for {WITCH_NAME}'s hair, she stepped into the glass.",
+          "At seven one evening, the hairdresser held her shoulders from behind at the mirror. \"You fit right in here. Tomorrow I'm cutting your hair.\" {WITCH_NAME} stepped into the glass out of her hands, and the girls waiting in line watched her go.",
+          "At seven-twenty, as the last of them left, the hairdresser turned on every hot shower to rinse the cut hair from the tiles, and the mirror fogged white. At seven-thirty she toweled a wide band clear so {WITCH_NAME} could come out. She came out through it, behind the hairdresser's turned back, took up the cutting cape laid out for her own haircut, twisted it around the girl's neck and held on until she was still. Then she wiped the misting band and stepped back into the glass. Steam whitened it behind her.",
+          "At seven-fifty a prisoner found the hairdresser dead on the tiles, the showers running, the mirror white. Only at eight-twenty, as the glass cleared, did {WITCH_NAME} step out in front of everyone.",
+          "In the trial court, the prisoners ruled that she had been sealed behind the fog. Fogged glass is no door; someone must have come in by the real one. Then a prisoner looked at the mirror once it had dried and saw a wiped band, with drip trails running down through the haze the steam had left. The prisoners realized the fog had been wiped open while the showers ran. {WITCH_NAME} had stepped out and strangled the hairdresser."
         ],
-        "epitaph": "She never understood that the hand wiping the glass clear was asking her to stay.",
+        "epitaph": "She never understood that the hand clearing the glass was asking her to stay.",
         "epithet": "The Girl Whose Only Home Was the Glass",
         "execution": [
-          "In the trial court, the execution stand raises a tall, ornate iron frame made for a hall mirror, with no glass in it. Iron hands grip her shoulders from behind and set her into it. You fit right in here. The sides of the frame close in on her ribs, tighter and tighter, until she fits exactly. She hangs still inside it, fitted like a reflection in an empty frame."
+          "On the execution stand, four tall mirrors swing shut around her, glass facing outward, and lock into a sealed pillar. Their silvered backs press against her shoulders and palms; on her side there is no glass at all. The spectators look at the pillar and see themselves in every pane, the whole court and not her. From behind the glass comes a knocking. It slows, then stops, and the pillar is silent."
         ],
         "magic": {
-          "name": "The Quiet Side of the Glass",
-          "text": "She can step through a mirror into a silent, reversed copy of the room, empty of everyone else."
+          "name": "Behind the Glass",
+          "text": "She steps through mirrors into a silent, reversed copy of the world, empty of everyone else."
         }
       },
       "variant": 1

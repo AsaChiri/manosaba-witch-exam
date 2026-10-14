@@ -10,27 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Every evening at hot-water hour, a prisoner sings alone in the soundproof shower room. Her only listener is {WITCH_NAME} on the bench, passing notes the singer always answers.",
-          "The singer brings the girls in to sing along and pulls {WITCH_NAME} into the song. She misses her cue by a beat. The girls laugh, and she laughs along instead.",
-          "Once, at a school concert, she sang a line alone, a beat after the choir stopped. The hall laughed. She has not sung since.",
-          "In her cell she writes, \"Can it be just us again?\" Before she sends it, the singer's hand answers beneath: \"No. From now on everyone sings after dinner. You too. You'll catch the beat. I'll wait for you.\" She folds it shut at the first word and never sends it.",
-          "The next evening, the singer steps out of the spray singing, eyes shut. From behind, {WITCH_NAME} twists the towel around her throat until the song stops.",
-          "In the dining hall, the prisoners want to ask if the singer is coming, but her phone is on her bunk, as always when she showers. {WITCH_NAME} has sat with them the whole meal, so they ask her to write instead. She writes in her notebook and turns it to them. Under \"Are you coming to dinner?\" is the singer's hand: \"Save me bread. I'm staying in till you all come to sing.\" They save her bread, sure she is still singing.",
-          "After dinner they carry the bread to the shower room to sing and find her on the tiles by the running shower, the towel twisted around her throat.",
-          "In the trial court, a prisoner turns past the singer's last answer: \"Are you coming to dinner?\" again, in {WITCH_NAME}'s hand, with nothing beneath. They see now: the singer answered every note, so a blank meant no answer would ever come. The page they saw was answered in the shower room, before {WITCH_NAME} killed her."
+          "Every evening when the hot water comes on, a prisoner sings alone in the soundproof shower room. Her only listener is {WITCH_NAME} on the bench, passing notes the singer always answers.",
+          "Then the singer brings the girls in to sing and pulls {WITCH_NAME} into the song. She comes in a beat late; the girls laugh, and she laughs along. At school she sang a line alone, a beat after the choir stopped. The hall laughed. This is her first song since.",
+          "In her cell she writes, \"Can it be just us again?\" Before she sends it, the reply surfaces beneath in the singer's hand: \"No. From now on everyone sings after dinner. You too. You'll catch the beat. I'll wait for you.\" She folds it shut at the first word and never sends it.",
+          "Next evening at hot-water time, the singer steps out of the spray singing, eyes shut. {WITCH_NAME} twists the girl's towel around her throat from behind until the song stops.",
+          "The singer's phone is on her bunk, as always when she showers, so in the dining hall the prisoners ask {WITCH_NAME} to write and see if she's coming. She writes in her notebook and turns it to them. Under \"Are you coming to dinner?\" is the singer's hand: \"Save me bread. I'm staying in till you all come to sing.\" They save her bread, sure she's still singing. {WITCH_NAME} has sat with them since before they asked.",
+          "After dinner they take the bread to the shower room to join the singing, and find the singer on the tiles by the running shower, the towel twisted around her throat.",
+          "In the trial court, a prisoner reading that last answer turns the page: \"Are you coming to dinner?\" again, in {WITCH_NAME}'s hand, nothing beneath. The singer answered every note, they realize; a blank meant no answer would ever come. The page they saw was answered in the shower room before {WITCH_NAME} killed her."
         ],
         "epitaph": "She read the answer before she ever asked, and still stopped at its first word.",
-        "epithet": "One Beat Behind Everyone",
+        "epithet": "One beat behind everyone",
         "execution": [
-          "The execution stand raises an iron choir on tiered risers. She is chained upright at their foot, her back against an iron post.",
-          "The choir sings in unison, and on every beat it steps down one riser.",
-          "She sings for the first time since the concert, every note a beat after theirs.",
-          "The front row meets her chest. With each beat, the rows behind press it in harder.",
-          "The choir holds its last chord. She stands pinned and still. Her late note never comes."
+          "In the trial court, the execution stand raises a long dining table, a giant steel-nibbed pen poised above it. She lies flat along the table, tied down with twisted paper cords. Written on the table above her head: \"Can it be just us again?\"",
+          "The pen begins writing beneath the question, line by line, down her body. She reads every line as it surfaces. Each stroke cuts through her clothes and into her, and the lines fill red.",
+          "After the last line, the pen lifts. She lies still beneath a finished answer."
         ],
         "magic": {
-          "name": "The Reply Beneath",
-          "text": "Before she sends a note, its reply surfaces beneath her words in the recipient's own handwriting."
+          "name": "The Unsent Reply",
+          "text": "Before sending a note, she sees the reply surface beneath it in the recipient's own handwriting."
         }
       },
       "variant": 1

@@ -10,23 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Every dusk in the courtyard, {WITCH_NAME} raised her bare forearms, turned them to steel, and let a prisoner swing full cuts at them. The swordswoman was due to fight in a national tournament, and the ring of blade on steel carried across the courtyard to the lounge. When practice ended, she sat on alone against the tree until dark.",
-          "{WITCH_NAME} had grown up at her grandfather's anvil, judging steel by its ring. When he died, her mother sold the forge and all his blades. \"Nobody here wants to hear a girl talk about steel.\" She never spoke of steel again.",
-          "One dusk, she ran her thumb along the notches all those cuts had left near the tip of the sword, and for the first time she spoke of steel. \"My grandfather could have saved this edge.\"",
-          "The swordswoman laughed and raised the sword again. \"It's only for swinging. You just be my wall.\"",
-          "{WITCH_NAME} stepped inside the cut and pressed the girl's face against her steel shoulder. The sword fell. Fists beat uselessly on steel, and she held on until the girl stopped.",
-          "She left the body sitting against the tree where the swordswoman always rested. Then she took up the sword and struck her own forearm in the practice rhythm, and the familiar ringing went on until the hour practice always ended. Moments after the last ring, she walked into the lounge and sat among the prisoners until the body was found at dark.",
-          "In the trial court, the prisoners ruled that the swordswoman had been smothered where she sat, after {WITCH_NAME} came in: the ringing had run until moments before she walked through the door.",
-          "Then a prisoner found fresh, bright nicks on the blade a hand's width from the guard, where no full cut ever lands. The court understood. {WITCH_NAME} had struck her own steel arm to ring out a practice for a dead girl."
+          "One girl was due to fight in a national tournament. Every dusk in the courtyard, {WITCH_NAME} raised her bare forearms and turned them to steel, and the girl practised full cuts on them with her sword. The ringing carried across the courtyard into the lounge. Afterward the girl would sit alone against the tree until dark.",
+          "{WITCH_NAME} had grown up at her grandfather's anvil, judging steel by its ring. When he died, her mother sold his forge and his blades. \"Nobody here wants to hear a girl talk about steel.\" {WITCH_NAME} never spoke of steel again.",
+          "One dusk, she ran her thumb along the notches the girl's cuts had left near the sword's tip, and spoke of steel for the first time since. \"My grandfather could have saved this edge.\"",
+          "The girl laughed and raised the sword again. \"It's only for swinging. You just be my wall.\"",
+          "{WITCH_NAME} stepped inside the cut and pressed the girl's face against her steel shoulder. The sword fell. The girl's fists beat uselessly on steel, and {WITCH_NAME} held on until she stopped.",
+          "She left the girl against the tree in her usual place. Then she took the sword and struck her own forearm in the practice rhythm, and the familiar ringing went on for as long as practice always lasted. Moments after the last ring, she walked into the lounge and sat among the prisoners until the body was found at dark.",
+          "In the trial court, the prisoners went by the ringing. It had gone on until moments before {WITCH_NAME} walked into the lounge, so they ruled that the girl had been smothered where she sat, after {WITCH_NAME} joined them. Then one prisoner found fresh, bright nicks on the sword a hand's width from the guard, where no full cut ever lands. The prisoners understood: {WITCH_NAME} had struck her own steel arm, ringing out a practice for a girl already dead."
         ],
-        "epitaph": "Every dusk, someone came to make her ring, and all she ever heard was \"wall.\"",
+        "epitaph": "Every dusk someone came to make her ring, and all she ever heard was \"wall.\"",
         "epithet": "The Wall That Rang",
         "execution": [
-          "The execution stand raises her grandfather's forge, grown to giant size. Great tongs close around her waist and hold her above the hearth. They lay her into the coal bed as the bellows breathe it white. She hardens and beats at the tongs, and every blow rings out clear over the silent court. At last the ringing stops. The tongs hold her still in the dimming coals, and the bellows sigh to rest."
+          "The execution stand raises a forge grown to giant size. Its great tongs close around her waist and lift her above the hearth, then lay her into the coal bed as the bellows breathe it white. She hardens and beats at the tongs, and every blow rings out clear over the silent court. The tongs hold her still in the dimming coals. The ringing stops, and the bellows sigh to rest."
         ],
         "magic": {
           "name": "Living Steel",
-          "text": "She can turn her body to living steel that no blade, blow or fall can hurt."
+          "text": "She can turn her body to living steel at will, and no blade, blow or fall can hurt her."
         }
       },
       "variant": 1

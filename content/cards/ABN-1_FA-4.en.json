@@ -10,25 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every evening, one prisoner read with a cup of tea under the unwilting cherry tree in the library, and every evening she dozed off. {WITCH_NAME} sat beside her. Each time the cup slipped, she had already seen its double fall, and she caught the real one.",
-          "One evening during free time, the girl asked her not to come in that night. \"Let me doze off and drop it, just once.\" As the girl went into the library, {WITCH_NAME} saw her double shut the door on her, seconds before the real door closed.",
-          "She had seen that once before. At supper, while her father still sat laughing with her, his double rose from the table and walked out the door. He followed it out and never came back.",
-          "Late in free time, she crossed the second-floor hall unseen, to the library door and later back again. She watched the prisoners' doubles instead of their faces and stepped only when each double had looked away.",
-          "Inside, she drove the girl's temple against the corner of the table until she lay still. The cup fell from the girl's hand, and {WITCH_NAME} caught it before it hit the floor. She set it down beside her, upright and full.",
-          "In the trial court, the prisoners testified that they had sat in the second-floor hall all evening in sight of the library door, from the moment the girl went in until lockup. No one had gone in after her. The court ruled that she had stumbled alone, half asleep, into the table corner.",
-          "Then one prisoner spoke of what she had noticed in the library: the cup stood upright on the floor beside the girl, full, without a drop spilled.",
-          "\"She caught it,\" someone said, \"the way she always did. And she slipped past us every time we looked away.\""
+          "Every evening, one prisoner read with a cup of tea under the unwilting cherry tree in the library, and every evening she dozed off. {WITCH_NAME} sat beside her. Whenever the cup slipped from the girl's hand, {WITCH_NAME} had already watched its translucent double fall, and she caught the real cup in midair.",
+          "One evening during free time, the girl stopped her at the library door. \"Don't come in tonight. Let me doze off and drop it for once.\" {WITCH_NAME} saw the girl's double shut the door on her; seconds later, the real door closed.",
+          "Once, at supper, she had seen her father's double get up and walk out the door while he still sat there laughing with her. He followed it out and never came back.",
+          "Late in free time that evening, she crossed the second-floor hall to the library door unseen, stepping only when each prisoner's double looked away, and later returned the same way. In the library, she drove the girl's temple against the corner of the table until the girl lay still. The cup fell. She caught it before it hit the floor and set it down beside the body, upright and full.",
+          "The prisoners testified that they had sat in sight of the library door all evening, from the moment the girl went in until lockup, and no one had gone in after her. In the trial court, the prisoners ruled that she had stumbled alone, half asleep, into the table corner.",
+          "Then one prisoner remembered what she had noticed in the library: the cup standing upright on the floor, full, without a drop spilled. They understood. {WITCH_NAME} had caught it, as she always did, and slipped through the gaps between their glances."
         ],
-        "epitaph": "All anyone ever asked her to let fall was a cup.",
+        "epitaph": "All she was ever asked to let fall was a cup.",
         "epithet": "Hands That Let Nothing Fall",
         "execution": [
-          "In the trial court, the execution stand raises an iron doorframe hung with a heavy iron door. She is chained upright against its latch post.",
-          "Before the door moves, she watches its double swing shut on her. Seconds later, the real door follows. It closes on her and keeps pressing, pinning her chest against the frame.",
-          "At last the door stands shut, and she hangs still between it and the frame."
+          "An iron doorframe rises from the execution stand, hung with a heavy iron door. She is chained upright against the latch post. She watches the door's double swing shut on her first. Then the iron door swings shut on her and keeps pressing, pinning her chest against the frame. The door stands shut. She hangs still between door and frame."
         ],
         "magic": {
           "name": "Foreshadow",
-          "text": "She sees a translucent double ahead of every moving person and thing, already doing what it will do seconds later."
+          "text": "She sees a translucent double of every moving person and thing, already doing what it will do seconds later."
         }
       },
       "variant": 1

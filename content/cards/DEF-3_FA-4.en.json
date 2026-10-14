@@ -1,0 +1,36 @@
+{
+  "cell": "DEF|Fantasist",
+  "copingSub": "FA-4",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Fantasist",
+  "tag": "DEF-3_FA-4",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Each afternoon a girl took her sketchbook into the forest to draw the birds and always got lost among the trees. At three, {WITCH_NAME} would lead her out by the hand.",
+          "On the way out one day, {WITCH_NAME} told her about a frozen pond. On the ice with her little brother, she had seen a dark patch and pictured letting go of his hand. She walked him the long way round instead and told her mother, who took his hand from hers and never let her walk him again. \"Something in me wants to let go.\"",
+          "The girl tied her red ribbons from tree to tree, from the forest edge to her log. \"Now your hand never has to hold anyone again.\" At three, she walked out alone along them.",
+          "At one-forty the next day, she left the lounge with her sketchbook as always, for the half-hour walk to her log. {WITCH_NAME} was waiting at the first ribbon. She held out her hand; the girl walked past it. {WITCH_NAME} picked up a fallen branch and beat her with it until she lay still.",
+          "Carrying her, {WITCH_NAME} turned off the ribbons into the wrong trees and, by her Magic, stepped out beside the log and laid the girl on the leaves. She walked into the lounge just before two; minutes later, rain began on the windows. She sat with the others until three.",
+          "After three, the prisoners followed the ribbons half an hour into the rain-soaked trees and found the girl struck down beside her log, her sketchbook open. She must have reached it after two and been struck there, they said; {WITCH_NAME} had been with them since before the rain.",
+          "One of them lifted the girl. The leaves under her were dry, in the shape of her body. In the trial court they understood: she had lain there before the rain, when no one on foot could yet have reached the log, and only {WITCH_NAME}'s wrong turns could carry a girl there in minutes."
+        ],
+        "epitaph": "She spent her life afraid of letting go; it was holding on she should have feared.",
+        "epithet": "The Girl Who Never Lets Go",
+        "execution": [
+          "The execution stand raises a slab of pond ice to the ceiling of the trial court, a dark hole at its center. She hangs beneath it by her hands, gripping the rim of the hole.",
+          "The rim is wet. Her fingers slide on it and open, one by one. She lets go and drops the full height to the stone.",
+          "She lies still on the stone beneath the hole, melt water dripping into her open hand."
+        ],
+        "magic": {
+          "name": "No Wrong Turns",
+          "text": "She can take any wrong turn and still step out exactly where she meant to go."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

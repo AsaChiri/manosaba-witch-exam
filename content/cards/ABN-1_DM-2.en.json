@@ -1,0 +1,34 @@
+{
+  "cell": "ABN|Doomer",
+  "copingSub": "DM-2",
+  "family": "ABN",
+  "locale": "en",
+  "originSub": "ABN-1",
+  "style": "Doomer",
+  "tag": "ABN-1_DM-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her mother used to say, \"Don't wait up,\" and came home later every night. {WITCH_NAME} watched the window until dawn anyway. One night her mother never came home.",
+          "In the prison, her roommate swam laps along the lake shore every evening, counting her strokes out loud, while she waited on the shore holding her roommate's towel.",
+          "Every night in their cell, she used her Magic to make the girl in the upper bunk vanish, then lay awake in a room that, to her, was empty.",
+          "One cold evening her roommate called from the water, \"Don't wait for me. Go on in, it's cold,\" and swam out for a longer lap. She stayed sitting on the shore with the towel and made her vanish. She saw still water. She heard no counting.",
+          "When the light began to go, she let her roommate back into sight. The girl was lying face down in the reeds, one arm stretched toward the shore. She dragged her out by the wrists and came back soaked to the chest.",
+          "In the trial court she told the prisoners she had made her roommate vanish and heard nothing. No one believed her. A strong swimmer had drowned right in front of where she sat, so they convicted her of holding her under.",
+          "She never touched her. Out of her depth, thirty strokes from where {WITCH_NAME} sat, her roommate's leg had cramped. She called {WITCH_NAME}'s name, and drowned."
+        ],
+        "epitaph": "She rehearsed losing her every night; the real loss came in the middle of a rehearsal.",
+        "epithet": "The Girl Who Rehearses Goodbyes Before They're Said",
+        "execution": [
+          "The towel, grown as big as a sail, rises from the execution stand on a winding bar. She is tied along the edge nearest the bar. The bar turns, rolling her up inside the towel turn by turn, each turn tighter around her chest. The last fold closes over her eyes and ears, and there is nothing left to see or hear. The towel strains taut against its pinned edge, then stops. The roll lies still."
+        ],
+        "magic": {
+          "name": "Gone to Me",
+          "text": "She can make people and things around her vanish from her own sight and hearing, and no one else's."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

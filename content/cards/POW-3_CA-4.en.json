@@ -10,18 +10,23 @@
     {
       "fields": {
         "crime": [
-          "One girl kept taking over {WITCH_NAME}'s chores, telling the others she could not cope with clearing tables, sweeping, or fetching deliveries. Soon no one trusted her with a task. At dinner the girl even took the tray from her hands and carried it to her seat.",
-          "The next morning, {WITCH_NAME} waited beside the foot of the stairs leading to the cells. As the girl stepped over the first stair, she showed her the whole fall in a sudden vision. The girl recoiled with her weight already forward, lost her balance, and fell down the flight to her death.",
-          "The prisoners had called the feeling near {WITCH_NAME} a strange chill. Asked about it afterward, they described seeing disaster just before a risky movement, always under her gaze. The girls at the stairs had seen her watching the victim at the instant she recoiled. The fall had begun with the same frightened movement."
+          "Every night, {WITCH_NAME}'s roommate talked from the lower bunk until she talked herself to sleep, and {WITCH_NAME} drifted off on the bunk above to the sound of her voice.",
+          "Then one night at lockup, the roommate swallowed her first dose of sleeping drug. \"So I'll stop keeping you up,\" she said. \"You'll manage.\" She turned to the wall and pulled the blanket over her head.",
+          "Back home, {WITCH_NAME}'s mother had swallowed her sleeping pill at eight every night and said, \"You'll manage.\" Then she left her daughter till morning with the crying baby, the pot boiling over and the washing. {WITCH_NAME} stood in the kitchen until dawn and started none of it.",
+          "Before the cell doors opened, {WITCH_NAME} climbed down from the top bunk and held the blanket over her roommate's face until the girl lay still.",
+          "At six the doors opened. The prisoners gathered at the bars, calling the roommate to breakfast, with {WITCH_NAME} standing in the doorway among them. On the lower bunk, a hand rose from under the blanket and waved them off. Out in the cell corridor, one prisoner photographed the waving hand through the bars for the group chat, as she did every morning. {WITCH_NAME} went up to the dining hall with them and stayed there until ten. When they came back down, they found the roommate dead under the blanket.",
+          "In the trial court, the prisoners concluded she had been killed after six, while the cell stood open. {WITCH_NAME} had been upstairs with them the whole time.",
+          "Then a prisoner enlarged the morning photo on her phone. Every girl at the bars cast a shadow into the cell. None lay at {WITCH_NAME}'s feet. Her shadow had been under the blanket, raising the dead girl's hand. The roommate had died before the doors ever opened."
         ],
-        "epitaph": "She could show anyone an ending, but never take her own first step.",
-        "epithet": "Surrounded by Ways Out",
+        "epitaph": "The only thing she ever managed on her own was keeping a dead girl alive one more morning.",
+        "epithet": "The girl left alone with everything at once",
         "execution": [
-          "A platform stood above a deep pit, with sturdy plank bridges leading to safe ledges around it. She looked from one bridge to another without taking a step. The platform dropped, and she fell to the bottom. Every bridge remained in place."
+          "The execution stand raises a washtub as big as a room, with a baby bath, a soup pot and a wash bucket tilted over its rim. On its floor, she is tied at the waist to a washboard with a washing line.",
+          "The baby bath tips first. Before it runs dry, the soup pot tips, and before the pot is empty, the bucket follows. The water climbs past her chin and closes over her face. She reaches one hand up out of the water. No hand takes it. Her hand sinks under, and the water stills beneath the last drip."
         ],
         "magic": {
-          "name": "the Worst Case",
-          "text": "She can show someone the worst possible outcome of an action they intend to take."
+          "name": "Shadow Company",
+          "text": "She peels her shadow up off the floor into a solid figure that works beside her."
         }
       },
       "variant": 1

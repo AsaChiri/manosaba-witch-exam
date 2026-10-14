@@ -10,21 +10,26 @@
     {
       "fields": {
         "crime": [
-          "Every evening a girl watched the dusk from the upper railing, and before going in she called good night down to {WITCH_NAME}. {WITCH_NAME} sat in her corner of the courtyard behind walls she had hardened out of empty air, and her only answer was to turn her back.",
-          "One evening the girl called down one last time. \"Good night. You never answer, so I'll stop.\"",
-          "{WITCH_NAME}'s mother used to say good night through her door every night. One night she said nothing, and by morning she was gone.",
-          "At the next dusk, while the others were at supper, {WITCH_NAME} sealed the girl inside invisible walls at the upper railing and watched through them until she stopped moving. Walls made by her Magic stood until she let them go, so she left them standing and went down. She sat in her walled corner of the courtyard in plain sight of everyone until she walked in with them.",
-          "All evening the prisoners saw the girl standing at the railing, silent, just as she had promised. As they went in before lockup, {WITCH_NAME} called good night up to her and let the walls go. The prisoners saw the girl step back from the railing, alive, while {WITCH_NAME} was down among them. Minutes later they found her dead beneath the railing.",
-          "In the trial court, one prisoner noticed flat, straight-edged marks on the girl's cheek and palms, as if she had been pressed against glass where no glass stood. Then they understood: the girl had stood dead inside the walls all evening, and she fell at the good night."
+          "Each morning in the lounge, one girl braided everyone's hair and tucked in a flower she picked in the field. At home she had done her five little sisters' hair before school. Each morning she asked {WITCH_NAME} too and was snapped at.",
+          "When it rained, {WITCH_NAME} walked to the flower field alone under a roof of hardened air. Rain sheeted off its invisible edges; no one followed.",
+          "One rainy morning, as the doors unlocked, the girl ducked under that roof and walked out with her. There she braided {WITCH_NAME}'s hair, tying it off with her ribbon and a flower. \"Just once. No one can see us out here.\"",
+          "{WITCH_NAME}'s mother had braided her hair once, on her last night home, tying it with her own ribbon. By morning she was gone, the ribbon still in her daughter's hair. Anyone who turned gentle all at once was already leaving.",
+          "{WITCH_NAME} pulled the ribbon from her braid, looped it around the girl's throat and held on until the girl lay still, face down on the soaked ground. She walked back under a new roof and left the first standing over the body, rain still sheeting off it onto the flowers.",
+          "She came to breakfast in the dining hall before the rain stopped, dry as always, and sat with the girls until the body was found.",
+          "The rain stopped, the girl never came to braid, and the prisoners found her face down among the flowers, strangled with her own ribbon, back dry, front soaked. They assumed she had gone out after the rain, when {WITCH_NAME} was already at breakfast.",
+          "Picking flowers for her there, a prisoner found four straight furrows beaten into the mud around the spot, like drip lines under a roof that wasn't there. At trial they saw it: a roof had shed the rain around her as it fell. She had died in the rain, under a roof {WITCH_NAME} left behind."
         ],
-        "epitaph": "She answered only one good night, and it was the one that let the girl fall.",
-        "epithet": "The Wall That Never Says Good Night",
+        "epitaph": "It was never goodbye. She would have braided it again tomorrow.",
+        "epithet": "Hair No Gentle Hand May Braid",
         "execution": [
-          "In the trial court, the execution stand raises a tall iron door in its frame. She kneels in chains with her neck in the doorway. An iron mother says, \"Good night,\" and pushes the door shut. Its edge closes on her throat, pinning it to the frame, and presses until she stops moving. She hangs still in the shut door, and no voice comes from behind it again."
+          "From the top of the trial court, the execution stand lowers a giant braid of hair. Its tip is plaited around her ankles and tied off with a ribbon, and she hangs from it head down.",
+          "The braid plaits itself tighter, twist by twist, winding her up to the top of the court.",
+          "Then it comes undone, strand by strand, from the top down. The last strands loosen around her ankles and let her go. She drops headfirst onto the stone floor.",
+          "The ribbon drifts down onto her still body. Above her, only the loose hair sways."
         ],
         "magic": {
-          "name": "Walls of Nothing",
-          "text": "She can harden empty air into invisible walls solid enough to stop anyone."
+          "name": "Walls of Thin Air",
+          "text": "She hardens the air around her into invisible walls no one and nothing can push through."
         }
       },
       "variant": 1

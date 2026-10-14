@@ -10,24 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Every evening, one of the prisoners walked the long path around the lake to draw the mansion's lights from the far shore. And every evening, {WITCH_NAME} used her Magic to run straight across the water, her feet never sinking, to sit beside her.",
+          "Every evening, a girl walked the long path around the lake to draw the lights of the prison from the far shore, and {WITCH_NAME} ran straight across the water to sit with her.",
           "One evening at seven, by the lake, the girl handed her the sketchbook full of those lights. \"You keep it. I've drawn it enough.\"",
-          "{WITCH_NAME}'s mother had given away her things one by one, her coat to a neighbour, her books to her daughter, and then one morning she was gone. People hand out what they own before they go.",
-          "There by the lake, she strangled the girl with her scarf until she was still. Then she picked her up and ran across the lake with her, and sat her down in her spot on the far shore, facing the mansion's lights, where she always drew.",
-          "At ten past seven, {WITCH_NAME} came back into the lounge and stayed among the prisoners all evening. They had watched the girl leave the lounge at five to seven for the long lake path, twenty minutes on foot to her spot. So in the trial court, the prisoners ruled that she had walked there and been strangled where she sat, by which time {WITCH_NAME} was already back among them.",
-          "Then one prisoner turned over the dead girl's shoes. The soles were clean, without a single one of the pine needles the lake path leaves on everyone who walks it. The prisoners understood: she had never walked the path. {WITCH_NAME} had carried her across the water before ten past seven."
+          "{WITCH_NAME}'s mother had once given her things away one by one: her coat to a neighbour, her books to her daughter. Then one morning she was gone. People hand out what they own before they leave.",
+          "{WITCH_NAME} pulled the girl's scarf tight around her neck and held it until the girl went still. Then she used her Magic: carrying the girl, she ran across the lake and sat her down on the far shore, facing the prison lights, where she always drew. At ten past seven she came back into the lounge and stayed among the prisoners all evening.",
+          "They had all seen the girl leave the lounge for the long lake path at five to seven, and her spot was twenty minutes away on foot. So in the trial court, the prisoners ruled that she had walked out there and been strangled at her spot, by which time {WITCH_NAME} was already back among them.",
+          "Then a prisoner turned over the dead girl's shoes. Nobody walks the lake path through the forest without coming back with pine needles stuck to their soles. Hers were clean. The prisoners saw it then: she had never walked the path. {WITCH_NAME} had carried her across the water before ten past seven."
         ],
         "epitaph": "It was only a sketchbook. She outran a goodbye that was never coming.",
         "epithet": "The Girl Who Runs Ahead of Every Goodbye",
         "execution": [
-          "The execution stand raises a deep, round iron pool with sheer walls. She stands on an iron plinth in the middle of the water. On the rim above her stands an iron mother.",
-          "The iron mother lowers an iron coat onto her shoulders. \"You keep it.\"",
-          "The plinth sinks from under her, and she runs out onto the water. It holds her up only while she keeps moving.",
-          "The iron mother walks away around the rim without looking back. She runs after her across the water and never gains.",
-          "At last she stumbles to a stop under the coat. The water gives way, and the coat drags her under. The water over her goes still, while the iron mother walks on around the rim."
+          "In the trial court, the execution stand opens a deep, round pool skinned with thin lake ice and ringed with the prison lights. It sets her down in the middle of the ice and lets go. She breaks into a run.",
+          "The ice holds her only as long as she keeps moving. She runs toward a light, and it goes dark before she reaches it. Then the next, and the next, each one out before she gets there.",
+          "In the dark, she stumbles to a stop. The ice gives way, and she drops through.",
+          "The black water goes still in the broken ice. Nothing rises under the dark ring."
         ],
         "magic": {
-          "name": "Water Strider",
+          "name": "Skipping Stone",
           "text": "She can run across water, thin ice or a taut rope as if it were solid ground."
         }
       },

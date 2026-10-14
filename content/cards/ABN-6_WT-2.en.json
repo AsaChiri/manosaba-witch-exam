@@ -10,21 +10,22 @@
     {
       "fields": {
         "crime": [
-          "A prisoner who could not sleep behind the cell bars spent her evenings asleep under the courtyard tree, wrapped in a blanket. {WITCH_NAME} sat beside her, brushing fallen leaves from her face. Her Magic let her hear the sleeping girl's heart quicken before she stirred, and each time she caught the girl's sleeve. At dusk she would come into the lounge and say, \"She's asleep. Her heart's slow as ever.\" Every night at lockup, the others found the girl just so.",
-          "One dusk, the girl pulled her sleeve free of {WITCH_NAME}'s fingers. \"You grab me every time I wake up. From tomorrow, I'm sleeping out here alone.\"",
-          "As a child, {WITCH_NAME} had fallen asleep with her ear on her mother's heart, but only on the nights her mother came home. Each time, she woke to an empty pillow. The warm ones leave while you sleep.",
-          "That dusk, as the girl drifted off, {WITCH_NAME} pressed a hand over her mouth and nose and held it there, listening, until the girl's heart stopped.",
-          "At eight that night, {WITCH_NAME}, who had sat in the lounge in full view of the others since dusk, cried out: \"Another heart is pounding out there beside hers, and now hers has stopped!\" The prisoners ran out and found the girl smothered under the tree. In the trial court, they ruled that she had been killed at eight by whoever owned that pounding heart, never by {WITCH_NAME}, who had sat among them.",
-          "But one prisoner had noticed the fallen leaves lying unbroken across the girl's lips and throat, a whole evening's fall. Then the prisoners understood. No hand had touched her at eight. She had died at dusk, when {WITCH_NAME} left her, and the heart she said she heard stop was a lie."
+          "Every evening until lockup, a girl who grew up sleeping round a mountain hut's stove naps by the lounge fireplace, letting {WITCH_NAME} sit by her and tap out her heartbeat.",
+          "One evening, as she drifts off, her heart quickens under {WITCH_NAME}'s ear. She takes the tapping hand: \"You don't have to count my heart. I'm not going anywhere.\"",
+          "{WITCH_NAME} once lay counting with a hand on her mother's chest. Her mother, home only some nights, said: \"You don't need to count. I'll be here.\" By morning her side of the bed was cold. Anyone who says that is already leaving.",
+          "At eight, hearing no other heart nearby, {WITCH_NAME} lays her ear on the sleeper's chest and presses a palm over her mouth and nose until the beat under her ear stops. She keeps tapping a slow, calm beat and feeds the fire. When the others return to cards, the girl's face is turned into her lap. For fun, they grip their own wrists as {WITCH_NAME} taps their pulses back, matching each beat, quickening with theirs.",
+          "At nine, a girl beats out an ember burning the sleeper's sleeve. The sleeper never stirs, and the tapping stays slow and calm; the girls laugh that she sleeps through anything. At nine-thirty, {WITCH_NAME} leaves her asleep and goes to the shower room with the others until lockup.",
+          "At ten to ten, the girl's roommate comes up to wake her and finds her not breathing, finger marks round her mouth, still warm from the fire.",
+          "In the trial court, the prisoners turn on the roommate: \"She was smothered after nine-thirty, while {WITCH_NAME} was showering with us.\" One holds up the burned sleeve: \"No sleeper lies still while fire eats through her sleeve, and no living heart stays calm under it.\" They realize she was dead before nine, and the girl who hears every heart sat tapping one that wasn't there."
         ],
-        "epitaph": "At last she kept the one who could never get up and leave, and had no heartbeat left to listen for.",
-        "epithet": "Listener at the Empty Pillow",
+        "epitaph": "The one heart that could never leave her was the one she had to pretend to hear.",
+        "epithet": "Counter of Hearts That Might Leave",
         "execution": [
-          "The execution stand raises an iron bed with an iron mother lying on it. The witch is chained on her side against it, her ear to its iron chest. Inside the chest, an iron heart begins to beat, each thud carrying through the whole court. At every beat, an iron arm draws her tighter against the chest. She stops stirring while the heart beats on. Then the iron mother rises from the bed and walks away across the court, her iron heart gone quiet. The witch lies still, her ear on the empty iron pillow."
+          "The execution stand hoists a rack of hearth logs above her where she lies strapped on her back. One at a time, the logs drop onto her chest on a slow, steady beat, and the pile grows heavier as her hands clench. The logs keep dropping onto the pile on the same slow beat, and her hands lie open and still."
         ],
         "magic": {
-          "name": "Ear to Every Heart",
-          "text": "She hears every heart around her, beat by beat, as clearly as a clock held to her ear."
+          "name": "Every Heart a Clock",
+          "text": "She hears the heartbeats of people and animals around her as clearly as a clock held to her ear."
         }
       },
       "variant": 1

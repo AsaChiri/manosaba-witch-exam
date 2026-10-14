@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Perfectionist",
+  "copingSub": "PF-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-8",
+  "style": "Perfectionist",
+  "tag": "DEF-8_PF-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} was seven, her mother sewed her left sleeve shut over her hand before her sister's wedding photographs, hiding the two fingers joined by skin. \"No one needs that in the pictures.\" Ever since, she has worn one grey glove, day and night, and no one has seen the hand. The moment the wool frays, she pinches it whole again, without a seam.",
+          "In the prison, the girl who sat beside her at supper asked her every night to come and hold the base of her card tower. Then the girl went to the recreation room, shut the door and built it alone, seven stories by lights-out. Each morning she flicked the bottom card to watch the whole tower fall.",
+          "One night in the dining hall, the girl pulled off {WITCH_NAME}'s glove and spread the bare hand on the table. \"Two fingers that never come apart. Made for the corners of my tower.\" The whole table turned to look.",
+          "The next evening, right after supper, as the girl laid her first cards in the recreation room, {WITCH_NAME} struck the back of her head with the butt of a pool cue. Then she pressed the girl's cards together into a tower, seven stories in minutes.",
+          "From soon after supper until the body was found, the prisoners saw her by the fireplace in the lounge.",
+          "At lights-out, the girl's roommate opened the recreation-room door and found her dead on the floor beside a finished seven-story tower. The prisoners concluded that she had died at the end of an evening of building, while {WITCH_NAME} sat in the lounge.",
+          "The next morning, the roommate flicked the bottom card for her. The whole tower tipped over in one piece and lay on the floor unbroken.",
+          "In the trial court, the prisoners realized the tower had been pressed into one piece, not built. The girl had died right after supper, before {WITCH_NAME} ever came to the lounge."
+        ],
+        "epitaph": "She left no seam on anything she touched, except the one in her own hand, and that was the one someone wanted to hold.",
+        "epithet": "The Hand Sewn Out of the Picture",
+        "execution": [
+          "The execution stand raises a tower of playing cards, each taller than a girl, to the full height of the trial court. She is bound to the top card, her bare left hand strapped up. The bottom card slides out from the base. The tower comes apart card by card from the bottom up, and she pitches headlong with the top card to the stone floor. She lies still among the scattered cards, her bare left hand open on top before the whole court."
+        ],
+        "magic": {
+          "name": "Seamless",
+          "text": "Objects she presses together fuse into one piece, without a single seam."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

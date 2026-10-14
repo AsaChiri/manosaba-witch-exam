@@ -10,25 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Every morning, {WITCH_NAME}'s mother braided her hair, until the day she put the hairbrush in her daughter's hand. \"You can do it yourself now.\" After that, she came to her room less each week, and then not at all.",
-          "In the prison, one girl sat on the upper railing above the courtyard every evening with her back to the drop. She threaded a daisy crown for {WITCH_NAME} as well as her own and kept her company until the flowers folded shut at dusk.",
-          "One day, as the cells opened, the girl put the daisies in {WITCH_NAME}'s hands and showed her how to thread them. \"You can make your own now.\"",
-          "While the others lined up for the first hot water, {WITCH_NAME} took the girl by the wrists and pushed her backward until she was tipping over the drop. Still holding on, she faded her out of the world. The girl was gone before she could fall.",
-          "Through dinner, and afterward by the courtyard fountain, {WITCH_NAME} sat among the others and never left their sight. Long after dark, without getting up from the fountain, she brought the girl back at the rail, tipping backward over the drop just as she had left her. The girl fell screaming from the empty railing, landed head first on the path and lay still.",
-          "The prisoners took it that she had slipped from her perch, just as they had always warned her she would. No one had been at the rail, and {WITCH_NAME} had been right there beside them. But one prisoner had taken photos beside the body with her phone, and in them the daisy crown was wide open, hours after dusk.",
-          "In the trial court, the prisoners understood. {WITCH_NAME} had faded the girl mid-fall before dusk and let her finish falling after dark."
+          "Every morning, {WITCH_NAME}'s mother braided her hair, until the day she put the brush in her daughter's hand. \"You can do it yourself now.\" After that, her mother came to her room less each week, and then not at all.",
+          "In the prison, one girl sat on the upper railing above the courtyard every evening, her back to the drop, wearing a crown of daisies until the flowers closed at dusk. She threaded one for {WITCH_NAME} too, and kept her company there.",
+          "One morning, as the cells opened, the girl put the daisies in {WITCH_NAME}'s hands and showed her how to thread them. \"You can make your own now.\"",
+          "While the others queued for the first hot water, {WITCH_NAME} gripped her wrists at the railing and pushed her back until she was tipping over the drop, then faded her out of the world. The girl was gone before she could fall.",
+          "{WITCH_NAME} sat among the prisoners through dinner, and afterward by the courtyard fountain until after dark, never once out of their sight. Without getting up from the fountain, she brought the girl back at the railing, tipping backward over the drop just as she had left her. The girl fell screaming from the empty railing, landed head first on the path, and lay still.",
+          "The prisoners decided she had slipped from her perch, just as they had always warned her she would.",
+          "A prisoner took out her phone and photographed the daisy crown lying beside the body. Hours after dusk, every flower in it was wide open.",
+          "In the trial court, they realized what had happened: she had faded the girl mid-fall long before dusk, and let her fall after dark."
         ],
-        "epitaph": "This time she was the one who let go first, and she was left behind all the same.",
+        "epitaph": "She let go first, and was left all the same.",
         "epithet": "The Girl Handed Her Own Brush",
         "execution": [
-          "An iron chair rises out of the execution stand, its prisoner chained upright in the seat. Behind the chair stands an iron woman.",
-          "The iron woman braids the prisoner's hair into one long rope and lays it around her throat. Then it sets an iron brush in her chained hands and lets go.",
-          "Holding the end of the braid, the iron woman walks slowly backward, drawing the rope tight around her throat.",
-          "It stops at the far edge of the stand with its arm outstretched. The braid is taut, the brush lies in her lap, and she no longer stirs."
+          "The execution stand raises a giant daisy over the fountain, its stem arching above the basin. She lies bound face up in its open heart. The stand dims the light to dusk. One by one, the petals fold shut over her, until the flower is a closed bud. Then the daisy nods, bowing its head down into the basin until the bud is under the water. It hangs there, bowed and still, as the water settles calm over the bud."
         ],
         "magic": {
           "name": "Into Thin Air",
-          "text": "She can fade anyone or anything she touches out of the world, then bring them back unchanged."
+          "text": "She can fade anyone or anything she touches out of the world, and back again unchanged."
         }
       },
       "variant": 1

@@ -10,18 +10,25 @@
     {
       "fields": {
         "crime": [
-          "Earlier, a girl in the dining hall changed the label on {WITCH_NAME}'s pouch from “defective” to “friend.” That day, the same girl changed it back to “defective.” Then she removed {WITCH_NAME}'s place setting, shutting her out of the meal.",
-          "In answer, {WITCH_NAME} turned that grudge into a living viper and hid it inside the pouch to ambush the girl. In the courtyard, she offered the zippered pouch to the girl and told her to remove the label. The hidden viper bit the girl's palm and delivered its venom. The girl unpicked the label while the zipper stayed closed. When the slur came free, the wrong was put right and the viper vanished from the pouch.",
-          "Later, the prisoners found the girl dead in the courtyard, with a fatal snakebite on her palm. One unzipped the pouch and found nothing inside. With no snake to be found, they first blamed a stray. But one prisoner compared the punctures in the pouch with those in the girl's palm. The fang spacing matched. The matching marks exposed the trick: {WITCH_NAME}'s harmless-looking handoff had delivered an attacker that vanished before the pouch was opened."
+          "When {WITCH_NAME} was small, a doctor felt every bone in her and told her mother, \"Nothing's broken. She's just made wrong.\" If no one could find it, it was all of her.",
+          "Only one girl wanted her touch: the mender. Every evening in the lounge she sat with her darning hoop over the girls' torn and cracked things, and wherever {WITCH_NAME}'s hand raised a dark line, the mender fixed it the moment it showed. Then she dozed over her work until the girls fetched it before lockup.",
+          "At nine one night, {WITCH_NAME} brought her own crooked dress. Her touch raised no line anywhere on it. The mender turned it over. \"Nothing's torn. It isn't broken, it's just made wrong.\" She handed it back and took up the next girl's cup.",
+          "At ten past nine, alone with her in the lounge, {WITCH_NAME} drove the mender's temple against the fireplace stone, then sat her up in her chair, mending in her lap, as if dozing.",
+          "At twenty to ten she came back with the girls fetching their mending and laid her fingers on the sleeping mender's sleeved wrist. No line rose anywhere on her. \"Let her sleep,\" she said, and stayed among them until lockup.",
+          "At ten to ten, a prisoner went back to wake the mender for lockup and found her dead, without a mark on her.",
+          "In the trial court, {WITCH_NAME} laid her hand on the dead girl's forehead, and a line rose across her temple, tracing a cracked skull. The prisoners ruled that it had cracked after twenty to ten: her bare touch raised every hidden break, none had risen then, and from then until lockup she had been among them.",
+          "Then a prisoner noticed a fine dark line on the dead girl's cuff, along a snapped thread, left unmended where {WITCH_NAME}'s fingers had rested at twenty to ten. Her touch had read the sleeve, not the girl. The skull was already cracked."
         ],
-        "epitaph": "At last, the guilt she once laid on herself was truly hers.",
-        "epithet": "Her Own Accuser",
+        "epitaph": "Every line her touch raised, the mender mended—except the one she raised on the mender herself.",
+        "epithet": "Nothing Broken, Only Made Wrong",
         "execution": [
-          "The execution stand restrains her beside a mechanical hound, its leash cinched around her neck. The hound hauls the leash upward, hoisting her into the air. It keeps the line taut as she kicks, until her suspended body hangs motionless."
+          "The execution stand raises a darning hoop taller than she is. She is wound into it with darning thread, her palms flat on her chest.",
+          "A darning needle comes through her chest between her fingers, then back, then through again, darning back and forth. Her palms, still flat on her chest, raise a dark line along every pass.",
+          "The needle draws the last stitch tight and stops. She hangs still in the hoop, darned shut beneath her hands and their dark lines."
         ],
         "magic": {
-          "name": "Grudge Companions",
-          "text": "She can turn her own grudges into loyal living animals."
+          "name": "Fault Lines",
+          "text": "Her touch raises every hidden crack or injury in a person or thing to the surface as a dark line."
         }
       },
       "variant": 1

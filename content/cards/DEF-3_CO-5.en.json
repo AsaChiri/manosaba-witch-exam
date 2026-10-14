@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Concealer",
+  "copingSub": "CO-5",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Concealer",
+  "tag": "DEF-3_CO-5",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At twelve, {WITCH_NAME} told her best friend she'd pictured pushing her under an oncoming train. The friend stepped back and never stood beside her again. Afterward, such thoughts went into a notebook hidden in her hand. Once seen, a thought made people step back.",
+          "Girls left their finds on a prisoner's table in the library; she sorted them alone at noon, and at five each evening called them out from the upper railing till all were claimed. Only {WITCH_NAME} had never gotten anything back. One evening, alone in the cell corridor, she gave {WITCH_NAME} a torn notebook page found at her spot on the railing: \"I picture tipping her over the railing as she leans out calling.\" \"I won't tell anyone,\" she said softly. \"I'll stand at the far end from now on.\" Next evening she called from there. Asked why, she only glanced at {WITCH_NAME}, and every eye followed.",
+          "At 12:05 the next day, {WITCH_NAME} came up behind her as she sorted alone and strangled her with the cord of her finds bag. She hid her slumped over the table and walked out. From 12:20 to 2:30, prisoners reading under the library's unwilting cherry tree saw her table empty. {WITCH_NAME} had been at the recreation room pool table since 12:15. At 2:35 she released her Magic so the body would be found before the 3:00 lockup, with every girl there to vouch for her. At 2:40, a girl bringing a find discovered the body.",
+          "In the trial court, the prisoners cleared {WITCH_NAME}: between 2:30 and 2:40, while she shot pool, the girl had come to her table and been strangled. A prisoner pointed to a ribbon lying on top of the dead girl's shoulder. She'd found it herself and dropped it on the empty table as she left at 2:30. They realized the girl had lain there dead, within reach, every eye sliding past her, hidden by {WITCH_NAME}."
+        ],
+        "epitaph": "None of the thoughts she hid ever happened, only what she did to keep one hidden.",
+        "epithet": "Keeper of a Notebook No Eye May See",
+        "execution": [
+          "On the execution stand, a giant notebook falls open, every page filled with her own handwriting. She lies strapped across its open left page.",
+          "Page after page lifts from the right, stands upright, and lays itself down on her, and the stack on her chest grows heavier with each one. As every page stands, the spectators read the thought written on it in her hand. Nothing she wrote is hidden from any eye.",
+          "Then the cover swings over and closes on her, and the notebook lies still."
+        ],
+        "magic": {
+          "name": "Plain Sight",
+          "text": "Every eye but hers slides right past whatever she chooses to hide, even in the open, even in her hand."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

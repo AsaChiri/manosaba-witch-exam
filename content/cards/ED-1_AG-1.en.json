@@ -1,0 +1,36 @@
+{
+  "cell": "ED|Avenger",
+  "copingSub": "AG-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Avenger",
+  "tag": "ED-1_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} was small, she came in soaked from a storm and stood until the puddle reached her mother's feet. Her mother moved her feet and, without looking up from her sewing, said, \"The towel's on the hook.\" Nobody looks up, she learned, unless it rains on them too.",
+          "Each afternoon in the reception room, a prisoner mended every girl's torn clothes, her tape measure close at hand, while {WITCH_NAME} sat beside her threading her needles. One day she cried, and the girl said, \"In a minute,\" and sewed on. For three days, rain fell indoors in every room she entered, leaving each one puddled until nightfall.",
+          "During afternoon free time, she walked into the reception room under her rain and stood before the mender. Without looking up, the girl slid her mending basket out of the wet. \"Don't drip on the mending.\"",
+          "{WITCH_NAME} crossed the tape measure at the girl's throat and pulled. At last the girl's eyes turned up to her. She pulled until the girl was still, and the body slid from the chair onto the rain-wet boards.",
+          "The rain stopped for the first time in three days. She sat beside the girl in warm sunshine until the boards were dry. Then she walked into the lounge under rain again, the same rain the others had watched for three days.",
+          "That evening, the prisoners found the mender strangled in a dry, sun-warmed room, her hair and mending dry. In the trial court they ruled {WITCH_NAME} had never gone in: any room she entered stayed puddled until nightfall. Someone else had done it.",
+          "But one prisoner had lifted the body and found the boards beneath it wet, the only wet patch in the room. The court realized it had rained there before the girl fell, and {WITCH_NAME}'s own sunshine had dried the rest."
+        ],
+        "epitaph": "Once, someone finally looked up at her, and for an hour the sun came out.",
+        "epithet": "The Girl Who Rained So Someone Would Look Up",
+        "execution": [
+          "The execution stand raises a great darning frame with a torn skirt stretched across it. She is strapped face up across the tear.",
+          "A great needle darns back and forth across the tear, through her, each thread drawn tight over her. Her rain falls over the frame. The needle stitches on without pausing.",
+          "It pulls the last stitch tight. The darn lies flat, and the rain stops."
+        ],
+        "magic": {
+          "name": "Heart's Weather",
+          "text": "She turns the air around her into real weather that follows her feelings—rain, sun, wind, snow or thunder."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

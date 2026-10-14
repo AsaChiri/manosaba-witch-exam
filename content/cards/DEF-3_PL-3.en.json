@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Pleaser",
+  "copingSub": "PL-3",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Pleaser",
+  "tag": "DEF-3_PL-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} was nine, she pictured pressing her baby sister's face under the water in the washbasin, and she told her mother. Her mother lifted the baby out, and ever after bathed her behind a bolted door.",
+          "In the prison, a girl with waist-length hair knelt at the basin in the shower room every evening at half past nine and asked her to wash it, the way her grandmother used to. After each washing, {WITCH_NAME} touched her own temple and wiped away the picture of holding that head under. Every evening it came back fresh.",
+          "One night, eyes shut over the basin, the girl said, \"Promise you'll do this every night until we get out. Nobody's hands are as gentle as yours.\" She said yes, as she said yes to everything anyone asked. Every night until they got out, the picture would be waiting.",
+          "At nine the next evening, she left her roommate on the bunk bed, went to the shower room, and pressed the girl's head under the water in the basin until she was still. Before half past nine she was back in their cell. She took her roommate's hand and erased everything since she had left.",
+          "In the trial court, her roommate swore she had sat beside her without a break from supper until they went up together at half past nine and found the girl. Then a prisoner gave the roommate back a cardigan. She had borrowed it through the bars at ten past nine, and the roommate had been alone when she lent it. The roommate remembered no cardigan and no moment alone.",
+          "The prisoners understood: a touch had taken those minutes from her roommate. {WITCH_NAME} had been at the basin."
+        ],
+        "epitaph": "No picture in her head ever made her bad; only her hands made one true.",
+        "epithet": "Gentle Hands That Picture Drowning",
+        "execution": [
+          "The execution stand raises a towering door. She is strapped upright at its edge, her ribs in the path of its iron bolt. The bolt slides shut along the door, through her side, and into its socket. The door stands shut, bolted through her, and she hangs still against it on the outside."
+        ],
+        "magic": {
+          "name": "Like a Dream on Waking",
+          "text": "With a touch, she wipes a chosen memory from anyone's mind, even her own, as if it never happened."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

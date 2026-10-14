@@ -10,21 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Her mother would come home, warm {WITCH_NAME}'s hands at the stove, and be gone again for days; by morning the bed was always cold. To her, warmth that could be taken back had never been yours at all. So she never took back any warmth she gave.",
-          "In the prison, one girl swam the icy lake every dusk and came out blue. {WITCH_NAME} was always waiting on the shore with a towel, and with a touch she pressed the fireside warmth still in her own hands into the girl, who felt it as her own.",
-          "One evening in the lounge, the girl held out her hands. \"Take it back,\" she said. \"I want to feel the lake again. I'll warm up in the hot showers after.\"",
-          "The next dusk, {WITCH_NAME} told the lounge she was going to her cell, then slipped out after the girl to the shore. As the girl stepped dripping out of the water, {WITCH_NAME} wrapped the towel around her throat and pulled until she was still. Back at the lounge fireplace, she took the hands of a prisoner shivering in from the snowy courtyard and pressed the warmth of her own hands into them.",
-          "After dark, the prisoners found the girl on the frozen shore, the towel twisted tight around her throat. In the trial court they ruled {WITCH_NAME} out: she had said she was in her cell, and the warmth she gave held no trace of cold, so she could never have stood on that shore.",
-          "But the prisoner she had warmed at the fire could still feel, beneath the warmth {WITCH_NAME} had never taken back, a thawing ache in her fingers. Hours after her own hands had warmed, it had not changed at all. The prisoners realized the ache was not hers. It was {WITCH_NAME}'s: her hands had been thawing from the icy shore."
+          "Her mother would warm {WITCH_NAME}'s hands at the stove, then be gone for days, and by morning the bed was always cold again. Whatever warmth {WITCH_NAME} gave, she never took back. To her, warmth that could be taken back had never been yours at all.",
+          "Every dusk, a prisoner swam the icy lake and came out blue. {WITCH_NAME} waited on the shore with a towel, the fireside's warmth still in her own body, and took the swimmer's hands. One touch, and that warmth was the swimmer's own.",
+          "One evening in the lounge, the swimmer held out her hands. \"Take it back,\" she said. \"I want to feel the lake again, and then warm up in the hot showers.\"",
+          "The next dusk, {WITCH_NAME} told the lounge she was going to her cell and slipped out after her to the shore. As the swimmer stepped dripping from the water, {WITCH_NAME} wrapped the towel around her throat and pulled until she was still.",
+          "Back at the fireplace, she took the hands of a prisoner who came in shivering from the snowy courtyard and pressed her warmth into them.",
+          "After dark, the prisoners found the swimmer on the frozen shore, the towel twisted tight around her throat. In the trial court, they ruled {WITCH_NAME} out: her warmth had held no trace of cold, so she could never have stood on that shore.",
+          "But the prisoner she had warmed at the fireplace still felt a thawing ache under the warmth in her fingers. Hours had passed and her own hands were long since warm, yet the ache had not changed. The prisoners understood: the ache had never been hers. It was {WITCH_NAME}'s, from hands still thawing after the icy shore."
         ],
-        "epitaph": "The girl from the lake died warm, still holding the warmth she had asked to give back.",
+        "epitaph": "The swimmer died warm, still holding the warmth she had asked to give back.",
         "epithet": "The Warmth She Never Took Back",
         "execution": [
-          "The execution stand raised an iron hearth-woman with open arms, its chest glowing like a banked fire. Chains drew her into its lap and pressed her against that glowing chest. Then the iron arms closed around her and held her there, an embrace that would not let go. They never opened. In time, she no longer stirred in them."
+          "The execution stand raises an iron hearth-woman, its arms spread wide, and chains pull her into its lap against its glowing chest. Then the iron arms close around her and hold her to that glow, an embrace that never opens. In time, she no longer stirs inside them."
         ],
         "magic": {
           "name": "Feel What I Feel",
-          "text": "Her touch presses what her body feels into anyone, felt as their own until she takes it back."
+          "text": "She presses what her own body feels into anyone she touches, theirs until she takes it back."
         }
       },
       "variant": 1

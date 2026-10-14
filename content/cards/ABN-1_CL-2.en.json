@@ -10,22 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Every evening, the girl sat on the rim of the courtyard fountain and read picture books aloud, practicing for her little brothers. {WITCH_NAME} sat beside her, and the other end of {WITCH_NAME}'s thread was tied around the girl's wrist. Whenever the girl stood up, {WITCH_NAME} tugged it. \"You'll stay tied?\" The girl would laugh and tug back twice.",
-          "Then, in the library, the girl untied the thread from her wrist and tied it around a branch of the unwilting cherry tree in a double bow. \"This one never wilts. Hold on to it instead of me.\"",
-          "{WITCH_NAME}'s mother had once left her on a station bench with a potted geranium. \"Water it. I'll be back before it wilts.\" She watered it every day until it died.",
-          "At dusk, after dinner, {WITCH_NAME} untied the double bow from the branch and carried the loose end down to the courtyard. At the fountain, she held the girl's face under the water until the girl stopped moving. The picture book floated open on the basin. Then she went back to the library, tied the double bow on the branch again, and walked straight to her cell. The thread now lay along that one walk and nowhere else.",
-          "Before lockup, the prisoners found the girl face down in the fountain basin. In the cell corridor, they traced the thread from {WITCH_NAME}'s finger. It ran from her cell to the dead girl's bow on the cherry branch, and never once into the courtyard. They ruled {WITCH_NAME} out.",
+          "Every evening, a girl sat on the rim of the courtyard fountain and read picture books aloud, practicing for her little brothers. {WITCH_NAME} sat beside her, and the endless thread from {WITCH_NAME}'s finger was tied around the girl's wrist. Whenever the girl stood up, {WITCH_NAME} tugged on it. \"You'll stay tied?\" The girl would laugh and tug back twice.",
+          "One day in the library, the girl untied the thread from her wrist and tied it in a double bow around a branch of the unwilting cherry tree. \"This one never wilts. Hold on to it instead of me.\"",
+          "Long ago, {WITCH_NAME}'s mother had left her on a station bench with a potted geranium. \"Water it. I'll be back before it wilts.\" She watered it every day until it died.",
+          "At dusk, after dinner, {WITCH_NAME} untied the double bow from the branch and carried the loose end down to the courtyard. The girl was on the fountain rim with her picture book. {WITCH_NAME} pushed her face under the water and held it there until the girl stopped moving. The picture book floated open on the surface. Then {WITCH_NAME} went back to the library, tied the double bow on the branch again, and walked straight to her cell. Now the thread traced only that walk.",
+          "Before lockup, the prisoners found the girl face down in the fountain basin. In the cell corridor, they followed the thread from {WITCH_NAME}'s finger. It led straight back to the girl's bow on the cherry branch and never once passed through the courtyard. They ruled {WITCH_NAME} out.",
           "Then one prisoner noticed that the thread no longer crossed the dining hall. At seven, under the dinner table, she had stepped over it.",
-          "In the trial court, the prisoners understood: the bow had been untied after dinner, and {WITCH_NAME}'s thread had been free when the girl drowned."
+          "In the trial court, the prisoners saw what had happened: the bow had been untied after dinner, and {WITCH_NAME}'s thread had been free when the girl drowned."
         ],
-        "epitaph": "She was handed the one thing that would never wilt, and untied herself from it, because she could not believe anything stays.",
-        "epithet": "Still Watering the Wilted Geranium",
+        "epitaph": "She was given the one thing that would never wilt, and she untied it; she could not believe anything stays.",
+        "epithet": "Still Watering the Wilted Geranium for the One Who Said She'd Be Back",
         "execution": [
-          "The execution stand raises a station bench across a pair of rails and straps her to the seat. The thread tied to her finger runs down the rails into the dark. Then it goes slack and coils at her feet as lamps come out of the dark. The train strikes the bench where she sits and rolls on into the dark without stopping. Nothing is left on the rails but the slack thread."
+          "On the execution stand, a station bench rises and settles across a pair of rails, and straps hold her seated on it. The thread tied to her finger runs down the rails into the dark. Then it goes slack and coils at her feet. Lamps come out of the dark along the rails. The train strikes the bench where she sits and rolls on into the dark without stopping. Nothing is left on the rails but the slack thread."
         ],
         "magic": {
-          "name": "The Endless Thread",
-          "text": "She ties an unbreakable thread from her finger to anyone or anything, and can always follow its tug to them."
+          "name": "Endless Thread",
+          "text": "She ties an endless, unbreakable thread from her finger to anyone or anything, feels each tug, and can follow it to them."
         }
       },
       "variant": 1

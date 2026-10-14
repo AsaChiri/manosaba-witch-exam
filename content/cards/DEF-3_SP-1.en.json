@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Self-Punisher",
+  "tag": "DEF-3_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at free time, the prisoners play pool in the recreation room and jeer whoever misses a shot. {WITCH_NAME} stays downstairs through the game: whenever she is on the second floor, her Magic turns the jeers to petals.",
+          "Before each game, one girl reads a picture book aloud in the lounge to the one prisoner who cannot go up, as she once read to her little brothers every night at home. She returns it to the library on her way up.",
+          "At eleven, {WITCH_NAME} pictured clapping her hand over a friend's mouth as the friend read aloud in class. She told the friend so. The friend told the class, and no one sat by her again. Since then she says every ugly thought against herself before anyone else can.",
+          "One evening she tries to tell her reader the truth: she keeps picturing her hand over the girl's mouth as she reads. Only petals spill out. So she writes it on a slip and tucks it in the back cover. The reader finds it and smiles: \"Tomorrow I'll read this at the pool table. Say the worst out loud, laugh, and it's nothing.\" She carries the book upstairs.",
+          "As the game starts, the players see the reader look in, book in hand: \"Back after I shelve this.\" While they play, {WITCH_NAME} follows her up to the library and presses a hand over her mouth and nose until she goes still. The jeers run on until the game ends and the reader is found dead. Every one lands. Not one petal falls all evening.",
+          "In the trial court, the prisoners rule {WITCH_NAME} out: she was last with the reader but never on the second floor, or the jeers would have turned to petals. As she tucks back her hair, a prisoner sees a shred of tightly rolled petal deep in her ear. Now they understand: she had plugged her ears with her own petals, so no jeer reached her, and she went up unnoticed."
+        ],
+        "epitaph": "No one ever heard her say the worst of herself, not even the one girl who would have laughed it away.",
+        "epithet": "Her Own First Accuser",
+        "execution": [
+          "In the trial court, the execution stand raises a tower of giant picture books, the topmost lying open. She kneels shackled on its open pages at the top of the tower. One by one, the book turns its pages over her, each giant leaf lifting, passing over her and settling on the other side. The back cover swings over last and sweeps her off the edge of the tower. She lies still at its foot, the book shut above her."
+        ],
+        "magic": {
+          "name": "Say It with Flowers",
+          "text": "Any cruel word spoken within her hearing, even her own, spills from the speaker's lips as petals, unheard."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

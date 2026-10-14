@@ -10,21 +10,18 @@
     {
       "fields": {
         "crime": [
-          "Every night after lockup, the girl in the next cell lay with her cheek against the wall they shared and knocked letters through the stone until her nightmares let her sleep. At home she had knocked to her sister like that, through the bedroom wall. She was the only one {WITCH_NAME} ever answered.",
-          "One night, {WITCH_NAME} knocked back a word she had told no one since she was nine: pillow. At nine, she had pictured pressing a pillow over her baby sister's sleeping face, and she had told her mother. Her mother carried the cot into her own room and turned the key every night after. She learned that if she could picture it, she was someone doors were locked against.",
-          "The next night, the knocking came back: Say it aloud at breakfast tomorrow, or I'll say it for you. No one here will lock a door on you.",
-          "Past midnight, {WITCH_NAME} laid her hand on her side of the wall. The stone went soft as a pillow under the sleeping girl's cheek. She pressed it over the girl's face, then made it stone again. In the dark, her roommate heard her thrashing on the lower bunk below, thought it was her nightmares again, and turned over.",
-          "At the six o'clock unlock, the prisoners found her dead, face to the wall, lips blue. Her barred cell door had been locked all night with only her roommate inside. In the trial court, they took it that the roommate had pressed a pillow over her face. {WITCH_NAME} had lain locked behind her own bars next door.",
-          "Then, in the cell, a prisoner tried to pick a few of the dead girl's hairs off the wall beside her pillow. They ran straight into solid stone. The prisoners realized the stone had been soft around her head, softened and pressed from the cell next door."
+          "Every night after lockup, the girl in the next cell lay with her cheek to their shared wall and knocked letters through it, the way she used to knock to her sister through the bedroom wall at home, until her nightmares let her sleep. She was the only one {WITCH_NAME} ever answered. One night, {WITCH_NAME} knocked back a word she had told no one since she was nine: pillow. At nine she had pictured pressing a pillow over her baby sister's sleeping face, and she had told her mother. Her mother carried the cot into her own room and turned the key every night after. If I can picture it, she decided, I am someone doors are locked against. The next night the answer came through the wall: Say it aloud at breakfast tomorrow, or I'll say it for you. No one here will lock a door on you.",
+          "Past midnight, {WITCH_NAME} softened the stone under the sleeping girl's cheek, pressed it over her face like a pillow, and made it stone again. From the upper bunk, her roommate heard her thrash on the lower bunk in the dark, thought it was her nightmares again, and turned over. At the six o'clock unlock, the prisoners found her dead, face to the wall, lips blue. The barred cell door had been locked all night with only her roommate inside.",
+          "At the trial, the prisoners took it that the roommate had pressed a pillow over her face; {WITCH_NAME} had lain locked behind her own bars next door. Then a prisoner tried to pick a few of the dead girl's hairs off the wall beside her pillow, and found they ran straight into solid stone. The stone had been soft around her head, the prisoners realized; {WITCH_NAME} had softened it from her cell next door and pressed it over the girl's face."
         ],
-        "epitaph": "The thought never made her dangerous. Her dread of it did.",
+        "epitaph": "The thought never made her dangerous; her dread of it did.",
         "epithet": "Gentle Hands Kept Behind Stone",
         "execution": [
-          "The execution stand raises the door of her childhood nursery, as tall as the trial court and locked from the inside. She is chained upright to its face, her head on the plate of a great iron knocker. The knocker swings down onto her head again and again, rapping out, letter by letter, the goodnights the two of them knocked through the wall. She hangs still against the door. The knocker raps on, and the key inside never turns."
+          "The execution stand raised a door as tall as the trial court, locked from the inside, with a great iron knocker on its face. She was chained upright against the door, her head resting on the knocker's plate. The knocker swung down onto her head, again and again, rapping out letters in knocks. She hung still against the door. The knocker rapped on, and the key inside never turned."
         ],
         "magic": {
-          "name": "Soft Touch",
-          "text": "She can make anything solid she touches as soft as a pillow, then hard again."
+          "name": "Pillowstone",
+          "text": "She can make any solid thing she touches pillow-soft, then hard again at will."
         }
       },
       "variant": 1

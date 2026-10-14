@@ -10,19 +10,26 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} had told one girl she could not sleep in the dark. Before the weekly stream, she watched from the lounge doorway as the girl traded that secret for a place among the prisoners around the fireplace.",
-          "When the others went to the recreation room, {WITCH_NAME} approached the girl with her magic active. Seeing her most trusted person, the girl followed her to the empty lounge. There, {WITCH_NAME} took a sword from the wall to show her and stabbed her through. She wiped it and returned it to its hooks.",
-          "The prisoners found the body after the stream. Every sword was in place, but one had a smear left at the guard.",
-          "Two girls who had passed the pair on their way to the stream each named a different companion. Both named prisoners had watched the entire broadcast. The witnesses had seen two trusted faces on one person. Only {WITCH_NAME} and the dead girl had missed the stream."
+          "In the shower room, one prisoner took down letters home word for word as girls spoke them. At Sunday supper she read aloud the ones girls chose to share, and kept them in a tin under her bunk for the day someone got out. {WITCH_NAME} sat with her most evenings, the one girl who never dictated.",
+          "One night {WITCH_NAME} did. Her mother still cleaned the school at night, she said, and she missed her. \"Keep it in the tin. Only you.\"",
+          "The girl read it aloud at Sunday supper anyway. She had thought it too lovely to keep.",
+          "The dining hall laughed. The letter was in the girl's island speech, set down exactly as {WITCH_NAME}'s Magic had let her hear it. By morning the hall was calling {WITCH_NAME} the cleaner's girl.",
+          "When she was nine, she had told her best friend her mother cleaned their classmates' houses at night. The friend told the class so they'd be kind, and for years they called her the cleaner's girl.",
+          "{WITCH_NAME} dictated a second letter home: \"Mama, forgive me. I'm not coming home. Don't wait for me.\" The girl wrote it in her own hand to make amends. As she blotted the page, {WITCH_NAME} pulled a towel tight round her neck from behind, tied it to the shower pipe and left the letter folded on the bench.",
+          "At lock-up the prisoners found the girl hanging from the pipe, the farewell on the bench in her own hand and island speech. The trial court ruled she had hanged herself, ashamed of reading the letter aloud.",
+          "A prisoner opened the girl's tin. Every letter to her own mother was in the city speech her mother made her use; only the farewell was in island speech. The prisoners saw it: the girl wrote island speech only when she heard it, and of all their voices, only {WITCH_NAME}'s had ever reached her in it. {WITCH_NAME} had dictated the farewell."
         ],
-        "epitaph": "Every door opened, and none of them opened for her.",
-        "epithet": "Dearest to Everyone, Known to No One",
+        "epitaph": "She never once wrote home in her own voice, only in the island speech of the girl she killed.",
+        "epithet": "The Girl from Every Home but Her Own",
         "execution": [
-          "Three huge iron bells stood mouth down, with her beneath one of them. Mechanical arms shuffled them, and a hammer fell on one bell after each round. The shuffling and blows continued until the hammer struck the bell containing her and crushed her beneath it."
+          "On the execution stand rises a mop bucket twice as tall as a girl. Inside, she is tied by the ankles to its floor with apron strings. Above her hangs a mop grown huge.",
+          "The mop dips into a wash pail and wrings itself out over her, again and again. Wring by wring, the grey water climbs the bucket.",
+          "It rises over her mouth as she calls out, and every spectator hears the cry in a different tongue.",
+          "The mop comes to rest across the rim. The grey water goes still."
         ],
         "magic": {
-          "name": "the Dearest Face",
-          "text": "The Dearest Face — Everyone who looks at her sees the person they trust most."
+          "name": "A Voice from Home",
+          "text": "She speaks, and every listener hears her in their own mother tongue and hometown accent."
         }
       },
       "variant": 1

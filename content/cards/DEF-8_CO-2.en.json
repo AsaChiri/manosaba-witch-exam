@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Concealer",
+  "copingSub": "CO-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-8",
+  "style": "Concealer",
+  "tag": "DEF-8_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} kept her birthmark under her buttoned collar, slid there with one fingertip. Her face stayed bare, her collar and plait the same every day.",
+          "Each evening in the library, under the unwilting cherry tree, a girl read one face by lamplight, the way she had learned at her grandmother's market stall. Every night she asked {WITCH_NAME} for the one face she had never read. At about seven, she at last took that face in both hands and turned it to the lamp. \"Nothing's written here,\" she said. \"You moved it.\" She promised to find it by breakfast and read it to the whole table. \"The hidden ones are luckiest.\"",
+          "Once, at dinner, an aunt had turned {WITCH_NAME}'s chin to the lamp so the whole table could see the wine stain on her cheek. If no one looks twice, she'd said, no one can read it.",
+          "{WITCH_NAME} took the reader's face in both hands and struck her head back against the trunk until she was still. Then she stroked the pink from the low blossoms onto the girl's grey cheeks and lips and propped her up as if dozing. From half past seven until the lockup call, she was at the pool table in the recreation room, never out of the girls' sight.",
+          "At half past eight, a prisoner came for her reading, found the reader dozing, rosy-cheeked, tucked a cardigan round her and let her sleep. At the lockup call they found her cold, blood on the bark behind her head. In the trial court, the prisoners concluded she was struck against the trunk after half past eight, while {WITCH_NAME} was at the pool table.",
+          "Then one prisoner looked closely at the dead girl's flushed cheek. The flush was a scatter of tiny cherry blossoms, each settled whole. The prisoners understood: she was grey and dead before the cardigan. Her blush had slid off the tree right after {WITCH_NAME}'s reading."
+        ],
+        "epitaph": "The only face she ever gave color to belonged to the one girl who would have called her mark lucky.",
+        "epithet": "The Face With Nothing Written on It",
+        "execution": [
+          "The execution stand raises a long breakfast table, fully laid, beneath a great brass dinner lamp. She is strapped into the chair at its head, her collar buttoned. The lamp lowers until it lights her face for every empty place, her chin tipped up full into its light. Then it tips and pours its burning oil over her face and collar. The lamp swings empty above the blackened chair, every place still set toward her."
+        ],
+        "magic": {
+          "name": "Wet Paint",
+          "text": "She can slide any mark under her fingertip across skin, paper or cloth, and it settles unsmudged where she stops."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

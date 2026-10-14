@@ -10,22 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Every night as a child, {WITCH_NAME} slid a folded drawing under her parents' door. Every morning she found it in the hall bin, unopened. She stopped drawing. If no one asks, you keep it to yourself.",
-          "In the prison, a girl sat behind the bars of the upper railing every evening and drew the courtyard. At nine she let each finished page slip through the bars. {WITCH_NAME} waited below with her hand held up. She never once used her Magic to call a page down, and she kept every one.",
-          "At supper in the dining hall, the artist told her across the table, \"Tonight's page is the last. After that, come up and ask.\" The other girls said they would come out to watch.",
-          "At twenty to nine, {WITCH_NAME} climbed to the railing for the first time and held out her hand behind the artist. The artist kept drawing and did not turn around. {WITCH_NAME} pulled the drawing-board strap tight around the artist's neck until she went still, left her slumped behind the bars, and went back down to wait.",
-          "At five to nine, the prisoners came out to watch the last page and found her already waiting beneath the railing. At nine, she held out her hand and called the page down. It slipped through the bars and into her palm.",
-          "At a quarter past nine, a prisoner found the artist slumped behind the bars, the strap around her neck. In the trial court, the prisoners concluded that she had let her last page go at nine and been killed afterward, while {WITCH_NAME} stood among them.",
-          "Then one prisoner asked to see that last page. Its pencil line broke off in a long slash across the paper. No living hand, she realized, had let that unfinished page go. It had flown to {WITCH_NAME}'s."
+          "Every evening from eight to nine, a girl sat in the library knitting one grey square for a blanket. Seeing {WITCH_NAME} watching, she held out the needles to her, then asked her to join the squares. At nine each night {WITCH_NAME} held out her hand from the lounge sofa, and by her Magic the finished square sailed down from the library into her palm. She joined it into the blanket on her knees while the girls watched.",
+          "When it was done, the knitter lifted the blanket off {WITCH_NAME}'s knees in the dining hall and wrapped it round a girl shivering at the end of the table. \"It's only squares. I can knit more.\" The girls clapped.",
+          "When {WITCH_NAME} was nine, she had spent all winter knitting a scarf for her mother. Her mother laid it in a drawer without unfolding it, and {WITCH_NAME} had not knitted since.",
+          "While the girls clapped, she kept her empty hands in her lap. After supper, alone on the bunk in her cell, she knitted a grey square.",
+          "A little after eight, in the library, she wrapped the grey yarn twice round the knitter's throat and pulled until the girl was still. She slid the few rows off the needles and wound them back onto the ball. By half past eight she was on the sofa among the girls. At nine she held out her hand as always, and a finished square sailed into her palm.",
+          "At half past nine the prisoners found the knitter on the library window seat, yarn at her throat, needles bare. She had finished her square at nine, they decided, and been strangled after, while {WITCH_NAME} sat with them.",
+          "In the trial court, a prisoner laid that last square against the blanket round the shivering girl's shoulders. It was a finger narrower than any of the knitter's. It was not hers, the prisoner realized. It had flown in from wherever it lay; the knitter was dead before nine."
         ],
-        "epitaph": "The one time she was asked to come up, she went, and still she never asked.",
-        "epithet": "A Hand Held Up for Whatever Falls",
+        "epitaph": "After the drawer she knitted only one thing, and made sure it would pass for someone else's.",
+        "epithet": "The Scarf Folded Away in a Drawer",
         "execution": [
-          "A great iron door hung flat from the execution stand in the trial court. She lay chained face down on the floor beneath it. Her outstretched hand pushed a folded drawing out past the door's edge, the way she once slid them under her parents' door. The door came down and settled its full weight onto her back, and it kept sinking. Her hand lay still beyond the edge, the drawing in her fingers. No one took it."
+          "The execution stand raises two iron knitting needles as tall as the gallery, a grey scarf hanging from them. She sits chained beneath it, wrists fixed, palms turned up.",
+          "The needles knit the last row, then drive down through the scarf into her chest. The finished scarf slides off the needles and settles round her shoulders.",
+          "She slumps beneath it and goes still. Her palms stay turned up, empty."
         ],
         "magic": {
           "name": "Come to Hand",
-          "text": "She holds out her hand, and any object she wants flies into her palm while she stays put."
+          "text": "Whatever she wants flies on its own into her outstretched hand."
         }
       },
       "variant": 1

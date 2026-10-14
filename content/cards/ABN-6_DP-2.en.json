@@ -10,22 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every dusk, a prisoner who had once been a pitcher stood in the courtyard and threw fifty stones at the column in the middle of the fountain, where the spout rose, to keep her old pitching arm in shape. {WITCH_NAME} could not throw straight on her own, so she stood across the fountain and watched her. With her Magic she became the girl's reflection, winding up as she wound up and letting go as she let go.",
-          "One dusk the girl rubbed her worn-out shoulder and said tonight's fifty would be her last. \"Throw on your own tomorrow. The column will still be there.\"",
-          "{WITCH_NAME}'s father had played catch with her only on the evenings he came home. The last time, he handed her the ball and said, \"Throw it at the wall. The wall is always there.\" Then he went, and he never came back.",
-          "Before the last pitch, she set her feet just beside her own worn foothold, off the line to the column. The girl threw. Her reflection threw with her, and its stone flew past the column into the girl's temple.",
-          "From the upper railing, the prisoners heard one knock, the same as every evening, and saw the girl's head snap back before she fell. She lay still by the basin, a single stone beside her head.",
-          "In the trial court, the prisoners took it that her own stone had ricocheted off the column. The mirror's stone, after all, always met the column.",
-          "Then a prisoner found a fresh foothold on the path beside {WITCH_NAME}'s worn one, and nothing to match it on the girl's side. The prisoners understood: she had stepped aside so that the mirrored pitch would clear the column."
+          "A stone column rose from the middle of the courtyard fountain as its spout. Every dusk, a girl pitched fifty stones at it, keeping her old pitching arm in shape. {WITCH_NAME} stood across the basin and, with her Magic, became the girl's reflection: she wound up as the girl wound up, threw as she threw, and her stones flew as true as the girl's. On her own, she could not throw straight.",
+          "One dusk, the girl rubbed her worn-out shoulder and said tonight's fifty would be her last. \"Throw on your own tomorrow. The column will still be there.\"",
+          "{WITCH_NAME}'s father had played catch with her only on the evenings he came home. One evening he handed her the ball and left. \"Throw it at the wall. The wall is always there.\" He never came back.",
+          "Before the last pitch, she planted her feet just beside the spot she had worn into the path, out of line with the column. The girl threw, and {WITCH_NAME} threw as her mirror. The stone flew past the column and struck the girl in the temple.",
+          "From the upper railing, the prisoners heard one knock, as on every evening, and saw the girl snap back and fall. She lay still by the basin, a single stone beside her head.",
+          "In the trial court, the prisoners assumed the girl's own stone had glanced off the column and hit her. After all, the mirror's stone always met the column. Then a prisoner noticed fresh footprints on the path beside {WITCH_NAME}'s worn spot, and none beside the girl's. The prisoners realized that {WITCH_NAME} had stepped to one side, so that her mirrored throw would miss the column."
         ],
-        "epitaph": "The only throw she ever made on her own was choosing where to stand.",
-        "epithet": "The reflection that never throws first",
+        "epitaph": "The only throw she ever made on her own was where she chose to stand.",
+        "epithet": "The Reflection That Never Throws First",
         "execution": [
-          "The execution stand raises a stone wall, and facing it, an iron pitching arm. She is chained upright against the wall. The arm winds up and pitches iron balls into her, one after another. Here at the wall, the throws have finally come to her. At last she hangs slack in the chains, and the final ball rolls to a stop at her feet."
+          "The execution stand raises a tall wall of stacked stone before her, her feet sunk to the ankles in packed earth at its foot. Slowly, the wall leans down onto her. She presses her palms flat against it and pushes back. The wall keeps coming until it lies flat and still over her, and her palms no longer push."
         ],
         "magic": {
           "name": "Living Mirror",
-          "text": "She moves in perfect unison with anyone she watches, mirroring them with all their skill."
+          "text": "She moves in perfect unison with anyone she watches, their living mirror, skill and all."
         }
       },
       "variant": 1

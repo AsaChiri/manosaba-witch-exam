@@ -1,0 +1,32 @@
+{
+  "cell": "DEF|Ruminator",
+  "copingSub": "RU-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Ruminator",
+  "tag": "DEF-3_RU-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "As a child, {WITCH_NAME} held her dying grandmother's hand through one long afternoon and thought: die, so I can go out. Her grandmother died that night. I thought it, so it was me. She has not touched anyone since, and she tells the other girls her Magic works only on objects.",
+          "One prisoner skips dinner every evening to sit at the upper railing and write a page to her little sister, adding it to a stack of letters she never sends. Each page ends with one line written as the sun goes down, and she has never missed one. {WITCH_NAME} carries her own dinner plate up from the dining hall to hear it.",
+          "Tonight, after sunset, the girl reads her the line, \"Stay till the red's gone, then you can go in,\" and takes her hand. The old thought comes back: die, so I can go in. She closes both hands around the girl's throat and holds on until the girl stops. Then she lays a hand on tonight's page, and that page alone goes back to how it was before sunset, when it still broke off mid-sentence.",
+          "When {WITCH_NAME} cries out, the prisoners run up and find the page stopping short of its sunset line. The girl was strangled before sundown, they decide, while {WITCH_NAME} sat at dinner with them.",
+          "In the trial court, one prisoner lifts tonight's page and tilts the one beneath it to the light. Pressed into yesterday's page, tonight's writing runs on past where the page now stops, all the way down to the sunset line. Now the prisoners know the girl was still alive after {WITCH_NAME} came up."
+        ],
+        "epitaph": "The thought never killed anyone. Her hands did, once.",
+        "epithet": "The Girl Whose Hands Touch Only Things",
+        "execution": [
+          "The execution stand raises a stack of blank letter pages as tall as the trial court. Beneath it, she lies bound on her back on a single blank page, her hands spread open. The stack comes down flat onto her and keeps pressing, and her spread fingers flatten against the page. Then it lies flat and still. Nothing moves beneath it. When the stack lifts away, the page under her holds the deep press of her two open hands."
+        ],
+        "magic": {
+          "name": "As It Was",
+          "text": "Any person, animal or thing she touches goes back to how it was at a moment she chooses; nothing else does."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

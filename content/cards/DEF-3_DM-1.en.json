@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Doomer",
+  "copingSub": "DM-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Doomer",
+  "tag": "DEF-3_DM-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening a girl sang in the soundproof shower room, and the only one she let in was {WITCH_NAME}, who sat on the bench holding her towel.",
+          "At dinner one night in the dining hall, the singer leaned close. \"Tonight, hold both my hands while I sing. I want to keep my eyes shut, and the tiles get so wet.\"",
+          "When {WITCH_NAME} was little, she told her mother she had pictured pushing her baby sister down the stairs. That night her mother carried the cot into her own room and locked the door. \"A girl who pictures it is a girl who does it.\"",
+          "Now, at the table, she took out her coin, the one that always lands on the truth, and asked, \"Will I hurt her?\" It came up heads. The table fell silent.",
+          "That evening in the shower room, the singer shut her eyes and reached for her. {WITCH_NAME} struck the reaching hands away, and the singer's wrist cracked against the tap. Then {WITCH_NAME} went and stood at the door.",
+          "The prisoners found her kneeling on the wet tiles over the body, saying nothing. There was a fresh bruise on the dead girl's wrist.",
+          "In the trial court they reached their verdict: the coin had said she would hurt her, and she had struck her down on the tiles. Once she was condemned, they told her to ask the coin whether she had killed her. She closed her fist over it.",
+          "The singer had slipped mid-note on the wet tiles, alone, while {WITCH_NAME} stood at the door with her back turned."
+        ],
+        "epitaph": "She never asked the coin the one question whose answer was no.",
+        "epithet": "Guilty Before the Deed",
+        "execution": [
+          "The execution stand raises a giant coin spinning on its edge, with her strapped spread-eagled across its face. She keeps one fist closed as the spin carries her round and round. The coin wobbles, lower and louder with every turn, until it slams flat, her face down. The rattling stops, and the coin lies still."
+        ],
+        "magic": {
+          "name": "Honest Coin",
+          "text": "Any coin she tosses lands on the true answer to whatever yes-or-no question she asks."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

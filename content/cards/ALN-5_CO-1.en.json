@@ -10,22 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Every evening a girl lay in the flower field and let {WITCH_NAME} braid her long hair, then took the last hot shower of the night and washed the braid out. Hers was the only head {WITCH_NAME} let herself braid, and only out there, where no one saw.",
-          "Years before, {WITCH_NAME}'s mother had pulled her crown braid apart at the front door. \"Don't make people look at you.\" She had worn her hair plain ever since.",
-          "One evening, before her shower, the girl pulled the braid loose herself. The girls in the shower kept asking who did her hair, she said. \"You don't want them looking at you.\"",
-          "{WITCH_NAME} twisted the loosened hair around the girl's throat and pulled, as if drawing a braid tight, until the girl went still.",
-          "When the time for the last hot shower came, {WITCH_NAME} pictured the girl as she looked every night, braid and all, and became her. In the shower room, in front of the others, she washed the braid out. Straight after, she sat among the others in the lounge until lockup.",
-          "In the trial court, the prisoners agreed that the girl had been killed in the flower field sometime after that last shower.",
-          "But the prisoner who found her at dawn had unwound the hair from her throat, and it was dry, still crimped from the braid. The prisoners understood then: the girl they had watched washing out a braid was {WITCH_NAME}, wearing her face."
+          "Every evening, a girl with long hair lay back in the flower field and let {WITCH_NAME} braid it. Afterward the girl washed the braid out in the late shower, the last hot water of the night. Hers was the only head {WITCH_NAME} let herself braid, and only where no one could see.",
+          "Years before, {WITCH_NAME}'s mother had stopped her at the door and pulled out her crown braid. \"Don't make people look at you.\" She had worn her hair plain ever since.",
+          "But the girls in the shower room kept asking who braided that hair. One evening in the field, before the late shower, the girl pulled the braid loose. \"You don't want them looking at you.\"",
+          "{WITCH_NAME} twisted the loosened hair around the girl's throat and pulled, as if drawing a braid tight, until the girl lay still.",
+          "When the hot water came on for the late shower, {WITCH_NAME} pictured the girl braided as she was every night, and became her. In that shape she stood in the shower room and washed the braid out. Then she sat among the others in the lounge until lockup.",
+          "In the trial court, the prisoners concluded that the girl had been killed in the field after her late shower.",
+          "But at dawn, the prisoner who unwound the hair from the girl's throat had found it dry, still crimped from the braid. That hair had never reached the shower. The girl washing out a braid had been {WITCH_NAME}, picturing her."
         ],
-        "epitaph": "The only braid a room ever saw her make, she wore on a dead girl's head.",
+        "epitaph": "The only braid a room ever saw her make, she wore as a dead girl.",
         "epithet": "The Braider No One Watched",
         "execution": [
-          "The execution stand chains her to a seat inside a ring of great iron eyes, a lamp behind each glass pupil. Iron hands braid her hair into a crown, and no hand pulls it loose. The eyes open and turn their beams on her until every eye is on her. The beams meet on her crown braid. It smokes, then catches. The eyes keep watching until the burning figure stops moving, and their lamps go dark one by one."
+          "The execution stand chains her into a seat inside a ring of great iron eyes, a lamp behind each glass pupil. Iron hands braid her hair into a crown, and no hand pulls it loose. The eyes open and turn their beams on her until every eye is on her. The beams meet on the crown braid. It smokes, then catches. The eyes keep watching until the burning figure stops moving, and then their lamps go dark one by one."
         ],
         "magic": {
           "name": "Stranger in the Mirror",
-          "text": "She can become anyone she pictures, real to both sight and touch."
+          "text": "She can become anyone she pictures, real to the eye and to the touch."
         }
       },
       "variant": 1

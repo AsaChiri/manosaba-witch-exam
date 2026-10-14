@@ -10,21 +10,22 @@
     {
       "fields": {
         "crime": [
-          "Every morning her roommate ran laps of the courtyard with her hair tied back in {WITCH_NAME}'s ribbon, borrowed for the purpose. Every evening in their cell, {WITCH_NAME} used her Magic to replay their afternoons around her, with the roommate asleep again on the bunk above.",
-          "One lunchtime in the dining hall, the roommate untied the ribbon and handed it back. She had made her own for running.",
-          "Years before, {WITCH_NAME}'s older sister had given back everything she had ever borrowed, all in one evening. By morning she was gone. {WITCH_NAME} had known ever since: people give things back before they go.",
-          "During the afternoon hours in the cell, she pulled her sleeping roommate headfirst off the upper bunk onto the stone floor.",
-          "After the cells were unlocked, the prisoners asked her to replay the cell. She did, and told them it was this afternoon. Around them, she slept on in the lower bunk. Above her, the roommate rolled off in her sleep and lay still exactly where her body was lying now.",
-          "Then one prisoner saw the ribbon in the falling girl's hair. It was in {WITCH_NAME}'s own hair now. The prisoners realized they were watching an earlier afternoon, a day when the roommate had fallen and climbed back up into her bunk. This afternoon, only {WITCH_NAME}'s hands had been locked in with her."
+          "Every night, {WITCH_NAME} watched from the upper railing as a girl floated flowers from her basket on the courtyard fountain, one for each girl the prison had lost. When she was done, she always looked up and waved.",
+          "One night at half past nine, the girl called her down for the first time and put a flower in her hand. \"When it's my turn, you'll float one for me, won't you?\"",
+          "Long ago, at bedtime, {WITCH_NAME}'s mother had asked, \"You'll remember me, won't you?\" By morning she was gone. Ever since, every \"remember me\" had sounded like goodbye.",
+          "As the girl bent to set the first flower on the water, {WITCH_NAME} pushed her face under and held her there until she stopped moving. She laid her in the shadow under the tree, the basket beside her.",
+          "At a quarter to ten, as the other girls reached the upper railing on their way down, {WITCH_NAME} replayed last night's courtyard all around her. Looking down, they saw the girl alone at the fountain, floating flowers and waving up, while {WITCH_NAME} walked inside without her. She joined them on the stairs, and at ten she was locked in with them.",
+          "When the doors were unlocked, the prisoners found the girl lying drowned under the tree. In the trial court, they decided it must have happened at the fountain after a quarter to ten, while {WITCH_NAME} was on the stairs with them and then locked in.",
+          "Then one prisoner noticed the girl's basket. It was still full of fresh flowers, yet only last night's wilted ones floated on the fountain. They understood then: the girl they had watched floating flowers at a quarter to ten was a replay of the night before, playing out around {WITCH_NAME}, while the real one already lay beneath the tree."
         ],
-        "epitaph": "The ribbon came back to her, and she was the one who left.",
-        "epithet": "The One Who Hears Goodbye First",
+        "epitaph": "Remembering her meant letting her go. She kept her instead.",
+        "epithet": "The girl who hears goodbye in \"remember me\"",
         "execution": [
-          "In the trial court, the execution stand raises an iron slab with her chained on her back across it. Beside it stands a file of iron girls. One by one they walk past, and each gives something back: an iron keepsake set on her chest, then another, until they lie piled there. The last iron girl lays an iron ribbon on top and walks away. She lies still beneath the pile. No one is left beside the slab."
+          "The execution stand raised a giant flower on a tall stem to the very top of the trial court. She knelt inside its open blossom. One by one, its petals fell away, each drifting slowly down. When the flower was bare, it bowed and tipped her out, and she dropped head first onto the stone floor. She lay still among the fallen petals, the bare stem still bowed above her."
         ],
         "magic": {
-          "name": "What the Walls Saw",
-          "text": "She can replay any past moment of the place she's standing in, all around her."
+          "name": "The Room Remembers",
+          "text": "She can replay any past moment of the place she stands in, all around her."
         }
       },
       "variant": 1

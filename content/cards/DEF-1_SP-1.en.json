@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-1",
+  "style": "Self-Punisher",
+  "tag": "DEF-1_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at the lake, a girl carried stones up from the water and laid one row of them up the bank, working until dusk: one row for each day she had got through. When the row was done, she washed her palms in the lake. She never let {WITCH_NAME} carry a single stone.",
+          "At the start of one evening's free time, the girl held out her blistered palms and refused her once more. \"A row only counts if it costs me something. It wouldn't cost you a thing.\"",
+          "Long ago, {WITCH_NAME}'s sister had given away the scarf {WITCH_NAME} knitted for her in one sleepless night. \"She can knit another tonight.\" After that, {WITCH_NAME} answered every thank-you with \"It cost me nothing.\"",
+          "She knelt beside the girl and held her face under the shallows until she went still.",
+          "Then she carried twelve stones up from the water, one after another without a pause, her body never tiring, and laid the day's row herself. It was finished within the first hour, well before supper. From supper until lockup she served the prisoners in the dining hall and wiped down the tables, eating nothing.",
+          "Just before lockup, a prisoner went down to call the girl in and found her face down in the shallows, below a finished row.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out. A full row took the girl until dusk, so she must have drowned washing her palms afterward, while {WITCH_NAME} was serving supper.",
+          "But one prisoner had looked closely at the bank. Every earlier row dwindled to pebbles toward its end. Today's row was big stones to the very last.",
+          "Whoever laid that row had never tired. {WITCH_NAME} had drowned the girl at the start of the evening and laid it herself."
+        ],
+        "epitaph": "The first load of hers anyone ever weighed.",
+        "epithet": "The Girl Whose Gifts Weighed Nothing",
+        "execution": [
+          "The execution stand raises two giant knitting needles, a long grey scarf half-knitted between them. She stands bound into its last row of loops, the point of the right needle at her chest.",
+          "The needles begin the next row, clicking without a pause. The right needle drives through her loop and through her chest to work her stitch.",
+          "Row after row, they knit on over her, until at last they stop. The scarf hangs long and still, with her inside it."
+        ],
+        "magic": {
+          "name": "Never Weary",
+          "text": "She never needs sleep, food, drink or rest, and never grows tired."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

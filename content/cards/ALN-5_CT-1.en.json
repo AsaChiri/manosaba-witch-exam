@@ -10,21 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every evening a girl sat on the rim of the courtyard fountain, bare feet in the water, her cardigan folded unworn beside her. She couldn't sleep until she was cold through. Every evening {WITCH_NAME} leaned on the upper railing, her Magic prickling her arms with the cold of the girl in the dark below: the one cold she let herself keep. The prisoners laughed as she called out each dip of those feet. She was never wrong: the girl always came up wet to the ankles.",
-          "One evening the girl came up and chafed {WITCH_NAME}'s goosebumped arms with both hands. \"Nobody likes being cold.\" {WITCH_NAME} said nothing. Once, as she stood barefoot in snow blowing through an open window, her mother had chafed her arms the same way and shut it. She never opened a window on the cold again.",
-          "The girl promised tomorrow would be her last evening out. \"So you never have to freeze for me again.\"",
-          "At eight that last evening, {WITCH_NAME} went down and held the girl's face under the fountain water. Feeling the icy water fill her own chest, she didn't let go until the girl was still.",
-          "By twenty past she was back at the railing, calling out each dip as always. At half past eight she clutched her chest: \"Someone's holding her under!\" The girls beside her heard nothing from the dark below. They ran down and found the girl face down in the basin, drowned in her cardigan with her shoes on.",
-          "In the trial court, the prisoners ruled someone in the dark had held her under at half past eight while {WITCH_NAME} stood with them. Then a prisoner pointed out the dry socks in the girl's shoes. They realized those feet had never touched the water while {WITCH_NAME} called out each dip: she had faked the echo to stand among them while the girl already lay drowned."
+          "Every evening a girl sat on the rim of the courtyard fountain, bare feet in the water, her cardigan folded unworn beside her. She couldn't sleep until she was cold through. {WITCH_NAME} leaned on the upper railing above, her Magic prickling her own arms with the cold of the girl unseen in the dark. It was the one cold she let herself keep. The prisoners laughed as she called out each dip of those feet, never wrong: the girl always came up wet to the ankles.",
+          "One evening the girl came up, took {WITCH_NAME}'s goosebumped arms in both hands and rubbed them. \"Nobody likes being cold.\" {WITCH_NAME} said nothing. As a child she had stood barefoot at an open window, snow blowing in; her mother had rubbed her arms the same way, said the same words, and shut it. She never opened a window on the cold again.",
+          "\"Tomorrow's my last evening out,\" the girl promised. \"So you'll never have to freeze for me again.\"",
+          "At eight that last evening, {WITCH_NAME} went down and held the girl's face under the water, feeling the icy water fill her own chest. She didn't let go until the girl was still.",
+          "At twenty past, back at the railing, she called out the dip of the girl's feet, as always. At half past, she clutched her chest: \"Someone's holding her under!\" The girls beside her heard nothing from the dark. They ran down and found the girl face down in the basin, drowned in her cardigan with her shoes on.",
+          "In the trial court, the prisoners ruled that someone in the dark had held her under at half past eight while {WITCH_NAME} stood with them. One prisoner pointed out the socks inside the girl's shoes: dry, though {WITCH_NAME} had said her feet went in. The prisoners saw it then: no feet had gone in, so she had made up that echo to stand among them while the girl already lay drowned."
         ],
-        "epitaph": "She never told the one girl who loved the cold as she did; one sentence, and they could have sat in it together.",
+        "epitaph": "She never told the one girl who loved the cold as much as she did. One sentence, and they could have sat in the cold together.",
         "epithet": "Borrowed Winter",
         "execution": [
-          "The execution stand raises a small iron cottage with a stove and a single window. Inside, she is chained to a chair facing the window. Iron hands stoke the stove until the iron walls glow, and the heat closes over her skin. Each time she strains toward the snow outside, an iron mother shuts the window. \"Nobody likes being cold.\" At last she slumps still against the glass. The window opens, and snow drifts in over her."
+          "The execution stand raises a knitted cardigan as tall as the trial court, hanging open. She stands barefoot inside its open front. Its sleeves fold around her bare arms, and the goosebumps on them smooth away. Then the cardigan buttons itself shut from hem to collar, and its sleeves wind around her face and draw tight. It hangs there, still buttoned to the collar, until her bare feet stop moving below the hem."
         ],
         "magic": {
           "name": "Gentle Echo",
-          "text": "She feels the chill, thirst, hunger, aches and tastes of the people near her as her own."
+          "text": "She feels the chill, thirst, hunger, aches and tastes of people near her as if they were her own."
         }
       },
       "variant": 1

@@ -10,26 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every dusk, one prisoner read her sister's last letter at the upper railing. She had sewn it into the lining of her coat so it could never be lost, and she let only {WITCH_NAME} stand beside her. {WITCH_NAME} always came up dressed in plain grey for her.",
-          "One cold dusk, the girl wrapped her coat around {WITCH_NAME}. {WITCH_NAME}'s fingers found the letter stitched into the lining. The girl pulled the coat back off her shoulders. \"That's mine.\" Then she turned back to the railing to read alone.",
-          "At thirteen, in her father's new house, {WITCH_NAME}'s stepsister had pulled a coat she'd long outgrown off {WITCH_NAME}'s shoulders in the hallway. {WITCH_NAME} had worn it to her first dinner there. \"That's mine.\"",
-          "\"I wear whatever fits where I am,\" {WITCH_NAME} used to say. \"None of it is mine.\"",
-          "At the railing, she seized the girl by the coat and heaved her over. The collar ripped, and {WITCH_NAME} was left holding the coat. She put it on, pictured it whole, and turned once; it hung whole on her. She took it off and folded it over the railing where the girl had stood.",
-          "At lockup, the girl didn't come down. Her roommate found her on the courtyard path below the railing, her sister's letter, torn out of the lining, clenched in her fist. Above, the prisoners found her coat folded over the railing.",
-          "In the trial court, the prisoners ruled that she had folded her coat and jumped, holding the letter she had torn out to take with her.",
-          "Then her roommate unfolded the coat to sew the letter back in. The lining was whole. There was no hole where the letter had been torn out.",
-          "The prisoners understood. A coat with a piece torn from it comes back whole only if {WITCH_NAME} has pictured it that way. The girl hadn't taken off her coat at the railing. She had been pulled out of it."
+          "Every evening in the dining hall, one prisoner mended the other girls' torn clothes, cutting each patch from the dress she had arrived in. A patch took her a quarter of an hour, and at half past nine she handed everything back.",
+          "{WITCH_NAME}'s mother used to unpick her name tag from each school uniform at the resale counter. \"Someone else will wear it.\" Nothing she wore ever stayed hers.",
+          "At ten to nine, she brought the mender a torn dress for the first time. She had torn it herself. The mender handed it back unpatched. \"Patches are for clothes people keep.\"",
+          "Just before nine, {WITCH_NAME} took the tailor's shears from the table and drove them into the mender's neck. Then she put on each of the three garments still waiting in the basket and, with her Magic, pictured it mended. Each came off patched just like the mender's work, and she folded it onto the finished pile. From nine, she sat with the other girls in the lounge until the body was found.",
+          "At half past nine, the prisoners came for their clothes and found the mender dead, every garment patched and folded, the basket empty. One girl had left her torn skirt last in the basket at a quarter to nine, with three garments still waiting. In the trial court, they concluded that the mender had been working on those three patches from a quarter to nine until just before half past nine, while {WITCH_NAME} sat in the lounge.",
+          "But the mender had shown every girl she helped the hole in her own dress where that girl's patch had been cut. One prisoner searched it for holes matching the three new patches and found none. The court saw then that the mender had never sewn those three. Someone wearing each garment had pictured its patch, and the mender had died before nine, when {WITCH_NAME} had not yet sat down in the lounge."
         ],
-        "epitaph": "She could make any coat whole, and never learned what anyone kept inside one.",
-        "epithet": "The Girl in Borrowed Coats",
+        "epitaph": "She knew every patch the girl had ever sewn, but never where one was cut, because none had ever been cut for her.",
+        "epithet": "Dressed for Every Circle, Kept by None",
         "execution": [
-          "The execution stand raises the coat stand from her father's hallway until it towers as tall as the trial court. Heavy coats hang from its hooks, one for every crowd she ever dressed for. She is strapped to the bench at its foot, beneath a single bare hook that bears her name.",
-          "One by one, the hooks tip, and the coats drop onto her. The heap of wool climbs past her shoulders, then over her head.",
-          "At last the coat stand looms stripped above the still heap. Only the bare hook with her name is left."
+          "The execution stand raises a tall, turning clothes rack hung with every outfit she ever pictured. She stands bound to its pole by the sleeves of the first. As the rack turns, the hangers drop their outfits over her head one after another. Each settles over the last, and none replaces it. The last hanger lowers a plain dress onto the top, an empty name tag at its collar. The heap of clothes stirs, then stops, the empty name tag uppermost."
         ],
         "magic": {
-          "name": "Quick Change",
-          "text": "With a single turn, whatever she's wearing becomes any real outfit she can picture."
+          "name": "Dream Wardrobe",
+          "text": "She can turn whatever she's wearing into any outfit she pictures, real enough to wear."
         }
       },
       "variant": 1

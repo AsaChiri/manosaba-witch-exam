@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Performer",
+  "copingSub": "P-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-8",
+  "style": "Performer",
+  "tag": "DEF-8_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening after supper, {WITCH_NAME} pulled faces in the lounge, kneading her own like clay, and the room roared. \"If they laugh at the face I make, nobody looks at the one I have.\"",
+          "From her corner of the sofa by the fireplace, one girl silently drew every show, then passed the book round: every laughing face, none of the pulled ones.",
+          "The girl had walked in on her cold morning shower, wet hair swept back. That afternoon she showed her a page of her bare face, stain and all: \"The only face of yours I ever wanted to draw. It goes round tonight.\"",
+          "As a child she had kneaded the port-wine stain to rub it away; it spread from a coin to her whole cheek. Then her mother combed her hair over it for visitors.",
+          "The girl would not tear the page out. \"I've seen it now. I could draw it again with my eyes shut.\"",
+          "Before the show, in the empty lounge, {WITCH_NAME} twisted the girl's pencil cord around her neck from behind until she was still. She tore out the page, fed it to the fire, and kneaded her into her drawing pose: upright, head bowed, pencil to a fresh page.",
+          "Throughout the show, the prisoners saw the girl bent over her page and left her be. At the last face, {WITCH_NAME} called, \"Draw this one!\" and every head turned to the bowed girl. {WITCH_NAME} hugged her from behind: \"Did you get my best face?\" She slumped dead out of her arms.",
+          "In the trial court, the prisoners accused the prisoner beside her on the sofa of strangling her with the cord during the last laugh, while {WITCH_NAME} held every eye. The accused turned to that night's page, blank but for one dot where the pencil had rested. Not one line had been drawn during the show: the girl had been dead before it began, held in her pose by {WITCH_NAME}'s clay until the hug let her go."
+        ],
+        "epitaph": "The only face anyone asked to keep was the one she never made.",
+        "epithet": "The clown with her hair over one cheek",
+        "execution": [
+          "The execution stand raised a shower stall grown huge, its tiled walls closed tight around her beneath a giant showerhead. The torrent swept her hair back off her cheek, baring the stain to the whole silent court. Then it poured scalding over her head and body, and steam rose around her. She pulled one last face. No one laughed. She slid down the tiles and lay still, and the steam cleared from her bare face."
+        ],
+        "magic": {
+          "name": "Living Clay",
+          "text": "She kneads anyone or anything she touches like soft clay, and it painlessly keeps the new shape."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

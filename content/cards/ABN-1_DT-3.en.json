@@ -10,22 +10,24 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME}'s mother left letters in a drawer, each marked \"for later.\" She was gone within the month, and ever since, \"for later\" has meant goodbye.",
-          "In the prison, one girl went out to the courtyard fountain every evening, folded a letter to her little sister into a paper boat, and set it on the water. {WITCH_NAME} kept her company without leaving the lounge: she lay back on the sofa, stepped out of her body, and drifted out to the fountain as an unseen spirit. Every evening she told the lounge what the girl had written that night, and every time the girl laughed and said it was true.",
-          "One day in the dining hall, the girl put a letter folded into a boat in {WITCH_NAME}'s hands. \"For later,\" she said. \"In case I go first.\"",
-          "That evening, for the first time, {WITCH_NAME} went out to the fountain in her own body. As the girl leaned over to launch her boat, {WITCH_NAME} pushed her head under the water and held it there until she was still.",
-          "Then she lay still on the sofa, as she did every evening, only later than usual. At nine, she told the lounge what her spirit saw at the fountain: the girl was still there, folding tonight's boat. \"The water's colder than it looks tonight,\" she added.",
-          "Before lockup, the prisoners found the girl face down in the fountain. In the trial court, they ruled that she had drowned after nine, while {WITCH_NAME} lay on the sofa the whole time.",
-          "Then one prisoner pointed out how her Magic works: when her spirit leaves, every feeling stays behind in her body. Her spirit could never have felt the water. The prisoners understood. The cold had been in her own hands, from holding the girl under, before she ever came in."
+          "Every evening before the Monday burn, one girl went down to the incinerator room and fished out whatever the prisoners had thrown down the garbage chute, to give it back. She was the only girl {WITCH_NAME} kept company with in the flesh. The two of them sat by the open furnace, where no other girl came, and voices from the shower room drifted down the chute.",
+          "One evening the girl put her fishing hook in {WITCH_NAME}'s hand and showed her how to use it. \"In case I'm not here.\"",
+          "{WITCH_NAME}'s mother had once shown her where the money tin was kept and how to light the stove. \"In case I'm not home.\" She was gone that Sunday.",
+          "At the start of the evening talk, the prisoners passed the girl in the cell corridor on their way up; she was heading for the furnace. For an hour after the hot showers, they traded secrets aloud in the shower room, where no sound was supposed to get out.",
+          "While they talked upstairs, {WITCH_NAME} brought the incinerator lid down on the girl's back and leaned on it until her face lay still in the ash. Then she listened at the chute to every secret, to the last. Coming down from the talk, the prisoners found the girl face down in the ash under the lid.",
+          "In the trial court, {WITCH_NAME} repeated every secret and who had told it. She said she had left her body on her bunk and sat with them, unseen. As the prisoners saw it, her body had lain empty while her spirit listened upstairs, and they ruled her out.",
+          "Then one prisoner held up the slip she had written her secret on. She had lost her voice that night, so another girl had read it aloud, and {WITCH_NAME} had named the reader as the one who told it. The prisoners understood: she had heard that secret without seeing it, from the furnace at the bottom of the chute."
         ],
-        "epitaph": "She never unfolded the girl's boat; she was so sure she already knew it said goodbye.",
-        "epithet": "Reader of Goodbyes Not Yet Written",
+        "epitaph": "She heard \"In case I'm not here\" as a goodbye, but it never was one; the only leaving she ever heard coming was her own.",
+        "epithet": "She Who Hears the Goodbye First",
         "execution": [
-          "The execution stand raises a sheet of iron letter paper, with her chained flat at its center. Its hinged edges fold over her one crease at a time, each fold pressing down harder than the last. Then the folded iron letter stops shuddering, pressed flat and closed. An iron hand writes across the fold: \"For later.\" An iron drawer slides shut over the letter, still unopened."
+          "A giant iron fishing hook comes down from the execution stand on a long wire. Below it, she kneels bound on the bare floor.",
+          "The hook drops low and sweeps across the floor, feeling for her. It catches under her ribs and lifts her into the air.",
+          "She hangs still on the hook, turning slowly, looking down at the empty floor."
         ],
         "magic": {
-          "name": "Ghost of Myself",
-          "text": "She can step out of her body as an unseen spirit, leaving all its feeling behind."
+          "name": "Ghost Walk",
+          "text": "She can step out of her body as an unseen spirit, drifting through walls to see and hear."
         }
       },
       "variant": 1

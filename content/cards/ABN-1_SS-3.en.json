@@ -10,25 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Every evening her roommate sat under the courtyard tree until lockup call, watching the fireworks {WITCH_NAME}'s Magic sent up from her fingertips at nine o'clock.",
-          "One night before nine, the roommate took {WITCH_NAME}'s hand and folded her fingers into her palm. \"Not tonight. Sit in the quiet with me. You don't have to keep lighting them for me.\"",
-          "Long ago, after the last firework of a festival, her mother had lifted her down from her shoulders, said \"Wait here,\" and never come back. Ever since, when it went quiet, someone was leaving.",
-          "In the quiet after her roommate closed that hand, {WITCH_NAME} pressed both hands over the girl's mouth and nose until she was still. She sat her against the trunk, face up, and opened her eyes to the sky.",
-          "At nine she sent her show bursting over the courtyard. With every flash, the prisoners saw the roommate under the tree, face turned up, watching. After the last burst, {WITCH_NAME} climbed to the upper railing and stayed among them until lockup call.",
-          "When the roommate missed it, a prisoner went down with her phone light and found her dead under the tree, eyes open.",
-          "In the trial court, the prisoners agreed she had been killed after the show, while {WITCH_NAME} stood with them at the railing. But one prisoner had seen, in that phone light, firework ash lying on the dead girl's open eyes, never blinked away. She had been dead before the first burst, when only {WITCH_NAME} was with her."
+          "Every evening, {WITCH_NAME}'s roommate went out to the flower field and flew a kite she had made herself, sending it high over the roof. Each night she described how high it had flown, talking on until {WITCH_NAME} fell asleep.",
+          "One night at lockup, she smiled from her bunk in their cell. \"Tomorrow I'm cutting it loose for my brother. Then you can finally sleep without my kite stories.\"",
+          "{WITCH_NAME}'s father had flown a kite with her only once. That evening he cut her kite loose. \"Some things fly better let go,\" he said. By morning he was gone, and the house was silent.",
+          "At dusk on the day her roommate meant to cut the kite loose, while it was still up, {WITCH_NAME} walked out to the flower field alone. She pressed her roommate's face into the flowers beside the staked reel, beneath the rising line, and held her down until she was still. Then she gave the reel one slow turn and walked back. Her Magic kept it turning, winding in the line at a steady pace all on its own.",
+          "From the courtyard, the prisoners watched the kite come steadily down and drop behind the roof. {WITCH_NAME} had been standing among them since it was still riding high. Before lockup, they found her roommate dead, face down beside the staked reel.",
+          "On the morning of the trial, the prisoners agreed on what they had seen: the girl had been alive, reeling her kite in until it came down, while {WITCH_NAME} stood with them. Then one prisoner noticed a thin scorch mark across the back of the dead girl's coat, where the kite line had been dragged over it toward the reel. The line had been wound in over her after she fell. The prisoners realized the reel had been running on {WITCH_NAME}'s Magic since before she joined them."
         ],
-        "epitaph": "In the end, she was the one who walked away when the fireworks ended, and left a girl sitting face up to the sky, waiting.",
-        "epithet": "The Girl Who Never Lets the Fireworks End",
+        "epitaph": "The quiet she feared would still have had someone breathing in it.",
+        "epithet": "The Child Still Holding the Cut String",
         "execution": [
-          "The execution stand raised an iron firework mortar beneath an iron vault. She sat on the shoulders of a towering iron mother.",
-          "The iron mother set her down into the mortar, said \"Wait here,\" and walked away. Chains closed on her inside.",
-          "The mortar fired her headfirst up into the iron vault. She dropped back into the mortar and lay still.",
-          "The smoke thinned, the court went quiet, and the iron mother did not come back."
+          "The execution stand raises a giant reel, staked upright, with her bound along its drum. At the far end of its line, a giant kite lies on the trial court floor.",
+          "The reel begins to turn by itself at a steady pace, winding the line over her and drawing the kite across the floor.",
+          "It keeps winding. Layer upon layer of line tightens around her chest.",
+          "The kite reaches the spool, and the reel stops. She lies still under the wound line."
         ],
         "magic": {
-          "name": "Fingertip Festival",
-          "text": "She shoots real fireworks from her fingertips into the air, in any color and shape."
+          "name": "Never Winding Down",
+          "text": "Anything she sets in motion keeps going without ever slowing, until she lets it stop."
         }
       },
       "variant": 1
