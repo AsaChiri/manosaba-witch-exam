@@ -10,19 +10,27 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME} had told one girl about the little sister she raised and what happened to her. During an argument in the dining hall, that girl spoke the sister's name, and {WITCH_NAME} fell silent. Within a week, anyone who wanted her quiet used it.",
-          "That evening, the girl said it again. She always took the last shower. {WITCH_NAME} left with the group before her, then doubled back, telling a prisoner with a comb that she had forgotten her soap.",
-          "In the steam, she stood between the girl and the door and heated the air until the girl was fatally burned. She left just before lockup. The guards found the girl dead beneath taps that had run cold.",
-          "The burns had blistered beyond anything the prisoners' usual shower water caused. Another source of heat had been there. {WITCH_NAME} said she had left with the others and returned only briefly. But one prisoner had seen her go back, and another had watched the door until she finally emerged near ten."
+          "Every evening in the lounge, one girl opened her notebook and read aloud the stories the other prisoners had told her. She always kept the seat beside her free for {WITCH_NAME}, who never came.",
+          "One night, alone with her by the fountain in the courtyard, {WITCH_NAME} told her a story of her own: she had once given her diary to her only friend to hide from her mother, and the friend had read it aloud to the whole class. \"Please don't tell anyone,\" she said.",
+          "Then one evening the girl opened her notebook in the lounge and read that story to everyone. \"So you'll stop hating her,\" she said. {WITCH_NAME} stood in the doorway and heard every word.",
+          "Before lockup, the prisoners at the upper railing saw the girl below, writing at the fountain as the snow came down. She waved them on to their cells. Just before the doors locked, {WITCH_NAME} pulled the half-open courtyard door shut behind the girl's back. Her touch sealed it; now no hand but hers could open it.",
+          "At six the next morning, walking to breakfast among the other girls, she brushed the door with a fingertip as she passed.",
+          "That morning they found the girl curled up under the tree by the fountain, frozen, her notebook in her lap. The courtyard door swung open at a push.",
+          "In the trial court, the prisoners agreed she had nodded off writing in the snow and frozen there. No door, as far as they could tell, had ever been shut on her.",
+          "But in the courtyard, one prisoner had turned the girl's hands over and found her fingernails torn. On the courtyard side of the door, just under the handle, were scratches to match.",
+          "The court understood then. A door that opened at any push had held all night against her clawing, as only a door shut by {WITCH_NAME} could."
         ],
-        "epitaph": "Her heat kept out every hand, but not the name she had entrusted to one.",
-        "epithet": "The Heat That Answered to a Name",
+        "epitaph": "Of everyone, she let only one girl in, and that was the girl she shut out.",
+        "epithet": "The Diary Read Aloud",
         "execution": [
-          "A sealed glass flask held her standing above a low, steady fire. The flask disabled her magic. Heat built up inside its thick walls. The prisoners watched through the glass as she stopped moving. The fire continued beneath her."
+          "From the execution stand rises a notebook as tall as the trial court, lying open. She lies bound across its pages.",
+          "One by one, the pages lift and turn over onto her. Each settles across her face and chest, on top of the last.",
+          "She pushes at each page with her fingertips, trying to get it off her face, and each time the next comes down before she can.",
+          "The notebook lies open, its turned pages heaped flat over her. Only her fingertips show at the edge. They do not move."
         ],
         "magic": {
-          "name": "the Standing Heat",
-          "text": "She can make the air around her hot enough to scald others without burning herself."
+          "name": "Her Hand Only",
+          "text": "Whatever she closes, door, lid or clasp, no hand but hers can open."
         }
       },
       "variant": 1
