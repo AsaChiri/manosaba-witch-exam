@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Thrill-Seeker",
+  "copingSub": "TS-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Thrill-Seeker",
+  "tag": "ED-1_TS-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every time little {WITCH_NAME} cried \"Watch me!\", her father filmed it on his camcorder. \"I'll watch it later,\" he always said. Years later she found the tapes boxed up, never played.",
+          "So she rode every storm gale with her phone streaming live: \"Watch me now.\"",
+          "Her roommate taught herself to read every evening under her tree at the forest edge, sounding out each word of a picture book with a finger under it. She was the only one who looked up when {WITCH_NAME} rode over.",
+          "At ten to six, on her way to the storm, {WITCH_NAME} stopped and asked her to watch live tonight. Her roommate kept her finger on the word and didn't look up. \"I'll watch the recording later.\"",
+          "At eight minutes to six, {WITCH_NAME} slammed her roommate's head back against the trunk until she stopped moving.",
+          "At 6:08 she rode the gale low over the forest edge, streaming, her camera on the figure with the open book. \"Still reading. Never looks up.\" At 6:10 the prisoners were watching her stream on the projector in the recreation room, as they did every storm night, when she landed on the railing outside. She came in and stayed with them from then on.",
+          "Her roommate was found dead under her tree after dark. In the trial court, the prisoners ruled that she had been killed after she was seen reading, when {WITCH_NAME} was already with them.",
+          "Then a prisoner paused the recording on the frame over the tree. The picture book was upside down in the girl's hands, the drawn house standing on its roof. The prisoners understood: a girl who followed every word with her finger would never hold her book that way. She was already dead and propped up when {WITCH_NAME} flew over saying she was still reading."
+        ],
+        "epitaph": "Someone did watch her recording later after all, frame by frame, to condemn her.",
+        "epithet": "The Girl Who Said \"Watch Me Now\"",
+        "execution": [
+          "A giant projector rises in the trial court, its lens aimed at the court wall, with her bound upright in the slot where the film should run. The lamp blazes on close behind her. Its heat sears her back, and her magnified shadow thrashes across the court wall. Every spectator watches the wall. Not one turns to the projector. At last the huge shadow hangs still on the wall, and the lamp burns on."
+        ],
+        "magic": {
+          "name": "Riding the Wind",
+          "text": "She can stand on any moving air and ride it like a wave, wherever it carries her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

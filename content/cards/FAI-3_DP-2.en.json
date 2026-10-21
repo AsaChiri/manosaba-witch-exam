@@ -1,0 +1,37 @@
+{
+  "cell": "FAI|Depender",
+  "copingSub": "DP-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Depender",
+  "tag": "FAI-3_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every dawn, one girl walked out first onto the frozen lake, finding a new way each time, and waved the others on. {WITCH_NAME} followed right behind her, holding the end of her scarf.",
+          "One dawn, {WITCH_NAME} let go of the scarf and took one step of her own. The ice cracked under her.",
+          "At fifteen, she had chosen where to score her guild's great window pane, and it split crooked across the hall floor. Her master took her cutter away. \"From now on, you cut where I mark.\"",
+          "Out on the cracking ice, the girl flung the end of her scarf back to her and hauled her in by it. Then, in front of the others, the girl told her, \"From now on, you watch from the shore.\"",
+          "At dusk that day, {WITCH_NAME} stood on the shore, reached out and spoke the girl's name. An unseen hand, the girl's own, closed over hers and led her out onto the ice, along the line the girl would walk next. Where the hand stopped, she chopped a hole through the ice with a sword.",
+          "The next dawn, the prisoners waited on the shore for the girl's wave, {WITCH_NAME} standing among them. The girl walked out alone, a new way, and far out she dropped through the ice. She did not come up. They took it that she had broken through untested ice alone; it had cracked under {WITCH_NAME} only the previous dawn.",
+          "Then one prisoner crawled flat to the hole and looked at its rim. It had been chopped square by a blade, under a skin of new ice.",
+          "In the trial court, the prisoners understood. The hole had been cut overnight, on a line no one could have known, unless {WITCH_NAME}'s hand had been led to the girl's own choice."
+        ],
+        "epitaph": "One last time, she walked behind her on the ice, hand in hand, all the way to where she would fall.",
+        "epithet": "The Glass Cutter Who Waits for the Mark",
+        "execution": [
+          "A glass-cutting table rises in the trial court. She lies bound on her back on a great window pane, and a chalk line runs across the glass, straight through her throat.",
+          "A cutter wheel taller than she is rolls along the chalk line, scoring the glass. It rolls on across her throat without slowing.",
+          "It stops at the far edge. One straight score runs through the pane where she lies still."
+        ],
+        "magic": {
+          "name": "Led by the Hand",
+          "text": "When she says someone's name, their unseen hand takes hers and guides it to whatever they would choose."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

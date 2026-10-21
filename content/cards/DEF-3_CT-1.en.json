@@ -1,0 +1,38 @@
+{
+  "cell": "DEF|Caretaker",
+  "copingSub": "CT-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Caretaker",
+  "tag": "DEF-3_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening {WITCH_NAME} sets an empty bowl at every place on the long table in the dining hall, always more than anyone needs. Each fills as it touches the table, with a dish she never names beforehand.",
+          "One girl slips a bowl off the end of the table and carries it up to the library to eat alone beneath the unwilting cherry tree. She pins every sketch she draws of the others to its branches; only she ever draws {WITCH_NAME}.",
+          "One evening before supper, the girl calls her in from the hall to see a new sketch: {WITCH_NAME}'s hand resting on the neck of a girl dozing over her bowl. The girl reaches up to pin it with the others.",
+          "At nine, {WITCH_NAME} pictured holding her baby brother's face under his bathwater, and lifted him out. She told her mother, who never let her bathe him again. Since then she has believed that what she pictures is what she is.",
+          "Beneath the tree, she closes both hands around the girl's throat until the girl is still. She sets last night's empty bowl beside her and pictures pumpkin soup; it brims. Then she takes the sketch and goes down to lay supper.",
+          "Every bowl at supper fills with pumpkin soup, a dish never seen before. She never leaves the table until the body is found.",
+          "After supper, a prisoner goes up and finds the girl strangled, a bowl of tonight's pumpkin soup untouched beside her.",
+          "In the trial court, the prisoners rule the girl fetched her bowl at supper and was strangled before tasting it. {WITCH_NAME}, who never left the table, is cleared.",
+          "A prisoner points to the bowl beside the body: still brimming to the rim, not a drop down its side, though any bowl carried even two steps to a seat slops over. The prisoners realize it never came up the stairs. It filled where it was found, so {WITCH_NAME} set it there before supper."
+        ],
+        "epitaph": "The sketch showed only a resting hand. The killer was what she saw in it.",
+        "epithet": "The Gentle Hands She Feared",
+        "execution": [
+          "A long table rises into the trial court, lined with bowls of boiling soup that tower to the ceiling. At its end sits the one empty bowl, and she kneels inside it.",
+          "One after another, the great bowls tip into hers. Boiling soup pours down over her, bowl after bowl.",
+          "When the last has emptied, her bowl stands brimming to the rim, steam rising off a still surface."
+        ],
+        "magic": {
+          "name": "Brimful",
+          "text": "Any empty cup or bowl she sets down brims with whatever food or drink she pictures."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

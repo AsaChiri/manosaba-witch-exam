@@ -1,0 +1,36 @@
+{
+  "cell": "DEF|Self-Soother",
+  "copingSub": "SS-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Self-Soother",
+  "tag": "DEF-6_SS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} was nine, the choir teacher stopped the choir: someone was off-key, and she couldn't hear who. She heard each girl alone, then moved {WITCH_NAME} to the back row and told her to just mouth the words. {WITCH_NAME} ate lunch in a toilet stall, deciding the fault lay somewhere inside her, where no one could point to it.",
+          "In the prison, a girl sang her grandmother's songs at the courtyard fountain every evening until lockup. She stopped for no one; her one break was for the honey roll {WITCH_NAME} made her each supper. Every night, {WITCH_NAME} listened to that voice from upstairs.",
+          "Last night, she sang a line beside the girl for the first time. The girl stopped and tilted her head. \"Something's off. I can't hear where. You just listen, okay?\"",
+          "Tonight in the dining hall, {WITCH_NAME} used her Magic to fill the honey roll with the shame of the back row, then handed it over as always.",
+          "At 8:40, the girl took her break and bit into the roll. In the recreation room, the prisoners heard the song break off mid-line and never start again. {WITCH_NAME} was with them at the pool table.",
+          "At 9:05, she left the table, saying she was going to shower. In the courtyard, the girl sat hunched and silent on the fountain's rim. {WITCH_NAME} held her face under the water until she stopped moving.",
+          "At ten to ten, a prisoner found the girl face down in the fountain, the roll on the rim with one bite gone.",
+          "In the trial court, the prisoners ruled the girl had been drowned when her song broke off, while {WITCH_NAME} was with them. Then a prisoner tasted the uneaten half of the roll. Her voice broke off mid-sentence, and her face burned.",
+          "Now they understood: {WITCH_NAME}'s shame had stopped the song. The drowning came later, after she left the table."
+        ],
+        "epitaph": "Whoever tasted her shame felt it as their own; it had never been proof of anything wrong with her.",
+        "epithet": "The back-row girl who only mouths the words",
+        "execution": [
+          "A choir riser stands in the trial court. She is bound upright, alone on the top step at the back, and a sloping trough loaded with honey rolls runs down to her lips. Each time she opens her mouth, a roll slides in, and her voice breaks off at every one. The rolls pack her cheeks faster than she can swallow. At last she hangs slack against the back rail, cheeks full, honey running from her lips, as the rolls keep sliding."
+        ],
+        "magic": {
+          "name": "Made with Feeling",
+          "text": "She can cook any feeling into what she makes, for whoever eats it to feel."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

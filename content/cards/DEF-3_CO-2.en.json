@@ -22,14 +22,14 @@
         "epitaph": "Her hands were only ever steady when it was real.",
         "epithet": "A Steady Smile Over a Shaking Hand",
         "execution": [
-          "The execution stand raises a tall haircut stool into the trial court. She is strapped to its seat, a white cape pinned at her throat and its hem pinned to the floor all the way round.",
+          "A tall haircut stool stands in the trial court. She is strapped to its seat, a white cape pinned at her throat and its hem pinned to the floor all the way round.",
           "The stool rises slowly. The cape draws taut from floor to throat, and its collar tightens.",
           "As the collar tightens, she smiles at the spectators. Their faces soften and their shoulders loosen, at ease.",
           "The stool stops high above the court. The cape is a still white tent from her throat to the floor, and the spectators sit at ease."
         ],
         "magic": {
           "name": "All Is Well",
-          "text": "Any person or animal whose eyes meet her smile is instantly flooded with calm, sure that all is well."
+          "text": "Any person or animal who sees her smile is instantly calmed, sure that all is well."
         }
       },
       "variant": 1
@@ -48,7 +48,7 @@
         "epitaph": "That picture never had to come true. It did because she kept it hidden.",
         "epithet": "The gentle big sister, afraid of her own hands",
         "execution": [
-          "The execution stand raises a child's bathtub, grown to her size. She lies strapped on her back inside it, dry. A white bath towel drops and settles over her, soft and fluffy. Then it turns to marble. It still looks soft, but its weight presses down on her chest. Her fingers push at the hem and go still. The towel lies over the tub, white and soft-looking."
+          "A child's bathtub rises, grown to her size. She lies strapped on her back inside it, dry. A white bath towel drops and settles over her, soft and fluffy. Then it turns to marble. It still looks soft, but its weight presses down on her chest. Her fingers push at the hem and go still. The towel lies over the tub, white and soft-looking."
         ],
         "magic": {
           "name": "Skin Deep",

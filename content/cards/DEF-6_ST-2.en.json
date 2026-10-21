@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Striker",
+  "copingSub": "ST-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Striker",
+  "tag": "DEF-6_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening a girl kept the lounge fire. She rang each log with her knuckle and tossed the dull ones onto the cold pile, and she always saved {WITCH_NAME} the seat nearest the fireplace. One evening she rapped her knuckles on {WITCH_NAME}'s breastbone, the way she rapped the logs, and listened. \"Dull,\" she said. \"There's something in there I can't find. I'll find it.\" Then she laughed and patted the warm seat for her.",
+          "{WITCH_NAME} remembered her mother, a potter, ringing every pot that came out of the kiln and smashing the dull ones on the doorstep without ever looking for the flaw. One night she had picked through the shards of one of those pots, hunting for its crack, and found none. She had known ever since that a crack you can't find runs all the way through.",
+          "That night, after the others went upstairs, the girl knelt at the hearth to bank the coals. {WITCH_NAME} slapped the iron bracket under the mantel, and at the touch of her Magic it poured into the ash as sand. The stone mantel dropped onto the back of the girl's neck.",
+          "The next morning the prisoners found her dead in the hearth beneath the fallen mantel. The fire had worn the iron bracket through, they decided, and it had given way while she knelt there alone.",
+          "Before the trial, one prisoner raked the hearth ash for the snapped bracket, meaning to show the court its rust. There was not one piece of it. There was only fine, rust-red sand, and an empty socket in the stone with no stub left inside.",
+          "In the trial court, the prisoners understood. Iron that snaps leaves pieces. This bracket had gone whole to sand under {WITCH_NAME}'s palm while the girl knelt beneath it."
+        ],
+        "epitaph": "She missed it: the one who heard her ring dull was already patting the warm seat for her.",
+        "epithet": "Clay That Rang Dull",
+        "execution": [
+          "A great unglazed clay jar rose, set in a wide clay basin of water. She knelt bound at the bottom of the jar with her face turned up, while the water in the basin stood as high as the jar's shoulder. The water seeped in through the jar's side, where no crack showed. It rose inside, over her chin, over her mouth, over her upturned face. At last the jar stood filled to the level of the basin. Nothing stirred inside it, and a dark wet patch spread from one spot on its flank."
+        ],
+        "magic": {
+          "name": "Sandfall",
+          "text": "With one slap of her bare hand, any solid, lifeless thing crumbles into loose sand."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

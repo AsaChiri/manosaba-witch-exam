@@ -1,0 +1,34 @@
+{
+  "cell": "FAI|Depender",
+  "copingSub": "DP-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Depender",
+  "tag": "FAI-1_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Aged nine, {WITCH_NAME} walked the circus wire perfectly in her sister's slippers. The ringmaster praised her and sent her out alone on opening night in her own. At her first step she fell into the net as the tent laughed.",
+          "Every night at nine, a girl told stories from the dark upper railing to the girls on the courtyard grass. She did every voice, answered their calls, and threw some voices down to the fountain. {WITCH_NAME} sat beside her, both wound in the same long scarf.",
+          "One night the storyteller lost her voice, wound the scarf round {WITCH_NAME} and sent her up alone. Wearing it, {WITCH_NAME} used her Magic to tell the story in the storyteller's voice, and the girls cheered. Handing it back, she said, \"When they clap, they're about to find me out.\"",
+          "Three nights later, the storyteller told the dining hall, \"From tomorrow, she tells the stories in her own clothes. Tonight she listens from the grass.\"",
+          "Just before nine at the railing, the storyteller told her again: \"Go down and listen. Tomorrow it's you.\" {WITCH_NAME} pulled their shared scarf tight round the storyteller's throat until she was still.",
+          "From nine until goodnight, the girls heard the storyteller's voice from the railing tell the whole story and answer their calls, while {WITCH_NAME} lay among them on the frosty grass, her neck bare. At ten to ten, a girl climbed up to call the storyteller in and found her dead, the scarf tight round her throat.",
+          "In the trial court, the prisoners agreed the storyteller was strangled after her goodnight, while {WITCH_NAME} lay among them. Then a prisoner noticed the dead girl's shoes were on bare feet. The night had been frosty, yet her socks were missing. They understood: {WITCH_NAME} had worn those socks and told the story from the grass in the storyteller's voice."
+        ],
+        "epitaph": "Her best performance was the one nobody could applaud.",
+        "epithet": "The Girl Who Hears a Fall in Every Cheer",
+        "execution": [
+          "A high wire rises under the ceiling of the trial court, strung between two tall poles. She stands barefoot at its middle, with no net below. The poles begin to rock, and the wire swings under her bare feet, wider with every swing. At the widest swing she is thrown off and falls to the stone floor. The wire swings slower and slower, then hangs still above her. She lies still on the stone beneath it."
+        ],
+        "magic": {
+          "name": "In Someone Else's Shoes",
+          "text": "Wearing another person's clothes, shoes or gloves, she can do anything they can, just as well."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "cell": "ED|Perfectionist",
+  "copingSub": "PF-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-9",
+  "style": "Perfectionist",
+  "tag": "ED-9_PF-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening in free time, one girl ran hide-and-seek, as she used to with her little brothers. She always asked {WITCH_NAME} to seek, and to find her last.",
+          "{WITCH_NAME} waited alone by the lounge fireplace until every hider settled, then went hunting. She could hear each hider thinking of her, in the hider's own voice. Finding each girl, she repeated her thought word for word, and the girl confirmed it.",
+          "At supper in the dining hall, the girl announced this was {WITCH_NAME}'s last night listening in: from tomorrow, another girl would seek, so it would be a real game.",
+          "That evening by the fireplace, {WITCH_NAME} heard the girl's voice: She'll never look in the shower room. Let her listen one last night. Tomorrow we play for real.",
+          "{WITCH_NAME}'s mother once lowered her in the bucket down the garden well for a gold ring, and kissed her when she brought it up. On days nothing was lost, her mother never looked up from her sewing.",
+          "Before the hunt, {WITCH_NAME} left the fireplace, went to the shower room, and smothered the girl in the curtain she hid behind.",
+          "In the dining hall, right after a girl squealed at being found, {WITCH_NAME} told the found girls what the missing one was thinking: \"That's her squealing. She'll never find me in here.\" They saved her for last, found the last two hiders, then found her dead in the shower room.",
+          "In the trial court, the prisoners concluded that a hider still unfound had killed her after the squeal, while {WITCH_NAME} led the hunt.",
+          "A prisoner noticed the shower room was soundproof: no squeal from the dining hall reached behind its door. The prisoners realized {WITCH_NAME} had made up the thought: the girl had died before the hunt, when {WITCH_NAME} was meant to be waiting alone by the fireplace."
+        ],
+        "epitaph": "At last, everyone came looking for her.",
+        "epithet": "The finder no one looks for",
+        "execution": [
+          "An embroidery hoop rises upright in the trial court, linen drawn tight across it, and she is tacked flat to the linen at her wrists and ankles. A sewing needle pushes up through the linen and begins to sew in steady, even stitches, never pausing. It runs its stitch through her from shoulder to hip, in and out, drawing the thread after it. The thread is pulled taut and tied off. She hangs still, sewn into the linen."
+        ],
+        "magic": {
+          "name": "Thinking of You",
+          "text": "Whenever anyone, anywhere, thinks of her, she hears the thought in their own voice."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

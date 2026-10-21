@@ -25,14 +25,14 @@
         "epitaph": "Close enough to touch her, and still too far away to speak.",
         "epithet": "The Girl Who Loved from the Railing",
         "execution": [
-          "The execution stand raises an iron board, and she is chained upright against it, a folded iron note in her hand. Before her runs a long iron rail, with a small iron face at its far end.",
+          "An iron board rises, and she is chained upright against it, a folded iron note in her hand. Before her runs a long iron rail, with a small iron face at its far end.",
           "The face glides along the rail. It grows until it fills her sight, its mouth open in a laugh, until it meets her face and keeps pressing.",
           "She lets the folded iron note fall, unopened, beneath the face.",
           "The iron face rests against hers. Behind it, she hangs still."
         ],
         "magic": {
           "name": "Near and Far",
-          "text": "She can make anyone or anything she sees or hears seem right in front of her, or a faint, faraway speck."
+          "text": "She can choose how close or far anyone or anything looks and sounds to her."
         }
       },
       "variant": 1

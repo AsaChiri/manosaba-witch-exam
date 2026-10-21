@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Wall-of-Anger",
+  "copingSub": "WA-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Wall-of-Anger",
+  "tag": "ED-4_WA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every morning one prisoner came in from her dawn swim in the lake, hair still wet, and hugged every girl at breakfast in the dining hall. She hugged {WITCH_NAME} too, every single morning, though {WITCH_NAME} snarled, \"Get off.\"",
+          "One morning she hugged her from behind and told the whole table, \"See? She likes it. I can feel her hugging me back.\" What she felt was her own hug, sent back by {WITCH_NAME}'s Magic. She promised the table she would hug her every morning until she admitted it.",
+          "Before {WITCH_NAME} could even say why she was crying, her mother would wrap her in her shawl and rock her in the rocking chair. \"There, you feel better now.\" That was how she learned a hug is for the one giving it.",
+          "The next dawn she went down to the lake and knelt where the girl always climbed out. The girl surfaced laughing and reached up to hug her. {WITCH_NAME} pushed her head under and held it there. The girl clawed at her forearms to pull free, but her grip landed on her own forearms, and {WITCH_NAME} did not budge. She held on until the girl stopped moving.",
+          "The swimmer never came in to breakfast. The prisoners found her drowned at the water's edge, her forearms bruised by two large hands that had gripped them from the front. In the trial court each girl laid her hands over the bruises. {WITCH_NAME}'s small hands covered barely half. The court ruled that some big-handed girl had held her under by the forearms. It could never have been {WITCH_NAME}.",
+          "Then a prisoner found a ring's print pressed into the bruise on the dead girl's left forearm. It was the ring on her own right hand. The court understood: the grip had been her own, sent back to her as she clawed at {WITCH_NAME}'s arms under the water."
+        ],
+        "epitaph": "At the very end, someone finally felt what she always had: nothing but their own hold.",
+        "epithet": "Every Embrace Returned Unopened",
+        "execution": [
+          "A rocking chair rises, as tall as the trial court itself. She sits in it, wound to its high back in a shawl. The chair begins to rock, back and forth, each swing higher than the last. At the top of one swing it tips over backward and crashes down on its back, and her head slams against the wood. The chair lies on its back with its rockers in the air. Bound in its seat, she faces the ceiling and does not move."
+        ],
+        "magic": {
+          "name": "Return to Sender",
+          "text": "Any touch or blow that lands on her is felt by whoever gave it, never by her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

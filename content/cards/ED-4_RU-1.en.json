@@ -1,0 +1,34 @@
+{
+  "cell": "ED|Ruminator",
+  "copingSub": "RU-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Ruminator",
+  "tag": "ED-4_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Whenever the prison lost a girl, a stationer's daughter wrote her a farewell card in the family copperplate no other girl could write, and tied it to the upper railing. {WITCH_NAME} sat beside her for every card.",
+          "At nine, {WITCH_NAME} told her mother a boy had shut her in a shed all afternoon. Her mother squeezed her hand, said, \"My brave girl,\" and kept writing the shopping list.",
+          "One dusk, the stationer's daughter was writing for the girl executed the day before when {WITCH_NAME} told her about the shed and the shopping list. She squeezed {WITCH_NAME}'s hand, smiled, and went back to the card. \"When it's your turn, I'll write you a beautiful one.\" Then she tied the card on and left her pen and spare cards in {WITCH_NAME}'s lap.",
+          "That evening, during free time in her cell, {WITCH_NAME} took up the pen. Her Magic brought back the hand that had held it at dusk, closing around her own, and she let that hand write the dusk card again, stroke for stroke.",
+          "Every night the stationer's daughter read her cards alone at the railing until lockup. That night, before lockup, {WITCH_NAME} tipped her over it, head first onto the courtyard path, and tied the second card at the end of the row.",
+          "At unlock the prisoners found her on the path and her farewell last on the row: \"I'm sorry I couldn't keep you. I'm coming soon.\" No other girl wrote that hand. They took it that she had written her own farewell in yesterday's words and climbed over.",
+          "At the trial, a prisoner untied yesterday's card and held it against the last. Both carried the same blot, where the nib had caught on \"sorry.\" The prisoners understood: no hand blots twice in one place. The last card was yesterday's, played back through her pen in {WITCH_NAME}'s hand, and the stationer's daughter had never climbed at all."
+        ],
+        "epitaph": "When her turn came, no one was left to write her one.",
+        "epithet": "Held, Never Heard",
+        "execution": [
+          "A glass inkwell rises in the trial court, taller than two girls, with her standing inside at the bottom. Above its open lid, a great ink bottle hangs tipped on its side. The bottle pours, and black ink fills the inkwell, climbing up her body to her chin. She shouts up at the mouth of the inkwell; no sound comes through the glass. The ink reaches the brim, and the lid shuts over her. In the black she stops moving, her open hand still pressed to the inside of the glass."
+        ],
+        "magic": {
+          "name": "The Hand That Held It",
+          "text": "She can feel the hand of anyone who ever held what she's holding."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

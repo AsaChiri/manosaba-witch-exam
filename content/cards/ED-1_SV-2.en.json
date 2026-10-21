@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Sovereign",
+  "copingSub": "SV-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Sovereign",
+  "tag": "ED-1_SV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every dawn, a fellow prisoner sat in the lounge writing to her little sister, letters she never sent. At breakfast she read each one aloud to {WITCH_NAME}, then tied it into her bundle with a ribbon.",
+          "{WITCH_NAME} was too frail to lift a sword. Climbing the stairs, she had to rest on every step.",
+          "One dawn she came up early and asked for a letter of her own. The girl kept writing to her sister. \"You're right here, silly.\"",
+          "Her mother had written every night to her father, working far away. \"You're right here,\" her mother had said. \"He's the one who's far away.\" Being near, she had learned, was how you got left out.",
+          "She took the girl's writing hand and drew out all its strength. The pen sank slowly down the page as the girl slumped asleep. Then {WITCH_NAME} lifted down a sword with ease and ran her through on the girl's own strength.",
+          "At seven o'clock, the prisoners found her run through, the unfinished letter fallen at her feet.",
+          "In the trial court, they ruled that a strong arm had run her through as she wrote: the pen had skidded off the page as the blade went in. They began to suspect one another. {WITCH_NAME} could barely climb the stairs, and no girl had been found worn out, so she'd had no strength to draw on.",
+          "Then a prisoner laid the letter flat before the court. The line didn't jerk. It sank slowly, like a writer nodding off. A rested girl had fallen asleep mid-word at dawn. She had been drained dry first, and the arm on the sword had run on the dead girl's strength."
+        ],
+        "epitaph": "Being read to every morning was the only letter she had ever wanted.",
+        "epithet": "Too Near to Be Written To",
+        "execution": [
+          "The ribboned bundle of letters rose in the trial court, tall as a girl, with her bound to its face by the ribbon at the waist and the throat. Behind the bundle, a giant pen turned in the ribbon like a key. With every turn, the ribbon drew tighter around her throat, until she hung still against the letters, the ribbon tied off in a bow under her chin."
+        ],
+        "magic": {
+          "name": "Second Wind",
+          "text": "She can steal the strength of any person or animal she touches, leaving them worn out."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

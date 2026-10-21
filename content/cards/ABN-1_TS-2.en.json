@@ -20,14 +20,14 @@
         "epitaph": "It was only a sketchbook. She outran a goodbye that was never coming.",
         "epithet": "The Girl Who Runs Ahead of Every Goodbye",
         "execution": [
-          "In the trial court, the execution stand opens a deep, round pool skinned with thin lake ice and ringed with the prison lights. It sets her down in the middle of the ice and lets go. She breaks into a run.",
+          "In the trial court, a deep, round pool opens, skinned with thin lake ice and ringed with the prison lights. She is set down in the middle of the ice and released. She breaks into a run.",
           "The ice holds her only as long as she keeps moving. She runs toward a light, and it goes dark before she reaches it. Then the next, and the next, each one out before she gets there.",
           "In the dark, she stumbles to a stop. The ice gives way, and she drops through.",
           "The black water goes still in the broken ice. Nothing rises under the dark ring."
         ],
         "magic": {
           "name": "Skipping Stone",
-          "text": "She can run across water, thin ice or a taut rope as if it were solid ground."
+          "text": "She can run across water or anything else too thin or weak to hold her."
         }
       },
       "variant": 1

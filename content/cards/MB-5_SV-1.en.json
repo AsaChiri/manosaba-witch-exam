@@ -10,20 +10,22 @@
     {
       "fields": {
         "crime": [
-          "One girl made {WITCH_NAME} collect other prisoners' belongings with her magic, then displayed them as her own collection by an upstairs window. At midday she ordered an embroidered handkerchief by Friday and turned away before {WITCH_NAME} could answer.",
-          "That evening, {WITCH_NAME} claimed a vial of heart medicine from the infirmary. Its keeper delivered it and left, half convinced she had meant to make the trip. A whole vial was enough to stop a healthy heart.",
-          "The next morning, {WITCH_NAME} claimed the girl's syrup jar, which the girl normally kept to herself. When it arrived at her cell door, she poured the medicine onto the thick syrup and put the jar back outside. The girl carried it away, confused about why she had brought it.",
-          "At midday, the girl stirred her usual spoonful from the top into tea and drank before the others. The medicine had stayed in a separate layer; that first spoon took almost all of it. Within an hour she was dead.",
-          "The keeper recognized the medicine's bitter smell in the syrup, and a vial was missing from the infirmary. The jar had left its owner's keeping just once that morning, at {WITCH_NAME}'s door."
+          "When she was small, her father sat her in his shop window under a lamp to make lace. Passersby stopped to watch her hands. None of them looked at her face.",
+          "In the prison, a girl sketched from the upper railing every evening. She drew only {WITCH_NAME} at the fountain, and only her face.",
+          "One evening in the courtyard, the girl pressed a ball of lace thread into her hands. \"Make lace again. I want to draw your hands working.\"",
+          "Up at the railing, {WITCH_NAME} took the charcoal from the girl's fingers, and with that touch took her drawing hand as well. The girl's next strokes dug into the paper and wobbled like a child's. {WITCH_NAME} strangled her with both hands, then sat her bowed over the sketchbook, as on every other evening. She tore out the scrawled page and, with the girl's skill, drew that evening's sketch in advance: herself at the fountain, throwing the thread into the water.",
+          "Back in the courtyard, she threw the ball of thread into the fountain in front of the other girls, just as drawn, and stayed among them until lockup. At lockup, a prisoner went up and found the sketcher dead, her sketchbook open on {WITCH_NAME} throwing the thread.",
+          "In the trial court, the prisoners ruled that the girl had drawn the throw while still alive and been killed afterward, while {WITCH_NAME} sat among them at the fountain. They turned on the prisoner who had gone up.",
+          "Then someone tilted the drawing under the court lamp. Beneath the charcoal, the paper held hard, wobbling grooves: a fountain drawn by a child's hand. The prisoners saw it. The dead girl's hand had already become a beginner's before this drawing was made, so the hands that took her skill had drawn it before the throw, and those hands belonged to {WITCH_NAME}."
         ],
-        "epitaph": "She could claim anything, and still belonged to someone else's wants.",
-        "epithet": "A Queen Kept as Someone's Errand Girl",
+        "epitaph": "The last time her face was drawn, the hands were her own.",
+        "epithet": "The Girl No One Saw Past Her Hands",
         "execution": [
-          "A giant iron hand traveled on a track above a circle of empty chairs. It gripped her body, enclosing her hands, and carried her from chair to chair. Each time it set her down, it took a tighter grip to lift her again. At the last chair it kept closing until it crushed her."
+          "A shop window hung with lace rises. She sits inside in a lace dress at a lacemaker's pillow, her wrists tied to its bobbins. The bobbins swing and cross, dragging her hands through the lace, and the spectators watch her hands work. A lamp lowers over them until only her hands are lit. As the bobbins lift her hands, the lamp catches her lace cuffs. Fire runs up her sleeves, down her dress, and out into the lace hung around the window. Then she sits still in the bare, blackened window, her hands resting on the pillow under the lit lamp."
         ],
         "magic": {
-          "name": "Requisition",
-          "text": "When she claims an object as hers, its owner is compelled to bring it to her."
+          "name": "Light Fingers",
+          "text": "With a touch, she takes someone's practiced skill into her own hands, leaving theirs as clumsy as a beginner's."
         }
       },
       "variant": 1

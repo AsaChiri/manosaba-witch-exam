@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Detacher",
+  "copingSub": "DT-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Detacher",
+  "tag": "ED-4_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At nine every evening, a girl phoned {WITCH_NAME} from the dark incinerator room to tell the lounge a ghost story. {WITCH_NAME} laid the phone on the lounge table and turned it up with her Magic so every girl could hear. Every story ended with a shriek, a dead silence and a giggle. Then the girl waited in the dark to jump out at the girls coming down to bed.",
+          "At supper in the dining hall, {WITCH_NAME} told her alone, \"Every night I dream I scream, and no sound comes out.\"",
+          "That night at nine, the girl's ghost story was that dream. \"Now it isn't only yours,\" she told {WITCH_NAME}.",
+          "When {WITCH_NAME} was eight and had a nightmare, her mother retold it at the family dinner table, laughing, and everyone laughed and hugged the little girl.",
+          "At a quarter past nine, the story reached its shriek, and {WITCH_NAME} turned the phone down to nothing. The lounge waited for the giggle, then laughed: she was playing dead.",
+          "At twenty to ten, {WITCH_NAME} went down ahead of the others. The girl leapt out screaming. {WITCH_NAME} silenced every sound the girl made and strangled her. Her mouth stretched wide, and nothing came out.",
+          "The next morning the prisoners found her strangled in the dark incinerator room, her phone in her hand. The night before, she had not jumped out at them on their way to bed.",
+          "In the trial court, the prisoners ruled she had been killed at the shriek. At that moment, {WITCH_NAME} was sitting with them beside the phone.",
+          "A prisoner lifted the girl's arm and let it drop on the stone. It landed without a sound.",
+          "The prisoners understood. The girl had told her story aloud, so she had been silenced only after the shriek. {WITCH_NAME}'s Magic worked only on what she could see, so she had done it face to face. At the shriek, it was the phone that had gone quiet."
+        ],
+        "epitaph": "At last, a scream of her own that no one will ever retell.",
+        "epithet": "The girl whose nightmares became dinner stories",
+        "execution": [
+          "A phone as tall as the trial court stands on end. She kneels alone on its top edge. The phone rings and shakes hard beneath her. She turns its ringing down to nothing, and it goes on shaking in silence. It shakes her off the edge, and she falls the full height of the court to the stone floor. She lies still on the floor below, while the phone above her keeps shaking without a sound."
+        ],
+        "magic": {
+          "name": "Hush and Roar",
+          "text": "She can turn the sounds of anyone or anything she sees up to a roar or down to silence."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

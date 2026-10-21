@@ -1,0 +1,32 @@
+{
+  "cell": "ED|Fantasist",
+  "copingSub": "FA-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Fantasist",
+  "tag": "ED-1_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Her mother ate supper beside her with her eyes on her phone, answering everything with \"Mm,\" and left her the heel of the loaf. {WITCH_NAME} tasted a feast in it, and pictured someone asking about her day.",
+          "In the prison, one girl carried supper trays down the cell corridor to the prisoners who skipped supper, because no one should eat alone. She would sit on their bunk until the plate was clean, thumbing through messages and stealing one bite.",
+          "{WITCH_NAME}, alone in her cell, skipped supper three evenings running, until the tray stopped at her bars. She told the girl about her mother's suppers. The girl answered \"Mm\" without looking up from her phone. {WITCH_NAME} turned to her plain bread and filled her senses with her feast: a warm hand in hers, and someone asking about her day.",
+          "The prisoners found the girl dead on the floor of {WITCH_NAME}'s cell, her throat clawed raw. {WITCH_NAME} was still smiling at her feast, her arm bloodied and the dead girl's hand locked on it, and she was holding on to that hand. In the trial court she said only, \"Someone held my hand.\" No one believed her. The prisoners ruled that she had strangled the girl, that the girl had clawed her arm trying to fight her off, and that she had gone to her feast to hide from what she had done.",
+          "In truth, the girl had torn a bite from {WITCH_NAME}'s bread while laughing at a message, one bite, as from every plate. She choked without a sound, clawing at her own throat, then at {WITCH_NAME}'s arm. And at her feast, {WITCH_NAME} felt a warm hand in hers and held it, smiling."
+        ],
+        "epitaph": "The one hand that ever reached for her, she held as a dream.",
+        "epithet": "She Who Feasted on Plain Bread",
+        "execution": [
+          "A long supper table rises, and on it lies a single loaf that runs the whole length of the board. She is strapped on her back across the far end, her throat just past the end of the loaf. A bread knife saws down through the loaf, slice after slice, stepping toward her with each cut. The loaf falls away down the table one slice at a time, until only the heel is left, resting against her cheek. The next slice saws down across her throat. She lies still on the board, the knife resting in the last cut."
+        ],
+        "magic": {
+          "name": "Waking Dream",
+          "text": "She can fill all five of her senses with anything she imagines, as vivid as waking life."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -10,22 +10,21 @@
     {
       "fields": {
         "crime": [
-          "Every evening at dusk, {WITCH_NAME}'s roommate walked down to the lake shore and posted the sunset to the prison chat from her phone, so the girls inside could see it too. Since the first cold night, she had worn {WITCH_NAME}'s cardigan on every walk.",
-          "One evening, before her walk, she folded the cardigan in the lounge and handed it back. \"It's warm enough now. Thank you for keeping me warm all winter.\"",
-          "Long ago, {WITCH_NAME}'s mother had returned the neighbor's ladder and sugar tin, and {WITCH_NAME} had helped carry them back. By the next morning, her mother was gone.",
-          "At the prison entrance, {WITCH_NAME} pulled the cardigan on and watched her roommate walk down to the lake. Before the sun set, she fixed her eyes on the shore beside the girl and was standing there. She closed both hands around her roommate's throat and did not let go until she was still.",
-          "Before sunset she was sitting among the girls in the lounge, the cardigan on, and she kept it on all evening, until the body was found. As the sun went down, she slipped out to the entrance hall for half a minute. At the same moment, the prisoners in the lounge saw her roommate's sunset photo arrive in the chat, just as it did every evening.",
-          "In the trial court, the prisoners ruled that the girl had been strangled on the shore after sending the sunset, while {WITCH_NAME} had never been gone for more than half a minute.",
-          "Then one prisoner spotted a dark knit cuff in the corner of the last sunset: the cardigan that had been given back. Every earlier sunset was clean. They realized {WITCH_NAME} had strangled her roommate first, then spent her half minute standing at the lake, taking the sunset herself."
+          "Every morning at first light, {WITCH_NAME}'s roommate woke her so they could go down to the courtyard and break the ice on the fountain for the birds.",
+          "When she was small, her mother had once tucked her back into bed and told her, \"Sleep.\" She woke to her mother's footprints in the snow, running out through the gate.",
+          "One morning at first light, her roommate pulled the blanket back over her in their cell and said, \"Sleep. I'll go alone from now on.\"",
+          "She climbed to the upper railing. Below, her roommate knelt alone at the fountain, breaking the ice. {WITCH_NAME} fixed her eyes on the last footprint her roommate had left in the snow, just behind her heels, and the next instant she was standing inside it, with not one track on the snow between. She slammed her roommate's head down on the iced rim, and the girl slid face first into the hole she had broken.",
+          "The prisoners found her face down in the ice hole, with one line of her own footprints leading from the door. They searched the snow for the lone pair of prints {WITCH_NAME}'s Magic always left wherever she landed, with no trail leading up to them. There were none anywhere. In the trial court, they ruled that her roommate had slipped alone on the iced rim.",
+          "Then one prisoner set her foot in that last footprint to retrace the slip, and found a smaller sole already pressed into the bottom of it. They realized that {WITCH_NAME} had stood in that footprint without ever walking there, and had struck her roommate down."
         ],
-        "epitaph": "Some people hand a thing back fully meaning to borrow it again.",
-        "epithet": "Always There Before the Goodbye",
+        "epitaph": "She would have come back, her hands still cold from the ice.",
+        "epithet": "The Girl Who Never Goes Back to Sleep",
         "execution": [
-          "The execution stand raises an iron slab with her chained on her back, beneath a huge iron hand full of borrowed things. One after another, the hand gives them back, setting each on her chest: an iron ladder, then an iron sugar tin. Last, it lays a folded iron cardigan on top. Warm enough now. Then the hand rises away into the dark. Her eyes follow it until she no longer stirs."
+          "A two-tier bunk bed rose on the execution stand in the trial court, its upper bunk heaped high with snow. She lay on the lower bunk under a blanket drawn tight to her chin and bound around the bed. The upper bunk tipped open and dropped its snow over her chest and face. The snow packed down over her. Beneath it, the blanket heaved, then stopped. The snow lay level and smooth across the lower bunk, and nothing stirred beneath it."
         ],
         "magic": {
           "name": "One Glance Away",
-          "text": "She can step instantly to any spot she looks at."
+          "text": "She can teleport to any spot she looks at."
         }
       },
       "variant": 1

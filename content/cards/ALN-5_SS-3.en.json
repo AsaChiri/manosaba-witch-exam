@@ -22,7 +22,7 @@
         "epitaph": "In the end, a whole court needed to know how deep the snow was.",
         "epithet": "The Snow-Measurer Nobody Wanted to Hear",
         "execution": [
-          "The execution stand raised a giant iron clock face. She was chained upright against the twelve.",
+          "A giant iron clock face rose. She was chained upright against the twelve.",
           "The iron minute hand ticked toward twelve, one loud tick at a time, in a silent court.",
           "She shut her eyes and opened them. The hand had moved only one tick.",
           "Tick by tick, it brought its edge into her side.",
@@ -30,7 +30,7 @@
         ],
         "magic": {
           "name": "The Skipped Hour",
-          "text": "She vanishes and reappears on the same spot later, skipping straight past the time between."
+          "text": "She can skip forward in time, reappearing on the same spot later."
         }
       },
       "variant": 1

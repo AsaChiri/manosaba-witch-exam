@@ -1,0 +1,34 @@
+{
+  "cell": "ED|Avoider",
+  "copingSub": "AV-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Avoider",
+  "tag": "ED-1_AV-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At seven, {WITCH_NAME} held up her cut hand. Her mother, phone still at her ear, pushed the plaster box across the table without looking up. After that, {WITCH_NAME} never held out a hand again.",
+          "In the mansion, one prisoner spent all her free time in the medical room patching up the other girls' scrapes, the way she once had for her little brothers. She tried with {WITCH_NAME} too, but her Magic kept her skin so slick that every plaster slid off. \"One day one will stick,\" the girl laughed.",
+          "That afternoon in the lounge, the girl pressed plaster after plaster onto {WITCH_NAME}'s gashed palm. {WITCH_NAME} let it bleed rather than let one stay. She had never let the slickness drop where anyone could see, and nobody believed it could.",
+          "Before the lock-up call, alone with the girl among the shelves of the medical room, {WITCH_NAME} let the slickness drop for the first time and held out her gashed palm. The girl kept counting bandage rolls with her back turned. \"They never stick on you. The box is on the bed.\"",
+          "{WITCH_NAME} stuck a plaster on her own palm. It stayed. Then she wound a bandage roll round the girl's throat from behind and pulled until the girl was still. The iodine bottle lay kicked over on the bed, and when she pushed herself up off the sheet with that palm, she left a brown handprint.",
+          "At the lock-up call, the prisoners found the girl dead across the bed, the bandage at her throat and the handprint on the sheet beside her. In the trial court they ruled {WITCH_NAME} out: nothing had ever clung to her hand, so the print could not be hers.",
+          "Then one prisoner noticed something in the middle of the print: a square of cloth weave where the palm lines stopped. A plaster had stuck to that gashed palm. {WITCH_NAME} had let the slickness drop."
+        ],
+        "epitaph": "The one plaster that ever stuck was the one she put on herself.",
+        "epithet": "The girl no plaster would stick to",
+        "execution": [
+          "A long, narrow table rose until it stood two floors above the stone floor. She stood alone at its far end. From the other end, a giant plaster box as wide as the table slid toward her, and it did not slow. She held out both hands against it. Her feet slid back along the tabletop. She went over the end backwards and dropped to the stone floor. The box stopped at the table's edge, above her, and below it she lay still."
+        ],
+        "magic": {
+          "name": "Wet Soap",
+          "text": "She can make herself so slick that nothing can grip or cling to her."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

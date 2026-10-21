@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Self-Punisher",
+  "tag": "ED-4_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening in the lounge, {WITCH_NAME} sat beside a girl at the fire. The girl saved every sweet from dessert in a glass jar and popped one into the mouth of any girl who looked sad. The jar had a crack, and she would not let {WITCH_NAME} mend it. \"It's from the night I arrived crying. I keep it to remember I got through.\"",
+          "{WITCH_NAME} mended everything else. Whenever something broke, she said \"My fault\" and made it whole before anyone could speak. \"No one ever said it mattered, so I say it first.\"",
+          "At eight, she had broken her mother's music box and sobbed \"My fault\" over it. Her mother popped a sweet into her mouth, said \"All better,\" and swept the pieces into the bin, humming its tune.",
+          "One night, after the others went down, she came back up alone and told the girl about the music box, and how she had wished her mother had been angry. The girl laughed and popped the last sweet into {WITCH_NAME}'s mouth. \"There. All better.\"",
+          "She brought the empty jar down on the girl's temple. It shattered, and the girl dropped against the edge of the hearth. \"My fault,\" {WITCH_NAME} whispered, and touched the jar's neck. Every shard leapt out of the girl's hair and out of the ashes and flew home until the jar stood whole. She set it upright beside the girl and went down before lockup.",
+          "At six, the prisoners found the girl dead at the fireplace, blood on the hearth's edge and the empty jar whole beside her. In the trial court they ruled that she had dozed off and fallen against the hearth alone; nothing heavy in the lounge was even chipped. Then a prisoner turned the jar in the light. The crack the girl had kept was gone. The jar was the heavy thing that had struck her, and it was whole only because {WITCH_NAME} had mended it."
+        ],
+        "epitaph": "All she ever wanted was one person who would leave her crack unmended, the way that girl kept the one in her jar.",
+        "epithet": "The Mender No One Ever Scolded",
+        "execution": [
+          "The bare works of a giant music box rise in the trial court: a brass drum studded with pins, turning before a steel comb. She stands bound between them, her back to the comb's teeth. The drum turns, driving its pins into her chest note by note. The music box plays its tune through, louder than any sound she makes. Then it winds down to its last note and stops, and she hangs still against the comb."
+        ],
+        "magic": {
+          "name": "Whole Again",
+          "text": "She can mend any broken thing she touches without a trace, however scattered its pieces."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

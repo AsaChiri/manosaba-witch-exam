@@ -1,0 +1,40 @@
+{
+  "cell": "ED|Self-Soother",
+  "copingSub": "SS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-9",
+  "style": "Self-Soother",
+  "tag": "ED-9_SS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Each supper, {WITCH_NAME} ate alone in her cell from one bowl until something in her went quiet. Every bite grew back, and every prisoner had seen it.",
+          "One girl never queued at {WITCH_NAME}'s pot. \"No face here should be forgotten,\" she said, and each supper she drew one face while her sitter ate, then pinned it to the upper railing by morning. She never said whose face was next.",
+          "That morning she had taken {WITCH_NAME} aside and asked her to sit for the first time. At supper she carried a bowl up to the upper railing and set it in {WITCH_NAME}'s hands. \"Hold your bowl up by your face. That's how everyone knows you.\"",
+          "Once, on her little sister's birthday, {WITCH_NAME} had been photographed carrying in the cake. Her mother pointed at the cake in the picture. \"That's you. Everyone knows you made it.\" People look at what I bring, she thought then, never at me.",
+          "Before one line of her face was drawn, {WITCH_NAME} twisted the sketchbook cord around the girl's neck until she stopped moving.",
+          "A full bowl beside the body could only be hers. She poured half her untouched supper down into the dark, set the bowl back beside the dead girl's, and went down.",
+          "After supper the prisoners found the girl slumped at the railing beside two bowls: her own eaten, her sitter's half gone, the sketchbook open at a blank page.",
+          "In the trial court, no one would say {WITCH_NAME} had sat for her. Whoever sat had eaten half their supper, the prisoners ruled, so it was someone else: when {WITCH_NAME} eats, her bowl stays full.",
+          "Then a prisoner unrolled the napkin the dead girl had wrapped around the sitter's spoon. The spoon was clean and dry, never used.",
+          "No one had eaten from that bowl, the prisoners realized. It had been tipped out to look eaten, by the girl whose bites grow back."
+        ],
+        "epitaph": "Her only portrait is a blank page, the one picture where her hands are empty.",
+        "epithet": "Known by her bowl, never by her face",
+        "execution": [
+          "A giant rice bowl rises in the trial court, and she is packed inside it in rice up to her shoulders. Above it, a giant ladle hangs over a pot of stew.",
+          "The ladle dips and pours stew into the bowl, ladleful after ladleful.",
+          "The stew rises over her chin. She strains up out of the rice, tipping her face back, and the stew closes over it.",
+          "The bowl stands brim-full and still. Nothing of her face shows, only the full bowl."
+        ],
+        "magic": {
+          "name": "Bottomless Bowl",
+          "text": "Whatever she serves or eats is whole again after every bite and sip."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

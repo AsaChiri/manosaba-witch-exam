@@ -1,0 +1,36 @@
+{
+  "cell": "ED|Resigned",
+  "copingSub": "RS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-9",
+  "style": "Resigned",
+  "tag": "ED-9_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, one of the girls built a wooden jigsaw on the hearthrug in the lounge while {WITCH_NAME} sat beside her, holding the box. The girl only turned to her when a piece went missing, and then only to say, \"Your hand.\"",
+          "One evening during free time, {WITCH_NAME} sat waiting alone in the dark library. When she was nine, she had hidden in the apple tree all afternoon. Her father called her name only at dusk, because he couldn't find the car keys.",
+          "The girl came looking for her. \"There you are. Give me your hand. The last piece is gone.\"",
+          "{WITCH_NAME} touched her wrist, and the pull led the girl's hand straight into {WITCH_NAME}'s own pocket. \"You had it all along,\" the girl said, and ran back to the hearth without looking back.",
+          "In the lounge, as the girl knelt to press in the last piece, {WITCH_NAME} took her by the hair and struck her temple on the stone hearth of the fireplace. Then she took the piece from the girl's fingers and closed her hand around it.",
+          "Before lockup, the prisoners found the girl at the hearth and took it that she had fallen. The picture beside her had one hole left in it. {WITCH_NAME} went around the lounge laying her hand on every girl's wrist, her other hand kept closed, and then sat down to wait.",
+          "In the trial court, one of the prisoners went looking for the last piece so she could lay it in for the dead girl. The pull led her straight to {WITCH_NAME}'s closed hand.",
+          "{WITCH_NAME} opened her hand. \"There you are.\"",
+          "The prisoners understood then that she had struck the girl down at the hearth and kept the piece for them to find."
+        ],
+        "epitaph": "She was found at last, but only by becoming the thing that was lost.",
+        "epithet": "The Finder No One Looks For",
+        "execution": [
+          "A wooden jigsaw box rises from the trial-court floor, and she stands waist-deep among pieces as big as doors. The lid shuts. The box begins to shake from side to side, and the pieces tumble and slam into her until the rattling slows to the sound of a single piece sliding. The lid lifts. She lies still among the pieces, one hand closed."
+        ],
+        "magic": {
+          "name": "Homing Touch",
+          "text": "Anyone she touches, herself included, feels pulled straight to whatever they're looking for."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

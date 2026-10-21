@@ -10,23 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Every spring, {WITCH_NAME}'s mother sat her on the stool at home and cut off her braid. \"Short suits you.\"",
-          "In the prison, her roommate cut everyone's hair. Every night before lockup, she braided the hair {WITCH_NAME} had grown since she came.",
-          "One night, halfway through the braid, the roommate took her haircutting scissors and snipped it off at the nape. She held it up. \"Short suits you.\"",
-          "{WITCH_NAME} took the braid from her hand and walked two doors down. Minutes before lockup, with both girls who lived there watching, she stepped into it and vanished inside, the way her Magic let her enter anything she touched.",
-          "Back in their own cell, the roommate laid the scissors on the shelf. As the bars locked, she called after her: \"I'll even it out in the morning.\"",
-          "In the night, {WITCH_NAME} came out of the braid, held it out through the barred cell door and stepped back into it, and it dropped to the corridor floor on the other side. At her own door she did it again, and stepped out inside her own cell. She took the scissors from the shelf and stabbed her sleeping roommate through the blanket, into the heart.",
-          "When the bars unlocked in the morning, she stepped out of the braid two doors down, in front of both girls who lived there.",
-          "In the trial court, the prisoners agreed that she had spent the night locked away inside the braid behind another cell's bars, while her roommate was stabbed alone behind her own. Then a prisoner took the braid from her hands. Its cut end was stiff with dried blood. They understood then: the braid had passed through a barred cell door with her inside it, into the locked cell where her roommate died, and back out again."
+          "At every meal in the dining hall, one girl picks a flower from the vase for each plate, the way her grandmother once did at the family table. She always keeps {WITCH_NAME} at her side. Whenever the table gets loud, {WITCH_NAME} touches the vase and steps inside it, hidden among the stems.",
+          "One evening the girl takes the clover from {WITCH_NAME}'s collar, a clover {WITCH_NAME} picked herself that morning, and lays a lily by her plate. \"This one is yours.\" Then she tucks the clover in among the old stems in the vase.",
+          "Years ago, {WITCH_NAME} picked a dandelion for her own hair. Her mother unpinned it and pinned a silk rose there instead.",
+          "{WITCH_NAME} slips her hand in among the stems, closes her fingers on her clover, and is gone.",
+          "At dusk, as always, the girl lifts the old stems from the vase into her basket to float them on the lake. \"Leave her in there,\" she tells the others. \"She's hiding.\" As she kneels at the water's edge to set the flowers adrift, {WITCH_NAME} steps out of the clover and holds her face under the shallows until she is still.",
+          "All evening, until lockup call, the prisoners play cards around the vase. When the girl isn't back by lockup call, they go looking and find her face down in the shallows among the old flowers, finger marks on the back of her neck. When they come back and call for {WITCH_NAME}, she steps out of the vase.",
+          "In the trial court, the prisoners rule her out. \"She was in the vase at our table all evening.\"",
+          "Then one prisoner notices a dried green strand of lake weed caught on her cuff button. The prisoners realize she rode out to the lake in her clover and slipped back into the vase while they were out searching."
         ],
-        "epitaph": "In the end, the only place still hers was the part of her that had already been cut away.",
-        "epithet": "The girl cut short to suit someone else",
+        "epitaph": "The one thing she ever chose for herself was a place to hide.",
+        "epithet": "The Girl Whose Every Flower Was Chosen for Her",
         "execution": [
-          "The execution stand raised the stool from her home beneath a braid of hair as thick as rope, hung from the ceiling. As she sat, its tail lay looped twice around her throat. Slowly the braid drew upward, lifting her off the stool by the throat. She hung still in plain view, her feet above the empty stool."
+          "A giant white lily rises on a tall stem, and she is set upright in its open bloom, high under the ceiling. The lily begins to wilt, its bloom bowing slowly toward the floor. The wilted petals are too soft to hold her, and she slides out headfirst onto the floor. The lily hangs wilted over her, and her still body lies under a fallen petal."
         ],
         "magic": {
-          "name": "Hideaway",
-          "text": "She can step into anything she touches and hide inside, still seeing and hearing the world."
+          "name": "Hide-and-Seek",
+          "text": "She can step inside any object she touches and stay there, seeing and hearing everything outside."
         }
       },
       "variant": 1

@@ -1,0 +1,39 @@
+{
+  "cell": "FAI|Ruminator",
+  "copingSub": "RU-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Ruminator",
+  "tag": "FAI-1_RU-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, a girl painted the sky over the flower field exactly as it looked, happily and badly. {WITCH_NAME} brought out her supper and sat beside her, never painting.",
+          "Years before, she had left a painting on the back step in the rain. Her teacher pinned the blotted result up in the school hall and called it genius. From then on, every new painting she made was written off as a fluke.",
+          "Every night in her cell, she unstoppered a jar and sat in the rain she had sealed inside it: the rain on that back step, the afternoon before anyone saw the painting. Then she stoppered it again and kept it in her pocket.",
+          "One day the girl pinned {WITCH_NAME}'s only sketch, blotted where her paint water had spilled, on the dining hall wall. \"The best thing anyone has painted here.\" All through dinner, with rain at the windows, the other girls crowded around her asking for the next one.",
+          "The rain had fallen all afternoon. At seven it stopped, and a low sun broke out under the clouds.",
+          "At half past seven, she brought the girl her supper. The girl held out her brush. \"I promised them your next one by tomorrow.\"",
+          "She struck the girl's head with the stone that weighted her paper until she lay still. Then she unstoppered her jar over the girl and her painting, let the back-step rain soak them both, and stoppered it again.",
+          "The prisoners found the girl soaked through beside her rain-blotted painting, {WITCH_NAME} kneeling with her in her arms. They decided she had been struck down in the rain before seven, while {WITCH_NAME} sat among them.",
+          "In the trial court, a prisoner looked under the blots on the painting and found a low gold sun beneath the clouds. Then they understood. The girl had painted the sun that came out at seven, so the rain on it had fallen later, from {WITCH_NAME}'s jar."
+        ],
+        "epitaph": "The only rain she ever made on purpose was the one they finally looked at closely.",
+        "epithet": "The Genius the Rain Made by Accident",
+        "execution": [
+          "A giant easel rises in the trial court. She is bound face up on its tilted board, a blank sheet stretched a hand's breadth above her face, and a great stoppered jar hangs over it.",
+          "The stopper comes free, and rain falls on the sheet. Grey blots spread across the paper.",
+          "The sodden sheet sags onto her face and clings. It lifts with her breath, less and less.",
+          "She lies still beneath the paper while the rain blots dry in the shape of her face."
+        ],
+        "magic": {
+          "name": "Bottled Weather",
+          "text": "She can bottle a place's weather and pour it out anywhere."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

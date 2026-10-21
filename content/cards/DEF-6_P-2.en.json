@@ -1,0 +1,31 @@
+{
+  "cell": "DEF|Performer",
+  "copingSub": "P-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Performer",
+  "tag": "DEF-6_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} was eight when her grandmother turned her chin to the lamp at dinner and told her mother, \"Something is wrong with this one. I can't tell you what.\" Every night after, {WITCH_NAME} searched the hall mirror for it and never found it. \"While people laugh at a trick,\" she says, \"nobody looks for what's wrong.\"",
+          "One prisoner photographed girls on her phone once they stopped posing and showed the day's shots on the recreation room wall each night. Every dusk she shot the courtyard from the upper railing. She always caught {WITCH_NAME} after the laugh ended. One night she put {WITCH_NAME} up on the projector, alone and unsmiling. \"Something's wrong in every picture of you. I can't find where. I'll find it.\" At the pool table, {WITCH_NAME} turned the cue chalk into a rubber duck and squeaked it. Nobody laughed. Everyone kept looking at her picture.",
+          "In the courtyard, she laid her jacket on the fountain rim and touched it, picturing herself sitting there. The jacket became a still likeness of her, alone, its back to the building. At the upper railing, the photographer leaned out to shoot it. {WITCH_NAME} lifted her by the knees from behind and tipped her over. She landed headfirst on the stone path.",
+          "The prisoners came at {WITCH_NAME}'s call and found the photographer dead below the railing, her phone in hand, open on her last shot: {WITCH_NAME}, alone on the fountain rim. In the trial court, they concluded someone at the railing had tipped her over as she shot, while {WITCH_NAME} sat below. A prisoner held the shot up beside her. In it, her hair clip sat over her right ear. In the prison she had always worn it on the left. They saw it then: that was {WITCH_NAME} as her mirror showed her, a likeness she had pictured. She herself had stood at the railing above."
+        ],
+        "epitaph": "In the end, the only thing they ever found wrong with her was the mirror.",
+        "epithet": "A Punchline Held Up Over a Flaw No One Could Find",
+        "execution": [
+          "A tall mirror rises in a plain frame, its glass drawn up high. She kneels bound beneath it, her chin on the lower rail. Through the empty frame, she pulls her funniest face at the spectators. Nobody laughs. Every face looks at her. The glass slides edge-first down the frame, the silent court sliding past in its reflection. It comes down on the back of her neck at the lower rail. She slumps still against the rail. The mirror stands whole again, showing the spectators only their own faces."
+        ],
+        "magic": {
+          "name": "Something Else Entirely",
+          "text": "She can turn any nonliving thing she touches into whatever real object she pictures."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

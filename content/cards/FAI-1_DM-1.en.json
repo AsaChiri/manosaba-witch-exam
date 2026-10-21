@@ -1,0 +1,33 @@
+{
+  "cell": "FAI|Doomer",
+  "copingSub": "DM-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Doomer",
+  "tag": "FAI-1_DM-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At eleven, {WITCH_NAME} won the spelling bee only because the best speller fell ill. Called before the whole school to spell her winning word again, she got it wrong and the hall laughed. Once they know it's me, she decided, they only wait for me to get it wrong.",
+          "Every evening by the lake, one girl knotted friendship bracelets for the others. Each time she met {WITCH_NAME} for the first time again, she tied a knot in the red thread on her wrist and said, \"Nice to meet you.\" One evening, sitting beside her, {WITCH_NAME} braided a pattern by chance. Now every girl wore the stranger's pattern and asked who made it.",
+          "At dinner in the dining hall, as {WITCH_NAME}, a stranger again, sat beside her, the girl tied the forty-first knot and counted it aloud to the table. She whispered, \"The stranger who braided that pattern was you. Tomorrow at dinner I'll tell everyone and you'll teach them all.\"",
+          "At dusk by the lake, the girl set her bracelet aside, tied a new knot and said, \"Nice to meet you.\" {WITCH_NAME} pushed her back off the bank, held her under the shallows by the shoulders until she was still, pulled the newest knot out of the wet thread and walked back up.",
+          "After dark the prisoners found the girl face up in the shallows, thumb bruises on her collarbones, her half-made bracelet set neatly on the bank. In the trial court they ruled {WITCH_NAME} out. The girl had set her work down to face someone and never said \"Nice to meet you\" without first tying a knot. Yet her thread still held forty-one, the count from dinner. So she had faced a girl she knew.",
+          "A prisoner drew the wet thread through her fingers. Past the forty-first knot it was crimped where a knot had been tied and pulled out. The girl had met the stranger again after dinner and set her work down for {WITCH_NAME}."
+        ],
+        "epitaph": "No one will ever keep her face, only the knot she pulled out.",
+        "epithet": "The Girl Always Met for the First Time",
+        "execution": [
+          "A giant hoop of red thread rises upright in the trial court, thick as an arm and towering the full height of the court. She stands bound inside it, facing the court, its loose end coiled round her chest. The thread begins tying knot after knot in that loose end, and each knot draws the coils tighter round her chest. As the last knot pulls tight, she stops breathing. She slumps still, head bowed, inside the hoop of knots."
+        ],
+        "magic": {
+          "name": "Always a Stranger",
+          "text": "Anyone who sees or hears her forgets her face and voice once she leaves their sight."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

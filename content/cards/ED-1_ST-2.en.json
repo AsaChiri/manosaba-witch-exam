@@ -1,0 +1,34 @@
+{
+  "cell": "ED|Striker",
+  "copingSub": "ST-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Striker",
+  "tag": "ED-1_ST-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening in the lounge, one prisoner sits on the rug and braids every girl's hair in turn, so her hands won't forget her mother's salon. The day she laughs and reaches for {WITCH_NAME}'s hair, {WITCH_NAME}'s hand flies up on its own and knocks hers away before {WITCH_NAME} has even looked. After that it happens every evening, while every girl on the rug watches.",
+          "One evening, after the others have gone down to the cells, {WITCH_NAME} stays on the rug and holds up her comb. \"Try once more.\"",
+          "At seven, she held up her comb like that on the bathroom floor. Her mother, braiding her sister's hair, said without turning around, \"You can do your own.\" She has done her own hair ever since.",
+          "Without looking up from rolling her own ribbon, the braider holds one out. \"You can do your own. You're better at it than me.\"",
+          "{WITCH_NAME} grabs her by the hair and drives her head into the stone of the fireplace, again and again, until she lies still. Then she ties the ribbon into a bow and closes the girl's fingers around it.",
+          "When the girl still hasn't come down before the cells are locked for the night, her roommate goes up and finds her on the hearth, the bow crushed in her fist.",
+          "In the trial court, the prisoners decide she tore the bow from her killer's braid, which rules out {WITCH_NAME}, whose hair no hand has ever reached. Then a prisoner turns the bow over. It is tied in the same knot as the end of {WITCH_NAME}'s own braid. No braid lost that bow. {WITCH_NAME} tied it herself, over the girl she killed."
+        ],
+        "epitaph": "She learned to do her own, and never learned anyone else's.",
+        "epithet": "The girl who knocks away every hand she waits for",
+        "execution": [
+          "A giant comb rises, teeth down, above a rug where she lies with her ankles bound in ribbons and her hair spread loose. Her hands fly up and strike at it before her eyes can turn. Its teeth slide between her fingers and on down into her. The comb stands upright in the rug, her hair combed straight between its teeth, her hands still raised inside it."
+        ],
+        "magic": {
+          "name": "Faster Than a Glance",
+          "text": "Her body catches, dodges or knocks aside anything coming at her before she even notices."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "cell": "FAI|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Catastrophizer",
+  "tag": "FAI-3_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At her choir-school audition, the panel asked for a song she had never rehearsed. Her voice broke on the first high note. \"Thank you, that will do.\" Then back to her aunt's laundry. The one time she wasn't ready was the one that counted.",
+          "Every night at half past nine, a girl sang her grandmother's songs by the courtyard fountain, and {WITCH_NAME} sat beside her, humming under her breath. After the girls' chat vote closed at nine fifteen, the singer took the winner from her song box, one handwritten sheet per song.",
+          "She told the whole dining hall that tonight {WITCH_NAME} would sing the first verse of whatever song won, alone. She laughed: \"No practice, so you can't worry it to death.\"",
+          "From quarter to nine she warmed up alone in the shower room, under a towel in the steam so no one could hear a note crack. At five to nine, {WITCH_NAME} begged to be let off the solo; the girl laughed under the towel. {WITCH_NAME} held it down over her face until she was still. Then she reached into the song box, let her Magic draw out a sheet without knowing which song it was, and closed the dead girl's fingers on it.",
+          "At five past nine, the prisoners saw her come into the lounge and sit among them, staying until they went down together. At nine fifteen, the last vote on their phones decided the song. At twenty-five to ten, they found the singer dead under the towel, the winning song in her hand.",
+          "The court ruled she took the winning sheet after the vote, so she died after nine fifteen, while {WITCH_NAME} sat in the lounge. A prisoner found the same song still in her box, matching the sheet in her hand blot for blot. No hand writes a page twice. The prisoners understood: that sheet was drawn before the vote, by the one whose hand holds what comes next."
+        ],
+        "epitaph": "For once, the song was in her hand before anyone chose it.",
+        "epithet": "Ready for anything but her own voice",
+        "execution": [
+          "A laundry washtub rises in the trial court, tall as a girl. She stands in it waist-deep in grey wash water. The water climbs over her mouth, then over her eyes. Her hand rises out of the water, open and empty. The water settles still over her, and her empty hand sinks beneath the suds."
+        ],
+        "magic": {
+          "name": "Just in Case",
+          "text": "She can pull whatever the next moment needs from any bag, pocket or box."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "cell": "DEF|Pleaser",
+  "copingSub": "PL-2",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Pleaser",
+  "tag": "DEF-3_PL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At twelve, {WITCH_NAME} pictured pushing her childhood friend under a tram, and dug her nails into her palms until they bled. When she confessed it, her friend laughed, and from then on always waited on her far side, away from the rails.",
+          "On her first day in the prison, she pressed her palms together in the dining hall and made herself harmless in front of everyone. Forever, she said. Only her roommate learned the truth, back in their cell: one more touch would take it back. The others all believed it would last forever. After that she stepped into quarrels, caught both angry wrists and took the blows, and her grip never left a mark.",
+          "Her roommate opened every supper with a round of good news, as her own mother had on empty nights. One evening before supper, in their cell, she promised to share {WITCH_NAME}'s good news that night: one more touch could take it back. \"They'll still want your hands.\"",
+          "{WITCH_NAME} touched her own wrist, took her hands back, and strangled her roommate on the lower bunk. Then she pressed her palms together again and went up to supper.",
+          "The roommate's chair stayed empty all through supper. Afterward, a prisoner found her dead in the cell, finger bruises on her throat.",
+          "In the trial court, the prisoners concluded that another girl had come down after {WITCH_NAME} left. Her hands could squeeze a throat all they liked and never hurt it. Then, as she let go of her clasped hands, a prisoner saw four fresh crescent cuts in her palms, right where her own fingertips closed. The prisoners understood: flesh she had made harmless could not cut even itself, so that evening her hands had been able to hurt."
+        ],
+        "epitaph": "She never let anyone prove they would still want her hands.",
+        "epithet": "The Girl Who Swore Her Hands Were Harmless",
+        "execution": [
+          "A tram-stop post stood between two rails. She was strapped to it upright, facing down the track. Its bell clanging, a tram rolled down the rails toward her. As it came, she dug her nails into her palms. Its iron front struck her and dragged her under. The tram stood still past the flattened post, and nothing moved between the rails."
+        ],
+        "magic": {
+          "name": "Gentle Touch",
+          "text": "Anything she touches, herself included, can no longer hurt living flesh."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

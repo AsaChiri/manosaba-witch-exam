@@ -1,0 +1,32 @@
+{
+  "cell": "FAI|Depender",
+  "copingSub": "DP-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-5",
+  "style": "Depender",
+  "tag": "FAI-5_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME} won the forest race every year from the age of nine. At fourteen, after her father took her ribbons off the wall, she ran it again and froze at a fork in the trail. The whole field ran past her while he shouted, \"Choose! You always know the way!\" She still wears that race's compass and never reads it. \"If I choose,\" she says, \"they all pass me.\"",
+          "In the prison, another girl throws a paper plane from the upper railing every dusk and walks wherever it lands, with {WITCH_NAME} sunk into her shadow, riding along behind her. Tonight, the girl presses the plane into {WITCH_NAME}'s hand and leans out to watch. \"You always knew the way. From tomorrow, you lead and I follow.\"",
+          "{WITCH_NAME} drops the plane and shoves the girl over the railing. As the girl falls, {WITCH_NAME} sinks into her shadow and rides down at her heels.",
+          "At the cry and the thud, the prisoners run out of the dining hall into the courtyard. Seconds after the fall, they find the girl dead on the path and see {WITCH_NAME} rise out of her shadow at her heels. In the trial court, they take it that the girl fell leaning out after her plane, carrying {WITCH_NAME} down inside her shadow.",
+          "Then a prisoner brings what she found hanging from the upper railing where the girl went over: {WITCH_NAME}'s compass, its cord snapped. Everything {WITCH_NAME} wears sinks with her. The compass stayed on the rail, so she had been standing there in the flesh. The prisoners realize she shoved the girl, then sank into her falling shadow."
+        ],
+        "epitaph": "In all those years she made one choice, and it was to follow her down.",
+        "epithet": "The Champion Who Froze at the Fork",
+        "execution": [
+          "A giant compass rises in the trial court, its iron needle as long as the court itself. She is tied to the needle's tip by a compass cord knotted round her throat. The needle swings round the dial, seeking north, and she walks after its tip, step for step. It swings faster. She cannot keep up. She falls, and the needle drags her round the dial by the throat. At last it settles, pointing north. She lies still at its tip."
+        ],
+        "magic": {
+          "name": "Shadow Rider",
+          "text": "She can sink into a person's or animal's shadow and ride along wherever they go."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

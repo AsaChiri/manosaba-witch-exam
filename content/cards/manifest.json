@@ -756,12 +756,14 @@
     },
     "DEF|Caretaker": {
       "authoredTags": [
+        "DEF-3_CT-1",
         "DEF-6_CT-1"
       ],
       "coveredCoping": [
         "CT-1"
       ],
       "coveredOrigin": [
+        "DEF-3",
         "DEF-6"
       ],
       "family": "DEF",
@@ -822,13 +824,16 @@
     },
     "DEF|Depender": {
       "authoredTags": [
-        "DEF-4_DP-3"
+        "DEF-4_DP-3",
+        "DEF-6_DP-1"
       ],
       "coveredCoping": [
+        "DP-1",
         "DP-3"
       ],
       "coveredOrigin": [
-        "DEF-4"
+        "DEF-4",
+        "DEF-6"
       ],
       "family": "DEF",
       "style": "Depender"
@@ -896,6 +901,7 @@
     "DEF|Performer": {
       "authoredTags": [
         "DEF-3_P-2",
+        "DEF-6_P-2",
         "DEF-8_P-2"
       ],
       "coveredCoping": [
@@ -903,6 +909,7 @@
       ],
       "coveredOrigin": [
         "DEF-3",
+        "DEF-6",
         "DEF-8"
       ],
       "family": "DEF",
@@ -910,9 +917,11 @@
     },
     "DEF|Pleaser": {
       "authoredTags": [
+        "DEF-3_PL-2",
         "DEF-3_PL-3"
       ],
       "coveredCoping": [
+        "PL-2",
         "PL-3"
       ],
       "coveredOrigin": [
@@ -967,7 +976,9 @@
     "DEF|Self-Punisher": {
       "authoredTags": [
         "DEF-1_SP-1",
+        "DEF-2_SP-1",
         "DEF-3_SP-1",
+        "DEF-6_SP-1",
         "DEF-8_SP-1"
       ],
       "coveredCoping": [
@@ -975,7 +986,9 @@
       ],
       "coveredOrigin": [
         "DEF-1",
+        "DEF-2",
         "DEF-3",
+        "DEF-6",
         "DEF-8"
       ],
       "family": "DEF",
@@ -994,6 +1007,21 @@
       "family": "DEF",
       "style": "Self-Reliant"
     },
+    "DEF|Self-Soother": {
+      "authoredTags": [
+        "DEF-3_SS-1",
+        "DEF-6_SS-1"
+      ],
+      "coveredCoping": [
+        "SS-1"
+      ],
+      "coveredOrigin": [
+        "DEF-3",
+        "DEF-6"
+      ],
+      "family": "DEF",
+      "style": "Self-Soother"
+    },
     "DEF|Sovereign": {
       "authoredTags": [
         "DEF-3_SV-1",
@@ -1011,13 +1039,15 @@
     },
     "DEF|Striker": {
       "authoredTags": [
-        "DEF-3_ST-2"
+        "DEF-3_ST-2",
+        "DEF-6_ST-2"
       ],
       "coveredCoping": [
         "ST-2"
       ],
       "coveredOrigin": [
-        "DEF-3"
+        "DEF-3",
+        "DEF-6"
       ],
       "family": "DEF",
       "style": "Striker"
@@ -1094,16 +1124,33 @@
     },
     "ED|Avoider": {
       "authoredTags": [
+        "ED-1_AV-1",
         "ED-4_AV-1"
       ],
       "coveredCoping": [
         "AV-1"
       ],
       "coveredOrigin": [
+        "ED-1",
         "ED-4"
       ],
       "family": "ED",
       "style": "Avoider"
+    },
+    "ED|Caretaker": {
+      "authoredTags": [
+        "ED-1_CT-1",
+        "ED-4_CT-1"
+      ],
+      "coveredCoping": [
+        "CT-1"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Caretaker"
     },
     "ED|Clinger": {
       "authoredTags": [
@@ -1120,34 +1167,104 @@
     },
     "ED|Concealer": {
       "authoredTags": [
-        "ED-1_CO-2"
+        "ED-1_CO-1",
+        "ED-1_CO-2",
+        "ED-4_CO-1"
       ],
       "coveredCoping": [
+        "CO-1",
         "CO-2"
       ],
       "coveredOrigin": [
-        "ED-1"
+        "ED-1",
+        "ED-4"
       ],
       "family": "ED",
       "style": "Concealer"
     },
-    "ED|Doomer": {
+    "ED|Depender": {
       "authoredTags": [
-        "ED-1_DM-1"
+        "ED-1_DP-2"
       ],
       "coveredCoping": [
-        "DM-1"
+        "DP-2"
       ],
       "coveredOrigin": [
         "ED-1"
       ],
       "family": "ED",
+      "style": "Depender"
+    },
+    "ED|Detacher": {
+      "authoredTags": [
+        "ED-1_DT-2",
+        "ED-1_DT-3",
+        "ED-4_DT-2"
+      ],
+      "coveredCoping": [
+        "DT-2",
+        "DT-3"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Detacher"
+    },
+    "ED|Doomer": {
+      "authoredTags": [
+        "ED-1_DM-1",
+        "ED-1_DM-3",
+        "ED-4_DM-1"
+      ],
+      "coveredCoping": [
+        "DM-1",
+        "DM-3"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
       "style": "Doomer"
+    },
+    "ED|Fantasist": {
+      "authoredTags": [
+        "ED-1_FA-3",
+        "ED-4_FA-3",
+        "ED-9_FA-3"
+      ],
+      "coveredCoping": [
+        "FA-3"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4",
+        "ED-9"
+      ],
+      "family": "ED",
+      "style": "Fantasist"
+    },
+    "ED|Perfectionist": {
+      "authoredTags": [
+        "ED-9_PF-1"
+      ],
+      "coveredCoping": [
+        "PF-1"
+      ],
+      "coveredOrigin": [
+        "ED-9"
+      ],
+      "family": "ED",
+      "style": "Perfectionist"
     },
     "ED|Performer": {
       "authoredTags": [
         "ED-1_P-1",
+        "ED-1_P-2",
         "ED-2_P-2",
+        "ED-4_P-1",
         "ED-5_P-3",
         "ED-9_P-1"
       ],
@@ -1159,6 +1276,7 @@
       "coveredOrigin": [
         "ED-1",
         "ED-2",
+        "ED-4",
         "ED-5",
         "ED-9"
       ],
@@ -1182,42 +1300,369 @@
     },
     "ED|Resigned": {
       "authoredTags": [
-        "ED-4_RS-1"
+        "ED-1_RS-1",
+        "ED-4_RS-1",
+        "ED-9_RS-1"
       ],
       "coveredCoping": [
         "RS-1"
       ],
       "coveredOrigin": [
-        "ED-4"
+        "ED-1",
+        "ED-4",
+        "ED-9"
       ],
       "family": "ED",
       "style": "Resigned"
     },
+    "ED|Ruminator": {
+      "authoredTags": [
+        "ED-1_RU-2",
+        "ED-4_RU-1"
+      ],
+      "coveredCoping": [
+        "RU-1",
+        "RU-2"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Ruminator"
+    },
     "ED|Self-Punisher": {
       "authoredTags": [
-        "ED-3_SP-1"
+        "ED-1_SP-1",
+        "ED-3_SP-1",
+        "ED-4_SP-1",
+        "ED-9_SP-1"
       ],
       "coveredCoping": [
         "SP-1"
       ],
       "coveredOrigin": [
-        "ED-3"
+        "ED-1",
+        "ED-3",
+        "ED-4",
+        "ED-9"
       ],
       "family": "ED",
       "style": "Self-Punisher"
     },
-    "FAI|Concealer": {
+    "ED|Self-Reliant": {
       "authoredTags": [
-        "FAI-1_CO-1"
+        "ED-1_SR-1",
+        "ED-4_SR-1"
       ],
       "coveredCoping": [
-        "CO-1"
+        "SR-1"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Self-Reliant"
+    },
+    "ED|Self-Soother": {
+      "authoredTags": [
+        "ED-1_SS-1",
+        "ED-4_SS-1",
+        "ED-9_SS-1"
+      ],
+      "coveredCoping": [
+        "SS-1"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4",
+        "ED-9"
+      ],
+      "family": "ED",
+      "style": "Self-Soother"
+    },
+    "ED|Sovereign": {
+      "authoredTags": [
+        "ED-1_SV-2",
+        "ED-4_SV-2"
+      ],
+      "coveredCoping": [
+        "SV-2"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Sovereign"
+    },
+    "ED|Striker": {
+      "authoredTags": [
+        "ED-1_ST-2"
+      ],
+      "coveredCoping": [
+        "ST-2"
+      ],
+      "coveredOrigin": [
+        "ED-1"
+      ],
+      "family": "ED",
+      "style": "Striker"
+    },
+    "ED|Thrill-Seeker": {
+      "authoredTags": [
+        "ED-1_TS-2",
+        "ED-4_TS-2"
+      ],
+      "coveredCoping": [
+        "TS-2"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Thrill-Seeker"
+    },
+    "ED|Trickster": {
+      "authoredTags": [
+        "ED-2_TR-1"
+      ],
+      "coveredCoping": [
+        "TR-1"
+      ],
+      "coveredOrigin": [
+        "ED-2"
+      ],
+      "family": "ED",
+      "style": "Trickster"
+    },
+    "ED|Wall-of-Anger": {
+      "authoredTags": [
+        "ED-1_WA-1",
+        "ED-4_WA-1"
+      ],
+      "coveredCoping": [
+        "WA-1"
+      ],
+      "coveredOrigin": [
+        "ED-1",
+        "ED-4"
+      ],
+      "family": "ED",
+      "style": "Wall-of-Anger"
+    },
+    "ED|Watcher": {
+      "authoredTags": [
+        "ED-1_WT-2"
+      ],
+      "coveredCoping": [
+        "WT-2"
+      ],
+      "coveredOrigin": [
+        "ED-1"
+      ],
+      "family": "ED",
+      "style": "Watcher"
+    },
+    "FAI|Avenger": {
+      "authoredTags": [
+        "FAI-3_AG-1"
+      ],
+      "coveredCoping": [
+        "AG-1"
+      ],
+      "coveredOrigin": [
+        "FAI-3"
+      ],
+      "family": "FAI",
+      "style": "Avenger"
+    },
+    "FAI|Avoider": {
+      "authoredTags": [
+        "FAI-1_AV-3",
+        "FAI-3_AV-3",
+        "FAI-5_AV-3"
+      ],
+      "coveredCoping": [
+        "AV-3"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-3",
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Avoider"
+    },
+    "FAI|Catastrophizer": {
+      "authoredTags": [
+        "FAI-1_CA-1",
+        "FAI-3_CA-1",
+        "FAI-5_CA-1"
+      ],
+      "coveredCoping": [
+        "CA-1"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-3",
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Catastrophizer"
+    },
+    "FAI|Concealer": {
+      "authoredTags": [
+        "FAI-1_CO-1",
+        "FAI-1_CO-2",
+        "FAI-3_CO-1"
+      ],
+      "coveredCoping": [
+        "CO-1",
+        "CO-2"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-3"
+      ],
+      "family": "FAI",
+      "style": "Concealer"
+    },
+    "FAI|Depender": {
+      "authoredTags": [
+        "FAI-1_DP-2",
+        "FAI-3_DP-2",
+        "FAI-5_DP-2"
+      ],
+      "coveredCoping": [
+        "DP-2"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-3",
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Depender"
+    },
+    "FAI|Detacher": {
+      "authoredTags": [
+        "FAI-1_DT-2",
+        "FAI-1_DT-3"
+      ],
+      "coveredCoping": [
+        "DT-2",
+        "DT-3"
       ],
       "coveredOrigin": [
         "FAI-1"
       ],
       "family": "FAI",
-      "style": "Concealer"
+      "style": "Detacher"
+    },
+    "FAI|Doomer": {
+      "authoredTags": [
+        "FAI-1_DM-1",
+        "FAI-3_DM-1"
+      ],
+      "coveredCoping": [
+        "DM-1"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-3"
+      ],
+      "family": "FAI",
+      "style": "Doomer"
+    },
+    "FAI|Fantasist": {
+      "authoredTags": [
+        "FAI-1_FA-1",
+        "FAI-3_FA-1"
+      ],
+      "coveredCoping": [
+        "FA-1"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-3"
+      ],
+      "family": "FAI",
+      "style": "Fantasist"
+    },
+    "FAI|Perfectionist": {
+      "authoredTags": [
+        "FAI-1_PF-2",
+        "FAI-3_PF-2",
+        "FAI-5_PF-2"
+      ],
+      "coveredCoping": [
+        "PF-2"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-3",
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Perfectionist"
+    },
+    "FAI|Performer": {
+      "authoredTags": [
+        "FAI-1_P-1",
+        "FAI-5_P-3"
+      ],
+      "coveredCoping": [
+        "P-1",
+        "P-3"
+      ],
+      "coveredOrigin": [
+        "FAI-1",
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Performer"
+    },
+    "FAI|Pleaser": {
+      "authoredTags": [
+        "FAI-1_PL-2"
+      ],
+      "coveredCoping": [
+        "PL-2"
+      ],
+      "coveredOrigin": [
+        "FAI-1"
+      ],
+      "family": "FAI",
+      "style": "Pleaser"
+    },
+    "FAI|Ruminator": {
+      "authoredTags": [
+        "FAI-1_RU-1"
+      ],
+      "coveredCoping": [
+        "RU-1"
+      ],
+      "coveredOrigin": [
+        "FAI-1"
+      ],
+      "family": "FAI",
+      "style": "Ruminator"
+    },
+    "FAI|Self-Punisher": {
+      "authoredTags": [
+        "FAI-5_SP-1"
+      ],
+      "coveredCoping": [
+        "SP-1"
+      ],
+      "coveredOrigin": [
+        "FAI-5"
+      ],
+      "family": "FAI",
+      "style": "Self-Punisher"
     },
     "MB|Avenger": {
       "authoredTags": [
@@ -2733,6 +3178,19 @@
       "tag": "DEF-1_SP-1",
       "variants": 1
     },
+    "DEF-2_SP-1": {
+      "cell": "DEF|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-2",
+      "tag": "DEF-2_SP-1",
+      "variants": 1
+    },
     "DEF-3_AG-1": {
       "cell": "DEF|Avenger",
       "copingSub": "AG-1",
@@ -2837,6 +3295,19 @@
       "tag": "DEF-3_CO-5",
       "variants": 1
     },
+    "DEF-3_CT-1": {
+      "cell": "DEF|Caretaker",
+      "copingSub": "CT-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_CT-1",
+      "variants": 1
+    },
     "DEF-3_DM-1": {
       "cell": "DEF|Doomer",
       "copingSub": "DM-1",
@@ -2928,6 +3399,19 @@
       "tag": "DEF-3_PF-1",
       "variants": 1
     },
+    "DEF-3_PL-2": {
+      "cell": "DEF|Pleaser",
+      "copingSub": "PL-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_PL-2",
+      "variants": 1
+    },
     "DEF-3_PL-3": {
       "cell": "DEF|Pleaser",
       "copingSub": "PL-3",
@@ -3004,6 +3488,19 @@
       ],
       "originSub": "DEF-3",
       "tag": "DEF-3_SR-1",
+      "variants": 1
+    },
+    "DEF-3_SS-1": {
+      "cell": "DEF|Self-Soother",
+      "copingSub": "SS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-3",
+      "tag": "DEF-3_SS-1",
       "variants": 1
     },
     "DEF-3_ST-2": {
@@ -3149,6 +3646,32 @@
       "tag": "DEF-6_CT-1",
       "variants": 1
     },
+    "DEF-6_DP-1": {
+      "cell": "DEF|Depender",
+      "copingSub": "DP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_DP-1",
+      "variants": 1
+    },
+    "DEF-6_P-2": {
+      "cell": "DEF|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_P-2",
+      "variants": 1
+    },
     "DEF-6_PF-1": {
       "cell": "DEF|Perfectionist",
       "copingSub": "PF-1",
@@ -3173,6 +3696,45 @@
       ],
       "originSub": "DEF-6",
       "tag": "DEF-6_RS-3",
+      "variants": 1
+    },
+    "DEF-6_SP-1": {
+      "cell": "DEF|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_SP-1",
+      "variants": 1
+    },
+    "DEF-6_SS-1": {
+      "cell": "DEF|Self-Soother",
+      "copingSub": "SS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_SS-1",
+      "variants": 1
+    },
+    "DEF-6_ST-2": {
+      "cell": "DEF|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "DEF-6",
+      "tag": "DEF-6_ST-2",
       "variants": 1
     },
     "DEF-6_SV-1": {
@@ -3279,6 +3841,19 @@
       "tag": "ED-1_AG-1",
       "variants": 1
     },
+    "ED-1_AV-1": {
+      "cell": "ED|Avoider",
+      "copingSub": "AV-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_AV-1",
+      "variants": 1
+    },
     "ED-1_CL-2": {
       "cell": "ED|Clinger",
       "copingSub": "CL-2",
@@ -3290,6 +3865,19 @@
       ],
       "originSub": "ED-1",
       "tag": "ED-1_CL-2",
+      "variants": 1
+    },
+    "ED-1_CO-1": {
+      "cell": "ED|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_CO-1",
       "variants": 1
     },
     "ED-1_CO-2": {
@@ -3305,6 +3893,19 @@
       "tag": "ED-1_CO-2",
       "variants": 1
     },
+    "ED-1_CT-1": {
+      "cell": "ED|Caretaker",
+      "copingSub": "CT-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_CT-1",
+      "variants": 1
+    },
     "ED-1_DM-1": {
       "cell": "ED|Doomer",
       "copingSub": "DM-1",
@@ -3318,6 +3919,71 @@
       "tag": "ED-1_DM-1",
       "variants": 1
     },
+    "ED-1_DM-3": {
+      "cell": "ED|Doomer",
+      "copingSub": "DM-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_DM-3",
+      "variants": 1
+    },
+    "ED-1_DP-2": {
+      "cell": "ED|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_DP-2",
+      "variants": 1
+    },
+    "ED-1_DT-2": {
+      "cell": "ED|Detacher",
+      "copingSub": "DT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_DT-2",
+      "variants": 1
+    },
+    "ED-1_DT-3": {
+      "cell": "ED|Detacher",
+      "copingSub": "DT-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_DT-3",
+      "variants": 1
+    },
+    "ED-1_FA-3": {
+      "cell": "ED|Fantasist",
+      "copingSub": "FA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_FA-3",
+      "variants": 1
+    },
     "ED-1_P-1": {
       "cell": "ED|Performer",
       "copingSub": "P-1",
@@ -3329,6 +3995,19 @@
       ],
       "originSub": "ED-1",
       "tag": "ED-1_P-1",
+      "variants": 1
+    },
+    "ED-1_P-2": {
+      "cell": "ED|Performer",
+      "copingSub": "P-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_P-2",
       "variants": 1
     },
     "ED-1_PL-2": {
@@ -3357,6 +4036,136 @@
       "tag": "ED-1_PL-3",
       "variants": 1
     },
+    "ED-1_RS-1": {
+      "cell": "ED|Resigned",
+      "copingSub": "RS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_RS-1",
+      "variants": 1
+    },
+    "ED-1_RU-2": {
+      "cell": "ED|Ruminator",
+      "copingSub": "RU-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_RU-2",
+      "variants": 1
+    },
+    "ED-1_SP-1": {
+      "cell": "ED|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_SP-1",
+      "variants": 1
+    },
+    "ED-1_SR-1": {
+      "cell": "ED|Self-Reliant",
+      "copingSub": "SR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_SR-1",
+      "variants": 1
+    },
+    "ED-1_SS-1": {
+      "cell": "ED|Self-Soother",
+      "copingSub": "SS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_SS-1",
+      "variants": 1
+    },
+    "ED-1_ST-2": {
+      "cell": "ED|Striker",
+      "copingSub": "ST-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_ST-2",
+      "variants": 1
+    },
+    "ED-1_SV-2": {
+      "cell": "ED|Sovereign",
+      "copingSub": "SV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_SV-2",
+      "variants": 1
+    },
+    "ED-1_TS-2": {
+      "cell": "ED|Thrill-Seeker",
+      "copingSub": "TS-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_TS-2",
+      "variants": 1
+    },
+    "ED-1_WA-1": {
+      "cell": "ED|Wall-of-Anger",
+      "copingSub": "WA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_WA-1",
+      "variants": 1
+    },
+    "ED-1_WT-2": {
+      "cell": "ED|Watcher",
+      "copingSub": "WT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-1",
+      "tag": "ED-1_WT-2",
+      "variants": 1
+    },
     "ED-2_P-2": {
       "cell": "ED|Performer",
       "copingSub": "P-2",
@@ -3368,6 +4177,19 @@
       ],
       "originSub": "ED-2",
       "tag": "ED-2_P-2",
+      "variants": 1
+    },
+    "ED-2_TR-1": {
+      "cell": "ED|Trickster",
+      "copingSub": "TR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-2",
+      "tag": "ED-2_TR-1",
       "variants": 1
     },
     "ED-4_AV-1": {
@@ -3383,6 +4205,84 @@
       "tag": "ED-4_AV-1",
       "variants": 1
     },
+    "ED-4_CO-1": {
+      "cell": "ED|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_CO-1",
+      "variants": 1
+    },
+    "ED-4_CT-1": {
+      "cell": "ED|Caretaker",
+      "copingSub": "CT-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_CT-1",
+      "variants": 1
+    },
+    "ED-4_DM-1": {
+      "cell": "ED|Doomer",
+      "copingSub": "DM-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_DM-1",
+      "variants": 1
+    },
+    "ED-4_DT-2": {
+      "cell": "ED|Detacher",
+      "copingSub": "DT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_DT-2",
+      "variants": 1
+    },
+    "ED-4_FA-3": {
+      "cell": "ED|Fantasist",
+      "copingSub": "FA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_FA-3",
+      "variants": 1
+    },
+    "ED-4_P-1": {
+      "cell": "ED|Performer",
+      "copingSub": "P-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_P-1",
+      "variants": 1
+    },
     "ED-4_RS-1": {
       "cell": "ED|Resigned",
       "copingSub": "RS-1",
@@ -3394,6 +4294,97 @@
       ],
       "originSub": "ED-4",
       "tag": "ED-4_RS-1",
+      "variants": 1
+    },
+    "ED-4_RU-1": {
+      "cell": "ED|Ruminator",
+      "copingSub": "RU-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_RU-1",
+      "variants": 1
+    },
+    "ED-4_SP-1": {
+      "cell": "ED|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_SP-1",
+      "variants": 1
+    },
+    "ED-4_SR-1": {
+      "cell": "ED|Self-Reliant",
+      "copingSub": "SR-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_SR-1",
+      "variants": 1
+    },
+    "ED-4_SS-1": {
+      "cell": "ED|Self-Soother",
+      "copingSub": "SS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_SS-1",
+      "variants": 1
+    },
+    "ED-4_SV-2": {
+      "cell": "ED|Sovereign",
+      "copingSub": "SV-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_SV-2",
+      "variants": 1
+    },
+    "ED-4_TS-2": {
+      "cell": "ED|Thrill-Seeker",
+      "copingSub": "TS-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_TS-2",
+      "variants": 1
+    },
+    "ED-4_WA-1": {
+      "cell": "ED|Wall-of-Anger",
+      "copingSub": "WA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-4",
+      "tag": "ED-4_WA-1",
       "variants": 1
     },
     "ED-5_P-3": {
@@ -3409,6 +4400,19 @@
       "tag": "ED-5_P-3",
       "variants": 1
     },
+    "ED-9_FA-3": {
+      "cell": "ED|Fantasist",
+      "copingSub": "FA-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-9",
+      "tag": "ED-9_FA-3",
+      "variants": 1
+    },
     "ED-9_P-1": {
       "cell": "ED|Performer",
       "copingSub": "P-1",
@@ -3422,6 +4426,84 @@
       "tag": "ED-9_P-1",
       "variants": 1
     },
+    "ED-9_PF-1": {
+      "cell": "ED|Perfectionist",
+      "copingSub": "PF-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-9",
+      "tag": "ED-9_PF-1",
+      "variants": 1
+    },
+    "ED-9_RS-1": {
+      "cell": "ED|Resigned",
+      "copingSub": "RS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-9",
+      "tag": "ED-9_RS-1",
+      "variants": 1
+    },
+    "ED-9_SP-1": {
+      "cell": "ED|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-9",
+      "tag": "ED-9_SP-1",
+      "variants": 1
+    },
+    "ED-9_SS-1": {
+      "cell": "ED|Self-Soother",
+      "copingSub": "SS-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "ED-9",
+      "tag": "ED-9_SS-1",
+      "variants": 1
+    },
+    "FAI-1_AV-3": {
+      "cell": "FAI|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_AV-3",
+      "variants": 1
+    },
+    "FAI-1_CA-1": {
+      "cell": "FAI|Catastrophizer",
+      "copingSub": "CA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_CA-1",
+      "variants": 1
+    },
     "FAI-1_CO-1": {
       "cell": "FAI|Concealer",
       "copingSub": "CO-1",
@@ -3433,6 +4515,318 @@
       ],
       "originSub": "FAI-1",
       "tag": "FAI-1_CO-1",
+      "variants": 1
+    },
+    "FAI-1_CO-2": {
+      "cell": "FAI|Concealer",
+      "copingSub": "CO-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_CO-2",
+      "variants": 1
+    },
+    "FAI-1_DM-1": {
+      "cell": "FAI|Doomer",
+      "copingSub": "DM-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_DM-1",
+      "variants": 1
+    },
+    "FAI-1_DP-2": {
+      "cell": "FAI|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_DP-2",
+      "variants": 1
+    },
+    "FAI-1_DT-2": {
+      "cell": "FAI|Detacher",
+      "copingSub": "DT-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_DT-2",
+      "variants": 1
+    },
+    "FAI-1_DT-3": {
+      "cell": "FAI|Detacher",
+      "copingSub": "DT-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_DT-3",
+      "variants": 1
+    },
+    "FAI-1_FA-1": {
+      "cell": "FAI|Fantasist",
+      "copingSub": "FA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_FA-1",
+      "variants": 1
+    },
+    "FAI-1_P-1": {
+      "cell": "FAI|Performer",
+      "copingSub": "P-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_P-1",
+      "variants": 1
+    },
+    "FAI-1_PF-2": {
+      "cell": "FAI|Perfectionist",
+      "copingSub": "PF-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_PF-2",
+      "variants": 1
+    },
+    "FAI-1_PL-2": {
+      "cell": "FAI|Pleaser",
+      "copingSub": "PL-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_PL-2",
+      "variants": 1
+    },
+    "FAI-1_RU-1": {
+      "cell": "FAI|Ruminator",
+      "copingSub": "RU-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-1",
+      "tag": "FAI-1_RU-1",
+      "variants": 1
+    },
+    "FAI-3_AG-1": {
+      "cell": "FAI|Avenger",
+      "copingSub": "AG-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_AG-1",
+      "variants": 1
+    },
+    "FAI-3_AV-3": {
+      "cell": "FAI|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_AV-3",
+      "variants": 1
+    },
+    "FAI-3_CA-1": {
+      "cell": "FAI|Catastrophizer",
+      "copingSub": "CA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_CA-1",
+      "variants": 1
+    },
+    "FAI-3_CO-1": {
+      "cell": "FAI|Concealer",
+      "copingSub": "CO-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_CO-1",
+      "variants": 1
+    },
+    "FAI-3_DM-1": {
+      "cell": "FAI|Doomer",
+      "copingSub": "DM-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_DM-1",
+      "variants": 1
+    },
+    "FAI-3_DP-2": {
+      "cell": "FAI|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_DP-2",
+      "variants": 1
+    },
+    "FAI-3_FA-1": {
+      "cell": "FAI|Fantasist",
+      "copingSub": "FA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_FA-1",
+      "variants": 1
+    },
+    "FAI-3_PF-2": {
+      "cell": "FAI|Perfectionist",
+      "copingSub": "PF-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-3",
+      "tag": "FAI-3_PF-2",
+      "variants": 1
+    },
+    "FAI-5_AV-3": {
+      "cell": "FAI|Avoider",
+      "copingSub": "AV-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_AV-3",
+      "variants": 1
+    },
+    "FAI-5_CA-1": {
+      "cell": "FAI|Catastrophizer",
+      "copingSub": "CA-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_CA-1",
+      "variants": 1
+    },
+    "FAI-5_DP-2": {
+      "cell": "FAI|Depender",
+      "copingSub": "DP-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_DP-2",
+      "variants": 1
+    },
+    "FAI-5_P-3": {
+      "cell": "FAI|Performer",
+      "copingSub": "P-3",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_P-3",
+      "variants": 1
+    },
+    "FAI-5_PF-2": {
+      "cell": "FAI|Perfectionist",
+      "copingSub": "PF-2",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_PF-2",
+      "variants": 1
+    },
+    "FAI-5_SP-1": {
+      "cell": "FAI|Self-Punisher",
+      "copingSub": "SP-1",
+      "locales": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "originSub": "FAI-5",
+      "tag": "FAI-5_SP-1",
       "variants": 1
     },
     "MB-2_AG-1": {

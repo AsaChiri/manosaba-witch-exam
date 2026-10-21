@@ -1,0 +1,32 @@
+{
+  "cell": "FAI|Avenger",
+  "copingSub": "AG-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Avenger",
+  "tag": "FAI-3_AG-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At fifteen, {WITCH_NAME} sang one audition solo and cracked on the high note. The master said, \"Next,\" and she was sent to the laundry.",
+          "Her roommate spent free time every evening skipping rope in the courtyard, singing back every tune she heard. Alone, {WITCH_NAME} still sang the solo, and with her Magic she took back every take that cracked, as if she had never sung it. No girl had ever heard her miss.",
+          "One evening in the lounge, her roommate sang everyone the song {WITCH_NAME} sang in her sleep, crack and all. \"She sings it every night,\" the roommate told them. \"The crack's the best bit.\" That song {WITCH_NAME} could not take back. She had sung it asleep; it had never been an attempt of hers.",
+          "\"I'll ask her to stop,\" she said, and went out. Under the tree in the courtyard, she asked. \"It's the best part of you,\" her roommate answered, and skipped on, singing it, crack and all. On the cracked note, {WITCH_NAME} wound the girl's own skipping rope round her throat and pulled until the song stopped. Then she took back the asking, and she was in her chair in the lounge again, as if she had never gone out.",
+          "Before lockup, the prisoners found the roommate dead under the tree, the rope still round her throat. In the trial court, every girl from the lounge remembered {WITCH_NAME} in her chair all evening, so they ruled her out and looked for a girl who had not been there. Then, as {WITCH_NAME} gripped the rail, a prisoner saw the twist of the skipping rope printed fresh across both her palms. The prisoners understood: she had gone out after all, then taken back the asking, and the walk to the tree went with it. But the killing had never been part of the asking. It had stayed on her hands."
+        ],
+        "epitaph": "The only song of hers anyone kept was the one she never tried to sing.",
+        "epithet": "The Endless Second Take",
+        "execution": [
+          "A copper wash boiler rises steaming over its own fire. She hangs above the water, bound in its wash basket. The basket sinks her into the boiling water, and the lid closes over her. The boiler's steam whistle climbs to a high note, cracks, and climbs again, cracking at the same place every time. It cracks once more and falls silent. The boiler stands still, its steam thinning."
+        ],
+        "magic": {
+          "name": "Take Two",
+          "text": "She can undo anything she has just tried, and only she remembers how it went."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

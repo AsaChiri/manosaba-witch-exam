@@ -1,0 +1,32 @@
+{
+  "cell": "FAI|Perfectionist",
+  "copingSub": "PF-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Perfectionist",
+  "tag": "FAI-1_PF-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At twelve, {WITCH_NAME} played the snare fill clean once, by luck, and the bandmaster put her at the head of the town parade. Before the whole street she dropped her stick in that fill, and the drum line marched past her. A crowd cheers the first time so it can watch the second.",
+          "Every night at nine, a drummer among the prisoners stood alone in the dark entrance hall and clapped a new pattern, never the same twice; the lounge clapped it back, and she went to the shower room until lockup. Each dawn in the dining hall, she taught last night's pattern to her only pupil, {WITCH_NAME}, who practiced alone in the soundproof shower room and missed a hundred times. One dawn she clapped it back clean, the only clean take she had. The drummer laughed. \"Tonight you clap with me, before everyone. I'll change it as we go, so follow me.\"",
+          "At a quarter to nine, {WITCH_NAME} asked her for one more try in the shower room, out of earshot, and twisted a towel round the drummer's throat until she stopped moving. At nine, in the entrance hall, {WITCH_NAME}'s Magic redid that dawn clap beat for beat; the lounge clapped it back. A minute later, the prisoners saw her walk into the lounge and stay until lockup.",
+          "At ten to ten, a prisoner found the drummer in the shower room, the towel twisted round her throat. In the trial court, the prisoners concluded she was killed in the shower room after her nine o'clock clap, while {WITCH_NAME} sat in the lounge.",
+          "Then a prisoner played the last recording on the drummer's phone: tonight's pattern, recorded after supper and never clapped. The nine o'clock clap had been last night's. The drummer never repeated herself, so the prisoners understood: the pupil who clapped it clean at dawn had redone it, and the drummer was dead before nine."
+        ],
+        "epitaph": "The only beat she could ever keep was one that was already over.",
+        "epithet": "The Girl of One Clean Take",
+        "execution": [
+          "A rope-tension parade drum rises in the trial court, taller than a girl. She stands bound to its shell, inside the zigzag of its ropes. The drum begins to beat the parade fill, over and over, every pass identical. With each pass, a leather tab slides down its rope. The ropes draw tight across her ribs, pressing her against the shell, and the drum's note climbs higher with every pass. At last it plays the fill once more, clean, and stands silent. She hangs still in the taut ropes."
+        ],
+        "magic": {
+          "name": "Encore",
+          "text": "She can redo any movement or sound she has ever made, identical down to the smallest detail."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

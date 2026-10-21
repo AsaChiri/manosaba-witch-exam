@@ -1,0 +1,34 @@
+{
+  "cell": "ED|Detacher",
+  "copingSub": "DT-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Detacher",
+  "tag": "ED-1_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening before lockup, the mender sat on the lounge sofa with her tape measure and mended every torn thing in her basket. {WITCH_NAME} sat at her knee each night, threading her needles.",
+          "At half past eight one evening, she came with nothing torn and asked her to stop for one minute. Without looking up from her needle, the mender said, \"Put it in the basket. I'll get to it.\"",
+          "As a child, {WITCH_NAME} had held out a torn dress, and her mother had said the same thing without looking up from her sewing. When nobody came, she climbed into the mending basket and waited there until dark.",
+          "{WITCH_NAME} stepped behind the sofa, pulled the tape measure tight round the mender's neck, and held it until she stopped moving. With a touch of her Magic, she shrank the body to the size of her palm and laid it in the basket under the torn shirts.",
+          "At twenty-five to nine, she sat down with the girls in the dining hall and did not leave the table. She told a girl with a torn sleeve that the mender was in the lounge. At a quarter to nine, the girl took the sleeve there, found the sofa empty, dropped it in the basket, and came back to say the mender wasn't there.",
+          "At half past nine, the prisoners came for their mending and found her strangled on the hearth across her crushed basket, the tape measure still tight round her neck.",
+          "In the trial court, the prisoners ruled she had come back after a quarter to nine and been strangled on her sofa while {WITCH_NAME} sat with them in the dining hall. Then one prisoner noticed the basket's wicker split outward from the inside, its rim sprung open as if something had swelled within. They realized the mender had grown back inside the basket. She had lain there all along, palm-sized under the torn sleeve, dead before {WITCH_NAME} left the lounge."
+        ],
+        "epitaph": "The mender always got to everything in the basket. She would have got to her, too.",
+        "epithet": "The Girl Left in the Mending Basket",
+        "execution": [
+          "A wicker mending basket rises, as tall as the trial court. She sits strapped to its floor, looking up. Torn shirts are tipped over the rim, armful after armful. They pile over her knees, then her shoulders, then her face. Her raised hand stays above the heap the longest, until it too goes under. The shirts fill the basket to the brim and lie still. Last of all, one torn sleeve drops on top of the heap."
+        ],
+        "magic": {
+          "name": "Palm-Sized",
+          "text": "She can shrink anyone or anything she touches to palm size, and grow it back at will."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

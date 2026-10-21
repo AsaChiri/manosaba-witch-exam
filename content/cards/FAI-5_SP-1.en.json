@@ -1,0 +1,35 @@
+{
+  "cell": "FAI|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-5",
+  "style": "Self-Punisher",
+  "tag": "FAI-5_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night at nine, one girl sat alone on the rim of the courtyard fountain and sang her mother's dusk song, the one her mother had sung to call the children in from the fields. Then she called goodnight, by name, to each girl she could see at the upper railing. {WITCH_NAME} stood at the railing for it every night and knew every word.",
+          "One evening before nine, the girl found her alone among the library shelves. \"Come down and sing it with me tonight. And every night after, the bad nights too. I want to hear all of them.\"",
+          "\"I never sing anything twice,\" {WITCH_NAME} answered.",
+          "At eight, {WITCH_NAME} had sung a midwinter solo, and her mother played the tape of it every evening. Once her voice turned ordinary at eleven, her mother stopped coming to hear her sing.",
+          "At ten to nine, the girl sat on the fountain rim, waiting to sing with her. {WITCH_NAME} knelt beside her and held her face under the water until she stopped moving.",
+          "At nine, the prisoners at the upper railing heard the girl's dusk song rise from the dark courtyard, then her goodnight to each of them by name, even to the girl standing back by the library door. {WITCH_NAME} stood beside them the whole time, her lips still.",
+          "At half past nine, when the singer still hadn't come up, they found her face down in the fountain basin, finger bruises on the back of her neck. In the trial court they ruled {WITCH_NAME} out: the girl had been drowned after her song, and {WITCH_NAME} had been standing with them.",
+          "Then one prisoner stood by the fountain and looked up. Only the girls leaning on the rail showed; the library door couldn't be seen from there. The song had come from the railing: {WITCH_NAME}'s first try at another girl's voice, thrown into the dark after its owner was already dead."
+        ],
+        "epitaph": "She did sing with her that night: once, perfectly, in the other girl's voice.",
+        "epithet": "The Prodigy of First Tries",
+        "execution": [
+          "A reel-to-reel tape player rises upright in the trial court, two giant reels on its face. She stands bound to the bare hub of the take-up reel, a broad band of brown tape threaded to her from the full reel. Both reels turn, and the player begins to play a little girl's flawless midwinter solo. With each turn of the hub, the tape winds round her, layer on layer, from her chest up over her throat, pulled tighter every turn. When the solo ends, the reels stop. A fat brown spool stands on the hub, and nothing inside it moves."
+        ],
+        "magic": {
+          "name": "Beginner's Luck",
+          "text": "Anything she tries for the very first time, she does with a lifelong master's flawless skill."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

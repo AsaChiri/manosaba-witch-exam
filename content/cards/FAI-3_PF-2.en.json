@@ -1,0 +1,32 @@
+{
+  "cell": "FAI|Perfectionist",
+  "copingSub": "PF-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Perfectionist",
+  "tag": "FAI-3_PF-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At {WITCH_NAME}'s scholarship audition, her violin string snapped mid-piece. There was no spare in the case. She stood silent with her bow lowered until the panel told her to come back when she was ready and gave the place to the next girl. From then on she kept a spare of everything in her coat pocket, and swore she would never again stand there with nothing.",
+          "One girl swims the lake alone every evening after supper. It is the one hour she carries nothing, except the pouch {WITCH_NAME} packs for her each evening against every mishap. One day in the dining hall, the swimmer hands the pouch back unopened and smiles. \"Thirty evenings, and I never needed any of it. You can stop packing for me.\"",
+          "At nine that night, {WITCH_NAME} waits behind the shower room door. The swimmer comes in from the lake, and {WITCH_NAME} strangles her with the reed rope from the pouch and packs the body into her own coat pocket. The coat hangs no heavier than before.",
+          "The other prisoners see {WITCH_NAME} in the lounge from supper until lights-out, except for ten minutes at nine, too short to reach the lake and back. At lights-out, the swimmer's roommate finds her lower bunk in their cell empty. At dawn, searching the far shore alone, {WITCH_NAME} draws the body out of her pocket among the reeds. Another girl finds it there minutes later.",
+          "In the trial court, the prisoners conclude the swimmer was strangled on the shore during her evening swim, since {WITCH_NAME} never left the lounge long enough. Then the girl who lifted her from the reeds speaks up: the grass beneath her was as soaked by the night's rain as the rest of the shore, yet her dress was dry. The prisoners understand. She was laid there after the rain, dead since before lights-out, carried unseen in the one pocket that can hold a girl."
+        ],
+        "epitaph": "She was ready for everything except being told she didn't need to be.",
+        "epithet": "The Girl Without a Spare String",
+        "execution": [
+          "A violin case rises in the trial court, open and upright, taller than a girl. She stands bound in the velvet hollow where the violin should lie. The lid, heaped with spares, swings slowly shut. Spare strings, towels, bandages and ropes tumble off it and pack in around her, up to her mouth. The latches snap on a case full to the rim. Then the case stands shut while the knocking inside slows, and stops."
+        ],
+        "magic": {
+          "name": "Bottomless Pockets",
+          "text": "She can pack anything, however large, into a bag or pocket that never fills up or gets heavier."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "cell": "FAI|Detacher",
+  "copingSub": "DT-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Detacher",
+  "tag": "FAI-1_DT-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night at nine by the lounge fire, a prisoner read out who had helped whom, so no kindness went unsaid. {WITCH_NAME}, quiet beside her, never made the list. The list-keeper wrote it alone each evening under the library's unwilting cherry tree, chewing her pencil cap.",
+          "In the lounge, {WITCH_NAME} held a girl's swollen ankle and turned it clear with her Magic, only to look. The slipped bone clicked into place by itself; the girl left thanking her. That night the list-keeper read her name first and pinned a card to the medical room door: \"Ask her. She sees inside you.\"",
+          "At twelve, {WITCH_NAME} shook her grandfather's dead mantel clock in a temper, and it ticked again. He set it in his shop window with a card: \"My granddaughter mended it.\" For a year she sat at his bench pretending, as customers asked for her by name.",
+          "Facing the card in the medical room, she turned her chest clear under her palm and watched her heart race. \"A card in a window only tells people where to come and look,\" she said. By the next evening, aching girls were asking for her at the door.",
+          "Before nine, she slipped from the fire up to the library and pressed her palm over the list-keeper's mouth and nose from behind until she stopped.",
+          "When the list-keeper missed nine, the prisoners found her slumped under the tree, pencil in hand, its cap gone. Asked to look, {WITCH_NAME} turned the body clear under her palm, and everyone saw the cap in her throat. A girl took a photo.",
+          "The trial court ruled she choked alone on the cap she always chewed. Then the girl enlarged the photo on her phone. The cap sat in the food pipe, behind the ringed windpipe that ran open to the lungs. A choking girl breathes it into her windpipe. It was pushed down a dead throat for the one girl they would ask to look inside."
+        ],
+        "epitaph": "The death meant to stop them looking was what finally saw through her: she had never known what she was seeing.",
+        "epithet": "The seer praised for a gift she never had",
+        "execution": [
+          "A shop window rises, glass-fronted and as tall as the court. She stands bound flat against its back board. Over her heart hangs the card: \"Ask her. She sees inside you.\"",
+          "The glass front slides in toward her, carrying a long pin at chest height. The pin passes through the card, through her chest, and into the board.",
+          "She hangs still behind the glass under the pinned card, the window lit for everyone to look in."
+        ],
+        "magic": {
+          "name": "Clear as Glass",
+          "text": "Anyone or anything she touches, even herself, turns clear as glass, showing every working part inside."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

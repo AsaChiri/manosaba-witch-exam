@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Trickster",
+  "copingSub": "TR-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-2",
+  "style": "Trickster",
+  "tag": "ED-2_TR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME}'s roommate spent her days hidden in the leaves of the far tree in the courtyard, humming from noon until it was time to return to the cells. Call a song up to her and she hummed it back. Say anything else and she answered with a hum and a sugar cube from her pocket.",
+          "Whenever {WITCH_NAME} had started to tell her mother something, her mother pressed a sweet into her hand and turned the radio up. A sweet in her hand meant stop talking.",
+          "One noon, while the others were at lunch, she climbed up beside her roommate for the first time, to tell her about that radio. Her roommate dropped a sugar cube into her palm and hummed louder. {WITCH_NAME} pulled the girl's scarf tight around her throat until the humming stopped.",
+          "From half past twelve to one, the prisoners stood at the fountain calling songs up into the tree, and each one came back hummed, faint through the leaves. {WITCH_NAME} was already there when they came out from lunch, and she sat among them, chatting between songs. Just after one, the humming stopped, and the next song went unanswered. A prisoner climbed up and found the roommate in the fork of the branches, strangled with her own scarf.",
+          "In the trial court, the prisoners ruled that she had been strangled after her last song, while {WITCH_NAME} sat right there among them. Then one prisoner, who recorded the tree every afternoon to fall asleep to, played that afternoon back on her phone. Every time {WITCH_NAME} said something beside her, the hum broke off, and it picked up again when she stopped.",
+          "The prisoners saw it then: the roommate had died at noon, while they ate, and {WITCH_NAME} had used her Magic to hum every song since out of the scarf at the dead girl's throat."
+        ],
+        "epitaph": "Only her own voice ever fell quiet to let her speak.",
+        "epithet": "The Girl Given a Sweet Instead of an Ear",
+        "execution": [
+          "A giant wooden radio rises in the trial court, with her bound against its brass speaker grille by its own cord. The volume knob turns itself up, notch by notch. At every notch the grille sparks into her back, and the music swells over her shouting. The knob stops at full. The radio plays on, loud and bright, and she hangs still against the grille."
+        ],
+        "magic": {
+          "name": "The Walls Have Ears",
+          "text": "She can speak and listen through any object she pictures, wherever it is."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

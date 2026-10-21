@@ -21,13 +21,13 @@
         "epitaph": "The only floor she ever scrubbed, she made look like someone else's.",
         "epithet": "The Guest Who Was Never Handed a Broom",
         "execution": [
-          "In the trial court, the execution stand raises an iron guest bed beneath a heavy iron canopy. She lies strapped flat under an iron coverlet, turned down as if for a visitor.",
+          "In the trial court, an iron guest bed rises beneath a heavy iron canopy. She lies strapped flat under an iron coverlet, turned down as if for a visitor.",
           "The canopy starts down its four posts toward her chest. As it comes down, she smooths the coverlet straight with both hands, making the bed herself.",
           "The canopy settles low over the bed. Her fingers lie still on the smoothed edge of the coverlet."
         ],
         "magic": {
           "name": "Old Hands",
-          "text": "Her hands use any tool she picks up with a master's lifelong skill."
+          "text": "She can use any tool she picks up with a master's lifelong skill."
         }
       },
       "variant": 1

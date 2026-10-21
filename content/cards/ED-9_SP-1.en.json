@@ -1,0 +1,31 @@
+{
+  "cell": "ED|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-9",
+  "style": "Self-Punisher",
+  "tag": "ED-9_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening during free time, a girl practiced alone at the pool table in the recreation room, working on a bank shot her brother had always been able to make. {WITCH_NAME} racked the balls for her each frame, and the girl talked to her the whole way through. One evening, just as the girl finally lined up the shot, {WITCH_NAME} bumped the table. Before the girl could say a word, {WITCH_NAME} swore aloud: \"I will never walk into this room again.\" The next evening, with other girls gathered around the pool table, {WITCH_NAME} stepped toward the doorway. Her foot stopped in midair at the threshold, held there by her own vow, in full view of the girls at the table. \"Don't worry,\" the girl called cheerfully from the table. \"I racked them myself. It's easy!\"",
+          "{WITCH_NAME}'s mother had only ever talked to her across a tray of buttons. One day she said, \"See, it's easy,\" and handed the tray to the younger sister instead. After that, she never sat beside {WITCH_NAME} again.",
+          "Later that evening, while the girl practiced alone, {WITCH_NAME} crawled through the doorway on her knees. The girl laughed and knelt down to her. \"Get up, silly.\" {WITCH_NAME} pulled her down and strangled her with both hands, never once rising off her knees.",
+          "When the girl was found strangled beside the pool table, the prisoners ruled {WITCH_NAME} out: she couldn't walk into that room. Then a prisoner saw blue cue chalk ground into both knees of {WITCH_NAME}'s stockings, and none on her soles. The prisoners understood. Her vow forbade only walking, so she had crossed the room on her knees."
+        ],
+        "epitaph": "The one time someone knelt to her wanting nothing, her hands already had work to do.",
+        "epithet": "Seen Only With Her Hands Full",
+        "execution": [
+          "A giant pool table rises in the trial court, its huge balls packed into a wooden rack. She kneels at the tip of the rack in the front ball's place, wedged tight among the others. The rack lifts away, and a giant cue drives the cue ball down the felt. It strikes her full in the chest, and the pack bursts across the table. The balls roll to rest against the cushions. She lies still on the felt, on the very spot where she knelt."
+        ],
+        "magic": {
+          "name": "Bound by Her Word",
+          "text": "Her own body cannot break any vow she swears."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

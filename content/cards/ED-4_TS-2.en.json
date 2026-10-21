@@ -1,0 +1,32 @@
+{
+  "cell": "ED|Thrill-Seeker",
+  "copingSub": "TS-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Thrill-Seeker",
+  "tag": "ED-4_TS-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "As a child, {WITCH_NAME} fell from the hayloft and broke her arm, sobbing. Her mother kissed the cast and wrote \"my fearless girl\" on it. No one asked whether it hurt.",
+          "In the prison, she falls up out of the flower field every dusk, plunging into the sky until the girls below can see only a speck, and posts a photo of the prison from the top so that someone will see what she sees. Her roommate answers every post in the chat within the minute, phone in hand at the upper railing, because no post should sit unanswered. Under every one of those photos she writes the same word: Fearless.",
+          "At twenty past seven, at the railing, {WITCH_NAME} tells her, \"I was really scared up there last night.\" Her roommate hugs her with one arm, still typing a cheer under another post. \"You? You're fearless.\" {WITCH_NAME} tips her over the railing. Her roommate lies still on the courtyard stones below.",
+          "At twenty to eight, {WITCH_NAME} is a speck above the prison, in sight of the flower field, and her photo from the top appears in the chat. Within the minute, the prisoners in the flower field read her roommate's reply under it: Fearless. At a quarter to eight, {WITCH_NAME} drops back into the flower field among them and stays there until her roommate is found dead below the railing, her phone smashed beside her. In the trial court, the prisoners rule that she was pushed from the railing after her reply, while {WITCH_NAME} was a speck above them.",
+          "Then a prisoner enlarges the photo from the top. Below the railing, already lying on the stones, is a small shape in her roommate's coat. She was dead before {WITCH_NAME} went up. {WITCH_NAME} had answered her own photo with the dead girl's phone, then let it fall beside her."
+        ],
+        "epitaph": "She was never fearless. She was only never asked.",
+        "epithet": "The girl everyone called fearless",
+        "execution": [
+          "A plaster cast rises in the trial court, set hard and white around her from ankles to neck, leaving only her face bare. A steel-tipped pen rises before her and sets its point on the white over her chest. Letter by letter, it writes FEARLESS across the cast, pressing harder with each stroke. She screams and strains inside the plaster. The pen writes on. On the last stroke, its point drives through the cracking plaster into her chest. Red seeps through the cracks under the finished word, and her face above it goes still."
+        ],
+        "magic": {
+          "name": "Any Way Down",
+          "text": "She can fall in any direction she chooses, even straight up, as fast as a real fall."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

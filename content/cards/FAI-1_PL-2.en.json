@@ -1,0 +1,35 @@
+{
+  "cell": "FAI|Pleaser",
+  "copingSub": "PL-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Pleaser",
+  "tag": "FAI-1_PL-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at nine in the lounge, one prisoner performed her escape-artist father's old stage act: the other girls tied her up in cord, and she slipped free while {WITCH_NAME} counted aloud. {WITCH_NAME} could only count. Whenever she tried to tie the cord, the knot fell open in her hands, since anything tied tight let go at her touch, as the whole room had seen at every show.",
+          "One day at noon in the lounge, the girl tied herself up, wrists behind her back and ankles together, for a secret new escape. \"Count for me,\" she said. \"Nobody knows I can tie myself.\" Then she announced that night's finale: the fire story, told true. \"You told me you were running away.\"",
+          "When {WITCH_NAME} was twelve, her building caught fire. Fleeing down the stairs, she stumbled against the neighbors' jammed door. It flew open, three children ran out, and the newspaper called her the girl who went back.",
+          "\"Please don't,\" {WITCH_NAME} said. \"Every time someone thanks me, I wait for them to ask which way I was running.\"",
+          "The girl laughed. \"Best trick I ever heard. They see courage where there's only a knack.\"",
+          "\"All right,\" {WITCH_NAME} said. She started the count and pressed a cushion over the girl's face until the girl lay still in her own knots.",
+          "At two that afternoon, the prisoners found her bound and smothered, wrists behind her and ankles tied tight, a cushion on the floor. In the trial court they ruled {WITCH_NAME} out: whoever tied those knots had smothered her, and no knot ever held in {WITCH_NAME}'s hands.",
+          "Then a prisoner lifted the fallen cushion. Its ties hung straight without a kink, while every other cushion was still knotted to the sofa. The prisoners understood. That cushion had come free at {WITCH_NAME}'s touch, so she had held it, and the knots were the girl's own."
+        ],
+        "epitaph": "The only one who knew which way she was running loved her for it.",
+        "epithet": "The Hero Who Was Running Away",
+        "execution": [
+          "A scorched door rises, jammed in its frame, fire roaring behind the gap. She stands before it on a sloping corridor floor. The floor tips toward the door, and she slides down into it. She strikes the door with her palms, and it flies open at her touch. The fire rolls out of the doorway and over her. As the flames sink, the door hangs open, and she lies still across the threshold, her hands open."
+        ],
+        "magic": {
+          "name": "Undone",
+          "text": "She can loosen anything held tight with a touch."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

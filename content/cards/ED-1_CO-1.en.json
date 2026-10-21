@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Concealer",
+  "copingSub": "CO-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Concealer",
+  "tag": "ED-1_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night the girl sat on top of the upper railing, swinging her legs over the courtyard. \"It's the only place in here that feels like outside,\" she said. And every night {WITCH_NAME} sat on the floor beside her and listened, never talking about herself.",
+          "One night, for once, she said she wasn't all right. The girl didn't turn from the sky. \"Go cry in your empty world. Come back when you're done.\"",
+          "At eight, after a nightmare, {WITCH_NAME} had knocked on her mother's door. Lamplight showed underneath it. Her mother answered without opening it: \"Go back and cry in your room. Come out when you're done.\" Since then she had cried only where no one could hear.",
+          "The girl turned on the rail to shoo her off, and slipped. She caught herself with both hands and hung outside the railing, her hands an arm's length away. \"{WITCH_NAME}! Grab my hands!\"",
+          "{WITCH_NAME} looked at the hands. Then she used her Magic and stepped sideways into the empty copy of the hall, and the voice stopped mid-word. No one was there. Nothing made a sound.",
+          "Back in the real hall, the girl lost her grip and fell, screaming {WITCH_NAME}'s name, with no one at the rail. At the fountain, the prisoners looked up at the scream and saw her fall from an empty railing. Minutes later, {WITCH_NAME} stepped back out at the same spot, right above the body. Every face below turned up toward her.",
+          "In the trial court, the prisoners laid it out: the scream was her name, and she had come back right where the girl fell. She had pushed her and stepped away.",
+          "{WITCH_NAME} kept her face composed and said nothing. Not one word about the hands."
+        ],
+        "epitaph": "The one time someone called her name, she answered the way she had always been answered.",
+        "epithet": "The Girl Who Goes Away to Cry",
+        "execution": [
+          "A towering door rose from the execution stand in the trial court, shut tight, with lamplight showing in the gap beneath it. She lay strapped flat along the bottom of the door. The light grew brighter. Then it spilled out under the door as burning oil, spread around her and climbed her clothes. She lay still in the flames at its foot. The door never opened."
+        ],
+        "magic": {
+          "name": "Step Aside",
+          "text": "She can step into an exact copy of the space where she stands, with everyone else gone."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

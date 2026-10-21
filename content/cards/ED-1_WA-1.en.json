@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Wall-of-Anger",
+  "copingSub": "WA-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Wall-of-Anger",
+  "tag": "ED-1_WA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening in free time, one girl sat in the lounge mending everyone's torn clothes. She sewed with a quill {WITCH_NAME} had plucked for her, and she never flinched when {WITCH_NAME} came near. One evening {WITCH_NAME} smoothed her quills flat, sat close and asked her to come up to the film. Without looking up from the pile, the seamstress nudged her away with an elbow. \"Later. After these.\"",
+          "When {WITCH_NAME} was small, she had held out a cut hand to her mother, who kept sewing other people's mending and said the same thing: later, after these. She had bound the cut up herself.",
+          "Now she bristled her quills straight through the seamstress's sleeve and walked out. The seamstress laughed, darned her own sleeve shut and turned back to the pile, while the girls heading up to the film watched her do it.",
+          "When the film began in the recreation room, the prisoners saw {WITCH_NAME}'s blanket bristling with quills in the back corner and left it alone, as they always did when she sulked. Midway through, the seamstress came up the dark hall at last, reached for her arm and said, \"I came.\" {WITCH_NAME} shoved her over the iron upper railing. The seamstress clutched at her arm; {WITCH_NAME} bristled, the grip tore free, and the seamstress fell to the courtyard path.",
+          "When the film ended, the prisoners filed out past the heap, which had not moved, and found her on the path below the railing. In the trial court they ruled that {WITCH_NAME} had never left her corner during the film.",
+          "Then a prisoner turned the darned sleeve to the light. Fresh quill holes ran through the new stitches. The quills had pierced it after the seamstress mended it, and the prisoners understood: the heap in the corner had been plucked quills in an empty blanket, and {WITCH_NAME} had been at the upper railing."
+        ],
+        "epitaph": "Later was a promise, and she came up the hall to keep it.",
+        "epithet": "The Porcupine Who Couldn't Wait for Later",
+        "execution": [
+          "The mending pile rose as tall as the court, her quill-riddled blanket spread across its top. She lay bound flat on the blanket beneath a giant threaded quill. The needle darned the pile garment by garment, working its way up toward her. She bristled every quill against it, and the needle slid between them. It dove down through her and the blanket and came up again, stitch after stitch across her chest. It drew the last stitch tight and stood upright in the blanket over her heart. She lay darned into the blanket and did not move."
+        ],
+        "magic": {
+          "name": "Quills Out",
+          "text": "She can bristle all over with needle-sharp porcupine quills."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

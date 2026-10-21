@@ -1,0 +1,37 @@
+{
+  "cell": "FAI|Avoider",
+  "copingSub": "AV-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Avoider",
+  "tag": "FAI-1_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "As a child, {WITCH_NAME} once sat before a fresh sheet and kept her eyes off it until the bell rang. Afterward her teacher unpinned her prize picture, ribbon and all, and said, \"Someone drew it for you.\"",
+          "In the mansion she kept every blank page face down. No one there knew what her Magic did.",
+          "Each morning, before the others came down, one girl laid the fire in the lounge fireplace and saved {WITCH_NAME} the chair nearest it. One night {WITCH_NAME} traced a picture alone, following the faint lines her Magic showed in the blank paper, and threw it on the fire. The girl pulled it from the grate and pinned it above the mantel, and everyone praised the hand that drew it.",
+          "At dinner in the dining hall, the girl tore a page from her notebook and laid it in front of {WITCH_NAME}. \"Draw the next one by the fire tomorrow, while we all watch.\"",
+          "At seven, {WITCH_NAME} turned the page face down and carried it up to the library to start it alone that night. Later she went down to the lounge, where the girl knelt feeding the fire, and struck her down with the poker.",
+          "At ten to eight the prisoners found the girl dead at the hearth. At five to eight one of them ran up to the library with the news and found {WITCH_NAME} beside the finished drawing: the whole courtyard, down to every leaf.",
+          "In the trial court the prisoners ruled her out. The page had been blank at seven; she had spent the whole hour drawing and never left the desk.",
+          "Then a prisoner tilted the drawing to the light and found {WITCH_NAME}'s name in the corner, faint, where no pencil had written. The prisoners understood: the picture had been in the paper all along, and a quarter hour of tracing had left her time to go down to the fire."
+        ],
+        "epitaph": "The one line that waited for her own hand was her name, and she never wrote it.",
+        "epithet": "Keeper of Face-Down Pages",
+        "execution": [
+          "A display board rises in the trial court. From its top hook hangs a red prize ribbon, looped around her neck.",
+          "The ribbon draws up and lifts her off her feet, until she hangs at the center of the board, facing every spectator.",
+          "She hangs still on the board, and the spectators go on looking up at her."
+        ],
+        "magic": {
+          "name": "Ghost Draft",
+          "text": "Any raw material she looks at faintly shows the finest work it could become."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

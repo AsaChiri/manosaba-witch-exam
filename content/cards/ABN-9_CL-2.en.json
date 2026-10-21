@@ -10,28 +10,23 @@
     {
       "fields": {
         "crime": [
-          "Every evening at free time, her roommate called the prisoners out to the courtyard for hide-and-seek, and no one ever found her.",
-          "Every night in their cell, {WITCH_NAME} asked her out loud, \"Will you still want me tomorrow?\" All day long she had heard the roommate's fond thoughts whispered at her ear, and still she asked.",
-          "One evening in the dining hall, the roommate laughed and announced, \"For one week I'm hiding from you. I won't think of you once.\"",
-          "Long ago, a foster mother had put her things in a pillowcase and said, \"Let's try one more week.\" At the end of that week, she was sent back.",
-          "Later that evening, in the lounge, she heard her roommate's voice whisper at her ear. It was the first time all evening the roommate had thought of her: \"She'll never look for me in the guest house.\"",
-          "She went to the guest house. She did not call out \"Found you.\" She struck her roommate from behind with a stone until the girl stopped moving.",
-          "Then, until lights-out, she went from room to room asking everyone, \"Have you seen her?\"",
-          "In the trial court, the prisoners ruled her out. She had spent the whole evening asking where her roommate was; she never knew where to look, so the guest house had been beyond her reach.",
-          "Then one prisoner remembered what the roommate had said at dinner: she would hide in the one place {WITCH_NAME} would never think to look. To choose that place, the roommate had to think of her.",
-          "The prisoners understood. Every thought of that hiding place had reached her ear. Of everyone in the mansion, only she had known where to go."
+          "Whenever {WITCH_NAME} asked if she could stay, her foster mother went to the hall telephone, dialed every digit of the agency's number except the last, and rested a finger in that final hole.",
+          "In the mansion, one girl sat on the upper railing every evening, legs dangling over the courtyard. It was the only place inside, she said, that felt like outside. {WITCH_NAME} stood on the floor beside her, held the hem of the girl's skirt and asked, \"Can I hold on tomorrow?\" The answer was always \"Keep holding on.\"",
+          "One day at the fountain, the girl told a friend, \"If {WITCH_NAME} asks one more time whether she can hold on, I'm climbing onto that railing without her.\" In her cell, {WITCH_NAME} heard every word as if the girl sat beside her, her own name in the middle. The girl said nothing more.",
+          "During evening free time, {WITCH_NAME} took the girl's hem without asking. Then she let go and pushed her over.",
+          "The prisoners heard the fall and found the girl on the rim of the fountain. They phoned the three girls at the lake at once.",
+          "{WITCH_NAME} had told no one what her Magic did, so the prisoners said her name freely. In the trial court, she said she had followed the three on their evening walk to the lake and sat under the trees ten paces behind. She recited every line they had said about her until the phone rang. The last was \"She'd never really climb onto that railing without {WITCH_NAME}.\" The girls confirmed every word, and that line had come after the fall. The prisoners ruled her out.",
+          "Then the friend from the fountain spoke up. She had whispered that last line behind her hand, into one girl's ear. The third girl, right beside them, never heard it.",
+          "The prisoners understood. She had never gone to the lake; her Magic had carried every line to her while she stood at the railing."
         ],
-        "epitaph": "Even while hiding from her, her roommate never once stopped thinking of her.",
-        "epithet": "The Girl Kept One More Week at a Time",
+        "epitaph": "Every sentence with her name in it reached her; the answer she needed never said her name.",
+        "epithet": "The Girl Who Asks If She May Stay",
         "execution": [
-          "The execution stand in the trial court holds an iron wardrobe. It shuts her inside, standing, with a grille level with her eyes.",
-          "Sand pours over her head and begins to rise. Her fingers hook through the grille.",
-          "The sand climbs until it spills out between the bars. Her fingers go still.",
-          "The stand lowers the wardrobe through the floor, and the floor closes over it, in a place where no one will look."
+          "A giant hall telephone rose, and she was strapped on her back in its cradle, her head under the mouthpiece end. The dial turned through its last digit, and the bell rang. The handset came down onto the cradle. Its mouthpiece cup closed over her head and sealed at her shoulders. Inside, she asked into the mouthpiece, \"Can I stay?\" Muffled, the question came again, fainter, then stopped. The handset rested on its cradle. The bell was silent, and nothing stirred beneath."
         ],
         "magic": {
-          "name": "Thinking of You",
-          "text": "She hears every thought anyone has about her, whispered at her ear in their own voice."
+          "name": "Near as a Whisper",
+          "text": "She can clearly hear anyone who says her name, from any distance."
         }
       },
       "variant": 1

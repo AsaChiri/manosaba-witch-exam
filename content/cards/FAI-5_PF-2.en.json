@@ -1,0 +1,36 @@
+{
+  "cell": "FAI|Perfectionist",
+  "copingSub": "PF-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-5",
+  "style": "Perfectionist",
+  "tag": "FAI-5_PF-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At her first recital {WITCH_NAME} danced the solo unrehearsed, and the hall rose for her, alone in the footlights in white tulle. At fifteen her teacher moved her to the back row: \"You'll be lovely in the line.\"",
+          "After each lesson she slips into the shower room to run the new steps once alone, all her Magic needs. Back in the lounge she dances them flawlessly as the others film her. No one ever sees her first try.",
+          "Each evening a harvest dancer teaches the lounge one dance from her village, so none are forgotten. She shows no one a dance before its lesson, and cheers loudest when {WITCH_NAME} dances it back perfectly.",
+          "One day the harvest dancer leads her into the empty shower room and dances that night's dance facing her. \"Learn it now, and tonight dance in the line with us. You'd be lovely in the line.\"",
+          "{WITCH_NAME} dances it once, facing her, and a thousand rehearsals settle in one heartbeat. She leaves without answering.",
+          "That evening the harvest dancer teaches the ten-minute harvest dance with her back to the line. Then she goes out to rinse her bare feet at the courtyard fountain, as she does each night. {WITCH_NAME} slips out as if to practice, follows her, and holds her face under the water until she goes still.",
+          "Twelve minutes after leaving, {WITCH_NAME} is back, dancing it flawlessly while the lounge films and applauds as always. After the solo, a prisoner finds the harvest dancer face down in the basin.",
+          "At trial the prisoners reason that a perfect solo means ten of {WITCH_NAME}'s twelve minutes went to one run-through, too few left to drown anyone. A prisoner replays the solo on her phone: {WITCH_NAME} steps off on her left foot; every girl from the lesson, on her right.",
+          "She had learned it face to face before the lesson and never needed those twelve minutes."
+        ],
+        "epitaph": "The only dance she ever learned with someone still turned toward her.",
+        "epithet": "The Soloist Who Could Not Bear the Line",
+        "execution": [
+          "A small, round recital stage rises in the trial court, ringed with burning footlights. She stands alone at its center in white tulle, her slippers fixed to her mark. The footlights flare tall and lean in until they catch her tulle. The flame climbs the white skirt while she turns in place. Then the footlights sink to a low glow around a still, dark shape folded at the center of the stage."
+        ],
+        "magic": {
+          "name": "Second Nature",
+          "text": "Any movement or phrase she practices once, she lives through a thousand times in one heartbeat."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

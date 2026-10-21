@@ -21,13 +21,13 @@
         "epitaph": "Tomorrow, the girl might have asked for the long version: every single name.",
         "epithet": "She Who Skips to the Ending",
         "execution": [
-          "The execution stand raises a giant iron book, its covers spread wide open. She is chained on her back across the left-hand pages.",
+          "A giant iron book rises, its covers spread wide open. She is chained on her back across the left-hand pages.",
           "The iron pages turn over onto her chest one by one, each engraved with a bird and its name. Not one is skipped.",
           "With the last page, the book falls shut and lies closed and still."
         ],
         "magic": {
           "name": "Full Bloom",
-          "text": "Whatever she touches mid-change reaches its finish at once: buds bloom, fruit ripens, cuts heal."
+          "text": "She can bring any change already underway in what she touches to its end at once."
         }
       },
       "variant": 1

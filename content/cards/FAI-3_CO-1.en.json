@@ -1,0 +1,32 @@
+{
+  "cell": "FAI|Concealer",
+  "copingSub": "CO-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Concealer",
+  "tag": "FAI-3_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At fifteen, at her conservatory audition, {WITCH_NAME}'s hands slid into a wrong chord on the last page. The jury chair reached past her and closed the piano lid. Afterwards she turned pages for the girl given her place.",
+          "Every night at nine, one girl played her grandmother's tune on water glasses in the dining hall for the girls listening from the lounge, then warmed her wet hands at the fireplace. In the afternoons she taught {WITCH_NAME} the tune alone; {WITCH_NAME} let no one else hear her practise. The girl recorded every pupil on her phone so they could hear themselves.",
+          "One evening by the fire, she played the others {WITCH_NAME}'s recorded lesson. \"You sounded perfect to me,\" she told {WITCH_NAME}, \"but the phone kept every slip, and I love it. I'll put it in the chat after my tune tonight.\"",
+          "Before nine, as the girl bent over the glasses to wet her fingertip, {WITCH_NAME} pushed her face down into the finger bowl and held it there until she was still. At nine, she played the tune on those glasses over the body. Her wet finger squealed and slipped, but her Magic carried every note to the lounge clean. Within a minute of the last note, she walked into the lounge, sat by the fire with the others, and stayed. At half past nine, when the girl never came to warm her hands, a prisoner went to fetch her and found her drowned, face down in the finger bowl.",
+          "In the trial court, the prisoners concluded the girl had drowned after her last note, while {WITCH_NAME} sat with them. Then a prisoner played that night's recording on her phone; she recorded the tune every night to fall asleep to. It squealed and stumbled over wrong notes none of them had heard. They saw it: only {WITCH_NAME}'s slips never reach a listener. She had played the tune over a girl already dead."
+        ],
+        "epitaph": "Those who listened that night still remember the tune as flawless, just as she meant it.",
+        "epithet": "Page-Turner at Another Girl's Piano",
+        "execution": [
+          "A grand piano rises in the trial court, its heavy lid propped open above her. She lies bound across its strings. The keys begin to sink with no hands on them, and the piano plays a piece by itself, nearing its last page. At a wrong chord, the lid comes down on her. It stays shut, and the chord hums out beneath it into silence."
+        ],
+        "magic": {
+          "name": "No Wrong Notes",
+          "text": "Her audience sees and hears her perform exactly as she meant to, never her slips."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

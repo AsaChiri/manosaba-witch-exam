@@ -1,0 +1,33 @@
+{
+  "cell": "FAI|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-5",
+  "style": "Catastrophizer",
+  "tag": "FAI-5_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At fourteen, after coming sixth in her heat that spring, {WITCH_NAME} found that her photo in the school hall, the one of her at ten breaking the finish tape, had been replaced by a younger girl's. From then on she used her Magic to live every race ahead and knew her place before the start.",
+          "Every night at eight, one girl took a phone photo of the courtyard path from the same spot on the upper railing and posted it to the group chat. {WITCH_NAME} ran her evening laps there, so every frame caught her, counting her days inside. At half past six one evening, the girl scrolled through them beside her in the dining hall and laughed. In the early frames she was a streak; in the latest, her face was sharp. \"You used to be a blur. Now I can see your face.\"",
+          "At seven, under a dry sky, {WITCH_NAME} stepped ahead to ten to nine and lived it: she sat in the lounge as rain broke over the courtyard. At eight, as the girl leaned out after posting her frame, {WITCH_NAME} caught her by the knees and tipped her over the railing. The girl fell head first to the stone path.",
+          "From ten past eight, {WITCH_NAME} sat with the others by the lounge fireplace, and at ten to nine they heard the rain break. At twenty to ten they found the girl below the railing and lifted her; the stones beneath her were as wet as the rest. In the trial court they ruled that the girl had gone over after the rain began, while {WITCH_NAME} sat with them.",
+          "She had stepped ahead into this trial too, but only as far as that ruling. There she stopped and came back.",
+          "Then a prisoner enlarged the eight o'clock frame. Below the girl's spot, a patch of path already shone wet under a dry sky. The prisoners saw who had wet those stones before the rain: {WITCH_NAME}, who had already lived through it."
+        ],
+        "epitaph": "Just once she let an ending come unseen—the only one that ever reached her first, and it was her own.",
+        "epithet": "The Girl Who Was Once a Blur",
+        "execution": [
+          "Two finish posts rise on either side of her, the tape between them looped once round her throat. She stands on a white finish line, her ankles bound to it. The posts begin to wind the tape in from both sides, drawing the loop tight round her throat. She sags against the taut tape and goes still, held upright on the line. The tape stays whole, unbroken across the line."
+        ],
+        "magic": {
+          "name": "Ahead of Time",
+          "text": "She can step into any future moment of her life and live it exactly as it will happen."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

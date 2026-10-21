@@ -20,14 +20,14 @@
         "epitaph": "She never once moved, and it never once kept anyone.",
         "epithet": "Sitting Still to Be Kept",
         "execution": [
-          "The execution stand raised an iron track that ended in a buffer stop. Between the rails, backed against the buffer, sat an iron station bench, and the witch was chained to it.",
+          "An iron track rose, ending in a buffer stop. Between the rails, backed against the buffer, sat an iron station bench, and the witch was chained to it.",
           "She sat perfectly still with her packed case on her knees.",
           "An iron train rolled in along the track and did not stop. Its iron front pressed her and the bench into the buffer.",
           "Then the train stood against the buffer, and she sat still between its iron front and the stop."
         ],
         "magic": {
           "name": "Stay Put",
-          "text": "Whatever she lays her hand on, person or thing, stays fixed where it is, and nothing but her hand can move it."
+          "text": "She can fix anyone or anything she touches in place against any force but her own."
         }
       },
       "variant": 1

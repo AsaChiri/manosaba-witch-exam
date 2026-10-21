@@ -10,19 +10,23 @@
     {
       "fields": {
         "crime": [
-          "When {WITCH_NAME} told the story of the fire, she said she had rescued others. One girl knew she had saved no one and had survived only by luck. That day, the girl said it again before the others.",
-          "That evening, {WITCH_NAME} gathered the prisoners in the Undine Room for a shipwreck story. Behind a folding screen, the girl was bathing in a deep tub brought in with the warden's permission. Water reached the rim. {WITCH_NAME} had propped its heavy lid with a cord running over a brazier and tied to the screen.",
-          "As she described the storm, the coals burned through the cord. The lid fell and latched shut against the water. The girl's cries and splashing reached the listeners as sounds from the story. {WITCH_NAME} kept telling it until the girl drowned.",
-          "Afterward, the listeners recalled a groan, a cry, then churning water: the struggle they had taken for a storm. The burned cord had been cut from the screen's ties, and they had seen {WITCH_NAME} arranging that screen before the gathering."
+          "Every morning, {WITCH_NAME}'s roommate read the ice first, the way her grandfather had taught her, then skated figures across the frozen lake for whoever watched from the shore. {WITCH_NAME} watched.",
+          "Once, her roommate brushed the snow aside and showed her the difference between white ice and black. \"There are always signs,\" she said. \"Even the day you lost your father had them. You'll never need a bell.\"",
+          "{WITCH_NAME} had been seven, shelling peas on the back step on an ordinary day, when her father called \"Nearly done\" from the roof and slid past her without a sound. That day gave no sign. So she would be the sign, for everyone after.",
+          "In the prison she called out every bell the moment she heard it toll, and never once held one back.",
+          "One evening she took a stone from the shore, broke a hole in the middle of her roommate's skating lane, and swept snow over it so no sign showed. That night in their cell she lay awake below her roommate's upper bunk, hearing a bell toll from her until morning, and said nothing.",
+          "Next morning, as her roommate glided onto the middle of the lake, {WITCH_NAME} cried out from the shore: \"A bell! A bell from you! Come back!\" Mid-glide, her roommate dropped through the ice and did not come up.",
+          "In the trial court, the prisoners agreed the ice had simply given way, just as the bell had warned. {WITCH_NAME} had cried out from the shore right beside them.",
+          "Then a prisoner lifted a broken piece from the hole: black new ice, a finger thick, inside a ring of old white ice. The prisoners understood. The hole had frozen over through the night, so the bell had been tolling from the bunk above {WITCH_NAME} since lockup, and the girl who called out every bell at once had held this one back until they were all watching."
         ],
-        "epitaph": "She had a story for every disaster but the last.",
-        "epithet": "The Hero She Gave the Fire",
+        "epitaph": "She gave her friend the day with no sign: the one she swore no one would ever have again.",
+        "epithet": "The Girl Who Would Be the Sign",
         "execution": [
-          "An iron ring enclosed her bound body. The warden ordered her to tell a story. As she spoke, the ring tightened without a sound. It pressed against her ribs and kept closing until her chest could no longer rise."
+          "A great bell hung in a frame above her, its rope knotted round her neck. The bell swung and tolled, and every toll hauled her off her feet by the neck. At last it came to rest mouth up and silent, and she hung still on its rope."
         ],
         "magic": {
-          "name": "the Telling",
-          "text": "The Telling — While she tells a story, she can make real sounds seem part of it."
+          "name": "The Bell Before",
+          "text": "She hears a bell toll from anyone harm is coming for, before it reaches them."
         }
       },
       "variant": 1

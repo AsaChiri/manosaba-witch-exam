@@ -1,0 +1,36 @@
+{
+  "cell": "ED|Watcher",
+  "copingSub": "WT-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Watcher",
+  "tag": "ED-1_WT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Back home, one prisoner had drawn faces for coins at the train station. In the library, she drew one girl each evening, half an hour a sitter, so no face here would be forgotten. Every evening {WITCH_NAME} sat beside her, the one face she had never drawn.",
+          "In the dining hall, {WITCH_NAME} asked to be tomorrow's sitter. The girl answered kindly. \"I can't draw you from life. Your Magic would hold my eyes, and I'd never see my page. So I'll draw you from memory tonight, while you're all in the lounge.\"",
+          "As a child, {WITCH_NAME} held up a drawing across the kitchen table every evening, and her mother said \"Lovely\" without lifting her eyes from the ledger. If they never look up, you were never there.",
+          "At ten to eight, {WITCH_NAME} slipped upstairs after her, met her eyes over the blank page and held them. \"Look at me and draw me.\"",
+          "\"Then hold still. I'll draw you like this.\" Never once looking down, the girl drew her face, then smiled. \"Now let me look at it.\"",
+          "Her pencil hung on a cord at her neck, as always. Never looking away, {WITCH_NAME} pulled the cord tight and watched every flicker in her face until none was left.",
+          "At eight, the prisoners found {WITCH_NAME} already in the lounge. She played cards with them until half past nine, when they found the girl strangled at her easel, a finished portrait of {WITCH_NAME} on it.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out. \"She drew it from memory after eight, half an hour's work, while you sat at cards with us.\"",
+          "A prisoner who had sat for the girl a dozen times laid it beside her own portrait. The new one was one unbroken line that never lifted, with an eye drawn outside the face. The prisoners understood: it was drawn in minutes by eyes that could not leave their subject. {WITCH_NAME} had sat for her before eight."
+        ],
+        "epitaph": "Hers was the only face ever drawn by eyes that could not leave it.",
+        "epithet": "The One Face Never Drawn",
+        "execution": [
+          "A giant easel rises in the trial court with her bound upright against its white board. A sharpened pencil taller than she is waits poised at her temple. It begins to draw one line around her without lifting, its point grazing her cheek, her shoulder, her side. At her heart it closes the line, pressing through her and driving on into the board behind her. The pencil stands with its point through her chest, the outline closed around her, her head hanging still."
+        ],
+        "magic": {
+          "name": "Eyes on Me",
+          "text": "Any person or animal who meets her eyes can't look away until she does."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

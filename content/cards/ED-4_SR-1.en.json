@@ -1,0 +1,32 @@
+{
+  "cell": "ED|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Self-Reliant",
+  "tag": "ED-4_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "The day they buried her dog, her father brought home a new puppy in a box, a red ribbon round its neck. \"There,\" he said. \"Good as new.\" {WITCH_NAME} had picked a flower from the grave that day and kept it dried ever since, tucked by her pillow in her cell. She had never told anyone what her Magic did. Get better fast, and no one has to look.",
+          "Each dusk her roommate brought flowers back from the flower field, set a fresh one by every girl's pillow and tossed out the wilted ones. One evening she tossed the dried flower out with them and set a fresh one in its place. \"There. Good as new.\" {WITCH_NAME} watched and said nothing.",
+          "The next afternoon in the recreation room, she heaved up a corner of the pool table alone, waving off every offered hand, and let it drop on her own right foot. The prisoners heard the bones crack and saw her right shoe crushed flat and bleeding. She hopped away, refusing every arm, and wrapped the foot herself.",
+          "That dusk, while the others were at supper, she walked out to the flower field with her one shoe on her left foot and the right still wrapped in cloth. Beneath the cloth, her Magic had already made it whole. She pressed her roommate's face into the soft flower bed and knelt on her back until the girl lay still.",
+          "When the cells opened next morning, the prisoners found the roommate face down among the flowers, her basket spilled beside her. In the trial court they ruled she had been killed at dusk by someone who walked out there, not by the girl who couldn't stand on her crushed foot. But that morning, one prisoner had noticed a print in the soft bed beside the body: a cloth-wrapped right foot, pressed as deep as the left shoe. Then the court saw it. The crushed foot had mended and carried {WITCH_NAME} out there to hold her roommate down."
+        ],
+        "epitaph": "She kept a dead flower for years, and no one ever asked her why.",
+        "epithet": "Always Good as New",
+        "execution": [
+          "A gift box rises in the trial court with her standing inside it, its lid poised just above the open top. A broad red ribbon loops down from the lid and round her neck. The lid lifts away upward. The ribbon draws tight and raises her by the neck, out of the box. She hangs still beneath the lid over the empty box, the red bow neat under her chin, her throat unmarked."
+        ],
+        "magic": {
+          "name": "Right as Rain",
+          "text": "She can heal herself of any wound, illness or ache within moments."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

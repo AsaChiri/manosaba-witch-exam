@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Depender",
+  "copingSub": "DP-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Depender",
+  "tag": "ED-1_DP-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, once the others had gone downstairs, one girl called {WITCH_NAME}'s name at the upper railing, and {WITCH_NAME}'s Magic set her at the girl's side at once. The girl would hang on to her wrist and lean far out over the courtyard to feed a nest in the tree.",
+          "Every night at nine, the prisoners called her name in the lounge as well. She never came unless she was called.",
+          "One evening at the railing, the girl told her the fledglings had flown. Tonight she only wanted the empty nest, to keep. After that, she wouldn't call her again.",
+          "{WITCH_NAME}'s mother used to ring the supper bell and call her brothers in by name. The door would shut while she still waited on the step to hear her own.",
+          "Just before nine, at the railing, {WITCH_NAME} pressed her wrist into the girl's hand. \"I have you,\" she said. \"Reach all the way out.\"",
+          "At nine, the prisoners called her name in the lounge and turned to find her already beside them. Moments later, a scream and a crash came from the courtyard. They found the railing empty and the girl dead on the path below, the empty nest beside her.",
+          "In the trial court, they ruled that she had fallen alone, reaching for the nest. {WITCH_NAME} had been standing among them when it happened.",
+          "Then {WITCH_NAME}'s sleeve slid back, and one prisoner saw four small fingertip bruises ringing her wrist. They understood at last: the girl had been hanging from that wrist, and their nine o'clock call had taken it out of her grip."
+        ],
+        "epitaph": "She waited her whole life to be called, and in the end let a call do her letting go.",
+        "epithet": "The girl no one called in to supper",
+        "execution": [
+          "A giant supper bell rises above her, then sinks over her head until its rim rests on her shoulders. Her ankles are fixed to the floor beneath it.",
+          "The bell begins to peal for supper. Inside, the clapper swings around her head and strikes it on every swing, so each peal comes out as a dull thud.",
+          "At last she sags to her knees and slips out from under the lip. Above her still head, the bell rings clear."
+        ],
+        "magic": {
+          "name": "Come When Called",
+          "text": "She teleports to the side of anyone who calls her name."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

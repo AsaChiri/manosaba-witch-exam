@@ -1,0 +1,34 @@
+{
+  "cell": "FAI|Performer",
+  "copingSub": "P-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Performer",
+  "tag": "FAI-1_P-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At ten, {WITCH_NAME} forgot her recital poem halfway through, and the school hall cheered. At the next one, the teacher sent her out alone to forget again. She stood in silence until the teacher said, \"So it was an accident.\"",
+          "In the flower field, one girl spread blankets at the edge for every evening show and filled {WITCH_NAME}'s front row each night. After everyone went in, she folded them alone.",
+          "Last week, {WITCH_NAME}'s phone light died mid-song. Unseen, she sang on, only her own faint voice from the far tree line, and the field called it the best night yet.",
+          "Before tonight's show, the blanket girl smiled as she spread the blankets. \"Tomorrow, every light off, and you sing from the dark again, like that night.\"",
+          "At dusk, {WITCH_NAME} walked to the far tree line in full view and turned. Her phone, on a cord at her chin, lit her face, and through her Magic that face was suddenly at arm's length from every girl. At half past nine she said goodnight up close to each girl, and her light went out.",
+          "The prisoners walked in, leaving the blanket girl folding alone at the edge. {WITCH_NAME} stepped out of the dark and pressed a folded blanket over the girl's face until she stopped. Five minutes after goodnight, a prisoner came back for the last blankets and found her dead.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out: at goodnight she was at the far tree line, seven minutes' walk away. Then a prisoner opened the photos on the dead girl's phone: one per show, {WITCH_NAME} a speck at the tree line in each. But in tonight's last shot, her lit face loomed among the nearest flowers. The camera had seen where she really stood. She had walked up through the flowers unseen and said goodnight a minute from the blankets."
+        ],
+        "epitaph": "The one night she was farthest away, they leaned in closest.",
+        "epithet": "Applauded Only for Her Accidents",
+        "execution": [
+          "A phone rises upright in the trial court, as tall as the court itself. Its cord runs from the top and loops around her neck, and its light shines up under her chin. The phone keeps rising, and the cord lifts her off the floor by the neck. The light flickers, then dies. She hangs still against the dark screen."
+        ],
+        "magic": {
+          "name": "Front Row",
+          "text": "Everyone who can see her sees and hears her at arm's length, however far away she stands."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

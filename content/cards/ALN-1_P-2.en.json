@@ -20,14 +20,14 @@
         "epitaph": "The one time she and the girl who watched faces laughed at the same thing, nothing was funny.",
         "epithet": "First to Laugh, Never in on the Joke",
         "execution": [
-          "The execution stand raises an iron jester's head, its mouth wide open in a laugh. She stands chained upright on its tongue, facing rows of iron spectators with painted grins.",
+          "An iron jester's head rises, its mouth wide open in a laugh. She stands chained upright on its tongue, facing rows of iron spectators with painted grins.",
           "She searches the painted faces for the laugh that would tell her when to laugh. None comes.",
           "The upper jaw comes down onto her head and shoulders and keeps closing, folding her down onto the tongue.",
           "The jester's head stands with its laughing mouth shut, and the iron spectators go on grinning in silence."
         ],
         "magic": {
           "name": "Contagious Laughter",
-          "text": "Everyone who hears her laugh catches it and laughs along as if it were their own."
+          "text": "Everyone who hears her laugh genuinely laughs along with her."
         }
       },
       "variant": 1

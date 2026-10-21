@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Self-Punisher",
+  "tag": "ED-1_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "As a child, {WITCH_NAME} scalded her hand on the kettle and held it out to her mother. \"My own fault,\" she said, before anyone else could. Her mother didn't turn from the stove. \"You'll live.\"",
+          "Her roommate in the prison swam the cold lake alone at six every morning, the way she had swum the river at home every dawn.",
+          "One evening in the lounge, a prisoner reached into the fireplace. {WITCH_NAME} took the burn onto her own palm, as she took any hurt she saw coming, and the girl walked off without a mark. That night in their cell, {WITCH_NAME} held the blistered palm up to the upper bunk. \"My own fault.\" Her roommate folded her swim towel, said, \"You'll live,\" and turned to the wall.",
+          "At six the next morning, her roommate reached for the bank beside her folded towel. {WITCH_NAME} held her face down at the edge until she went still. She took every knock onto herself: bruises bloomed on her own knees, palms and scalp, while her roommate's skin stayed clean.",
+          "The prisoners found the girl drowned at the edge of the bank, without a mark on her. In the trial court, they ruled that she had drowned alone in the cold. Hands holding her under would have bruised her.",
+          "Then a prisoner found her hair clip snapped in two at the back of her head, and the scalp beneath it unbruised. The court saw it then: someone watching had taken the knock that snapped it, and {WITCH_NAME} was the one who had held her under."
+        ],
+        "epitaph": "She never needed anyone to take her hurt. She only needed someone to turn around.",
+        "epithet": "Bruised for everyone, seen by no one",
+        "execution": [
+          "A giant kettle rises on a lit stove. She stands inside it, under its heavy lid, shut tight. Steam fills the kettle around her, and the spout begins to shriek as the lid rattles up and down. When the lid lifts, she pushes her reddening palm out under it and holds it up to the court. The shriek thins to a whistle, then to silence. The lid settles shut, and her hand slides back inside."
+        ],
+        "magic": {
+          "name": "Take the Hit",
+          "text": "When she sees someone about to get hurt, she takes the injury onto her own body instead."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

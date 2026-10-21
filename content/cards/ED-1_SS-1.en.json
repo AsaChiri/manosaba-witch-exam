@@ -1,0 +1,39 @@
+{
+  "cell": "ED|Self-Soother",
+  "copingSub": "SS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Self-Soother",
+  "tag": "ED-1_SS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night after supper, one girl stayed alone in the dining hall, humming as she shaped the leftover rice into a ball for each girl, as she had for her little brothers when her parents worked nights. Each got her own filling; only {WITCH_NAME}'s held a plum.",
+          "{WITCH_NAME} came down first each night and ate hers, her Magic setting her beside the hands that shaped it.",
+          "One night she stayed too, held up a lopsided ball of her own and asked to make them beside her. The girl kept her eyes on her hands and pushed the plum one across. \"Eat yours. You can stand beside me whenever you taste it.\"",
+          "At seven, {WITCH_NAME} had held up a lopsided rice ball: \"Look, I made one.\" Her mother, shaping rice balls for customers, pushed a plum one across without looking up. \"Eat this one. I'm busy.\" Ever since, when it hurt, she ate.",
+          "\"Look at me.\" {WITCH_NAME} pressed the wet hand towel over the girl's mouth and nose, holding her face up to her own until she stopped moving.",
+          "Then she bit into the plum rice ball and stood beside the girl as she was minutes earlier, watching her shape it first, press the plum in with her thumb and say, \"She always comes first.\"",
+          "She shaped the rest as she had watched those hands do it, pressing a plum into each so every girl would taste whose hands made tonight's, then laid them in their row and left her own place empty.",
+          "Before lockup, the prisoners came down and found the girl slumped beside the laid-out tray. Like every night, she seemed to have finished it before anyone came.",
+          "In the trial court, {WITCH_NAME} set out the tray. \"Taste them.\"",
+          "A prisoner broke them open one by one. Every one held a plum, and only {WITCH_NAME}'s ever had. The prisoners understood: she had made tonight's rice balls beside the dead girl, and meant them to know."
+        ],
+        "epitaph": "The one thing she ever made that no one could taste without knowing her hands.",
+        "epithet": "Fed Without a Glance",
+        "execution": [
+          "A giant lacquer tray rises in the trial court, set with a row of huge plum rice balls and two curved lacquer panels heaped with warm rice. She kneels with her hands tied in the one empty place between the panels.",
+          "The panels close on her with the warm rice. They press, open, turn her, and press again. Her breaths come shorter at every press.",
+          "The panels open on a lopsided rice ball in the last place of the row, her bowed head at its top, still."
+        ],
+        "magic": {
+          "name": "At the Cook's Side",
+          "text": "One taste lets her witness any food or drink being made, right beside the cook."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

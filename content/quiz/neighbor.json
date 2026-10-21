@@ -555,9 +555,11 @@
   },
   "DEF|Caretaker": {
     "table": {
+      "DEF-3|CT-1": "DEF-3_CT-1",
       "DEF-6|CT-1": "DEF-6_CT-1"
     },
     "tiers": {
+      "DEF-3|CT-1": 0,
       "DEF-6|CT-1": 0
     }
   },
@@ -615,10 +617,16 @@
   },
   "DEF|Depender": {
     "table": {
-      "DEF-4|DP-3": "DEF-4_DP-3"
+      "DEF-4|DP-1": "DEF-4_DP-3",
+      "DEF-4|DP-3": "DEF-4_DP-3",
+      "DEF-6|DP-1": "DEF-6_DP-1",
+      "DEF-6|DP-3": "DEF-6_DP-1"
     },
     "tiers": {
-      "DEF-4|DP-3": 0
+      "DEF-4|DP-1": 1,
+      "DEF-4|DP-3": 0,
+      "DEF-6|DP-1": 0,
+      "DEF-6|DP-3": 1
     }
   },
   "DEF|Detacher": {
@@ -664,18 +672,22 @@
   "DEF|Performer": {
     "table": {
       "DEF-3|P-2": "DEF-3_P-2",
+      "DEF-6|P-2": "DEF-6_P-2",
       "DEF-8|P-2": "DEF-8_P-2"
     },
     "tiers": {
       "DEF-3|P-2": 0,
+      "DEF-6|P-2": 0,
       "DEF-8|P-2": 0
     }
   },
   "DEF|Pleaser": {
     "table": {
+      "DEF-3|PL-2": "DEF-3_PL-2",
       "DEF-3|PL-3": "DEF-3_PL-3"
     },
     "tiers": {
+      "DEF-3|PL-2": 0,
       "DEF-3|PL-3": 0
     }
   },
@@ -710,12 +722,16 @@
   "DEF|Self-Punisher": {
     "table": {
       "DEF-1|SP-1": "DEF-1_SP-1",
+      "DEF-2|SP-1": "DEF-2_SP-1",
       "DEF-3|SP-1": "DEF-3_SP-1",
+      "DEF-6|SP-1": "DEF-6_SP-1",
       "DEF-8|SP-1": "DEF-8_SP-1"
     },
     "tiers": {
       "DEF-1|SP-1": 0,
+      "DEF-2|SP-1": 0,
       "DEF-3|SP-1": 0,
+      "DEF-6|SP-1": 0,
       "DEF-8|SP-1": 0
     }
   },
@@ -725,6 +741,16 @@
     },
     "tiers": {
       "DEF-3|SR-1": 0
+    }
+  },
+  "DEF|Self-Soother": {
+    "table": {
+      "DEF-3|SS-1": "DEF-3_SS-1",
+      "DEF-6|SS-1": "DEF-6_SS-1"
+    },
+    "tiers": {
+      "DEF-3|SS-1": 0,
+      "DEF-6|SS-1": 0
     }
   },
   "DEF|Sovereign": {
@@ -739,10 +765,12 @@
   },
   "DEF|Striker": {
     "table": {
-      "DEF-3|ST-2": "DEF-3_ST-2"
+      "DEF-3|ST-2": "DEF-3_ST-2",
+      "DEF-6|ST-2": "DEF-6_ST-2"
     },
     "tiers": {
-      "DEF-3|ST-2": 0
+      "DEF-3|ST-2": 0,
+      "DEF-6|ST-2": 0
     }
   },
   "DEF|Thrill-Seeker": {
@@ -795,10 +823,22 @@
   },
   "ED|Avoider": {
     "table": {
+      "ED-1|AV-1": "ED-1_AV-1",
       "ED-4|AV-1": "ED-4_AV-1"
     },
     "tiers": {
+      "ED-1|AV-1": 0,
       "ED-4|AV-1": 0
+    }
+  },
+  "ED|Caretaker": {
+    "table": {
+      "ED-1|CT-1": "ED-1_CT-1",
+      "ED-4|CT-1": "ED-4_CT-1"
+    },
+    "tiers": {
+      "ED-1|CT-1": 0,
+      "ED-4|CT-1": 0
     }
   },
   "ED|Clinger": {
@@ -811,28 +851,85 @@
   },
   "ED|Concealer": {
     "table": {
-      "ED-1|CO-2": "ED-1_CO-2"
+      "ED-1|CO-1": "ED-1_CO-1",
+      "ED-1|CO-2": "ED-1_CO-2",
+      "ED-4|CO-1": "ED-4_CO-1",
+      "ED-4|CO-2": "ED-4_CO-1"
     },
     "tiers": {
-      "ED-1|CO-2": 0
+      "ED-1|CO-1": 0,
+      "ED-1|CO-2": 0,
+      "ED-4|CO-1": 0,
+      "ED-4|CO-2": 1
+    }
+  },
+  "ED|Depender": {
+    "table": {
+      "ED-1|DP-2": "ED-1_DP-2"
+    },
+    "tiers": {
+      "ED-1|DP-2": 0
+    }
+  },
+  "ED|Detacher": {
+    "table": {
+      "ED-1|DT-2": "ED-1_DT-2",
+      "ED-1|DT-3": "ED-1_DT-3",
+      "ED-4|DT-2": "ED-4_DT-2",
+      "ED-4|DT-3": "ED-4_DT-2"
+    },
+    "tiers": {
+      "ED-1|DT-2": 0,
+      "ED-1|DT-3": 0,
+      "ED-4|DT-2": 0,
+      "ED-4|DT-3": 1
     }
   },
   "ED|Doomer": {
     "table": {
-      "ED-1|DM-1": "ED-1_DM-1"
+      "ED-1|DM-1": "ED-1_DM-1",
+      "ED-1|DM-3": "ED-1_DM-3",
+      "ED-4|DM-1": "ED-4_DM-1",
+      "ED-4|DM-3": "ED-4_DM-1"
     },
     "tiers": {
-      "ED-1|DM-1": 0
+      "ED-1|DM-1": 0,
+      "ED-1|DM-3": 0,
+      "ED-4|DM-1": 0,
+      "ED-4|DM-3": 1
+    }
+  },
+  "ED|Fantasist": {
+    "table": {
+      "ED-1|FA-3": "ED-1_FA-3",
+      "ED-4|FA-3": "ED-4_FA-3",
+      "ED-9|FA-3": "ED-9_FA-3"
+    },
+    "tiers": {
+      "ED-1|FA-3": 0,
+      "ED-4|FA-3": 0,
+      "ED-9|FA-3": 0
+    }
+  },
+  "ED|Perfectionist": {
+    "table": {
+      "ED-9|PF-1": "ED-9_PF-1"
+    },
+    "tiers": {
+      "ED-9|PF-1": 0
     }
   },
   "ED|Performer": {
     "table": {
       "ED-1|P-1": "ED-1_P-1",
-      "ED-1|P-2": "ED-1_P-1",
-      "ED-1|P-3": "ED-1_P-1",
+      "ED-1|P-2": "ED-1_P-2",
+      "ED-1|P-3": "ED-1_P-2",
       "ED-2|P-1": "ED-2_P-2",
       "ED-2|P-2": "ED-2_P-2",
       "ED-2|P-3": "ED-2_P-2",
+      "ED-4|P-1": "ED-4_P-1",
+      "ED-4|P-2": "ED-4_P-1",
+      "ED-4|P-3": "ED-4_P-1",
       "ED-5|P-1": "ED-5_P-3",
       "ED-5|P-2": "ED-5_P-3",
       "ED-5|P-3": "ED-5_P-3",
@@ -842,11 +939,14 @@
     },
     "tiers": {
       "ED-1|P-1": 0,
-      "ED-1|P-2": 1,
+      "ED-1|P-2": 0,
       "ED-1|P-3": 1,
       "ED-2|P-1": 1,
       "ED-2|P-2": 0,
       "ED-2|P-3": 1,
+      "ED-4|P-1": 0,
+      "ED-4|P-2": 1,
+      "ED-4|P-3": 1,
       "ED-5|P-1": 1,
       "ED-5|P-2": 1,
       "ED-5|P-3": 0,
@@ -867,26 +967,256 @@
   },
   "ED|Resigned": {
     "table": {
-      "ED-4|RS-1": "ED-4_RS-1"
+      "ED-1|RS-1": "ED-1_RS-1",
+      "ED-4|RS-1": "ED-4_RS-1",
+      "ED-9|RS-1": "ED-9_RS-1"
     },
     "tiers": {
-      "ED-4|RS-1": 0
+      "ED-1|RS-1": 0,
+      "ED-4|RS-1": 0,
+      "ED-9|RS-1": 0
+    }
+  },
+  "ED|Ruminator": {
+    "table": {
+      "ED-1|RU-1": "ED-1_RU-2",
+      "ED-1|RU-2": "ED-1_RU-2",
+      "ED-4|RU-1": "ED-4_RU-1",
+      "ED-4|RU-2": "ED-4_RU-1"
+    },
+    "tiers": {
+      "ED-1|RU-1": 1,
+      "ED-1|RU-2": 0,
+      "ED-4|RU-1": 0,
+      "ED-4|RU-2": 1
     }
   },
   "ED|Self-Punisher": {
     "table": {
-      "ED-3|SP-1": "ED-3_SP-1"
+      "ED-1|SP-1": "ED-1_SP-1",
+      "ED-3|SP-1": "ED-3_SP-1",
+      "ED-4|SP-1": "ED-4_SP-1",
+      "ED-9|SP-1": "ED-9_SP-1"
     },
     "tiers": {
-      "ED-3|SP-1": 0
+      "ED-1|SP-1": 0,
+      "ED-3|SP-1": 0,
+      "ED-4|SP-1": 0,
+      "ED-9|SP-1": 0
+    }
+  },
+  "ED|Self-Reliant": {
+    "table": {
+      "ED-1|SR-1": "ED-1_SR-1",
+      "ED-4|SR-1": "ED-4_SR-1"
+    },
+    "tiers": {
+      "ED-1|SR-1": 0,
+      "ED-4|SR-1": 0
+    }
+  },
+  "ED|Self-Soother": {
+    "table": {
+      "ED-1|SS-1": "ED-1_SS-1",
+      "ED-4|SS-1": "ED-4_SS-1",
+      "ED-9|SS-1": "ED-9_SS-1"
+    },
+    "tiers": {
+      "ED-1|SS-1": 0,
+      "ED-4|SS-1": 0,
+      "ED-9|SS-1": 0
+    }
+  },
+  "ED|Sovereign": {
+    "table": {
+      "ED-1|SV-2": "ED-1_SV-2",
+      "ED-4|SV-2": "ED-4_SV-2"
+    },
+    "tiers": {
+      "ED-1|SV-2": 0,
+      "ED-4|SV-2": 0
+    }
+  },
+  "ED|Striker": {
+    "table": {
+      "ED-1|ST-2": "ED-1_ST-2"
+    },
+    "tiers": {
+      "ED-1|ST-2": 0
+    }
+  },
+  "ED|Thrill-Seeker": {
+    "table": {
+      "ED-1|TS-2": "ED-1_TS-2",
+      "ED-4|TS-2": "ED-4_TS-2"
+    },
+    "tiers": {
+      "ED-1|TS-2": 0,
+      "ED-4|TS-2": 0
+    }
+  },
+  "ED|Trickster": {
+    "table": {
+      "ED-2|TR-1": "ED-2_TR-1"
+    },
+    "tiers": {
+      "ED-2|TR-1": 0
+    }
+  },
+  "ED|Wall-of-Anger": {
+    "table": {
+      "ED-1|WA-1": "ED-1_WA-1",
+      "ED-4|WA-1": "ED-4_WA-1"
+    },
+    "tiers": {
+      "ED-1|WA-1": 0,
+      "ED-4|WA-1": 0
+    }
+  },
+  "ED|Watcher": {
+    "table": {
+      "ED-1|WT-2": "ED-1_WT-2"
+    },
+    "tiers": {
+      "ED-1|WT-2": 0
+    }
+  },
+  "FAI|Avenger": {
+    "table": {
+      "FAI-3|AG-1": "FAI-3_AG-1"
+    },
+    "tiers": {
+      "FAI-3|AG-1": 0
+    }
+  },
+  "FAI|Avoider": {
+    "table": {
+      "FAI-1|AV-3": "FAI-1_AV-3",
+      "FAI-3|AV-3": "FAI-3_AV-3",
+      "FAI-5|AV-3": "FAI-5_AV-3"
+    },
+    "tiers": {
+      "FAI-1|AV-3": 0,
+      "FAI-3|AV-3": 0,
+      "FAI-5|AV-3": 0
+    }
+  },
+  "FAI|Catastrophizer": {
+    "table": {
+      "FAI-1|CA-1": "FAI-1_CA-1",
+      "FAI-3|CA-1": "FAI-3_CA-1",
+      "FAI-5|CA-1": "FAI-5_CA-1"
+    },
+    "tiers": {
+      "FAI-1|CA-1": 0,
+      "FAI-3|CA-1": 0,
+      "FAI-5|CA-1": 0
     }
   },
   "FAI|Concealer": {
     "table": {
-      "FAI-1|CO-1": "FAI-1_CO-1"
+      "FAI-1|CO-1": "FAI-1_CO-1",
+      "FAI-1|CO-2": "FAI-1_CO-2",
+      "FAI-3|CO-1": "FAI-3_CO-1",
+      "FAI-3|CO-2": "FAI-3_CO-1"
     },
     "tiers": {
-      "FAI-1|CO-1": 0
+      "FAI-1|CO-1": 0,
+      "FAI-1|CO-2": 0,
+      "FAI-3|CO-1": 0,
+      "FAI-3|CO-2": 1
+    }
+  },
+  "FAI|Depender": {
+    "table": {
+      "FAI-1|DP-2": "FAI-1_DP-2",
+      "FAI-3|DP-2": "FAI-3_DP-2",
+      "FAI-5|DP-2": "FAI-5_DP-2"
+    },
+    "tiers": {
+      "FAI-1|DP-2": 0,
+      "FAI-3|DP-2": 0,
+      "FAI-5|DP-2": 0
+    }
+  },
+  "FAI|Detacher": {
+    "table": {
+      "FAI-1|DT-2": "FAI-1_DT-2",
+      "FAI-1|DT-3": "FAI-1_DT-3"
+    },
+    "tiers": {
+      "FAI-1|DT-2": 0,
+      "FAI-1|DT-3": 0
+    }
+  },
+  "FAI|Doomer": {
+    "table": {
+      "FAI-1|DM-1": "FAI-1_DM-1",
+      "FAI-3|DM-1": "FAI-3_DM-1"
+    },
+    "tiers": {
+      "FAI-1|DM-1": 0,
+      "FAI-3|DM-1": 0
+    }
+  },
+  "FAI|Fantasist": {
+    "table": {
+      "FAI-1|FA-1": "FAI-1_FA-1",
+      "FAI-3|FA-1": "FAI-3_FA-1"
+    },
+    "tiers": {
+      "FAI-1|FA-1": 0,
+      "FAI-3|FA-1": 0
+    }
+  },
+  "FAI|Perfectionist": {
+    "table": {
+      "FAI-1|PF-2": "FAI-1_PF-2",
+      "FAI-3|PF-2": "FAI-3_PF-2",
+      "FAI-5|PF-2": "FAI-5_PF-2"
+    },
+    "tiers": {
+      "FAI-1|PF-2": 0,
+      "FAI-3|PF-2": 0,
+      "FAI-5|PF-2": 0
+    }
+  },
+  "FAI|Performer": {
+    "table": {
+      "FAI-1|P-1": "FAI-1_P-1",
+      "FAI-1|P-3": "FAI-1_P-1",
+      "FAI-5|P-1": "FAI-5_P-3",
+      "FAI-5|P-3": "FAI-5_P-3"
+    },
+    "tiers": {
+      "FAI-1|P-1": 0,
+      "FAI-1|P-3": 1,
+      "FAI-5|P-1": 1,
+      "FAI-5|P-3": 0
+    }
+  },
+  "FAI|Pleaser": {
+    "table": {
+      "FAI-1|PL-2": "FAI-1_PL-2"
+    },
+    "tiers": {
+      "FAI-1|PL-2": 0
+    }
+  },
+  "FAI|Ruminator": {
+    "table": {
+      "FAI-1|RU-1": "FAI-1_RU-1"
+    },
+    "tiers": {
+      "FAI-1|RU-1": 0
+    }
+  },
+  "FAI|Self-Punisher": {
+    "table": {
+      "FAI-5|SP-1": "FAI-5_SP-1"
+    },
+    "tiers": {
+      "FAI-5|SP-1": 0
     }
   },
   "MB|Avenger": {

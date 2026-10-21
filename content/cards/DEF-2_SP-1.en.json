@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Self-Punisher",
+  "copingSub": "SP-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-2",
+  "style": "Self-Punisher",
+  "tag": "DEF-2_SP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every morning in the dining hall, {WITCH_NAME} was first on the bench. Her friend braided each girl's hair, as she had her little sisters', holding her hand mirror behind each head.",
+          "Each night at nine in the lounge, she set her pocket mirror to her friend's eyes by Magic, and the girls crowded in to see her rounder, smiling face. \"That's you to me,\" her friend laughed.",
+          "After supper in the shower room, her friend combed out her wet hair, undid {WITCH_NAME}'s braid and gave her the comb. \"Braid your own. Then you won't have to wait for me every morning.\"",
+          "Her mother once held the hall mirror to her crying face: \"Look how you hang on me.\" After her mother died, she set it to those eyes: still the girl clutching her sleeve. The mirror worked through dead eyes too. She told no one.",
+          "She braided her own hair and set her friend's hand mirror to her friend's eyes: still the rounder, smiling face, in her first lopsided braid. She offered to return the favor; her friend turned around. {WITCH_NAME} braided the wet hair, wound it around her friend's throat and pulled until she was still. Before nine she unpicked her braid and went to the lounge.",
+          "At nine the girls crowded around her pocket mirror: the smiling face in a lopsided braid, her own hair loose. They thought her friend was still showering. At half past nine the prisoners found her friend strangled with her own braid.",
+          "In the trial court, the prisoners ruled {WITCH_NAME} out: her mirror showed her through her friend's eyes at nine, and she never left the lounge. But as she bent over it as usual, a prisoner glimpsed the lopsided braid still there.",
+          "Dead eyes worked too, so nine proved nothing. And her friend never braided crooked: she had last seen {WITCH_NAME} in a braid of her own that none of them saw."
+        ],
+        "epitaph": "Now she is held for good, still the girl they were teaching not to need it.",
+        "epithet": "The Girl Who Hangs On",
+        "execution": [
+          "The morning bench rises into the trial court, between a tall mirror and a giant comb. She sits on the bench with the comb poised behind her, its teeth level with her back. Her loose hair is braided, and the braid is knotted to the mirror frame, holding her face close to her reflection. The comb drives forward into her back and pins her chest to the glass. She sits still, bowed against the mirror, held up by her braid and the comb."
+        ],
+        "magic": {
+          "name": "Through Your Eyes",
+          "text": "She can make a mirror show whoever looks into it as a chosen person sees them."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

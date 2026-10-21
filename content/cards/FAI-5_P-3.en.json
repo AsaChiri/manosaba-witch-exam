@@ -1,0 +1,35 @@
+{
+  "cell": "FAI|Performer",
+  "copingSub": "P-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-5",
+  "style": "Performer",
+  "tag": "FAI-5_P-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At seven, {WITCH_NAME} played a piano solo at her school festival and brought the whole hall to its feet. At fourteen, her teacher gave the festival solo to a younger pupil. \"You bloomed too early, dear.\"",
+          "In the prison, the others bring her closed buds and hard green fruit, and every dusk in the lounge she opens and ripens each one with a touch while the room applauds.",
+          "The gardener never brings her a bud. All summer, she watches the evening primroses in her pot in the courtyard open by themselves each dusk, a few buds a night, and comes late to the show with one tucked behind her ear.",
+          "At supper in the dining hall, {WITCH_NAME} offers to open the whole pot for that night's show. The gardener smiles and declines. \"If you open them now, they'll have bloomed too early.\"",
+          "Before dusk, {WITCH_NAME} finds her kneeling alone beside the pot and swings the full watering can into her temple. The gardener falls and is still. {WITCH_NAME} lays her palm on the plant, and every bud on every stalk bursts into full bloom. She snaps off one flower and tucks it behind the dead girl's ear.",
+          "From dusk until nine, she stands in the lounge opening buds and ripening fruit before the applauding room.",
+          "After nine, the prisoners find the gardener dead beside her pot, the primroses in bloom and one behind her ear. In the trial court, they conclude that she lived to see her flowers open and died while {WITCH_NAME} was performing in front of everyone.",
+          "Then one prisoner looks the pot over in the morning light. Not one closed bud is left; every bud on every stalk opened the same night. Only {WITCH_NAME}'s touch opens a whole plant at once. The flower behind the gardener's ear was opened before dusk, by the hand that killed her."
+        ],
+        "epitaph": "What opens a little each night is not fading.",
+        "epithet": "Bloomed Too Early",
+        "execution": [
+          "A giant evening primrose rises from a great clay pot toward the ceiling of the trial court, with her wrapped upright inside its tall, closed top bud. The bud bursts open all at once into full bloom, and she stands on its open face high above the court. Under the heavy bloom, the stalk bows lower and lower until the flower hangs face down, and she drops headfirst onto the stone floor. She lies still on the stone beneath the bowed flower as the bloom folds shut over her."
+        ],
+        "magic": {
+          "name": "Full Bloom",
+          "text": "Anyone or anything she touches instantly becomes the finest it will ever be."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

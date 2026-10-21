@@ -1,0 +1,33 @@
+{
+  "cell": "FAI|Fantasist",
+  "copingSub": "FA-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Fantasist",
+  "tag": "FAI-1_FA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Each evening a prisoner played at the recreation room pool table and posted her last table to the lounge chat the moment she snapped it. {WITCH_NAME}, her one steady opponent, had never beaten her. At nine-thirty each night, she sat at the lounge window, turned her reflection into her older self and asked what she would become. The girls on the sofas listened to the grown woman answer.",
+          "One night {WITCH_NAME} won on a miscue that jumped the cue ball onto the eight, and the girl showed everyone the table. In the dining hall she beamed, a hand on {WITCH_NAME}'s shoulder: “She'll do it again tomorrow at nine, in front of everyone.”",
+          "At twelve, {WITCH_NAME} won a prize for a spilled-ink picture; on stage a teacher handed her ink to do it again. She couldn't. The hall went quiet. Applause is people waiting for the second try.",
+          "After an hour of misses, she bent over the black eight and asked her older self in its gloss if anyone ever found out. It only watched her. As the girl snapped the table and looked down to post it, {WITCH_NAME} struck her temple with the cue butt till she was still.",
+          "She pocketed the phone, photo unsent, and went down to her window. The girls watched her older self, hands folded in its lap. At twenty to ten she tapped send in her own lap; the girl's last table lit every phone in the room. At ten to ten she went up first to fetch her for lockup, knelt and slipped the phone under her hand ahead of the others.",
+          "At trial the prisoners ruled she was struck after that post, with {WITCH_NAME} in plain sight. Then one zoomed in on the black eight: a grown woman's face bent over the table in its gloss. Only {WITCH_NAME}'s reflection wore one. The table was snapped with her at it before she came down; the post came from hands the glass never showed."
+        ],
+        "epitaph": "The only thing she ever did on purpose was the one no one would ask her to do again.",
+        "epithet": "The lucky prodigy who dreaded the encore",
+        "execution": [
+          "A gilt prize frame rose in the trial court, lying flat, as long as a bed, its rim as deep as a bathtub. She lay bound face up on white paper inside it, beneath a giant inkwell tilted over her. The inkwell tipped, and ink spilled across the paper around her; the black spread into a shape while the spectators watched in silence. It filled the frame and rose over her chest to her face. Her bound hands beat against the paper, then stopped. The ink lay still, glossy black to the gilt edge, the court lamps shining on its surface."
+        ],
+        "magic": {
+          "name": "The Woman in the Glass",
+          "text": "She can turn her reflection into her older self, who sees her and talks back."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

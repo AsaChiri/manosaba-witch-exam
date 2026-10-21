@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Performer",
+  "copingSub": "P-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Performer",
+  "tag": "ED-4_P-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at dusk, {WITCH_NAME} puts on a show in the courtyard. One girl never joins the crowd. She folds one paper flower a day, watches alone from the upper railing, and drops the flower on the last note. {WITCH_NAME} catches every one and keeps them all.",
+          "One evening before the show, {WITCH_NAME} climbs up to the railing and sings for the girl alone: the song she wrote about being afraid of the dark. The girl smiles, sets that day's flower on the rail and says, \"Sing that one tonight. I'll throw you this.\"",
+          "The first time {WITCH_NAME} sang it, at nine, her mother kissed her, called her \"my little sunshine,\" and turned out the light.",
+          "Now she grips the girl by the shoulders and drives her head against the iron rail until the girl goes still. The halls upstairs are empty; below, the crowd is gathering.",
+          "She sings the dusk show. Brooms and chairs dance around her to her song, and the crowd claps as it does every night. She ends on her last note beneath the railing, and the girl's flower leaps from the rail and flutters down into her hands.",
+          "After the show, a prisoner goes up to the library and finds the girl dead at the foot of its railing, while {WITCH_NAME} is still down in the courtyard among the crowd.",
+          "In the trial court, the prisoners conclude that someone went inside and killed the girl after she dropped her flower, while {WITCH_NAME} stayed among them. She hands over the last flower as proof. A prisoner unfolds it. Inside the petals are dried drops of the girl's blood.",
+          "Then the prisoners see it: the flower was bloodied on the rail before it ever fell. No living hand threw it. It leapt to her song."
+        ],
+        "epitaph": "Even her one true song was only ever applauded.",
+        "epithet": "Sunshine Afraid of the Dark",
+        "execution": [
+          "On the execution stand rises a paper flower taller than she is, and she kneels at its heart. One by one, the petals fold in over her, pressing flat against her face, until she is shut inside a tight bud. She hums, and the closed bud sways and spins in time, fold over fold, never opening. It sways slower, and slower, until it stands still."
+        ],
+        "magic": {
+          "name": "Everything Dances",
+          "text": "She can make the objects around her dance in time to whatever she sings or hums."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

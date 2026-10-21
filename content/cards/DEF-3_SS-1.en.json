@@ -1,0 +1,36 @@
+{
+  "cell": "DEF|Self-Soother",
+  "copingSub": "SS-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-3",
+  "style": "Self-Soother",
+  "tag": "DEF-3_SS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night after dinner, one girl kept the lounge fireplace burning all evening, feeding it log by log and never letting it sink. {WITCH_NAME} was the only one she let sit beside her and feed it too.",
+          "Last night, {WITCH_NAME} admitted she had pictured pushing the girl's hand into the flames. The girl moved the poker to the far side of the hearth, away from her, and said, \"I'll feed it from now on. You just warm your hands.\"",
+          "When she was ten, {WITCH_NAME} had pictured pushing her best friend's hand onto the classroom stove, and she said so out loud. The teacher moved her desk to the far wall, and she ate her bread there until the picture went quiet. If I can picture it, she decided, I belong on the far side of the fire.",
+          "Tonight in the dining hall, she ate every girl's leftovers at the table, in front of everyone, until eight. Then the girls went up to watch the film.",
+          "After eight, in the lounge, the poker lay on the far side again. She reached across for it and struck the girl on the back of the head. Then she used her Magic: she bit into the burning logs as if they were soft bread and swallowed them, flames and all, until only grey embers were left.",
+          "At nine-thirty, the prisoners found the girl dead on the hearth, the poker beside her and the fire sunk to grey embers. In the trial court they ruled she had died before eight. No one had fed her fire for two hours, and until eight {WITCH_NAME} had been at the table, eating in front of them all.",
+          "Then a prisoner raked the ash to judge how long the fire had burned, and found a bright, clean crescent bitten out of the grate's front bar. The prisoners understood. {WITCH_NAME}'s teeth had been in that fire tonight, after eight, and the dead fire was her lie."
+        ],
+        "epitaph": "The picture proved nothing until her own hand reached for the poker.",
+        "epithet": "The Girl on the Far Side of the Fire",
+        "execution": [
+          "On the execution stand, a giant iron fire grate rises over a bed of embers, with huge logs stacked at its head. She lies bound flat across its bars, more bars bent down over her wrists and ankles.",
+          "One by one, the logs tip from the stack and settle on the grate around her, each catching from the embers below. The flames climb the logs and close over her. She strains against the bent bars.",
+          "The fire sinks to embers around her still shape on the bars."
+        ],
+        "magic": {
+          "name": "Stones to Bread",
+          "text": "She can bite through and swallow anything."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

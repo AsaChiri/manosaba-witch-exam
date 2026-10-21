@@ -1,0 +1,31 @@
+{
+  "cell": "FAI|Doomer",
+  "copingSub": "DM-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Doomer",
+  "tag": "FAI-3_DM-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At the upper railing, {WITCH_NAME} sketched the girls only halfway and walked off; left on the empty seat, the page finished itself. Below in the courtyard, one girl lay on her front each evening, drawing a chalk path with every girl walking along it. She kept a spare chalk, called {WITCH_NAME} down each evening, and photographed her path where she'd left off before going in to dinner. One evening, the moment {WITCH_NAME} got up from a sketch at the railing, the girl photographed it half done. In the dining hall, she held her phone up to the whole table: \"The first one of hers I ever caught half done. I'm keeping it.\"",
+          "At {WITCH_NAME}'s art academy entrance exam, her canvas had still been half painted when the closing bell rang. The examiner turned it to face the hall, pinned a card reading UNFINISHED to it, and gave her place to another girl.",
+          "The next evening, while the others were indoors, {WITCH_NAME} gripped the girl's hair and drove her temple against the fountain rim. The girl slumped face down at the end of her path. Going in to dinner, the prisoners looked down from the railing as always: she lay by her path, chalk in hand, the next girl half drawn. {WITCH_NAME} was with them from then on. When the girl never came in, they found her dead, the next girl finished beside her bloodied temple.",
+          "In the trial court, the prisoners concluded she had been struck after finishing the figure, while {WITCH_NAME} sat with them at dinner. One prisoner went back and knelt by the chalk figure at the dead girl's head: the chalk lay over her blood, not under it. {WITCH_NAME} had drawn half the figure in the dead girl's style, put the chalk back in her hand, and walked away. The rest had been drawn after she bled, by no hand at all."
+        ],
+        "epitaph": "Of all her pictures, the only one anyone kept was the one caught half done.",
+        "epithet": "The Painter Who Walks Away Before the Bell",
+        "execution": [
+          "A giant easel rises in the trial court, a half-painted picture on its ledge and a great brush swinging from its arm. She is bound head down in the bristles. A bell rings, and with no hand on it, the brush begins to move. It plunges her head into a jar of cloudy rinse water and sweeps her dripping hair across the picture, stroke after stroke, each dip longer than the last. At last the brush comes to rest in the jar. The picture is finished, and her hair drifts still in the water."
+        ],
+        "magic": {
+          "name": "Finished Without Her",
+          "text": "Anything she leaves half made or half mended finishes itself, just as she meant, once she walks away."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

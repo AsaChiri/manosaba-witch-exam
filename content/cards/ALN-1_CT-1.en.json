@@ -24,13 +24,13 @@
         "epitaph": "The one time she knew exactly what someone needed, nothing changed, and no one saw.",
         "epithet": "The Giver Whose Gifts Choose Themselves",
         "execution": [
-          "The execution stand raises a wire wastebin around her, the kind that sits in every classroom, its walls as high as the trial court's own. She stands alone on its floor. Far above, a great snow globe balances on its rim.",
+          "A wire wastebin rises around her, the kind that sits in every classroom, its walls as high as the trial court's own. She stands alone on its floor. Far above, a great snow globe balances on its rim.",
           "The globe tips over the rim and drops into the bin, onto her upraised open hands. It stays a snow globe all the way down.",
           "It comes to rest upright on the floor of the bin. Through the wire, snow still drifts inside it, and one open hand lies beneath its base."
         ],
         "magic": {
           "name": "Just What You Needed",
-          "text": "Any object she hands someone becomes what they need most right now as it reaches their hand."
+          "text": "Any object she hands someone turns into what they need most at that moment."
         }
       },
       "variant": 1

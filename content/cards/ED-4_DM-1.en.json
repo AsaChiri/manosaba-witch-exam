@@ -1,0 +1,40 @@
+{
+  "cell": "ED|Doomer",
+  "copingSub": "DM-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Doomer",
+  "tag": "ED-4_DM-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening a girl sat on the iron upper railing above the courtyard, folding any sad girl's worry into a paper plane and sending it off, calling \"Let it go!\" She kept {WITCH_NAME} sitting on the floor beside her seat.",
+          "One evening during free time, she read the postcard {WITCH_NAME} had kept for years, kissed her cheek and folded the card into a plane. She sent it off, laughing: \"There. Now you can stop waiting.\"",
+          "When {WITCH_NAME} was nine, her mother hugged her on a station platform. \"You'll hardly notice I'm gone,\" she said, and waved from the departing train. {WITCH_NAME} stood still and didn't run after it; once a train moves, it is already gone. A postcard came later with the same words.",
+          "{WITCH_NAME} used her Magic to stop the plane dead in the air, an arm's length past the rail at the girl's seat. She stepped back without reaching for it as the girl laughed, \"It's waiting for you.\"",
+          "At half past nine one night, the girl leaned out from her seat, calling to the plane, \"Go on, fly!\" {WITCH_NAME} put both hands on her back and pushed her off the railing.",
+          "Before lockup, the prisoners found her dead on the stone path below her seat, the plane still hanging beyond the rail above her.",
+          "At the trial, they ruled she had fallen alone, leaning out toward the plane. Anyone in that seat could reach it. Had {WITCH_NAME} gone there, it would have flown on; it still hung where it had stopped, so she had never come.",
+          "But that morning, a prisoner had held up her phone at the railing beside the plane, showing a photo she'd taken from the courtyard the afternoon before the fall. The plane now hung lower, further out along its glide.",
+          "The prisoners realized {WITCH_NAME} had come to that seat after all: the plane had flown on, and she had stopped it again."
+        ],
+        "epitaph": "Only once did she catch up with what was waiting for her, and even within reach she did not take it; she only made it wait again.",
+        "epithet": "The Girl Who Never Runs After the Train",
+        "execution": [
+          "A giant paper plane rises from the execution stand to the top of a long wire that slants down across the trial court. She lies strapped along its spine, her head out past its nose.",
+          "The plane is let go. It races down the wire, away from everyone, faster and faster.",
+          "At the end of the wire it stops dead. The straps hold her body, and her head snaps forward over the nose.",
+          "She hangs limp over the nose, her arms swinging, then still.",
+          "The plane hangs still at the end of the wire, waiting. No one goes to it."
+        ],
+        "magic": {
+          "name": "Wait for Me",
+          "text": "Anyone or anything moving away from her stops where it is and waits until she catches up."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

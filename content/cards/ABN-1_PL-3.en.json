@@ -10,27 +10,24 @@
     {
       "fields": {
         "crime": [
-          "Every night, a girl asked {WITCH_NAME} for a lemon drop from her home town, and every night she folded its striped wrapper into a paper crane in her cell. A thousand cranes, she said, would buy one wish.",
-          "The night she hung the nine hundred and ninety-ninth crane on her barred cell door, she called out to {WITCH_NAME}: \"Tomorrow, the last one. Then my wish.\"",
-          "Long ago, {WITCH_NAME}'s mother had dropped a coin into a tin every night. \"For the day it's full,\" she told her. One morning the tin was full, and her mother was gone with it. {WITCH_NAME} knew how it ended: when it was full, they went.",
-          "In her cell, she pressed crushed foxglove into a sweet she had saved from supper and wrapped it back in its plain paper.",
-          "At lock-up the cell corridor was already dark. While the others filed into their cells, the girl asked for her lemon drop, and in front of them all {WITCH_NAME} reached into her pocket and handed her the sweet. No one could see what paper it was wrapped in, not even the girl. In her cell, in the same dark, she folded the wrapper into her thousandth crane, ate the sweet, and hung the crane on her door as she did every night.",
-          "At the morning unlock, the prisoners found her dead, poisoned in the night.",
-          "In the trial court, they ruled {WITCH_NAME} out. Her pocket had made that sweet on the spot, at the girl's own asking, so whatever killed the girl must have come from somewhere else.",
-          "But in the girl's cell, a prisoner had noticed the thousandth crane. Among all the striped ones, it alone was folded from the plain paper of a supper sweet.",
-          "The prisoners saw it then. Her pocket never gave anything but what was asked for, and the girl had asked for a lemon drop. That sweet had been in {WITCH_NAME}'s pocket all along, ready."
+          "Every evening in the reception room, {WITCH_NAME}'s roommate mended her own things. {WITCH_NAME} could reach into a pocket and pull out new ones, but her roommate always refused: \"Then it wouldn't be mine.\" She darned so finely that no one could find where the hole had been.",
+          "At supper in the dining hall, the roommate pulled {WITCH_NAME}'s sweater off her across the table. Both elbows were worn through from all that reaching into pockets. \"Both elbows. That's my evening. You'll be all set by lockup.\"",
+          "On their last night together, {WITCH_NAME}'s mother had sat up mending every hole in her daughter's clothes. \"Now you're all set.\" In the morning the clothes lay folded at the foot of her bed, and her mother was gone.",
+          "Straight after supper, in the reception room, the roommate threaded her needle for the first elbow. {WITCH_NAME} took the sweater out of her hands, wound the sleeves round her roommate's throat and twisted until she went still.",
+          "Minutes later, {WITCH_NAME} was sitting in the lounge without her sweater, reaching into her pocket and pulling out whatever anyone asked for. The others came and went until lockup; she never once left.",
+          "At lockup, the prisoners found the roommate dead in her chair in the reception room, the sweater folded on her knee, both elbows whole. In the trial court they concluded that she had darned both elbows and been killed late in the evening, while {WITCH_NAME} sat among them in the lounge.",
+          "Then one prisoner turned an elbow inside out to look at her last darn. The knit was unbroken. There was not one strand of darning wool.",
+          "Standing over the body, {WITCH_NAME} had reached elbow-deep into her pocket and drawn the sweater out whole. Her roommate had died before the first darn, with {WITCH_NAME} beside her."
         ],
-        "epitaph": "What the thousandth crane was meant to wish for, she never learned.",
-        "epithet": "Watcher of the Filling Tin",
+        "epitaph": "In the end, it was she who left the sweater folded and whole, and went away.",
+        "epithet": "Never Empty-Handed",
         "execution": [
-          "The execution stand raises a towering iron tin. She is chained upright at the bottom of it.",
-          "An iron hand drops in iron cranes one at a time, counting aloud. They heap up over her chest, then her shoulders, then her face, their folded iron edges pressing in.",
-          "\"One thousand,\" the hand counts. The tin is full to the rim.",
-          "The hand lifts the full tin away. Nothing inside it stirs."
+          "She is stretched face-up over a towering wooden darning mushroom, her wrists and ankles stitched to its rim with grey wool. Then a great darning needle threaded with grey wool comes down until the point hangs above her heart.",
+          "The needle darns back and forth through her chest, row after row, in at one side and out at the other, drawing the wool behind it. At last it pulls the final strand tight and lifts away. Over her heart lies a neat grey darn, and she does not move."
         ],
         "magic": {
-          "name": "The Answering Pocket",
-          "text": "She pulls whatever anyone asks her for out of her pocket, exactly as they asked."
+          "name": "Bottomless Pocket",
+          "text": "She can reach into any pocket, bag or box and pull out whatever she names, however big."
         }
       },
       "variant": 1

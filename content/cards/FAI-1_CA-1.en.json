@@ -1,0 +1,32 @@
+{
+  "cell": "FAI|Catastrophizer",
+  "copingSub": "CA-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Catastrophizer",
+  "tag": "FAI-1_CA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, a girl hosted a quiz from behind the library shelves, reading ten cards and turning each face down once read. Each afternoon, alone, she recorded herself reading them on her phone. {WITCH_NAME} heard every answer seconds before it was spoken and called it first. \"Another mark for our champion!\" the voice cried.",
+          "In the dining hall, the host announced that at tomorrow's final she would hold up written cards in silence, \"so no one can say it's only her Magic.\" She silently held up a practice card across the table. {WITCH_NAME} had nothing to say. The host laughed. \"Tomorrow they'll see.\"",
+          "At a school final, {WITCH_NAME} had called every answer a beat before it was read. Then the headmistress held up a written card in the silent hall, and {WITCH_NAME} stood with no answer. The trophy went to the runner-up. Every cheer since had sounded like the hall before it went quiet.",
+          "Just before nine, {WITCH_NAME} went behind the shelves to wish the host luck as always, and strangled her with both hands. As the girls came up the stairs, she left the phone there playing that afternoon's recording, and at nine stepped out to sit among them. \"She shooed me out. No peeking.\" Until twenty past, she beat the voice to every answer. Ten times it cried, \"Another mark for our champion!\" Then, \"Goodnight.\"",
+          "The host was found dead behind the shelves at ten to ten. In the trial court, the prisoners ruled she had been alive and reading until twenty past nine; {WITCH_NAME} had sat among them from nine, then gone with them to the shower room. But a prisoner remembered the ten cards by the body, still tied face up in their ribbon. Not one had been turned. The prisoners realized the voice had been the afternoon's recording, answered first by the girl who hears every sound before it is made."
+        ],
+        "epitaph": "Every answer reached her before it was spoken; none taught her how to stand in a quiet hall.",
+        "epithet": "Champion of Answers She Never Knew",
+        "execution": [
+          "A quiz-card box rises as tall as the trial court itself, its lid open above her. She kneels bound at its foot. While the box still stands motionless, she hears the cards roar down, and she shuts her eyes and bows her head before the first card moves. Then the lid tips. The cards pour roaring over it onto her, heaping past her shoulders, over her head. They settle, still and silent. On top lies one card, face up, its question unread."
+        ],
+        "magic": {
+          "name": "The Early Ear",
+          "text": "She hears every sound around her a few seconds before it is made."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

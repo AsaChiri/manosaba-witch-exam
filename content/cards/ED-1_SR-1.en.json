@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Self-Reliant",
+  "copingSub": "SR-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Self-Reliant",
+  "tag": "ED-1_SR-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, {WITCH_NAME}'s roommate climbed down to the basement incinerator room, fished whatever girls had thrown away out of the cold incinerator, and handed it back.",
+          "One night {WITCH_NAME} dropped a note down the garbage chute in the shower room, asking her roommate to sit up with her. It was the first thing she had asked of anyone in years. From the incinerator room doorway, she watched her roommate fish it out, see the name, and drop it back unopened. \"You never throw anything away by mistake,\" her roommate said.",
+          "As a girl she had slid notes under her mother's door asking her to come and see her, and found each one unopened in the kitchen bin next morning. After that she stopped asking anyone for anything.",
+          "The next evening she went into the shower room alone, climbed into the garbage chute, and walked down its wall. Prisoners waiting outside the door saw her roommate stop to ask if they'd thrown anything away, then head downstairs. Her roommate lifted the incinerator lid and leaned in with her phone light. From inside, {WITCH_NAME} pulled her head first into the ash and held her face down until she lay still.",
+          "A prisoner found the roommate dead, head down in the open incinerator. The others banged on the shower room door, and {WITCH_NAME} stepped out with wet hair. No one else had gone in or come out.",
+          "In the trial court, the prisoners ruled that she had been behind that watched door all along, so someone in the basement had held the roommate in the incinerator. Then one of them shone her phone light into the chute hatch, the only other way out. Grey ash shoeprints climbed the wall inside from the incinerator to the hatch. Now they saw: {WITCH_NAME} had walked down the chute, pulled her roommate in from inside the incinerator, and walked back up."
+        ],
+        "epitaph": "Every step she left in the ash was read. Her one note never was.",
+        "epithet": "The Unopened Note",
+        "execution": [
+          "A giant door rises in the trial court, shut in its frame and laid flat high above the floor. She stands upside down on its underside, her hair and skirt falling up toward it. She slides a folded note into the crack along its edge. The door swings open upward, out from under her feet. She drops head first onto the stone floor. She lies still beneath the open door, and the note settles beside her, still folded."
+        ],
+        "magic": {
+          "name": "Every Wall a Floor",
+          "text": "She can stand and walk on walls and ceilings as if they were the floor."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

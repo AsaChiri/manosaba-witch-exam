@@ -21,13 +21,13 @@
         "epitaph": "In the end, every voice still calling her gentle was one she had to play herself.",
         "epithet": "The Gentle Girl Who Laughed at the Grave",
         "execution": [
-          "The execution stand raises her grandmother's headstone inside a ring of closed black mourning umbrellas, all standing with their backs to her. She is bound upright against the stone with black mourning bands.",
+          "Her grandmother's headstone rises inside a ring of closed black mourning umbrellas, all standing with their backs to her. She is bound upright against the stone with black mourning bands.",
           "One by one the umbrellas turn, until every iron tip points at her.",
           "She plays her grandmother's voice into the ring: \"You're my...\"",
           "The iron tips drive into her chest together. The umbrellas spring open, a closed ring that hides her from every eye, and the voice breaks off mid-word: \"gen—\""
         ],
         "magic": {
-          "name": "Encore",
+          "name": "Echo",
           "text": "She can make any sound she has ever heard play again, exactly as it was, for everyone present."
         }
       },

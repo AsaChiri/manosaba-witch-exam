@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Detacher",
+  "copingSub": "DT-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Detacher",
+  "tag": "ED-1_DT-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night at 9:15, a girl hummed into the group chat from her bunk. It was the lullaby she had once hummed her little brothers to sleep with. {WITCH_NAME} always played it twice.",
+          "Her palm on a girl's shoulder quieted any panic, and she kept her own feelings turned down the same way. She always said her Magic could only turn feelings down.",
+          "In the lounge at 8:30, she asked the girl to hum it for her now, just once. The girl patted her hand—\"At quarter past, with everyone\"—and turned back to the girls by the fire.",
+          "When {WITCH_NAME} was seven, she knocked on her mother's door, burning with fever. Her mother called through it, \"When the twins are asleep,\" and sang them a lullaby. The door never opened. She lay on the hall floor outside it until morning.",
+          "At 9:00, the girl hummed by the fire. {WITCH_NAME} laid a palm on her back as if to quiet her and turned her faint sadness up to full. The girl broke into sobs. The others watched her sob harder under that palm until she was led out; not even that hand could quiet her.",
+          "At 9:10, out of sight, she lifted her palm, sent the girl down to the cells, and rejoined everyone by the fire. At 9:30, with the rest upstairs, she went down. At 9:40 she strangled the girl from behind with her bedsheet until she stopped moving, then tied it to the upper bunk.",
+          "Found hanging alone in her cell before lockup, the girl had hanged herself in despair, the prisoners ruled. One of them played her 9:15 voice note on a phone. No one had played it that night. The lullaby ran steady to the last note.",
+          "{WITCH_NAME}'s palm held a feeling only while it stayed; once it lifted, the feeling slid back. The prisoners saw it: left alone, the girl's sorrow would have stayed faint. The sobs were the palm's doing; a girl humming that steadily had not hanged herself."
+        ],
+        "epitaph": "At last, everyone turned to her at once, and not one of them came closer.",
+        "epithet": "The Child Asleep Outside the Door",
+        "execution": [
+          "A closed door as tall as the trial court rises from the execution stand. She lies curled on the floor at its foot. The door tips forward off its frame and falls flat onto her. It lies flat and still on the floor, one small hand showing from under its edge."
+        ],
+        "magic": {
+          "name": "Swell and Hush",
+          "text": "She can turn the feelings of anyone she touches up or down, even her own."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -22,14 +22,14 @@
         "epitaph": "All she wanted was for one girl to see her stars, and she could not bear it when one did.",
         "epithet": "The Stargazer Whose Nights Others Told",
         "execution": [
-          "The execution stand raises an iron rooftop beneath a vault hung with forty spiked iron stars. She lies chained to it on her back, face up.",
-          "An iron girl sits at the edge of the roof and tells the meteor night as her own. \"I lay on a roof and counted forty fall.\"",
+          "An iron rooftop rises beneath a vault hung with forty spiked iron stars. She lies chained to it on her back, face up.",
+          "An iron girl sits at the edge of the roof and tells the story of the meteor night as her own. \"I lay on a roof and counted forty fall.\"",
           "Then the iron girl counts. At each number, a star drops from the vault onto the girl chained below: the first onto her chest, the rest across her body, one by one.",
           "At forty, the iron girl bows to a clatter of iron applause. Beneath the fallen stars, the chained girl lies still."
         ],
         "magic": {
           "name": "Through My Eyes",
-          "text": "With a touch, she lets someone relive one of her memories as her: every sight, sound and feeling."
+          "text": "She can let anyone she touches relive one of her memories as if they were her."
         }
       },
       "variant": 1

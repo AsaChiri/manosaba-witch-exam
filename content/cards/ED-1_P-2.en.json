@@ -1,0 +1,32 @@
+{
+  "cell": "ED|Performer",
+  "copingSub": "P-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Performer",
+  "tag": "ED-1_P-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "As a child, {WITCH_NAME} danced in front of the television for her mother, until her mother said, \"Move, you're in front of it.\" These days she says, \"If they're laughing, they're looking at me.\"",
+          "In the prison, one girl spent every free hour lying in the flower field, watching the sky. {WITCH_NAME} brought her gags out there, but the girl's eyes stayed on the clouds, never once on the show. One morning as the clouds gathered, {WITCH_NAME} mimed opening a wide umbrella and planted it over the girl's spot, where it stayed standing, invisible and solid. \"Now you can stay out when it rains.\" \"Mm,\" said the girl, her eyes on the sky.",
+          "At noon the girl walked out to the field, and the prisoners gathered in the lounge for {WITCH_NAME}'s lunchtime show. Halfway through, the rain began. After the show, {WITCH_NAME} went out to the girl in the rain. She lay dry, watching the rain run over nothing a hand above her face. {WITCH_NAME} knelt over her, pulling her best face. Looking past her at the rain, the girl said, \"Move, you're in front of it.\"",
+          "{WITCH_NAME} pressed the open umbrella down over the girl's face and leaned on it until she was still. Then she closed the umbrella, carried it off, and left her to the rain.",
+          "When free time ended and the girl didn't come in, the prisoners found her dead in the field, soaked through, the flowers under her dry. In the trial court, they concluded she had died before the rain, while {WITCH_NAME} was performing for them. Then one prisoner enlarged the photo she had taken on her phone when they found her: eight patches of beaten-down flowers in an even ring around the body, under open sky. The prisoners understood. {WITCH_NAME}'s umbrella had stood over the girl into the rain, and the dry ground proved nothing."
+        ],
+        "epitaph": "At last she is inside the screen, where no one can tell her to move.",
+        "epithet": "The Clown Standing in Front of the Screen",
+        "execution": [
+          "An old television set as tall as the trial court rises. She stands sealed inside, behind its glass screen. Rain begins to fall inside it from the top of the set. With the water at her waist, she dances behind the glass for the spectators. The water rises over her head, up to the top of the screen, her palms flat against the glass. The spectators watch the full screen, where she hangs still in the water, every eye on her."
+        ],
+        "magic": {
+          "name": "Solid Mime",
+          "text": "Anything she mimes with empty hands becomes real: invisible, yet solid and working."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

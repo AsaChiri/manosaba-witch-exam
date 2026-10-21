@@ -10,27 +10,20 @@
     {
       "fields": {
         "crime": [
-          "{WITCH_NAME}'s first friend inside was a girl who had grown up in her father's pool hall. Every evening, the two of them played pool in the recreation room until lockup.",
-          "Every night, her Magic carried her into her friend's dream, where they met again at that pool hall. Each morning in the dining hall, they told the table the same night, down to every shot.",
-          "Then one evening, chalking her cue at the pool table, the girl asked her to come only on Sundays. \"I wake up tired. Let me just sleep.\"",
-          "Back home, {WITCH_NAME}'s best friend had called her every night, then only on Sundays. That spring, she kept the phone by her pillow every Sunday. The calls came on fewer Sundays, then on none.",
-          "One weeknight before lockup, she followed the girl down and found her asleep, alone in her single cell. {WITCH_NAME} did not step into her dream. She pressed the pillow over her face until her friend went still, drew the blanket up to her chin, turned her to face the wall, and was back in her own cell by lockup.",
-          "The next morning at breakfast, she told the table last night's dream, as she did every morning: the pool hall, until the bell woke them both.",
-          "At twenty past six, a prisoner went to fetch the girl for breakfast and found her under the blanket, dead, her face to the wall.",
-          "In the trial court, the prisoners took it that she had woken at the bell and been smothered afterward, while {WITCH_NAME} sat among them at breakfast.",
-          "But in that cell, a prisoner had tried to loosen the dead girl's fingers from the hem of the blanket. They were cold, and too stiff to open.",
-          "The prisoners realized the girl had been dead since before lockup. No sleeping girl had shared that dream; {WITCH_NAME} had made it up."
+          "A childhood friend came to {WITCH_NAME}'s window every evening, then on Sundays, then on her birthday, then never. She kept it open anyway.",
+          "Every afternoon her roommate read frightened girls to sleep under the library's unwilting cherry tree. {WITCH_NAME} had spent every night in the roommate's dreams, but for weeks the roommate had been giving those nights, one by one, to one frightened girl, until only one was left. At lunch in the dining hall the roommate asked her to give the girl that last night too: \"I sleep fine without you now.\"",
+          "At five past one, on her upper bunk, {WITCH_NAME} stepped into the napping girl's dream and led her by the hand out of a dark wood, promising to stay till she woke. She left her asleep on a sunlit shore, woke, and lay still. The girl stopped trembling and murmured \"{WITCH_NAME}\"; the roommate and the others heard. At quarter past, the roommate fell asleep at once on the lower bunk, below the still figure she thought was dreaming. At twenty-five past, {WITCH_NAME} climbed down, pulled the scarf she was knitting for the girl tight round the roommate's throat till she went still, and climbed back up.",
+          "At twenty to two the girl woke and told the others her dream: a dark wood, a sunlit shore, then snow, and {WITCH_NAME} wrapping her coat round her. She ran in to thank her; {WITCH_NAME} sat up as if just woken: \"We sat on that sunlit shore until you woke.\" Below, the girl found the roommate strangled with the scarf.",
+          "In the trial court the prisoners decided someone had slipped into the open cell while {WITCH_NAME} lay in the girl's dream. But a prisoner had laid her blanket on the shivering girl at half past one. They saw it: in one shared dream, {WITCH_NAME} would have seen that snow. She had left it and lain awake above her sleeping roommate."
         ],
-        "epitaph": "The last dream she told of the two of them was the only one she dreamed alone.",
-        "epithet": "The Girl Who Waits for Sunday's Call",
+        "epitaph": "What she heard as goodbye was only a girl telling her she was fine.",
+        "epithet": "The Window She Kept Open",
         "execution": [
-          "The execution stand raises an iron wall telephone, taller than a girl. Its iron cord is looped around her throat, and its receiver hangs high on the hook.",
-          "While the receiver hangs on the hook, the cord draws taut and hauls her off her feet by the throat. When the phone rings, the receiver drops to her ear and the cord slackens. Each ring comes farther apart than the last.",
-          "Then it stops ringing for good. She hangs from the cord beneath the silent receiver until she no longer stirs."
+          "A tall window stands open, with a snowstorm blowing beyond it. She kneels chained on its deep sill, facing out. Snow blows in through the window and drifts against her, past her knees, her waist, her shoulders. It closes over her head, leaving a small hole that steams where she breathes. Above the drift the window stands open, and the snow keeps blowing in. The hole stops steaming and fills in. The drift lies smooth and still on the sill."
         ],
         "magic": {
-          "name": "Guest in Your Dreams",
-          "text": "She steps into the dream of any sleeper she thinks of, and both wake remembering it."
+          "name": "One Dream for Two",
+          "text": "She can step into anyone's dream as herself, and both remember it on waking."
         }
       },
       "variant": 1

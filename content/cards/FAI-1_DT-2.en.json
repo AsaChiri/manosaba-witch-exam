@@ -1,0 +1,34 @@
+{
+  "cell": "FAI|Detacher",
+  "copingSub": "DT-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Detacher",
+  "tag": "FAI-1_DT-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, {WITCH_NAME}'s roommate stood at the upper railing in her yellow scarf, called the girls up from the courtyard, and read them a picture book in the library. {WITCH_NAME} always listened from the back.",
+          "The night before, her roommate lost her voice, and {WITCH_NAME} read instead, flat and halting. The girls cried at the ending; she knew it was the book.",
+          "That evening, her roommate pressed the book into {WITCH_NAME}'s hands and told the courtyard, \"She made you all cry. Now she reads every night.\"",
+          "At ten, {WITCH_NAME} was a cardboard tree at the back of a school play. She read a sick girl's lines off a card, everyone clapped, and she was pulled from the tree to play the lead. At the town festival she froze in the spotlight until the curtain closed on her. People who applaud your luck, she learned, have bought seats to watch it run out.",
+          "At half past eight, her roommate leaned over the railing and called, \"Story at nine!\" From behind the girls, {WITCH_NAME} raised finger and thumb around the scarf and pinched. It shrank to the thread it looked like from below, tight round her roommate's throat. The girls looked up, saw her drop behind the railing as if going inside, and went on talking. Ten minutes later, still among them, {WITCH_NAME} let the scarf grow back.",
+          "At nine they went up for the story and found her roommate dead in the second-floor hall behind the railing, scarf loose at her neck.",
+          "In the trial court, the prisoners ruled she was strangled indoors with her own scarf, out of sight of the courtyard where {WITCH_NAME} stood. Then one lifted the loose scarf: a thread-thin groove ringed her throat, yellow wool pressed deep inside. So the scarf had shrunk at the railing: she died as she called, while {WITCH_NAME} looked up from the back."
+        ],
+        "epitaph": "She never knew that the one who called her forward was never waiting to watch her fail.",
+        "epithet": "The girl at the back of the applause",
+        "execution": [
+          "A cardboard tree rose the full height of the trial court, with her bound inside its trunk and her face showing through a hole in its painted bark. A stage lamp swung round from the front of the court and held its beam on her face. The painted cardboard around her face browned, smoked and caught, and the flames climbed the trunk she was bound in. The tree burned down to its black frame, and she hung still inside it, in the beam. At the foot of the frame, the picture book lay open, its last page lit by the lamp."
+        ],
+        "magic": {
+          "name": "As Small as It Looks",
+          "text": "She pinches faraway people, animals and things between finger and thumb, and they truly become that small."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

@@ -10,19 +10,16 @@
     {
       "fields": {
         "crime": [
-          "In the lounge, {WITCH_NAME} started letter after letter to her father, and with her Magic unwrote every one back to blank paper.",
-          "Every morning it snowed, one of the prisoners stood at the courtyard fountain with a handful of crusts for the birds and called for her to come out. She never did. Then, at dawn after one snowfall, {WITCH_NAME} swept a path out to the girl for the first time. Her father used to sweep a path to her door, but only on the mornings he came home.",
-          "At the fountain, the girl tipped the crusts into her hands. \"You feed them from tomorrow.\" Then she turned to go. {WITCH_NAME} slammed the girl's head against the fountain and held her face in the snow until she was still. Back in the doorway, {WITCH_NAME} undid her sweeping, and the snow lay over the path again, untouched, as it had been before she began.",
-          "Later that morning, the prisoners found the girl by the fountain with only her own footprints in the snow, and ruled that she had slipped and struck her head on it by herself. Then one prisoner found half a footprint near the body: a heel pressed clearly into the snow, its toes lost under a smooth surface. In the trial court, the prisoners realized that someone had swept a path out to the fountain and then put the snow back, and that only one of them undid her own work like that: the girl who unwrote her letters."
+          "In the lounge, {WITCH_NAME} starts letter after letter to her father, and every one she unwrites back to blank paper, as if she had never begun. Every morning it snows, the same prisoner stands at the courtyard fountain with crusts for the birds and calls her out to join her. She never comes out. Then, one dawn after a snowfall, she sweeps a path through the courtyard out to the girl for the first time. Her father used to sweep a path to her door like that, but only on the mornings he came home. At the fountain, the girl tips the crusts into her hands. \"You feed them from tomorrow.\" As the girl turns to go, {WITCH_NAME} slams the girl's head against the fountain and holds her face in the snow until she is still. Back in the doorway, she puts the swept snow back, and it lies untouched, just as it was before she began. Later that morning, the prisoners find only the girl's own footprints in the snow and rule that she slipped by the fountain alone. Then a prisoner finds half of one of the girl's footprints: the heel is pressed clear, but the toe disappears under smooth snow. In the trial court, the prisoners see what it means: someone swept a path out to the girl, then put the swept snow back. And they know who undoes her own work that way: the one who unwrites her letters to her father."
         ],
-        "epitaph": "She left the snow unbroken behind her, and became the one who never came.",
-        "epithet": "The Girl in the Doorway, Facing Unbroken Snow",
+        "epitaph": "She left the snow unbroken; this time, she was the one who never came.",
+        "epithet": "Waiting in the Doorway Before Unbroken Snow",
         "execution": [
-          "The execution stand straps her on her back at the far end of a long iron trough heaped with snow. An iron broom starts at the other end and sweeps a path toward her, stroke by stroke, and stops one step short. Then the swept snow slides back. It fills the path, runs over her face and packs itself smooth. The surface stirs, then stops, as smooth as if no one had ever swept it."
+          "She is strapped on her back at the end of an iron trough heaped with snow. An iron broom sweeps a path down the trough toward her and stops a step short. The swept snow slides back over her face and packs smooth. The snow over her stirs, then goes still, smooth as if it had never been swept."
         ],
         "magic": {
           "name": "As If Never Begun",
-          "text": "She can undo anything she has made with her own hands, back to before she began."
+          "text": "She can undo anything she has worked on with her own hands, back to before she began."
         }
       },
       "variant": 1

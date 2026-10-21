@@ -1,0 +1,32 @@
+{
+  "cell": "ED|Sovereign",
+  "copingSub": "SV-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Sovereign",
+  "tag": "ED-4_SV-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When {WITCH_NAME} told her mother she had cried at school every day that week, her mother held a half-knitted sleeve against her arm without looking up. \"Hold still. Nearly done.\" At home, you got something made for you instead of being heard.",
+          "By the lounge fireplace, one girl knitted each prisoner a grey scarf, with one wrong stitch she showed only to its owner as she handed it over. {WITCH_NAME} sat beside her every evening, last on her list. Unasked, she took a ball from the knitter's basket, and as she watched the needles it knitted itself into the same scarf. Copies of every scarf piled up in her cell.",
+          "At twenty past seven, with her own scarf on the needles at last, she said she had cried every night since she came. The knitter held it to her throat without looking up. \"Hold still. Nearly done.\"",
+          "At half past seven, the girls by the fire saw the knitter carry it up to the library. \"Twenty rows left. I'll bring it down finished by lockup.\" {WITCH_NAME} went down to her cell for a finished copy, then up to the library, pulled it tight round the knitter's throat until she was still, left it knotted, and took the half-knitted one. Before eight she was back among the girls by the fire until lockup.",
+          "At a quarter to ten a prisoner found the knitter dead in her library chair, a finished grey scarf knotted round her throat, needles on the floor. At trial, the prisoners ruled that she had knitted the last twenty rows after eight and been strangled with that scarf while {WITCH_NAME} sat with them by the fire. One prisoner laid her own scarf beside it. Her secret wrong stitch sat in the same row and place. It was {WITCH_NAME}'s copy. The twenty rows had never been knitted. The knitter had died before eight, while {WITCH_NAME}'s place by the fire stood empty."
+        ],
+        "epitaph": "She never learned where her own wrong stitch would have gone. It was waiting in the twenty rows she wouldn't let her finish.",
+        "epithet": "Warmly Dressed, Never Heard",
+        "execution": [
+          "A giant wool basket rises in the trial court. She is inside it, wound to the shoulders in a ball of grey wool. Two giant knitting needles, one from each side, slide down point first through the ball and into her. The ball stands still in the basket, the needles crossed in it, red spreading through the grey."
+        ],
+        "magic": {
+          "name": "Borrowed Hands",
+          "text": "She can copy any handiwork she watches onto a matching thing without lifting a finger."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

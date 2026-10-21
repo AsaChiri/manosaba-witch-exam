@@ -24,7 +24,7 @@
         "epitaph": "She was only holding her breath; she was never shutting you out.",
         "epithet": "The Girl Who Floats Outside Every Ring",
         "execution": [
-          "The execution stand raises a ring of iron girls with a single gap, and she stands chained in it.",
+          "A ring of iron girls rises with a single gap, and she stands chained in it.",
           "No one gives a signal. The iron girls begin to shuffle sideways toward the gap.",
           "Iron shoulders press into her chest from both sides.",
           "Iron hands reach for each other across her, and the ring closes over her place.",
@@ -32,7 +32,7 @@
         ],
         "magic": {
           "name": "Nothing But the Truth",
-          "text": "Anyone she asks a question must answer truthfully: no lies, no dodging, no silence."
+          "text": "Anyone she questions must give her a straight, honest answer."
         }
       },
       "variant": 1

@@ -1,0 +1,34 @@
+{
+  "cell": "FAI|Avoider",
+  "copingSub": "AV-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Avoider",
+  "tag": "FAI-3_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At twelve, at the town school exam, {WITCH_NAME}'s pen blotted on her first stroke. The examiner slid the sheet from under her hand: \"That will do.\" Sent to the laundry, she has not written a word since.",
+          "Every evening in the dining hall, one prisoner writes letters for any girl who asks, as her mother did at a market stall. Each girl keeps hers for the day she goes home; {WITCH_NAME}'s, dictated at her side, always comes last. The writer heads every page with the hour, but only what she writes for others ends in a hook: her mother's sign of a borrowed hand. Then she writes in her diary alone until her roommate fetches her for lockup at ten to ten.",
+          "Every night in her cell, {WITCH_NAME} dreams of writing her own letter home in the only hand she has ever watched. Awake, she never writes.",
+          "At ten to nine, for the first time, she takes the pencil to write it herself. The writer slides the sheet from under her hand and smiles. \"Let me. You never have to.\" As the writer bends over it, {WITCH_NAME} brings her lake-stone paperweight down on her head.",
+          "In the writer's hand, practiced only in dreams, she writes her first waking words in the diary: \"Half past nine. Letters done. Going down soon.\"",
+          "At nine, the prisoners see her come up and sit among them at the recreation room projector until the alarm. At ten to ten, the roommate finds the writer dead over her open diary, its last page headed half past nine.",
+          "In the trial court, the prisoners decide the writer was struck after half past nine, while {WITCH_NAME} sat with them. A prisoner lays her own letter beside the diary page: both end in the hook no other diary page has. The page was written in a hand learned only from those letters, by the girl who learns in her dreams. The writer died over {WITCH_NAME}'s letter, before nine."
+        ],
+        "epitaph": "The only line she ever wrote herself carried the mark of a borrowed hand.",
+        "epithet": "Words Always in Another's Hand",
+        "execution": [
+          "A giant dip pen rises in the trial court with her bound along its shaft, head down at the nib, over a giant inkwell set beside a white sheet. The pen dips her head first into the inkwell, lifts her to hover over the sheet, and draws back without touching it. The ink closes over her head and shoulders. The pen dips her again and again, holding each dip longer. At last it lowers her still-dripping head onto the sheet, and a black blot spreads from under her hair."
+        ],
+        "magic": {
+          "name": "Night School",
+          "text": "Whatever she practices in her dreams, her body can really do when she wakes."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

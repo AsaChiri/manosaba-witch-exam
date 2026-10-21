@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Fantasist",
+  "copingSub": "FA-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Fantasist",
+  "tag": "ED-4_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening at seven, {WITCH_NAME} held a dream for the courtyard below, and a girl at the upper railing drew whatever was in front of her on her drawing board. She gave {WITCH_NAME} every page. She never came down into it.",
+          "At half past six one evening, {WITCH_NAME} found her drawing alone in the library and remade the room into her lighthouse country. \"Come up the lighthouse with me.\"",
+          "The girl sat at the lighthouse's foot and bent over her board. \"Hold still, I want to get it.\" Then she held the page up. \"There. For your wall.\"",
+          "Years ago, {WITCH_NAME} had told her mother all about her lighthouse country. Her mother said, \"Draw it for me,\" pinned the drawing to the kitchen corkboard with a red pin, and turned back to the stove without asking what it was. A picture was as far as anyone came.",
+          "{WITCH_NAME} stepped behind the girl, pulled the board's cord tight around her neck, and held it until she stopped moving. Then she let the library come back and laid the finished drawing on the board in the girl's lap.",
+          "From seven to eight, {WITCH_NAME} held the lighthouse country for everyone in the courtyard: sea and sky around them, a country none of them had seen before, and she stood among them the whole hour.",
+          "At eight, a prisoner ran up to the library for tonight's drawing and found the girl dead, the lighthouse on the board in her lap.",
+          "In the trial court, the prisoners decided she had drawn the show from the railing and been killed after it, while {WITCH_NAME} stood among them the whole time. Then one prisoner noticed the angle. Every page from the railing looked down on girls inside the dream. This one looked up at the lighthouse from its foot, and the meadow around it was empty. She had drawn it inside the country, alone with {WITCH_NAME}, before seven."
+        ],
+        "epitaph": "The only true picture of her country had no one in it.",
+        "epithet": "The Country Everyone Loved from Outside",
+        "execution": [
+          "A corkboard as tall as the court rises, papered edge to edge with drawings of the lighthouse. She is strapped upright in the one bare space at its center.",
+          "Red pins, each as long as a spear, drive in one at a time: through her hands, through her shoulders, and last through her chest.",
+          "She hangs still on the board among the lighthouse drawings."
+        ],
+        "magic": {
+          "name": "Walk-In Daydream",
+          "text": "She turns the place she's in into her daydream, solid and real to everyone there."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

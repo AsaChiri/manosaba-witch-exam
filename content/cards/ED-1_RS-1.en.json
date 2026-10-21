@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Resigned",
+  "copingSub": "RS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Resigned",
+  "tag": "ED-1_RS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At seven, {WITCH_NAME} stood in the shallow end of a pool with her arms up, waiting to be held. Her mother, under the pool parasol, said, \"Lie back, the water will hold you,\" without looking up from her phone. She waited there until closing and never asked again.",
+          "In the prison, a girl who had swum for her school back home found her at the lake during morning free time. First she held her up by both hands in the shallows and taught her to swim; then, every morning, she swam out to the lilies that grew only in the deep middle, and back. Everyone believed only walls and the ground held {WITCH_NAME}. She had never told anyone that the water caught her too, so the swimmer kept holding her up.",
+          "One morning the swimmer said, \"Lie back. I've got you,\" and slid her hands out from under her back. The water held her up. The swimmer laughed. \"The lake's got you too. You don't need me.\" Then she swam off to the lilies.",
+          "{WITCH_NAME} lay back on the water and paddled out after her. Among the lilies she took the swimmer's head in both hands and held it under. The water held her steady while the girl thrashed, until the swimmer hung still in the lily stems.",
+          "When the others came looking after breakfast, {WITCH_NAME} was still standing in the shallows, waiting. She told them the swimmer had swum out to the lilies and never came back. They found the body caught in the lily stems, far past where {WITCH_NAME}, who couldn't swim, could stand. In the trial court the prisoners agreed the swimmer had drowned alone among the lilies.",
+          "Then one prisoner noticed something tangled in the back of {WITCH_NAME}'s hair: a white lily bud, its stem snapped. The lake held her too, the prisoner realized. She had floated out among the lilies herself."
+        ],
+        "epitaph": "Everything held her, except the hands she raised her arms for.",
+        "epithet": "The Girl with Her Arms Up in the Shallow End",
+        "execution": [
+          "A great pool parasol rose, and she stood bound to its pole with her arms raised. The parasol snapped shut. Its ribs folded down around her like arms and drove their tips in. She hung still inside the furled parasol, her raised hands above the folded stripes, red soaking through them."
+        ],
+        "magic": {
+          "name": "Open Arms",
+          "text": "Anything she leans, lies or falls against curves around her and holds her like gentle arms."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

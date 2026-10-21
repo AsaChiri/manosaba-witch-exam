@@ -1,0 +1,34 @@
+{
+  "cell": "ED|Ruminator",
+  "copingSub": "RU-2",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Ruminator",
+  "tag": "ED-1_RU-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Each evening a prisoner rang her bell in the hall and read picture books in the library to whoever came, as she'd read her little brothers to sleep. \"Leave your books where you sit,\" she said, and shelved them the moment the last girl left. {WITCH_NAME} always sat closest.",
+          "On the forty-first night the reader closed the book; the girls dropped theirs where they sat and went down to the lounge. {WITCH_NAME} sat with them, then slipped back up and found her reading alone, every book shelved. She held up her own book. \"Read it to me. Just me.\"",
+          "Once she had stood by the bed holding up her picture book as her mother read the baby to sleep by candlelight. \"Later, when he's asleep,\" her mother said. She held it up until the candle burned out and her mother slept too.",
+          "The reader kept her eyes on her page. \"Step back into tonight. I'll read to you there whenever you like.\"",
+          "{WITCH_NAME} got behind her and pulled her bell's cord tight around her neck until she stopped. With her Magic, she stepped back into the moment the girls left and walked the floor, seeing each book where it lay, open to its page. Back again, she took every book down and set each out exactly as she'd seen it.",
+          "Before lockup, a prisoner went up for the reader and found her dead among the books. Each girl found her book where she'd dropped it, open to her page. In the trial court, they decided the reader had died before shelving a single book, while {WITCH_NAME} was still on her way down with them.",
+          "One girl closed her book and found 41 and her name penciled inside the back cover by the dead girl. Every book from the floor held the same, {WITCH_NAME}'s too. So the reader had held every book after they left, and someone had laid each back exactly where it fell. Only {WITCH_NAME} could step back into that moment."
+        ],
+        "epitaph": "She can walk back into all forty-one nights, but she left each one before her name was written, and no step back will ever show it.",
+        "epithet": "The girl still holding up her book",
+        "execution": [
+          "A giant candle rose, already burning, until it towered over the whole court. She stood on its wide top beside the flame, her ankles set in its wax, holding up her picture book. The flame took the raised book, then her sleeves, then her hair. She burned standing until she no longer moved. Then the candle burned down to a stub and went out, and the court went dark."
+        ],
+        "magic": {
+          "name": "Living Memory",
+          "text": "She can step back into any moment she has lived, exactly as it was, and see everything she missed."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

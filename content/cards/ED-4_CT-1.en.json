@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Caretaker",
+  "copingSub": "CT-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Caretaker",
+  "tag": "ED-4_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening until lockup a girl played pool alone in the recreation room, never looking up from a shot for anyone.",
+          "At the upper railing {WITCH_NAME} smelled what each girl craved and handed it over unasked; each laughed that it was just right. Nightly at half past nine she left the pool player a treat inside the door, unthanked.",
+          "At half past seven {WITCH_NAME} told the pool player it was her birthday and cried. Without looking up from her shot, the girl pressed a lemon drop into her hand: \"There. All better.\" She smelled only of cue chalk.",
+          "{WITCH_NAME} had cried at her eighth birthday party because nobody asked what she wished for. Her mother pressed a lemon drop into her hand, \"There. All better,\" and turned back to the guests. A sweet is what you give so you don't have to look.",
+          "At nine she returned to the recreation room and took a cue from the rack. The player was reaching into a pocket for the white ball. From behind, {WITCH_NAME} pulled the cue back across her throat until the girl went still, then laid her over the far rail as if lining up a shot, back to the door, cue by her bridge hand.",
+          "From quarter past nine she stood with the others at the railing in the second-floor hall. At half past nine she said the pool player craved a lemon drop and set one inside the door; the girls beside her saw the player bent over the pool table. She stayed until lockup.",
+          "At five to ten the prisoners found the player strangled over the far rail. At trial they ruled someone killed her after half past nine, when {WITCH_NAME} was at the railing with them.",
+          "A prisoner opened the right hand pinned under the girl's chest. It still gripped the white ball; she had never picked her cue back up. She had died fetching the white ball before half past nine; {WITCH_NAME} had invented the craving."
+        ],
+        "epitaph": "She never wanted the sweet, only for someone to look up.",
+        "epithet": "A Sweet Instead of a Look",
+        "execution": [
+          "A birthday cake as tall as the trial court rises. Lit candles, each taller than she is, ring its top tier, and she stands alone at its center.",
+          "She crouches with her arms over her head as the candles soften and bow inward until their flames meet on her.",
+          "They burn down into the icing. Smoke rises from the still figure crouched at their center."
+        ],
+        "magic": {
+          "name": "Scent of Longing",
+          "text": "She can smell what anyone near her secretly longs for, as the scent of that very thing."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

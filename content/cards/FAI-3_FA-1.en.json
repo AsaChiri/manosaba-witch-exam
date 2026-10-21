@@ -1,0 +1,37 @@
+{
+  "cell": "FAI|Fantasist",
+  "copingSub": "FA-1",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-3",
+  "style": "Fantasist",
+  "tag": "FAI-3_FA-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "At twelve, {WITCH_NAME} auditioned for stage school with a grown woman's monologue. The panel laughed: a little girl in her mother's shoes; come back when you're grown. Her life would start then.",
+          "Every evening in the lounge she used Magic to turn twenty-five and rehearsed that monologue for the stage her real life would open on. The smallest prisoner sat in front, clapping loudest. Each night at nine, that girl danced in the courtyard as a silent bedsheet ghost, miming the girls she loved, while girls at the upper railing filmed it for her to watch in bed.",
+          "One night the ghost mimed {WITCH_NAME}: tottering on grown-up heels, declaiming, then tripping and crouching, a little girl again. The railing roared; the ghost bowed to her.",
+          "Next night at a quarter to nine, as the girl waited in her sheet, {WITCH_NAME} pulled its knotted corners tight at her throat with grown hands until she was still. For the first time since the audition, she made herself ten, as tall as the girl, and knotted a sheet at her own throat.",
+          "At nine the ghost danced, its hem trailing on the grass, then lay down under the tree. Just after nine, {WITCH_NAME} came to the railing as the girls watched the white shape rest, and stayed until lockup.",
+          "At a quarter to ten, the girl's roommate went down alone, lifted her sheet and found her strangled by its knot.",
+          "In the trial court, the prisoners ruled the girl was strangled as she rested, after the railing emptied at ten past nine. {WITCH_NAME} had never left them, so they suspected the roommate.",
+          "A prisoner replayed the last show on her phone, pointing to a pale hand in the tree's shadow while the ghost still danced. The girl was dead before nine; the ghost was someone her size who lay beside her and slipped away. Only {WITCH_NAME} could make herself that small."
+        ],
+        "epitaph": "The one role she ever made a whole house believe, she played as a little girl.",
+        "epithet": "A Child Waiting in the Wings of Her Own Life",
+        "execution": [
+          "A giant high-heeled shoe rises in the trial court, hanging level by its straps from the top of a stage arch. It is a grown woman's shoe, as long as a bed. She lies bound on the boards beneath its toe.",
+          "The shoe drops, sole first, onto her. Its heel strikes the boards like one hard step.",
+          "Then the shoe stands still on the boards. Nothing beneath its toe moves."
+        ],
+        "magic": {
+          "name": "Act Your Age",
+          "text": "She can grow older or younger to any age at will, in her own real body."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

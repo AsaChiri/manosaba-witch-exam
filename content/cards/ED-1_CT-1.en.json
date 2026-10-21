@@ -1,0 +1,35 @@
+{
+  "cell": "ED|Caretaker",
+  "copingSub": "CT-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Caretaker",
+  "tag": "ED-1_CT-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening until lockup, {WITCH_NAME}'s roommate lay face down on the lounge rug doing a jigsaw puzzle alone, never looking up from the pieces. At nine each night, {WITCH_NAME} sent a note by Magic into her roommate's hand: \"Come down and keep me company.\" Her roommate scrawled \"Five more minutes\" on the back and handed it back at lockup. {WITCH_NAME} pinned every reply to the underside of the upper bunk, above her pillow.",
+          "At a quarter past eight one night, aching with fever, she asked, \"Come down with me now. Just tonight.\" Without looking up, her roommate pulled off her own blanket and tossed it over her: \"Take this. I'll be down at ten.\"",
+          "When {WITCH_NAME} was eight, alone in bed with a fever, she had phoned her mother at work and begged her to come home. A box of sweets came instead.",
+          "At twenty past eight, in their cell, she unpinned one old reply from the upper bunk. At half past eight, in the lounge, she knelt on her roommate's back and twisted the blanket round her neck until she was still, then laid the old reply by her hand.",
+          "From twenty to nine she sat with the girls in the dining hall. At nine she wrote the night's note in front of them, and it vanished from her open palm. She stayed in their sight until lockup.",
+          "At ten to ten, on their way to lockup, the prisoners found her roommate dead, face down on her puzzle, a red welt round her neck. Beside her hand lay the note, \"Five more minutes\" on its back.",
+          "In the trial court they agreed the roommate had answered the nine o'clock note and been strangled while {WITCH_NAME} sat with them.",
+          "Then one prisoner held the note to the light: a pinhole in its top corner. So it was an old reply off their bunk, and the nine o'clock note had gone into the hand {WITCH_NAME} pictured—her own."
+        ],
+        "epitaph": "The only hand her \"Come down and keep me company\" ever really reached was her own.",
+        "epithet": "The Girl Who Asked for Company and Was Sent a Parcel",
+        "execution": [
+          "A bunk bed as tall as the trial court rises from the execution stand. She lies on the lower bunk, beneath an upper mattress studded with pinned notes. A pin as long as a spear pushes down through the mattress, through her chest, and into the lower bunk. She lies still, pinned to the lower bunk beneath the notes."
+        ],
+        "magic": {
+          "name": "Hand Delivery",
+          "text": "She sends whatever she's holding into the hand of anyone she pictures, wherever they are."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

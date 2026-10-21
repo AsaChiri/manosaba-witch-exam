@@ -21,13 +21,13 @@
         "epitaph": "At last she has the warm room to herself, and no one left inside it to live.",
         "epithet": "The Girl on the Cold Step",
         "execution": [
-          "The execution stand raises an iron house front with a lit window and a shut door. Her back is chained flat to its outer wall.",
+          "An iron house front rises with a lit window and a shut door. Her back is chained flat to its outer wall.",
           "As firelight fills the window, the wall heats against her back until it glows red. The iron door stays shut beside her; the warmth reaches her only through the wall.",
           "She hangs still in her chains against the red iron."
         ],
         "magic": {
           "name": "Borrowed Senses",
-          "text": "She can slip into the senses of any person or animal she thinks of and live their moment from inside."
+          "text": "She can slip into the senses of any person or animal she thinks of."
         }
       },
       "variant": 1

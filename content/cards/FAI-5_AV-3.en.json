@@ -1,0 +1,34 @@
+{
+  "cell": "FAI|Avoider",
+  "copingSub": "AV-3",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-5",
+  "style": "Avoider",
+  "tag": "FAI-5_AV-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, {WITCH_NAME}'s roommate picked one fresh poppy and ran it inside before it could droop, as poppies do within the hour, then pressed it into her picture book, a page for each day.",
+          "In their cell, {WITCH_NAME} kept the poppy she had picked on her first day fresh with her touch and never pressed it. Page one of the picture book her roommate had given her stayed empty. Each time her roommate asked, she answered, \"Tomorrow.\"",
+          "Then her roommate pressed that poppy onto page one herself and wrote \"Day one\" beneath it. \"I'll press day two for you tomorrow,\" she promised.",
+          "When {WITCH_NAME} was nine, she won the national children's piano prize. Her mother pressed a rose from the winner's bouquet into the family album and labelled it \"Her best day.\" Every recital after that was only \"good.\"",
+          "That evening, {WITCH_NAME} waited in the lounge with a sword in her hands. When her roommate knelt to lay the evening's poppy on a fresh page, {WITCH_NAME} ran her through. She picked up the poppy and laid it back on the open page, as fresh as when it was cut. Straight after, she went to the recreation room and played pool with the others for two hours.",
+          "A prisoner found the roommate dead over the open book, her poppy still fresh on the page. {WITCH_NAME} stopped in the doorway and came no nearer. Because the poppy had not yet drooped, the prisoners concluded that the roommate had been killed within an hour of picking it, while {WITCH_NAME} was at the pool table.",
+          "In the trial court, a prisoner noticed that the poppy had not drooped at all after hours on the court table. Then the prisoners realized that {WITCH_NAME}'s touch had stopped it wilting, and that the roommate had died before {WITCH_NAME} ever came up to the pool table."
+        ],
+        "epitaph": "Her book holds Day One, and it will never hold a Day Two.",
+        "epithet": "The Early Bloom",
+        "execution": [
+          "A giant picture book rises in the trial court, already open, with her lying across its empty first page. Its heavy board cover stands upright above her. The cover falls shut on her and presses her into the page. The book lies shut and flat. Nothing moves between its pages."
+        ],
+        "magic": {
+          "name": "Unfading Touch",
+          "text": "Whatever she touches stops wilting, spoiling, wearing out or ageing from that moment on."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

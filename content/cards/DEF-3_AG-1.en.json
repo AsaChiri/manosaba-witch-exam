@@ -10,19 +10,20 @@
     {
       "fields": {
         "crime": [
-          "Days earlier, a girl had seen a bubble holding one of {WITCH_NAME}'s violent thoughts and embraced her. \"You didn't want that thought.\"",
-          "Today, the girl circulated a photograph of the bubble on her phone among the prisoners, labeling it a confession. During afternoon free time in the courtyard, {WITCH_NAME} asked her to retract it. The girl refused. {WITCH_NAME} killed the girl by battering her head against the fountain.",
-          "There in the courtyard, she extracted the memory of the killing into a new bubble. Before the body was found, she showed it to the prisoners and claimed it was the same intrusive image from the photograph, unchanged.",
-          "The prisoners found the body in the courtyard with a broken front tooth. One prisoner compared the bubble with the photograph: the tooth was intact in the photo, but broken in the bubble. Her supposedly unchanged thought was a replacement, already showing an injury that had yet to be discovered."
+          "At eleven, walking home arm in arm with her best friend along the canal, {WITCH_NAME} told her she had pictured pushing her in. The friend let go, crossed the street, and never walked with her again. Once people knew what she thought, they let go of her arm.",
+          "A girl who could never sit through an evening took her arm and walked the upper railing with her every night, the first arm in hers since the canal. One evening she confided she sometimes pictured tipping the girl over the railing. The girl laughed, slipped her arm free and crossed to the wall side. \"Then you take the railing side.\" After that she walked beside her every evening, never arm in arm.",
+          "With her Magic, {WITCH_NAME} kept the feel of that arm slipping from hers on her elbow. She walked on, elbow crooked round nothing.",
+          "On film night, as the lights in the recreation room went down for the projector, she put her arm round a prisoner who always asked for one at films. Meanwhile the girl from the railing walked it alone while everyone else watched the screen. {WITCH_NAME} answered the arm that had slipped from hers: from behind, she hooked her crooked arm round the girl's neck and held on until she was still. Leaving the film, the prisoners found her dead against the railing; they had passed her walking there on their way in.",
+          "In the trial court, the girl from film night swore the arm had lain round her from lights down to lights up, with {WITCH_NAME} beside her when it lifted. The others pointed to her cardigan: worn at lights down, shrugged off as the room grew warm, in her lap at lights up. It had come off her shoulders from under an arm that never lifted. They saw it then: {WITCH_NAME} had slipped her real arm out, leaving the girl only its kept touch, then slipped it back."
         ],
-        "epitaph": "The thought could leave her; the condemnation never would.",
-        "epithet": "Her own face in the stained mirror of an unwanted thought",
+        "epitaph": "She never left my side. All I kept was the arm she took back.",
+        "epithet": "Keeper of the Arm That Let Go",
         "execution": [
-          "A transparent globe on the execution stand closes around her head. Water fills it and covers her face. Bubbles of breath rise through the water until the last one touches the glass, and she goes still."
+          "The execution stand rises as a canal lock, and she is chained upright where its two timber gates meet. The long balance beams swing out, and the gates open away from her. Then the beams swing back. The gates swing shut and close on her from either side. They stand shut and still, her crooked elbow caught in the seam."
         ],
         "magic": {
-          "name": "Thought Bubbles",
-          "text": "She can take thoughts out of her mind and turn them into transparent bubbles with miniature scenes floating inside."
+          "name": "Lingering Touch",
+          "text": "She can make any touch she gives or receives linger on the skin after the hand has gone."
         }
       },
       "variant": 1

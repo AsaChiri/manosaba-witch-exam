@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Fantasist",
+  "copingSub": "FA-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-9",
+  "style": "Fantasist",
+  "tag": "ED-9_FA-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "{WITCH_NAME}'s mother sat on her bed only on the nights she brought home a prize rosette. The night she came home without one, her mother looked in, asked nothing, and shut the door. People come to your bed for what you bring.",
+          "A girl in the prison had a cell to herself. At home she and her sisters had slept five to a bed, and she could not fall asleep without a hand to hold. Every night {WITCH_NAME} sat on her bunk and held her hand until she slept.",
+          "At half past eight one night, the girl held out the worn lamb she had brought from home. \"Wake him tonight. Then he can hold my hand, and you won't have to come down anymore.\"",
+          "{WITCH_NAME} held her hand until she fell asleep, as always. Then she pressed the lamb over the girl's face until she was still. She woke the lamb with her Magic, tucked it into the girl's arms under the blanket, and whispered, \"She's asleep. Hold her, and don't wake her.\" It curled against the girl's chest and fell asleep. At a quarter to nine, {WITCH_NAME} went up to the lounge and sat among the girls, in sight of everyone until lockup.",
+          "At half past nine, the prisoner next door, passing along the cell corridor, looked in through the barred cell door. The girl lay asleep, face to the wall, the blanket rising and falling. At six in the morning, that neighbor found her smothered in her bunk, the lamb still in her arms. In the trial court, the prisoners ruled that she had been killed between half past nine and lockup, while {WITCH_NAME} sat in the lounge in plain sight.",
+          "Then the lamb, now in the neighbor's arms, lifted its head, blinked, and reached up to her, warm and breathing. The prisoners understood. Only {WITCH_NAME} could wake a toy. The breathing under the blanket had been the lamb she woke, asleep against a girl who was already dead."
+        ],
+        "epitaph": "In the end she gave a love that asks for nothing, and it held the girl all night without her ever knowing.",
+        "epithet": "Company Only on Prize Nights",
+        "execution": [
+          "A red prize rosette as tall as the trial court rose, its two satin tails knotted around her neck. The tails drew her up by the neck, off the floor, the rosette rising above her. She hung still beneath it, turning slowly on its tails."
+        ],
+        "magic": {
+          "name": "Heart in the Stuffing",
+          "text": "She can bring dolls and stuffed animals to life, with hearts of their own."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

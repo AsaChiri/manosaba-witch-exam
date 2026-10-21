@@ -22,14 +22,14 @@
         "epitaph": "The only voice that ever answered her was the one she stopped.",
         "epithet": "The Headmaster's Daughter No One Answered",
         "execution": [
-          "The execution stand raised a giant iron hourglass. She hung chained upright in its lower bulb.",
+          "A giant iron hourglass rose. She hung chained upright in its lower bulb.",
           "Iron sand began to pour onto her head. She spoke to make it stop. The trial court fell silent and listened to her, and the sand poured on.",
           "It rose past her chest, then to her mouth, her lips still moving.",
           "The last grain fell onto a full bulb. The spectators turned back to one another and talked."
         ],
         "magic": {
           "name": "All Ears",
-          "text": "When she speaks, everyone within earshot falls silent and listens only to her until she stops."
+          "text": "Everyone within earshot falls silent and listens only to her while she speaks."
         }
       },
       "variant": 1

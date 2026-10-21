@@ -1,0 +1,32 @@
+{
+  "cell": "ED|Concealer",
+  "copingSub": "CO-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Concealer",
+  "tag": "ED-4_CO-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "When her grandmother died, her mother dressed {WITCH_NAME} in yellow for the funeral. \"My sunshine doesn't wear black.\" {WITCH_NAME} smiled at every mourner.",
+          "In the prison, one girl spent every afternoon drawing the prisoners on the courtyard flagstones in yellow chalk, each the way she saw her, and just after five each evening she touched up the faces. She always drew {WITCH_NAME} as a big laughing sun. One day {WITCH_NAME} came to her red-eyed and asked to be drawn the way she was today. The girl drew her sun again, bigger and laughing, and the others clapped. \"Our sunshine!\"",
+          "The next evening, just after five, as the girl bent to touch up that face, {WITCH_NAME} put both hands on the back of her head and held her face down on the sun's laughing face until she was still.",
+          "From twenty past five, {WITCH_NAME} sat with the others in the lounge. The girl missed dinner, and {WITCH_NAME} joined the search, staying beside the others all evening while they took a phone photo of every place they checked and posted it to the chat. At half past six, the courtyard: her drawings, and no one there. At nine, in the dark, a prisoner's foot scuffed the ring around the sun, and she stumbled over the girl lying face down across the sun's laughing face.",
+          "In the trial court, they ruled {WITCH_NAME} out. The girl had died after the six-thirty photo, and {WITCH_NAME} had been with them the whole time. Then one prisoner pointed at the courtyard photo. The sun in it had no face. They understood: {WITCH_NAME} had gone over the ring around the sun and made it one of her circles. The circle had hidden the body on that face until a foot scuffed the line."
+        ],
+        "epitaph": "Only once was she drawn true: the sun with no face.",
+        "epithet": "Sunshine in a Funeral Dress",
+        "execution": [
+          "She is buttoned into a yellow dress, its sash knotted around her throat and its end tied to the top of a pillar of yellow chalk. The pillar rises, lifting her by the sash, her feet kicking under the yellow skirt. Then she hangs still at the top, the yellow skirt swaying high over the gallery."
+        ],
+        "magic": {
+          "name": "Nothing to See Here",
+          "text": "Anything inside a circle she draws looks, from outside, like empty, silent floor."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

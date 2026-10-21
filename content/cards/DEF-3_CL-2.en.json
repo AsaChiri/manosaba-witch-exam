@@ -23,11 +23,11 @@
         "epitaph": "In the end, the only one left to answer her was herself.",
         "epithet": "The Girl They Keep the Scissors From",
         "execution": [
-          "The execution stand raises a giant spool and straps her upright against its barrel. The spool turns, winding waxed thread around her from ankles to shoulders and binding her fist shut around her own half of the beeswax. The stand touches a beeswax candle to the thread's end, and flame climbs the coils around her. As the heat reaches her fist, she squeezes her half. It runs out between her fingers, and nothing squeezes back. The flames burn down to the spool's blackened core. Her hand hangs open and empty."
+          "A giant spool rises, and she is strapped upright against its barrel. The spool turns, winding waxed thread around her from ankles to shoulders and binding her fist shut around her own half of the beeswax. A beeswax candle touches the thread's end, and flame climbs the coils around her. As the heat reaches her fist, she squeezes her half. It runs out between her fingers, and nothing squeezes back. The flames burn down to the spool's blackened core. Her hand hangs open and empty."
         ],
         "magic": {
           "name": "Halves That Squeeze Back",
-          "text": "She breaks an object in two, and every squeeze or touch of warmth on one half is felt in the other."
+          "text": "Anything she breaks in two passes touch and warmth between its halves, however far apart."
         }
       },
       "variant": 1

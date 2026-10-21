@@ -21,13 +21,13 @@
         "epitaph": "One size too big was never a goodbye; it was a promise to be there when it fit.",
         "epithet": "Every Gift a Goodbye",
         "execution": [
-          "The execution stand chains her upright, facing an iron wall. A chalk door is drawn on it, with sunlight spilling out from underneath.",
+          "She is chained upright, facing an iron wall. A chalk door is drawn on it, with sunlight spilling out from underneath.",
           "The wall rolls forward. It reaches her chest and keeps rolling, and the door never opens.",
           "Pressed flat against the closed door, she stops moving."
         ],
         "magic": {
           "name": "The Daydream Door",
-          "text": "She draws a chalk door on any wall, and it opens onto a sunlit room she imagines."
+          "text": "Any door she draws on a wall opens into a real room she imagines."
         }
       },
       "variant": 1

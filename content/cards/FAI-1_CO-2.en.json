@@ -1,0 +1,35 @@
+{
+  "cell": "FAI|Concealer",
+  "copingSub": "CO-2",
+  "family": "FAI",
+  "locale": "en",
+  "originSub": "FAI-1",
+  "style": "Concealer",
+  "tag": "FAI-1_CO-2",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Once {WITCH_NAME}'s crooked stitch came out pretty by luck. The sewing mistress pinned it up and had her sew it again before the class. Her needle hung over the cloth until the giggling began. Luck they clap for is a test they make you take in front of everyone.",
+          "After evening showers, a prisoner who'd learned on five little sisters braided everyone's hair in a mirror {WITCH_NAME} held on the stone wall, then washed her own last, alone. Everyone thought the mirrors lasted only under her palm, but they stayed until touched again. She wiped each away as her hand lifted, so none was left to show she'd been checking her face.",
+          "One evening, hands too sore to finish, the braider had {WITCH_NAME} lift her palm and braid a girl with no mirror. It came out perfect. The braider turned the girl round for the room and led the clapping. “Tomorrow you do us all, no mirror, while we watch.” {WITCH_NAME} smiled and left first.",
+          "Just before 8:00, before the girls came out to the courtyard, she touched the three lounge windows silver, a sofa's length apart. At 8:05, as the braider bent to rinse alone, {WITCH_NAME} seized her wet braid and beat her head on the stone wall until she lay still.",
+          "At 8:20 the girls photographed their new braids in the silver windows: “She's hiding from us behind the glass.” At 8:40 they saw the windows clear and her smiling at the glass; then she joined them. At 8:50 a girl came down to the shower room and found the braider dead under the running water.",
+          "At trial, all agreed the braider died after 8:00, while {WITCH_NAME} held the windows silver. One counted the silver windows in the 8:20 phone photo: three, a sofa's length apart, for two hands. Her mirrors outlasted her hand. No one stood behind the glass; she alone was free while the braider washed."
+        ],
+        "epitaph": "The only perfect thing she ever made, she made with no mirror to check herself in.",
+        "epithet": "Luck Hidden Behind Glass",
+        "execution": [
+          "A tall sash window rises at the center of the trial court, three clear panes in its frame and its heavy, iron-weighted lower sash raised high. She kneels on the sill, head and shoulders out toward the spectators.",
+          "The lower sash slams down across the back of her neck.",
+          "Above her bowed head the three clear panes stand in the frame, and every spectator sees straight through them. She hangs still beneath the shut sash, her small smile turned toward the spectators."
+        ],
+        "magic": {
+          "name": "Looking-Glass Touch",
+          "text": "She can turn any surface under her palm into a flawless mirror."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

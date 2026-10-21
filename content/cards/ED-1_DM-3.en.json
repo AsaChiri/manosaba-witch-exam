@@ -1,0 +1,33 @@
+{
+  "cell": "ED|Doomer",
+  "copingSub": "DM-3",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-1",
+  "style": "Doomer",
+  "tag": "ED-1_DM-3",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every evening, a girl skipped flat stones on the lake and rang {WITCH_NAME} from the shore, counting each skip aloud down the phone. One evening {WITCH_NAME} asked her to come back early, just once. \"I'm leaving now,\" the girl said. But no first step reached her ears, only the girl counting skips down the line, and she came in at lockup with stones in her pockets.",
+          "Her mother had once said those same words on the phone, and {WITCH_NAME} had sat by the door in her coat until the street went dark. If you can't hear them coming, they aren't coming.",
+          "The next evening, when the phone rang in her cell, she turned it face down and let it ring. Then her Magic brought her the girl's first step, setting out from the shore. The steps drew nearer, then stopped on the shore path. So she had stopped, like they always stop. {WITCH_NAME} lay down facing the wall.",
+          "Near lockup, she walked down to the shore and dragged the girl out of the shallows. The girl was already still, flat stones spilling from her pockets. {WITCH_NAME} came back along the cell corridor soaked to the elbows, told none of the prisoners, and lay down facing the wall again.",
+          "In the trial court she said, \"I heard her set out, and I heard her stop,\" and nothing more. In the end, the prisoners condemned her for holding the girl under: only she had known where the steps stopped, and she had come back soaked.",
+          "But at the moment those steps stopped, the girl had slipped on wet moss, struck her head on a stone and fallen face down into the shallows."
+        ],
+        "epitaph": "She had only ever learned that silence means no one is coming; it can also mean someone fell on the way.",
+        "epithet": "The Girl Who Listens for the First Step",
+        "execution": [
+          "A long channel of still black water rose. She knelt in chains on a stone lip at its far end, her chest just above the waterline. At the first far-off splash, she lifted her head. She listened as each splash came nearer. Flat stones skipped the length of the water and leapt off their last skip into her, striking her chest and face one after another. She slumped forward against her chains. The last stone skipped up to her knees and sank."
+        ],
+        "magic": {
+          "name": "On Their Way",
+          "text": "She hears the footsteps of anyone coming to her, from their very first step, however far away."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

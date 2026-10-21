@@ -24,14 +24,14 @@
         "epitaph": "The one time anyone saw her as herself, they said sorry.",
         "epithet": "Everyone's Girl, No One's Daughter",
         "execution": [
-          "The execution stand raises an iron platform laid with rails, a heavy iron cart waiting at one end. She is strapped face up across the rails, ahead of the cart.",
+          "An iron platform laid with rails rises, a heavy iron cart waiting at one end. She is strapped face up across the rails, ahead of the cart.",
           "An iron bell tolls, calling iron families aboard the cart house by house. It never calls her name.",
           "The cart rolls forward, and its full weight passes across her chest.",
           "It rolls on, every iron face turned ahead. She lies still on the empty platform."
         ],
         "magic": {
           "name": "One of Us",
-          "text": "Anyone she meets recognizes her as one of their own, someone they have always known."
+          "text": "Anyone she meets is sure she has always been one of their own."
         }
       },
       "variant": 1

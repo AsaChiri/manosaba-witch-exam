@@ -1,0 +1,35 @@
+{
+  "cell": "DEF|Depender",
+  "copingSub": "DP-1",
+  "family": "DEF",
+  "locale": "en",
+  "originSub": "DEF-6",
+  "style": "Depender",
+  "tag": "DEF-6_DP-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "After {WITCH_NAME}'s childhood recital, her mother said, \"Every step was right, and something was off. I can't say where.\" She never danced on her own again.",
+          "Every evening, a prisoner whose ruined knee had ended her dancing sat under the courtyard tree and reached out from under its leaves to hold {WITCH_NAME}'s hand on the path. Through that hand, the Magic gave her {WITCH_NAME}'s limbs, and she danced her old solos in them.",
+          "One evening she let go mid-solo and watched {WITCH_NAME} falter before the girls at the upper railing. Then she said, \"Every step's right, and something's off. I can't tell what.\"",
+          "The next evening, before the girls came out, {WITCH_NAME} came up behind the girl under the tree and pulled a pointe-shoe ribbon tight around her throat, keeping her hands out of the girl's reach until she was still. At seven, as the girls watched from the railing, {WITCH_NAME} drew the dead girl's hand out from under the leaves, where it had reached out every evening, and danced the whole solo alone. Having felt every step from inside her body all those evenings, she missed none. She laid the hand back and sat among the girls in the lounge until the body was found.",
+          "After dark, a prisoner found the girl under the tree, strangled with her own ribbon.",
+          "At the trial, the prisoners ruled someone had come to the tree after {WITCH_NAME} went in: the girl's hand had danced her at seven, so the girl was alive then.",
+          "A prisoner who photographed each evening's dance on her phone for the girl showed that night's picture. Mid-leap, {WITCH_NAME}'s fingers gripped an open, slack hand. Yet whenever someone else moved her, her own hand lay slack in theirs.",
+          "The prisoners understood: no one had held {WITCH_NAME}'s hand. She had been holding a dead girl's."
+        ],
+        "epitaph": "She danced one dance without a wrong step. What was off was the hand she held.",
+        "epithet": "The Dancer Who Was Right Only in Someone Else's Hand",
+        "execution": [
+          "A long iron railing rose high across the trial court, and she was set standing alone on its top rail. Behind her, the railing began to drop away section by section, and she had to keep walking along the rail by herself. As she walked, she reached her hand back. No hand took it. The last section dropped from under her feet, and she fell headlong to the stone floor. She lay still among the fallen iron, her hand still reaching back, open."
+        ],
+        "magic": {
+          "name": "Take My Hand",
+          "text": "Whoever holds her hand can move her body as easily as their own."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}

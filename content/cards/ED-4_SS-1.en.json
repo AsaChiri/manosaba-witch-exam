@@ -1,0 +1,37 @@
+{
+  "cell": "ED|Self-Soother",
+  "copingSub": "SS-1",
+  "family": "ED",
+  "locale": "en",
+  "originSub": "ED-4",
+  "style": "Self-Soother",
+  "tag": "ED-4_SS-1",
+  "variants": [
+    {
+      "fields": {
+        "crime": [
+          "Every night at nine, {WITCH_NAME}'s cellmate had her pinch the homesickness out of her chest as a sweet, then fell asleep on her shoulder. The girl laid each sweet on her pillow to eat again at dawn, so she would not lose any of home.",
+          "At 8:40 one night, {WITCH_NAME} pinched a sweet from her own chest and held it out. \"Tonight, you taste mine.\" Her cellmate folded her fingers back over it. \"Silly. I don't need to taste it. I know you.\"",
+          "When {WITCH_NAME} was small and began to say how she felt, her mother would say, \"I know, darling,\" and pop a sweet into her mouth. She learned to swallow the feeling down with the sweet.",
+          "At 8:45, she pressed the pillow over her cellmate's face until the girl stopped moving.",
+          "At nine, two prisoners passing down the cell corridor saw through the open bars what they saw every night: {WITCH_NAME} lifting a sweet from the girl asleep on her shoulder and laying it on her pillow. Then she went up to the lounge with them and stayed among the others until lockup.",
+          "At 9:55, the prisoners found the girl smothered in her blanket. In the trial court, they ruled that a sweet only comes from a living chest, so she had been killed after nine, while {WITCH_NAME} sat with them.",
+          "Then they cracked the sweet from her pillow, and each tasted a shard to feel the girl's last night. It was not homesickness. It was an ache: let her taste how I feel.",
+          "Now they understood: {WITCH_NAME} had pinched that sweet from her own chest. Nothing had ever shown the girl alive at nine."
+        ],
+        "epitaph": "In the end, everyone tasted her but the one she held it out to.",
+        "epithet": "The Sweet Held Out, Untasted",
+        "execution": [
+          "A giant glossy sweet rises, hung from a twisted blanket between cell bars. Beneath it, she kneels bound, her palms held up.",
+          "The sweet sinks into her upturned palms and bears her down. Her arms buckle under its weight. She closes her fingers over its edge.",
+          "It comes to rest on the floor where she knelt. Only her fingertips show beneath its edge."
+        ],
+        "magic": {
+          "name": "Sweetheart",
+          "text": "She pinches what someone is feeling out of their chest as a sweet; whoever eats it feels it firsthand."
+        }
+      },
+      "variant": 1
+    }
+  ]
+}
